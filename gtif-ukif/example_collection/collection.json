@@ -40,13 +40,36 @@
     },
     {
       "rel": "xyz",
-      "href": "//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2024",
       "roles": [
-        "baselayer"
+        "baselayer",
+        "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
     },
     {
       "rel": "xyz",
@@ -101,7 +124,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-09-23T14:01:36.467416Z"
+          "2025-09-23T14:07:34.618681Z"
         ]
       ]
     }
