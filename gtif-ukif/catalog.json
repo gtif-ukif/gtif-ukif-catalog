@@ -1,14 +1,14 @@
 {
   "type": "Catalog",
-  "id": "template_catalog",
+  "id": "gtif-ukif",
   "stac_version": "1.1.0",
-  "description": "This catalog definition is part of the eodash catalog template, please update to fit your needs",
+  "description": "GTIF UKIF",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json",
-      "title": "Template Catalog"
+      "title": "GTIF UKIF Catalog"
     },
     {
       "rel": "child",
@@ -39,9 +39,9 @@
     },
     {
       "rel": "self",
-      "href": "https://organization.github.io/repository/repository/catalog.json",
+      "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"
     }
   ],
-  "title": "Template Catalog"
+  "title": "GTIF UKIF Catalog"
 }

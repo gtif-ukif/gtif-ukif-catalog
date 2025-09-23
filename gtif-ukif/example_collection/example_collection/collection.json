@@ -8,7 +8,7 @@
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
-      "title": "Template Catalog"
+      "title": "GTIF UKIF Catalog"
     },
     {
       "rel": "wms",
@@ -24,7 +24,7 @@
     },
     {
       "rel": "item",
-      "href": "./example_collection/1970/c5fd7354-2c31-46f1-8450-f05c1b51a34e.json",
+      "href": "./example_collection/1970/f71c7d9d-8981-4b1d-87b2-e8398e78c342.json",
       "type": "application/geo+json"
     },
     {
@@ -70,7 +70,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-09-23T13:46:27.821230Z"
+          "2025-09-23T14:01:36.467416Z"
         ]
       ]
     }
