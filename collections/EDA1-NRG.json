@@ -1,3 +1,21 @@
 {
-  "Name": "EDA1-NRG"
+  "Name": "EDA1-NRG",
+  "Title": "Photovoltaic Output France",
+  "Themes": ["energy-transition"],
+  "Tags": ["Solar Rural Power"],
+  "Resources": [
+    {
+      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "Type": "tiles",
+      "Name": "VEDA",
+      "CollectionId": "UCL1-NRG",
+      "Assets": ["nir08", "red", "green"],
+      "Rescale": [
+        [1000, 8000],
+        [1000, 3000],
+        [1000, 3000]
+      ],
+      "NoData": 0
+    }
+  ]
 }
