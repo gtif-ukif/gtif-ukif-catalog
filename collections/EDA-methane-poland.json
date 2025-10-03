@@ -1,0 +1,26 @@
+{
+  "Name": "EDA-methane-poland",
+  "Title": "Poland",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "Time series of the column of excess methane over a coal mining site in Poland. The vertical dot-dashed lines correspond to detected methane plumes from the Tanager-1 satellite.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        18.59737,
+        49.93813,
+        18.65737,
+        49.99813
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

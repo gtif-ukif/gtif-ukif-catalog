@@ -1,0 +1,26 @@
+{
+  "Name": "UCL2-NDVI-GB",
+  "Title": "NDVI (GB)",
+  "Themes": [
+    "food-security"
+  ],
+  "Tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "Description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -15.842929,
+        50.950289,
+        0.768399,
+        56.509952
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

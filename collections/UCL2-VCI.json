@@ -1,0 +1,26 @@
+{
+  "Name": "UCL2-VCI",
+  "Title": "VCI (Ireland)",
+  "Themes": [
+    "food-security"
+  ],
+  "Tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "Description": "VCI (Vegetation Condition Index) is a measure of the vegetation condition based on the normalized difference vegetation index (NDVI).",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -15.842929,
+        50.950289,
+        0.768399,
+        56.509952
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

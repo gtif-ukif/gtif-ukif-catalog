@@ -1,0 +1,26 @@
+{
+  "Name": "EDA-methane-claire-oilfield",
+  "Title": "Claire Oilfield",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -2.5047021791675803,
+        60.72720821789736,
+        -2.4847021791675803,
+        60.74720821789736
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

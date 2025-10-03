@@ -1,0 +1,26 @@
+{
+  "Name": "EDA-methane-france",
+  "Title": "France",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "Time series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        3.5828,
+        50.3373,
+        3.6428,
+        50.3973
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

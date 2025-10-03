@@ -1,0 +1,26 @@
+{
+  "Name": "UCL3-Severe-Ireland",
+  "Title": "Severe Air Quality (Ireland)",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Tags": [
+    "Air Quality"
+  ],
+  "Description": "Severe Air Quality (Ireland)",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -11.111426,
+        52.699612,
+        -5.431495,
+        54.702333
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

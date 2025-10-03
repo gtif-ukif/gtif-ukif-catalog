@@ -1,0 +1,26 @@
+{
+  "Name": "UCL3",
+  "Title": "Poor Air Quality across the whole UK-Ireland-France area",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Tags": [
+    "Air Quality"
+  ],
+  "Description": "A 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -11.0049974,
+        41.0050006,
+        9.9950029,
+        61.0050003
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

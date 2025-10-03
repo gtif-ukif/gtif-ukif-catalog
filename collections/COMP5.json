@@ -1,0 +1,26 @@
+{
+  "Name": "COMP5",
+  "Title": "UHI Mean 2022-2024",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Tags": [
+    "Heat Island"
+  ],
+  "Description": "The Urban Heat Island (UHI) Map (2022–2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -12.185759,
+        49.142928,
+        3.087444,
+        59.9537806
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

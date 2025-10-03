@@ -7,6 +7,25 @@
   "default_overlay_layers": "layers/overlays",
   "assets_endpoint": "https://raw.githubusercontent.com/gtif-ukif/assets/main/",
   "collections": [
-    "example_collection"
+    "EDA1-NRG",
+    "EDA-methane-korpezhe",
+    "EDA-methane-UK",
+    "EDA-methane-claire-oilfield",
+    "EDA-methane-madrid",
+    "EDA-methane-poland",
+    "EDA-methane-france",
+    "COMP1",
+    "COMP2",
+    "COMP3",
+    "COMP4",
+    "COMP5",
+    "UCL1",
+    "UCL2-VCI",
+    "UCL2-NDVI-GB",
+    "UCL2-NDVI-Ireland",
+    "UCL3",
+    "UCL3-Severe-Ireland",
+    "UCL3-Severe-GB",
+    "UCL4"
   ]
 }

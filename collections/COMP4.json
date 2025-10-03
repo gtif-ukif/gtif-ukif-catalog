@@ -1,0 +1,26 @@
+{
+  "Name": "COMP4",
+  "Title": "UHI map 2023",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Tags": [
+    "Heat Island"
+  ],
+  "Description": "The urban heat island map for Ireland and the UK for hot days in the summer of 2023 show urban areas with both warmer and cooler areas. The best single date cloud free summer image is used to create this map. The warmer areas are typically located in the urban centres or industrial sites, with the cooler areas relating to urban green spaces or sports facilities (excluding artificial grass surfaces).",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -12.185759,
+        49.142928,
+        3.087444,
+        59.9537806
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

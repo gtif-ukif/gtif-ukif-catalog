@@ -1,0 +1,26 @@
+{
+  "Name": "UCL3-Severe-GB",
+  "Title": "Severe Air Quality (SE GB)",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Tags": [
+    "Air Quality"
+  ],
+  "Description": "Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -1.5271,
+        50.892639,
+        0.708618,
+        51.937492
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

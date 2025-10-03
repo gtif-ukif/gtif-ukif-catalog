@@ -1,0 +1,26 @@
+{
+  "Name": "EDA-methane-UK",
+  "Title": "Cheltenham UK",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "There was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [
+        -2.11962,
+        51.93088,
+        -2.07962,
+        51.97088
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}
