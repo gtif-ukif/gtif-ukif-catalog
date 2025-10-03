@@ -1,0 +1,22 @@
+{
+  "Name": "UCL4-albedo",
+  "Title": "RGB Albedo Layer (August 2022)",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Resources": [
+    {
+      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "Name": "VEDA",
+      "Type": "cog",
+      "CollectionId": "UCL4-albedo",
+      "NoData": 0
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

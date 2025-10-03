@@ -10,16 +10,38 @@
   "Description": "Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
   "Resources": [
     {
-      "Name": "Collection-only",
-      "EndPoint": "Collection-only",
-      "OverwriteBBox": [
-        -1.5271,
-        50.892639,
-        0.708618,
-        51.937492
+      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "Name": "VEDA",
+      "Type": "cog",
+      "CollectionId": "UCL3-Severe-GB",
+      "ColormapName": "jet",
+      "Rescale": [
+        0,
+        1000
       ]
     }
   ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      1000
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5"
+  },
   "Agency": [
     "ESA"
   ]

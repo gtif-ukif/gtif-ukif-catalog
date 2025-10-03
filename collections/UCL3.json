@@ -10,16 +10,38 @@
   "Description": "A 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
   "Resources": [
     {
-      "Name": "Collection-only",
-      "EndPoint": "Collection-only",
-      "OverwriteBBox": [
-        -11.0049974,
-        41.0050006,
-        9.9950029,
-        61.0050003
+      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "Name": "VEDA",
+      "Type": "cog",
+      "CollectionId": "UCL3",
+      "ColormapName": "jet",
+      "Rescale": [
+        0,
+        1000
       ]
     }
   ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      1000
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5"
+  },
   "Agency": [
     "ESA"
   ]

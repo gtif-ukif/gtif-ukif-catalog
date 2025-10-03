@@ -10,16 +10,38 @@
   "Description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
   "Resources": [
     {
-      "Name": "Collection-only",
-      "EndPoint": "Collection-only",
-      "OverwriteBBox": [
-        -15.842929,
-        50.950289,
-        0.768399,
-        56.509952
+      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "Name": "VEDA",
+      "Type": "cog",
+      "CollectionId": "UCL2-NDVI-Ireland",
+      "ColormapName": "rplumbo",
+      "Rescale": [
+        -0.9,
+        0.975
       ]
     }
   ],
+  "Colorlegend": {
+    "domain": [
+      -0.9,
+      0.975
+    ],
+    "range": [
+      "#000000",
+      "#131313",
+      "#262626",
+      "#393939",
+      "#4b4b4b",
+      "#cf3000",
+      "#ffb300",
+      "#bde300",
+      "#339200",
+      "#004308"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "NDVI"
+  },
   "Agency": [
     "ESA"
   ]
