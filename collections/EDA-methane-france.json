@@ -10,16 +10,38 @@
   "Description": "Time series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "Resources": [
     {
-      "Name": "Collection-only",
-      "EndPoint": "Collection-only",
-      "OverwriteBBox": [
-        3.5828,
-        50.3373,
-        3.6428,
-        50.3973
+      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "Name": "VEDA",
+      "Type": "cog",
+      "CollectionId": "EDA-methane-france",
+      "ColormapName": "seismic",
+      "Rescale": [
+        -0.15,
+        0.9
       ]
     }
   ],
+  "Colorlegend": {
+    "domain": [
+      -0.15,
+      0.9
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
   "Agency": [
     "ESA"
   ]

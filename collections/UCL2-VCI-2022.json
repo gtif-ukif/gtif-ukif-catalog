@@ -1,0 +1,48 @@
+{
+  "Name": "UCL2-VCI-2022",
+  "Title": "VCI (Ireland) 2022",
+  "Themes": [
+    "food-security"
+  ],
+  "Tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "Description": "VCI (Vegetation Condition Index) is a measure of the vegetation condition based on the normalized difference vegetation index (NDVI).",
+  "Resources": [
+    {
+      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "Name": "VEDA",
+      "Type": "cog",
+      "CollectionId": "UCL2-VCI-2022",
+      "ColormapName": "rplumbo",
+      "Rescale": [
+        -100,
+        100
+      ]
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      -1,
+      1
+    ],
+    "range": [
+      "#000000",
+      "#131313",
+      "#262626",
+      "#393939",
+      "#4b4b4b",
+      "#cf3000",
+      "#ffb300",
+      "#bde300",
+      "#339200",
+      "#004308"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "VCI"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}

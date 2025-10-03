@@ -1,0 +1,47 @@
+{
+  "Name": "UCL1-Ireland",
+  "Title": "Photovoltaic Output Ireland",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Resources": [
+    {
+      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "Name": "VEDA",
+      "Type": "cog",
+      "CollectionId": "UCL1-Ireland",
+      "ColormapName": "jet",
+      "Rescale": [
+        400,
+        1400
+      ]
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      400,
+      1400
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Solar Power Output"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}
