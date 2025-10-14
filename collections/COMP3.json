@@ -10,7 +10,7 @@
   "Description": "The traffic light map of Dublin for 2018, 2021 and 2023 show which areas need to improve their BER ratings to decrease the local UHI effect. The red areas signify areas which can benefit from BER increases to decrease the UHI effect. Green areas will not benefit much UHI decrease with a BER increase. It shows changes between years, especially for decarbonising zones in Clonalkin, Dun Laoghaire/Blackrock and Ringsend. If these decarbonising zones are to become carbon neutral by 2050, they will require additional work on making the buildings in the area more energy efficient.",
   "Resources": [
     {
-      "Name": "vectortile",
+      "Name": "VectorTile source",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP3/style.json",
       "OverwriteBBox": [
         -6.290874,
