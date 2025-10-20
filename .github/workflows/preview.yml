@@ -60,7 +60,7 @@ jobs:
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Build
         run: |
-          docker run -v "$PWD:/workspace" -w "/workspace" ghcr.io/eodash/eodash_catalog:0.3.9 eodash_catalog
+          docker run -v "$PWD:/workspace" -w "/workspace" ghcr.io/eodash/eodash_catalog:0.3.12 eodash_catalog
       - if: steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
