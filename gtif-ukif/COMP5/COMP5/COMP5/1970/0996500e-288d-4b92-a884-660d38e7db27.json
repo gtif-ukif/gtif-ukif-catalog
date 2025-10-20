@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "d0c84bca-3a9f-449d-8109-5ef72dd5057c",
+  "id": "0996500e-288d-4b92-a884-660d38e7db27",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-09-23T14:07:34.618681Z",
+    "end_datetime": "2025-10-20T09:49:37.173895Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -20,15 +20,15 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Example Collection"
+      "title": "UHI Mean 2022-2024"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Example Collection"
+      "title": "UHI Mean 2022-2024"
     }
   ],
   "assets": {},
-  "collection": "example_collection"
+  "collection": "COMP5"
 }

@@ -1,0 +1,91 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
+  "id": "2023-01-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          -85
+        ],
+        [
+          180,
+          -85
+        ],
+        [
+          180,
+          85
+        ],
+        [
+          -180,
+          85
+        ],
+        [
+          -180,
+          -85
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180,
+    -85,
+    180,
+    85
+  ],
+  "properties": {
+    "datetime": "2023-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/service-swe-eda.5sb55v3m/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "COMP3",
+      "auth:refs": [
+        "mapboxauth"
+      ],
+      "key": "ea162871-cefa-42ad-a47d-2994d17b38b4"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP3/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "ea162871-cefa-42ad-a47d-2994d17b38b4"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Dublin: Where can UHI decrease?"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Dublin: Where can UHI decrease?"
+    }
+  ],
+  "assets": {},
+  "collection": "COMP3",
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  }
+}

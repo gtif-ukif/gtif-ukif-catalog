@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "id": "COMP3",
+  "stac_version": "1.1.0",
+  "description": "The traffic light map of Dublin for 2018, 2021 and 2023 show which areas need to improve their BER ratings to decrease the local UHI effect. The red areas signify areas which can benefit from BER increases to decrease the UHI effect. Green areas will not benefit much UHI decrease with a BER increase. It shows changes between years, especially for decarbonising zones in Clonalkin, Dun Laoghaire/Blackrock and Ringsend. If these decarbonising zones are to become carbon neutral by 2050, they will require additional work on making the buildings in the area more energy efficient.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./COMP3/2018/2018-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./COMP3/2021/2021-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./COMP3/2023/2023-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-01T00:00:00Z"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Dublin: Where can UHI decrease?"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Heat Island"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "endpointtype": "VectorTile source",
+  "title": "Dublin: Where can UHI decrease?",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
