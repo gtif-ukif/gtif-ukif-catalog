@@ -76,7 +76,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0fb473e0-d3c7-40ec-b4fa-cb7eb94b11ca"
+        "2d78269d-4308-48c3-b242-5bc5dd61573f"
       ]
     },
     {
@@ -89,7 +89,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "0fb473e0-d3c7-40ec-b4fa-cb7eb94b11ca",
+      "key": "2d78269d-4308-48c3-b242-5bc5dd61573f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -99,7 +99,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6a90ada3-a9b2-4c85-8fb8-8f35716f3110"
+        "4a232c0d-664b-4937-b654-3fc927c9fe25"
       ]
     },
     {
@@ -112,7 +112,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "6a90ada3-a9b2-4c85-8fb8-8f35716f3110",
+      "key": "4a232c0d-664b-4937-b654-3fc927c9fe25",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -122,7 +122,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8e45abbd-279d-4f7e-910e-fdb787bf3133"
+        "8aeecf58-8b90-4281-93d6-115fb0591b0e"
       ]
     },
     {
@@ -135,7 +135,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "8e45abbd-279d-4f7e-910e-fdb787bf3133",
+      "key": "8aeecf58-8b90-4281-93d6-115fb0591b0e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -145,7 +145,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "52604d5a-a2af-4869-8d9c-607204fbfd66"
+        "baa242e8-0110-4576-8189-a29c83c15db7"
       ]
     },
     {
@@ -158,7 +158,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "52604d5a-a2af-4869-8d9c-607204fbfd66",
+      "key": "baa242e8-0110-4576-8189-a29c83c15db7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,10 +194,10 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          -85,
-          180,
-          85
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
         ]
       ]
     },

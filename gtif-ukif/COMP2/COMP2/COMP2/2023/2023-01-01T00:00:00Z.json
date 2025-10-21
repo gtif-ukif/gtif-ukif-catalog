@@ -10,33 +10,33 @@
     "coordinates": [
       [
         [
-          -180,
-          -85
+          -0.612126,
+          51.333132
         ],
         [
-          180,
-          -85
+          0.426082,
+          51.333132
         ],
         [
-          180,
-          85
+          0.426082,
+          51.699321
         ],
         [
-          -180,
-          85
+          -0.612126,
+          51.699321
         ],
         [
-          -180,
-          -85
+          -0.612126,
+          51.333132
         ]
       ]
     ]
   },
   "bbox": [
-    -180,
-    -85,
-    180,
-    85
+    -0.612126,
+    51.333132,
+    0.426082,
+    51.699321
   ],
   "properties": {
     "datetime": "2023-01-01T00:00:00Z"
@@ -50,14 +50,14 @@
       "auth:refs": [
         "mapboxauth"
       ],
-      "key": "1d6ce9cd-6158-4257-96a2-e1bc305fc5ee"
+      "key": "a36aa28b-773e-4fa0-9013-36bec1d831a2"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1d6ce9cd-6158-4257-96a2-e1bc305fc5ee"
+        "a36aa28b-773e-4fa0-9013-36bec1d831a2"
       ]
     },
     {
