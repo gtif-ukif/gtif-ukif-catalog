@@ -50,15 +50,14 @@
       "auth:refs": [
         "mapboxauth"
       ],
-      "key": "996015fe-eaa0-4ea9-966d-63ae1bea87ab",
-      "idProperty": "OBJECTID"
+      "key": "d86b898f-5a02-478b-92c7-ea8963930942"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "996015fe-eaa0-4ea9-966d-63ae1bea87ab"
+        "d86b898f-5a02-478b-92c7-ea8963930942"
       ]
     },
     {
