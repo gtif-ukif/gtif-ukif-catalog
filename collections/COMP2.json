@@ -11,14 +11,13 @@
   "Resources": [
     {
       "Name": "VectorTile source",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/style.json",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP2/style.json",
       "Bbox": [
         -0.612126,
         51.333132,
         0.426082,
         51.699321
       ],
-      "idProperty": "OBJECTID",
       "TimeEntries": [
         {
           "Time": "20230101",
@@ -29,7 +28,7 @@
   ],
   "Colorlegend": {
     "title": "Mean UHI (low/medium/high)",
-    "range": ["rgb(0, 0, 255)", "rgb(255, 255, 0)", "rgb(255, 0, 0)"],
+    "range": ["rgb(0, 0, 4)", "rgb(81, 18, 124, 0)","rgb(183, 55, 121)","rgb(252, 137, 97)", "rgb(252, 253, 191)"],
     "domain": [-1, 1]
   },
   "Agency": [

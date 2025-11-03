@@ -18,7 +18,6 @@
         1.77,
         55.81
       ],
-      "idProperty": "OBJECTID",
       "TimeEntries": [
         {
           "Time": "20230101",
@@ -29,7 +28,7 @@
   ],
   "Colorlegend": {
     "title": "Mean UHI (low/medium/high)",
-    "range": ["rgb(0, 0, 255)", "rgb(255, 255, 0)", "rgb(255, 0, 0)"],
+    "range": ["rgb(0, 0, 4)", "rgb(81, 18, 124, 0)","rgb(183, 55, 121)","rgb(252, 137, 97)", "rgb(252, 253, 191)"],
     "domain": [-1, 1]
   },
   "Agency": [
