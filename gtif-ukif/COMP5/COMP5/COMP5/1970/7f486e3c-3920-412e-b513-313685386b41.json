@@ -2,11 +2,11 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [],
-  "id": "56c6c991-6528-4f21-bdd4-ad68b94d5900",
+  "id": "7f486e3c-3920-412e-b513-313685386b41",
   "geometry": null,
   "properties": {
     "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-11-03T13:43:44.102391Z",
+    "end_datetime": "2025-11-03T14:47:34.676275Z",
     "datetime": "1970-01-01T00:00:00Z"
   },
   "links": [
@@ -29,6 +29,10 @@
       "title": "UHI Mean 2022-2024"
     }
   ],
-  "assets": {},
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
   "collection": "COMP5"
 }

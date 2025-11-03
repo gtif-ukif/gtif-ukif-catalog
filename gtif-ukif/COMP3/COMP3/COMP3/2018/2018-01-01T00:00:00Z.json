@@ -50,14 +50,15 @@
       "auth:refs": [
         "mapboxauth"
       ],
-      "key": "d1896e90-964c-422a-a7d8-817b894c4000"
+      "key": "05faee90-cf90-4ec9-9a97-854288210847",
+      "idProperty": "OBJECTID"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP3/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d1896e90-964c-422a-a7d8-817b894c4000"
+        "05faee90-cf90-4ec9-9a97-854288210847"
       ]
     },
     {
@@ -79,7 +80,11 @@
       "title": "Dublin: Where can UHI decrease?"
     }
   ],
-  "assets": {},
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
   "collection": "COMP3",
   "auth:schemes": {
     "mapboxauth": {

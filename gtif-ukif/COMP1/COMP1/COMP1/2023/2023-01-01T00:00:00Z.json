@@ -50,14 +50,15 @@
       "auth:refs": [
         "mapboxauth"
       ],
-      "key": "b57c7f81-be25-42d1-9f1a-706bee358911"
+      "key": "996015fe-eaa0-4ea9-966d-63ae1bea87ab",
+      "idProperty": "OBJECTID"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b57c7f81-be25-42d1-9f1a-706bee358911"
+        "996015fe-eaa0-4ea9-966d-63ae1bea87ab"
       ]
     },
     {
@@ -79,7 +80,11 @@
       "title": "UHI and Building Efficiency Ratings"
     }
   ],
-  "assets": {},
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
   "collection": "COMP1",
   "auth:schemes": {
     "mapboxauth": {

@@ -45,16 +45,18 @@
     "ESA"
   ],
   "eox:colorlegend": {
-    "title": "Low/Medium/High Benefit",
+    "title": "Benefit",
     "range": [
       "rgb(0, 255, 0)",
       "rgb(255, 153, 0)",
       "rgb(255, 0, 0)"
     ],
     "domain": [
-      -1,
-      1
-    ]
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "scaleType": "categorical"
   },
   "endpointtype": "VectorTile source",
   "title": "Dublin: Where can UHI decrease?",

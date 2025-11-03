@@ -33,11 +33,11 @@
     "ESA"
   ],
   "eox:colorlegend": {
-    "title": "Mean UHI",
+    "title": "Mean UHI (low/medium/high)",
     "range": [
-      "rgb(0, 0, 0)",
+      "rgb(0, 0, 255)",
       "rgb(255, 255, 0)",
-      "rgb(255, 255, 255)"
+      "rgb(255, 0, 0)"
     ],
     "domain": [
       -1,

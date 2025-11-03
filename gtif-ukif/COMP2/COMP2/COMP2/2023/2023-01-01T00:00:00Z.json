@@ -50,14 +50,15 @@
       "auth:refs": [
         "mapboxauth"
       ],
-      "key": "b60f72ce-298a-4959-9ca6-d9f05457c03e"
+      "key": "c7f59528-4cb5-4dbe-853d-d62f2e38229e",
+      "idProperty": "OBJECTID"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b60f72ce-298a-4959-9ca6-d9f05457c03e"
+        "c7f59528-4cb5-4dbe-853d-d62f2e38229e"
       ]
     },
     {
@@ -79,7 +80,11 @@
       "title": "UHI and land cover relationship"
     }
   ],
-  "assets": {},
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
   "collection": "COMP2",
   "auth:schemes": {
     "mapboxauth": {
