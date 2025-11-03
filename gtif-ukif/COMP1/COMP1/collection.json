@@ -32,6 +32,18 @@
   "agency": [
     "ESA"
   ],
+  "eox:colorlegend": {
+    "title": "Mean UHI",
+    "range": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 0)",
+      "rgb(255, 255, 255)"
+    ],
+    "domain": [
+      -1,
+      1
+    ]
+  },
   "endpointtype": "VectorTile source",
   "title": "UHI and Building Efficiency Ratings",
   "extent": {

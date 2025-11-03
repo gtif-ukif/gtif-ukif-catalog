@@ -76,7 +76,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2d78269d-4308-48c3-b242-5bc5dd61573f"
+        "8f7083d6-57ff-4826-8b14-a0d5fed93037"
       ]
     },
     {
@@ -89,7 +89,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "2d78269d-4308-48c3-b242-5bc5dd61573f",
+      "key": "8f7083d6-57ff-4826-8b14-a0d5fed93037",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -99,7 +99,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4a232c0d-664b-4937-b654-3fc927c9fe25"
+        "df3fd238-7488-4f7d-a088-762242a52f6b"
       ]
     },
     {
@@ -112,7 +112,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "4a232c0d-664b-4937-b654-3fc927c9fe25",
+      "key": "df3fd238-7488-4f7d-a088-762242a52f6b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -122,7 +122,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8aeecf58-8b90-4281-93d6-115fb0591b0e"
+        "b35a9ffa-43ef-4a01-882b-051605190fd2"
       ]
     },
     {
@@ -135,7 +135,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "8aeecf58-8b90-4281-93d6-115fb0591b0e",
+      "key": "b35a9ffa-43ef-4a01-882b-051605190fd2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -145,7 +145,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "baa242e8-0110-4576-8189-a29c83c15db7"
+        "dcdca5f7-cf25-466f-aa83-fb7539ba7e4b"
       ]
     },
     {
@@ -158,7 +158,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "baa242e8-0110-4576-8189-a29c83c15db7",
+      "key": "dcdca5f7-cf25-466f-aa83-fb7539ba7e4b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -182,6 +182,18 @@
   "agency": [
     "ESA"
   ],
+  "eox:colorlegend": {
+    "title": "Mean UHI",
+    "range": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 0)",
+      "rgb(255, 255, 255)"
+    ],
+    "domain": [
+      -1,
+      1
+    ]
+  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
