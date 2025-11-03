@@ -72,106 +72,11 @@
       "id": "overlay_bright"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "a54a5bf6-06d4-415d-b072-154f6f35ea26"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe-eda.4m6t8kco/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Solar Panels © UCL/Oxford 2025",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SolarPanels",
-      "key": "a54a5bf6-06d4-415d-b072-154f6f35ea26",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "30c2da8e-4a66-4fe0-946b-50b6fafbe25b"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe-eda.blg492bz/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "SSSI",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SSSI",
-      "key": "30c2da8e-4a66-4fe0-946b-50b6fafbe25b",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "1dcc234b-338f-46b0-ad40-1339806b8d23"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe-eda.7gllfyz6/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "National Parks",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "NationalParks",
-      "key": "1dcc234b-338f-46b0-ad40-1339806b8d23",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "09f3f619-09f3-40d0-9d6b-f966a2af3ec2"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe-eda.7kq7kd06/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Area of Outstanding Natural Beauty",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "AONB",
-      "key": "09f3f619-09f3-40d0-9d6b-f966a2af3ec2",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -195,13 +100,6 @@
       -1,
       1
     ]
-  },
-  "auth:schemes": {
-    "mapboxauth": {
-      "type": "apiKey",
-      "name": "access_token",
-      "in": "query"
-    }
   },
   "title": "UHI and Building Efficiency Ratings",
   "extent": {
