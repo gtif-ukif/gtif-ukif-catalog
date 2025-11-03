@@ -26,6 +26,11 @@
       ]
     }
   ],
+  "Colorlegend": {
+    "title": "Mean UHI",
+    "range": ["rgb(0, 0, 0)", "rgb(255, 255, 0)", "rgb(255, 255, 255)"],
+    "domain": [-1, 1]
+  },
   "Agency": [
     "ESA"
   ]
