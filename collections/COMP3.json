@@ -17,7 +17,8 @@
         53.33398,
         -6.225986,
         53.355937
-      ], 
+      ],
+      "idProperty": "OBJECTID",
       "TimeEntries": [
         {
           "Time": "20180101",
@@ -35,9 +36,10 @@
     }
   ],
   "Colorlegend": {
-    "title": "Low/Medium/High Benefit",
+    "title": "Benefit",
     "range": ["rgb(0, 255, 0)", "rgb(255, 153, 0)", "rgb(255, 0, 0)"],
-    "domain": [-1, 1]
+    "domain": ["Low", "Medium", "High"],
+    "scaleType": "categorical"
   },
   "Agency": [
     "ESA"
