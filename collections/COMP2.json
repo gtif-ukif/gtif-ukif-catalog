@@ -13,9 +13,9 @@
   ],
   "BaseLayers": [
     {
-      "id": "COMP1_1",
-      "name": "UHI and Building Efficiency Ratings",
-      "url": "//agisportal.compass.ie/server/rest/services/Hosted/UHI_and_Urban_Land_Cover/MapServer/MapServer/tile/{z}/{y}/{x}",
+      "id": "COMP2_1",
+      "name": "UHI and land cover relationship",
+      "url": "//agisportal.compass.ie/server/rest/services/Hosted/UHI_and_Urban_Land_Cover/MapServer/tile/{z}/{y}/{x}",
       "media_type": "image/png",
       "attribution": "",
       "protocol": "xyz",
