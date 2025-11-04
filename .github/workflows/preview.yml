@@ -55,7 +55,7 @@ jobs:
       - name: Update Preview Catalog
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-        run: python .github/update_preview_catalog.py
+        run: python .github/update_catalog.py
       -
         if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
         name: Build
