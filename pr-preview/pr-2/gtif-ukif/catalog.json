@@ -1,0 +1,52 @@
+{
+  "type": "Catalog",
+  "id": "gtif-ukif",
+  "stac_version": "1.1.0",
+  "description": "GTIF UKIF",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP1/collection.json",
+      "type": "application/json",
+      "title": "UHI and Building Efficiency Ratings",
+      "id": "COMP1",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./COMP2/collection.json",
+      "type": "application/json",
+      "title": "UHI and land cover relationship",
+      "id": "COMP2",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "GTIF UKIF Catalog"
+}

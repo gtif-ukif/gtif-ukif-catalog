@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "id": "COMP1",
+  "stac_version": "1.1.0",
+  "description": "The following product shows the relationship between Building Efficiency Ratings (Energy Performance Certificates EPC in England). It shows cooler and warmer areas per small area of buildings. These small areas of buildings have a median BER/EPC rating of all buildings inside the geometry. This map shows that areas with a worse BER/EPC rating typically correspond to a higher UHI value. This is due to many surrounding factors, such as building location and population density, but also due to the energy efficiency of buildings. Buildings with a better BER/EPC rating typically correspond to a lower UHI value on hot days.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./COMP1/1970/ab209f89-2788-4992-abbe-72931834b48d.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "UHI and Building Efficiency Ratings"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Heat Island"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "endpointtype": "Collection-only",
+  "title": "UHI and Building Efficiency Ratings",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.48,
+          49.95,
+          1.77,
+          55.81
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-11-04T17:26:30.220011Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

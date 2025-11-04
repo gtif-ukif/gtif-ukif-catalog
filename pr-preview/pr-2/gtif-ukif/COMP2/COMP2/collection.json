@@ -1,0 +1,57 @@
+{
+  "type": "Collection",
+  "id": "COMP2",
+  "stac_version": "1.1.0",
+  "description": "The following product shows the relationship between urban land cover classes and the urban heat island effect. It shows cooler and warmer areas within urban areas. What it also shows is the geometries of the different urban land cover classes, and what the mean urban heat island effect is in this area. It can be determined from this map that urban green spaces, sport and leisure facilities provide the most cooling during hot summer days. On the contrary, continuous urban fabric and industrial areas warm up considerably on hot days.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./COMP2/1970/732002ca-ce8c-4023-9cd4-82af6a005b32.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "UHI and land cover relationship"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Heat Island"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "endpointtype": "Collection-only",
+  "title": "UHI and land cover relationship",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-11-04T17:26:30.221227Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
