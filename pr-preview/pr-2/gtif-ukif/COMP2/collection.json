@@ -29,14 +29,14 @@
     },
     {
       "rel": "xyz",
-      "href": "//agisportal.compass.ie/server/rest/services/Hosted/UHI_and_Urban_Land_Cover/MapServer/MapServer/tile/{z}/{y}/{x}",
+      "href": "//agisportal.compass.ie/server/rest/services/Hosted/UHI_and_Urban_Land_Cover/MapServer/tile/{z}/{y}/{x}",
       "type": "('image/png',)",
-      "title": "UHI and Building Efficiency Ratings",
+      "title": "UHI and land cover relationship",
       "roles": [
         "baselayer",
         "visible"
       ],
-      "id": "COMP1_1"
+      "id": "COMP2_1"
     },
     {
       "rel": "xyz",
@@ -65,7 +65,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b9d0e390-b2a3-4ce6-b183-a57a53cf4248"
+        "b5c4919d-c33b-408b-b4a8-30aafdae8b6d"
       ]
     },
     {
@@ -78,7 +78,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "b9d0e390-b2a3-4ce6-b183-a57a53cf4248",
+      "key": "b5c4919d-c33b-408b-b4a8-30aafdae8b6d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -88,7 +88,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "68416e9d-b8fc-4aac-827a-6d89ede356f1"
+        "f919ef4c-e005-4a4c-99c6-5eb454ad3f6e"
       ]
     },
     {
@@ -101,7 +101,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "68416e9d-b8fc-4aac-827a-6d89ede356f1",
+      "key": "f919ef4c-e005-4a4c-99c6-5eb454ad3f6e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -111,7 +111,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6dcb4c5e-ee01-428c-8447-3451a821fbb5"
+        "387e0dd1-b6d1-4e22-9ffa-67a2594fac69"
       ]
     },
     {
@@ -124,7 +124,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "6dcb4c5e-ee01-428c-8447-3451a821fbb5",
+      "key": "387e0dd1-b6d1-4e22-9ffa-67a2594fac69",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -134,7 +134,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "055be247-c0bb-456a-9fa7-b67ce1e62a5f"
+        "6d42e279-6163-4df4-b9db-a9e7009f5344"
       ]
     },
     {
@@ -147,7 +147,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "055be247-c0bb-456a-9fa7-b67ce1e62a5f",
+      "key": "6d42e279-6163-4df4-b9db-a9e7009f5344",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -193,8 +193,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-04T17:26:30.221227Z",
-          "2025-11-04T17:26:30.221227Z"
+          "2025-11-04T17:30:16.315304Z",
+          "2025-11-04T17:30:16.315304Z"
         ]
       ]
     }
