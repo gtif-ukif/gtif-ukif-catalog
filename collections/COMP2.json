@@ -1,37 +1,35 @@
 {
   "Name": "COMP2",
   "Title": "UHI and land cover relationship",
-  "Themes": [
-    "sustainable-cities"
-  ],
-  "Tags": [
-    "Heat Island"
-  ],
+  "Themes": ["sustainable-cities"],
+  "Tags": ["Heat Island"],
   "Description": "The following product shows the relationship between urban land cover classes and the urban heat island effect. It shows cooler and warmer areas within urban areas. What it also shows is the geometries of the different urban land cover classes, and what the mean urban heat island effect is in this area. It can be determined from this map that urban green spaces, sport and leisure facilities provide the most cooling during hot summer days. On the contrary, continuous urban fabric and industrial areas warm up considerably on hot days.",
   "Resources": [
     {
-      "Name": "VectorTile source",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP2/style.json",
-      "Bbox": [
-        -0.612126,
-        51.333132,
-        0.426082,
-        51.699321
-      ],
-      "TimeEntries": [
-        {
-          "Time": "20230101",
-          "Url": "https://api.mapbox.com/v4/service-swe-eda.dfpfw6a6/{z}/{x}/{y}.vector.pbf"
-        }
-      ]
+      "Name": "Collection-only",
+      "EndPoint": "Collection-only",
+      "OverwriteBBox": [-0.612126, 51.333132, 0.426082, 51.699321]
     }
   ],
-  "Colorlegend": {
-    "title": "Mean UHI (low/medium/high)",
-    "range": ["rgb(0, 0, 4)", "rgb(81, 18, 124, 0)","rgb(183, 55, 121)","rgb(252, 137, 97)", "rgb(252, 253, 191)"],
-    "domain": [-1, 1]
-  },
-  "Agency": [
-    "ESA"
-  ]
+  "BaseLayers": [
+    {
+      "id": "COMP1_1",
+      "name": "UHI and Building Efficiency Ratings",
+      "url": "//agisportal.compass.ie/server/rest/services/Hosted/UHI_and_Urban_Land_Cover/MapServer/MapServer/tile/{z}/{y}/{x}",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": true
+    },
+    {
+      "id": "cloudless-2024",
+      "name": "EOxCloudless 2024",
+      "url": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }",
+      "protocol": "xyz",
+      "visible": false
+    }
+  ],
+  "Agency": ["ESA"]
 }
