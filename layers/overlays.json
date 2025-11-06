@@ -11,7 +11,7 @@
     "id": "SolarPanels",
     "name": "Solar Panels © UCL/Oxford 2025",
     "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
-    "url": "https://api.mapbox.com/v4/service-swe-eda.4m6t8kco/{z}/{x}/{y}.vector.pbf",
+    "url": "https://api.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
     "visible": false,
     "protocol": "vector-tile"
   },
@@ -19,7 +19,7 @@
     "id": "SSSI",
     "name": "Site of Special Scientific Interest",
     "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
-    "url": "https://api.mapbox.com/v4/service-swe-eda.blg492bz/{z}/{x}/{y}.vector.pbf",
+    "url": "https://api.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
     "visible": false,
     "protocol": "vector-tile"
   },
@@ -27,7 +27,7 @@
     "id": "NationalParks",
     "name": "National Parks",
     "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
-    "url": "https://api.mapbox.com/v4/service-swe-eda.7gllfyz6/{z}/{x}/{y}.vector.pbf",
+    "url": "https://api.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
     "visible": false,
     "protocol": "vector-tile"
   },
@@ -35,7 +35,7 @@
     "id": "AONB",
     "name": "Area of Outstanding Natural Beauty",
     "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
-    "url": "https://api.mapbox.com/v4/service-swe-eda.7kq7kd06/{z}/{x}/{y}.vector.pbf",
+    "url": "https://api.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
     "visible": false,
     "protocol": "vector-tile"
   }
