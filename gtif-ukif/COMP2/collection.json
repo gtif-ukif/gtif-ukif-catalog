@@ -76,12 +76,12 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bf6a9586-8dec-4d0d-b481-e49e476064ec"
+        "f76c5ded-d16e-446e-856d-3c6999476a44"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe-eda.4m6t8kco/{z}/{x}/{y}.vector.pbf",
+      "href": "https://api.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Solar Panels © UCL/Oxford 2025",
       "roles": [
@@ -89,7 +89,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "bf6a9586-8dec-4d0d-b481-e49e476064ec",
+      "key": "f76c5ded-d16e-446e-856d-3c6999476a44",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -99,12 +99,12 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "03c810f0-98af-4567-8887-1798fdd03a09"
+        "5c127b28-f94d-4370-9a4c-b923edd72709"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe-eda.blg492bz/{z}/{x}/{y}.vector.pbf",
+      "href": "https://api.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Site of Special Scientific Interest",
       "roles": [
@@ -112,7 +112,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "03c810f0-98af-4567-8887-1798fdd03a09",
+      "key": "5c127b28-f94d-4370-9a4c-b923edd72709",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -122,12 +122,12 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e0e3d1a9-9e0f-4feb-8f87-ef3595108190"
+        "3585fb0c-301b-4002-a1bf-e7fb57d9734b"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe-eda.7gllfyz6/{z}/{x}/{y}.vector.pbf",
+      "href": "https://api.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "National Parks",
       "roles": [
@@ -135,7 +135,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "e0e3d1a9-9e0f-4feb-8f87-ef3595108190",
+      "key": "3585fb0c-301b-4002-a1bf-e7fb57d9734b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -145,12 +145,12 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "168c961a-fec8-4329-9081-424f2f47c508"
+        "df617f00-a4d3-4bbe-a0b0-f55f73756ae6"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe-eda.7kq7kd06/{z}/{x}/{y}.vector.pbf",
+      "href": "https://api.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Area of Outstanding Natural Beauty",
       "roles": [
@@ -158,7 +158,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "168c961a-fec8-4329-9081-424f2f47c508",
+      "key": "df617f00-a4d3-4bbe-a0b0-f55f73756ae6",
       "auth:refs": [
         "mapboxauth"
       ]
