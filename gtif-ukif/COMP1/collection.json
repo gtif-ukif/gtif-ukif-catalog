@@ -76,12 +76,12 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "040c00b0-da97-4741-a454-3d7d41f3fca8"
+        "3824d44a-40c8-4410-9496-c30f489b81f2"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Solar Panels © UCL/Oxford 2025",
       "roles": [
@@ -89,22 +89,19 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "040c00b0-da97-4741-a454-3d7d41f3fca8",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "3824d44a-40c8-4410-9496-c30f489b81f2"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fcad7b90-8c7a-4ef4-89da-90979c6c9a3b"
+        "7b8f2a0f-96ae-44a6-80f0-017b2737946b"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Site of Special Scientific Interest",
       "roles": [
@@ -112,22 +109,19 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "fcad7b90-8c7a-4ef4-89da-90979c6c9a3b",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "7b8f2a0f-96ae-44a6-80f0-017b2737946b"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "16eda057-8301-4afa-8072-39ca6c1cfb4d"
+        "53cd7c04-eff2-4453-9759-c460713ce742"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "National Parks",
       "roles": [
@@ -135,22 +129,19 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "16eda057-8301-4afa-8072-39ca6c1cfb4d",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "53cd7c04-eff2-4453-9759-c460713ce742"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3c01a174-d5c8-4aac-8ccf-cc6f715606a4"
+        "73b1ab60-6daa-4048-a73b-cf0130cfb094"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Area of Outstanding Natural Beauty",
       "roles": [
@@ -158,10 +149,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "3c01a174-d5c8-4aac-8ccf-cc6f715606a4",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "73b1ab60-6daa-4048-a73b-cf0130cfb094"
     },
     {
       "rel": "parent",
@@ -169,9 +157,6 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -195,13 +180,6 @@
       -1,
       1
     ]
-  },
-  "auth:schemes": {
-    "mapboxauth": {
-      "type": "apiKey",
-      "name": "access_token",
-      "in": "query"
-    }
   },
   "title": "UHI and Building Efficiency Ratings",
   "extent": {

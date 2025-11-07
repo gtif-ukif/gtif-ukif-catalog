@@ -76,12 +76,12 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "770fca3e-73d7-43ad-836f-09068b588254"
+        "7ca78b36-fb88-4305-a222-355658abb1e1"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Solar Panels © UCL/Oxford 2025",
       "roles": [
@@ -89,22 +89,19 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "770fca3e-73d7-43ad-836f-09068b588254",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "7ca78b36-fb88-4305-a222-355658abb1e1"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b23c2cb7-0c22-4cd0-9148-2da136efacc1"
+        "21dd51fd-9b0c-40af-a3ef-da22bdc8c296"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Site of Special Scientific Interest",
       "roles": [
@@ -112,22 +109,19 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "b23c2cb7-0c22-4cd0-9148-2da136efacc1",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "21dd51fd-9b0c-40af-a3ef-da22bdc8c296"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f9672688-092c-4f2c-9496-2f393491d0c3"
+        "11884003-ec20-4e15-abbc-982177d35227"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "National Parks",
       "roles": [
@@ -135,22 +129,19 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "f9672688-092c-4f2c-9496-2f393491d0c3",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "11884003-ec20-4e15-abbc-982177d35227"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "53bc916d-5507-4890-b01b-552516ea2efc"
+        "d49b162c-15af-446d-9e59-844d11a78636"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Area of Outstanding Natural Beauty",
       "roles": [
@@ -158,10 +149,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "53bc916d-5507-4890-b01b-552516ea2efc",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "d49b162c-15af-446d-9e59-844d11a78636"
     },
     {
       "rel": "parent",
@@ -169,9 +157,6 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -195,13 +180,6 @@
       "High"
     ],
     "scaleType": "categorical"
-  },
-  "auth:schemes": {
-    "mapboxauth": {
-      "type": "apiKey",
-      "name": "access_token",
-      "in": "query"
-    }
   },
   "title": "Dublin: Where can UHI decrease?",
   "extent": {

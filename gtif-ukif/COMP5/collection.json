@@ -65,12 +65,12 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d7e940e0-5ee0-4611-a42a-774105135f81"
+        "775af320-2871-4866-9e4f-062e803771ff"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Solar Panels © UCL/Oxford 2025",
       "roles": [
@@ -78,22 +78,19 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "d7e940e0-5ee0-4611-a42a-774105135f81",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "775af320-2871-4866-9e4f-062e803771ff"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "29d4dff2-e257-4fbb-af39-868c5c7f59cc"
+        "2bfc4e1c-2502-4ea9-a89d-45508381b6bc"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Site of Special Scientific Interest",
       "roles": [
@@ -101,22 +98,19 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "29d4dff2-e257-4fbb-af39-868c5c7f59cc",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "2bfc4e1c-2502-4ea9-a89d-45508381b6bc"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "80e38495-302c-4e2f-b804-7912adeb6c5a"
+        "e5530a13-be30-4da8-aa4b-1531315c4acb"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "National Parks",
       "roles": [
@@ -124,22 +118,19 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "80e38495-302c-4e2f-b804-7912adeb6c5a",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "e5530a13-be30-4da8-aa4b-1531315c4acb"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "489ba87e-9b8e-4704-a1b5-1412b25a5e4d"
+        "7ab0e460-f04e-42f7-9822-de22cb90938c"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Area of Outstanding Natural Beauty",
       "roles": [
@@ -147,10 +138,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "489ba87e-9b8e-4704-a1b5-1412b25a5e4d",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "key": "7ab0e460-f04e-42f7-9822-de22cb90938c"
     },
     {
       "rel": "parent",
@@ -158,9 +146,6 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -171,13 +156,6 @@
   "agency": [
     "ESA"
   ],
-  "auth:schemes": {
-    "mapboxauth": {
-      "type": "apiKey",
-      "name": "access_token",
-      "in": "query"
-    }
-  },
   "title": "UHI Mean 2022-2024",
   "extent": {
     "spatial": {
@@ -193,8 +171,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-06T17:05:46.655646Z",
-          "2025-11-06T17:05:46.655646Z"
+          "2025-11-07T07:52:31.890117Z",
+          "2025-11-07T07:52:31.890117Z"
         ]
       ]
     }
