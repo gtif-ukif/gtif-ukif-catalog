@@ -76,7 +76,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4dc21c6a-12f5-4b1d-a7d3-7d70fb5b5d90"
+        "b2571a72-1fad-4025-8eb2-b4d4ee1ac159"
       ]
     },
     {
@@ -89,14 +89,17 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "4dc21c6a-12f5-4b1d-a7d3-7d70fb5b5d90"
+      "key": "b2571a72-1fad-4025-8eb2-b4d4ee1ac159",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0115664e-c7aa-457e-bcad-d8bad01d3be2"
+        "d096936d-297b-4e29-91a9-da90ef9f6f60"
       ]
     },
     {
@@ -109,14 +112,17 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "0115664e-c7aa-457e-bcad-d8bad01d3be2"
+      "key": "d096936d-297b-4e29-91a9-da90ef9f6f60",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b3070a82-2ec5-4a8b-a04e-4f4e7b3b7f33"
+        "b5e304fa-9fd2-4a86-98dc-7c99720fba8a"
       ]
     },
     {
@@ -129,14 +135,17 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "b3070a82-2ec5-4a8b-a04e-4f4e7b3b7f33"
+      "key": "b5e304fa-9fd2-4a86-98dc-7c99720fba8a",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8d7cd9d6-162e-44bb-93b2-bc2f7885b12e"
+        "2c3c1a97-6024-4982-af43-4bbdb060a1ce"
       ]
     },
     {
@@ -149,7 +158,10 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "8d7cd9d6-162e-44bb-93b2-bc2f7885b12e"
+      "key": "2c3c1a97-6024-4982-af43-4bbdb060a1ce",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "parent",
@@ -157,6 +169,9 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -180,6 +195,13 @@
       -1,
       1
     ]
+  },
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
   },
   "title": "UHI and land cover relationship",
   "extent": {

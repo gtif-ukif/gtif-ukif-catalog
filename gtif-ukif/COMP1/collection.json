@@ -76,7 +76,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3824d44a-40c8-4410-9496-c30f489b81f2"
+        "05f3544a-5e78-461e-99eb-12efdaeaa969"
       ]
     },
     {
@@ -89,14 +89,17 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "3824d44a-40c8-4410-9496-c30f489b81f2"
+      "key": "05f3544a-5e78-461e-99eb-12efdaeaa969",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7b8f2a0f-96ae-44a6-80f0-017b2737946b"
+        "229a1196-d51a-41f1-b823-32999b52c6b6"
       ]
     },
     {
@@ -109,14 +112,17 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "7b8f2a0f-96ae-44a6-80f0-017b2737946b"
+      "key": "229a1196-d51a-41f1-b823-32999b52c6b6",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "53cd7c04-eff2-4453-9759-c460713ce742"
+        "851336c1-7fb1-4455-818c-12c6abffbedd"
       ]
     },
     {
@@ -129,14 +135,17 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "53cd7c04-eff2-4453-9759-c460713ce742"
+      "key": "851336c1-7fb1-4455-818c-12c6abffbedd",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "73b1ab60-6daa-4048-a73b-cf0130cfb094"
+        "6985929f-1a12-4752-b314-b5ed8671442d"
       ]
     },
     {
@@ -149,7 +158,10 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "73b1ab60-6daa-4048-a73b-cf0130cfb094"
+      "key": "6985929f-1a12-4752-b314-b5ed8671442d",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "parent",
@@ -157,6 +169,9 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -180,6 +195,13 @@
       -1,
       1
     ]
+  },
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
   },
   "title": "UHI and Building Efficiency Ratings",
   "extent": {

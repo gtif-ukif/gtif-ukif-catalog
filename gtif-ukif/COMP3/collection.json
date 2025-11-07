@@ -76,7 +76,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7ca78b36-fb88-4305-a222-355658abb1e1"
+        "ad0bd9a8-8238-4bff-bf67-00348e8e52cb"
       ]
     },
     {
@@ -89,14 +89,17 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "7ca78b36-fb88-4305-a222-355658abb1e1"
+      "key": "ad0bd9a8-8238-4bff-bf67-00348e8e52cb",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "21dd51fd-9b0c-40af-a3ef-da22bdc8c296"
+        "50c1c376-65e2-48e7-8fac-e0f832d5f67f"
       ]
     },
     {
@@ -109,14 +112,17 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "21dd51fd-9b0c-40af-a3ef-da22bdc8c296"
+      "key": "50c1c376-65e2-48e7-8fac-e0f832d5f67f",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "11884003-ec20-4e15-abbc-982177d35227"
+        "e787a032-f285-4995-abda-2fb16887af61"
       ]
     },
     {
@@ -129,14 +135,17 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "11884003-ec20-4e15-abbc-982177d35227"
+      "key": "e787a032-f285-4995-abda-2fb16887af61",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d49b162c-15af-446d-9e59-844d11a78636"
+        "e0c742e0-da46-47ee-bdfe-c0b5e1e5c28c"
       ]
     },
     {
@@ -149,7 +158,10 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "d49b162c-15af-446d-9e59-844d11a78636"
+      "key": "e0c742e0-da46-47ee-bdfe-c0b5e1e5c28c",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "parent",
@@ -157,6 +169,9 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -180,6 +195,13 @@
       "High"
     ],
     "scaleType": "categorical"
+  },
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
   },
   "title": "Dublin: Where can UHI decrease?",
   "extent": {

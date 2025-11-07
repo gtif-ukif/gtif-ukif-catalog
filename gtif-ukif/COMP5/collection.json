@@ -65,7 +65,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "775af320-2871-4866-9e4f-062e803771ff"
+        "e3bd18ed-3d93-4edb-a90f-5bc0e8ac4668"
       ]
     },
     {
@@ -78,14 +78,17 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "775af320-2871-4866-9e4f-062e803771ff"
+      "key": "e3bd18ed-3d93-4edb-a90f-5bc0e8ac4668",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2bfc4e1c-2502-4ea9-a89d-45508381b6bc"
+        "e78e8d7b-b27f-4149-88a1-cabccf7be0b6"
       ]
     },
     {
@@ -98,14 +101,17 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2bfc4e1c-2502-4ea9-a89d-45508381b6bc"
+      "key": "e78e8d7b-b27f-4149-88a1-cabccf7be0b6",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e5530a13-be30-4da8-aa4b-1531315c4acb"
+        "9cfdc12c-ef5d-41b6-b90e-734185fb0cc5"
       ]
     },
     {
@@ -118,14 +124,17 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "e5530a13-be30-4da8-aa4b-1531315c4acb"
+      "key": "9cfdc12c-ef5d-41b6-b90e-734185fb0cc5",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7ab0e460-f04e-42f7-9822-de22cb90938c"
+        "45a42491-6ded-48d9-9295-3fea543445a4"
       ]
     },
     {
@@ -138,7 +147,10 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "7ab0e460-f04e-42f7-9822-de22cb90938c"
+      "key": "45a42491-6ded-48d9-9295-3fea543445a4",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "parent",
@@ -146,6 +158,9 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -156,6 +171,13 @@
   "agency": [
     "ESA"
   ],
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
   "title": "UHI Mean 2022-2024",
   "extent": {
     "spatial": {
@@ -171,8 +193,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-07T07:52:31.890117Z",
-          "2025-11-07T07:52:31.890117Z"
+          "2025-11-07T08:06:04.147727Z",
+          "2025-11-07T08:06:04.147727Z"
         ]
       ]
     }
