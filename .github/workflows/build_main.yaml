@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         run: |
-          docker run -v "$PWD:/workspace" -w "/workspace" ghcr.io/eodash/eodash_catalog:0.3.17 eodash_catalog
+          docker run -v "$PWD:/workspace" -w "/workspace" ghcr.io/eodash/eodash_catalog:0.3.19 eodash_catalog
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
