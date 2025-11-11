@@ -38,5 +38,14 @@
     "url": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
     "visible": false,
     "protocol": "vector-tile"
+  },
+  {
+    "id": "MapboxWaterMask",
+    "name": "Water Mask",
+    "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+    "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+    "visible": false,
+    "protocol": "vector-tile",
+    "layers": ["water"]
   }
 ]
