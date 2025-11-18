@@ -75,6 +75,22 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./UCL3-Severe-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (Ireland)",
+      "id": "UCL3-Severe-Ireland",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"

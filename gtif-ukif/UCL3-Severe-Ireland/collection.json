@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP3",
+  "id": "UCL3-Severe-Ireland",
   "stac_version": "1.1.0",
-  "description": "The traffic light map of Dublin for 2018, 2021 and 2023 show which areas need to improve their BER ratings to decrease the local UHI effect. The red areas signify areas which can benefit from BER increases to decrease the UHI effect. Green areas will not benefit much UHI decrease with a BER increase. It shows changes between years, especially for decarbonising zones in Clonalkin, Dun Laoghaire/Blackrock and Ringsend. If these decarbonising zones are to become carbon neutral by 2050, they will require additional work on making the buildings in the area more energy efficient.",
+  "description": "Severe Air Quality (Ireland)",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./COMP3/collection.json",
+      "href": "./UCL3-Severe-Ireland/collection.json",
       "type": "application/json",
-      "title": "Dublin: Where can UHI decrease?",
-      "endpointtype": "VectorTile source",
-      "id": "COMP3",
+      "title": "Severe Air Quality (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL3-Severe-Ireland",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "tags": [
-        "Heat Island"
+        "Air Quality"
       ],
       "agency": [
         "ESA"
@@ -76,7 +76,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "631e8eb7-3e88-488d-a316-d3e128e56b23"
+        "57061d00-d5b6-4f13-a7af-e93d799541e6"
       ]
     },
     {
@@ -89,7 +89,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "631e8eb7-3e88-488d-a316-d3e128e56b23",
+      "key": "57061d00-d5b6-4f13-a7af-e93d799541e6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -99,7 +99,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a5f88700-7db9-4ae4-9f2b-c1f49acaab6c"
+        "ec58973e-b8be-492a-9ae2-299f78949b76"
       ]
     },
     {
@@ -112,7 +112,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "a5f88700-7db9-4ae4-9f2b-c1f49acaab6c",
+      "key": "ec58973e-b8be-492a-9ae2-299f78949b76",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -122,7 +122,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "68de6afe-79b6-4167-b427-f5614286369d"
+        "41d5afaf-2d77-42b3-b29c-19729c3def18"
       ]
     },
     {
@@ -135,7 +135,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "68de6afe-79b6-4167-b427-f5614286369d",
+      "key": "41d5afaf-2d77-42b3-b29c-19729c3def18",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -145,7 +145,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0c271036-3437-405f-885a-651162a486c6"
+        "76b23d67-c42c-4577-a2bf-c97eb653cc7e"
       ]
     },
     {
@@ -158,7 +158,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "0c271036-3437-405f-885a-651162a486c6",
+      "key": "76b23d67-c42c-4577-a2bf-c97eb653cc7e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -168,7 +168,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f71aad52-6d5a-4b88-a59d-19574358e0a2"
+        "b5eef06e-4674-4ac9-acf1-dc919d7a5056"
       ]
     },
     {
@@ -181,7 +181,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "f71aad52-6d5a-4b88-a59d-19574358e0a2",
+      "key": "b5eef06e-4674-4ac9-acf1-dc919d7a5056",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -197,27 +197,34 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "sustainable-cities"
+    "mobility-transition"
   ],
   "tags": [
-    "Heat Island"
+    "Air Quality"
   ],
   "agency": [
     "ESA"
   ],
   "eox:colorlegend": {
-    "title": "Benefit",
-    "range": [
-      "rgb(0, 255, 0)",
-      "rgb(255, 153, 0)",
-      "rgb(255, 0, 0)"
-    ],
     "domain": [
-      "Low",
-      "Medium",
-      "High"
+      0,
+      1000
     ],
-    "scaleType": "categorical"
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5"
   },
   "auth:schemes": {
     "mapboxauth": {
@@ -226,23 +233,23 @@
       "in": "query"
     }
   },
-  "title": "Dublin: Where can UHI decrease?",
+  "title": "Severe Air Quality (Ireland)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -6.290874,
-          53.33398,
-          -6.225986,
-          53.355937
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-01-01T00:00:00Z",
-          "2023-01-01T00:00:00Z"
+          "2018-03-03T00:00:00Z",
+          "2022-12-31T00:00:00Z"
         ]
       ]
     }
@@ -250,7 +257,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "sustainable-cities"
+      "mobility-transition"
     ]
   }
 }

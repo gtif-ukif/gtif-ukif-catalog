@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "Eire_severe_day_20220327_COG",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -11.004997421269309,
+          41.005000581502365
+        ],
+        [
+          9.995002899174164,
+          41.005000581502365
+        ],
+        [
+          9.995002899174164,
+          61.00500034413024
+        ],
+        [
+          -11.004997421269309,
+          61.00500034413024
+        ],
+        [
+          -11.004997421269309,
+          41.005000581502365
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -11.004997421269309,
+    41.005000581502365,
+    9.995002899174164,
+    61.00500034413024
+  ],
+  "properties": {
+    "datetime": "2022-03-27T00:00:00Z",
+    "proj:bbox": [
+      -11.004997421269309,
+      41.005000581502365,
+      9.995002899174164,
+      61.00500034413024
+    ],
+    "proj:shape": [
+      2000,
+      2100
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -11.004997421269309,
+            41.005000581502365
+          ],
+          [
+            9.995002899174164,
+            41.005000581502365
+          ],
+          [
+            9.995002899174164,
+            61.00500034413024
+          ],
+          [
+            -11.004997421269309,
+            61.00500034413024
+          ],
+          [
+            -11.004997421269309,
+            41.005000581502365
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.01000000015259213,
+      0.0,
+      -11.004997421269309,
+      0.0,
+      -0.009999999881313936,
+      61.00500034413024,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/Eire_severe_day_20220327_COG/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
+      "type": "image/png",
+      "title": "UCL3-Severe-Ireland"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (Ireland)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (Ireland)"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "s3://gtif-ukif/air_quality/ireland/Eire_severe_day_20220327_COG.tif",
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "raster:bands": [
+        {
+          "unit": "µg/m3",
+          "scale": 0.10000000149011612,
+          "nodata": 65535.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint16",
+          "histogram": {
+            "max": 756.0,
+            "min": 26.0,
+            "count": 11,
+            "buckets": [
+              74803,
+              178424,
+              140340,
+              47496,
+              6984,
+              2201,
+              387,
+              108,
+              14,
+              3
+            ]
+          },
+          "statistics": {
+            "mean": 166.55742523737686,
+            "stddev": 68.65385699235429,
+            "maximum": 756,
+            "minimum": 26,
+            "valid_percent": 45.1019787397541
+          }
+        }
+      ],
+      "roles": []
+    }
+  },
+  "collection": "UCL3-Severe-Ireland"
+}
