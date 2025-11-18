@@ -10,14 +10,17 @@
   "Description": "There was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
   "Resources": [
     {
-      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
-      "Type": "cog",
+      "Type": "tiles",
       "CollectionId": "EDA-methane-UK",
       "ColormapName": "seismic",
       "Rescale": [
         -2,
         2
+      ],
+      "Assets": [
+        "asset"
       ]
     }
   ],

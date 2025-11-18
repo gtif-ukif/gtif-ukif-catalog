@@ -10,14 +10,17 @@
   "Description": "Time series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "Resources": [
     {
-      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
-      "Type": "cog",
+      "Type": "tiles",
       "CollectionId": "EDA-methane-madrid",
       "ColormapName": "seismic",
       "Rescale": [
         -0.15,
         0.15
+      ],
+      "Assets": [
+        "asset"
       ]
     }
   ],

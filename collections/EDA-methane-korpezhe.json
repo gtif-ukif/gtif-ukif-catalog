@@ -10,14 +10,17 @@
   "Description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of one large methane emission plume, and a non-plume that is caused by imperfect subtraction of the scenery between the two bands used. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
   "Resources": [
     {
-      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
-      "Type": "cog",
+      "Type": "tiles",
       "CollectionId": "EDA-methane-korpezhe",
       "ColormapName": "seismic",
       "Rescale": [
         -2,
         2
+      ],
+      "Assets": [
+        "asset"
       ]
     }
   ],

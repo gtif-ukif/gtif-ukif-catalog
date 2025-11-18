@@ -10,14 +10,17 @@
   "Description": "VCI (Vegetation Condition Index) is a measure of the vegetation condition based on the normalized difference vegetation index (NDVI).",
   "Resources": [
     {
-      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
-      "Type": "cog",
+      "Type": "tiles",
       "CollectionId": "UCL2-VCI-2020",
       "ColormapName": "rplumbo",
       "Rescale": [
         -100,
         100
+      ],
+      "Assets": [
+        "asset"
       ]
     }
   ],

@@ -5,7 +5,7 @@
   "Tags": ["Solar Rural Power"],
   "Resources": [
     {
-      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "Name": "VEDA",
       "CollectionId": "UCL1-NRG",

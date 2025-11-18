@@ -9,14 +9,17 @@
   ],
   "Resources": [
     {
-      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
-      "Type": "cog",
+      "Type": "tiles",
       "CollectionId": "UCL1-UK",
       "ColormapName": "jet",
       "Rescale": [
         400,
         1400
+      ],
+      "Assets": [
+        "asset"
       ]
     }
   ],

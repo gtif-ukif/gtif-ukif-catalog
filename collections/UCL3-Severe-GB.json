@@ -10,14 +10,17 @@
   "Description": "Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
   "Resources": [
     {
-      "EndPoint": "https://hub-otc-sc.eox.at/services/eoxhub-gateway/gtif-ukif/eoapi-stac/",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
-      "Type": "cog",
+      "Type": "tiles",
       "CollectionId": "UCL3-Severe-GB",
       "ColormapName": "jet",
       "Rescale": [
         0,
         1000
+      ],
+      "Assets": [
+        "asset"
       ]
     }
   ],
