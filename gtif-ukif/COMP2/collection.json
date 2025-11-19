@@ -76,7 +76,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5303f4c9-50f3-45b8-9fa2-045c8f8a0914"
+        "541589fd-7226-4acc-ab76-4e009618f769"
       ]
     },
     {
@@ -89,7 +89,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "5303f4c9-50f3-45b8-9fa2-045c8f8a0914",
+      "key": "541589fd-7226-4acc-ab76-4e009618f769",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -99,7 +99,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7e7d6399-740d-4429-a404-1313bf5f898c"
+        "dab56c22-1814-4edc-9ee2-1de31f9d9a82"
       ]
     },
     {
@@ -112,7 +112,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "7e7d6399-740d-4429-a404-1313bf5f898c",
+      "key": "dab56c22-1814-4edc-9ee2-1de31f9d9a82",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -122,7 +122,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f6b661a7-0a4f-4e28-8a43-8172f992673b"
+        "604dec4d-cfda-4ee5-aba8-cc000dd096f9"
       ]
     },
     {
@@ -135,7 +135,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "f6b661a7-0a4f-4e28-8a43-8172f992673b",
+      "key": "604dec4d-cfda-4ee5-aba8-cc000dd096f9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -145,20 +145,20 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "943e0ccb-2983-4f73-8c3c-368332e648f7"
+        "328b23a5-9e90-4560-bd0c-3352ddd8947d"
       ]
     },
     {
       "rel": "vector-tile",
       "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "Area of Outstanding Natural Beauty",
+      "title": "Natural Landscapes",
       "roles": [
         "overlay",
         "invisible"
       ],
       "id": "AONB",
-      "key": "943e0ccb-2983-4f73-8c3c-368332e648f7",
+      "key": "328b23a5-9e90-4560-bd0c-3352ddd8947d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -168,7 +168,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "27ccb7fa-e34a-434f-9139-50a9cec18fb4"
+        "17ae6237-8852-471f-8cad-cf845e57a0a6"
       ]
     },
     {
@@ -181,7 +181,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "27ccb7fa-e34a-434f-9139-50a9cec18fb4",
+      "key": "17ae6237-8852-471f-8cad-cf845e57a0a6",
       "auth:refs": [
         "mapboxauth"
       ]
