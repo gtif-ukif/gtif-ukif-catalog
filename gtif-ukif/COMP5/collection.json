@@ -25,7 +25,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Urban Heat Island"
     },
     {
       "rel": "xyz",
@@ -65,7 +66,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "69667ef6-a05b-4945-aa9f-8d3f0662fe16"
+        "7d9412c1-32fb-4523-9b0e-fd73dc3ccab3"
       ]
     },
     {
@@ -78,7 +79,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "69667ef6-a05b-4945-aa9f-8d3f0662fe16",
+      "key": "7d9412c1-32fb-4523-9b0e-fd73dc3ccab3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -88,7 +89,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e402021f-9f0f-411c-90ab-7862bec3468c"
+        "d97f1d48-f3e5-4f97-ba40-bd6082c3c488"
       ]
     },
     {
@@ -101,7 +102,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "e402021f-9f0f-411c-90ab-7862bec3468c",
+      "key": "d97f1d48-f3e5-4f97-ba40-bd6082c3c488",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -111,7 +112,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7e966b47-6036-453f-be37-d7afe1364c60"
+        "8f821b50-9590-4eef-b012-c159a058c0d6"
       ]
     },
     {
@@ -124,7 +125,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "7e966b47-6036-453f-be37-d7afe1364c60",
+      "key": "8f821b50-9590-4eef-b012-c159a058c0d6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -134,7 +135,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8376c3b5-4434-4f62-ba30-f87ac0cb3f4a"
+        "310b5c2f-720d-4553-a15e-6c67e4f2eba0"
       ]
     },
     {
@@ -147,7 +148,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "8376c3b5-4434-4f62-ba30-f87ac0cb3f4a",
+      "key": "310b5c2f-720d-4553-a15e-6c67e4f2eba0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -157,7 +158,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "80b02c8c-ba07-4659-86b1-eeb65c1f37a3"
+        "fe7bd664-7286-4eab-9ef8-8342426e7770"
       ]
     },
     {
@@ -170,7 +171,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "80b02c8c-ba07-4659-86b1-eeb65c1f37a3",
+      "key": "fe7bd664-7286-4eab-9ef8-8342426e7770",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,6 +195,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "Urban Heat Island",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -216,8 +218,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-11-19T08:08:15.626672Z",
-          "2025-11-19T08:08:15.626672Z"
+          "2025-11-28T10:04:07.258251Z",
+          "2025-11-28T10:04:07.258251Z"
         ]
       ]
     }

@@ -25,7 +25,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Land Cover"
     },
     {
       "rel": "xyz",
@@ -76,7 +77,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "541589fd-7226-4acc-ab76-4e009618f769"
+        "dac5d041-9d01-4dd6-a553-10d1839b2be3"
       ]
     },
     {
@@ -89,7 +90,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "541589fd-7226-4acc-ab76-4e009618f769",
+      "key": "dac5d041-9d01-4dd6-a553-10d1839b2be3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -99,7 +100,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dab56c22-1814-4edc-9ee2-1de31f9d9a82"
+        "2146cfae-e34c-460e-aae5-31572c2c3321"
       ]
     },
     {
@@ -112,7 +113,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "dab56c22-1814-4edc-9ee2-1de31f9d9a82",
+      "key": "2146cfae-e34c-460e-aae5-31572c2c3321",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -122,7 +123,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "604dec4d-cfda-4ee5-aba8-cc000dd096f9"
+        "318a70e2-e9ae-4a45-8b46-c63ec0668c1c"
       ]
     },
     {
@@ -135,7 +136,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "604dec4d-cfda-4ee5-aba8-cc000dd096f9",
+      "key": "318a70e2-e9ae-4a45-8b46-c63ec0668c1c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -145,7 +146,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "328b23a5-9e90-4560-bd0c-3352ddd8947d"
+        "7217c4e7-3bc6-4988-acb6-c23968cfc579"
       ]
     },
     {
@@ -158,7 +159,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "328b23a5-9e90-4560-bd0c-3352ddd8947d",
+      "key": "7217c4e7-3bc6-4988-acb6-c23968cfc579",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -168,7 +169,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "17ae6237-8852-471f-8cad-cf845e57a0a6"
+        "23392807-b635-4a5b-a5e1-a34b8a67e32f"
       ]
     },
     {
@@ -181,7 +182,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "17ae6237-8852-471f-8cad-cf845e57a0a6",
+      "key": "23392807-b635-4a5b-a5e1-a34b8a67e32f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,6 +206,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "Land Cover",
   "eox:colorlegend": {
     "title": "Mean UHI (low/medium/high)",
     "range": [

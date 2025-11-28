@@ -1,0 +1,82 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2025-01-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          53.26,
+          -6.4
+        ],
+        [
+          53.34,
+          -6.4
+        ],
+        [
+          53.34,
+          -6.1
+        ],
+        [
+          53.26,
+          -6.1
+        ],
+        [
+          53.26,
+          -6.4
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    53.26,
+    -6.4,
+    53.34,
+    -6.1
+  ],
+  "properties": {
+    "datetime": "2025-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP3/decarbonization_zones_style.json.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "decarbonizing_zones"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Decarbonizing Zones"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Decarbonizing Zones"
+    }
+  ],
+  "assets": {
+    "decarbonizing_zones": {
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/decarbonizing_zones.geojson",
+      "type": "application/geo+json",
+      "proj:epsg": 4326,
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "decarbonizing_zones",
+  "proj:epsg": 4326
+}

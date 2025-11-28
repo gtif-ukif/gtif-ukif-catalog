@@ -25,7 +25,8 @@
       ],
       "agency": [
         "ESA"
-      ]
+      ],
+      "collection_group": "Building Efficiency Ratings"
     },
     {
       "rel": "xyz",
@@ -76,7 +77,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dc6ef245-b9e8-4f7d-aa23-c7de48669de0"
+        "78c3a77a-b6b3-4ff7-999c-950e45193146"
       ]
     },
     {
@@ -89,7 +90,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "dc6ef245-b9e8-4f7d-aa23-c7de48669de0",
+      "key": "78c3a77a-b6b3-4ff7-999c-950e45193146",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -99,7 +100,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3224eb83-6534-47f7-8960-1a976239d285"
+        "e0404d48-8060-4344-8694-a37a8f864150"
       ]
     },
     {
@@ -112,7 +113,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "3224eb83-6534-47f7-8960-1a976239d285",
+      "key": "e0404d48-8060-4344-8694-a37a8f864150",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -122,7 +123,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "210f76c5-91ff-4f0c-a995-d28f70af0dcb"
+        "bbbb7073-f0db-48f1-be0e-3783ebe4ee4a"
       ]
     },
     {
@@ -135,7 +136,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "210f76c5-91ff-4f0c-a995-d28f70af0dcb",
+      "key": "bbbb7073-f0db-48f1-be0e-3783ebe4ee4a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -145,7 +146,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0f993910-9878-42ac-a663-c795b83f86c5"
+        "efa7af2b-013e-46fe-9195-545e9c2c4b52"
       ]
     },
     {
@@ -158,7 +159,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "0f993910-9878-42ac-a663-c795b83f86c5",
+      "key": "efa7af2b-013e-46fe-9195-545e9c2c4b52",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -168,7 +169,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a713e2e4-3f0b-487a-8967-d74f1ac04dff"
+        "980ebc9e-ee5f-49b5-bbab-8f67a0832efa"
       ]
     },
     {
@@ -181,7 +182,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "a713e2e4-3f0b-487a-8967-d74f1ac04dff",
+      "key": "980ebc9e-ee5f-49b5-bbab-8f67a0832efa",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,6 +206,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "Building Efficiency Ratings",
   "eox:colorlegend": {
     "title": "Mean UHI (low/medium/high)",
     "range": [

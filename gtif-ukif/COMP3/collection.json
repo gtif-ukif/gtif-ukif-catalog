@@ -28,6 +28,23 @@
       ]
     },
     {
+      "rel": "child",
+      "href": "./decarbonizing_zones/collection.json",
+      "type": "application/json",
+      "title": "Decarbonizing Zones",
+      "endpointtype": "GeoJSON source",
+      "id": "decarbonizing_zones",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
@@ -76,7 +93,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ba799f71-3c7d-4af5-b332-e77b27258eb4"
+        "2565e679-6c2a-4f86-afd0-3e59f8f8d675"
       ]
     },
     {
@@ -89,7 +106,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "ba799f71-3c7d-4af5-b332-e77b27258eb4",
+      "key": "2565e679-6c2a-4f86-afd0-3e59f8f8d675",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -99,7 +116,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2223d23f-2dad-48de-bd17-8243fda41f13"
+        "c434a752-8b0a-41bb-b966-55852e7940f5"
       ]
     },
     {
@@ -112,7 +129,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2223d23f-2dad-48de-bd17-8243fda41f13",
+      "key": "c434a752-8b0a-41bb-b966-55852e7940f5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -122,7 +139,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9f5f8739-ad10-4559-bb55-a97e8a82157c"
+        "536b1066-bbdc-4898-a82c-5d7c62afa07b"
       ]
     },
     {
@@ -135,7 +152,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "9f5f8739-ad10-4559-bb55-a97e8a82157c",
+      "key": "536b1066-bbdc-4898-a82c-5d7c62afa07b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -145,7 +162,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f97c3569-463a-4bfa-a977-15cbeb003a3f"
+        "9e9d0e8d-35d9-40d2-8d4b-c84c843c19ef"
       ]
     },
     {
@@ -158,7 +175,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "f97c3569-463a-4bfa-a977-15cbeb003a3f",
+      "key": "9e9d0e8d-35d9-40d2-8d4b-c84c843c19ef",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -168,7 +185,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7fb9381d-c15b-49d2-a47b-996bc23a0da9"
+        "40feb564-a9c2-4aca-bed1-2838c03b97b3"
       ]
     },
     {
@@ -181,7 +198,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "7fb9381d-c15b-49d2-a47b-996bc23a0da9",
+      "key": "40feb564-a9c2-4aca-bed1-2838c03b97b3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,20 +222,6 @@
   "agency": [
     "ESA"
   ],
-  "eox:colorlegend": {
-    "title": "Benefit",
-    "range": [
-      "rgb(0, 255, 0)",
-      "rgb(255, 153, 0)",
-      "rgb(255, 0, 0)"
-    ],
-    "domain": [
-      "Low",
-      "Medium",
-      "High"
-    ],
-    "scaleType": "categorical"
-  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -232,9 +235,21 @@
       "bbox": [
         [
           -6.290874,
+          -6.4,
+          53.34,
+          53.355937
+        ],
+        [
+          -6.290874,
           53.33398,
           -6.225986,
           53.355937
+        ],
+        [
+          53.26,
+          -6.4,
+          53.34,
+          -6.1
         ]
       ]
     },
@@ -242,7 +257,7 @@
       "interval": [
         [
           "2018-01-01T00:00:00Z",
-          "2023-01-01T00:00:00Z"
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
