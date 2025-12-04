@@ -30,7 +30,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -41,7 +41,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
@@ -52,7 +52,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
@@ -63,7 +63,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
@@ -77,7 +77,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e684c1ab-0f2b-4002-a800-2d49ac4fde0b"
+        "79167ea0-02f0-4bc5-bebc-75b50d8b1940"
       ]
     },
     {
@@ -90,7 +90,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "e684c1ab-0f2b-4002-a800-2d49ac4fde0b",
+      "key": "79167ea0-02f0-4bc5-bebc-75b50d8b1940",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -100,7 +100,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a3467e02-ffae-46d9-a0e6-89e4f91fe02b"
+        "c0c9ff42-1646-4bbc-b650-79aed0cba278"
       ]
     },
     {
@@ -113,7 +113,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "a3467e02-ffae-46d9-a0e6-89e4f91fe02b",
+      "key": "c0c9ff42-1646-4bbc-b650-79aed0cba278",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -123,7 +123,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c5ab3669-36d5-4978-946b-5969faaccd6e"
+        "c6c70b59-142f-4b5c-a433-97922a45b0d2"
       ]
     },
     {
@@ -136,7 +136,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "c5ab3669-36d5-4978-946b-5969faaccd6e",
+      "key": "c6c70b59-142f-4b5c-a433-97922a45b0d2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -146,7 +146,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ab7c3d73-44f9-4d81-9102-f70fbb46070d"
+        "13bf06de-6205-4a4f-8168-122a05aa3dcb"
       ]
     },
     {
@@ -159,7 +159,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "ab7c3d73-44f9-4d81-9102-f70fbb46070d",
+      "key": "13bf06de-6205-4a4f-8168-122a05aa3dcb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -169,7 +169,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f91bdd5b-cb6f-45bf-8ef3-5c05cc3fb1d4"
+        "1972fe74-dc5a-4351-93ab-759d3b93d9f7"
       ]
     },
     {
@@ -182,7 +182,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "f91bdd5b-cb6f-45bf-8ef3-5c05cc3fb1d4",
+      "key": "1972fe74-dc5a-4351-93ab-759d3b93d9f7",
       "auth:refs": [
         "mapboxauth"
       ]
