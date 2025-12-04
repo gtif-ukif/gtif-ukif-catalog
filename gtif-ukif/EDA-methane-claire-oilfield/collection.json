@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP3",
+  "id": "EDA-methane-claire-oilfield",
   "stac_version": "1.1.0",
-  "description": "The traffic light map of Dublin for 2018, 2021 and 2023 show which areas need to improve their BER ratings to decrease the local UHI effect. The red areas signify areas which can benefit from BER increases to decrease the UHI effect. Green areas will not benefit much UHI decrease with a BER increase. It shows changes between years, especially for decarbonising zones in Clonalkin, Dun Laoghaire/Blackrock and Ringsend. If these decarbonising zones are to become carbon neutral by 2050, they will require additional work on making the buildings in the area more energy efficient.",
+  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
   "links": [
     {
       "rel": "root",
@@ -12,34 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./COMP3/collection.json",
+      "href": "./EDA-methane-claire-oilfield/collection.json",
       "type": "application/json",
-      "title": "Dublin: Where can UHI decrease?",
-      "endpointtype": "VectorTile source",
-      "id": "COMP3",
+      "title": "Claire Oilfield",
+      "endpointtype": "VEDA_tiles",
+      "id": "EDA-methane-claire-oilfield",
       "themes": [
-        "sustainable-cities"
+        "carbon-accounting"
       ],
       "tags": [
-        "Heat Island"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./decarbonizing_zones/collection.json",
-      "type": "application/json",
-      "title": "Decarbonizing Zones",
-      "endpointtype": "GeoJSON source",
-      "id": "decarbonizing_zones",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Heat Island"
+        "Methane Emissions Analysis"
       ],
       "agency": [
         "ESA"
@@ -95,7 +77,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a519535b-038e-4fc4-88f7-467547becb54"
+        "ea2a1aba-15d0-4e47-9b2a-18a6c421037d"
       ]
     },
     {
@@ -108,7 +90,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "a519535b-038e-4fc4-88f7-467547becb54",
+      "key": "ea2a1aba-15d0-4e47-9b2a-18a6c421037d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -118,7 +100,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a0ebd842-a900-4783-aa55-573d0bc486e1"
+        "2a83aece-9990-40bc-b7f3-02272800a13c"
       ]
     },
     {
@@ -131,7 +113,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "a0ebd842-a900-4783-aa55-573d0bc486e1",
+      "key": "2a83aece-9990-40bc-b7f3-02272800a13c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -141,7 +123,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "90a1f176-4525-4159-b157-459516540ca1"
+        "6f63f996-903a-49ea-ab7d-76485535393e"
       ]
     },
     {
@@ -154,7 +136,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "90a1f176-4525-4159-b157-459516540ca1",
+      "key": "6f63f996-903a-49ea-ab7d-76485535393e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -164,7 +146,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "999f4df2-633b-478b-80fa-f3d739a22373"
+        "e16d4cc8-0ac1-4767-af09-dbeb7efd3b99"
       ]
     },
     {
@@ -177,7 +159,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "999f4df2-633b-478b-80fa-f3d739a22373",
+      "key": "e16d4cc8-0ac1-4767-af09-dbeb7efd3b99",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -187,7 +169,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d305ae89-13bc-4e5d-ad33-c7e8efe49a04"
+        "42a201f8-3761-4ee7-a955-68a0ebc14e12"
       ]
     },
     {
@@ -200,7 +182,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "d305ae89-13bc-4e5d-ad33-c7e8efe49a04",
+      "key": "42a201f8-3761-4ee7-a955-68a0ebc14e12",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -216,15 +198,36 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "sustainable-cities"
+    "carbon-accounting"
   ],
   "tags": [
-    "Heat Island"
+    "Methane Emissions Analysis"
   ],
   "agency": [
     "ESA"
   ],
   "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -2,
+      2
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -232,35 +235,23 @@
       "in": "query"
     }
   },
-  "title": "Dublin: Where can UHI decrease?",
+  "title": "Claire Oilfield",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -6.290874,
-          -6.4,
-          53.34,
-          53.355937
-        ],
-        [
-          -6.290874,
-          53.33398,
-          -6.225986,
-          53.355937
-        ],
-        [
-          53.26,
-          -6.4,
-          53.34,
-          -6.1
+          -2.5047021791675803,
+          60.72713548310592,
+          -2.4846294443761425,
+          60.74720821789736
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2020-09-09T00:00:00Z",
+          "2020-10-29T00:00:00Z"
         ]
       ]
     }
@@ -268,7 +259,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "sustainable-cities"
+      "carbon-accounting"
     ]
   }
 }
