@@ -31,7 +31,7 @@
     {
       "rel": "xyz",
       "href": "//agisportal.compass.ie/server/rest/services/Hosted/UHI_map_2022_2024/MapServer/tile/{z}/{y}/{x}",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Urban Heat Island Map (2022-2024)",
       "roles": [
         "baselayer",
@@ -42,7 +42,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -53,7 +53,7 @@
     {
       "rel": "xyz",
       "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -66,7 +66,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "621fb35b-840e-4e31-97ee-dc06433812b9"
+        "fc32153e-5242-46ee-8606-d8bd4dd24ea5"
       ]
     },
     {
@@ -79,7 +79,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "621fb35b-840e-4e31-97ee-dc06433812b9",
+      "key": "fc32153e-5242-46ee-8606-d8bd4dd24ea5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -89,7 +89,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "377fac98-d8ba-4ad7-9354-aab714a5b42f"
+        "d5ffaa9d-a8f3-4204-9121-b1829a4c12a9"
       ]
     },
     {
@@ -102,7 +102,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "377fac98-d8ba-4ad7-9354-aab714a5b42f",
+      "key": "d5ffaa9d-a8f3-4204-9121-b1829a4c12a9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -112,7 +112,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "eb31b843-8741-401b-87ba-823973eaa865"
+        "d52db5c2-6f0f-4ec6-b91f-8250876e648e"
       ]
     },
     {
@@ -125,7 +125,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "eb31b843-8741-401b-87ba-823973eaa865",
+      "key": "d52db5c2-6f0f-4ec6-b91f-8250876e648e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -135,7 +135,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8c32d9c1-1a02-4ed4-85db-3dc02ac78f15"
+        "a67d7b69-425f-428b-8e5c-ceefdd4cecd4"
       ]
     },
     {
@@ -148,7 +148,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "8c32d9c1-1a02-4ed4-85db-3dc02ac78f15",
+      "key": "a67d7b69-425f-428b-8e5c-ceefdd4cecd4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -158,7 +158,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "98f51bed-96a6-49b1-adb2-1bd21bc13214"
+        "51f3de79-26c5-46a0-a2a6-d3370debb582"
       ]
     },
     {
@@ -171,7 +171,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "98f51bed-96a6-49b1-adb2-1bd21bc13214",
+      "key": "51f3de79-26c5-46a0-a2a6-d3370debb582",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -218,8 +218,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-12-04T16:39:37.401847Z",
-          "2025-12-04T16:39:37.401847Z"
+          "2025-12-04T16:59:17.300974Z",
+          "2025-12-04T16:59:17.300974Z"
         ]
       ]
     }

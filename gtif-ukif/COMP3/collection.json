@@ -29,27 +29,9 @@
       "collection_group": "Other"
     },
     {
-      "rel": "child",
-      "href": "./decarbonizing_zones/collection.json",
-      "type": "application/json",
-      "title": "Decarbonizing Zones",
-      "endpointtype": "GeoJSON source",
-      "id": "decarbonizing_zones",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Heat Island"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -60,7 +42,7 @@
     {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -71,7 +53,7 @@
     {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
+      "type": "image/jpeg",
       "title": "Terrain Light",
       "roles": [
         "baselayer",
@@ -80,9 +62,17 @@
       "id": "terrain-light"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP3/decarbonization_zones_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Decarbonizing_Zones"
+      ]
+    },
+    {
       "rel": "xyz",
       "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
+      "type": "image/png",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -91,129 +81,11 @@
       "id": "overlay_bright"
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "a519535b-038e-4fc4-88f7-467547becb54"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Solar Panels © UCL/Oxford 2025",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SolarPanels",
-      "key": "a519535b-038e-4fc4-88f7-467547becb54",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "a0ebd842-a900-4783-aa55-573d0bc486e1"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Site of Special Scientific Interest",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SSSI",
-      "key": "a0ebd842-a900-4783-aa55-573d0bc486e1",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "90a1f176-4525-4159-b157-459516540ca1"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "National Parks",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "NationalParks",
-      "key": "90a1f176-4525-4159-b157-459516540ca1",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "999f4df2-633b-478b-80fa-f3d739a22373"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Natural Landscapes",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "AONB",
-      "key": "999f4df2-633b-478b-80fa-f3d739a22373",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "d305ae89-13bc-4e5d-ad33-c7e8efe49a04"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Water Mask",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "MapboxWaterMask",
-      "key": "d305ae89-13bc-4e5d-ad33-c7e8efe49a04",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -225,34 +97,30 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "auth:schemes": {
-    "mapboxauth": {
-      "type": "apiKey",
-      "name": "access_token",
-      "in": "query"
-    }
+  "eox:colorlegend": {
+    "title": "Benefit",
+    "range": [
+      "rgb(0, 255, 0)",
+      "rgb(255, 153, 0)",
+      "rgb(255, 0, 0)"
+    ],
+    "domain": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "scaleType": "categorical"
   },
+  "merge_assets": false,
   "title": "Dublin: Where can UHI decrease?",
   "extent": {
     "spatial": {
       "bbox": [
         [
           -6.290874,
-          -6.4,
-          53.34,
-          53.355937
-        ],
-        [
-          -6.290874,
           53.33398,
           -6.225986,
           53.355937
-        ],
-        [
-          53.26,
-          -6.4,
-          53.34,
-          -6.1
         ]
       ]
     },
@@ -260,7 +128,7 @@
       "interval": [
         [
           "2018-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
@@ -270,5 +138,16 @@
     "themes": [
       "sustainable-cities"
     ]
+  },
+  "assets": {
+    "Decarbonizing_Zones": {
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/decarbonizing_zones.geojson",
+      "type": "application/geo+json",
+      "title": "Decarbonizing Zones",
+      "roles": [
+        "overlay",
+        "visible"
+      ]
+    }
   }
 }
