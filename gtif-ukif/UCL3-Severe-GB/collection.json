@@ -1,0 +1,265 @@
+{
+  "type": "Collection",
+  "id": "UCL3-Severe-GB",
+  "stac_version": "1.1.0",
+  "description": "Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-Severe-GB/collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (SE GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL3-Severe-GB",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "('image/png',)",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "f2f0c3a6-9be3-4222-895b-0a8c970e656e"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Solar Panels © UCL/Oxford 2025",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SolarPanels",
+      "key": "f2f0c3a6-9be3-4222-895b-0a8c970e656e",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "bd2c4173-7f41-4648-b672-41c60f87136f"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Site of Special Scientific Interest",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SSSI",
+      "key": "bd2c4173-7f41-4648-b672-41c60f87136f",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "30436bd1-722a-4277-9e6b-4b61bd9a2126"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "National Parks",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "NationalParks",
+      "key": "30436bd1-722a-4277-9e6b-4b61bd9a2126",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "10cd765c-5d84-440c-a869-e149d7fe46ab"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Natural Landscapes",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "AONB",
+      "key": "10cd765c-5d84-440c-a869-e149d7fe46ab",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "5b3f9aa7-7a33-4e83-b5e3-d1f5cc822345"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Water Mask",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "MapboxWaterMask",
+      "key": "5b3f9aa7-7a33-4e83-b5e3-d1f5cc822345",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      1000
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5"
+  },
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
+  "title": "Severe Air Quality (SE GB)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-09T00:00:00Z",
+          "2022-12-17T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "mobility-transition"
+    ]
+  }
+}

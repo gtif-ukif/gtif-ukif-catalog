@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "UCL3",
+  "stac_version": "1.1.0",
+  "description": "A 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL3/2018/MODIS-PM2.5-20181122_V1_UKIF_cog_reprocessed.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-22T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
+      "type": "image/png",
+      "title": "UCL3"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Poor Air Quality across the whole UK-Ireland-France area"
+    }
+  ],
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      1000
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Poor Air Quality across the whole UK-Ireland-France area",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-11-22T00:00:00Z",
+          "2018-11-22T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

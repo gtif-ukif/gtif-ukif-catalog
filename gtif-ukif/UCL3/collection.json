@@ -1,0 +1,265 @@
+{
+  "type": "Collection",
+  "id": "UCL3",
+  "stac_version": "1.1.0",
+  "description": "A 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3/collection.json",
+      "type": "application/json",
+      "title": "Poor Air Quality across the whole UK-Ireland-France area",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL3",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "('image/png',)",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "e684c1ab-0f2b-4002-a800-2d49ac4fde0b"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Solar Panels © UCL/Oxford 2025",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SolarPanels",
+      "key": "e684c1ab-0f2b-4002-a800-2d49ac4fde0b",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "a3467e02-ffae-46d9-a0e6-89e4f91fe02b"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Site of Special Scientific Interest",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SSSI",
+      "key": "a3467e02-ffae-46d9-a0e6-89e4f91fe02b",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "c5ab3669-36d5-4978-946b-5969faaccd6e"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "National Parks",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "NationalParks",
+      "key": "c5ab3669-36d5-4978-946b-5969faaccd6e",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "ab7c3d73-44f9-4d81-9102-f70fbb46070d"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Natural Landscapes",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "AONB",
+      "key": "ab7c3d73-44f9-4d81-9102-f70fbb46070d",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "f91bdd5b-cb6f-45bf-8ef3-5c05cc3fb1d4"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Water Mask",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "MapboxWaterMask",
+      "key": "f91bdd5b-cb6f-45bf-8ef3-5c05cc3fb1d4",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      1000
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5"
+  },
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
+  "title": "Poor Air Quality across the whole UK-Ireland-France area",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-11-22T00:00:00Z",
+          "2018-11-22T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "mobility-transition"
+    ]
+  }
+}
