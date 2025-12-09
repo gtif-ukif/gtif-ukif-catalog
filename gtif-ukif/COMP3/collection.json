@@ -63,17 +63,6 @@
     },
     {
       "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "terrain-light"
-    },
-    {
-      "rel": "xyz",
       "href": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
       "type": "image/jpeg",
       "title": "ESRI World Imagery",
