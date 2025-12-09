@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "Ireland_2020_Aug_NDVI_COG",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -10.894972684745161,
+          51.132787124851625
+        ],
+        [
+          -5.485321317191721,
+          51.095293192897806
+        ],
+        [
+          -5.097344144376162,
+          55.56064640538563
+        ],
+        [
+          -11.104591164873993,
+          55.60473592572955
+        ],
+        [
+          -10.894972684745161,
+          51.132787124851625
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -11.104591164873993,
+    51.095293192897806,
+    -5.097344144376162,
+    55.60473592572955
+  ],
+  "properties": {
+    "datetime": "2020-08-01T00:00:00Z",
+    "proj:bbox": [
+      367415.54247,
+      5666298.86502,
+      746085.54247,
+      6164098.86502
+    ],
+    "proj:shape": [
+      49780,
+      37867
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            367415.54247,
+            5666298.86502
+          ],
+          [
+            746085.54247,
+            5666298.86502
+          ],
+          [
+            746085.54247,
+            6164098.86502
+          ],
+          [
+            367415.54247,
+            6164098.86502
+          ],
+          [
+            367415.54247,
+            5666298.86502
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      10.0,
+      0.0,
+      367415.54247,
+      0.0,
+      -10.0,
+      6164098.86502,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:32629"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-Ireland/items/Ireland_2020_Aug_NDVI_COG/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
+      "type": "image/png",
+      "title": "NDVI (Ireland)",
+      "key": "d135956a-3256-4dfa-93bb-b1099d1c69e3"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "NDVI (Ireland)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "NDVI (Ireland)"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "s3://gtif-ukif/drought/ndvi/ireland/Ireland_2020_Aug_NDVI_COG.tif",
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": -3.4028234663852886e38,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float32",
+          "histogram": {
+            "max": 1.0434842109680176,
+            "min": -0.283180832862854,
+            "count": 11,
+            "buckets": [
+              8,
+              141,
+              11814,
+              47661,
+              40200,
+              38032,
+              51657,
+              116901,
+              203733,
+              2891
+            ]
+          },
+          "statistics": {
+            "mean": 0.6350456130929872,
+            "stddev": 0.23509142646712985,
+            "maximum": 1.0434842109680176,
+            "minimum": -0.283180832862854,
+            "valid_percent": 64.31497713414635
+          }
+        }
+      ],
+      "roles": []
+    }
+  },
+  "collection": "UCL2-NDVI-Ireland"
+}

@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/statistics?assets=asset",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland/statistics?assets=asset",
       "type": "application/json",
       "id": "veda_statistics",
       "method": "POST",
@@ -160,7 +160,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c433359c-dac1-4287-84c0-268ca4565388"
+        "cf7c8eeb-c92c-406d-b184-4c0cc175514a"
       ]
     },
     {
@@ -173,7 +173,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "c433359c-dac1-4287-84c0-268ca4565388",
+      "key": "cf7c8eeb-c92c-406d-b184-4c0cc175514a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -183,7 +183,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cefa6165-7f11-4813-bdbd-c81767556450"
+        "ce44f2a1-7b54-4b06-9c71-3f1e41695329"
       ]
     },
     {
@@ -196,7 +196,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "cefa6165-7f11-4813-bdbd-c81767556450",
+      "key": "ce44f2a1-7b54-4b06-9c71-3f1e41695329",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -206,7 +206,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "896ed287-1926-4eae-950b-39121a6a3406"
+        "8d4db428-acbe-4435-9963-33e299f62370"
       ]
     },
     {
@@ -219,7 +219,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "896ed287-1926-4eae-950b-39121a6a3406",
+      "key": "8d4db428-acbe-4435-9963-33e299f62370",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -229,7 +229,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "03384832-09b2-4e51-b598-fc4f85be79cd"
+        "5fdbace6-6377-4ba2-b202-7540de576df4"
       ]
     },
     {
@@ -242,7 +242,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "03384832-09b2-4e51-b598-fc4f85be79cd",
+      "key": "5fdbace6-6377-4ba2-b202-7540de576df4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -252,7 +252,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0f889da8-4b65-4d3a-ad89-2d76a09d0518"
+        "e6f76c54-4e5b-4413-a7b8-96c201e1c5af"
       ]
     },
     {
@@ -265,7 +265,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "0f889da8-4b65-4d3a-ad89-2d76a09d0518",
+      "key": "e6f76c54-4e5b-4413-a7b8-96c201e1c5af",
       "auth:refs": [
         "mapboxauth"
       ]

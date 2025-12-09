@@ -1,0 +1,153 @@
+{
+  "type": "Collection",
+  "id": "UCL2-NDVI-Ireland",
+  "stac_version": "1.1.0",
+  "description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Aug_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Jul_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Jun_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_May_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Apr_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Mar_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Aug_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Jul_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Jun_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_May_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Apr_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Mar_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-01T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
+      "type": "image/png",
+      "title": "NDVI (Ireland)",
+      "key": "eefd5f66-bb21-48ee-bdb1-da2939eaeb2b"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "NDVI"
+    }
+  ],
+  "themes": [
+    "food-security"
+  ],
+  "tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -0.9,
+      0.975
+    ],
+    "range": [
+      "#000000",
+      "#131313",
+      "#262626",
+      "#393939",
+      "#4b4b4b",
+      "#cf3000",
+      "#ffb300",
+      "#bde300",
+      "#339200",
+      "#004308"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "NDVI"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "NDVI (Ireland)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.104591164873993,
+          51.095293192897806,
+          -5.097344144376162,
+          55.60473592572955
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

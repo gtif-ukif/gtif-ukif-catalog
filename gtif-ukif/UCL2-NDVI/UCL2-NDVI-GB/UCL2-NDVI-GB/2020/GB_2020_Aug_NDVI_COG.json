@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "GB_2020_Aug_NDVI_COG",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -7.741215998590961,
+          48.781349973068224
+        ],
+        [
+          1.5570169341129025,
+          48.78879610787432
+        ],
+        [
+          3.1707659683374008,
+          60.87956808588977
+        ],
+        [
+          -9.419263296774696,
+          60.86789395524872
+        ],
+        [
+          -7.741215998590961,
+          48.781349973068224
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -9.419263296774696,
+    48.781349973068224,
+    3.1707659683374008,
+    60.87956808588977
+  ],
+  "properties": {
+    "datetime": "2020-08-01T00:00:00Z",
+    "proj:bbox": [
+      151752.3094,
+      5413999.8253,
+      834672.3094,
+      6765139.8253
+    ],
+    "proj:shape": [
+      135114,
+      68292
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            151752.3094,
+            5413999.8253
+          ],
+          [
+            834672.3094,
+            5413999.8253
+          ],
+          [
+            834672.3094,
+            6765139.8253
+          ],
+          [
+            151752.3094,
+            6765139.8253
+          ],
+          [
+            151752.3094,
+            5413999.8253
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      10.0,
+      0.0,
+      151752.3094,
+      0.0,
+      -10.0,
+      6765139.8253,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:32630"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-GB/items/GB_2020_Aug_NDVI_COG/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
+      "type": "image/png",
+      "title": "NDVI (GB)",
+      "key": "8e4e2c3f-52a1-46d0-b9de-7f8ef24020c2"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "NDVI (GB)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "NDVI (GB)"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "s3://gtif-ukif/drought/ndvi/gb/GB_2020_Aug_NDVI_COG.tif",
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": -3.4028234663852886e38,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float32",
+          "histogram": {
+            "max": 0.9677983522415161,
+            "min": -0.8825466632843018,
+            "count": 11,
+            "buckets": [
+              59,
+              85,
+              224,
+              947,
+              3021,
+              24120,
+              36528,
+              58222,
+              78365,
+              30388
+            ]
+          },
+          "statistics": {
+            "mean": 0.5332592788488483,
+            "stddev": 0.2301963927345375,
+            "maximum": 0.9677983522415161,
+            "minimum": -0.8825466632843018,
+            "valid_percent": 43.730204814189186
+          }
+        }
+      ],
+      "roles": []
+    }
+  },
+  "collection": "UCL2-NDVI-GB"
+}

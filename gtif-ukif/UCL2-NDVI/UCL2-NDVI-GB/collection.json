@@ -1,0 +1,93 @@
+{
+  "type": "Collection",
+  "id": "UCL2-NDVI-GB",
+  "stac_version": "1.1.0",
+  "description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-GB/2022/GB_2022_Aug_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-NDVI-GB/2020/GB_2020_Aug_NDVI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-01T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
+      "type": "image/png",
+      "title": "NDVI (GB)",
+      "key": "c07bcada-51c8-469c-ba2d-7200160dbe2c"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "NDVI"
+    }
+  ],
+  "themes": [
+    "food-security"
+  ],
+  "tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -0.9,
+      0.975
+    ],
+    "range": [
+      "#000000",
+      "#131313",
+      "#262626",
+      "#393939",
+      "#4b4b4b",
+      "#cf3000",
+      "#ffb300",
+      "#bde300",
+      "#339200",
+      "#004308"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "NDVI"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "NDVI (GB)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -9.419263296774696,
+          48.781349973068224,
+          3.1707659683374008,
+          60.87956808588977
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-08-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
