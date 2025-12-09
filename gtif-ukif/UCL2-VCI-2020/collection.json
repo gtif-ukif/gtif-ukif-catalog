@@ -1,0 +1,340 @@
+{
+  "type": "Collection",
+  "id": "UCL2-VCI-2020",
+  "stac_version": "1.1.0",
+  "description": "VCI (Vegetation Condition Index) is a measure of the vegetation condition based on the normalized difference vegetation index (NDVI).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-VCI-2020/collection.json",
+      "type": "application/json",
+      "title": "VCI (Ireland) 2020",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-VCI-2020",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "type": "image/jpeg",
+      "title": "ESRI World Imagery",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "esri-world-imagery"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "type": "image/png",
+      "title": "ESA World Cover WC21 UK Mosaic",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21",
+      "eox:colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Cropland",
+          "Grassland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Filtered)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-filtered",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Grassland",
+          "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "e4e84113-b7b2-41b0-9c81-dc819bf67939"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Solar Panels © UCL/Oxford 2025",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SolarPanels",
+      "key": "e4e84113-b7b2-41b0-9c81-dc819bf67939",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "92572d96-8382-4786-8299-17d83af0ec87"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Site of Special Scientific Interest",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SSSI",
+      "key": "92572d96-8382-4786-8299-17d83af0ec87",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "f3567e86-9c90-47c3-b2a5-3720388c1ad6"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "National Parks",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "NationalParks",
+      "key": "f3567e86-9c90-47c3-b2a5-3720388c1ad6",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "e54801ce-7830-46eb-acc2-976747bea4d6"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Natural Landscapes",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "AONB",
+      "key": "e54801ce-7830-46eb-acc2-976747bea4d6",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "c466b588-c55d-425a-b3e4-a475f0189c82"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Water Mask",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "MapboxWaterMask",
+      "key": "c466b588-c55d-425a-b3e4-a475f0189c82",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
+  "themes": [
+    "food-security"
+  ],
+  "tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -1,
+      1
+    ],
+    "range": [
+      "#000000",
+      "#131313",
+      "#262626",
+      "#393939",
+      "#4b4b4b",
+      "#cf3000",
+      "#ffb300",
+      "#bde300",
+      "#339200",
+      "#004308"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "VCI"
+  },
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
+  "title": "VCI (Ireland) 2020",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.104591164873993,
+          51.095293192897806,
+          -5.097344144376162,
+          55.60473592572955
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-01T00:00:00Z",
+          "2020-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "food-security"
+    ]
+  }
+}

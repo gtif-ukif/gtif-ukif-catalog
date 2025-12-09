@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "Ireland_2022_Jun_VCI_COG",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -10.894972684745161,
+          51.132787124851625
+        ],
+        [
+          -5.485321317191721,
+          51.095293192897806
+        ],
+        [
+          -5.097344144376162,
+          55.56064640538563
+        ],
+        [
+          -11.104591164873993,
+          55.60473592572955
+        ],
+        [
+          -10.894972684745161,
+          51.132787124851625
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -11.104591164873993,
+    51.095293192897806,
+    -5.097344144376162,
+    55.60473592572955
+  ],
+  "properties": {
+    "datetime": "2022-06-01T00:00:00Z",
+    "proj:bbox": [
+      367415.54247,
+      5666298.86502,
+      746085.54247,
+      6164098.86502
+    ],
+    "proj:shape": [
+      49780,
+      37867
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            367415.54247,
+            5666298.86502
+          ],
+          [
+            746085.54247,
+            5666298.86502
+          ],
+          [
+            746085.54247,
+            6164098.86502
+          ],
+          [
+            367415.54247,
+            6164098.86502
+          ],
+          [
+            367415.54247,
+            5666298.86502
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      10.0,
+      0.0,
+      367415.54247,
+      0.0,
+      -10.0,
+      6164098.86502,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:32629"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-VCI-2022/items/Ireland_2022_Jun_VCI_COG/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-1,1",
+      "type": "image/png",
+      "title": "VCI (Ireland) 2022",
+      "key": "85c12a8e-6528-4136-90fa-b0fad8d985ab"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "VCI (Ireland) 2022"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "VCI (Ireland) 2022"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "s3://gtif-ukif/drought/vci/ireland/Ireland_2022_Jun_VCI_COG.tif",
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": -3.4028234663852886e38,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float32",
+          "histogram": {
+            "max": 1.2865296602249146,
+            "min": -0.2553027272224426,
+            "count": 11,
+            "buckets": [
+              59,
+              3530,
+              21206,
+              33689,
+              41031,
+              58304,
+              73532,
+              68430,
+              36679,
+              15
+            ]
+          },
+          "statistics": {
+            "mean": 0.6511118953859871,
+            "stddev": 0.2632825956552378,
+            "maximum": 1.2865296602249146,
+            "minimum": -0.2553027272224426,
+            "valid_percent": 42.18085586489089
+          }
+        }
+      ],
+      "roles": []
+    }
+  },
+  "collection": "UCL2-VCI-2022"
+}

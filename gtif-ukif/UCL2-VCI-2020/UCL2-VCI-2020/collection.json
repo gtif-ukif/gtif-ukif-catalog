@@ -1,0 +1,117 @@
+{
+  "type": "Collection",
+  "id": "UCL2-VCI-2020",
+  "stac_version": "1.1.0",
+  "description": "VCI (Vegetation Condition Index) is a measure of the vegetation condition based on the normalized difference vegetation index (NDVI).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Aug_VCI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Jul_VCI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Jun_VCI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-VCI-2020/2020/Ireland_2020_May_VCI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Apr_VCI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Mar_VCI_COG.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-01T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-VCI-2020/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-100,100",
+      "type": "image/png",
+      "title": "VCI (Ireland) 2020",
+      "key": "6bc41a17-d9b6-45b8-9c9f-13e4a29a9f8a"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "VCI (Ireland) 2020"
+    }
+  ],
+  "themes": [
+    "food-security"
+  ],
+  "tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -1,
+      1
+    ],
+    "range": [
+      "#000000",
+      "#131313",
+      "#262626",
+      "#393939",
+      "#4b4b4b",
+      "#cf3000",
+      "#ffb300",
+      "#bde300",
+      "#339200",
+      "#004308"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "VCI"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "VCI (Ireland) 2020",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.104591164873993,
+          51.095293192897806,
+          -5.097344144376162,
+          55.60473592572955
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-01T00:00:00Z",
+          "2020-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
