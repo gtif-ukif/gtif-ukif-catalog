@@ -11,17 +11,11 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./UCL3/2018/MODIS-PM2.5-20181122_V1_UKIF_cog_reprocessed.json",
-      "type": "application/geo+json",
-      "datetime": "2018-11-22T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
       "type": "image/png",
       "title": "Poor Air Quality across the whole UK-Ireland-France area",
-      "key": "55e6cc2d-053e-4b19-8c0b-f8bdaf1367b3"
+      "key": "14306b53-f3c0-41ea-a4c0-4cc9b4fb8ae6"
     },
     {
       "rel": "parent",
@@ -83,5 +77,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

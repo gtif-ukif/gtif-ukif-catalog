@@ -11,23 +11,11 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./UCL2-NDVI-GB/2022/GB_2022_Aug_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2022-08-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-GB/2020/GB_2020_Aug_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-08-01T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
       "type": "image/png",
       "title": "NDVI (GB)",
-      "key": "6de14986-6af7-4923-a034-42cc530befda"
+      "key": "eae8ca0b-15d2-49f0-bd8f-d53430c9b80a"
     },
     {
       "rel": "parent",
@@ -89,5 +77,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

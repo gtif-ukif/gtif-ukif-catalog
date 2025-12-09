@@ -11,35 +11,11 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./EDA-methane-claire-oilfield/2020/claire_oilfield_methane_2020-10-29.json",
-      "type": "application/geo+json",
-      "datetime": "2020-10-29T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./EDA-methane-claire-oilfield/2020/claire_oilfield_methane_2020-10-09.json",
-      "type": "application/geo+json",
-      "datetime": "2020-10-09T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./EDA-methane-claire-oilfield/2020/claire_oilfield_methane_2020-09-24.json",
-      "type": "application/geo+json",
-      "datetime": "2020-09-24T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./EDA-methane-claire-oilfield/2020/claire_oilfield_methane_2020-09-09.json",
-      "type": "application/geo+json",
-      "datetime": "2020-09-09T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-claire-oilfield/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
       "type": "image/png",
       "title": "Claire Oilfield",
-      "key": "9924b584-c996-45ce-8caf-de69b9805918"
+      "key": "a4c3dcb0-caa5-4b1a-8fe4-091e8cb0bedc"
     },
     {
       "rel": "parent",
@@ -101,5 +77,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

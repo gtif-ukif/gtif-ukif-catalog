@@ -11,17 +11,11 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./COMP5/2022/UHI_UKIEFR_MEAN_2022_2024_cog.json",
-      "type": "application/geo+json",
-      "datetime": "2022-05-01T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&no_data=0&rescale=-1,1",
       "type": "image/png",
       "title": "UHI Mean 2022-2024",
-      "key": "a6d6faeb-4887-4a7f-bb1a-41ae1e5c6170"
+      "key": "7be52e8e-cb43-4c94-9f70-9e9f25fcc9c2"
     },
     {
       "rel": "parent",
@@ -83,5 +77,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

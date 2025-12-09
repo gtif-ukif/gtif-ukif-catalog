@@ -11,12 +11,6 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./COMP2/2023/2023-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2023-01-01T00:00:00Z"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -69,5 +63,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

@@ -11,17 +11,11 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./EDA-methane-korpezhe/2019/korpezhe_methane_2019-02-24.json",
-      "type": "application/geo+json",
-      "datetime": "2019-02-24T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-korpezhe/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
       "type": "image/png",
       "title": "Korpezhe",
-      "key": "f20ef9a6-5664-4282-bf9d-23af43d9c348"
+      "key": "560e5e76-2874-4f2e-a3e0-78024da2a8c8"
     },
     {
       "rel": "parent",
@@ -83,5 +77,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

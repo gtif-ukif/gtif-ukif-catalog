@@ -11,83 +11,11 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Aug_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2022-08-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Jul_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2022-07-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Jun_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2022-06-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_May_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2022-05-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Apr_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2022-04-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2022/Ireland_2022_Mar_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2022-03-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Aug_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-08-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Jul_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-07-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Jun_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_May_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Apr_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-NDVI-Ireland/2020/Ireland_2020_Mar_NDVI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-01T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
       "type": "image/png",
       "title": "NDVI (Ireland)",
-      "key": "d81153fe-5c25-4672-b801-0983f69a9561"
+      "key": "0d0340a2-4f91-48a6-82fb-78408562f629"
     },
     {
       "rel": "parent",
@@ -149,5 +77,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }

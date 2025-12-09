@@ -11,47 +11,11 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "item",
-      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Aug_VCI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-08-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Jul_VCI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-07-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Jun_VCI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-VCI-2020/2020/Ireland_2020_May_VCI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Apr_VCI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./UCL2-VCI-2020/2020/Ireland_2020_Mar_VCI_COG.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-01T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-VCI-2020/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-100,100",
       "type": "image/png",
       "title": "VCI (Ireland) 2020",
-      "key": "0290e614-34e0-436c-ab1a-dac1517d248f"
+      "key": "24846b50-a01a-4b75-b5e0-d94645d041b4"
     },
     {
       "rel": "parent",
@@ -113,5 +77,15 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
 }
