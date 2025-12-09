@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "COMP1",
+  "id": "COMP1_ind",
   "stac_version": "1.1.0",
   "description": "The following product shows the relationship between Building Efficiency Ratings (Energy Performance Certificates EPC in England). It shows cooler and warmer areas per small area of buildings. These small areas of buildings have a median BER/EPC rating of all buildings inside the geometry. This map shows that areas with a worse BER/EPC rating typically correspond to a higher UHI value. This is due to many surrounding factors, such as building location and population density, but also due to the energy efficiency of buildings. Buildings with a better BER/EPC rating typically correspond to a lower UHI value on hot days.",
   "links": [
@@ -27,6 +27,24 @@
         "ESA"
       ],
       "collection_group": "Building Efficiency Ratings"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP5/collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP5",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Urban Heat Island"
     },
     {
       "rel": "xyz",
@@ -88,7 +106,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ee4942c0-3de8-49d6-9b51-90b0630bc402"
+        "cecc96f4-5dbf-496a-bcf1-fcac42ba4f04"
       ]
     },
     {
@@ -101,7 +119,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "ee4942c0-3de8-49d6-9b51-90b0630bc402",
+      "key": "cecc96f4-5dbf-496a-bcf1-fcac42ba4f04",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -111,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2785d13f-bcd8-420b-b50d-72d169990e08"
+        "f2900792-95da-4e33-8374-4afcb3ee1eff"
       ]
     },
     {
@@ -124,7 +142,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2785d13f-bcd8-420b-b50d-72d169990e08",
+      "key": "f2900792-95da-4e33-8374-4afcb3ee1eff",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -134,7 +152,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9dcc1f0d-ef37-4a81-88b4-28a5fbf2601c"
+        "95061a5e-c0eb-4d4e-9fbe-3ef8b5155f47"
       ]
     },
     {
@@ -147,7 +165,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "9dcc1f0d-ef37-4a81-88b4-28a5fbf2601c",
+      "key": "95061a5e-c0eb-4d4e-9fbe-3ef8b5155f47",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -157,7 +175,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "54aa9da6-7a83-445c-b4f0-8bbdd02a1d91"
+        "9b582cfa-547b-433a-bd25-6794112a6608"
       ]
     },
     {
@@ -170,7 +188,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "54aa9da6-7a83-445c-b4f0-8bbdd02a1d91",
+      "key": "9b582cfa-547b-433a-bd25-6794112a6608",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -180,7 +198,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bbdbf17a-6a30-48bf-96f5-9e04e4ed70eb"
+        "a5658622-5ec7-4929-bfe9-4e0ac549dc61"
       ]
     },
     {
@@ -193,7 +211,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "bbdbf17a-6a30-48bf-96f5-9e04e4ed70eb",
+      "key": "a5658622-5ec7-4929-bfe9-4e0ac549dc61",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -218,20 +236,6 @@
     "ESA"
   ],
   "collection_group": "Building Efficiency Ratings",
-  "eox:colorlegend": {
-    "title": "Mean UHI (low/medium/high)",
-    "range": [
-      "rgb(0, 0, 4)",
-      "rgb(81, 18, 124, 0)",
-      "rgb(183, 55, 121)",
-      "rgb(252, 137, 97)",
-      "rgb(252, 253, 191)"
-    ],
-    "domain": [
-      -1,
-      1
-    ]
-  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -244,6 +248,12 @@
     "spatial": {
       "bbox": [
         [
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
+        ],
+        [
           -10.48,
           49.95,
           1.77,
@@ -254,7 +264,7 @@
     "temporal": {
       "interval": [
         [
-          "2023-01-01T00:00:00Z",
+          "2022-05-01T00:00:00Z",
           "2023-01-01T00:00:00Z"
         ]
       ]

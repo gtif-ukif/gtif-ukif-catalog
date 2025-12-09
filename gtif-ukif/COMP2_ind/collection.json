@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "COMP2",
+  "id": "COMP2_ind",
   "stac_version": "1.1.0",
   "description": "The following product shows the relationship between urban land cover classes and the urban heat island effect. It shows cooler and warmer areas within urban areas. What it also shows is the geometries of the different urban land cover classes, and what the mean urban heat island effect is in this area. It can be determined from this map that urban green spaces, sport and leisure facilities provide the most cooling during hot summer days. On the contrary, continuous urban fabric and industrial areas warm up considerably on hot days.",
   "links": [
@@ -27,6 +27,24 @@
         "ESA"
       ],
       "collection_group": "Land Cover"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP5/collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP5",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Urban Heat Island"
     },
     {
       "rel": "xyz",
@@ -88,7 +106,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "04519305-fbb6-4ff0-8e7f-42fe0f574e49"
+        "fc435551-4c0a-47c9-b602-60bfec8d756d"
       ]
     },
     {
@@ -101,7 +119,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "04519305-fbb6-4ff0-8e7f-42fe0f574e49",
+      "key": "fc435551-4c0a-47c9-b602-60bfec8d756d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -111,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "69db0a78-c6dd-4332-ba32-564b4f3d74b5"
+        "9cf32c0d-8cee-4a43-89d4-87607dfb6ad9"
       ]
     },
     {
@@ -124,7 +142,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "69db0a78-c6dd-4332-ba32-564b4f3d74b5",
+      "key": "9cf32c0d-8cee-4a43-89d4-87607dfb6ad9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -134,7 +152,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7bda66c2-f5cd-4de9-8922-4373fccfb9dd"
+        "8da4d04e-dbb4-493c-8352-6399bb4c2ff2"
       ]
     },
     {
@@ -147,7 +165,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "7bda66c2-f5cd-4de9-8922-4373fccfb9dd",
+      "key": "8da4d04e-dbb4-493c-8352-6399bb4c2ff2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -157,7 +175,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3de7ec1a-8cf2-4059-8349-48301be00753"
+        "3e30dcc9-2a3b-4382-913a-193bc27f3384"
       ]
     },
     {
@@ -170,7 +188,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "3de7ec1a-8cf2-4059-8349-48301be00753",
+      "key": "3e30dcc9-2a3b-4382-913a-193bc27f3384",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -180,7 +198,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "78b86dfb-e6fb-4372-9a36-512cfa97641a"
+        "ee18cfc7-0d45-4ba1-b137-3a5104b37ccd"
       ]
     },
     {
@@ -193,7 +211,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "78b86dfb-e6fb-4372-9a36-512cfa97641a",
+      "key": "ee18cfc7-0d45-4ba1-b137-3a5104b37ccd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -218,20 +236,6 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
-  "eox:colorlegend": {
-    "title": "Mean UHI (low/medium/high)",
-    "range": [
-      "rgb(0, 0, 4)",
-      "rgb(81, 18, 124, 0)",
-      "rgb(183, 55, 121)",
-      "rgb(252, 137, 97)",
-      "rgb(252, 253, 191)"
-    ],
-    "domain": [
-      -1,
-      1
-    ]
-  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -244,6 +248,12 @@
     "spatial": {
       "bbox": [
         [
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
+        ],
+        [
           -0.612126,
           51.333132,
           0.426082,
@@ -254,7 +264,7 @@
     "temporal": {
       "interval": [
         [
-          "2023-01-01T00:00:00Z",
+          "2022-05-01T00:00:00Z",
           "2023-01-01T00:00:00Z"
         ]
       ]
