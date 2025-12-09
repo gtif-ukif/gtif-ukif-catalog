@@ -103,7 +103,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/items/London_severe_day_20180112_COG/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
       "type": "image/png",
-      "title": "Severe Air Quality (SE GB)"
+      "title": "Severe Air Quality (SE GB)",
+      "key": "254b2f3f-a63c-4d2f-957e-cc0c62bc4048"
     },
     {
       "rel": "collection",

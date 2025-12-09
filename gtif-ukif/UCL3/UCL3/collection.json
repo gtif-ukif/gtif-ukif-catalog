@@ -20,7 +20,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
       "type": "image/png",
-      "title": "Poor Air Quality across the whole UK-Ireland-France area"
+      "title": "Poor Air Quality across the whole UK-Ireland-France area",
+      "key": "39eb045f-cc1c-41a4-8e77-c3adba625b0f"
     },
     {
       "rel": "parent",

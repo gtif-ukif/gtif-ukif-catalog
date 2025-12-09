@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP5",
   "stac_version": "1.1.0",
-  "description": "The Urban Heat Island (UHI) Map (2022–2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
+  "description": "The Urban Heat Island (UHI) Map (2022-2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
   "links": [
     {
       "rel": "root",
@@ -12,8 +12,16 @@
     },
     {
       "rel": "item",
-      "href": "./COMP5/1970/887c7e10-ad10-4d1a-a712-281180358add.json",
-      "type": "application/geo+json"
+      "href": "./COMP5/2022/UHI_UKIEFR_MEAN_2022_2024_cog.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-01T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-1,1",
+      "type": "image/png",
+      "title": "UHI Mean 2022-2024",
+      "key": "d9ae4b2c-5bbd-47b0-9641-5ece667c15b7"
     },
     {
       "rel": "parent",
@@ -32,24 +40,45 @@
     "ESA"
   ],
   "collection_group": "Urban Heat Island",
-  "endpointtype": "Collection-only",
+  "eox:colorlegend": {
+    "domain": [
+      -1,
+      1
+    ],
+    "range": [
+      "#67001f",
+      "#b51f2e",
+      "#dd7059",
+      "#f7b698",
+      "#fae7db",
+      "#e1ecf3",
+      "#a7cfe4",
+      "#559ec9",
+      "#246aae",
+      "#053061"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "[°C]"
+  },
+  "endpointtype": "VEDA_tiles",
   "title": "UHI Mean 2022-2024",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -12.185759,
-          49.142928,
-          3.087444,
-          59.9537806
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-12-05T15:01:28.279651Z",
-          null
+          "2022-05-01T00:00:00Z",
+          "2022-05-01T00:00:00Z"
         ]
       ]
     }

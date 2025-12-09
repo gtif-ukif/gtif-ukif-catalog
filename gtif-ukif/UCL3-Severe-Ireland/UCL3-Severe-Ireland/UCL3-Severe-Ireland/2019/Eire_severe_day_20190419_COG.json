@@ -103,7 +103,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/Eire_severe_day_20190419_COG/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
       "type": "image/png",
-      "title": "Severe Air Quality (Ireland)"
+      "title": "Severe Air Quality (Ireland)",
+      "key": "09091a69-a95d-447f-b156-c1f5c79fb102"
     },
     {
       "rel": "collection",

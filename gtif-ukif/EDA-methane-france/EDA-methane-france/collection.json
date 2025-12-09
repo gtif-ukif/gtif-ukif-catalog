@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "id": "EDA-methane-france",
+  "stac_version": "1.1.0",
+  "description": "Time series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-12-11.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-11T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-11-11.json",
+      "type": "application/geo+json",
+      "datetime": "2023-11-11T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-11-06.json",
+      "type": "application/geo+json",
+      "datetime": "2023-11-06T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-09-07.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-07T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-06-24.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-06-09.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-09T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-06-04.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-04T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-02-14.json",
+      "type": "application/geo+json",
+      "datetime": "2023-02-14T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-france/2023/france_methane_2023-01-30.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-30T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-france/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.9",
+      "type": "image/png",
+      "title": "France",
+      "key": "ec8abe33-cd1e-4a59-a843-d10d1501665e"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "France"
+    }
+  ],
+  "themes": [
+    "carbon-accounting"
+  ],
+  "tags": [
+    "Methane Emissions Analysis"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -0.15,
+      0.9
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "France",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          3.5828,
+          50.337170624471106,
+          3.6429293755288943,
+          50.3973
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-30T00:00:00Z",
+          "2023-12-11T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

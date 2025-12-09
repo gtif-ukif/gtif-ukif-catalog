@@ -103,7 +103,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/Eire_severe_day_20221209_COG/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
       "type": "image/png",
-      "title": "Severe Air Quality (Ireland)"
+      "title": "Severe Air Quality (Ireland)",
+      "key": "7fb06a95-c141-46f1-b8b7-2fe9fcdb90bc"
     },
     {
       "rel": "collection",

@@ -1,0 +1,507 @@
+{
+  "type": "Collection",
+  "id": "EDA-methane-madrid",
+  "stac_version": "1.1.0",
+  "description": "Time series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-12-27.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-12-24.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-12-22.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-12-19.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-19T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-12-17.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-17T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-12-14.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-14T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-12-02.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-02T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-11-24.json",
+      "type": "application/geo+json",
+      "datetime": "2023-11-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-11-22.json",
+      "type": "application/geo+json",
+      "datetime": "2023-11-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-11-19.json",
+      "type": "application/geo+json",
+      "datetime": "2023-11-19T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-10-10.json",
+      "type": "application/geo+json",
+      "datetime": "2023-10-10T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-10-05.json",
+      "type": "application/geo+json",
+      "datetime": "2023-10-05T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-30.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-28.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-25.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-23.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-23T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-20.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-20T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-13.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-13T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-10.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-10T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-08.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-08T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-09-05.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-05T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-24.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-24T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-21.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-21T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-19.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-19T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-16.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-16T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-14.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-14T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-11.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-11T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-06.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-06T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-04.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-04T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-08-01.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-07-30.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-07-27.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-07-25.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-07-20.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-20T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-07-15.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-15T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-07-10.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-10T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-07-07.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-07T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-07-02.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-02T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-06-30.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-06-27.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-06-25.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-06-22.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-06-15.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-15T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-06-05.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-05T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-05-31.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-31T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-05-18.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-18T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-05-13.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-13T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-05-11.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-11T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-05-06.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-06T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-05-01.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-04-26.json",
+      "type": "application/geo+json",
+      "datetime": "2023-04-26T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-04-18.json",
+      "type": "application/geo+json",
+      "datetime": "2023-04-18T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-04-11.json",
+      "type": "application/geo+json",
+      "datetime": "2023-04-11T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-04-08.json",
+      "type": "application/geo+json",
+      "datetime": "2023-04-08T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-04-06.json",
+      "type": "application/geo+json",
+      "datetime": "2023-04-06T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-03-27.json",
+      "type": "application/geo+json",
+      "datetime": "2023-03-27T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-03-19.json",
+      "type": "application/geo+json",
+      "datetime": "2023-03-19T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-03-12.json",
+      "type": "application/geo+json",
+      "datetime": "2023-03-12T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-03-04.json",
+      "type": "application/geo+json",
+      "datetime": "2023-03-04T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-03-02.json",
+      "type": "application/geo+json",
+      "datetime": "2023-03-02T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-02-25.json",
+      "type": "application/geo+json",
+      "datetime": "2023-02-25T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-02-22.json",
+      "type": "application/geo+json",
+      "datetime": "2023-02-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-02-17.json",
+      "type": "application/geo+json",
+      "datetime": "2023-02-17T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-02-05.json",
+      "type": "application/geo+json",
+      "datetime": "2023-02-05T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-02-02.json",
+      "type": "application/geo+json",
+      "datetime": "2023-02-02T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-01-31.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-31T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-01-28.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-01-23.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-23T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-01-21.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-21T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-01-18.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-18T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-madrid/2023/madrid_methane_2023-01-06.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-06T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.15",
+      "type": "image/png",
+      "title": "Madrid Spain",
+      "key": "7d7cdeb1-d2e7-4d8a-b745-c5382c57c7b0"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Madrid Spain"
+    }
+  ],
+  "themes": [
+    "carbon-accounting"
+  ],
+  "tags": [
+    "Methane Emissions Analysis"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -0.15,
+      0.15
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".2f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Madrid Spain",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -3.67,
+          40.229837822507584,
+          -3.6098378225075813,
+          40.29
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-06T00:00:00Z",
+          "2023-12-27T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

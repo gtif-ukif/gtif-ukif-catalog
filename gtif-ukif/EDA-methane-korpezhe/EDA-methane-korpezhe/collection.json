@@ -1,0 +1,87 @@
+{
+  "type": "Collection",
+  "id": "EDA-methane-korpezhe",
+  "stac_version": "1.1.0",
+  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of one large methane emission plume, and a non-plume that is caused by imperfect subtraction of the scenery between the two bands used. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "item",
+      "href": "./EDA-methane-korpezhe/2019/korpezhe_methane_2019-02-24.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-24T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-korpezhe/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
+      "type": "image/png",
+      "title": "Korpezhe",
+      "key": "aabe6994-5cca-423a-aeef-31a6dbd218c9"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Korpezhe"
+    }
+  ],
+  "themes": [
+    "carbon-accounting"
+  ],
+  "tags": [
+    "Methane Emissions Analysis"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -2,
+      2
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Korpezhe",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          54.1777,
+          38.4738980252747,
+          54.2177019747253,
+          38.5139
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-02-24T00:00:00Z",
+          "2019-02-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

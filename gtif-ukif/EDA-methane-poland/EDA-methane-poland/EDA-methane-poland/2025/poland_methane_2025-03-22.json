@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "poland_methane_2025-03-22",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          18.597369999999998,
+          49.93804792062679
+        ],
+        [
+          18.65745207937321,
+          49.93804792062679
+        ],
+        [
+          18.65745207937321,
+          49.99813
+        ],
+        [
+          18.597369999999998,
+          49.99813
+        ],
+        [
+          18.597369999999998,
+          49.93804792062679
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    18.597369999999998,
+    49.93804792062679,
+    18.65745207937321,
+    49.99813
+  ],
+  "properties": {
+    "datetime": "2025-03-22T00:00:00Z",
+    "proj:bbox": [
+      18.597369999999998,
+      49.93804792062679,
+      18.65745207937321,
+      49.99813
+    ],
+    "proj:shape": [
+      253,
+      253
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            18.597369999999998,
+            49.93804792062679
+          ],
+          [
+            18.65745207937321,
+            49.93804792062679
+          ],
+          [
+            18.65745207937321,
+            49.99813
+          ],
+          [
+            18.597369999999998,
+            49.99813
+          ],
+          [
+            18.597369999999998,
+            49.93804792062679
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00023747857459767966,
+      0.0,
+      18.597369999999998,
+      0.0,
+      -0.00023747857459767966,
+      49.99813,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland/items/poland_methane_2025-03-22/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.15",
+      "type": "image/png",
+      "title": "Poland",
+      "key": "0c74c97d-5a19-438c-afa9-0fcdd8032448"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Poland"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Poland"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "s3://gtif-ukif/carbon/poland/poland_methane_2025-03-22.tif",
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float32",
+          "histogram": {
+            "max": 0.08120130002498627,
+            "min": -1.7890288829803467,
+            "count": 11,
+            "buckets": [
+              1111,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              62898
+            ]
+          },
+          "statistics": {
+            "mean": 0.04873984243182599,
+            "stddev": 0.24424712863141193,
+            "maximum": 0.08120130002498627,
+            "minimum": -1.7890288829803467,
+            "valid_percent": 100.0
+          }
+        }
+      ],
+      "roles": []
+    }
+  },
+  "collection": "EDA-methane-poland"
+}

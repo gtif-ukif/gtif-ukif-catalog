@@ -1,0 +1,167 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "UHI_UKIEFR_MEAN_2022_2024_cog",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -10.732621857017984,
+          41.003601143635564
+        ],
+        [
+          16.216836666567666,
+          41.003601143635564
+        ],
+        [
+          16.216836666567666,
+          61.215695036324796
+        ],
+        [
+          -10.732621857017984,
+          61.215695036324796
+        ],
+        [
+          -10.732621857017984,
+          41.003601143635564
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -10.732621857017984,
+    41.003601143635564,
+    16.216836666567666,
+    61.215695036324796
+  ],
+  "properties": {
+    "datetime": "2022-05-01T00:00:00Z",
+    "proj:bbox": [
+      -10.732621857017984,
+      41.003601143635564,
+      16.216836666567666,
+      61.215695036324796
+    ],
+    "proj:shape": [
+      75000,
+      100000
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -10.732621857017984,
+            41.003601143635564
+          ],
+          [
+            16.216836666567666,
+            41.003601143635564
+          ],
+          [
+            16.216836666567666,
+            61.215695036324796
+          ],
+          [
+            -10.732621857017984,
+            61.215695036324796
+          ],
+          [
+            -10.732621857017984,
+            41.003601143635564
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00026949458523585647,
+      0.0,
+      -10.732621857017984,
+      0.0,
+      -0.00026949458523585647,
+      61.215695036324796,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/UHI_UKIEFR_MEAN_2022_2024_cog/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-1,1",
+      "type": "image/png",
+      "title": "UHI Mean 2022-2024",
+      "key": "5b7482b0-8750-4acf-9b7f-3db365d9cebe"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "s3://gtif-ukif/urban_heat/Urban Heat Island/UHI_UKIEFR_MEAN_2022_2024_cog.tif",
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float32",
+          "histogram": {
+            "max": 0.4259762763977051,
+            "min": -0.10530849546194077,
+            "count": 11,
+            "buckets": [
+              23,
+              736986,
+              43455,
+              3469,
+              1482,
+              645,
+              257,
+              80,
+              30,
+              5
+            ]
+          },
+          "statistics": {
+            "mean": 0.0014077689265832305,
+            "stddev": 0.011503038927912712,
+            "maximum": 0.4259762763977051,
+            "minimum": -0.10530849546194077,
+            "valid_percent": 0.00012715657552083332
+          }
+        }
+      ],
+      "roles": []
+    }
+  },
+  "collection": "COMP5"
+}

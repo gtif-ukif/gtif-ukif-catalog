@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "uk_methane_2023-06-15",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -2.11962,
+          51.930743012581736
+        ],
+        [
+          -2.079483012581734,
+          51.930743012581736
+        ],
+        [
+          -2.079483012581734,
+          51.97088
+        ],
+        [
+          -2.11962,
+          51.97088
+        ],
+        [
+          -2.11962,
+          51.930743012581736
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -2.11962,
+    51.930743012581736,
+    -2.079483012581734,
+    51.97088
+  ],
+  "properties": {
+    "datetime": "2023-06-15T00:00:00Z",
+    "proj:bbox": [
+      -2.11962,
+      51.930743012581736,
+      -2.079483012581734,
+      51.97088
+    ],
+    "proj:shape": [
+      167,
+      167
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -2.11962,
+            51.930743012581736
+          ],
+          [
+            -2.079483012581734,
+            51.930743012581736
+          ],
+          [
+            -2.079483012581734,
+            51.97088
+          ],
+          [
+            -2.11962,
+            51.97088
+          ],
+          [
+            -2.11962,
+            51.930743012581736
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00024034124202554415,
+      0.0,
+      -2.11962,
+      0.0,
+      -0.00024034124202554415,
+      51.97088,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-UK/items/uk_methane_2023-06-15/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
+      "type": "image/png",
+      "title": "Cheltenham UK",
+      "key": "7262af0d-6e5c-4d85-a4d0-69fef53e6522"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Cheltenham UK"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Cheltenham UK"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "s3://gtif-ukif/carbon/uk/uk_methane_2023-06-15.tif",
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float32",
+          "histogram": {
+            "max": 2.510258436203003,
+            "min": -4.901297569274902,
+            "count": 11,
+            "buckets": [
+              148,
+              434,
+              764,
+              1110,
+              929,
+              3433,
+              6766,
+              7934,
+              5907,
+              464
+            ]
+          },
+          "statistics": {
+            "mean": 0.08938404184333429,
+            "stddev": 1.2296903101163585,
+            "maximum": 2.510258436203003,
+            "minimum": -4.901297569274902,
+            "valid_percent": 100.0
+          }
+        }
+      ],
+      "roles": []
+    }
+  },
+  "collection": "EDA-methane-UK"
+}

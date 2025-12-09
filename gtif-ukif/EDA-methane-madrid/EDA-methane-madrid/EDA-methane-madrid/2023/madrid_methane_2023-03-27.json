@@ -1,0 +1,168 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
+  ],
+  "id": "madrid_methane_2023-03-27",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -3.67,
+          40.229837822507584
+        ],
+        [
+          -3.6098378225075813,
+          40.229837822507584
+        ],
+        [
+          -3.6098378225075813,
+          40.29
+        ],
+        [
+          -3.67,
+          40.29
+        ],
+        [
+          -3.67,
+          40.229837822507584
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -3.67,
+    40.229837822507584,
+    -3.6098378225075813,
+    40.29
+  ],
+  "properties": {
+    "datetime": "2023-03-27T00:00:00Z",
+    "proj:bbox": [
+      -3.67,
+      40.229837822507584,
+      -3.6098378225075813,
+      40.29
+    ],
+    "proj:shape": [
+      287,
+      287
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -3.67,
+            40.229837822507584
+          ],
+          [
+            -3.6098378225075813,
+            40.229837822507584
+          ],
+          [
+            -3.6098378225075813,
+            40.29
+          ],
+          [
+            -3.67,
+            40.29
+          ],
+          [
+            -3.67,
+            40.229837822507584
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00020962431182027308,
+      0.0,
+      -3.67,
+      0.0,
+      -0.00020962431182027308,
+      40.29,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:code": "EPSG:4326"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/madrid_methane_2023-03-27/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.15",
+      "type": "image/png",
+      "title": "Madrid Spain",
+      "key": "ed7d3587-95fe-4c1d-af30-07d0d2529dcf"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Madrid Spain"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Madrid Spain"
+    }
+  ],
+  "assets": {
+    "asset": {
+      "href": "s3://gtif-ukif/carbon/madrid/madrid_methane_2023-03-27.tif",
+      "eo:bands": [
+        {
+          "name": "b1",
+          "description": "gray"
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float32",
+          "histogram": {
+            "max": 0.6089412569999695,
+            "min": 0.4663817286491394,
+            "count": 11,
+            "buckets": [
+              62169,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              20200
+            ]
+          },
+          "statistics": {
+            "mean": 0.5013427097117847,
+            "stddev": 0.06133312342825154,
+            "maximum": 0.6089412569999695,
+            "minimum": 0.4663817286491394,
+            "valid_percent": 100.0
+          }
+        }
+      ],
+      "roles": []
+    }
+  },
+  "collection": "EDA-methane-madrid"
+}
