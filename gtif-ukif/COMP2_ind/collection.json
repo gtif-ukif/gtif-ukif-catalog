@@ -47,24 +47,6 @@
       "collection_group": "Urban Heat Island"
     },
     {
-      "rel": "child",
-      "href": "./COMP2_lcm/collection.json",
-      "type": "application/json",
-      "title": "Urban Classes and UHI",
-      "endpointtype": "VectorTile source",
-      "id": "COMP2_lcm",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Heat Island"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Land Cover"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -124,7 +106,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "add0f75a-53a0-433b-862b-91fb16dc583e"
+        "ed1447af-a828-4b72-8405-8a4e1199f020"
       ]
     },
     {
@@ -137,7 +119,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "add0f75a-53a0-433b-862b-91fb16dc583e",
+      "key": "ed1447af-a828-4b72-8405-8a4e1199f020",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -147,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9805fda8-0147-4d37-883e-01acdd906ce3"
+        "1c2300cd-ecea-4d18-8231-a5ba6071c588"
       ]
     },
     {
@@ -160,7 +142,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "9805fda8-0147-4d37-883e-01acdd906ce3",
+      "key": "1c2300cd-ecea-4d18-8231-a5ba6071c588",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -170,7 +152,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c690d006-e702-4b7b-b5c5-fecb1dc24113"
+        "a9504edc-d9a8-4493-b727-e9436a50ead1"
       ]
     },
     {
@@ -183,7 +165,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "c690d006-e702-4b7b-b5c5-fecb1dc24113",
+      "key": "a9504edc-d9a8-4493-b727-e9436a50ead1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -193,7 +175,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e9530c78-e63a-45f2-b96f-5d1fdfd92494"
+        "8b491e1f-f6c7-4cce-bc98-0b4d7f8db149"
       ]
     },
     {
@@ -206,7 +188,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "e9530c78-e63a-45f2-b96f-5d1fdfd92494",
+      "key": "8b491e1f-f6c7-4cce-bc98-0b4d7f8db149",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -216,7 +198,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "44d3bc3e-8ba1-407c-bf0f-a66671826071"
+        "4cdf3dc7-801c-481a-910f-7e4be2b7983b"
       ]
     },
     {
@@ -229,7 +211,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "44d3bc3e-8ba1-407c-bf0f-a66671826071",
+      "key": "4cdf3dc7-801c-481a-910f-7e4be2b7983b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,12 +252,6 @@
           41.003601143635564,
           16.216836666567666,
           61.215695036324796
-        ],
-        [
-          -0.612126,
-          51.333132,
-          0.426082,
-          51.699321
         ],
         [
           -0.612126,
