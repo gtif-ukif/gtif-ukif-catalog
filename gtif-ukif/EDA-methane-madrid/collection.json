@@ -82,6 +82,70 @@
     },
     {
       "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "type": "image/png",
+      "title": "ESA World Cover WC21 UK Mosaic",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21",
+      "eox:colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Cropland",
+          "Grassland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Filtered)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-filtered",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Grassland",
+          "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
       "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
       "title": "Overlay labels",
@@ -96,7 +160,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a35b3b5b-8594-4ab4-9a9e-a216e1c2d602"
+        "8f743f28-4e6c-49e7-b615-420fd0f6cf3e"
       ]
     },
     {
@@ -109,7 +173,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "a35b3b5b-8594-4ab4-9a9e-a216e1c2d602",
+      "key": "8f743f28-4e6c-49e7-b615-420fd0f6cf3e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -119,7 +183,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9256aa0c-020a-4b75-847c-30eab2467a98"
+        "c5d10dee-84a3-4543-bae3-460b3ae266eb"
       ]
     },
     {
@@ -132,7 +196,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "9256aa0c-020a-4b75-847c-30eab2467a98",
+      "key": "c5d10dee-84a3-4543-bae3-460b3ae266eb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -142,7 +206,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "84ed7fda-77ff-4f27-9988-5c001e232ed1"
+        "813c2ccb-afa3-4ec9-9ba9-ad0e56b22765"
       ]
     },
     {
@@ -155,7 +219,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "84ed7fda-77ff-4f27-9988-5c001e232ed1",
+      "key": "813c2ccb-afa3-4ec9-9ba9-ad0e56b22765",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -165,7 +229,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5e30c005-9509-4164-bdc0-c4c16f5810b1"
+        "42c4f172-c6d1-452d-8c37-76b37d01e86b"
       ]
     },
     {
@@ -178,7 +242,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "5e30c005-9509-4164-bdc0-c4c16f5810b1",
+      "key": "42c4f172-c6d1-452d-8c37-76b37d01e86b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -188,7 +252,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "09928daa-ac89-4736-ad4c-64ff9131416e"
+        "ebd1ee7a-b2a5-492e-97e1-d946289f6571"
       ]
     },
     {
@@ -201,7 +265,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "09928daa-ac89-4736-ad4c-64ff9131416e",
+      "key": "ebd1ee7a-b2a5-492e-97e1-d946289f6571",
       "auth:refs": [
         "mapboxauth"
       ]
