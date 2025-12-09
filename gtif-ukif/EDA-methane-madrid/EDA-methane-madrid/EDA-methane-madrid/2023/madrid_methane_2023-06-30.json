@@ -101,10 +101,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/madrid_methane_2023-06-30/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.15",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/madrid_methane_2023-06-30/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.1,0.6",
       "type": "image/png",
       "title": "Madrid Spain",
-      "key": "e64a3fce-905f-408d-9215-b65d648c62b0"
+      "key": "dbd653a9-f6a0-4651-927b-882c37fd0277"
     },
     {
       "rel": "collection",

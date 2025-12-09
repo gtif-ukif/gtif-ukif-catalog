@@ -101,10 +101,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland/items/poland_methane_2024-07-10/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.15",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland/items/poland_methane_2024-07-10/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,0.5",
       "type": "image/png",
       "title": "Poland",
-      "key": "adb7ef2f-3524-4a69-bf8e-c1a78d5acdc2"
+      "key": "2d5fac4f-1a20-4abc-8c48-1e74c3236d35"
     },
     {
       "rel": "collection",

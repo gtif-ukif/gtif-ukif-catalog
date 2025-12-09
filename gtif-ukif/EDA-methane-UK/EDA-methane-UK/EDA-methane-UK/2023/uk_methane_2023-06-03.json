@@ -101,10 +101,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-UK/items/uk_methane_2023-06-03/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-UK/items/uk_methane_2023-06-03/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
       "title": "Cheltenham UK",
-      "key": "fafb13a3-8e70-4c84-925d-ea034625b164"
+      "key": "09f0d5e4-952c-462a-8c9e-257cdc856fff"
     },
     {
       "rel": "collection",

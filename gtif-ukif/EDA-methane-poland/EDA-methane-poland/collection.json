@@ -108,10 +108,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.15",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,0.5",
       "type": "image/png",
       "title": "Poland",
-      "key": "0f1f93b7-45ae-4897-a4be-19039ca4acd5"
+      "key": "c5af604e-bf41-46f4-9e34-dfd177f3fe5e"
     },
     {
       "rel": "parent",
@@ -132,8 +132,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      -0.15,
-      0.15
+      -3,
+      0.5
     ],
     "range": [
       "#00004c",

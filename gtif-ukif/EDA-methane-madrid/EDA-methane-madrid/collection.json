@@ -438,10 +438,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.15",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.1,0.6",
       "type": "image/png",
       "title": "Madrid Spain",
-      "key": "62ac1244-8ebd-42c9-9c16-03939161b6cd"
+      "key": "3b34cd89-1543-4255-9a99-f62a16376a14"
     },
     {
       "rel": "parent",
@@ -462,8 +462,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      -0.15,
-      0.15
+      -0.1,
+      0.6
     ],
     "range": [
       "#00004c",
