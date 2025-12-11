@@ -1,0 +1,264 @@
+{
+  "type": "Collection",
+  "id": "COMP3",
+  "stac_version": "1.1.0",
+  "description": "The traffic light map of Dublin for 2018, 2021 and 2023 show which areas need to improve their BER ratings to decrease the local UHI effect. The red areas signify areas which can benefit from BER increases to decrease the UHI effect. Green areas will not benefit much UHI decrease with a BER increase. It shows changes between years, especially for decarbonising zones in Clonalkin, Dun Laoghaire/Blackrock and Ringsend. If these decarbonising zones are to become carbon neutral by 2050, they will require additional work on making the buildings in the area more energy efficient.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP3/collection.json",
+      "type": "application/json",
+      "title": "Dublin: Where can UHI decrease?",
+      "endpointtype": "VectorTile source",
+      "id": "COMP3",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "type": "image/jpeg",
+      "title": "ESRI World Imagery",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "esri-world-imagery"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "type": "image/png",
+      "title": "ESA World Cover WC21 UK Mosaic",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21",
+      "eox:colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Cropland",
+          "Grassland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Filtered)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-filtered",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Grassland",
+          "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COP-30-DEM-Mosaic/items/mosaic_COP30-UK+I+FRv2_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap_name=schwarzwald&rescale=0,1000&nodata=0",
+      "type": "image/png",
+      "title": "COP-30 DEM Mosaic",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "COP-30-DEM-Mosaic",
+      "eox:colorlegend": {
+        "title": "Elevation",
+        "range": [
+          "#aeefd5",
+          "#ebfcb2",
+          "#3eb032",
+          "#699535",
+          "#f4a602",
+          "#921201",
+          "#6f2108",
+          "#7f4c2f",
+          "#adadad",
+          "#e9e7e9"
+        ],
+        "domain": [
+          0,
+          1000
+        ]
+      }
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP3/decarbonization_zones_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Decarbonizing_Zones"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Heat Island"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "title": "Benefit",
+    "range": [
+      "rgb(0, 255, 0)",
+      "rgb(255, 153, 0)",
+      "rgb(255, 0, 0)"
+    ],
+    "domain": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "scaleType": "categorical"
+  },
+  "merge_assets": false,
+  "title": "Dublin: Where can UHI decrease?",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.290874,
+          53.33398,
+          -6.225986,
+          53.355937
+        ],
+        [
+          -6.290874,
+          53.33398,
+          -6.225986,
+          53.355937
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00Z",
+          "2018-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "sustainable-cities"
+    ]
+  },
+  "assets": {
+    "Decarbonizing_Zones": {
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/decarbonizing_zones.geojson",
+      "type": "application/geo+json",
+      "title": "Decarbonizing Zones",
+      "roles": [
+        "overlay",
+        "visible"
+      ]
+    }
+  }
+}
