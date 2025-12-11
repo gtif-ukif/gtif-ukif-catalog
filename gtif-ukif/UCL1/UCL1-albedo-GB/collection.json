@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&no_data=0",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
       "type": "image/png",
       "title": "RGB Albedo Layer GB",
-      "key": "ceafccab-6f5b-4fd1-b002-5642af3233db"
+      "key": "9d5247b1-92b4-4d29-8be8-bae21f659d7c"
     },
     {
       "rel": "parent",

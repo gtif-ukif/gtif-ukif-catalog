@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&no_data=0&rescale=-1,1",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu_r&nodata=0&rescale=-1,1",
       "type": "image/png",
       "title": "UHI Mean 2022-2024",
-      "key": "cd6cb29d-26cd-40d8-8fe8-5bfa4549d1ef"
+      "key": "ac9045cd-5ecc-4eeb-9db4-9a75ea67a5e7"
     },
     {
       "rel": "parent",
@@ -40,16 +40,16 @@
       1
     ],
     "range": [
-      "#67001f",
-      "#b51f2e",
-      "#dd7059",
-      "#f7b698",
-      "#fae7db",
-      "#e1ecf3",
-      "#a7cfe4",
-      "#559ec9",
+      "#053061",
       "#246aae",
-      "#053061"
+      "#559ec9",
+      "#a7cfe4",
+      "#e1ecf3",
+      "#fae7db",
+      "#f7b698",
+      "#dd7059",
+      "#b51f2e",
+      "#67001f"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
