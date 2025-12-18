@@ -24,14 +24,14 @@
     ],
     "Process": {
         "Name": "wake_effect",
-        "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/assets/refs/heads/tyna_methane_test/jsonforms/methane.json",
+        "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/tyna_methane_test/jsonforms/methane.json",
         "EndPoints": [
             {
                 "Identifier": "wake_effect_collection",
                 "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-test-methane-eoxhub-tyna/execution",
                 "Method": "POST",
                 "EndPoint": "eoxhub_workspaces",
-                "Body": "https://raw.githubusercontent.com/gtif-ukif/assets/refs/heads/tyna_methane_test/body/methane.json",
+                "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/tyna_methane_test/body/methane.json",
                 "Type": "image/tiff"
             }
         ]
