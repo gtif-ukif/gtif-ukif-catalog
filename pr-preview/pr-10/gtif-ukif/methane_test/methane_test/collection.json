@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "methane_test",
+  "stac_version": "1.1.0",
+  "description": "Methane test integration",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane Test"
+    }
+  ],
+  "themes": [
+    "Energy"
+  ],
+  "tags": [
+    "processing",
+    "capability"
+  ],
+  "satellite": [
+    "multiple"
+  ],
+  "sensor": [
+    "multiple"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Capabilities",
+  "endpointtype": "Collection-only",
+  "title": "Methane Test",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179,
+          55,
+          179,
+          89
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-12-18T09:11:31.838561Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
