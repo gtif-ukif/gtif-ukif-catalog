@@ -42,7 +42,7 @@
       "id": "wake_effect_collection",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-ukif/assets/refs/heads/tyna_methane_test/body/methane.json"
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/tyna_methane_test/body/methane.json"
     },
     {
       "rel": "xyz",
@@ -198,7 +198,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "35985337-8267-470c-825d-6d8e6706ee56"
+        "90594a3d-82ae-4bc3-84a2-9a8603e3bc84"
       ]
     },
     {
@@ -211,7 +211,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "35985337-8267-470c-825d-6d8e6706ee56",
+      "key": "90594a3d-82ae-4bc3-84a2-9a8603e3bc84",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -221,7 +221,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "da0ade31-bbfd-4461-9089-a8f0ccf7ad92"
+        "3e8b2d48-0b74-492a-9a04-631788a9db4e"
       ]
     },
     {
@@ -234,7 +234,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "da0ade31-bbfd-4461-9089-a8f0ccf7ad92",
+      "key": "3e8b2d48-0b74-492a-9a04-631788a9db4e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -244,7 +244,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c7b40e36-b119-4470-8761-ae3dcf8ebf6e"
+        "be6e3f6a-9a5d-454d-8f69-8596c2f32cf4"
       ]
     },
     {
@@ -257,7 +257,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "c7b40e36-b119-4470-8761-ae3dcf8ebf6e",
+      "key": "be6e3f6a-9a5d-454d-8f69-8596c2f32cf4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -267,7 +267,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2e142fd0-24c0-4241-8fba-c41bee87d574"
+        "eda648c5-719b-4dd6-b5dd-0cadd46a507c"
       ]
     },
     {
@@ -280,7 +280,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "2e142fd0-24c0-4241-8fba-c41bee87d574",
+      "key": "eda648c5-719b-4dd6-b5dd-0cadd46a507c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -290,7 +290,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8fbcdf1c-fd39-4a2e-8fa0-4775462f7f87"
+        "7ba43ce3-8fb7-4ee4-9b27-e264712c3648"
       ]
     },
     {
@@ -303,7 +303,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "8fbcdf1c-fd39-4a2e-8fa0-4775462f7f87",
+      "key": "7ba43ce3-8fb7-4ee4-9b27-e264712c3648",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -335,7 +335,7 @@
     "ESA"
   ],
   "collection_group": "Capabilities",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/refs/heads/tyna_methane_test/jsonforms/methane.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/tyna_methane_test/jsonforms/methane.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -358,8 +358,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-12-18T09:11:31.839814Z",
-          "2025-12-18T09:11:31.839814Z"
+          "2025-12-18T09:14:55.243372Z",
+          "2025-12-18T09:14:55.243372Z"
         ]
       ]
     }
