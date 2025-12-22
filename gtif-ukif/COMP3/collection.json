@@ -183,7 +183,8 @@
         "overlay",
         "invisible"
       ],
-      "id": "overlay_bright"
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
@@ -252,7 +253,7 @@
   },
   "assets": {
     "Decarbonizing_Zones": {
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/decarbonizing_zones.geojson",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/decarbonising_zones.geojson",
       "type": "application/geo+json",
       "title": "Decarbonizing Zones",
       "roles": [
