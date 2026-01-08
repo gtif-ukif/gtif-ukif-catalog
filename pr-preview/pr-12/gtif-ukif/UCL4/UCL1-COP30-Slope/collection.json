@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest",
       "type": "image/png",
       "title": "COP30 Slope",
-      "key": "f02d1371-8d8b-497f-85fb-495d19b2f3d9"
+      "key": "c89c4878-fafe-49b9-9ff2-37ba6f49c1e8"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "COP30 Slope"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [

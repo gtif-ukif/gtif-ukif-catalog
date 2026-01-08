@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-COP30-Slope",
+  "id": "UCL1-albedo-GB",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
       "type": "image/png",
-      "title": "COP30 Slope",
-      "key": "f02d1371-8d8b-497f-85fb-495d19b2f3d9"
+      "title": "RGB Albedo Layer GB",
+      "key": "afd9d0ef-949b-44b6-b471-7c62d205f81c"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "COP30 Slope"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -33,34 +33,25 @@
   "agency": [
     "ESA"
   ],
-  "eodash:mapProjection": "EPSG:3035",
-  "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
-    "scaleType": "continuous",
-    "markType": "rect"
-  },
-  "endpointtype": "VEDA_cog",
-  "title": "COP30 Slope",
+  "collection_group": "Other",
+  "endpointtype": "VEDA_tiles",
+  "title": "RGB Albedo Layer GB",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -9.419263296773103,
+          48.781349973035624,
+          3.1707659683262213,
+          60.879568085857684
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-04-24T00:00:00Z",
-          "2025-04-24T00:00:00Z"
+          "2020-08-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
         ]
       ]
     }

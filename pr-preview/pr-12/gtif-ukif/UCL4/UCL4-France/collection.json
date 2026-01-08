@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-COP30-Slope",
+  "id": "UCL4-France",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,183",
       "type": "image/png",
-      "title": "COP30 Slope",
-      "key": "f02d1371-8d8b-497f-85fb-495d19b2f3d9"
+      "title": "Photovoltaic Output France",
+      "key": "58c7e4d1-a1e3-4a5f-af2e-a8ca4a312901"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "COP30 Slope"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -33,34 +33,46 @@
   "agency": [
     "ESA"
   ],
-  "eodash:mapProjection": "EPSG:3035",
+  "collection_group": "Other",
   "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
+    "domain": [
+      2,
+      183
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
     "scaleType": "continuous",
-    "markType": "rect"
+    "tickFormat": ".0f",
+    "title": "Solar Power Output"
   },
-  "endpointtype": "VEDA_cog",
-  "title": "COP30 Slope",
+  "endpointtype": "VEDA_tiles",
+  "title": "Photovoltaic Output France",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -6.0,
+          41.0,
+          10.0,
+          52.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-04-24T00:00:00Z",
-          "2025-04-24T00:00:00Z"
+          "2019-01-01T00:00:00Z",
+          "2019-12-01T00:00:00Z"
         ]
       ]
     }
