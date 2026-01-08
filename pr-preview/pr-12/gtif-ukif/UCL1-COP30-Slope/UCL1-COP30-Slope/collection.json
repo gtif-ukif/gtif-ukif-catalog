@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "UCL1-COP30-Slope",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest",
+      "type": "image/png",
+      "title": "COP30 Slope",
+      "key": "591fabcb-208b-41a5-b328-237d61136965"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "COP30 Slope"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "eodash:mapProjection": "EPSG:3035",
+  "eox:colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaleType": "continuous",
+    "markType": "rect"
+  },
+  "endpointtype": "VEDA_cog",
+  "title": "COP30 Slope",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-24T00:00:00Z",
+          "2025-04-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

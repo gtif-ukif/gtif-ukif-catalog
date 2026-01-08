@@ -1,14 +1,32 @@
 {
   "type": "Collection",
-  "id": "",
+  "id": "UCL1-COP30-Slope",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-COP30-Slope/collection.json",
+      "type": "application/json",
+      "title": "COP30 Slope",
+      "endpointtype": "VEDA_cog",
+      "id": "UCL1-COP30-Slope",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "eodash:mapProjection": "EPSG:3035"
     },
     {
       "rel": "service",
@@ -171,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0918455e-6cee-4de8-81ca-a854791e405f"
+        "89f82734-13a0-4fde-99a1-fbf731f9a1dd"
       ]
     },
     {
@@ -184,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "0918455e-6cee-4de8-81ca-a854791e405f",
+      "key": "89f82734-13a0-4fde-99a1-fbf731f9a1dd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "29078ae3-be24-4052-93f4-f877d1e1a748"
+        "f00120e6-737e-433f-843a-5741a5f0c8be"
       ]
     },
     {
@@ -207,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "29078ae3-be24-4052-93f4-f877d1e1a748",
+      "key": "f00120e6-737e-433f-843a-5741a5f0c8be",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -217,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "df84b557-ccc6-4251-94c6-26d79738128a"
+        "133e6cfd-b464-45fe-a89a-8131bd122e9a"
       ]
     },
     {
@@ -230,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "df84b557-ccc6-4251-94c6-26d79738128a",
+      "key": "133e6cfd-b464-45fe-a89a-8131bd122e9a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -240,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6174b593-fcd6-407b-9e23-f30cfe5e9c91"
+        "a99e30ca-79cc-4a11-ae46-7d0e6167b5a6"
       ]
     },
     {
@@ -253,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "6174b593-fcd6-407b-9e23-f30cfe5e9c91",
+      "key": "a99e30ca-79cc-4a11-ae46-7d0e6167b5a6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -263,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "865b89a4-8b19-467c-99b8-f4cf8cc60697"
+        "21f05877-9f24-4518-afd9-5900220dea1b"
       ]
     },
     {
@@ -276,14 +294,14 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "865b89a4-8b19-467c-99b8-f4cf8cc60697",
+      "key": "21f05877-9f24-4518-afd9-5900220dea1b",
       "auth:refs": [
         "mapboxauth"
       ]
     },
     {
       "rel": "parent",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
@@ -291,16 +309,16 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
-  "eodash:mapProjection": {
-    "name": "",
-    "def": "",
-    "extent": [
-      "",
-      "",
-      "",
-      ""
-    ]
-  },
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "eodash:mapProjection": "EPSG:3035",
   "eox:colorlegend": {
     "title": "",
     "range": [],
@@ -317,26 +335,37 @@
       "in": "query"
     }
   },
-  "title": "",
+  "title": "COP30 Slope",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
+        ],
+        [
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-01-08T19:19:33.591441Z",
-          null
+          "2025-04-24T00:00:00Z",
+          "2025-04-24T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "energy-transition"
+    ]
+  }
 }

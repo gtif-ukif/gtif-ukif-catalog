@@ -12,20 +12,20 @@
     },
     {
       "rel": "child",
-      "href": "./collection.json",
+      "href": "./UCL1-COP30-Slope/collection.json",
       "type": "application/json",
-      "title": "",
-      "id": "",
-      "eodash:mapProjection": {
-        "name": "",
-        "def": "",
-        "extent": [
-          "",
-          "",
-          "",
-          ""
-        ]
-      }
+      "title": "COP30 Slope",
+      "id": "UCL1-COP30-Slope",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "eodash:mapProjection": "EPSG:3035"
     },
     {
       "rel": "self",
