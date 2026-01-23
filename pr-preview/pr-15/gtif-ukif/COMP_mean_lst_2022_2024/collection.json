@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ba84e4a8-d83f-4787-b145-e323d0ffd2ad"
+        "459c1739-69ea-483c-a952-2a4dbb7ca2f6"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "ba84e4a8-d83f-4787-b145-e323d0ffd2ad",
+      "key": "459c1739-69ea-483c-a952-2a4dbb7ca2f6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "379d0aa5-196d-4dd2-9e3b-0e186533b34c"
+        "93cb8134-cc55-478c-9430-86fed3b7161a"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "379d0aa5-196d-4dd2-9e3b-0e186533b34c",
+      "key": "93cb8134-cc55-478c-9430-86fed3b7161a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a2620f37-2f28-421f-a914-d639dfbdd37c"
+        "b77acadc-fa6e-4901-8b3b-c78ffcc41818"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "a2620f37-2f28-421f-a914-d639dfbdd37c",
+      "key": "b77acadc-fa6e-4901-8b3b-c78ffcc41818",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d78683a2-e938-4b22-b5f3-abeea09c3d83"
+        "26690090-9d8c-41e9-bbe0-a6223061c916"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "d78683a2-e938-4b22-b5f3-abeea09c3d83",
+      "key": "26690090-9d8c-41e9-bbe0-a6223061c916",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cec45993-9aab-4164-9b42-1a363fd688b5"
+        "883b9d55-00e8-4f20-ad60-3459a90261c1"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "cec45993-9aab-4164-9b42-1a363fd688b5",
+      "key": "883b9d55-00e8-4f20-ad60-3459a90261c1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -312,6 +312,27 @@
     "ESA"
   ],
   "collection_group": "Land Surface Temperature",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      56
+    ],
+    "range": [
+      "#30123b",
+      "#4560d6",
+      "#34aaf8",
+      "#1ae4b6",
+      "#71fd5f",
+      "#c8ee33",
+      "#f9ba38",
+      "#f66b18",
+      "#c92903",
+      "#7a0402"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Mean LST"
+  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
