@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-slope/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,20",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-slope/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,30",
       "type": "image/png",
       "title": "COP30 Slope",
-      "key": "a901f486-8580-474a-bf2a-f85e59a50d0a"
+      "key": "88cb8211-4cb1-4eb4-9954-3c8bef169cd4"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      20
+      30
     ],
     "range": [
       "#440154",
@@ -53,7 +53,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "Placeholder"
+    "title": "Slope (°)"
   },
   "endpointtype": "VEDA_tiles",
   "title": "COP30 Slope",
