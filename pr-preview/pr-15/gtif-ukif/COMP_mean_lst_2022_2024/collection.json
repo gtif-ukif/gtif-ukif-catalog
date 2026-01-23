@@ -1,21 +1,32 @@
 {
   "type": "Collection",
-  "id": "",
+  "id": "COMP_mean_lst_2022_2024",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "During the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas—particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille—tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "service",
-      "href": "",
-      "type": "application/geo+json",
-      "id": "",
-      "method": "GET"
+      "rel": "child",
+      "href": "./COMP_mean_lst_2022_2024/collection.json",
+      "type": "application/json",
+      "title": "Mean LST 2022-2024",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP_mean_lst_2022_2024",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Surface Temperature"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Surface Temperature"
     },
     {
       "rel": "xyz",
@@ -171,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a6e75510-8111-4185-ad25-92a4746f2b60"
+        "ba84e4a8-d83f-4787-b145-e323d0ffd2ad"
       ]
     },
     {
@@ -184,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "a6e75510-8111-4185-ad25-92a4746f2b60",
+      "key": "ba84e4a8-d83f-4787-b145-e323d0ffd2ad",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8621ba1a-526d-4b47-bc87-1a60d64030b0"
+        "379d0aa5-196d-4dd2-9e3b-0e186533b34c"
       ]
     },
     {
@@ -207,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "8621ba1a-526d-4b47-bc87-1a60d64030b0",
+      "key": "379d0aa5-196d-4dd2-9e3b-0e186533b34c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -217,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "47e7f22a-e1a8-44f5-a9f4-1c5a66872bc4"
+        "a2620f37-2f28-421f-a914-d639dfbdd37c"
       ]
     },
     {
@@ -230,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "47e7f22a-e1a8-44f5-a9f4-1c5a66872bc4",
+      "key": "a2620f37-2f28-421f-a914-d639dfbdd37c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -240,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8f94c300-09b1-4c87-8d0f-2f4bc252c600"
+        "d78683a2-e938-4b22-b5f3-abeea09c3d83"
       ]
     },
     {
@@ -253,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "8f94c300-09b1-4c87-8d0f-2f4bc252c600",
+      "key": "d78683a2-e938-4b22-b5f3-abeea09c3d83",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -263,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "450c94fe-904f-4ba5-9fc9-5d0cb50b6073"
+        "cec45993-9aab-4164-9b42-1a363fd688b5"
       ]
     },
     {
@@ -276,14 +287,14 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "450c94fe-904f-4ba5-9fc9-5d0cb50b6073",
+      "key": "cec45993-9aab-4164-9b42-1a363fd688b5",
       "auth:refs": [
         "mapboxauth"
       ]
     },
     {
       "rel": "parent",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
@@ -291,25 +302,16 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
-  "eodash:mapProjection": {
-    "name": "",
-    "def": "",
-    "extent": [
-      "",
-      "",
-      "",
-      ""
-    ]
-  },
-  "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
-    "scaleType": "continuous",
-    "markType": "rect"
-  },
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Land Surface Temperature"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Land Surface Temperature",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -317,26 +319,37 @@
       "in": "query"
     }
   },
-  "title": "",
+  "title": "Mean LST 2022-2024",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
+        ],
+        [
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-01-23T21:30:03.866510Z",
-          null
+          "2022-06-01T00:00:00Z",
+          "2022-06-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "sustainable-cities"
+    ]
+  }
 }

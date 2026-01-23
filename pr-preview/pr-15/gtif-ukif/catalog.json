@@ -12,20 +12,20 @@
     },
     {
       "rel": "child",
-      "href": "./collection.json",
+      "href": "./COMP_mean_lst_2022_2024/collection.json",
       "type": "application/json",
-      "title": "",
-      "id": "",
-      "eodash:mapProjection": {
-        "name": "",
-        "def": "",
-        "extent": [
-          "",
-          "",
-          "",
-          ""
-        ]
-      }
+      "title": "Mean LST 2022-2024",
+      "id": "COMP_mean_lst_2022_2024",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Surface Temperature"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Surface Temperature"
     },
     {
       "rel": "self",
