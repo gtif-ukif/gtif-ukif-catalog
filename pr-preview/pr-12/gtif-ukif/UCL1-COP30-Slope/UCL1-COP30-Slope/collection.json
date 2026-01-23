@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-slope/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis",
       "type": "image/png",
       "title": "COP30 Slope",
-      "key": "a503959a-d817-43b8-bf58-fa092c1f9a36"
+      "key": "239cb21b-91a0-48d4-89fa-6820344b145d"
     },
     {
       "rel": "parent",
@@ -33,6 +33,7 @@
   "agency": [
     "ESA"
   ],
+  "collection_group": "Other",
   "endpointtype": "VEDA_tiles",
   "title": "COP30 Slope",
   "extent": {
