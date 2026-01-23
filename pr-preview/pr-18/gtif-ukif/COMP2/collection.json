@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP2_ind",
+  "id": "COMP2",
   "stac_version": "1.1.0",
-  "description": "The relationship between the Urban Heat Island (UHI) effect and urban land cover classes derived from CORINE Land Cover Mapping (LCM) reflects how different surface types influence the way heat is absorbed, stored, and released across cities. CORINE’s detailed classification helps distinguish between dense urban fabric, discontinuous residential areas, industrial zones, transport networks, and green urban spaces — each contributing differently to local temperature patterns. \n\nAreas classified as continuous urban fabric typically show the strongest UHI intensities. These zones contain tightly packed buildings, extensive paved surfaces, and minimal vegetation, all of which promote efficient heat absorption during the day and slow heat release at night. Industrial and commercial units also tend to exhibit elevated surface temperatures due to large expanses of concrete, metal structures, and high energy use. \n\nIn contrast, CORINE classes such as green urban areas, forests, and natural grasslands correspond to much cooler surfaces. These vegetated zones provide shading and evaporative cooling, reducing local temperatures and helping to buffer the warming effect from nearby built-up land. The spatial mix of these land cover types strongly shapes the UHI intensity across urban regions, highlighting the role of green infrastructure and land-use planning in moderating urban heat. ",
+  "description": "The following product shows the relationship between urban land cover classes and the urban heat island effect. It shows cooler and warmer areas within urban areas. What it also shows is the geometries of the different urban land cover classes, and what the mean urban heat island effect is in this area. It can be determined from this map that urban green spaces, sport and leisure facilities provide the most cooling during hot summer days. On the contrary, continuous urban fabric and industrial areas warm up considerably on hot days.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./COMP2_lcm/collection.json",
+      "href": "./COMP2/collection.json",
       "type": "application/json",
-      "title": "Urban Classes and UHI",
+      "title": "[Deprecated] UHI and land cover relationship",
       "endpointtype": "VectorTile source",
-      "id": "COMP2_lcm",
+      "id": "COMP2",
       "themes": [
         "sustainable-cities"
       ],
@@ -27,24 +27,6 @@
         "ESA"
       ],
       "collection_group": "Land Cover"
-    },
-    {
-      "rel": "child",
-      "href": "./COMP5/collection.json",
-      "type": "application/json",
-      "title": "UHI Mean 2022-2024",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP5",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Heat Island"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Urban Heat Island"
     },
     {
       "rel": "xyz",
@@ -200,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "68e74b94-1288-4951-a18d-3b58eaf7f56a"
+        "a2be0f54-83ab-449f-a36d-2f0c114f997a"
       ]
     },
     {
@@ -213,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "68e74b94-1288-4951-a18d-3b58eaf7f56a",
+      "key": "a2be0f54-83ab-449f-a36d-2f0c114f997a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "17c76a7d-680c-4acf-8f2c-cd24393bf066"
+        "ba22750f-a4ad-4f3b-b8b3-51e4f6f0983c"
       ]
     },
     {
@@ -236,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "17c76a7d-680c-4acf-8f2c-cd24393bf066",
+      "key": "ba22750f-a4ad-4f3b-b8b3-51e4f6f0983c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7ef1c12a-6e14-4c2b-9eb2-3b1409b0765c"
+        "7e3cddaa-1986-4182-bae7-25719c8701a4"
       ]
     },
     {
@@ -259,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "7ef1c12a-6e14-4c2b-9eb2-3b1409b0765c",
+      "key": "7e3cddaa-1986-4182-bae7-25719c8701a4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e799052f-d6a3-4d13-b280-bd7a79c3a670"
+        "39117631-14e6-4535-9ed3-1451288bb688"
       ]
     },
     {
@@ -282,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "e799052f-d6a3-4d13-b280-bd7a79c3a670",
+      "key": "39117631-14e6-4535-9ed3-1451288bb688",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c80b0ecd-c05f-4376-8047-782381bdb6e9"
+        "88d6dd84-9620-4e4b-b6d4-e8a34c27a579"
       ]
     },
     {
@@ -305,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "c80b0ecd-c05f-4376-8047-782381bdb6e9",
+      "key": "88d6dd84-9620-4e4b-b6d4-e8a34c27a579",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -330,6 +312,20 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
+  "eox:colorlegend": {
+    "title": "Mean UHI (low/medium/high)",
+    "range": [
+      "rgb(0, 0, 4)",
+      "rgb(81, 18, 124, 0)",
+      "rgb(183, 55, 121)",
+      "rgb(252, 137, 97)",
+      "rgb(252, 253, 191)"
+    ],
+    "domain": [
+      -1,
+      1
+    ]
+  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -337,16 +333,10 @@
       "in": "query"
     }
   },
-  "title": "Urban Classes and UHI",
+  "title": "[Deprecated] UHI and land cover relationship",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
-        ],
         [
           -0.612126,
           51.333132,
@@ -354,17 +344,17 @@
           51.699321
         ],
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-05-01T00:00:00Z",
+          "2023-01-01T00:00:00Z",
           "2023-01-01T00:00:00Z"
         ]
       ]
