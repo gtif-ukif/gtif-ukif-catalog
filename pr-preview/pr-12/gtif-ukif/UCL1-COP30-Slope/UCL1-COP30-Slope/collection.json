@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-slope/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis",
       "type": "image/png",
       "title": "COP30 Slope",
-      "key": "f02d1371-8d8b-497f-85fb-495d19b2f3d9"
+      "key": "a503959a-d817-43b8-bf58-fa092c1f9a36"
     },
     {
       "rel": "parent",
@@ -33,17 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "eodash:mapProjection": "EPSG:3035",
-  "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
-    "scaleType": "continuous",
-    "markType": "rect"
-  },
-  "endpointtype": "VEDA_cog",
+  "endpointtype": "VEDA_tiles",
   "title": "COP30 Slope",
   "extent": {
     "spatial": {

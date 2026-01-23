@@ -15,7 +15,7 @@
       "href": "./UCL1-COP30-Slope/collection.json",
       "type": "application/json",
       "title": "COP30 Slope",
-      "endpointtype": "VEDA_cog",
+      "endpointtype": "VEDA_tiles",
       "id": "UCL1-COP30-Slope",
       "themes": [
         "energy-transition"
@@ -25,15 +25,7 @@
       ],
       "agency": [
         "ESA"
-      ],
-      "eodash:mapProjection": "EPSG:3035"
-    },
-    {
-      "rel": "service",
-      "href": "",
-      "type": "application/geo+json",
-      "id": "",
-      "method": "GET"
+      ]
     },
     {
       "rel": "xyz",
@@ -189,7 +181,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "50bc88d2-060f-4cd7-9c93-2db74f099198"
+        "e5d73cb0-6dd9-40df-b787-e7d8ca9da373"
       ]
     },
     {
@@ -202,7 +194,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "50bc88d2-060f-4cd7-9c93-2db74f099198",
+      "key": "e5d73cb0-6dd9-40df-b787-e7d8ca9da373",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +204,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2155870f-e837-41fb-91fb-847a0e7f1c19"
+        "49367207-4eb0-40e8-ad8b-925360b36c7b"
       ]
     },
     {
@@ -225,7 +217,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2155870f-e837-41fb-91fb-847a0e7f1c19",
+      "key": "49367207-4eb0-40e8-ad8b-925360b36c7b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +227,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6d9c46ad-c7f0-4d06-9a0f-9ffd847b39bd"
+        "30c68b2c-7bd8-44ab-b398-65639471a661"
       ]
     },
     {
@@ -248,7 +240,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "6d9c46ad-c7f0-4d06-9a0f-9ffd847b39bd",
+      "key": "30c68b2c-7bd8-44ab-b398-65639471a661",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +250,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ac725c48-fcd8-4be6-bc0b-40b242167b06"
+        "2ddd1ba6-ac81-49e8-b8e2-11768a6bd8a1"
       ]
     },
     {
@@ -271,7 +263,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "ac725c48-fcd8-4be6-bc0b-40b242167b06",
+      "key": "2ddd1ba6-ac81-49e8-b8e2-11768a6bd8a1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +273,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "eb3949fd-c3d5-4b14-91eb-46fd9e29b01c"
+        "c81d8a20-3961-4ccc-acca-aba6398bb263"
       ]
     },
     {
@@ -294,7 +286,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "eb3949fd-c3d5-4b14-91eb-46fd9e29b01c",
+      "key": "c81d8a20-3961-4ccc-acca-aba6398bb263",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -318,16 +310,6 @@
   "agency": [
     "ESA"
   ],
-  "eodash:mapProjection": "EPSG:3035",
-  "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
-    "scaleType": "continuous",
-    "markType": "rect"
-  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",

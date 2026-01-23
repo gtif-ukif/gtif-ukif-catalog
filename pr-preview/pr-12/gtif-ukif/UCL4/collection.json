@@ -105,7 +105,7 @@
       "href": "./UCL1-COP30-Slope/collection.json",
       "type": "application/json",
       "title": "COP30 Slope",
-      "endpointtype": "VEDA_cog",
+      "endpointtype": "VEDA_tiles",
       "id": "UCL1-COP30-Slope",
       "themes": [
         "energy-transition"
@@ -115,8 +115,7 @@
       ],
       "agency": [
         "ESA"
-      ],
-      "eodash:mapProjection": "EPSG:3035"
+      ]
     },
     {
       "rel": "xyz",
@@ -272,7 +271,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "41c3520c-96f4-4a02-85c8-26d9127bb241"
+        "689a2706-1cf6-4fe2-a17c-180d1824ba69"
       ]
     },
     {
@@ -285,7 +284,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "41c3520c-96f4-4a02-85c8-26d9127bb241",
+      "key": "689a2706-1cf6-4fe2-a17c-180d1824ba69",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -295,7 +294,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "029ef6c4-b219-4987-a0ab-5b628b88ada9"
+        "7f7d4b25-01b4-408e-ac03-d13e13b8dbd9"
       ]
     },
     {
@@ -308,7 +307,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "029ef6c4-b219-4987-a0ab-5b628b88ada9",
+      "key": "7f7d4b25-01b4-408e-ac03-d13e13b8dbd9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -318,7 +317,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7fc5e21e-6c78-42f2-a216-d0fd78e73528"
+        "230e4ec8-4689-401e-a416-95397c83a2af"
       ]
     },
     {
@@ -331,7 +330,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "7fc5e21e-6c78-42f2-a216-d0fd78e73528",
+      "key": "230e4ec8-4689-401e-a416-95397c83a2af",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -341,7 +340,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9d14358d-e988-4f10-a3b1-05712ab027b7"
+        "2b5020a8-9e05-4268-9db9-b4b65976411c"
       ]
     },
     {
@@ -354,7 +353,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "9d14358d-e988-4f10-a3b1-05712ab027b7",
+      "key": "2b5020a8-9e05-4268-9db9-b4b65976411c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -364,7 +363,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "685b7f83-e68c-4f65-9404-0828575b3d15"
+        "baf2091e-da94-44e3-9dd1-b2a0640adec1"
       ]
     },
     {
@@ -377,7 +376,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "685b7f83-e68c-4f65-9404-0828575b3d15",
+      "key": "baf2091e-da94-44e3-9dd1-b2a0640adec1",
       "auth:refs": [
         "mapboxauth"
       ]
