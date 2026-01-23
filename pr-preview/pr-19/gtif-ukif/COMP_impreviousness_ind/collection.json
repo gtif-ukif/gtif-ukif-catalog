@@ -1,21 +1,50 @@
 {
   "type": "Collection",
-  "id": "",
+  "id": "COMP_impreviousness_ind",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "The relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "service",
-      "href": "",
-      "type": "application/geo+json",
-      "id": "",
-      "method": "GET"
+      "rel": "child",
+      "href": "./COMP5/collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP5",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Urban Heat Island"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP_Imperviousness/collection.json",
+      "type": "application/json",
+      "title": "Imperviousness and UHI",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP_Imperviousness",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Cover"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Cover"
     },
     {
       "rel": "xyz",
@@ -171,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "868636cf-b6a1-4300-953c-f16123c5ec2d"
+        "29f82b7e-bca2-4e8f-b545-94b2075767ec"
       ]
     },
     {
@@ -184,7 +213,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "868636cf-b6a1-4300-953c-f16123c5ec2d",
+      "key": "29f82b7e-bca2-4e8f-b545-94b2075767ec",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "16d875a2-6e30-4569-a10c-91f4c8e21f50"
+        "4f2c6d21-985e-40ff-8db8-69dd2c0db420"
       ]
     },
     {
@@ -207,7 +236,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "16d875a2-6e30-4569-a10c-91f4c8e21f50",
+      "key": "4f2c6d21-985e-40ff-8db8-69dd2c0db420",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -217,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3104e20f-9416-4b97-9a1c-3da832833693"
+        "75bc8ed0-f098-4b2b-91d5-e534bb7a4b4e"
       ]
     },
     {
@@ -230,7 +259,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "3104e20f-9416-4b97-9a1c-3da832833693",
+      "key": "75bc8ed0-f098-4b2b-91d5-e534bb7a4b4e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -240,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2ddcd214-93b7-4ae2-9475-a93b27f6649a"
+        "41ff3bb2-c041-43e3-bf9d-9944dc6c1eb9"
       ]
     },
     {
@@ -253,7 +282,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "2ddcd214-93b7-4ae2-9475-a93b27f6649a",
+      "key": "41ff3bb2-c041-43e3-bf9d-9944dc6c1eb9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -263,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "462e41d8-50fa-4891-af18-4939aad8c505"
+        "c8b20852-8944-4539-aa10-dbe9e44dfa93"
       ]
     },
     {
@@ -276,14 +305,14 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "462e41d8-50fa-4891-af18-4939aad8c505",
+      "key": "c8b20852-8944-4539-aa10-dbe9e44dfa93",
       "auth:refs": [
         "mapboxauth"
       ]
     },
     {
       "rel": "parent",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
@@ -291,25 +320,16 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
-  "eodash:mapProjection": {
-    "name": "",
-    "def": "",
-    "extent": [
-      "",
-      "",
-      "",
-      ""
-    ]
-  },
-  "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
-    "scaleType": "continuous",
-    "markType": "rect"
-  },
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Heat Island"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Land Cover",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -317,26 +337,43 @@
       "in": "query"
     }
   },
-  "title": "",
+  "title": "Imperviousness and UHI",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -11.82326107093359,
+          40.566153343944876,
+          16.216836666567666,
+          61.33941008747212
+        ],
+        [
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
+        ],
+        [
+          -11.82326107093359,
+          40.566153343944876,
+          9.706464214718011,
+          61.33941008747212
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-01-23T23:47:20.839001Z",
-          null
+          "2020-01-01T00:00:00Z",
+          "2022-05-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "sustainable-cities"
+    ]
+  }
 }

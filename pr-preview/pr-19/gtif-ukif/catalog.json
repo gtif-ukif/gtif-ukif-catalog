@@ -29,20 +29,20 @@
     },
     {
       "rel": "child",
-      "href": "./collection.json",
+      "href": "./COMP_impreviousness_ind/collection.json",
       "type": "application/json",
-      "title": "",
-      "id": "",
-      "eodash:mapProjection": {
-        "name": "",
-        "def": "",
-        "extent": [
-          "",
-          "",
-          "",
-          ""
-        ]
-      }
+      "title": "Imperviousness and UHI",
+      "id": "COMP_impreviousness_ind",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Cover"
     },
     {
       "rel": "self",
