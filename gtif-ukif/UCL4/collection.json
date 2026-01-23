@@ -101,6 +101,24 @@
       "collection_group": "Other"
     },
     {
+      "rel": "child",
+      "href": "./UCL1-COP30-Slope/collection.json",
+      "type": "application/json",
+      "title": "COP30 Slope",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-COP30-Slope",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -254,7 +272,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a9ae45b1-0be7-497f-9673-9fc5210c0510"
+        "3685f073-1d95-4578-93f1-d85b80f792aa"
       ]
     },
     {
@@ -267,7 +285,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "a9ae45b1-0be7-497f-9673-9fc5210c0510",
+      "key": "3685f073-1d95-4578-93f1-d85b80f792aa",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -277,7 +295,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "123ee745-07ad-4a3d-a0f2-4d3ba7900536"
+        "bf6c2629-1f31-4616-9967-6488466f8ed9"
       ]
     },
     {
@@ -290,7 +308,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "123ee745-07ad-4a3d-a0f2-4d3ba7900536",
+      "key": "bf6c2629-1f31-4616-9967-6488466f8ed9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -300,7 +318,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3f791252-2fcd-444f-8d57-613205cb2541"
+        "19f1b093-66eb-4318-909c-2f52eea5184f"
       ]
     },
     {
@@ -313,7 +331,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "3f791252-2fcd-444f-8d57-613205cb2541",
+      "key": "19f1b093-66eb-4318-909c-2f52eea5184f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -323,7 +341,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a66e0020-4423-4377-8727-c0b0e243cfb1"
+        "6d60bf88-64d1-4572-a32a-bf479db3dd12"
       ]
     },
     {
@@ -336,7 +354,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "a66e0020-4423-4377-8727-c0b0e243cfb1",
+      "key": "6d60bf88-64d1-4572-a32a-bf479db3dd12",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -346,7 +364,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "315f940c-c1bf-426e-a9b5-8303c7030b32"
+        "c1c082fe-18ef-4799-a788-89c35e45e5bb"
       ]
     },
     {
@@ -359,7 +377,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "315f940c-c1bf-426e-a9b5-8303c7030b32",
+      "key": "c1c082fe-18ef-4799-a788-89c35e45e5bb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -393,10 +411,10 @@
     "spatial": {
       "bbox": [
         [
-          -11.104591164807998,
-          41.0,
-          10.0,
-          61.0
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ],
         [
           -6.0,
@@ -427,6 +445,12 @@
           48.781349973035624,
           3.1707659683262213,
           60.879568085857684
+        ],
+        [
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ]
       ]
     },
@@ -434,7 +458,7 @@
       "interval": [
         [
           "2019-01-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2025-04-24T00:00:00Z"
         ]
       ]
     }
