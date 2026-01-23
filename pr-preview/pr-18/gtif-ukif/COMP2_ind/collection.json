@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./COMP2_lcm/collection.json",
       "type": "application/json",
-      "title": "Urban Classes and UHI",
+      "title": "CORINE LCM",
       "endpointtype": "VectorTile source",
       "id": "COMP2_lcm",
       "themes": [
@@ -200,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "68e74b94-1288-4951-a18d-3b58eaf7f56a"
+        "1792e71a-d320-49ae-bedc-465433cae048"
       ]
     },
     {
@@ -213,7 +213,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "68e74b94-1288-4951-a18d-3b58eaf7f56a",
+      "key": "1792e71a-d320-49ae-bedc-465433cae048",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "17c76a7d-680c-4acf-8f2c-cd24393bf066"
+        "98715bee-2f51-483f-b656-824d420e4f3f"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "17c76a7d-680c-4acf-8f2c-cd24393bf066",
+      "key": "98715bee-2f51-483f-b656-824d420e4f3f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7ef1c12a-6e14-4c2b-9eb2-3b1409b0765c"
+        "c014e192-6c57-4ba7-af84-b8f62833010a"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "7ef1c12a-6e14-4c2b-9eb2-3b1409b0765c",
+      "key": "c014e192-6c57-4ba7-af84-b8f62833010a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e799052f-d6a3-4d13-b280-bd7a79c3a670"
+        "8cd5d8d2-a1ab-4fa9-af2c-b13d0b844cc6"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "e799052f-d6a3-4d13-b280-bd7a79c3a670",
+      "key": "8cd5d8d2-a1ab-4fa9-af2c-b13d0b844cc6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c80b0ecd-c05f-4376-8047-782381bdb6e9"
+        "765b4b4d-b7a9-4673-9c95-998a1ce61210"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "c80b0ecd-c05f-4376-8047-782381bdb6e9",
+      "key": "765b4b4d-b7a9-4673-9c95-998a1ce61210",
       "auth:refs": [
         "mapboxauth"
       ]

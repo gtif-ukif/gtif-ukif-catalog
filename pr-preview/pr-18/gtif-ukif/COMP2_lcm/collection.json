@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "COMP2",
+  "id": "COMP2_lcm",
   "stac_version": "1.1.0",
   "description": "The following product shows the relationship between urban land cover classes and the urban heat island effect. It shows cooler and warmer areas within urban areas. What it also shows is the geometries of the different urban land cover classes, and what the mean urban heat island effect is in this area. It can be determined from this map that urban green spaces, sport and leisure facilities provide the most cooling during hot summer days. On the contrary, continuous urban fabric and industrial areas warm up considerably on hot days.",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./COMP2/collection.json",
+      "href": "./COMP2_lcm/collection.json",
       "type": "application/json",
-      "title": "[Deprecated] UHI and land cover relationship",
+      "title": "CORINE LCM",
       "endpointtype": "VectorTile source",
-      "id": "COMP2",
+      "id": "COMP2_lcm",
       "themes": [
         "sustainable-cities"
       ],
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d44d6f53-4296-406e-a30d-426ceb39cf02"
+        "6e0ceda6-a514-445c-a571-1d7302115ec4"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "d44d6f53-4296-406e-a30d-426ceb39cf02",
+      "key": "6e0ceda6-a514-445c-a571-1d7302115ec4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c8bdf26a-2815-4fd2-9b72-f7b3ad6326c2"
+        "83762dc5-8d1f-40e7-af19-b5f75f469514"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "c8bdf26a-2815-4fd2-9b72-f7b3ad6326c2",
+      "key": "83762dc5-8d1f-40e7-af19-b5f75f469514",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9abe95dc-d56a-4fb5-b41c-76f42d3dc72f"
+        "0055c54c-fb89-4f8d-93fd-dcae22890f89"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "9abe95dc-d56a-4fb5-b41c-76f42d3dc72f",
+      "key": "0055c54c-fb89-4f8d-93fd-dcae22890f89",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9d02c7ad-94e4-4bcf-8227-4395a3182247"
+        "e78be241-dd0b-4802-b25c-2c7e4c76e838"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "9d02c7ad-94e4-4bcf-8227-4395a3182247",
+      "key": "e78be241-dd0b-4802-b25c-2c7e4c76e838",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "98ee4f87-79d3-4749-aa8b-f8c3f3d064a2"
+        "38d909d1-9bc9-4d25-998c-0c5bed8bfb20"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "98ee4f87-79d3-4749-aa8b-f8c3f3d064a2",
+      "key": "38d909d1-9bc9-4d25-998c-0c5bed8bfb20",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -312,20 +312,6 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
-  "eox:colorlegend": {
-    "title": "Mean UHI (low/medium/high)",
-    "range": [
-      "rgb(0, 0, 4)",
-      "rgb(81, 18, 124, 0)",
-      "rgb(183, 55, 121)",
-      "rgb(252, 137, 97)",
-      "rgb(252, 253, 191)"
-    ],
-    "domain": [
-      -1,
-      1
-    ]
-  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -333,7 +319,7 @@
       "in": "query"
     }
   },
-  "title": "[Deprecated] UHI and land cover relationship",
+  "title": "CORINE LCM",
   "extent": {
     "spatial": {
       "bbox": [
