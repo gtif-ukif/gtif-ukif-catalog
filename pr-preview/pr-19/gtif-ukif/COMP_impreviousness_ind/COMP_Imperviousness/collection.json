@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Imperviousness/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=reds&rescale=0,100",
       "type": "image/png",
       "title": "Imperviousness and UHI",
-      "key": "7f991afc-99e7-4179-afca-385df8e627d2"
+      "key": "1671f82f-1a82-4866-81c8-80bcfa8713af"
     },
     {
       "rel": "parent",
@@ -53,7 +53,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "Placeholder"
+    "title": "Imperviousness"
   },
   "endpointtype": "VEDA_tiles",
   "title": "Imperviousness and UHI",
