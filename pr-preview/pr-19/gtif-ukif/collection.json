@@ -1,32 +1,21 @@
 {
   "type": "Collection",
-  "id": "COMP_Imperviousness",
+  "id": "",
   "stac_version": "1.1.0",
-  "description": "The relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "description": "",
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "./catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "child",
-      "href": "./COMP_Imperviousness/collection.json",
-      "type": "application/json",
-      "title": "Imperviousness and UHI",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Land Cover"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Land Cover"
+      "rel": "service",
+      "href": "",
+      "type": "application/geo+json",
+      "id": "",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -182,7 +171,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "075634c1-8025-45a6-a791-a23667ead025"
+        "868636cf-b6a1-4300-953c-f16123c5ec2d"
       ]
     },
     {
@@ -195,7 +184,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "075634c1-8025-45a6-a791-a23667ead025",
+      "key": "868636cf-b6a1-4300-953c-f16123c5ec2d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +194,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3d658132-4449-4147-a5e7-ead5c364482f"
+        "16d875a2-6e30-4569-a10c-91f4c8e21f50"
       ]
     },
     {
@@ -218,7 +207,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "3d658132-4449-4147-a5e7-ead5c364482f",
+      "key": "16d875a2-6e30-4569-a10c-91f4c8e21f50",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +217,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a18398bc-4f0b-479c-9e79-e394d0f9febf"
+        "3104e20f-9416-4b97-9a1c-3da832833693"
       ]
     },
     {
@@ -241,7 +230,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "a18398bc-4f0b-479c-9e79-e394d0f9febf",
+      "key": "3104e20f-9416-4b97-9a1c-3da832833693",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +240,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2c0f3ff0-00f1-4c6d-8c02-770ecedfc399"
+        "2ddcd214-93b7-4ae2-9475-a93b27f6649a"
       ]
     },
     {
@@ -264,7 +253,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "2c0f3ff0-00f1-4c6d-8c02-770ecedfc399",
+      "key": "2ddcd214-93b7-4ae2-9475-a93b27f6649a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +263,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "617bba12-29d9-4fb5-9ecf-20f04fc53081"
+        "462e41d8-50fa-4891-af18-4939aad8c505"
       ]
     },
     {
@@ -287,14 +276,14 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "617bba12-29d9-4fb5-9ecf-20f04fc53081",
+      "key": "462e41d8-50fa-4891-af18-4939aad8c505",
       "auth:refs": [
         "mapboxauth"
       ]
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "./catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
@@ -302,36 +291,24 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
-  "themes": [
-    "sustainable-cities"
-  ],
-  "tags": [
-    "Land Cover"
-  ],
-  "agency": [
-    "ESA"
-  ],
-  "collection_group": "Land Cover",
+  "eodash:mapProjection": {
+    "name": "",
+    "def": "",
+    "extent": [
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
   "eox:colorlegend": {
-    "domain": [
-      0,
-      100
-    ],
-    "range": [
-      "#fff5f0",
-      "#fee2d5",
-      "#fcc2ab",
-      "#fc9f81",
-      "#fb7c5c",
-      "#f5543c",
-      "#e32f27",
-      "#c2161b",
-      "#9d0d14",
-      "#67000c"
-    ],
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
     "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "Placeholder"
+    "markType": "rect"
   },
   "auth:schemes": {
     "mapboxauth": {
@@ -340,37 +317,26 @@
       "in": "query"
     }
   },
-  "title": "Imperviousness and UHI",
+  "title": "",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
-        ],
-        [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
-          "2020-01-01T00:00:00Z"
+          "2026-01-23T23:47:20.839001Z",
+          null
         ]
       ]
     }
   },
-  "license": "other",
-  "summaries": {
-    "themes": [
-      "sustainable-cities"
-    ]
-  }
+  "license": "other"
 }
