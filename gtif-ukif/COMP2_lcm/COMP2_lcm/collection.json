@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Urban Classes and UHI"
+      "title": "CORINE LCM"
     }
   ],
   "themes": [
@@ -28,7 +28,7 @@
   ],
   "collection_group": "Land Cover",
   "endpointtype": "VectorTile source",
-  "title": "Urban Classes and UHI",
+  "title": "CORINE LCM",
   "extent": {
     "spatial": {
       "bbox": [

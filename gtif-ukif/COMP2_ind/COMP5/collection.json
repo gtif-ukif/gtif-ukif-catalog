@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu_r&nodata=0&rescale=-1,1",
       "type": "image/png",
       "title": "UHI Mean 2022-2024",
-      "key": "b7876aae-840e-45fc-bfb8-9c798fab1b74"
+      "key": "700c5a53-310c-4161-854d-f341e786f4b7"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "UHI and land cover relationship"
+      "title": "Urban Classes and UHI"
     }
   ],
   "themes": [

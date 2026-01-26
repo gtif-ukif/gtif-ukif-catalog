@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./COMP2_lcm/collection.json",
       "type": "application/json",
-      "title": "Urban Classes and UHI",
+      "title": "CORINE LCM",
       "endpointtype": "VectorTile source",
       "id": "COMP2_lcm",
       "themes": [
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d50587df-a124-4e49-a0ff-619a3608332a"
+        "0a6b9e0b-2846-4469-8cea-1623bccfbb87"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "d50587df-a124-4e49-a0ff-619a3608332a",
+      "key": "0a6b9e0b-2846-4469-8cea-1623bccfbb87",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4d903695-c9b1-4c47-8808-15b9da84c871"
+        "40be54a8-40ff-495d-9c8d-d3434110d8ab"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "4d903695-c9b1-4c47-8808-15b9da84c871",
+      "key": "40be54a8-40ff-495d-9c8d-d3434110d8ab",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "253a1cf1-e4e0-4b1d-99f9-761f3fcfc607"
+        "e329751b-f4c4-43bb-96ac-4320992a1278"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "253a1cf1-e4e0-4b1d-99f9-761f3fcfc607",
+      "key": "e329751b-f4c4-43bb-96ac-4320992a1278",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "80048bf1-91be-428e-a0f7-08831e6d1159"
+        "fb2afb5d-e4b2-4c37-8f74-ade5b1b94898"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "80048bf1-91be-428e-a0f7-08831e6d1159",
+      "key": "fb2afb5d-e4b2-4c37-8f74-ade5b1b94898",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "36a08779-e794-45a4-81d5-9269cfeafd6d"
+        "272e5dfd-d335-4e38-9297-34377f79b2b3"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "36a08779-e794-45a4-81d5-9269cfeafd6d",
+      "key": "272e5dfd-d335-4e38-9297-34377f79b2b3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -319,7 +319,7 @@
       "in": "query"
     }
   },
-  "title": "Urban Classes and UHI",
+  "title": "CORINE LCM",
   "extent": {
     "spatial": {
       "bbox": [
