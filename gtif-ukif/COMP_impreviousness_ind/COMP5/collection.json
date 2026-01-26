@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu_r&nodata=0&rescale=-1,1",
       "type": "image/png",
       "title": "UHI Mean 2022-2024",
-      "key": "5b8ee7ed-2fb6-4b1e-a2ac-193168901f00"
+      "key": "77702b97-2621-4478-ac44-748b79fbb222"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Urban Classes and UHI"
+      "title": "Imperviousness and UHI"
     }
   ],
   "themes": [

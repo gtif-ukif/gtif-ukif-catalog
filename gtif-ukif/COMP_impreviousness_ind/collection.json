@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL4",
+  "id": "COMP_impreviousness_ind",
   "stac_version": "1.1.0",
-  "description": "Solar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment. A colourised by height with hill-shaded Digital Elevetaion Model (DEM)  at 30m grid-spacing mosaic of the whole UKIF area of many tiles (size 26.5Gb), produced by the EU Copernicus  program, in WGS84. COP30 DEM is derived from TerraSar-X+TanDEM-X and spans several years of inSAR retrievals. The 10m ESA WorldCover 2021  map for the whole UKIF area. It uses all available Sentinel-2 images for the whole of 2021.",
+  "description": "The relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
   "links": [
     {
       "rel": "root",
@@ -12,111 +12,39 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-France/collection.json",
+      "href": "./COMP5/collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output France",
+      "title": "UHI Mean 2022-2024",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL4-France",
+      "id": "COMP5",
       "themes": [
-        "energy-transition"
+        "sustainable-cities"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Heat Island"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Urban Heat Island"
     },
     {
       "rel": "child",
-      "href": "./UCL4-UK/collection.json",
+      "href": "./COMP_Imperviousness/collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output UK",
+      "title": "Imperviousness and UHI",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL4-UK",
+      "id": "COMP_Imperviousness",
       "themes": [
-        "energy-transition"
+        "sustainable-cities"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Land Cover"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-Ireland/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-GB/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer GB",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-GB",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-COP30-Slope/collection.json",
-      "type": "application/json",
-      "title": "COP30 Slope",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Slope",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
+      "collection_group": "Land Cover"
     },
     {
       "rel": "xyz",
@@ -272,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4c9ca989-f19e-4fb6-aaf9-2e380420baea"
+        "d63b0fc5-2ae9-4bbb-9dac-3c421fe617e1"
       ]
     },
     {
@@ -285,7 +213,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "4c9ca989-f19e-4fb6-aaf9-2e380420baea",
+      "key": "d63b0fc5-2ae9-4bbb-9dac-3c421fe617e1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -295,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "429590c9-66b9-487c-92b8-16924cd2daec"
+        "f5ea30fb-64f8-4b29-baba-e431313d3dae"
       ]
     },
     {
@@ -308,7 +236,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "429590c9-66b9-487c-92b8-16924cd2daec",
+      "key": "f5ea30fb-64f8-4b29-baba-e431313d3dae",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -318,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d7ff9297-16b1-41cc-af51-7c658e810408"
+        "d34c6f58-b1b8-44de-aba2-adf3d8c03496"
       ]
     },
     {
@@ -331,7 +259,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "d7ff9297-16b1-41cc-af51-7c658e810408",
+      "key": "d34c6f58-b1b8-44de-aba2-adf3d8c03496",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -341,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7c22c6d4-3e4e-4155-b264-590906582b8d"
+        "32f79f70-17d3-45e1-a27b-1c6bfde9b6fb"
       ]
     },
     {
@@ -354,7 +282,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "7c22c6d4-3e4e-4155-b264-590906582b8d",
+      "key": "32f79f70-17d3-45e1-a27b-1c6bfde9b6fb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -364,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2262d5a6-09f3-4dcb-b1b7-11a7e5f0b108"
+        "efedfb6d-4cd1-424a-b575-f2ec20a9003a"
       ]
     },
     {
@@ -377,7 +305,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "2262d5a6-09f3-4dcb-b1b7-11a7e5f0b108",
+      "key": "efedfb6d-4cd1-424a-b575-f2ec20a9003a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -393,12 +321,15 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "energy-transition"
+    "sustainable-cities"
   ],
   "tags": [
-    "Solar Rural Power"
+    "Heat Island"
   ],
-  "collection_group": "Other",
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Land Cover",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -406,59 +337,35 @@
       "in": "query"
     }
   },
-  "title": "Photovoltaic Output - Monthly",
+  "title": "Imperviousness and UHI",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -11.82326107093359,
+          40.566153343944876,
+          16.216836666567666,
+          61.33941008747212
         ],
         [
-          -6.0,
-          41.0,
-          10.0,
-          52.0
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ],
         [
-          -9.0,
-          49.0,
-          2.0,
-          61.0
-        ],
-        [
-          -11.0,
-          51.0,
-          -5.0,
-          56.0
-        ],
-        [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
-        ],
-        [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
-        ],
-        [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -11.82326107093359,
+          40.566153343944876,
+          9.706464214718011,
+          61.33941008747212
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
-          "2025-04-24T00:00:00Z"
+          "2020-01-01T00:00:00Z",
+          "2022-05-01T00:00:00Z"
         ]
       ]
     }
@@ -466,7 +373,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "energy-transition"
+      "sustainable-cities"
     ]
   }
 }

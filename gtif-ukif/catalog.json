@@ -382,6 +382,23 @@
       "collection_group": "Land Surface Temperature"
     },
     {
+      "rel": "child",
+      "href": "./COMP_impreviousness_ind/collection.json",
+      "type": "application/json",
+      "title": "Imperviousness and UHI",
+      "id": "COMP_impreviousness_ind",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Cover"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"
