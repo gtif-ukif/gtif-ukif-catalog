@@ -63,23 +63,6 @@
     },
     {
       "rel": "child",
-      "href": "./COMP3/collection.json",
-      "type": "application/json",
-      "title": "Dublin: Where can UHI decrease?",
-      "id": "COMP3",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Heat Island"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./COMP5/collection.json",
       "type": "application/json",
       "title": "UHI Mean 2022-2024",
