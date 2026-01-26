@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP1_ind",
   "stac_version": "1.1.0",
-  "description": "The following product shows the relationship between Building Efficiency Ratings (Energy Performance Certificates EPC in England). It shows cooler and warmer areas per small area of buildings. These small areas of buildings have a median BER/EPC rating of all buildings inside the geometry. This map shows that areas with a worse BER/EPC rating typically correspond to a higher UHI value. This is due to many surrounding factors, such as building location and population density, but also due to the energy efficiency of buildings. Buildings with a better BER/EPC rating typically correspond to a lower UHI value on hot days.",
+  "description": "The relationship between the Urban Heat Island (UHI) effect and building efficiency ratings reflects how the thermal performance of buildings influences local temperature patterns within cities. Buildings with poor efficiency ratings often have inadequate insulation, inefficient heating and cooling systems, and materials that retain or release heat in ways that exacerbate warming. These structures tend to emit more waste heat into the surrounding environment, especially during periods of high energy use, reinforcing the UHI effect in densely built areas. \n\nConversely, buildings with higher efficiency ratings are designed to regulate indoor temperatures more effectively, reducing the need for energy-intensive cooling and minimizing external heat emissions. They often incorporate better insulation, reflective or high-albedo materials, and more efficient systems that collectively help lower the amount of anthropogenic heat released outdoors. As a result, spatial patterns of building efficiency can correlate strongly with UHI intensity, highlighting how improving energy performance across the building stock can contribute to reducing urban heat and enhancing overall climate resilience.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./COMP1/collection.json",
+      "href": "./COMP3/collection.json",
       "type": "application/json",
-      "title": "UHI and Building Efficiency Ratings",
+      "title": "Dublin: Where can UHI decrease?",
       "endpointtype": "VectorTile source",
-      "id": "COMP1",
+      "id": "COMP3",
       "themes": [
         "sustainable-cities"
       ],
@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Building Efficiency Ratings"
+      "collection_group": "Other"
     },
     {
       "rel": "child",
@@ -200,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5644ba86-9de7-4b45-9bdd-42de82242446"
+        "f5b46457-b354-45ad-ae94-e700231a13ed"
       ]
     },
     {
@@ -213,7 +213,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "5644ba86-9de7-4b45-9bdd-42de82242446",
+      "key": "f5b46457-b354-45ad-ae94-e700231a13ed",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2fc26bf9-065f-4027-a78e-71f044cd9628"
+        "ec7fdf29-824d-40a3-89a4-7ebbfe5aab1c"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2fc26bf9-065f-4027-a78e-71f044cd9628",
+      "key": "ec7fdf29-824d-40a3-89a4-7ebbfe5aab1c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ca0c9ef4-977f-4207-951f-d7f631bb47fe"
+        "edb408b8-9093-47df-96c2-cde8b21410e6"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "ca0c9ef4-977f-4207-951f-d7f631bb47fe",
+      "key": "edb408b8-9093-47df-96c2-cde8b21410e6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "aea8542e-40b2-496d-a579-0145c31d0513"
+        "799a226d-e229-4f96-8e68-4f4f43e0d831"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "aea8542e-40b2-496d-a579-0145c31d0513",
+      "key": "799a226d-e229-4f96-8e68-4f4f43e0d831",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "320f360a-a83b-4279-a3fd-34a471de23df"
+        "37596a96-715d-46d8-a286-304c4f3ff889"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "320f360a-a83b-4279-a3fd-34a471de23df",
+      "key": "37596a96-715d-46d8-a286-304c4f3ff889",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -337,7 +337,7 @@
       "in": "query"
     }
   },
-  "title": "UHI and Building Efficiency Ratings",
+  "title": "BER and UHI - Traffic Light Map",
   "extent": {
     "spatial": {
       "bbox": [
@@ -348,10 +348,10 @@
           61.215695036324796
         ],
         [
-          -10.48,
-          49.95,
-          1.77,
-          55.81
+          -6.290874,
+          53.33398,
+          -6.225986,
+          53.355937
         ],
         [
           -10.732621857017984,
@@ -364,8 +364,8 @@
     "temporal": {
       "interval": [
         [
-          "2022-05-01T00:00:00Z",
-          "2023-01-01T00:00:00Z"
+          "2018-01-01T00:00:00Z",
+          "2022-05-01T00:00:00Z"
         ]
       ]
     }
