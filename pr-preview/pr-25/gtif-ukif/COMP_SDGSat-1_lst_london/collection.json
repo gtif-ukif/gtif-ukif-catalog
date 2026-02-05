@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP_mean_lst_2022_2024",
+  "id": "COMP_SDGSat-1_lst_london",
   "stac_version": "1.1.0",
-  "description": "During the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas—particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille—tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
+  "description": "A 30-metre land surface temperature (LST) map of London derived from SDGSAT-1 thermal imagery provides highly detailed thermal patterns across the city, resolving differences between streets, rooftops, parks, and industrial sites at neighbourhood scale. SDGSAT-1’s Thermal Infrared Spectrometer (TIS) offers three thermal bands at ~30 m resolution, enabling LST products with much finer spatial detail than many previous spaceborne thermal sensors.  \n\n With that resolution, the map can reveal fine-scale urban hotspots — warm road corridors, dense built-up blocks, and heat-emitting industrial areas — alongside cooler patches where parks, tree canopies, and water bodies reduce surface temperatures. Studies and algorithm tests for SDGSAT-1 show that 30 m TIR data improve detection of industrial heat sources and support robust LST retrievals when appropriate atmospheric correction and emissivity methods are applied.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./COMP_mean_lst_2022_2024/collection.json",
+      "href": "./COMP_SDGSat-1_lst_london/collection.json",
       "type": "application/json",
-      "title": "Mean LST 2022-2024",
+      "title": "SDGSat-1 LST - London",
       "endpointtype": "VEDA_tiles",
-      "id": "COMP_mean_lst_2022_2024",
+      "id": "COMP_SDGSat-1_lst_london",
       "themes": [
         "sustainable-cities"
       ],
@@ -222,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b48034d6-5cd8-418c-a978-0881c0091793"
+        "1ebccf19-f57c-4ad2-9a6f-858134ff7315"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "b48034d6-5cd8-418c-a978-0881c0091793",
+      "key": "1ebccf19-f57c-4ad2-9a6f-858134ff7315",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f3afb997-e6a3-4497-a396-7efd28399a4c"
+        "4a7adcee-864d-4bf7-b405-17357f01befd"
       ]
     },
     {
@@ -258,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "f3afb997-e6a3-4497-a396-7efd28399a4c",
+      "key": "4a7adcee-864d-4bf7-b405-17357f01befd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "236c9a30-6048-42d3-80af-071fd9557719"
+        "e35ef670-388f-4ca3-a79b-2bbd3b6203d1"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "236c9a30-6048-42d3-80af-071fd9557719",
+      "key": "e35ef670-388f-4ca3-a79b-2bbd3b6203d1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a1405a5f-e83f-43a8-aa58-659df61e0182"
+        "57580698-6085-4926-a106-bdf9e43533c1"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "a1405a5f-e83f-43a8-aa58-659df61e0182",
+      "key": "57580698-6085-4926-a106-bdf9e43533c1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -314,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f6a19d08-c1b5-4c5e-b60c-2e718fb04d0f"
+        "e2342992-8851-4765-8b8c-f1bf5c951fea"
       ]
     },
     {
@@ -327,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "f6a19d08-c1b5-4c5e-b60c-2e718fb04d0f",
+      "key": "e2342992-8851-4765-8b8c-f1bf5c951fea",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -354,8 +354,8 @@
   "collection_group": "Land Surface Temperature",
   "eox:colorlegend": {
     "domain": [
-      0,
-      56
+      10,
+      34
     ],
     "range": [
       "#30123b",
@@ -371,7 +371,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "Mean LST"
+    "title": "LST"
   },
   "auth:schemes": {
     "mapboxauth": {
@@ -380,29 +380,29 @@
       "in": "query"
     }
   },
-  "title": "Mean LST 2022-2024",
+  "title": "SDGSat-1 LST - London",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
+          -0.6270823770116414,
+          51.21691566511529,
+          0.343049402672535,
+          51.77601910385173
         ],
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
+          -0.6270823770116414,
+          51.21691566511529,
+          0.343049402672535,
+          51.77601910385173
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-06-01T00:00:00Z",
-          "2022-06-01T00:00:00Z"
+          "2024-06-26T00:00:00Z",
+          "2024-06-26T00:00:00Z"
         ]
       ]
     }

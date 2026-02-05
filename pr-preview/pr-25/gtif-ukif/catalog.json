@@ -12,6 +12,23 @@
     },
     {
       "rel": "child",
+      "href": "./COMP_SDGSat-1_lst_london/collection.json",
+      "type": "application/json",
+      "title": "SDGSat-1 LST - London",
+      "id": "COMP_SDGSat-1_lst_london",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Surface Temperature"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Surface Temperature"
+    },
+    {
+      "rel": "child",
       "href": "./COMP_lst_anomaly_london_2020_2025/collection.json",
       "type": "application/json",
       "title": "LST Anomaly London",
