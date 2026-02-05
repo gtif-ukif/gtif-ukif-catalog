@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu_r&nodata=0&rescale=-1,1",
       "type": "image/png",
       "title": "UHI Mean 2022-2024",
-      "key": "a95a0ea5-739d-4685-8bee-d6c65fcb7b55"
+      "key": "51492d2e-51d9-49f9-9c42-f990fd10624b"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Imperviousness and UHI"
+      "title": "BER and UHI - Traffic Light Map"
     }
   ],
   "themes": [
