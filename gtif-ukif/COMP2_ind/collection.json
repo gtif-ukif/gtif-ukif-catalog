@@ -200,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dcfcd30d-50f5-4bda-aa05-9d3dd82651fc"
+        "79145482-bb57-4c1f-b10e-0b7ff41fddb7"
       ]
     },
     {
@@ -213,7 +213,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "dcfcd30d-50f5-4bda-aa05-9d3dd82651fc",
+      "key": "79145482-bb57-4c1f-b10e-0b7ff41fddb7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "01d481f0-0e21-427a-8016-22e2997a8200"
+        "fd064cb4-534f-4568-8cab-26a8b87dd7fa"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "01d481f0-0e21-427a-8016-22e2997a8200",
+      "key": "fd064cb4-534f-4568-8cab-26a8b87dd7fa",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f1cde3a6-37be-4fdc-a437-d5037e16667b"
+        "9cd28477-c95d-407f-a7da-2167c22fb94f"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "f1cde3a6-37be-4fdc-a437-d5037e16667b",
+      "key": "9cd28477-c95d-407f-a7da-2167c22fb94f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3bd6395b-7725-453d-922e-89d947dafac0"
+        "616b2ff1-b862-4246-8fbf-6008030806cb"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "3bd6395b-7725-453d-922e-89d947dafac0",
+      "key": "616b2ff1-b862-4246-8fbf-6008030806cb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e6228899-b629-4982-955f-a6ac1b160e86"
+        "b00d358f-6289-4cdc-83c3-390f1e76f456"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "e6228899-b629-4982-955f-a6ac1b160e86",
+      "key": "b00d358f-6289-4cdc-83c3-390f1e76f456",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -324,7 +324,7 @@
     "sustainable-cities"
   ],
   "tags": [
-    "Heat Island"
+    "Land Cover"
   ],
   "agency": [
     "ESA"
