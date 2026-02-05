@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP1",
+  "id": "COMP2_ind",
   "stac_version": "1.1.0",
-  "description": "The following product shows the relationship between Building Efficiency Ratings (Energy Performance Certificates EPC in England). It shows cooler and warmer areas per small area of buildings. These small areas of buildings have a median BER/EPC rating of all buildings inside the geometry. This map shows that areas with a worse BER/EPC rating typically correspond to a higher UHI value. This is due to many surrounding factors, such as building location and population density, but also due to the energy efficiency of buildings. Buildings with a better BER/EPC rating typically correspond to a lower UHI value on hot days.",
+  "description": "The relationship between the Urban Heat Island (UHI) effect and urban land cover classes derived from CORINE Land Cover Mapping (LCM) reflects how different surface types influence the way heat is absorbed, stored, and released across cities. CORINE’s detailed classification helps distinguish between dense urban fabric, discontinuous residential areas, industrial zones, transport networks, and green urban spaces — each contributing differently to local temperature patterns. \n\nAreas classified as continuous urban fabric typically show the strongest UHI intensities. These zones contain tightly packed buildings, extensive paved surfaces, and minimal vegetation, all of which promote efficient heat absorption during the day and slow heat release at night. Industrial and commercial units also tend to exhibit elevated surface temperatures due to large expanses of concrete, metal structures, and high energy use. \n\nIn contrast, CORINE classes such as green urban areas, forests, and natural grasslands correspond to much cooler surfaces. These vegetated zones provide shading and evaporative cooling, reducing local temperatures and helping to buffer the warming effect from nearby built-up land. The spatial mix of these land cover types strongly shapes the UHI intensity across urban regions, highlighting the role of green infrastructure and land-use planning in moderating urban heat. ",
   "links": [
     {
       "rel": "root",
@@ -12,21 +12,39 @@
     },
     {
       "rel": "child",
-      "href": "./COMP1/collection.json",
+      "href": "./COMP2_lcm/collection.json",
       "type": "application/json",
-      "title": "UHI and Building Efficiency Ratings",
+      "title": "CORINE LCM",
       "endpointtype": "VectorTile source",
-      "id": "COMP1",
+      "id": "COMP2_lcm",
       "themes": [
         "sustainable-cities"
       ],
       "tags": [
-        "Building Efficiency Ratings"
+        "Heat Island"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Building Efficiency Ratings"
+      "collection_group": "Land Cover"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP5/collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP5",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Urban Heat Island"
     },
     {
       "rel": "xyz",
@@ -182,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "57cd2910-8ca6-4aee-a044-a456322a96c2"
+        "f2184a90-b7a9-4465-ab0f-7cba83a17fac"
       ]
     },
     {
@@ -195,7 +213,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "57cd2910-8ca6-4aee-a044-a456322a96c2",
+      "key": "f2184a90-b7a9-4465-ab0f-7cba83a17fac",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c3521743-84a4-4a1a-b2ac-0f8236ffcb5b"
+        "ab4b3226-957d-42fc-b58d-2c0aec50870a"
       ]
     },
     {
@@ -218,7 +236,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "c3521743-84a4-4a1a-b2ac-0f8236ffcb5b",
+      "key": "ab4b3226-957d-42fc-b58d-2c0aec50870a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9b63ba78-55ab-4c17-8c4d-59a87e6e94dc"
+        "322c5e72-76d8-4987-b23d-3642fb5ee13a"
       ]
     },
     {
@@ -241,7 +259,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "9b63ba78-55ab-4c17-8c4d-59a87e6e94dc",
+      "key": "322c5e72-76d8-4987-b23d-3642fb5ee13a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9181fcfb-eb73-457c-8b29-ae6d1561141f"
+        "b26213a8-1951-4b90-b10d-28ca7a7c8706"
       ]
     },
     {
@@ -264,7 +282,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "9181fcfb-eb73-457c-8b29-ae6d1561141f",
+      "key": "b26213a8-1951-4b90-b10d-28ca7a7c8706",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cc881fc1-aef3-446b-a736-df60327925eb"
+        "f3a175aa-3e88-49f6-85e3-e4efb325eb01"
       ]
     },
     {
@@ -287,7 +305,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "cc881fc1-aef3-446b-a736-df60327925eb",
+      "key": "f3a175aa-3e88-49f6-85e3-e4efb325eb01",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -306,26 +324,12 @@
     "sustainable-cities"
   ],
   "tags": [
-    "Building Efficiency Ratings"
+    "Land Cover"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Building Efficiency Ratings",
-  "eox:colorlegend": {
-    "title": "Mean UHI (low/medium/high)",
-    "range": [
-      "rgb(0, 0, 4)",
-      "rgb(81, 18, 124, 0)",
-      "rgb(183, 55, 121)",
-      "rgb(252, 137, 97)",
-      "rgb(252, 253, 191)"
-    ],
-    "domain": [
-      -1,
-      1
-    ]
-  },
+  "collection_group": "Land Cover",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -333,28 +337,34 @@
       "in": "query"
     }
   },
-  "title": "UHI and Building Efficiency Ratings",
+  "title": "Urban Classes and UHI",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -10.48,
-          49.95,
-          1.77,
-          55.81
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ],
         [
-          -10.48,
-          49.95,
-          1.77,
-          55.81
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
+        ],
+        [
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-01T00:00:00Z",
+          "2022-05-01T00:00:00Z",
           "2023-01-01T00:00:00Z"
         ]
       ]
