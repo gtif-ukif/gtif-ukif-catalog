@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP_impreviousness_ind",
+  "id": "COMP2_lcm",
   "stac_version": "1.1.0",
-  "description": "The relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "description": "The following product shows the relationship between urban land cover classes and the urban heat island effect. It shows cooler and warmer areas within urban areas. What it also shows is the geometries of the different urban land cover classes, and what the mean urban heat island effect is in this area. It can be determined from this map that urban green spaces, sport and leisure facilities provide the most cooling during hot summer days. On the contrary, continuous urban fabric and industrial areas warm up considerably on hot days.",
   "links": [
     {
       "rel": "root",
@@ -12,29 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./COMP5/collection.json",
+      "href": "./COMP2_lcm/collection.json",
       "type": "application/json",
-      "title": "UHI Mean 2022-2024",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP5",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Heat Island"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Urban Heat Island"
-    },
-    {
-      "rel": "child",
-      "href": "./COMP_Imperviousness/collection.json",
-      "type": "application/json",
-      "title": "Imperviousness and UHI",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness",
+      "title": "CORINE LCM",
+      "endpointtype": "VectorTile source",
+      "id": "COMP2_lcm",
       "themes": [
         "sustainable-cities"
       ],
@@ -200,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1bf16548-3538-4626-a776-56d03a9005f5"
+        "6bd41903-5fb1-4db3-9565-a37094005424"
       ]
     },
     {
@@ -213,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "1bf16548-3538-4626-a776-56d03a9005f5",
+      "key": "6bd41903-5fb1-4db3-9565-a37094005424",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f4a9b3cf-9651-41a2-826c-ce57c74fbf1d"
+        "6aa2a282-0daa-44e0-9285-c3c4d2d9cba0"
       ]
     },
     {
@@ -236,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "f4a9b3cf-9651-41a2-826c-ce57c74fbf1d",
+      "key": "6aa2a282-0daa-44e0-9285-c3c4d2d9cba0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "26803ddc-9a70-4159-ac78-3658b262705c"
+        "58436a08-aec0-4790-b664-3f302e0e383f"
       ]
     },
     {
@@ -259,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "26803ddc-9a70-4159-ac78-3658b262705c",
+      "key": "58436a08-aec0-4790-b664-3f302e0e383f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7716db49-af44-4969-8793-2a5bc7127ad0"
+        "bbb546cd-83fa-44b7-a36c-5f5a88672045"
       ]
     },
     {
@@ -282,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "7716db49-af44-4969-8793-2a5bc7127ad0",
+      "key": "bbb546cd-83fa-44b7-a36c-5f5a88672045",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f28830b7-784f-44a4-94b4-2d9182bde3a8"
+        "4dea58c2-4c58-4820-8b8e-e31eebc77e57"
       ]
     },
     {
@@ -305,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "f28830b7-784f-44a4-94b4-2d9182bde3a8",
+      "key": "4dea58c2-4c58-4820-8b8e-e31eebc77e57",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -337,35 +319,29 @@
       "in": "query"
     }
   },
-  "title": "Imperviousness and UHI",
+  "title": "CORINE LCM",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.82326107093359,
-          40.566153343944876,
-          16.216836666567666,
-          61.33941008747212
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
         ],
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
-        ],
-        [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
-          "2022-05-01T00:00:00Z"
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
