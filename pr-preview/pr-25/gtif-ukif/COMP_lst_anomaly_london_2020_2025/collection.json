@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP_mean_lst_2022_2024",
+  "id": "COMP_lst_anomaly_london_2020_2025",
   "stac_version": "1.1.0",
-  "description": "During the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas—particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille—tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
+  "description": "The positive LST anomaly over London in the last five years, compared with the previous 20-year baseline, reflects a combination of long-term climatic trends and city-specific factors that intensify local warming. London’s dense urban structure—characterized by extensive impervious surfaces, high-rise buildings, and limited vegetated areas—enhances the absorption and retention of heat. As the city has continued to expand and densify, these built-environment characteristics have become even more pronounced, contributing to higher surface temperatures.  \n\nIn addition to urban growth, recent years have seen more frequent and intense heatwaves, consistent with broader climate-change trends. These hotter, drier summers amplify heat storage in buildings and pavement, raising land surface temperatures beyond what was typical in the earlier baseline period. Increased energy use for cooling can also add waste heat to the local environment, further reinforcing the warming signal. \n\nTogether, these factors explain why London exhibits a stronger warming anomaly than the 20-year average, highlighting both the effects of global climate change and the intensifying influence of urbanization on local thermal conditions.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./COMP_mean_lst_2022_2024/collection.json",
+      "href": "./COMP_lst_anomaly_london_2020_2025/collection.json",
       "type": "application/json",
-      "title": "Mean LST 2022-2024",
+      "title": "LST Anomaly London",
       "endpointtype": "VEDA_tiles",
-      "id": "COMP_mean_lst_2022_2024",
+      "id": "COMP_lst_anomaly_london_2020_2025",
       "themes": [
         "sustainable-cities"
       ],
@@ -222,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0bbdff82-939a-4f0c-a45e-8d6830da0f5f"
+        "dc8695b3-59c4-4740-ba32-5051f4b2404a"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "0bbdff82-939a-4f0c-a45e-8d6830da0f5f",
+      "key": "dc8695b3-59c4-4740-ba32-5051f4b2404a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6431395a-038a-400f-ae40-7c6b79a93063"
+        "c75af615-50a7-4430-9b9a-6cc12619b922"
       ]
     },
     {
@@ -258,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "6431395a-038a-400f-ae40-7c6b79a93063",
+      "key": "c75af615-50a7-4430-9b9a-6cc12619b922",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "376bfbfc-d2ba-4671-adb3-4ba7cd73c8b3"
+        "b1ea1298-348c-4e28-a1c2-99bb5c67732c"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "376bfbfc-d2ba-4671-adb3-4ba7cd73c8b3",
+      "key": "b1ea1298-348c-4e28-a1c2-99bb5c67732c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "49f1ef6c-6e45-4d9f-9ced-dda9466851ce"
+        "ee51d854-e8ce-4865-90df-860dff072902"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "49f1ef6c-6e45-4d9f-9ced-dda9466851ce",
+      "key": "ee51d854-e8ce-4865-90df-860dff072902",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -314,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a93e260c-4373-4a37-a5de-e678216218e9"
+        "41522ab1-9aa5-4200-89ae-323a4c6dfae1"
       ]
     },
     {
@@ -327,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "a93e260c-4373-4a37-a5de-e678216218e9",
+      "key": "41522ab1-9aa5-4200-89ae-323a4c6dfae1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -354,8 +354,8 @@
   "collection_group": "Land Surface Temperature",
   "eox:colorlegend": {
     "domain": [
-      0,
-      56
+      -5,
+      5
     ],
     "range": [
       "#30123b",
@@ -371,7 +371,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "Mean LST"
+    "title": "LST Anomaly"
   },
   "auth:schemes": {
     "mapboxauth": {
@@ -380,29 +380,29 @@
       "in": "query"
     }
   },
-  "title": "Mean LST 2022-2024",
+  "title": "LST Anomaly London",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
+          -0.5880737965276762,
+          51.24042840550151,
+          0.31401647572171704,
+          51.752557243019965
         ],
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
+          -0.5880737965276762,
+          51.24042840550151,
+          0.31401647572171704,
+          51.752557243019965
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-06-01T00:00:00Z",
-          "2022-06-01T00:00:00Z"
+          "2020-06-01T00:00:00Z",
+          "2020-06-01T00:00:00Z"
         ]
       ]
     }
