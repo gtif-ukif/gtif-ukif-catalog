@@ -47,7 +47,7 @@
       "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
       "visible": false,
       "protocol": "vector-tile",
-      "layers": ["water"]
+      "layers": ["water", "waterway"]
     }
   ]
 }
