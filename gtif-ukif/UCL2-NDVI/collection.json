@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "388afe1d-7f08-4b9e-abdd-b079ec22459e"
+        "cee67a02-4fd1-48b6-b64c-89c71bd3cb2f"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "388afe1d-7f08-4b9e-abdd-b079ec22459e",
+      "key": "cee67a02-4fd1-48b6-b64c-89c71bd3cb2f",
       "layers": [
         "water"
       ],
@@ -264,7 +264,7 @@
     "temporal": {
       "interval": [
         [
-          "2020-03-01T00:00:00Z",
+          "2020-04-01T00:00:00Z",
           "2022-08-01T00:00:00Z"
         ]
       ]

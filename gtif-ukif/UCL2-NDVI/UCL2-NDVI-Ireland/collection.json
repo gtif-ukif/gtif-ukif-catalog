@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-Ireland-Overviews/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
       "type": "image/png",
       "title": "NDVI (Ireland)",
-      "key": "38bfdeab-0b93-4bfe-903d-b870fe07fd1b"
+      "key": "a04f3ae3-f302-447b-a6a6-b009bf2d2a8b"
     },
     {
       "rel": "parent",
@@ -71,7 +71,7 @@
     "temporal": {
       "interval": [
         [
-          "2020-03-01T00:00:00Z",
+          "2020-04-01T00:00:00Z",
           "2022-08-01T00:00:00Z"
         ]
       ]
