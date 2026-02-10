@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP_impreviousness_ind",
+  "id": "COMP1",
   "stac_version": "1.1.0",
-  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe following product shows the relationship between Building Efficiency Ratings (Energy Performance Certificates EPC in England). It shows cooler and warmer areas per small area of buildings. These small areas of buildings have a median BER/EPC rating of all buildings inside the geometry. This map shows that areas with a worse BER/EPC rating typically correspond to a higher UHI value. This is due to many surrounding factors, such as building location and population density, but also due to the energy efficiency of buildings. Buildings with a better BER/EPC rating typically correspond to a lower UHI value on hot days.",
   "links": [
     {
       "rel": "root",
@@ -12,39 +12,21 @@
     },
     {
       "rel": "child",
-      "href": "./COMP5/collection.json",
+      "href": "./COMP1/collection.json",
       "type": "application/json",
-      "title": "UHI Mean 2022-2024",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP5",
+      "title": "UHI and Building Efficiency Ratings",
+      "endpointtype": "VectorTile source",
+      "id": "COMP1",
       "themes": [
         "sustainable-cities"
       ],
       "tags": [
-        "Heat Island"
+        "Building Efficiency Ratings"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Urban Heat Island"
-    },
-    {
-      "rel": "child",
-      "href": "./COMP_Imperviousness/collection.json",
-      "type": "application/json",
-      "title": "Imperviousness and UHI",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Land Cover"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Land Cover"
+      "collection_group": "Building Efficiency Ratings"
     },
     {
       "rel": "xyz",
@@ -200,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "eff3d5ae-abf5-4454-a483-1ab99ce6e14e"
+        "993adc63-64eb-4779-889c-ac7a273e16bb"
       ]
     },
     {
@@ -213,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "eff3d5ae-abf5-4454-a483-1ab99ce6e14e",
+      "key": "993adc63-64eb-4779-889c-ac7a273e16bb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "26beedc6-3d10-42d8-a751-5a5185abf0d7"
+        "3ef0e8c7-5179-485a-b8ff-f065dbf494c6"
       ]
     },
     {
@@ -236,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "26beedc6-3d10-42d8-a751-5a5185abf0d7",
+      "key": "3ef0e8c7-5179-485a-b8ff-f065dbf494c6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "93967975-84c1-4288-851a-5f1f08c542db"
+        "7bf22c96-ec0c-438a-93c9-28cfe9221a48"
       ]
     },
     {
@@ -259,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "93967975-84c1-4288-851a-5f1f08c542db",
+      "key": "7bf22c96-ec0c-438a-93c9-28cfe9221a48",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "42d9ea88-ed8c-4502-beca-99a6d1e39279"
+        "633fcd7a-b692-410b-a94c-97fd3f586614"
       ]
     },
     {
@@ -282,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "42d9ea88-ed8c-4502-beca-99a6d1e39279",
+      "key": "633fcd7a-b692-410b-a94c-97fd3f586614",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c76f74aa-0831-4888-a4c0-b10109bbbf5c"
+        "70bfdff1-92d7-4a1c-b301-2624dad1a728"
       ]
     },
     {
@@ -305,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "c76f74aa-0831-4888-a4c0-b10109bbbf5c",
+      "key": "70bfdff1-92d7-4a1c-b301-2624dad1a728",
       "layers": [
         "water"
       ],
@@ -341,12 +323,26 @@
     "sustainable-cities"
   ],
   "tags": [
-    "Land Cover"
+    "Building Efficiency Ratings"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Land Cover",
+  "collection_group": "Building Efficiency Ratings",
+  "eox:colorlegend": {
+    "title": "Mean UHI (low/medium/high)",
+    "range": [
+      "rgb(0, 0, 4)",
+      "rgb(81, 18, 124, 0)",
+      "rgb(183, 55, 121)",
+      "rgb(252, 137, 97)",
+      "rgb(252, 253, 191)"
+    ],
+    "domain": [
+      -1,
+      1
+    ]
+  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -354,35 +350,29 @@
       "in": "query"
     }
   },
-  "title": "Imperviousness and UHI",
+  "title": "UHI and Building Efficiency Ratings",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.82326107093359,
-          40.566153343944876,
-          16.216836666567666,
-          61.33941008747212
+          -10.48,
+          49.95,
+          1.77,
+          55.81
         ],
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
-        ],
-        [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
+          -10.48,
+          49.95,
+          1.77,
+          55.81
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
-          "2022-05-01T00:00:00Z"
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
