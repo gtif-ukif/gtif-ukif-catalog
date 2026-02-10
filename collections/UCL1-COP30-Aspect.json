@@ -1,6 +1,6 @@
 {
-  "Name": "UCL1-COP30-Shd",
-  "Title": "COP30 Shd",
+  "Name": "UCL1-COP30-Aspect",
+  "Title": "COP30 Aspect",
   "CollectionGroup": "Other",
   "Description": "",
   "Themes": [
@@ -14,7 +14,7 @@
       "Name": "VEDA",
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
-      "CollectionId": "UCL1-COP-30-shd",
+      "CollectionId": "UCL1-COP-30-aspect",
       "ColormapName": "viridis",
       "Assets": [
         "asset"
@@ -47,6 +47,6 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "Hill Shade"
+    "title": "Aspect (°)"
   }
 }
