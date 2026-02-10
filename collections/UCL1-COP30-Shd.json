@@ -15,13 +15,13 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "UCL1-COP-30-shd",
-      "ColormapName": "viridis",
+      "ColormapName": "gray",
       "Assets": [
         "asset"
       ],
       "Rescale": [
         0,
-        30
+        255
       ]
     }
   ],
@@ -31,19 +31,19 @@
   "Colorlegend": {
     "domain": [
       0,
-      30
+      255
     ],
     "range": [
-      "#440154",
-      "#472777",
-      "#3d4a89",
-      "#30678d",
-      "#25828e",
-      "#1e9d88",
-      "#35b778",
-      "#6bcd59",
-      "#b5dd2b",
-      "#fde724"
+      "#000000",
+      "#1c1c1c",
+      "#383838",
+      "#555555",
+      "#717171",
+      "#8e8e8e",
+      "#aaaaaa",
+      "#c6c6c6",
+      "#e3e3e3",
+      "#ffffff"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
