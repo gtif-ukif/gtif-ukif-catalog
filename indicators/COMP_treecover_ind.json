@@ -1,0 +1,59 @@
+{
+  "Name": "COMP_TreeCover",
+  "Title": "Tree Cover and UHI",
+  "Description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and land cover types derived from ESA WorldCover becomes especially clear when comparing tree-covered areas with built-up areas. Built-up surfaces—such as concrete, asphalt, and rooftops—absorb large amounts of solar radiation and release it slowly, resulting in significantly higher land surface temperatures. In WorldCover maps, these urban classes consistently align with the warmest zones, reflecting the strong thermal inertia and low albedo of dense urban materials. \n\nIn contrast, tree-covered areas appear markedly cooler. Trees provide shading, reduce surface heating, and enhance evaporative cooling through transpiration. These cooling processes create localized temperature reductions that are clearly identifiable in high-resolution WorldCover-based analyses. As a result, the thermal contrast between built-up and tree-covered areas is one of the most pronounced land-cover-driven differences in UHI studies, illustrating the essential role of urban vegetation in mitigating heat and improving thermal comfort across cities. ",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Tags": [
+    "Land Cover"
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "CollectionGroup": "Land Cover",
+  "Collections": [
+    "COMP5"
+  ],
+  "OverlayLayers": [
+    {
+      "id": "WC21",
+      "name": "ESA World Cover WC21 UK Mosaic",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Grassland",          
+          "Cropland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    }
+  ]
+}
