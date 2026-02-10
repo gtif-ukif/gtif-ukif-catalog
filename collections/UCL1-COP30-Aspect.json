@@ -15,7 +15,7 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "UCL1-COP-30-aspect",
-      "ColormapName": "viridis",
+      "ColormapName": "turbo",
       "Assets": [
         "asset"
       ],
@@ -34,16 +34,16 @@
       360
     ],
     "range": [
-      "#440154",
-      "#472777",
-      "#3d4a89",
-      "#30678d",
-      "#25828e",
-      "#1e9d88",
-      "#35b778",
-      "#6bcd59",
-      "#b5dd2b",
-      "#fde724"
+      "#30123b",
+      "#4560d6",
+      "#34aaf8",
+      "#1ae4b6",
+      "#71fd5f",
+      "#c8ee33",
+      "#f9ba38",
+      "#f66b18",
+      "#c92903",
+      "#7a0402"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
