@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nUCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nUCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
       "type": "image/png",
       "title": "Severe Air Quality (SE GB)",
-      "key": "da43d9f6-f324-441b-abc4-39cb4633709a"
+      "key": "f08051eb-8ab5-4e4d-a02f-6faff76f93d4"
     },
     {
       "rel": "parent",
@@ -71,7 +71,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-02-10T09:07:24.754800Z",
+          "2026-02-10T09:09:46.544055Z",
           null
         ]
       ]
