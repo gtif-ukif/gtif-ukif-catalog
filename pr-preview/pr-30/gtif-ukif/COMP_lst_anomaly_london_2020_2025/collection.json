@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP_impreviousness_ind",
+  "id": "COMP_lst_anomaly_london_2020_2025",
   "stac_version": "1.1.0",
-  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe positive LST anomaly over London in the last five years, compared with the previous 20-year baseline, reflects a combination of long-term climatic trends and city-specific factors that intensify local warming. London’s dense urban structure—characterized by extensive impervious surfaces, high-rise buildings, and limited vegetated areas—enhances the absorption and retention of heat. As the city has continued to expand and densify, these built-environment characteristics have become even more pronounced, contributing to higher surface temperatures.  \n\nIn addition to urban growth, recent years have seen more frequent and intense heatwaves, consistent with broader climate-change trends. These hotter, drier summers amplify heat storage in buildings and pavement, raising land surface temperatures beyond what was typical in the earlier baseline period. Increased energy use for cooling can also add waste heat to the local environment, further reinforcing the warming signal. \n\nTogether, these factors explain why London exhibits a stronger warming anomaly than the 20-year average, highlighting both the effects of global climate change and the intensifying influence of urbanization on local thermal conditions.",
   "links": [
     {
       "rel": "root",
@@ -12,39 +12,21 @@
     },
     {
       "rel": "child",
-      "href": "./COMP5/collection.json",
+      "href": "./COMP_lst_anomaly_london_2020_2025/collection.json",
       "type": "application/json",
-      "title": "UHI Mean 2022-2024",
+      "title": "LST Anomaly London",
       "endpointtype": "VEDA_tiles",
-      "id": "COMP5",
+      "id": "COMP_lst_anomaly_london_2020_2025",
       "themes": [
         "sustainable-cities"
       ],
       "tags": [
-        "Heat Island"
+        "Land Surface Temperature"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Urban Heat Island"
-    },
-    {
-      "rel": "child",
-      "href": "./COMP_Imperviousness/collection.json",
-      "type": "application/json",
-      "title": "Imperviousness and UHI",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Land Cover"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Land Cover"
+      "collection_group": "Land Surface Temperature"
     },
     {
       "rel": "xyz",
@@ -53,7 +35,7 @@
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "cloudless-2024"
     },
@@ -64,7 +46,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "OSM"
     },
@@ -117,8 +99,8 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Cropland",
           "Grassland",
+          "Cropland",
           "Tree cover",
           "Snow and Ice",
           "Shrubland",
@@ -133,23 +115,63 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
       "type": "image/png",
-      "title": "WC21 UK Mosaic (Filtered)",
+      "title": "WC21 UK Mosaic (Cropland)",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "WC21-filtered",
+      "id": "WC21-Cropland",
       "eox:colorlegend": {
         "title": "",
         "range": [
-          "rgb(255, 255, 76)",
           "rgb(240, 150, 255)"
         ],
         "domain": [
-          "Grassland",
           "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Grassland)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-Grassland",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Tree cover)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-Treecover",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
         ],
         "scaleType": "categorical"
       }
@@ -200,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8255bd49-a289-4b9c-a044-0319d3c34135"
+        "a873ee14-4085-4b13-bace-78f0a76d849a"
       ]
     },
     {
@@ -213,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "8255bd49-a289-4b9c-a044-0319d3c34135",
+      "key": "a873ee14-4085-4b13-bace-78f0a76d849a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1d6e053d-e1a6-4234-8029-1fe8b392dc13"
+        "139e5939-5df0-4595-9a55-792414b30466"
       ]
     },
     {
@@ -236,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "1d6e053d-e1a6-4234-8029-1fe8b392dc13",
+      "key": "139e5939-5df0-4595-9a55-792414b30466",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3937f90a-de5d-426a-9924-4c4924af1a3c"
+        "1362fa25-acdb-499e-baa2-6b8c4c8876fb"
       ]
     },
     {
@@ -259,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "3937f90a-de5d-426a-9924-4c4924af1a3c",
+      "key": "1362fa25-acdb-499e-baa2-6b8c4c8876fb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0a8d7823-ba9a-4ce2-b01b-1b855b0ab3a1"
+        "781f05cc-be5f-4ac5-b13c-6d614590750c"
       ]
     },
     {
@@ -282,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "0a8d7823-ba9a-4ce2-b01b-1b855b0ab3a1",
+      "key": "781f05cc-be5f-4ac5-b13c-6d614590750c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "94db1c12-bcf4-47d3-a75e-6ee399aea28f"
+        "129bf894-c009-4574-a6b2-6dfef9289d3f"
       ]
     },
     {
@@ -305,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "94db1c12-bcf4-47d3-a75e-6ee399aea28f",
+      "key": "129bf894-c009-4574-a6b2-6dfef9289d3f",
       "layers": [
         "water"
       ],
@@ -341,12 +363,33 @@
     "sustainable-cities"
   ],
   "tags": [
-    "Land Cover"
+    "Land Surface Temperature"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Land Cover",
+  "collection_group": "Land Surface Temperature",
+  "eox:colorlegend": {
+    "domain": [
+      -5,
+      5
+    ],
+    "range": [
+      "#30123b",
+      "#4560d6",
+      "#34aaf8",
+      "#1ae4b6",
+      "#71fd5f",
+      "#c8ee33",
+      "#f9ba38",
+      "#f66b18",
+      "#c92903",
+      "#7a0402"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "LST Anomaly"
+  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -354,35 +397,29 @@
       "in": "query"
     }
   },
-  "title": "Imperviousness and UHI",
+  "title": "LST Anomaly London",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.82326107093359,
-          40.566153343944876,
-          16.216836666567666,
-          61.33941008747212
+          -0.5880737965276762,
+          51.24042840550151,
+          0.31401647572171704,
+          51.752557243019965
         ],
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
-        ],
-        [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
+          -0.5880737965276762,
+          51.24042840550151,
+          0.31401647572171704,
+          51.752557243019965
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
-          "2022-05-01T00:00:00Z"
+          "2020-06-01T00:00:00Z",
+          "2020-06-01T00:00:00Z"
         ]
       ]
     }
