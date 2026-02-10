@@ -14,7 +14,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "UHI and Building Efficiency Ratings"
+      "title": "(Deprecated)UHI and Building Efficiency Ratings"
     }
   ],
   "themes": [
@@ -42,7 +42,7 @@
     ]
   },
   "endpointtype": "VectorTile source",
-  "title": "UHI and Building Efficiency Ratings",
+  "title": "(Deprecated)UHI and Building Efficiency Ratings",
   "extent": {
     "spatial": {
       "bbox": [
