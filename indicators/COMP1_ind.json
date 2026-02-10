@@ -8,12 +8,53 @@
   "Tags": [
     "Building Efficiency Ratings"
   ],
-  "Description": "The relationship between the Urban Heat Island (UHI) effect and building efficiency ratings reflects how the thermal performance of buildings influences local temperature patterns within cities. Buildings with poor efficiency ratings often have inadequate insulation, inefficient heating and cooling systems, and materials that retain or release heat in ways that exacerbate warming. These structures tend to emit more waste heat into the surrounding environment, especially during periods of high energy use, reinforcing the UHI effect in densely built areas. \n\nConversely, buildings with higher efficiency ratings are designed to regulate indoor temperatures more effectively, reducing the need for energy-intensive cooling and minimizing external heat emissions. They often incorporate better insulation, reflective or high-albedo materials, and more efficient systems that collectively help lower the amount of anthropogenic heat released outdoors. As a result, spatial patterns of building efficiency can correlate strongly with UHI intensity, highlighting how improving energy performance across the building stock can contribute to reducing urban heat and enhancing overall climate resilience.",
+  "Description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and building efficiency ratings reflects how the thermal performance of buildings influences local temperature patterns within cities. Buildings with poor efficiency ratings often have inadequate insulation, inefficient heating and cooling systems, and materials that retain or release heat in ways that exacerbate warming. These structures tend to emit more waste heat into the surrounding environment, especially during periods of high energy use, reinforcing the UHI effect in densely built areas. \n\nConversely, buildings with higher efficiency ratings are designed to regulate indoor temperatures more effectively, reducing the need for energy-intensive cooling and minimizing external heat emissions. They often incorporate better insulation, reflective or high-albedo materials, and more efficient systems that collectively help lower the amount of anthropogenic heat released outdoors. As a result, spatial patterns of building efficiency can correlate strongly with UHI intensity, highlighting how improving energy performance across the building stock can contribute to reducing urban heat and enhancing overall climate resilience.",
   "Agency": [
     "ESA"
   ],
   "Collections": [
     "COMP3",
     "COMP5"
+  ],
+  "OverlayLayers": [
+    {
+      "id": "WC21",
+      "name": "ESA World Cover WC21 UK Mosaic",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Grassland",          
+          "Cropland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    }
   ]
 }
