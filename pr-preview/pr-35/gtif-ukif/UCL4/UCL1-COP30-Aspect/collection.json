@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-aspect/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,30",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-aspect/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,360",
       "type": "image/png",
       "title": "COP30 Aspect",
-      "key": "69cb48a5-884f-4955-b61b-10d27aadefaa"
+      "key": "3359abe3-5590-4de4-9579-69bf05c2d7f0"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      30
+      360
     ],
     "range": [
       "#440154",
