@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL2-VCI-2022",
+  "id": "EDA-methane-UK",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nVCI (Vegetation Condition Index) is a measure of the vegetation condition based on the normalized difference vegetation index (NDVI).",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nThere was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
   "links": [
     {
       "rel": "root",
@@ -12,21 +12,29 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-VCI-2022/collection.json",
+      "href": "./EDA-methane-UK/collection.json",
       "type": "application/json",
-      "title": "VCI (Ireland) 2022",
+      "title": "Cheltenham UK",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL2-VCI-2022",
+      "id": "EDA-methane-UK",
       "themes": [
-        "food-security"
+        "carbon-accounting"
       ],
       "tags": [
-        "Drought Analysis/Forecast"
+        "Methane Emissions Analysis"
       ],
       "agency": [
         "ESA"
       ],
       "collection_group": "Other"
+    },
+    {
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-UK/statistics?assets=asset",
+      "type": "application/json",
+      "id": "veda_statistics",
+      "method": "POST",
+      "endpoint": "veda_stac"
     },
     {
       "rel": "xyz",
@@ -182,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2e221563-fe38-4102-8f3d-ebe469510724"
+        "25947ee0-225a-4e10-a3df-79243b8cfc6d"
       ]
     },
     {
@@ -195,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "2e221563-fe38-4102-8f3d-ebe469510724",
+      "key": "25947ee0-225a-4e10-a3df-79243b8cfc6d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c4478674-d7cf-4c09-aa8d-ded95346fa38"
+        "4ddd7c32-bd27-4f5c-8931-b849d106afa2"
       ]
     },
     {
@@ -218,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "c4478674-d7cf-4c09-aa8d-ded95346fa38",
+      "key": "4ddd7c32-bd27-4f5c-8931-b849d106afa2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9918aed4-d831-422f-9e9a-033684eb8bd1"
+        "b4ec3879-602d-4cd4-893d-46f448f50a6a"
       ]
     },
     {
@@ -241,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "9918aed4-d831-422f-9e9a-033684eb8bd1",
+      "key": "b4ec3879-602d-4cd4-893d-46f448f50a6a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e76963d7-baf7-471a-adc4-96078517ea10"
+        "cafdf126-e597-436d-b609-46a629e3b516"
       ]
     },
     {
@@ -264,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "e76963d7-baf7-471a-adc4-96078517ea10",
+      "key": "cafdf126-e597-436d-b609-46a629e3b516",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3d801c6d-02dd-4bee-8b05-d6e5099a16a3"
+        "7509301a-3be5-45a3-9e69-72e16f2d42c0"
       ]
     },
     {
@@ -287,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "3d801c6d-02dd-4bee-8b05-d6e5099a16a3",
+      "key": "7509301a-3be5-45a3-9e69-72e16f2d42c0",
       "layers": [
         "water"
       ],
@@ -320,10 +328,10 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "food-security"
+    "carbon-accounting"
   ],
   "tags": [
-    "Drought Analysis/Forecast"
+    "Methane Emissions Analysis"
   ],
   "agency": [
     "ESA"
@@ -331,25 +339,27 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      -1,
-      1
+      -3,
+      3
     ],
     "range": [
-      "#000000",
-      "#131313",
-      "#262626",
-      "#393939",
-      "#4b4b4b",
-      "#cf3000",
-      "#ffb300",
-      "#bde300",
-      "#339200",
-      "#004308"
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "VCI"
+    "title": "Methane column enhancement (mol m-2)"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -357,29 +367,29 @@
       "in": "query"
     }
   },
-  "title": "VCI (Ireland) 2022",
+  "title": "Cheltenham UK",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.104591164873993,
-          51.095293192897806,
-          -5.097344144376162,
-          55.60473592572955
+          -2.11962,
+          51.930743012581736,
+          -2.079483012581734,
+          51.97088
         ],
         [
-          -11.104591164873993,
-          51.095293192897806,
-          -5.097344144376162,
-          55.60473592572955
+          -2.11962,
+          51.930743012581736,
+          -2.079483012581734,
+          51.97088
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-03-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2023-01-19T00:00:00Z",
+          "2023-06-15T00:00:00Z"
         ]
       ]
     }
@@ -387,7 +397,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "food-security"
+      "carbon-accounting"
     ]
   }
 }
