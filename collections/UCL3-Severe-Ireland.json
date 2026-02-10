@@ -8,7 +8,7 @@
   "Tags": [
     "Air Quality"
   ],
-  "Description": "Severe Air Quality (Ireland)",
+  "Description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
@@ -18,7 +18,7 @@
       "ColormapName": "jet",
       "Rescale": [
         0,
-        1000
+        50
       ],
       "Assets": [
         "asset"
@@ -42,7 +42,7 @@
   "Colorlegend": {
     "domain": [
       0,
-      1000
+      50
     ],
     "range": [
       "#00007f",
@@ -58,7 +58,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5"
+    "title": "PM2.5 (µg/cu.m)"
   },
   "Agency": [
     "ESA"
