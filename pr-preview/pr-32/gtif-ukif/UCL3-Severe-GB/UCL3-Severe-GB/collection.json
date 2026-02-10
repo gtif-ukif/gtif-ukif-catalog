@@ -1,0 +1,81 @@
+{
+  "type": "Collection",
+  "id": "UCL3-Severe-GB",
+  "stac_version": "1.1.0",
+  "description": "Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nUCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
+      "type": "image/png",
+      "title": "Severe Air Quality (SE GB)",
+      "key": "1882e653-34de-4e89-a274-537eeeacd665"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (SE GB)"
+    }
+  ],
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      50
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5 (µg/cu.m)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Severe Air Quality (SE GB)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-02-10T09:05:58.155964Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
