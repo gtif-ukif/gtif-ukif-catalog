@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP5",
   "stac_version": "1.1.0",
-  "description": "The Urban Heat Island (UHI) Map (2022-2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe Urban Heat Island (UHI) Map (2022-2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu_r&nodata=0&rescale=-1,1",
       "type": "image/png",
       "title": "UHI Mean 2022-2024",
-      "key": "898f32b9-05fb-4623-b345-c34e3a335194"
+      "key": "b940341e-dc47-479a-9c87-afee2b72e9e8"
     },
     {
       "rel": "parent",

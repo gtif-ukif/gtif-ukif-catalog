@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP5",
   "stac_version": "1.1.0",
-  "description": "The Urban Heat Island (UHI) Map (2022-2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe Urban Heat Island (UHI) Map (2022-2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
   "links": [
     {
       "rel": "root",
@@ -222,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f9b85e2c-1489-4957-aa33-ca9427b0b9f9"
+        "2df4d462-7c50-4ebd-9808-45eab9a7c087"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "f9b85e2c-1489-4957-aa33-ca9427b0b9f9",
+      "key": "2df4d462-7c50-4ebd-9808-45eab9a7c087",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7cd6b209-8a4e-4baf-8a40-d47805a3331b"
+        "7f8e04d8-535e-4c4a-a45a-9397d02c544e"
       ]
     },
     {
@@ -258,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "7cd6b209-8a4e-4baf-8a40-d47805a3331b",
+      "key": "7f8e04d8-535e-4c4a-a45a-9397d02c544e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0e8b2c91-fec3-4033-bdb5-8ff4fd64c38e"
+        "5f4cd0ff-8707-48cf-b2fb-2aab8b48b64a"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "0e8b2c91-fec3-4033-bdb5-8ff4fd64c38e",
+      "key": "5f4cd0ff-8707-48cf-b2fb-2aab8b48b64a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "95010d39-5886-4ef3-9c0a-7a9109e737a3"
+        "14941c0b-0522-4fa6-8985-c41b645e8c10"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "95010d39-5886-4ef3-9c0a-7a9109e737a3",
+      "key": "14941c0b-0522-4fa6-8985-c41b645e8c10",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -314,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "837db9c7-f1bc-480f-aef3-578d74c9a097"
+        "a3cd0967-b96a-47d7-a9e8-495f65e88872"
       ]
     },
     {
@@ -327,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "837db9c7-f1bc-480f-aef3-578d74c9a097",
+      "key": "a3cd0967-b96a-47d7-a9e8-495f65e88872",
       "layers": [
         "water"
       ],

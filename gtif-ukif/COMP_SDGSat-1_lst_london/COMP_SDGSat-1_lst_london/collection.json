@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP_SDGSat-1_lst_london",
   "stac_version": "1.1.0",
-  "description": "A 30-metre land surface temperature (LST) map of London derived from SDGSAT-1 thermal imagery provides highly detailed thermal patterns across the city, resolving differences between streets, rooftops, parks, and industrial sites at neighbourhood scale. SDGSAT-1’s Thermal Infrared Spectrometer (TIS) offers three thermal bands at ~30 m resolution, enabling LST products with much finer spatial detail than many previous spaceborne thermal sensors.  \n\n With that resolution, the map can reveal fine-scale urban hotspots — warm road corridors, dense built-up blocks, and heat-emitting industrial areas — alongside cooler patches where parks, tree canopies, and water bodies reduce surface temperatures. Studies and algorithm tests for SDGSAT-1 show that 30 m TIR data improve detection of industrial heat sources and support robust LST retrievals when appropriate atmospheric correction and emissivity methods are applied.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nA 30-metre land surface temperature (LST) map of London derived from SDGSAT-1 thermal imagery provides highly detailed thermal patterns across the city, resolving differences between streets, rooftops, parks, and industrial sites at neighbourhood scale. SDGSAT-1’s Thermal Infrared Spectrometer (TIS) offers three thermal bands at ~30 m resolution, enabling LST products with much finer spatial detail than many previous spaceborne thermal sensors.  \n\n With that resolution, the map can reveal fine-scale urban hotspots — warm road corridors, dense built-up blocks, and heat-emitting industrial areas — alongside cooler patches where parks, tree canopies, and water bodies reduce surface temperatures. Studies and algorithm tests for SDGSAT-1 show that 30 m TIR data improve detection of industrial heat sources and support robust LST retrievals when appropriate atmospheric correction and emissivity methods are applied.",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-SDGSat-1-LST-London/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo&rescale=10,34",
       "type": "image/png",
       "title": "SDGSat-1 LST - London",
-      "key": "fdbcb4c1-73b6-4004-9041-9ab998039257"
+      "key": "72833d2e-cb5d-465c-a679-efb48720f4c1"
     },
     {
       "rel": "parent",

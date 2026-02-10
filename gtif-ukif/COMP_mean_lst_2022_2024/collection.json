@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP_mean_lst_2022_2024",
   "stac_version": "1.1.0",
-  "description": "During the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas—particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille—tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nDuring the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas—particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille—tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
   "links": [
     {
       "rel": "root",
@@ -222,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d5c5471b-4545-4781-92f0-715b41f10f19"
+        "1013b0e0-ef26-4f23-8725-2716d8944fba"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "d5c5471b-4545-4781-92f0-715b41f10f19",
+      "key": "1013b0e0-ef26-4f23-8725-2716d8944fba",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a26b9262-3892-4ba2-85c8-7e8d6d697dff"
+        "64e7ed14-eab1-407f-9055-b8c6f3ee55ff"
       ]
     },
     {
@@ -258,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "a26b9262-3892-4ba2-85c8-7e8d6d697dff",
+      "key": "64e7ed14-eab1-407f-9055-b8c6f3ee55ff",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5964f29a-2288-4b61-a3f2-a3beadd62002"
+        "946be190-8ade-4001-90f1-63184dc045cc"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "5964f29a-2288-4b61-a3f2-a3beadd62002",
+      "key": "946be190-8ade-4001-90f1-63184dc045cc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2486ea6a-2ff4-4571-ab64-b7205d614edd"
+        "508ada75-0fb8-42f4-b253-f1c4ff7b51ec"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "2486ea6a-2ff4-4571-ab64-b7205d614edd",
+      "key": "508ada75-0fb8-42f4-b253-f1c4ff7b51ec",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -314,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "071be4c7-417d-439f-9dac-4c31d9119ffd"
+        "e1efec6f-1f98-4eb8-b210-c5e13d717c47"
       ]
     },
     {
@@ -327,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "071be4c7-417d-439f-9dac-4c31d9119ffd",
+      "key": "e1efec6f-1f98-4eb8-b210-c5e13d717c47",
       "layers": [
         "water"
       ],

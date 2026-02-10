@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP_SDGSat-1_lst_london",
   "stac_version": "1.1.0",
-  "description": "A 30-metre land surface temperature (LST) map of London derived from SDGSAT-1 thermal imagery provides highly detailed thermal patterns across the city, resolving differences between streets, rooftops, parks, and industrial sites at neighbourhood scale. SDGSAT-1’s Thermal Infrared Spectrometer (TIS) offers three thermal bands at ~30 m resolution, enabling LST products with much finer spatial detail than many previous spaceborne thermal sensors.  \n\n With that resolution, the map can reveal fine-scale urban hotspots — warm road corridors, dense built-up blocks, and heat-emitting industrial areas — alongside cooler patches where parks, tree canopies, and water bodies reduce surface temperatures. Studies and algorithm tests for SDGSAT-1 show that 30 m TIR data improve detection of industrial heat sources and support robust LST retrievals when appropriate atmospheric correction and emissivity methods are applied.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nA 30-metre land surface temperature (LST) map of London derived from SDGSAT-1 thermal imagery provides highly detailed thermal patterns across the city, resolving differences between streets, rooftops, parks, and industrial sites at neighbourhood scale. SDGSAT-1’s Thermal Infrared Spectrometer (TIS) offers three thermal bands at ~30 m resolution, enabling LST products with much finer spatial detail than many previous spaceborne thermal sensors.  \n\n With that resolution, the map can reveal fine-scale urban hotspots — warm road corridors, dense built-up blocks, and heat-emitting industrial areas — alongside cooler patches where parks, tree canopies, and water bodies reduce surface temperatures. Studies and algorithm tests for SDGSAT-1 show that 30 m TIR data improve detection of industrial heat sources and support robust LST retrievals when appropriate atmospheric correction and emissivity methods are applied.",
   "links": [
     {
       "rel": "root",
@@ -222,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "126fb6e9-7b50-4d39-8590-426ddc0be008"
+        "17b9e9db-407d-4fe1-a9c2-34b591b73042"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "126fb6e9-7b50-4d39-8590-426ddc0be008",
+      "key": "17b9e9db-407d-4fe1-a9c2-34b591b73042",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "632c1359-8590-4d37-a06d-549e32b6855d"
+        "bb4292b8-9658-444d-9d48-4e7f4262a4bc"
       ]
     },
     {
@@ -258,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "632c1359-8590-4d37-a06d-549e32b6855d",
+      "key": "bb4292b8-9658-444d-9d48-4e7f4262a4bc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c77d4f47-fd47-4fcc-b2e2-47071ea78bb7"
+        "4e2ddb84-07f4-4002-bce1-f948c688c1d9"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "c77d4f47-fd47-4fcc-b2e2-47071ea78bb7",
+      "key": "4e2ddb84-07f4-4002-bce1-f948c688c1d9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a90dd12c-e0e6-4e63-b50b-08967c277ab9"
+        "3e955c16-4395-40a5-ac17-895df8370689"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "a90dd12c-e0e6-4e63-b50b-08967c277ab9",
+      "key": "3e955c16-4395-40a5-ac17-895df8370689",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -314,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "651ff5b2-c25d-4d37-8963-5173ba9b58a2"
+        "391412e6-2ae9-46e0-ad5c-6dca1d507131"
       ]
     },
     {
@@ -327,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "651ff5b2-c25d-4d37-8963-5173ba9b58a2",
+      "key": "391412e6-2ae9-46e0-ad5c-6dca1d507131",
       "layers": [
         "water"
       ],

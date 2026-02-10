@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP_mean_lst_2022_2024",
   "stac_version": "1.1.0",
-  "description": "During the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas—particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille—tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nDuring the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas—particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille—tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Mean-LST-2022-2024-Summer/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo&rescale=0,56",
       "type": "image/png",
       "title": "Mean LST 2022-2024",
-      "key": "d5faae33-ddd1-41dc-831c-88b2b10358a3"
+      "key": "80336815-798b-4a32-beea-a534b6f438c9"
     },
     {
       "rel": "parent",

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP_lst_anomaly_london_2020_2025",
   "stac_version": "1.1.0",
-  "description": "The positive LST anomaly over London in the last five years, compared with the previous 20-year baseline, reflects a combination of long-term climatic trends and city-specific factors that intensify local warming. London’s dense urban structure—characterized by extensive impervious surfaces, high-rise buildings, and limited vegetated areas—enhances the absorption and retention of heat. As the city has continued to expand and densify, these built-environment characteristics have become even more pronounced, contributing to higher surface temperatures.  \n\nIn addition to urban growth, recent years have seen more frequent and intense heatwaves, consistent with broader climate-change trends. These hotter, drier summers amplify heat storage in buildings and pavement, raising land surface temperatures beyond what was typical in the earlier baseline period. Increased energy use for cooling can also add waste heat to the local environment, further reinforcing the warming signal. \n\nTogether, these factors explain why London exhibits a stronger warming anomaly than the 20-year average, highlighting both the effects of global climate change and the intensifying influence of urbanization on local thermal conditions.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe positive LST anomaly over London in the last five years, compared with the previous 20-year baseline, reflects a combination of long-term climatic trends and city-specific factors that intensify local warming. London’s dense urban structure—characterized by extensive impervious surfaces, high-rise buildings, and limited vegetated areas—enhances the absorption and retention of heat. As the city has continued to expand and densify, these built-environment characteristics have become even more pronounced, contributing to higher surface temperatures.  \n\nIn addition to urban growth, recent years have seen more frequent and intense heatwaves, consistent with broader climate-change trends. These hotter, drier summers amplify heat storage in buildings and pavement, raising land surface temperatures beyond what was typical in the earlier baseline period. Increased energy use for cooling can also add waste heat to the local environment, further reinforcing the warming signal. \n\nTogether, these factors explain why London exhibits a stronger warming anomaly than the 20-year average, highlighting both the effects of global climate change and the intensifying influence of urbanization on local thermal conditions.",
   "links": [
     {
       "rel": "root",
@@ -222,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e88fd4e2-4df0-40c2-858f-8c985ae1467e"
+        "da03c00a-3824-4233-9869-f57437cd2563"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "e88fd4e2-4df0-40c2-858f-8c985ae1467e",
+      "key": "da03c00a-3824-4233-9869-f57437cd2563",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2edfd861-4bbb-45b6-aefc-de8ac258212b"
+        "1d3abad2-1d09-42b9-b55c-12fa9be1df7d"
       ]
     },
     {
@@ -258,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2edfd861-4bbb-45b6-aefc-de8ac258212b",
+      "key": "1d3abad2-1d09-42b9-b55c-12fa9be1df7d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4003be43-ad01-4d9f-9c95-720b4b387f44"
+        "6595a2cd-9e76-4dec-9838-177a2f00e0c4"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "4003be43-ad01-4d9f-9c95-720b4b387f44",
+      "key": "6595a2cd-9e76-4dec-9838-177a2f00e0c4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3225592c-c8c4-4342-a1ef-44d3e2335c0f"
+        "3c20f05e-3aee-4bdf-9d07-c227c7b12e81"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "3225592c-c8c4-4342-a1ef-44d3e2335c0f",
+      "key": "3c20f05e-3aee-4bdf-9d07-c227c7b12e81",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -314,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5fc689d3-8e3b-4f2d-8ba8-ecb3c2499c66"
+        "6f77f5db-7e6b-4296-962b-6001c3e4a779"
       ]
     },
     {
@@ -327,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "5fc689d3-8e3b-4f2d-8ba8-ecb3c2499c66",
+      "key": "6f77f5db-7e6b-4296-962b-6001c3e4a779",
       "layers": [
         "water"
       ],
