@@ -29,6 +29,40 @@
     },
     {
       "rel": "child",
+      "href": "./COMP5/collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024",
+      "id": "COMP5",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Urban Heat Island"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP_SDGSat-1_lst_london/collection.json",
+      "type": "application/json",
+      "title": "SDGSat-1 LST - London",
+      "id": "COMP_SDGSat-1_lst_london",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Surface Temperature"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Surface Temperature"
+    },
+    {
+      "rel": "child",
       "href": "./COMP2_ind/collection.json",
       "type": "application/json",
       "title": "Urban Classes and UHI",

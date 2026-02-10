@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP1",
+  "id": "COMP5",
   "stac_version": "1.1.0",
-  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe following product shows the relationship between Building Efficiency Ratings (Energy Performance Certificates EPC in England). It shows cooler and warmer areas per small area of buildings. These small areas of buildings have a median BER/EPC rating of all buildings inside the geometry. This map shows that areas with a worse BER/EPC rating typically correspond to a higher UHI value. This is due to many surrounding factors, such as building location and population density, but also due to the energy efficiency of buildings. Buildings with a better BER/EPC rating typically correspond to a lower UHI value on hot days.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe Urban Heat Island (UHI) Map (2022-2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
   "links": [
     {
       "rel": "root",
@@ -12,21 +12,21 @@
     },
     {
       "rel": "child",
-      "href": "./COMP1/collection.json",
+      "href": "./COMP5/collection.json",
       "type": "application/json",
-      "title": "UHI and Building Efficiency Ratings",
-      "endpointtype": "VectorTile source",
-      "id": "COMP1",
+      "title": "UHI Mean 2022-2024",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP5",
       "themes": [
         "sustainable-cities"
       ],
       "tags": [
-        "Building Efficiency Ratings"
+        "Heat Island"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Building Efficiency Ratings"
+      "collection_group": "Urban Heat Island"
     },
     {
       "rel": "xyz",
@@ -35,7 +35,7 @@
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "cloudless-2024"
     },
@@ -46,7 +46,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "OSM"
     },
@@ -99,8 +99,8 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Cropland",
           "Grassland",
+          "Cropland",
           "Tree cover",
           "Snow and Ice",
           "Shrubland",
@@ -115,23 +115,63 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
       "type": "image/png",
-      "title": "WC21 UK Mosaic (Filtered)",
+      "title": "WC21 UK Mosaic (Cropland)",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "WC21-filtered",
+      "id": "WC21-Cropland",
       "eox:colorlegend": {
         "title": "",
         "range": [
-          "rgb(255, 255, 76)",
           "rgb(240, 150, 255)"
         ],
         "domain": [
-          "Grassland",
           "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Grassland)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-Grassland",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Tree cover)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-Treecover",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
         ],
         "scaleType": "categorical"
       }
@@ -182,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "99642f6d-96e4-4f07-8b87-88896b7e78ed"
+        "c92283f0-efd2-4a41-b961-cda2f7ca883d"
       ]
     },
     {
@@ -195,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "99642f6d-96e4-4f07-8b87-88896b7e78ed",
+      "key": "c92283f0-efd2-4a41-b961-cda2f7ca883d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "11f992a8-1113-4ac4-829b-3b16d8b105a8"
+        "c5d5cfe6-25ee-4b57-ac3d-252c0e5e93a6"
       ]
     },
     {
@@ -218,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "11f992a8-1113-4ac4-829b-3b16d8b105a8",
+      "key": "c5d5cfe6-25ee-4b57-ac3d-252c0e5e93a6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f48291e7-1922-422c-88c3-a852e71b7f50"
+        "4c6e4086-2827-45fe-9a14-d70087341ab4"
       ]
     },
     {
@@ -241,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "f48291e7-1922-422c-88c3-a852e71b7f50",
+      "key": "4c6e4086-2827-45fe-9a14-d70087341ab4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "10610abc-9c74-4abe-9ccf-c058ad7294c4"
+        "a15ec8b7-f530-4289-a549-d5f9ed0bff45"
       ]
     },
     {
@@ -264,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "10610abc-9c74-4abe-9ccf-c058ad7294c4",
+      "key": "a15ec8b7-f530-4289-a549-d5f9ed0bff45",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4a72d6d6-3341-4404-8695-be8755b7e6cd"
+        "7c2aa3f0-b705-4a5e-a5ee-e848ae019734"
       ]
     },
     {
@@ -287,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "4a72d6d6-3341-4404-8695-be8755b7e6cd",
+      "key": "7c2aa3f0-b705-4a5e-a5ee-e848ae019734",
       "layers": [
         "water"
       ],
@@ -323,25 +363,32 @@
     "sustainable-cities"
   ],
   "tags": [
-    "Building Efficiency Ratings"
+    "Heat Island"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Building Efficiency Ratings",
+  "collection_group": "Urban Heat Island",
   "eox:colorlegend": {
-    "title": "Mean UHI (low/medium/high)",
-    "range": [
-      "rgb(0, 0, 4)",
-      "rgb(81, 18, 124, 0)",
-      "rgb(183, 55, 121)",
-      "rgb(252, 137, 97)",
-      "rgb(252, 253, 191)"
-    ],
     "domain": [
       -1,
       1
-    ]
+    ],
+    "range": [
+      "#053061",
+      "#246aae",
+      "#559ec9",
+      "#a7cfe4",
+      "#e1ecf3",
+      "#fae7db",
+      "#f7b698",
+      "#dd7059",
+      "#b51f2e",
+      "#67001f"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "[°C]"
   },
   "auth:schemes": {
     "mapboxauth": {
@@ -350,29 +397,29 @@
       "in": "query"
     }
   },
-  "title": "UHI and Building Efficiency Ratings",
+  "title": "UHI Mean 2022-2024",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -10.48,
-          49.95,
-          1.77,
-          55.81
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ],
         [
-          -10.48,
-          49.95,
-          1.77,
-          55.81
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-01T00:00:00Z",
-          "2023-01-01T00:00:00Z"
+          "2022-05-01T00:00:00Z",
+          "2022-05-01T00:00:00Z"
         ]
       ]
     }

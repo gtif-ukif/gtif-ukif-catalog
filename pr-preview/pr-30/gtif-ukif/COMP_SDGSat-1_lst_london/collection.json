@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP1",
+  "id": "COMP_SDGSat-1_lst_london",
   "stac_version": "1.1.0",
-  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe following product shows the relationship between Building Efficiency Ratings (Energy Performance Certificates EPC in England). It shows cooler and warmer areas per small area of buildings. These small areas of buildings have a median BER/EPC rating of all buildings inside the geometry. This map shows that areas with a worse BER/EPC rating typically correspond to a higher UHI value. This is due to many surrounding factors, such as building location and population density, but also due to the energy efficiency of buildings. Buildings with a better BER/EPC rating typically correspond to a lower UHI value on hot days.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nA 30-metre land surface temperature (LST) map of London derived from SDGSAT-1 thermal imagery provides highly detailed thermal patterns across the city, resolving differences between streets, rooftops, parks, and industrial sites at neighbourhood scale. SDGSAT-1’s Thermal Infrared Spectrometer (TIS) offers three thermal bands at ~30 m resolution, enabling LST products with much finer spatial detail than many previous spaceborne thermal sensors.  \n\n With that resolution, the map can reveal fine-scale urban hotspots — warm road corridors, dense built-up blocks, and heat-emitting industrial areas — alongside cooler patches where parks, tree canopies, and water bodies reduce surface temperatures. Studies and algorithm tests for SDGSAT-1 show that 30 m TIR data improve detection of industrial heat sources and support robust LST retrievals when appropriate atmospheric correction and emissivity methods are applied.",
   "links": [
     {
       "rel": "root",
@@ -12,21 +12,21 @@
     },
     {
       "rel": "child",
-      "href": "./COMP1/collection.json",
+      "href": "./COMP_SDGSat-1_lst_london/collection.json",
       "type": "application/json",
-      "title": "UHI and Building Efficiency Ratings",
-      "endpointtype": "VectorTile source",
-      "id": "COMP1",
+      "title": "SDGSat-1 LST - London",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP_SDGSat-1_lst_london",
       "themes": [
         "sustainable-cities"
       ],
       "tags": [
-        "Building Efficiency Ratings"
+        "Land Surface Temperature"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Building Efficiency Ratings"
+      "collection_group": "Land Surface Temperature"
     },
     {
       "rel": "xyz",
@@ -35,7 +35,7 @@
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "cloudless-2024"
     },
@@ -46,7 +46,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "OSM"
     },
@@ -99,8 +99,8 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Cropland",
           "Grassland",
+          "Cropland",
           "Tree cover",
           "Snow and Ice",
           "Shrubland",
@@ -115,23 +115,63 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
       "type": "image/png",
-      "title": "WC21 UK Mosaic (Filtered)",
+      "title": "WC21 UK Mosaic (Cropland)",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "WC21-filtered",
+      "id": "WC21-Cropland",
       "eox:colorlegend": {
         "title": "",
         "range": [
-          "rgb(255, 255, 76)",
           "rgb(240, 150, 255)"
         ],
         "domain": [
-          "Grassland",
           "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Grassland)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-Grassland",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Tree cover)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-Treecover",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
         ],
         "scaleType": "categorical"
       }
@@ -182,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "99642f6d-96e4-4f07-8b87-88896b7e78ed"
+        "edfb74ea-9c8b-43e0-a3ad-be0560e59d27"
       ]
     },
     {
@@ -195,7 +235,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "99642f6d-96e4-4f07-8b87-88896b7e78ed",
+      "key": "edfb74ea-9c8b-43e0-a3ad-be0560e59d27",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "11f992a8-1113-4ac4-829b-3b16d8b105a8"
+        "e06f7dbc-ace9-4257-8fe5-1a02397898e9"
       ]
     },
     {
@@ -218,7 +258,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "11f992a8-1113-4ac4-829b-3b16d8b105a8",
+      "key": "e06f7dbc-ace9-4257-8fe5-1a02397898e9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f48291e7-1922-422c-88c3-a852e71b7f50"
+        "052d6244-8642-42d3-9da0-e724560ba82e"
       ]
     },
     {
@@ -241,7 +281,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "f48291e7-1922-422c-88c3-a852e71b7f50",
+      "key": "052d6244-8642-42d3-9da0-e724560ba82e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "10610abc-9c74-4abe-9ccf-c058ad7294c4"
+        "87f0b379-1529-4d8b-87c6-f808167061e6"
       ]
     },
     {
@@ -264,7 +304,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "10610abc-9c74-4abe-9ccf-c058ad7294c4",
+      "key": "87f0b379-1529-4d8b-87c6-f808167061e6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +314,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4a72d6d6-3341-4404-8695-be8755b7e6cd"
+        "2e3360eb-cd31-4430-a789-7cff79596ffc"
       ]
     },
     {
@@ -287,7 +327,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "4a72d6d6-3341-4404-8695-be8755b7e6cd",
+      "key": "2e3360eb-cd31-4430-a789-7cff79596ffc",
       "layers": [
         "water"
       ],
@@ -323,25 +363,32 @@
     "sustainable-cities"
   ],
   "tags": [
-    "Building Efficiency Ratings"
+    "Land Surface Temperature"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Building Efficiency Ratings",
+  "collection_group": "Land Surface Temperature",
   "eox:colorlegend": {
-    "title": "Mean UHI (low/medium/high)",
-    "range": [
-      "rgb(0, 0, 4)",
-      "rgb(81, 18, 124, 0)",
-      "rgb(183, 55, 121)",
-      "rgb(252, 137, 97)",
-      "rgb(252, 253, 191)"
-    ],
     "domain": [
-      -1,
-      1
-    ]
+      10,
+      34
+    ],
+    "range": [
+      "#30123b",
+      "#4560d6",
+      "#34aaf8",
+      "#1ae4b6",
+      "#71fd5f",
+      "#c8ee33",
+      "#f9ba38",
+      "#f66b18",
+      "#c92903",
+      "#7a0402"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "LST"
   },
   "auth:schemes": {
     "mapboxauth": {
@@ -350,29 +397,29 @@
       "in": "query"
     }
   },
-  "title": "UHI and Building Efficiency Ratings",
+  "title": "SDGSat-1 LST - London",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -10.48,
-          49.95,
-          1.77,
-          55.81
+          -0.6270823770116414,
+          51.21691566511529,
+          0.343049402672535,
+          51.77601910385173
         ],
         [
-          -10.48,
-          49.95,
-          1.77,
-          55.81
+          -0.6270823770116414,
+          51.21691566511529,
+          0.343049402672535,
+          51.77601910385173
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-01T00:00:00Z",
-          "2023-01-01T00:00:00Z"
+          "2024-06-26T00:00:00Z",
+          "2024-06-26T00:00:00Z"
         ]
       ]
     }
