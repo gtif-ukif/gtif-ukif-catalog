@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL2-VCI-2022",
   "stac_version": "1.1.0",
-  "description": "VCI (Vegetation Condition Index) is a measure of the vegetation condition based on the normalized difference vegetation index (NDVI).",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nVCI (Vegetation Condition Index) is a measure of the vegetation condition based on the normalized difference vegetation index (NDVI).",
   "links": [
     {
       "rel": "root",
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5edb139f-b422-4b78-a506-7c9209cb22b6"
+        "e0a4f6c7-81fb-4776-9a96-29cc5eeebb81"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "5edb139f-b422-4b78-a506-7c9209cb22b6",
+      "key": "e0a4f6c7-81fb-4776-9a96-29cc5eeebb81",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "78c4ee90-aa26-494a-96ee-bdd9761b2f8a"
+        "60ae01d9-ed48-4686-b531-40f7b58dd1ef"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "78c4ee90-aa26-494a-96ee-bdd9761b2f8a",
+      "key": "60ae01d9-ed48-4686-b531-40f7b58dd1ef",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f4d590aa-4931-4441-959f-008bd1aa3a29"
+        "3e37bf0e-6d3d-42e7-9c83-4b6deff7c588"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "f4d590aa-4931-4441-959f-008bd1aa3a29",
+      "key": "3e37bf0e-6d3d-42e7-9c83-4b6deff7c588",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "56a30482-db3e-41fb-a13b-8c958de0f8dd"
+        "098c723a-e6fc-414a-8802-8155d698bf90"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "56a30482-db3e-41fb-a13b-8c958de0f8dd",
+      "key": "098c723a-e6fc-414a-8802-8155d698bf90",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9db11819-4b39-4d3a-97b8-e9b6a2fd65ea"
+        "fd212107-0e10-40af-a825-55aab06becd2"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "9db11819-4b39-4d3a-97b8-e9b6a2fd65ea",
+      "key": "fd212107-0e10-40af-a825-55aab06becd2",
       "layers": [
         "water"
       ],

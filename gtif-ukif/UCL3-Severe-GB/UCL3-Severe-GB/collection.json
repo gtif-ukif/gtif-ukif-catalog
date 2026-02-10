@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nUCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
       "type": "image/png",
       "title": "Severe Air Quality (SE GB)",
-      "key": "c9c0b4a1-550c-4c71-94c0-4b6fe126829d"
+      "key": "ef48ad7d-677b-4bae-af31-2cad87ee3b74"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      1000
+      50
     ],
     "range": [
       "#00007f",
@@ -53,7 +53,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5"
+    "title": "PM2.5 (µg/cu.m)"
   },
   "endpointtype": "VEDA_tiles",
   "title": "Severe Air Quality (SE GB)",
@@ -61,31 +61,21 @@
     "spatial": {
       "bbox": [
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-01-09T00:00:00Z",
-          "2022-12-17T00:00:00Z"
+          "2026-02-10T09:31:29.853035Z",
+          null
         ]
       ]
     }
   },
-  "license": "other",
-  "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    }
-  }
+  "license": "other"
 }

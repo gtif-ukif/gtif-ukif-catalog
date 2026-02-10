@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL2-NDVI",
   "stac_version": "1.1.0",
-  "description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
   "links": [
     {
       "rel": "root",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4d04f383-2c7c-4d33-a8d8-46736cc374fb"
+        "e79436be-cb1a-4bee-9098-17b43438b04f"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "4d04f383-2c7c-4d33-a8d8-46736cc374fb",
+      "key": "e79436be-cb1a-4bee-9098-17b43438b04f",
       "layers": [
         "water"
       ],

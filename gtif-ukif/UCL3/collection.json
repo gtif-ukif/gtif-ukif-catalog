@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL3",
   "stac_version": "1.1.0",
-  "description": "A 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
   "links": [
     {
       "rel": "root",
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "563f27f3-9eab-4d75-bfb1-2431b8f99ba2"
+        "8a7fafe3-3ff8-40c4-8733-df2575e4fe6c"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "563f27f3-9eab-4d75-bfb1-2431b8f99ba2",
+      "key": "8a7fafe3-3ff8-40c4-8733-df2575e4fe6c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2b852329-d89c-4388-a869-998cb37e8ab0"
+        "ba801f23-f4ad-42d9-8094-bfa67bcb11f6"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2b852329-d89c-4388-a869-998cb37e8ab0",
+      "key": "ba801f23-f4ad-42d9-8094-bfa67bcb11f6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "95dbf60c-437a-4b54-8b2f-fd0696c7d4ae"
+        "19bd9ec6-7b78-42d5-af7e-1b8c42be160f"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "95dbf60c-437a-4b54-8b2f-fd0696c7d4ae",
+      "key": "19bd9ec6-7b78-42d5-af7e-1b8c42be160f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "86b60a5a-0e88-4436-8538-2695f5912b9d"
+        "2a3c0592-960e-4e87-8f79-c8f86986788d"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "86b60a5a-0e88-4436-8538-2695f5912b9d",
+      "key": "2a3c0592-960e-4e87-8f79-c8f86986788d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ed0c7ab9-7ca1-430f-97bf-35cdb6ee013d"
+        "10801820-df3d-4125-bba1-24b154dd05ce"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "ed0c7ab9-7ca1-430f-97bf-35cdb6ee013d",
+      "key": "10801820-df3d-4125-bba1-24b154dd05ce",
       "layers": [
         "water"
       ],
@@ -332,7 +332,7 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      1000
+      50
     ],
     "range": [
       "#00007f",
@@ -348,7 +348,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5"
+    "title": "PM2.5 (µg/cu.m)"
   },
   "auth:schemes": {
     "mapboxauth": {

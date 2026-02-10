@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL3-Severe-Ireland",
   "stac_version": "1.1.0",
-  "description": "Severe Air Quality (Ireland)",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
   "links": [
     {
       "rel": "root",
@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,1000",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
       "type": "image/png",
       "title": "Severe Air Quality (Ireland)",
-      "key": "eb968b20-c6f1-4f54-98d1-7bf60ce8d200"
+      "key": "bf1d91dd-b141-48a8-8928-c7b5ed24d851"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      1000
+      50
     ],
     "range": [
       "#00007f",
@@ -53,7 +53,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5"
+    "title": "PM2.5 (µg/cu.m)"
   },
   "endpointtype": "VEDA_tiles",
   "title": "Severe Air Quality (Ireland)",

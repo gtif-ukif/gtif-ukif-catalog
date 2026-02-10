@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-UK",
   "stac_version": "1.1.0",
-  "description": "There was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nThere was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
   "links": [
     {
       "rel": "root",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "861cbee8-98b0-4672-9d28-f00551ee454a"
+        "b6e13ad8-313a-4788-926d-43d4cc5b53f6"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "861cbee8-98b0-4672-9d28-f00551ee454a",
+      "key": "b6e13ad8-313a-4788-926d-43d4cc5b53f6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fecba645-aee8-4b26-877d-9be1d3d7c75a"
+        "24bfa1bd-ea67-4e9d-8747-8dd148b0506b"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "fecba645-aee8-4b26-877d-9be1d3d7c75a",
+      "key": "24bfa1bd-ea67-4e9d-8747-8dd148b0506b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "eb0f3376-26c5-4c93-8f81-5a5b7d99211c"
+        "97d17309-8ccc-47cb-bccb-b23b3e0e5a64"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "eb0f3376-26c5-4c93-8f81-5a5b7d99211c",
+      "key": "97d17309-8ccc-47cb-bccb-b23b3e0e5a64",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2c3c37e2-26e3-4000-af95-a93032e1a8d4"
+        "d4e10bbd-90d8-44fe-80b5-056518e25a49"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "2c3c37e2-26e3-4000-af95-a93032e1a8d4",
+      "key": "d4e10bbd-90d8-44fe-80b5-056518e25a49",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1810c63c-ee3b-4e2e-9d81-84842a403dfb"
+        "e80e9a42-65c1-4c88-8b9f-77262c3465a3"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "1810c63c-ee3b-4e2e-9d81-84842a403dfb",
+      "key": "e80e9a42-65c1-4c88-8b9f-77262c3465a3",
       "layers": [
         "water"
       ],

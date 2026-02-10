@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL3-Severe-Ireland",
   "stac_version": "1.1.0",
-  "description": "Severe Air Quality (Ireland)",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
   "links": [
     {
       "rel": "root",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a59e0d5d-a0b8-41c1-9a78-bdf96a88638d"
+        "c18874ed-8c9f-418e-937e-f3d4dfb7c4b4"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "a59e0d5d-a0b8-41c1-9a78-bdf96a88638d",
+      "key": "c18874ed-8c9f-418e-937e-f3d4dfb7c4b4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f8639e77-95ec-4947-8b54-2604bc1171fd"
+        "4ca91666-ec11-4ee4-ba3a-9d2c6def5921"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "f8639e77-95ec-4947-8b54-2604bc1171fd",
+      "key": "4ca91666-ec11-4ee4-ba3a-9d2c6def5921",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4daf925c-1611-46ab-a377-372a878c2eb5"
+        "d10a6460-65a8-4a4a-b737-e55bb9c5ba50"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "4daf925c-1611-46ab-a377-372a878c2eb5",
+      "key": "d10a6460-65a8-4a4a-b737-e55bb9c5ba50",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "46153687-a6a4-4f0f-a209-973a53c74753"
+        "cfc7256c-3ff3-46f4-991d-76a9c2ead048"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "46153687-a6a4-4f0f-a209-973a53c74753",
+      "key": "cfc7256c-3ff3-46f4-991d-76a9c2ead048",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9986675d-a991-4079-baf5-f71a98604746"
+        "5f94e0ac-c128-4fdd-8ba3-0ed91aaeea39"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "9986675d-a991-4079-baf5-f71a98604746",
+      "key": "5f94e0ac-c128-4fdd-8ba3-0ed91aaeea39",
       "layers": [
         "water"
       ],
@@ -340,7 +340,7 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      1000
+      50
     ],
     "range": [
       "#00007f",
@@ -356,7 +356,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5"
+    "title": "PM2.5 (µg/cu.m)"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
