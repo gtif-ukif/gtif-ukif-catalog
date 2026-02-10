@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-Severe-Ireland",
+  "id": "UCL1-France",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
+  "description": "",
   "links": [
     {
       "rel": "root",
@@ -12,23 +12,23 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=400,1500",
       "type": "image/png",
-      "title": "Severe Air Quality (Ireland)",
-      "key": "01baf1c5-e294-414a-a4c8-4577658b8aa1"
+      "title": "Photovoltaic Output France",
+      "key": "ec9d8992-5351-4b25-aed1-e3c6ab0efd6a"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Severe Air Quality (Ireland)"
+      "title": "Photovoltaic Output"
     }
   ],
   "themes": [
-    "mobility-transition"
+    "energy-transition"
   ],
   "tags": [
-    "Air Quality"
+    "Solar Rural Power"
   ],
   "agency": [
     "ESA"
@@ -36,8 +36,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      0,
-      50
+      400,
+      1500
     ],
     "range": [
       "#00007f",
@@ -53,26 +53,26 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
+    "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Severe Air Quality (Ireland)",
+  "title": "Photovoltaic Output France",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -6.0,
+          41.0,
+          10.0,
+          52.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-03-03T00:00:00Z",
-          "2022-12-31T00:00:00Z"
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
         ]
       ]
     }
