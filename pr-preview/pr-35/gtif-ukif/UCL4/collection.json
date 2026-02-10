@@ -12,60 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-France/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output France",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-France",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-UK/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output UK",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-UK",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-Ireland/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL1-albedo-Ireland/collection.json",
       "type": "application/json",
       "title": "RGB Albedo Layer Ireland",
@@ -143,6 +89,60 @@
       "title": "COP30 Shd",
       "endpointtype": "VEDA_tiles",
       "id": "UCL1-COP30-Shd",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-France/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-France",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-UK/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output UK",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-UK",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-Ireland",
       "themes": [
         "energy-transition"
       ],
@@ -308,7 +308,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "efec432a-4478-4943-b744-4e3741159dd1"
+        "5d6d505e-04a3-450f-a529-cd42fe4d4f07"
       ]
     },
     {
@@ -321,7 +321,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "efec432a-4478-4943-b744-4e3741159dd1",
+      "key": "5d6d505e-04a3-450f-a529-cd42fe4d4f07",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -331,7 +331,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1c4b44c3-405c-40ae-ae3a-c9fb7054d51a"
+        "c545e1a1-336b-4b12-9bee-b0e9ec7a5858"
       ]
     },
     {
@@ -344,7 +344,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "1c4b44c3-405c-40ae-ae3a-c9fb7054d51a",
+      "key": "c545e1a1-336b-4b12-9bee-b0e9ec7a5858",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -354,7 +354,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "273d6396-9a4c-426a-88d4-c95db5b324f7"
+        "c58eb5f0-6049-4aa1-a5ca-3f205ee22315"
       ]
     },
     {
@@ -367,7 +367,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "273d6396-9a4c-426a-88d4-c95db5b324f7",
+      "key": "c58eb5f0-6049-4aa1-a5ca-3f205ee22315",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -377,7 +377,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "96f5ed2c-a04e-4806-abf8-a8a7253a6215"
+        "d9525c92-e30b-4477-bb3b-45f25fdcc6a3"
       ]
     },
     {
@@ -390,7 +390,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "96f5ed2c-a04e-4806-abf8-a8a7253a6215",
+      "key": "d9525c92-e30b-4477-bb3b-45f25fdcc6a3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -400,7 +400,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "386b78d1-5153-4272-b82d-60a5d5e45f33"
+        "343a7eb0-dfb6-4a60-b429-753311c878f7"
       ]
     },
     {
@@ -413,7 +413,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "386b78d1-5153-4272-b82d-60a5d5e45f33",
+      "key": "343a7eb0-dfb6-4a60-b429-753311c878f7",
       "layers": [
         "water"
       ],
@@ -560,24 +560,6 @@
           63.474630050521746
         ],
         [
-          -6.0,
-          41.0,
-          10.0,
-          52.0
-        ],
-        [
-          -9.0,
-          49.0,
-          2.0,
-          61.0
-        ],
-        [
-          -11.0,
-          51.0,
-          -5.0,
-          56.0
-        ],
-        [
           -11.104591164807998,
           51.09529319289348,
           -5.097344144310739,
@@ -606,6 +588,24 @@
           39.90272381327664,
           10.000491103609367,
           63.474630050521746
+        ],
+        [
+          -6.0,
+          41.0,
+          10.0,
+          52.0
+        ],
+        [
+          -9.0,
+          49.0,
+          2.0,
+          61.0
+        ],
+        [
+          -11.0,
+          51.0,
+          -5.0,
+          56.0
         ]
       ]
     },
