@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3",
+  "id": "UCL4",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment. A colourised by height with hill-shaded Digital Elevetaion Model (DEM)  at 30m grid-spacing mosaic of the whole UKIF area of many tiles (size 26.5Gb), produced by the EU Copernicus  program, in WGS84. COP30 DEM is derived from TerraSar-X+TanDEM-X and spans several years of inSAR retrievals. The 10m ESA WorldCover 2021  map for the whole UKIF area. It uses all available Sentinel-2 images for the whole of 2021.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,106 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3/collection.json",
+      "href": "./UCL4-France/collection.json",
       "type": "application/json",
-      "title": "Poor Air Quality across the whole UK-Ireland-France area",
+      "title": "Photovoltaic Output France",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL3",
+      "id": "UCL4-France",
       "themes": [
-        "mobility-transition"
+        "energy-transition"
       ],
       "tags": [
-        "Air Quality"
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-UK/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output UK",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-UK",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-Ireland/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-GB/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer GB",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-GB",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-COP30-Slope/collection.json",
+      "type": "application/json",
+      "title": "COP30 Slope",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-COP30-Slope",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
       ],
       "agency": [
         "ESA"
@@ -182,7 +272,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2a78f11b-61b1-4b90-8e4b-a059b0aee123"
+        "b6ca5b50-65fb-4d5b-8f7e-ab79998b06ae"
       ]
     },
     {
@@ -195,7 +285,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "2a78f11b-61b1-4b90-8e4b-a059b0aee123",
+      "key": "b6ca5b50-65fb-4d5b-8f7e-ab79998b06ae",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +295,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4c82706f-ab79-40ea-b081-fa55c5486ad2"
+        "d0f1b529-2b4e-422d-bfb7-d233dff543ce"
       ]
     },
     {
@@ -218,7 +308,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "4c82706f-ab79-40ea-b081-fa55c5486ad2",
+      "key": "d0f1b529-2b4e-422d-bfb7-d233dff543ce",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +318,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "da0a1313-38c7-42d0-b040-1f273876f650"
+        "4892e463-1af9-46b0-998d-ef126aefd749"
       ]
     },
     {
@@ -241,7 +331,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "da0a1313-38c7-42d0-b040-1f273876f650",
+      "key": "4892e463-1af9-46b0-998d-ef126aefd749",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +341,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ab3c6fc9-d06f-4b92-bd2c-87090178483c"
+        "44e70753-b67f-47b8-b87b-73cf70435995"
       ]
     },
     {
@@ -264,7 +354,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "ab3c6fc9-d06f-4b92-bd2c-87090178483c",
+      "key": "44e70753-b67f-47b8-b87b-73cf70435995",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +364,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "db791747-73d8-4350-9291-6edf92f62c25"
+        "9f031048-7772-4bdf-892f-e0c793ec75a1"
       ]
     },
     {
@@ -287,7 +377,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "db791747-73d8-4350-9291-6edf92f62c25",
+      "key": "9f031048-7772-4bdf-892f-e0c793ec75a1",
       "layers": [
         "water"
       ],
@@ -320,36 +410,12 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "mobility-transition"
+    "energy-transition"
   ],
   "tags": [
-    "Air Quality"
-  ],
-  "agency": [
-    "ESA"
+    "Solar Rural Power"
   ],
   "collection_group": "Other",
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      50
-    ],
-    "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
-      "#7f0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
-  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -357,29 +423,59 @@
       "in": "query"
     }
   },
-  "title": "Poor Air Quality across the whole UK-Ireland-France area",
+  "title": "Photovoltaic Output - Monthly",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ],
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -6.0,
+          41.0,
+          10.0,
+          52.0
+        ],
+        [
+          -9.0,
+          49.0,
+          2.0,
+          61.0
+        ],
+        [
+          -11.0,
+          51.0,
+          -5.0,
+          56.0
+        ],
+        [
+          -11.104591164807998,
+          51.09529319289348,
+          -5.097344144310739,
+          55.604735925728136
+        ],
+        [
+          -9.419263296773103,
+          48.781349973035624,
+          3.1707659683262213,
+          60.879568085857684
+        ],
+        [
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-11-22T00:00:00Z",
-          "2018-11-22T00:00:00Z"
+          "2019-01-01T00:00:00Z",
+          "2025-04-24T00:00:00Z"
         ]
       ]
     }
@@ -387,7 +483,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "mobility-transition"
+      "energy-transition"
     ]
   }
 }

@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3",
+  "id": "UCL2-NDVI",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,34 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3/collection.json",
+      "href": "./UCL2-NDVI-GB/collection.json",
       "type": "application/json",
-      "title": "Poor Air Quality across the whole UK-Ireland-France area",
+      "title": "NDVI (GB)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL3",
+      "id": "UCL2-NDVI-GB",
       "themes": [
-        "mobility-transition"
+        "food-security"
       ],
       "tags": [
-        "Air Quality"
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
+      "type": "application/json",
+      "title": "NDVI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -167,114 +185,11 @@
       }
     },
     {
-      "rel": "xyz",
-      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
-      "title": "Overlay labels",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "overlay_bright"
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "2a78f11b-61b1-4b90-8e4b-a059b0aee123"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Solar Panels © UCL/Oxford 2025",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SolarPanels",
-      "key": "2a78f11b-61b1-4b90-8e4b-a059b0aee123",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "4c82706f-ab79-40ea-b081-fa55c5486ad2"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Site of Special Scientific Interest",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SSSI",
-      "key": "4c82706f-ab79-40ea-b081-fa55c5486ad2",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "da0a1313-38c7-42d0-b040-1f273876f650"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "National Parks",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "NationalParks",
-      "key": "da0a1313-38c7-42d0-b040-1f273876f650",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "ab3c6fc9-d06f-4b92-bd2c-87090178483c"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Natural Landscapes",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "AONB",
-      "key": "ab3c6fc9-d06f-4b92-bd2c-87090178483c",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "db791747-73d8-4350-9291-6edf92f62c25"
+        "99ed47d6-3384-41a4-9430-60a4f9dde335"
       ]
     },
     {
@@ -284,27 +199,13 @@
       "title": "Water Mask",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "db791747-73d8-4350-9291-6edf92f62c25",
+      "key": "99ed47d6-3384-41a4-9430-60a4f9dde335",
       "layers": [
         "water"
       ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "mapbox-style-document",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "type": "application/json",
-      "title": "Open Infrastructure Map",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "Openinframap",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -320,36 +221,15 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "mobility-transition"
+    "food-security"
   ],
   "tags": [
-    "Air Quality"
+    "Drought Analysis/Forecast"
   ],
   "agency": [
     "ESA"
   ],
   "collection_group": "Other",
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      50
-    ],
-    "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
-      "#7f0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
-  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -357,29 +237,35 @@
       "in": "query"
     }
   },
-  "title": "Poor Air Quality across the whole UK-Ireland-France area",
+  "title": "NDVI",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -11.104591164873993,
+          48.781349973068224,
+          3.1707659683374008,
+          60.87956808588977
         ],
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -9.419263296774696,
+          48.781349973068224,
+          3.1707659683374008,
+          60.87956808588977
+        ],
+        [
+          -11.104591164873993,
+          51.095293192897806,
+          -5.097344144376162,
+          55.60473592572955
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-11-22T00:00:00Z",
-          "2018-11-22T00:00:00Z"
+          "2020-03-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
         ]
       ]
     }
@@ -387,7 +273,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "mobility-transition"
+      "food-security"
     ]
   }
 }

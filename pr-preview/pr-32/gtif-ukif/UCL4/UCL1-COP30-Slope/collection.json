@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-albedo-Ireland",
+  "id": "UCL1-COP30-Slope",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-slope/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,30",
       "type": "image/png",
-      "title": "RGB Albedo Layer Ireland",
-      "key": "e69be9ec-bad2-44ac-9ac5-4fa0060542a8"
+      "title": "COP30 Slope",
+      "key": "ef42055a-2ca0-4881-bb94-c3655ef43680"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -34,24 +34,45 @@
     "ESA"
   ],
   "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      30
+    ],
+    "range": [
+      "#440154",
+      "#472777",
+      "#3d4a89",
+      "#30678d",
+      "#25828e",
+      "#1e9d88",
+      "#35b778",
+      "#6bcd59",
+      "#b5dd2b",
+      "#fde724"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Slope (°)"
+  },
   "endpointtype": "VEDA_tiles",
-  "title": "RGB Albedo Layer Ireland",
+  "title": "COP30 Slope",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-08-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2025-04-24T00:00:00Z",
+          "2025-04-24T00:00:00Z"
         ]
       ]
     }

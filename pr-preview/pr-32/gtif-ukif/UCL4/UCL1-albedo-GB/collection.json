@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-albedo-Ireland",
+  "id": "UCL1-albedo-GB",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
       "type": "image/png",
-      "title": "RGB Albedo Layer Ireland",
-      "key": "e69be9ec-bad2-44ac-9ac5-4fa0060542a8"
+      "title": "RGB Albedo Layer GB",
+      "key": "446563f2-0688-49f5-a31d-5a128716fc5e"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -35,15 +35,15 @@
   ],
   "collection_group": "Other",
   "endpointtype": "VEDA_tiles",
-  "title": "RGB Albedo Layer Ireland",
+  "title": "RGB Albedo Layer GB",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
+          -9.419263296773103,
+          48.781349973035624,
+          3.1707659683262213,
+          60.879568085857684
         ]
       ]
     },
