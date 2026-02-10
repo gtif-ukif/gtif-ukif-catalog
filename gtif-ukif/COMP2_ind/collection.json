@@ -186,146 +186,44 @@
     },
     {
       "rel": "xyz",
-      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
       "type": "image/png",
-      "title": "Overlay labels",
+      "title": "ESA World Cover WC21 UK Mosaic",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
-      "id": "overlay_bright"
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "a8995263-c464-4ab0-b201-5e113ed1e294"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Solar Panels © UCL/Oxford 2025",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SolarPanels",
-      "key": "a8995263-c464-4ab0-b201-5e113ed1e294",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "6b6f9e5b-196a-449f-b041-09d12783ebbe"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Site of Special Scientific Interest",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SSSI",
-      "key": "6b6f9e5b-196a-449f-b041-09d12783ebbe",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "fbbeb2fb-9334-4992-88f8-de797c701e72"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "National Parks",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "NationalParks",
-      "key": "fbbeb2fb-9334-4992-88f8-de797c701e72",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "8a81fef2-dd7f-4ac4-8a8d-d4c0daea068e"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Natural Landscapes",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "AONB",
-      "key": "8a81fef2-dd7f-4ac4-8a8d-d4c0daea068e",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "857d3da4-a02f-4646-b3e9-75cb5c0653ab"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Water Mask",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "MapboxWaterMask",
-      "key": "857d3da4-a02f-4646-b3e9-75cb5c0653ab",
-      "layers": [
-        "water"
-      ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "mapbox-style-document",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "type": "application/json",
-      "title": "Open Infrastructure Map",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "Openinframap",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "id": "WC21",
+      "eox:colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Grassland",
+          "Cropland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
     },
     {
       "rel": "parent",
@@ -333,9 +231,6 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -347,13 +242,6 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
-  "auth:schemes": {
-    "mapboxauth": {
-      "type": "apiKey",
-      "name": "access_token",
-      "in": "query"
-    }
-  },
   "title": "Urban Classes and UHI",
   "extent": {
     "spatial": {
