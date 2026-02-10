@@ -1,6 +1,6 @@
 {
   "Name": "COMP3",
-  "Title": "(Deprecated)Dublin: Where can UHI decrease?",
+  "Title": "Building Efficiency Ratings",
   "Themes": [
     "sustainable-cities"
   ],
@@ -30,8 +30,16 @@
   ],
   "Colorlegend": {
     "title": "Benefit",
-    "range": ["rgb(0, 255, 0)", "rgb(255, 153, 0)", "rgb(255, 0, 0)"],
-    "domain": ["Low", "Medium", "High"],
+    "range": [
+      "rgb(0, 255, 0)",
+      "rgb(255, 153, 0)",
+      "rgb(255, 0, 0)"
+    ],
+    "domain": [
+      "Low",
+      "Medium",
+      "High"
+    ],
     "scaleType": "categorical"
   },
   "Agency": [
