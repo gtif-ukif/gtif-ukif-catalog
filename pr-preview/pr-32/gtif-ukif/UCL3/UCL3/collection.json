@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-Severe-Ireland",
+  "id": "UCL3",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
       "type": "image/png",
-      "title": "Severe Air Quality (Ireland)",
-      "key": "ae4acaed-1e69-4404-8211-ed41474ed41b"
+      "title": "Poor Air Quality across the whole UK-Ireland-France area",
+      "key": "57279b16-ad42-4da4-afa0-354233330c9e"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Severe Air Quality (Ireland)"
+      "title": "Poor Air Quality across the whole UK-Ireland-France area"
     }
   ],
   "themes": [
@@ -56,7 +56,7 @@
     "title": "PM2.5 (µg/cu.m)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Severe Air Quality (Ireland)",
+  "title": "Poor Air Quality across the whole UK-Ireland-France area",
   "extent": {
     "spatial": {
       "bbox": [
@@ -71,8 +71,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-03-03T00:00:00Z",
-          "2022-12-31T00:00:00Z"
+          "2018-11-22T00:00:00Z",
+          "2018-11-22T00:00:00Z"
         ]
       ]
     }
