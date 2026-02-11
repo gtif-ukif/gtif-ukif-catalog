@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "UCL1-COP30-Slope",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-slope/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,30",
+      "type": "image/png",
+      "title": "COP30 Slope",
+      "key": "b322ff23-4d44-435a-824b-e25c59d6cda4"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      30
+    ],
+    "range": [
+      "#440154",
+      "#472777",
+      "#3d4a89",
+      "#30678d",
+      "#25828e",
+      "#1e9d88",
+      "#35b778",
+      "#6bcd59",
+      "#b5dd2b",
+      "#fde724"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Slope (°)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "COP30 Slope",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-04-24T00:00:00Z",
+          "2025-04-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
