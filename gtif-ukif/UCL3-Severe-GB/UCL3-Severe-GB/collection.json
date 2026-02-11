@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nUCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
       "type": "image/png",
       "title": "Severe Air Quality (SE GB)",
-      "key": "580a134a-32ce-4ba8-8946-512ed8b91e76"
+      "key": "42831f61-3dad-4332-a055-07b5e2c39791"
     },
     {
       "rel": "parent",
@@ -71,7 +71,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-02-10T18:48:39.458656Z",
+          "2026-02-11T22:38:46.177022Z",
           null
         ]
       ]

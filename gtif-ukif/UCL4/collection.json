@@ -65,60 +65,6 @@
       "collection_group": "Other"
     },
     {
-      "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-GB/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer GB",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-GB",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-COP30-Slope/collection.json",
-      "type": "application/json",
-      "title": "COP30 Slope",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Slope",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -272,7 +218,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "30522682-a93c-4ba0-98f7-bd146247940d"
+        "37c6e1ab-25ad-42aa-8230-a03ee257978c"
       ]
     },
     {
@@ -282,10 +228,10 @@
       "title": "Solar Panels © UCL/Oxford 2025",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
       "id": "SolarPanels",
-      "key": "30522682-a93c-4ba0-98f7-bd146247940d",
+      "key": "37c6e1ab-25ad-42aa-8230-a03ee257978c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -295,7 +241,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f375261b-bed6-4a98-95f4-1f497434c417"
+        "53c26c3b-ef65-4c88-a723-ac493d97d773"
       ]
     },
     {
@@ -305,10 +251,10 @@
       "title": "Site of Special Scientific Interest",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
       "id": "SSSI",
-      "key": "f375261b-bed6-4a98-95f4-1f497434c417",
+      "key": "53c26c3b-ef65-4c88-a723-ac493d97d773",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -318,7 +264,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dcd62c95-5e43-4382-a78b-3d4766e288bb"
+        "a910cb74-e3c3-4005-b8ae-ca260e2b4db1"
       ]
     },
     {
@@ -328,10 +274,10 @@
       "title": "National Parks",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
       "id": "NationalParks",
-      "key": "dcd62c95-5e43-4382-a78b-3d4766e288bb",
+      "key": "a910cb74-e3c3-4005-b8ae-ca260e2b4db1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -341,7 +287,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "347d5a8a-6ca2-4636-91b4-010acb348949"
+        "7d1458cd-53cf-43f7-8318-6c8711f4fb10"
       ]
     },
     {
@@ -351,10 +297,10 @@
       "title": "Natural Landscapes",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
       "id": "AONB",
-      "key": "347d5a8a-6ca2-4636-91b4-010acb348949",
+      "key": "7d1458cd-53cf-43f7-8318-6c8711f4fb10",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -364,7 +310,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "874f9e5b-98f1-490e-8647-fe39463d9363"
+        "fc14a01b-b844-42c7-9d30-05061f33e428"
       ]
     },
     {
@@ -377,7 +323,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "874f9e5b-98f1-490e-8647-fe39463d9363",
+      "key": "fc14a01b-b844-42c7-9d30-05061f33e428",
       "layers": [
         "water"
       ],
@@ -386,18 +332,108 @@
       ]
     },
     {
-      "rel": "mapbox-style-document",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "type": "application/json",
-      "title": "Open Infrastructure Map",
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "type": "image/png",
+      "title": "ESA World Cover WC21 UK Mosaic",
       "roles": [
         "overlay",
         "invisible"
       ],
-      "id": "Openinframap",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "id": "WC21",
+      "eox:colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Grassland",
+          "Cropland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Cropland)",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "WC21-Cropland",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Grassland)",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "WC21-Grassland",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Tree cover)",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "WC21-Treecover",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
+        ],
+        "scaleType": "categorical"
+      }
     },
     {
       "rel": "parent",
@@ -428,10 +464,10 @@
     "spatial": {
       "bbox": [
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -11.0,
+          41.0,
+          10.0,
+          61.0
         ],
         [
           -6.0,
@@ -450,24 +486,6 @@
           51.0,
           -5.0,
           56.0
-        ],
-        [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
-        ],
-        [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
-        ],
-        [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
         ]
       ]
     },
@@ -475,7 +493,7 @@
       "interval": [
         [
           "2019-01-01T00:00:00Z",
-          "2025-04-24T00:00:00Z"
+          "2019-12-01T00:00:00Z"
         ]
       ]
     }
