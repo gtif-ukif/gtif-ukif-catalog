@@ -12,96 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-GB/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer GB",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-GB",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-COP30-Slope/collection.json",
-      "type": "application/json",
-      "title": "COP30 Slope",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Slope",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-COP30-Aspect/collection.json",
-      "type": "application/json",
-      "title": "COP30 Aspect",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Aspect",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-COP30-Shd/collection.json",
-      "type": "application/json",
-      "title": "COP30 Shd",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Shd",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL4-France/collection.json",
       "type": "application/json",
       "title": "Photovoltaic Output France",
@@ -308,7 +218,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5d6d505e-04a3-450f-a529-cd42fe4d4f07"
+        "3d3acc0a-35cb-4d1a-8a5c-3e2b644b84b8"
       ]
     },
     {
@@ -321,7 +231,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "5d6d505e-04a3-450f-a529-cd42fe4d4f07",
+      "key": "3d3acc0a-35cb-4d1a-8a5c-3e2b644b84b8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -331,7 +241,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c545e1a1-336b-4b12-9bee-b0e9ec7a5858"
+        "7174c877-fb43-4713-bfdb-d62d19c7c670"
       ]
     },
     {
@@ -344,7 +254,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "c545e1a1-336b-4b12-9bee-b0e9ec7a5858",
+      "key": "7174c877-fb43-4713-bfdb-d62d19c7c670",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -354,7 +264,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c58eb5f0-6049-4aa1-a5ca-3f205ee22315"
+        "943df6a4-c60a-4f04-a05a-e42edb539f75"
       ]
     },
     {
@@ -367,7 +277,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "c58eb5f0-6049-4aa1-a5ca-3f205ee22315",
+      "key": "943df6a4-c60a-4f04-a05a-e42edb539f75",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -377,7 +287,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d9525c92-e30b-4477-bb3b-45f25fdcc6a3"
+        "f2566f11-af8f-4c5d-8545-089fbc85f2cf"
       ]
     },
     {
@@ -390,7 +300,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "d9525c92-e30b-4477-bb3b-45f25fdcc6a3",
+      "key": "f2566f11-af8f-4c5d-8545-089fbc85f2cf",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -400,7 +310,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "343a7eb0-dfb6-4a60-b429-753311c878f7"
+        "3c24d7f1-dd6d-4e9b-92dd-52c3d37f8dae"
       ]
     },
     {
@@ -413,7 +323,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "343a7eb0-dfb6-4a60-b429-753311c878f7",
+      "key": "3c24d7f1-dd6d-4e9b-92dd-52c3d37f8dae",
       "layers": [
         "water"
       ],
@@ -554,40 +464,10 @@
     "spatial": {
       "bbox": [
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
-        ],
-        [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
-        ],
-        [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
-        ],
-        [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
-        ],
-        [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
-        ],
-        [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -11.0,
+          41.0,
+          10.0,
+          61.0
         ],
         [
           -6.0,
@@ -613,7 +493,7 @@
       "interval": [
         [
           "2019-01-01T00:00:00Z",
-          "2025-04-26T00:00:00Z"
+          "2019-12-01T00:00:00Z"
         ]
       ]
     }
