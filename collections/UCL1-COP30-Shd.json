@@ -1,0 +1,52 @@
+{
+  "Name": "UCL1-COP30-Shd",
+  "Title": "COP30 Shd",
+  "CollectionGroup": "Other",
+  "Description": "",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Resources": [
+    {
+      "Name": "VEDA",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Type": "tiles",
+      "CollectionId": "UCL1-COP-30-shd",
+      "ColormapName": "gray",
+      "Assets": [
+        "asset"
+      ],
+      "Rescale": [
+        0,
+        255
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      255
+    ],
+    "range": [
+      "#000000",
+      "#1c1c1c",
+      "#383838",
+      "#555555",
+      "#717171",
+      "#8e8e8e",
+      "#aaaaaa",
+      "#c6c6c6",
+      "#e3e3e3",
+      "#ffffff"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Hill Shade"
+  }
+}
