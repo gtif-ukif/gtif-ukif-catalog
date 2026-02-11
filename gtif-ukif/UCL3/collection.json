@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f301e01a-9a57-44d0-bffc-21abea138647"
+        "b440d539-e5f7-4774-8e2f-be9c0ceeee0c"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "f301e01a-9a57-44d0-bffc-21abea138647",
+      "key": "b440d539-e5f7-4774-8e2f-be9c0ceeee0c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f4e8351e-ae0d-4f7d-9d0c-b4f156e95750"
+        "b8ab3e82-a624-47ef-9914-41e8e432eb14"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "f4e8351e-ae0d-4f7d-9d0c-b4f156e95750",
+      "key": "b8ab3e82-a624-47ef-9914-41e8e432eb14",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dcd6b47e-e2d0-41d6-816c-740ced6f508c"
+        "96c8bf27-0202-460a-ad21-26eda0cce04b"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "dcd6b47e-e2d0-41d6-816c-740ced6f508c",
+      "key": "96c8bf27-0202-460a-ad21-26eda0cce04b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b93333ed-2e50-4ea0-979b-180b368cc4f9"
+        "2b7d969f-434d-439c-86e5-893288d96ad7"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "b93333ed-2e50-4ea0-979b-180b368cc4f9",
+      "key": "2b7d969f-434d-439c-86e5-893288d96ad7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "aa77e6cd-4bc9-4e52-91d2-b352bb8007fa"
+        "fa5860b4-59b9-4be6-b8f1-c3203c7a38be"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "aa77e6cd-4bc9-4e52-91d2-b352bb8007fa",
+      "key": "fa5860b4-59b9-4be6-b8f1-c3203c7a38be",
       "layers": [
         "water"
       ],
