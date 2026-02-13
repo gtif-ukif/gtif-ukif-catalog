@@ -17,8 +17,8 @@
       "CollectionId": "UCL3-Severe-GB",
       "ColormapName": "jet",
       "Rescale": [
-        0,
-        50
+        30,
+        400
       ],
       "Assets": [
         "asset"
@@ -41,8 +41,8 @@
   },
   "Colorlegend": {
     "domain": [
-      0,
-      50
+      30,
+      400
     ],
     "range": [
       "#00007f",
@@ -58,7 +58,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
+    "title": "PM2.5 concentration (µg/m³)"
   },
   "Agency": [
     "ESA"
