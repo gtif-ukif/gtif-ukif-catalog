@@ -1,6 +1,6 @@
 {
   "Name": "UCL3",
-  "Title": "Poor Air Quality across the whole UK-Ireland-France area",
+  "Title": "Poorest Air Quality across the whole UK-Ireland-France area",
   "CollectionGroup": "Other",
   "Themes": [
     "mobility-transition"
@@ -58,7 +58,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
+    "title": "PM2.5 concentration (µg/m³)"
   },
   "Agency": [
     "ESA"
