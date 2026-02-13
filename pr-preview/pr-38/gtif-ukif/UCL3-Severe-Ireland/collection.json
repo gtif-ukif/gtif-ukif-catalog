@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-Severe-GB",
+  "id": "UCL3-Severe-Ireland",
   "stac_version": "1.1.0",
-  "description": "Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3-Severe-GB/collection.json",
+      "href": "./UCL3-Severe-Ireland/collection.json",
       "type": "application/json",
-      "title": "Severe Air Quality (SE GB)",
+      "title": "Severe Air Quality (Ireland)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL3-Severe-GB",
+      "id": "UCL3-Severe-Ireland",
       "themes": [
         "mobility-transition"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/statistics?assets=asset",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/statistics?assets=asset",
       "type": "application/json",
       "id": "veda_statistics",
       "method": "POST",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "429fc3c6-e6d7-48d6-89d2-5d80c2f5a1a8"
+        "2082bb4c-184b-40ab-92fa-ff279af5c617"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "429fc3c6-e6d7-48d6-89d2-5d80c2f5a1a8",
+      "key": "2082bb4c-184b-40ab-92fa-ff279af5c617",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "df0e2744-0b82-4088-9310-c8f15688c407"
+        "2f88d462-7c49-421a-8a7c-4e2a49a5d3d2"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "df0e2744-0b82-4088-9310-c8f15688c407",
+      "key": "2f88d462-7c49-421a-8a7c-4e2a49a5d3d2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c7a6bbe9-6ce5-4aa9-bbdc-557693b54905"
+        "54ec88de-1696-491a-8dea-fb4f2ee56684"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "c7a6bbe9-6ce5-4aa9-bbdc-557693b54905",
+      "key": "54ec88de-1696-491a-8dea-fb4f2ee56684",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b64da949-d966-4f65-809b-aca22b786a43"
+        "2a3da13d-42a1-4160-a419-ec76bfd33e9f"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "b64da949-d966-4f65-809b-aca22b786a43",
+      "key": "2a3da13d-42a1-4160-a419-ec76bfd33e9f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "81abbc58-84cc-499a-8068-ac54c3cc7b5a"
+        "304afb98-260a-4400-be79-d8030e93d016"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "81abbc58-84cc-499a-8068-ac54c3cc7b5a",
+      "key": "304afb98-260a-4400-be79-d8030e93d016",
       "layers": [
         "water"
       ],
@@ -367,7 +367,7 @@
       "in": "query"
     }
   },
-  "title": "Severe Air Quality (SE GB)",
+  "title": "Severe Air Quality (Ireland)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -388,8 +388,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-01-09T00:00:00Z",
-          "2022-12-17T00:00:00Z"
+          "2018-03-03T00:00:00Z",
+          "2022-12-31T00:00:00Z"
         ]
       ]
     }

@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-Severe-GB",
+  "id": "UCL3-Severe-Ireland",
   "stac_version": "1.1.0",
-  "description": "Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=30,400",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=30,400",
       "type": "image/png",
-      "title": "Severe Air Quality (SE GB)",
-      "key": "2671628f-bf35-4b09-b6d0-0d4018aefff5"
+      "title": "Severe Air Quality (Ireland)",
+      "key": "a88d5d58-3353-434d-a0a8-8e3cdfd8067f"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Severe Air Quality (SE GB)"
+      "title": "Severe Air Quality (Ireland)"
     }
   ],
   "themes": [
@@ -56,7 +56,7 @@
     "title": "PM2.5 concentration (µg/m³)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Severe Air Quality (SE GB)",
+  "title": "Severe Air Quality (Ireland)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -71,8 +71,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-01-09T00:00:00Z",
-          "2022-12-17T00:00:00Z"
+          "2018-03-03T00:00:00Z",
+          "2022-12-31T00:00:00Z"
         ]
       ]
     }
