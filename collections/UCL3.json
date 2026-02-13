@@ -17,18 +17,32 @@
       "CollectionId": "UCL3",
       "ColormapName": "jet",
       "Rescale": [
-        0,
-        50
+        44,
+        290
       ],
       "Assets": [
         "asset"
       ]
     }
   ],
+  "Process": {
+    "Name": "VEDA Statistics",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+    "EndPoints": [
+      {
+        "Identifier": "veda_statistics",
+        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
+        "Method": "POST",
+        "EndPoint": "veda_stac",
+        "Type": "application/json"
+      }
+    ]
+  },
   "Colorlegend": {
     "domain": [
-      0,
-      50
+      44,
+      290
     ],
     "range": [
       "#00007f",
