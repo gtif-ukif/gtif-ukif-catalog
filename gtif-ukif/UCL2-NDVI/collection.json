@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "14de582e-dea5-40bd-9bd4-7f83e47da3cd"
+        "d7b59099-db1b-4391-b268-a7e6e300d872"
       ]
     },
     {
@@ -202,13 +202,24 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "14de582e-dea5-40bd-9bd4-7f83e47da3cd",
+      "key": "d7b59099-db1b-4391-b268-a7e6e300d872",
       "layers": [
         "water"
       ],
       "auth:refs": [
         "mapboxauth"
       ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
     },
     {
       "rel": "parent",
