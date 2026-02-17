@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-Severe-Ireland",
+  "id": "uk_air_quality_stations_click_timeseries",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
+  "description": "Interactive station points with click-to-load PM2.5 timeseries.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3-Severe-Ireland/collection.json",
+      "href": "./uk_air_quality_stations_click_timeseries/collection.json",
       "type": "application/json",
-      "title": "Severe Air Quality (Ireland)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL3-Severe-Ireland",
+      "title": "UK Air Quality Stations (PM2.5)",
+      "endpointtype": "GeoJSON source",
+      "id": "uk_air_quality_stations_click_timeseries",
       "themes": [
         "mobility-transition"
       ],
@@ -27,14 +27,6 @@
         "ESA"
       ],
       "collection_group": "Other"
-    },
-    {
-      "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/statistics?assets=asset",
-      "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
     },
     {
       "rel": "xyz",
@@ -190,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b287f5fa-5661-4572-9812-99b71f8ab467"
+        "02f30af3-dd30-4694-aea7-97d9f2a3cd49"
       ]
     },
     {
@@ -203,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "b287f5fa-5661-4572-9812-99b71f8ab467",
+      "key": "02f30af3-dd30-4694-aea7-97d9f2a3cd49",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bfa13165-a32e-40df-be10-1c738f9e6b9d"
+        "ed786da1-fd0d-4e94-ac70-5219147eac86"
       ]
     },
     {
@@ -226,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "bfa13165-a32e-40df-be10-1c738f9e6b9d",
+      "key": "ed786da1-fd0d-4e94-ac70-5219147eac86",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7ce0cdf3-d1fe-401e-9134-602843a26181"
+        "6b0e992d-b1bf-429d-a906-b67c0e424d8c"
       ]
     },
     {
@@ -249,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "7ce0cdf3-d1fe-401e-9134-602843a26181",
+      "key": "6b0e992d-b1bf-429d-a906-b67c0e424d8c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "472ed8f5-91a6-476e-923a-0ee5c42a0573"
+        "48356417-efe7-4619-b2e6-64ad8cc49486"
       ]
     },
     {
@@ -272,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "472ed8f5-91a6-476e-923a-0ee5c42a0573",
+      "key": "48356417-efe7-4619-b2e6-64ad8cc49486",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b475f44d-7968-4b0e-aae4-c2cc3fafa5e9"
+        "6f790992-2ae9-4896-9c2d-0d88dde98c36"
       ]
     },
     {
@@ -295,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "b475f44d-7968-4b0e-aae4-c2cc3fafa5e9",
+      "key": "6f790992-2ae9-4896-9c2d-0d88dde98c36",
       "layers": [
         "water"
       ],
@@ -337,29 +329,6 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "eox:colorlegend": {
-    "domain": [
-      30,
-      400
-    ],
-    "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
-      "#7f0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
-  },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -367,29 +336,29 @@
       "in": "query"
     }
   },
-  "title": "Severe Air Quality (Ireland)",
+  "title": "UK Air Quality Stations (PM2.5)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -9.9,
+          50.4,
+          1.5,
+          57.2
         ],
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -9.9,
+          50.4,
+          1.5,
+          57.2
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-03-03T00:00:00Z",
-          "2022-12-31T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }

@@ -12,6 +12,23 @@
     },
     {
       "rel": "child",
+      "href": "./uk_air_quality_stations_click_timeseries/collection.json",
+      "type": "application/json",
+      "title": "UK Air Quality Stations (PM2.5)",
+      "id": "uk_air_quality_stations_click_timeseries",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL3-Severe-GB/collection.json",
       "type": "application/json",
       "title": "Severe Air Quality (SE GB)",
