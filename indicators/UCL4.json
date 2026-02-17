@@ -166,7 +166,7 @@
       "name": "Land Water Mask",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "url": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
-      "visible": true,
+      "visible": false,
       "protocol": "vector-tile"
     },
     {
@@ -174,7 +174,7 @@
       "name": "France ARTD",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "url": "https://a.tiles.mapbox.com/v4/service-swe.cxsyjehf/{z}/{x}/{y}.vector.pbf",
-      "visible": true,
+      "visible": false,
       "protocol": "vector-tile"
     }    
   ]
