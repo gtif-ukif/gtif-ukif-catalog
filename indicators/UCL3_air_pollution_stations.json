@@ -1,0 +1,32 @@
+{
+    "Name": "UCL3_air_pollution_stations",
+    "Title": "UK Air Quality Stations (PM2.5)",
+    "CollectionGroup": "Other",
+    "Themes": [
+      "mobility-transition"
+    ],
+    "Tags": [
+      "Air Quality"
+    ],
+    "Description": "Click a station to load and plot its PM2.5 timeseries.",
+    "Agency": [
+      "ESA"
+    ],
+    "Process": {
+      "Name": "timeseries",
+      "JsonForm": "http://zenodo.org/api/records/18637675/files/uk_air_quality_stations_form.json/content",
+      "VegaDefinition": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_chart.json/content",
+      "EndPoints": [
+        {
+          "Identifier": "timeseries",
+          "Url": "https://zenodo.org/api/records/18637675/files/timeseries_{{feature}}.json/content",
+          "Type": "application/json",
+          "Method": "GET"
+        }
+      ]
+    },
+    "Collections": [
+      "uk_air_quality_stations_click_timeseries"
+    ]
+  }
+  
