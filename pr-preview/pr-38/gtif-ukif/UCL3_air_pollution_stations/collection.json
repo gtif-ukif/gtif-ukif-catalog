@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "uk_air_quality_stations_click_timeseries",
+  "id": "UCL3_air_pollution_stations",
   "stac_version": "1.1.0",
-  "description": "Interactive station points with click-to-load PM2.5 timeseries.",
+  "description": "Click a station to load and plot its PM2.5 timeseries.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./uk_air_quality_stations_click_timeseries/collection.json",
+      "href": "./UCL3-air-pollution-stations/collection.json",
       "type": "application/json",
       "title": "UK Air Quality Stations (PM2.5)",
       "endpointtype": "GeoJSON source",
-      "id": "uk_air_quality_stations_click_timeseries",
+      "id": "UCL3-air-pollution-stations",
       "themes": [
         "mobility-transition"
       ],
@@ -27,6 +27,13 @@
         "ESA"
       ],
       "collection_group": "Other"
+    },
+    {
+      "rel": "service",
+      "href": "https://zenodo.org/api/records/18637675/files/timeseries_{{feature}}.json/content",
+      "type": "application/json",
+      "id": "timeseries",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -182,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "02f30af3-dd30-4694-aea7-97d9f2a3cd49"
+        "dda0aa37-2a32-4fae-ba1e-8edc2cdb9384"
       ]
     },
     {
@@ -195,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "02f30af3-dd30-4694-aea7-97d9f2a3cd49",
+      "key": "dda0aa37-2a32-4fae-ba1e-8edc2cdb9384",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ed786da1-fd0d-4e94-ac70-5219147eac86"
+        "11012f94-f9de-4896-bbf8-a897f418067d"
       ]
     },
     {
@@ -218,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "ed786da1-fd0d-4e94-ac70-5219147eac86",
+      "key": "11012f94-f9de-4896-bbf8-a897f418067d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6b0e992d-b1bf-429d-a906-b67c0e424d8c"
+        "c34a789c-56bc-404c-bc56-037b58b137c9"
       ]
     },
     {
@@ -241,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "6b0e992d-b1bf-429d-a906-b67c0e424d8c",
+      "key": "c34a789c-56bc-404c-bc56-037b58b137c9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "48356417-efe7-4619-b2e6-64ad8cc49486"
+        "2ba25968-09db-456b-915e-a242c7a6dd02"
       ]
     },
     {
@@ -264,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "48356417-efe7-4619-b2e6-64ad8cc49486",
+      "key": "2ba25968-09db-456b-915e-a242c7a6dd02",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6f790992-2ae9-4896-9c2d-0d88dde98c36"
+        "6f57b961-0cde-49ec-8208-4fc358e3d785"
       ]
     },
     {
@@ -287,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "6f790992-2ae9-4896-9c2d-0d88dde98c36",
+      "key": "6f57b961-0cde-49ec-8208-4fc358e3d785",
       "layers": [
         "water"
       ],
@@ -329,6 +336,8 @@
     "ESA"
   ],
   "collection_group": "Other",
+  "eodash:jsonform": "http://zenodo.org/api/records/18637675/files/uk_air_quality_stations_form.json/content",
+  "eodash:vegadefinition": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_chart.json/content",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
