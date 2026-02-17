@@ -308,7 +308,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2ef95e4d-5fa0-4a29-9e0a-f52bf2ae50d9"
+        "8a6b2ee6-f509-4c1d-a065-d313a30374ea"
       ]
     },
     {
@@ -321,7 +321,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "2ef95e4d-5fa0-4a29-9e0a-f52bf2ae50d9",
+      "key": "8a6b2ee6-f509-4c1d-a065-d313a30374ea",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -331,7 +331,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d60e13a2-6ce5-49a5-b7cc-79d1ca7b30ac"
+        "f5084ab9-d347-49ab-b447-e78409b59dfd"
       ]
     },
     {
@@ -344,7 +344,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "d60e13a2-6ce5-49a5-b7cc-79d1ca7b30ac",
+      "key": "f5084ab9-d347-49ab-b447-e78409b59dfd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -354,7 +354,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7ac6aecd-2d71-4cab-acbc-60235feb1eae"
+        "93dc30a5-9499-415d-a63d-0018c71f8ae1"
       ]
     },
     {
@@ -367,7 +367,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "7ac6aecd-2d71-4cab-acbc-60235feb1eae",
+      "key": "93dc30a5-9499-415d-a63d-0018c71f8ae1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -377,7 +377,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "968461cd-45d7-4019-aa3a-7aa8367a7ffa"
+        "2f70f3fa-a1ed-4984-adcf-dde2371ec377"
       ]
     },
     {
@@ -390,7 +390,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "968461cd-45d7-4019-aa3a-7aa8367a7ffa",
+      "key": "2f70f3fa-a1ed-4984-adcf-dde2371ec377",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -400,7 +400,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "66e7908c-d28e-48cf-b091-a22fe65b518c"
+        "79f56650-24f4-4290-8cc2-5fe978b0f580"
       ]
     },
     {
@@ -413,7 +413,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "66e7908c-d28e-48cf-b091-a22fe65b518c",
+      "key": "79f56650-24f4-4290-8cc2-5fe978b0f580",
       "layers": [
         "water"
       ],
@@ -544,20 +544,43 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "01285af3-192a-435a-a136-1d904a36c81a"
+        "b67c7803-36bc-47ca-b51d-3881f52c809b"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.7cbr9riu/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
       "title": "Land Water Mask",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "LWM",
-      "key": "01285af3-192a-435a-a136-1d904a36c81a",
+      "key": "b67c7803-36bc-47ca-b51d-3881f52c809b",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "ba66bd01-c1be-4204-a7ae-7eb63149aa52"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.cxsyjehf/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "France ARTD",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "franceARTD",
+      "key": "ba66bd01-c1be-4204-a7ae-7eb63149aa52",
       "auth:refs": [
         "mapboxauth"
       ]
