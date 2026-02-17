@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL3-air-pollution-stations",
+  "id": "uk_air_quality_stations_click_timeseries",
   "stac_version": "1.1.0",
   "description": "Interactive station points with click-to-load PM2.5 timeseries.",
   "links": [
@@ -9,6 +9,14 @@
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "style",
+      "href": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_styles.json/content",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "overview"
+      ]
     },
     {
       "rel": "style",
