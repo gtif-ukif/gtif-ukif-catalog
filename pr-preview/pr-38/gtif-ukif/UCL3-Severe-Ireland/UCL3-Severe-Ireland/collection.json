@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=30,400",
       "type": "image/png",
       "title": "Severe Air Quality (Ireland)",
-      "key": "a88d5d58-3353-434d-a0a8-8e3cdfd8067f"
+      "key": "ba832261-39bc-43fe-8e5b-2eaa034f60bf"
     },
     {
       "rel": "parent",
@@ -53,7 +53,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "PM2.5 concentration (µg/m³)"
+    "title": "PM2.5 (µg/cu.m)"
   },
   "endpointtype": "VEDA_tiles",
   "title": "Severe Air Quality (Ireland)",
