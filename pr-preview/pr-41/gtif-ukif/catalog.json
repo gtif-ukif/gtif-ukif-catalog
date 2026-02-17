@@ -1,0 +1,34 @@
+{
+  "type": "Catalog",
+  "id": "gtif-ukif",
+  "stac_version": "1.1.0",
+  "description": "GTIF UKIF",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly",
+      "id": "UCL4",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "GTIF UKIF Catalog"
+}
