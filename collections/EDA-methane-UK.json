@@ -32,6 +32,7 @@
       {
         "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-UK_chart_data.json",
         "Method": "GET",
+        "Identifier": "precomputed_statistics",
         "EndPoint": "static",
         "Type": "application/json"
       }
