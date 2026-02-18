@@ -262,7 +262,7 @@
     "ESA"
   ],
   "collection_group": "Building Efficiency Ratings",
-  "merge_assets": false,
+  "eodash:merge_assets": false,
   "title": "BER and UHI - Traffic Light Map",
   "extent": {
     "spatial": {
