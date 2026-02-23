@@ -48,5 +48,21 @@
   },
   "Agency": [
     "ESA"
+  ],
+  "OverlayLayers": [
+    {
+      "id": "CropTypeLayer",
+      "name": "Crop Type Layer",
+      "url": "https://geoserver.vlcc.geoville.com/geoserver/ows",
+      "layers": "crop_types_2022_10m_europe_yearly",
+      "protocol": "wms",
+      "version": "1.3.0",
+      "styles": "",
+      "media_type": "image/png",
+      "visible": false,
+      "Attribution": "Copernicus Land Monitoring Service (2022). Crop Types 2022 (raster 10 m), Europe, yearly.",
+      "DataProjection": "EPSG:3035"
+    }
+    
   ]
 }
