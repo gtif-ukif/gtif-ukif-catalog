@@ -176,7 +176,7 @@
         "invisible"
       ],
       "id": "CropTypeLayer",
-      "wms:layers": "crop_types_2022_10m_europe_yearly",
+      "wms:layers": "HRL_VLCC_Layers",
       "wms:version": "1.3.0",
       "attribution": "Copernicus Land Monitoring Service (2022). Crop Types 2022 (raster 10 m), Europe, yearly.",
       "proj:epsg": 3035
