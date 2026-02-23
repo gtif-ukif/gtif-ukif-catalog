@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL2-NDVI-GB",
+  "id": "UCL2-NDVI",
   "stac_version": "1.1.0",
-  "description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
   "links": [
     {
       "rel": "root",
@@ -17,6 +17,24 @@
       "title": "NDVI (GB)",
       "endpointtype": "VEDA_tiles",
       "id": "UCL2-NDVI-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
+      "type": "application/json",
+      "title": "NDVI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-Ireland",
       "themes": [
         "food-security"
       ],
@@ -167,19 +185,56 @@
       }
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "080784b4-72cd-4590-b749-e0a411ad90a0"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Water Mask",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "MapboxWaterMask",
+      "key": "080784b4-72cd-4590-b749-e0a411ad90a0",
+      "layers": [
+        "water"
+      ],
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
       "rel": "wms",
       "href": "https://geoserver.vlcc.geoville.com/geoserver/ows",
       "type": "image/png",
-      "title": "Crop Type Layer",
+      "title": "CLMS_HRL_CropTypes_S2022_R10m",
       "roles": [
         "overlay",
         "invisible"
       ],
       "id": "CropTypeLayer",
-      "wms:layers": "HRL_VLCC_Layers",
+      "wms:layers": "HRL_CPL:CTY_S2022",
       "wms:version": "1.3.0",
       "attribution": "Copernicus Land Monitoring Service (2022). Crop Types 2022 (raster 10 m), Europe, yearly.",
-      "proj:epsg": 3035
+      "proj:epsg": 4326
     },
     {
       "rel": "parent",
@@ -187,6 +242,9 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "food-security"
@@ -198,33 +256,19 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "eox:colorlegend": {
-    "domain": [
-      -0.9,
-      0.975
-    ],
-    "range": [
-      "#000000",
-      "#131313",
-      "#262626",
-      "#393939",
-      "#4b4b4b",
-      "#cf3000",
-      "#ffb300",
-      "#bde300",
-      "#339200",
-      "#004308"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "NDVI"
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
   },
-  "title": "NDVI (GB)",
+  "title": "NDVI",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.419263296774696,
+          -11.104591164873993,
           48.74935069215586,
           4.804451812143819,
           61.264240082289106
@@ -234,13 +278,19 @@
           48.74935069215586,
           4.804451812143819,
           61.264240082289106
+        ],
+        [
+          -11.104591164873993,
+          51.095293192897806,
+          -5.097344144376162,
+          55.60473592572955
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-04-30T00:00:00Z",
+          "2020-04-01T00:00:00Z",
           "2022-08-31T00:00:00Z"
         ]
       ]
