@@ -54,7 +54,7 @@
       "id": "CropTypeLayer",
       "name": "Crop Type Layer",
       "url": "https://geoserver.vlcc.geoville.com/geoserver/ows",
-      "layers": "crop_types_2022_10m_europe_yearly",
+      "layers": "HRL_VLCC_Layers",
       "protocol": "wms",
       "version": "1.3.0",
       "styles": "",
