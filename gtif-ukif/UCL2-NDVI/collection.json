@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ba05b187-a39e-4743-88e2-8e32c1946012"
+        "6a6712ed-7cb0-4baf-b9e2-a171b828ce5d"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "ba05b187-a39e-4743-88e2-8e32c1946012",
+      "key": "6a6712ed-7cb0-4baf-b9e2-a171b828ce5d",
       "layers": [
         "water"
       ],
@@ -220,6 +220,20 @@
         "invisible"
       ],
       "id": "overlay_bright"
+    },
+    {
+      "rel": "wms",
+      "href": "https://geoserver.vlcc.geoville.com/geoserver/ows",
+      "type": "image/png",
+      "title": "CLMS_HRL_CropTypes_S2022_R10m",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "CropTypeLayer",
+      "wms:layers": "HRL_CPL:CTY_S2022",
+      "wms:version": "1.3.0",
+      "attribution": "{ Data source: European Union's <a href=\"https://land.copernicus.eu/\" target=\"_blank\">Copernicus Land Monitoring Service (CLMS)</a>; Dataset: <a href=\"https://land.copernicus.eu/en/products/high-resolution-layer-croplands/crop-types-2022-raster-10-m-europe-yearly\" target=\"_blank\">Crop Types 2022 (raster 10 m), Europe, yearly</a>; DOI: <a href=\"https://doi.org/10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47\" target=\"_blank\">10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47</a>; Service: <a href=\"https://geoserver.vlcc.geoville.com/geoserver/ows\" target=\"_blank\">GeoVille WMS</a> }"
     },
     {
       "rel": "parent",
