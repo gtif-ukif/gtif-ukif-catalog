@@ -35,8 +35,7 @@
       "styles": "",
       "media_type": "image/png",
       "visible": false,
-      "Attribution": "Copernicus Land Monitoring Service (2022). Crop Types 2022 (raster 10 m), Europe, yearly.",
-      "DataProjection": "EPSG:4326"
+      "Attribution": "{ Data source: European Union's <a href=\"https://land.copernicus.eu/\" target=\"_blank\">Copernicus Land Monitoring Service (CLMS)</a>; Dataset: <a href=\"https://land.copernicus.eu/en/products/high-resolution-layer-croplands/crop-types-2022-raster-10-m-europe-yearly\" target=\"_blank\">Crop Types 2022 (raster 10 m), Europe, yearly</a>; DOI: <a href=\"https://doi.org/10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47\" target=\"_blank\">10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47</a>; Service: <a href=\"https://geoserver.vlcc.geoville.com/geoserver/ows\" target=\"_blank\">GeoVille WMS</a> }"
     }
   ]
 }
