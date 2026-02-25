@@ -1,0 +1,60 @@
+{
+  "Name": "UCL4-HRVPP-PPI",
+  "Title": "Plant Phenology Index (HRVPP)",
+  "CollectionGroup": "Other",
+  "Description": "The Plant Phenology Index (PPI) is a phenology indicator derived from the Copernicus HR-VPP (High Resolution Vegetation Phenology and Productivity) Seasonal Trajectories product at 10m resolution. PPI values represent near-real-time vegetation phenological activity across Europe. Data is available every 10 days from 2017 to present.",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power",
+    "Vegetation Phenology"
+  ],
+  "Resources": [
+    {
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "EndPoint": "https://phenology.vgt.vito.be/wmts",
+      "LayerId": "CLMS_HRVPP_ST_PPI_10M",
+      "Version": "1.0.0",
+      "MatrixSet": "EPSG:3857",
+      "TileMatrixPrefix": "EPSG:3857",
+      "Format": "image/png",
+      "TileGrid": {
+        "tileSize": [256, 256]
+      },
+      "Query": {
+        "Start": "2017-01-01T00:00:00Z",
+        "End": "2025-01-01T00:00:00Z"
+      },
+      "Dimensions": {
+        "style": "default"
+      },
+      "DataProjection": 3857,
+      "OverwriteBBox": [-11, 49, 3, 61]
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      3
+    ],
+    "range": [
+      "#FFFFE5",
+      "#F7FCB9",
+      "#D9F0A3",
+      "#ADDD8E",
+      "#78C679",
+      "#41AB5D",
+      "#238443",
+      "#006837",
+      "#004529"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "PPI"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}
