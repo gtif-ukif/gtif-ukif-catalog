@@ -18,7 +18,6 @@
       "LayerId": "CLMS_HRVPP_ST_PPI_10M",
       "Version": "1.0.0",
       "MatrixSet": "EPSG:3857",
-      "TileMatrixPrefix": "EPSG:3857",
       "Format": "image/png",
       "TileGrid": {
         "tileSize": [256, 256]
