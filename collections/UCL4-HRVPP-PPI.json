@@ -17,17 +17,13 @@
       "EndPoint": "https://phenology.vgt.vito.be/wmts",
       "LayerId": "CLMS_HRVPP_ST_PPI_10M",
       "Version": "1.0.0",
-      "MatrixSet": "EPSG:3857",
-      "Format": "image/png",
-      "TileGrid": {
-        "tileSize": [256, 256]
-      },
       "Query": {
         "Start": "2017-01-01T00:00:00Z",
         "End": "2025-01-01T00:00:00Z"
       },
       "Dimensions": {
-        "style": "default"
+        "style": "default",
+        "matrixSet": "EPSG:3857"
       },
       "DataProjection": 3857,
       "OverwriteBBox": [-11, 49, 3, 61]
