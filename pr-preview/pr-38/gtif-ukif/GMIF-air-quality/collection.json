@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "GMIF-air-quality",
   "stac_version": "1.1.0",
-  "description": "Vector-tile air quality monitoring sites for the UK, Ireland, and France derived from the consolidated GMIF air quality station dataset.",
+  "description": "GeoJSON air quality monitoring sites for the UK, Ireland, and France derived from the consolidated GMIF air quality station dataset.",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "./GMIF-air-quality/collection.json",
       "type": "application/json",
       "title": "GMIF Air Quality",
-      "endpointtype": "VectorTile source",
+      "endpointtype": "GeoJSON source",
       "id": "GMIF-air-quality",
       "themes": [
         "mobility-transition"
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "578cccdb-a3b2-4848-837c-0b543e3755f3"
+        "b5f96062-4f37-425d-bdb0-e3eaa12efec0"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "578cccdb-a3b2-4848-837c-0b543e3755f3",
+      "key": "b5f96062-4f37-425d-bdb0-e3eaa12efec0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "429158ec-e9f7-41a7-aa8a-457f1e6d307a"
+        "f308ef71-f5ee-49b2-b2c9-e60fc08bdd66"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "429158ec-e9f7-41a7-aa8a-457f1e6d307a",
+      "key": "f308ef71-f5ee-49b2-b2c9-e60fc08bdd66",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3cea1c31-f750-4c04-8702-d2e755c21de9"
+        "f15572a9-a475-493c-a808-33046742943e"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "3cea1c31-f750-4c04-8702-d2e755c21de9",
+      "key": "f15572a9-a475-493c-a808-33046742943e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fae69967-3f52-4136-849d-b27e6a06641c"
+        "26a5909d-a45e-40d7-8132-56d28b21477b"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "fae69967-3f52-4136-849d-b27e6a06641c",
+      "key": "26a5909d-a45e-40d7-8132-56d28b21477b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7990b03f-ea10-4c62-ba8c-4d8fb5592a6b"
+        "edaf964e-5485-4c68-a511-2734ff03903d"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "7990b03f-ea10-4c62-ba8c-4d8fb5592a6b",
+      "key": "edaf964e-5485-4c68-a511-2734ff03903d",
       "layers": [
         "water"
       ],
