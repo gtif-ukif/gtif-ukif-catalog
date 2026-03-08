@@ -8,10 +8,10 @@
   "Tags": [
     "Air Quality"
   ],
-  "Description": "Vector-tile air quality monitoring sites for the UK, Ireland, and France derived from the consolidated GMIF air quality station dataset.",
+  "Description": "GeoJSON air quality monitoring sites for the UK, Ireland, and France derived from the consolidated GMIF air quality station dataset.",
   "Resources": [
     {
-      "Name": "VectorTile source",
+      "Name": "GeoJSON source",
       "Style": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_styles.json/content",
       "Bbox": [
         -9.69792,
@@ -22,7 +22,12 @@
       "TimeEntries": [
         {
           "Time": "20250101",
-          "Url": "https://a.tiles.mapbox.com/v4/service-swe.4kav9qj0/{z}/{x}/{y}.vector.pbf"
+          "Assets": [
+            {
+              "Identifier": "gmif_air_quality",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/ucl/gmif_air_quality.geojson"
+            }
+          ]
         }
       ]
     }
