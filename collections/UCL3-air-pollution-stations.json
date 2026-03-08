@@ -1,39 +1,39 @@
 {
-    "Name": "uk_air_quality_stations_click_timeseries",
-    "Title": "UK Air Quality Stations (PM2.5)",
-    "CollectionGroup": "Other",
-    "Description": "Interactive station points with click-to-load PM2.5 timeseries.",
-    "Themes": [
-      "mobility-transition"
-    ],
-    "Tags": [
-      "Air Quality"
-    ],
-    "Resources": [
-      {
-        "Name": "GeoJSON source",
-        "Style": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_styles.json/content",
-        "TimeEntries": [
-          {
-            "Time": "20250101",
-            "Assets": [
-              {
-                "Identifier": "overview",
-                "File": "https://zenodo.org/api/records/18637675/files/uk_aurn_air_quality_stations.geojson/content"
-              }
-            ]
-          }
-        ],
-        "Bbox": [
-          -9.9,
-          50.4,
-          1.5,
-          57.2
-        ]
-      }
-    ],
-    "Agency": [
-      "ESA"
-    ]
-  }
+  "Name": "uk_air_quality_stations_click_timeseries",
+  "Title": "UCL3 Air Quality Stations (PM2.5)",
+  "CollectionGroup": "Other",
+  "Description": "Interactive UK station points with click-to-load PM2.5 timeseries.",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Tags": [
+    "Air Quality"
+  ],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_styles.json/content",
+      "TimeEntries": [
+        {
+          "Time": "20250101",
+          "Assets": [
+            {
+              "Identifier": "overview",
+              "File": "https://zenodo.org/api/records/18637675/files/uk_aurn_air_quality_stations.geojson/content"
+            }
+          ]
+        }
+      ],
+      "Bbox": [
+        -9.9,
+        50.4,
+        1.5,
+        57.2
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}
   

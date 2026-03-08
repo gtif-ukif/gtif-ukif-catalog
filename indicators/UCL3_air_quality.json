@@ -1,0 +1,33 @@
+{
+  "Name": "UCL3_air_quality",
+  "Title": "UCL3 Air Quality",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Tags": [
+    "Air Quality"
+  ],
+  "Description": "Daily PM2.5 raster air quality maps for the UK-Ireland-France area together with interactive UK station points for click-to-load PM2.5 timeseries.",
+  "Agency": [
+    "ESA"
+  ],
+  "Process": {
+    "Name": "timeseries",
+    "JsonForm": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_form.json/content",
+    "VegaDefinition": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_chart.json/content",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://zenodo.org/api/records/18637675/files/timeseries_{{feature}}.json/content",
+        "Type": "application/json",
+        "Method": "GET"
+      }
+    ]
+  },
+  "Collections": [
+    "UCL3-air-quality",
+    "UCL3-air-pollution-stations"
+  ]
+}
+  
