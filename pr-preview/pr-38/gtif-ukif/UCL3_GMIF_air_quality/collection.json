@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3_air_quality",
+  "id": "UCL3_GMIF_air_quality",
   "stac_version": "1.1.0",
-  "description": "Daily PM2.5 raster air quality maps for the UK-Ireland-France area together with interactive UK station points for click-to-load PM2.5 timeseries.",
+  "description": "GMIF air quality combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMIF air quality station layer.",
   "links": [
     {
       "rel": "root",
@@ -12,28 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3-air-quality/collection.json",
-      "type": "application/json",
-      "title": "UCL3 Air Quality",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL3-air-quality",
-      "themes": [
-        "mobility-transition"
-      ],
-      "tags": [
-        "Air Quality"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./GMIF-air-quality/collection.json",
       "type": "application/json",
       "title": "GMIF Air Quality",
-      "endpointtype": "GeoJSON source",
+      "endpointtype": "VEDA_tiles",
       "id": "GMIF-air-quality",
       "themes": [
         "mobility-transition"
@@ -45,31 +27,6 @@
         "ESA"
       ],
       "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./uk_air_quality_stations_click_timeseries/collection.json",
-      "type": "application/json",
-      "title": "UCL3 Air Quality Stations (PM2.5)",
-      "endpointtype": "GeoJSON source",
-      "id": "uk_air_quality_stations_click_timeseries",
-      "themes": [
-        "mobility-transition"
-      ],
-      "tags": [
-        "Air Quality"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "service",
-      "href": "https://zenodo.org/api/records/18637675/files/timeseries_{{feature}}.json/content",
-      "type": "application/json",
-      "id": "timeseries",
-      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -225,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "69eef786-3358-4fde-a6c4-2783aa781173"
+        "8cf76c03-9382-49ee-8763-0486436ce094"
       ]
     },
     {
@@ -238,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "69eef786-3358-4fde-a6c4-2783aa781173",
+      "key": "8cf76c03-9382-49ee-8763-0486436ce094",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -248,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4e32684b-815b-4921-91f2-c35e1516176a"
+        "f9c12e19-1ffb-4db3-876b-7b653e0e6ece"
       ]
     },
     {
@@ -261,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "4e32684b-815b-4921-91f2-c35e1516176a",
+      "key": "f9c12e19-1ffb-4db3-876b-7b653e0e6ece",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -271,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2fbc7b64-0a2d-4c4a-9d0a-69e76ef3d4ef"
+        "c6f6f4f9-8a0c-47bc-8800-e035bbf50617"
       ]
     },
     {
@@ -284,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "2fbc7b64-0a2d-4c4a-9d0a-69e76ef3d4ef",
+      "key": "c6f6f4f9-8a0c-47bc-8800-e035bbf50617",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -294,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c1dc57c2-5639-49d6-94cf-a29cf1b34383"
+        "04819405-8d57-4a3b-b88c-71311b20fc6d"
       ]
     },
     {
@@ -307,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "c1dc57c2-5639-49d6-94cf-a29cf1b34383",
+      "key": "04819405-8d57-4a3b-b88c-71311b20fc6d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -317,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d6aa271d-eae4-4bfd-b4fc-8f3570098633"
+        "3c7cbd00-a7f9-4571-ad3b-1f0f19e953b4"
       ]
     },
     {
@@ -330,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "d6aa271d-eae4-4bfd-b4fc-8f3570098633",
+      "key": "3c7cbd00-a7f9-4571-ad3b-1f0f19e953b4",
       "layers": [
         "water"
       ],
@@ -372,8 +329,6 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "eodash:jsonform": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_form.json/content",
-  "eodash:vegadefinition": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_chart.json/content",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -381,22 +336,10 @@
       "in": "query"
     }
   },
-  "title": "UCL3 Air Quality",
+  "title": "GMIF Air Quality",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
-        ],
-        [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
-        ],
         [
           -9.69792,
           41.92469,
@@ -404,17 +347,17 @@
           57.15736
         ],
         [
-          -9.9,
-          50.4,
-          1.5,
-          57.2
+          -9.69792,
+          41.92469,
+          9.44642,
+          57.15736
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-11-22T00:00:00Z",
+          "2025-01-01T00:00:00Z",
           "2025-01-01T00:00:00Z"
         ]
       ]

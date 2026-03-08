@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "GMIF-air-quality",
   "stac_version": "1.1.0",
-  "description": "GeoJSON air quality monitoring sites for the UK, Ireland, and France derived from the consolidated GMIF air quality station dataset.",
+  "description": "GMIF air quality combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMIF air quality station GeoJSON layer.",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "./GMIF-air-quality/collection.json",
       "type": "application/json",
       "title": "GMIF Air Quality",
-      "endpointtype": "GeoJSON source",
+      "endpointtype": "VEDA_tiles",
       "id": "GMIF-air-quality",
       "themes": [
         "mobility-transition"
@@ -27,6 +27,14 @@
         "ESA"
       ],
       "collection_group": "Other"
+    },
+    {
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
+      "type": "application/json",
+      "id": "veda_statistics",
+      "method": "POST",
+      "endpoint": "veda_stac"
     },
     {
       "rel": "xyz",
@@ -182,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fb55e556-9242-4bdc-a270-bcdabe1e2a50"
+        "f4b9be94-d853-4b77-9593-c3e8a5a75d89"
       ]
     },
     {
@@ -195,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "fb55e556-9242-4bdc-a270-bcdabe1e2a50",
+      "key": "f4b9be94-d853-4b77-9593-c3e8a5a75d89",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "73297821-6188-4733-9193-7a46ff2102f9"
+        "af02f75b-67bc-4a9b-af8c-665c0ee50d4d"
       ]
     },
     {
@@ -218,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "73297821-6188-4733-9193-7a46ff2102f9",
+      "key": "af02f75b-67bc-4a9b-af8c-665c0ee50d4d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "88c3f0c7-e704-4a13-baff-666ab4e46032"
+        "4ca2f789-dc5e-428c-9f02-d08441b13440"
       ]
     },
     {
@@ -241,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "88c3f0c7-e704-4a13-baff-666ab4e46032",
+      "key": "4ca2f789-dc5e-428c-9f02-d08441b13440",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "da77cd7f-23bc-4d85-ba6e-ecda571057ce"
+        "876a779f-28db-4fd3-8c58-694216ba2fa1"
       ]
     },
     {
@@ -264,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "da77cd7f-23bc-4d85-ba6e-ecda571057ce",
+      "key": "876a779f-28db-4fd3-8c58-694216ba2fa1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5a9d7930-5f94-4e88-880e-e20a60399bd8"
+        "d024b7fc-5f66-4662-a3f9-5617b0827073"
       ]
     },
     {
@@ -287,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "5a9d7930-5f94-4e88-880e-e20a60399bd8",
+      "key": "d024b7fc-5f66-4662-a3f9-5617b0827073",
       "layers": [
         "water"
       ],
@@ -329,6 +337,29 @@
     "ESA"
   ],
   "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      44,
+      290
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5 (µg/cu.m)"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",

@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "GMIF-air-quality",
   "stac_version": "1.1.0",
-  "description": "GeoJSON air quality monitoring sites for the UK, Ireland, and France derived from the consolidated GMIF air quality station dataset.",
+  "description": "GMIF air quality combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMIF air quality station GeoJSON layer.",
   "links": [
     {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=44,290",
+      "type": "image/png",
+      "title": "GMIF Air Quality",
+      "key": "bfe4a0f0-7300-4f5a-abeb-43926f036f66"
     },
     {
       "rel": "style",
@@ -22,7 +29,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "UCL3 Air Quality"
+      "title": "GMIF Air Quality"
     }
   ],
   "themes": [
@@ -35,7 +42,28 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "endpointtype": "GeoJSON source",
+  "eox:colorlegend": {
+    "domain": [
+      44,
+      290
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5 (µg/cu.m)"
+  },
+  "endpointtype": "VEDA_tiles",
   "title": "GMIF Air Quality",
   "extent": {
     "spatial": {
