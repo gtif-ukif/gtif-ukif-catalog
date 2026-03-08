@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3",
+  "id": "UCL3_air_quality",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "description": "Daily PM2.5 raster air quality maps for the UK-Ireland-France area together with interactive UK station points for click-to-load PM2.5 timeseries.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,29 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3/collection.json",
+      "href": "./UCL3-air-quality/collection.json",
       "type": "application/json",
-      "title": "Poorest Air Quality across the whole UK-Ireland-France area",
+      "title": "UCL3 Air Quality",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL3",
+      "id": "UCL3-air-quality",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./uk_air_quality_stations_click_timeseries/collection.json",
+      "type": "application/json",
+      "title": "UCL3 Air Quality Stations (PM2.5)",
+      "endpointtype": "GeoJSON source",
+      "id": "uk_air_quality_stations_click_timeseries",
       "themes": [
         "mobility-transition"
       ],
@@ -30,11 +48,10 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
+      "href": "https://zenodo.org/api/records/18637675/files/timeseries_{{feature}}.json/content",
       "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
+      "id": "timeseries",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -190,7 +207,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "43f83f43-0c85-481b-99a0-1dcbca4b326d"
+        "bee7445a-2e04-44d6-9fde-57334f4ba77d"
       ]
     },
     {
@@ -203,7 +220,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "43f83f43-0c85-481b-99a0-1dcbca4b326d",
+      "key": "bee7445a-2e04-44d6-9fde-57334f4ba77d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +230,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "21ed1fd1-3c94-4581-bdea-a6d8c552e2e5"
+        "1c68ed74-91c3-4844-ba39-64f352fe8061"
       ]
     },
     {
@@ -226,7 +243,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "21ed1fd1-3c94-4581-bdea-a6d8c552e2e5",
+      "key": "1c68ed74-91c3-4844-ba39-64f352fe8061",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +253,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1033345d-007f-4c59-bbb8-19c16ed0574c"
+        "b6983e41-04a6-4bd9-b507-5d99ec94bb29"
       ]
     },
     {
@@ -249,7 +266,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "1033345d-007f-4c59-bbb8-19c16ed0574c",
+      "key": "b6983e41-04a6-4bd9-b507-5d99ec94bb29",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +276,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fa3d23cc-8ec2-4ef7-a9d3-e64007c10915"
+        "ff91ef93-0b61-4ad1-8bb9-e754c8031552"
       ]
     },
     {
@@ -272,7 +289,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "fa3d23cc-8ec2-4ef7-a9d3-e64007c10915",
+      "key": "ff91ef93-0b61-4ad1-8bb9-e754c8031552",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +299,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e00e5fa2-0838-4718-a35b-a8c7fa623b78"
+        "3a54023b-1e36-4026-9215-944ed4452831"
       ]
     },
     {
@@ -295,7 +312,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "e00e5fa2-0838-4718-a35b-a8c7fa623b78",
+      "key": "3a54023b-1e36-4026-9215-944ed4452831",
       "layers": [
         "water"
       ],
@@ -337,29 +354,8 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "eox:colorlegend": {
-    "domain": [
-      44,
-      290
-    ],
-    "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
-      "#7f0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
-  },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
+  "eodash:jsonform": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_form.json/content",
+  "eodash:vegadefinition": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_chart.json/content",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -367,7 +363,7 @@
       "in": "query"
     }
   },
-  "title": "Poorest Air Quality across the whole UK-Ireland-France area",
+  "title": "UCL3 Air Quality",
   "extent": {
     "spatial": {
       "bbox": [
@@ -382,6 +378,12 @@
           41.005000581502365,
           9.995002899174164,
           61.00500034413024
+        ],
+        [
+          -9.9,
+          50.4,
+          1.5,
+          57.2
         ]
       ]
     },
@@ -389,7 +391,7 @@
       "interval": [
         [
           "2018-11-22T00:00:00Z",
-          "2022-03-25T00:00:00Z"
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }

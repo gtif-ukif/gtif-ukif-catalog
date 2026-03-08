@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3",
+  "id": "UCL3-air-quality",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily PM2.5 map of the UK-Ireland-France area derived from the MODIS-MAIC product for 2018-01-01 to 2022-12-31. Step through each day to see how particulate pollution changes over time and how strongly major urban and industrial regions influence the wider domain.",
   "links": [
     {
       "rel": "root",
@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=44,290",
       "type": "image/png",
-      "title": "Poorest Air Quality across the whole UK-Ireland-France area",
-      "key": "6622e44b-3fd8-49e8-9332-6c897f467175"
+      "title": "UCL3 Air Quality",
+      "key": "290e9c48-32c7-40c8-98ff-3422e840cda6"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Poorest Air Quality across the whole UK-Ireland-France area"
+      "title": "UCL3 Air Quality"
     }
   ],
   "themes": [
@@ -56,7 +56,7 @@
     "title": "PM2.5 (µg/cu.m)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Poorest Air Quality across the whole UK-Ireland-France area",
+  "title": "UCL3 Air Quality",
   "extent": {
     "spatial": {
       "bbox": [

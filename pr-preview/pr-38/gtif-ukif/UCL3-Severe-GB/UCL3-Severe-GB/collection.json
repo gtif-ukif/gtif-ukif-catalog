@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL3-Severe-GB",
   "stac_version": "1.1.0",
-  "description": "Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\n Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=30,400",
       "type": "image/png",
       "title": "Severe Air Quality (SE GB)",
-      "key": "665e2420-c769-49e1-850e-49c95ce9b073"
+      "key": "b60e343f-53cf-4f23-8a6f-0fb07a901deb"
     },
     {
       "rel": "parent",
