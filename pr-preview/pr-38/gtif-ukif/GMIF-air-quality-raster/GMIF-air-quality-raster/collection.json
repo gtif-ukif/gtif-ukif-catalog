@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "GMIF-air-quality",
+  "id": "GMIF-air-quality-raster",
   "stac_version": "1.1.0",
-  "description": "GMIF air quality combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMIF air quality station GeoJSON layer.",
+  "description": "Daily PM2.5 raster stack for the UK-Ireland-France area from the UCL3 air quality collection.",
   "links": [
     {
       "rel": "root",
@@ -14,22 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=44,290",
       "type": "image/png",
-      "title": "GMIF Air Quality",
-      "key": "fc59d966-d8d2-4779-b12e-67f95bb37b0a"
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/GMIF-air-quality/style.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "gmif_air_quality"
-      ]
+      "title": "GMIF Air Quality Raster",
+      "key": "2fccc8c4-7aa0-4f9d-a10c-5c0182de81bc"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "GMIF Air Quality"
+      "title": "GMIF Air Quality Raster"
     }
   ],
   "themes": [
@@ -64,23 +56,23 @@
     "title": "PM2.5 (µg/cu.m)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "GMIF Air Quality",
+  "title": "GMIF Air Quality Raster",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.69792,
-          41.92469,
-          9.44642,
-          57.15736
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2018-11-22T00:00:00Z",
+          "2018-11-22T00:00:00Z"
         ]
       ]
     }

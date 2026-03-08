@@ -12,10 +12,27 @@
     },
     {
       "rel": "child",
-      "href": "./GMIF-air-quality/collection.json",
+      "href": "./GMIF-air-quality-raster/collection.json",
       "type": "application/json",
-      "title": "GMIF Air Quality",
-      "id": "GMIF-air-quality",
+      "title": "GMIF Air Quality Raster",
+      "id": "GMIF-air-quality-raster",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./GMIF-air-quality-vector/collection.json",
+      "type": "application/json",
+      "title": "GMIF Air Quality Vector",
+      "id": "GMIF-air-quality-vector",
       "themes": [
         "mobility-transition"
       ],

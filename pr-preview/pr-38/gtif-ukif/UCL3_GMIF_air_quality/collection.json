@@ -12,11 +12,29 @@
     },
     {
       "rel": "child",
-      "href": "./GMIF-air-quality/collection.json",
+      "href": "./GMIF-air-quality-raster/collection.json",
       "type": "application/json",
-      "title": "GMIF Air Quality",
+      "title": "GMIF Air Quality Raster",
       "endpointtype": "VEDA_tiles",
-      "id": "GMIF-air-quality",
+      "id": "GMIF-air-quality-raster",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./GMIF-air-quality-vector/collection.json",
+      "type": "application/json",
+      "title": "GMIF Air Quality Vector",
+      "endpointtype": "GeoJSON source",
+      "id": "GMIF-air-quality-vector",
       "themes": [
         "mobility-transition"
       ],
@@ -182,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8cf76c03-9382-49ee-8763-0486436ce094"
+        "3dc35f21-eac9-4e6d-870f-f7f6c0d2a5ac"
       ]
     },
     {
@@ -195,7 +213,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "8cf76c03-9382-49ee-8763-0486436ce094",
+      "key": "3dc35f21-eac9-4e6d-870f-f7f6c0d2a5ac",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f9c12e19-1ffb-4db3-876b-7b653e0e6ece"
+        "17422a39-994b-447f-a419-6a12a3cd0f3d"
       ]
     },
     {
@@ -218,7 +236,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "f9c12e19-1ffb-4db3-876b-7b653e0e6ece",
+      "key": "17422a39-994b-447f-a419-6a12a3cd0f3d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c6f6f4f9-8a0c-47bc-8800-e035bbf50617"
+        "065746bd-1c51-4b59-bbd6-5ec8fae24484"
       ]
     },
     {
@@ -241,7 +259,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "c6f6f4f9-8a0c-47bc-8800-e035bbf50617",
+      "key": "065746bd-1c51-4b59-bbd6-5ec8fae24484",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "04819405-8d57-4a3b-b88c-71311b20fc6d"
+        "4bd53447-a6be-40ae-937e-4445d3195616"
       ]
     },
     {
@@ -264,7 +282,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "04819405-8d57-4a3b-b88c-71311b20fc6d",
+      "key": "4bd53447-a6be-40ae-937e-4445d3195616",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3c7cbd00-a7f9-4571-ad3b-1f0f19e953b4"
+        "f5286c7b-d94e-4d14-b922-be9fa56caefa"
       ]
     },
     {
@@ -287,7 +305,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "3c7cbd00-a7f9-4571-ad3b-1f0f19e953b4",
+      "key": "f5286c7b-d94e-4d14-b922-be9fa56caefa",
       "layers": [
         "water"
       ],
@@ -341,10 +359,16 @@
     "spatial": {
       "bbox": [
         [
-          -9.69792,
-          41.92469,
-          9.44642,
-          57.15736
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
+        ],
+        [
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
         ],
         [
           -9.69792,
@@ -357,7 +381,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
+          "2018-11-22T00:00:00Z",
           "2025-01-01T00:00:00Z"
         ]
       ]
