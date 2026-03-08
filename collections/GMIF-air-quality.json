@@ -8,8 +8,22 @@
   "Tags": [
     "Air Quality"
   ],
-  "Description": "GeoJSON air quality monitoring sites for the UK, Ireland, and France derived from the consolidated GMIF air quality station dataset.",
+  "Description": "GMIF air quality combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMIF air quality station GeoJSON layer.",
   "Resources": [
+    {
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Name": "VEDA",
+      "Type": "tiles",
+      "CollectionId": "UCL3",
+      "ColormapName": "jet",
+      "Rescale": [
+        44,
+        290
+      ],
+      "Assets": [
+        "asset"
+      ]
+    },
     {
       "Name": "GeoJSON source",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/GMIF-air-quality/style.json",
@@ -32,6 +46,41 @@
       ]
     }
   ],
+  "Process": {
+    "Name": "VEDA Statistics",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
+    "EndPoints": [
+      {
+        "Identifier": "veda_statistics",
+        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
+        "Method": "POST",
+        "EndPoint": "veda_stac",
+        "Type": "application/json"
+      }
+    ]
+  },
+  "Colorlegend": {
+    "domain": [
+      44,
+      290
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5 (µg/cu.m)"
+  },
   "Agency": [
     "ESA"
   ]

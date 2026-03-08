@@ -1,0 +1,18 @@
+{
+  "Name": "UCL3_GMIF_air_quality",
+  "Title": "GMIF Air Quality",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Tags": [
+    "Air Quality"
+  ],
+  "Description": "GMIF air quality combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMIF air quality station layer.",
+  "Agency": [
+    "ESA"
+  ],
+  "Collections": [
+    "GMIF-air-quality"
+  ]
+}
