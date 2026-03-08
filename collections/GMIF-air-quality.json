@@ -12,7 +12,7 @@
   "Resources": [
     {
       "Name": "GeoJSON source",
-      "Style": "https://zenodo.org/api/records/18637675/files/uk_air_quality_stations_styles.json/content",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/blob/main/collections/GMIF-air-quality/style.json",
       "Bbox": [
         -9.69792,
         41.92469,
