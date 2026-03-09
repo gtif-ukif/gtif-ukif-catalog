@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3_GMIF_air_quality",
+  "id": "UCL3",
   "stac_version": "1.1.0",
-  "description": "GMIF air quality combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMIF air quality station layer.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./GMIF-air-quality-raster/collection.json",
+      "href": "./UCL3/collection.json",
       "type": "application/json",
-      "title": "GMIF Air Quality Raster",
+      "title": "Poorest Air Quality across the whole UK-Ireland-France area",
       "endpointtype": "VEDA_tiles",
-      "id": "GMIF-air-quality-raster",
+      "id": "UCL3",
       "themes": [
         "mobility-transition"
       ],
@@ -29,22 +29,12 @@
       "collection_group": "Other"
     },
     {
-      "rel": "child",
-      "href": "./GMIF-air-quality-vector/collection.json",
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
       "type": "application/json",
-      "title": "GMIF Air Quality Vector",
-      "endpointtype": "GeoJSON source",
-      "id": "GMIF-air-quality-vector",
-      "themes": [
-        "mobility-transition"
-      ],
-      "tags": [
-        "Air Quality"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
+      "id": "veda_statistics",
+      "method": "POST",
+      "endpoint": "veda_stac"
     },
     {
       "rel": "xyz",
@@ -200,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2ae73b0d-bba8-4e76-8fbc-2e37f344b7c5"
+        "1a0813a8-ee86-4992-bfb7-4a63e299ace0"
       ]
     },
     {
@@ -213,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "2ae73b0d-bba8-4e76-8fbc-2e37f344b7c5",
+      "key": "1a0813a8-ee86-4992-bfb7-4a63e299ace0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1ffe4c56-1f8d-47c3-88f9-766c5c389cfe"
+        "2081a1e9-582e-413a-b925-fe0e93cac76a"
       ]
     },
     {
@@ -236,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "1ffe4c56-1f8d-47c3-88f9-766c5c389cfe",
+      "key": "2081a1e9-582e-413a-b925-fe0e93cac76a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2de4a779-d663-46e8-a221-b47a8c688f88"
+        "f68009f3-4ece-4b67-ab28-43f77d6a7c05"
       ]
     },
     {
@@ -259,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "2de4a779-d663-46e8-a221-b47a8c688f88",
+      "key": "f68009f3-4ece-4b67-ab28-43f77d6a7c05",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "24a6334d-34e5-4077-ae36-c00a0a486985"
+        "9c7050a2-3e86-4a24-bf67-b2778ddf6bb8"
       ]
     },
     {
@@ -282,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "24a6334d-34e5-4077-ae36-c00a0a486985",
+      "key": "9c7050a2-3e86-4a24-bf67-b2778ddf6bb8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f7d1af5e-67e5-4a3d-bcde-694bc241cf9b"
+        "67fddee5-6d5f-4c91-b465-da365793ad06"
       ]
     },
     {
@@ -305,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "f7d1af5e-67e5-4a3d-bcde-694bc241cf9b",
+      "key": "67fddee5-6d5f-4c91-b465-da365793ad06",
       "layers": [
         "water"
       ],
@@ -347,6 +337,29 @@
     "ESA"
   ],
   "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      44,
+      290
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5 (µg/cu.m)"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -354,7 +367,7 @@
       "in": "query"
     }
   },
-  "title": "GMIF Air Quality",
+  "title": "Poorest Air Quality across the whole UK-Ireland-France area",
   "extent": {
     "spatial": {
       "bbox": [
@@ -369,12 +382,6 @@
           41.005000581502365,
           9.995002899174164,
           61.00500034413024
-        ],
-        [
-          -9.69792,
-          41.92469,
-          9.44642,
-          57.15736
         ]
       ]
     },
@@ -382,7 +389,7 @@
       "interval": [
         [
           "2018-11-22T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2018-11-22T00:00:00Z"
         ]
       ]
     }

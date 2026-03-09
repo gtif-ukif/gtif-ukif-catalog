@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-Severe-GB",
+  "id": "UCL3",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\n Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=30,400",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=44,290",
       "type": "image/png",
-      "title": "Severe Air Quality (SE GB)",
-      "key": "04936bf3-16a4-4fad-ba95-6e6bbc6d4a32"
+      "title": "Poorest Air Quality across the whole UK-Ireland-France area",
+      "key": "a1cca81a-572e-4c6a-8b08-39a57ccf1768"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Severe Air Quality (SE GB)"
+      "title": "Poorest Air Quality across the whole UK-Ireland-France area"
     }
   ],
   "themes": [
@@ -36,8 +36,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      30,
-      400
+      44,
+      290
     ],
     "range": [
       "#00007f",
@@ -56,7 +56,7 @@
     "title": "PM2.5 (µg/cu.m)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Severe Air Quality (SE GB)",
+  "title": "Poorest Air Quality across the whole UK-Ireland-France area",
   "extent": {
     "spatial": {
       "bbox": [
@@ -71,8 +71,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-01-09T00:00:00Z",
-          "2022-12-17T00:00:00Z"
+          "2018-11-22T00:00:00Z",
+          "2018-11-22T00:00:00Z"
         ]
       ]
     }
