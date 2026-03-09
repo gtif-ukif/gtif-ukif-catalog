@@ -17,8 +17,8 @@
       "CollectionId": "UCL3-Severe-GB",
       "ColormapName": "jet",
       "Rescale": [
-        0,
-        50
+        30,
+        400
       ],
       "Assets": [
         "asset"
@@ -28,7 +28,7 @@
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
     "EndPoints": [
       {
         "Identifier": "veda_statistics",
@@ -41,8 +41,8 @@
   },
   "Colorlegend": {
     "domain": [
-      0,
-      50
+      30,
+      400
     ],
     "range": [
       "#00007f",

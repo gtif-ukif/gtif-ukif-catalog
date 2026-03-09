@@ -1,6 +1,6 @@
 {
-  "Name": "UCL3-Severe-Ireland",
-  "Title": "Severe Air Quality (Ireland)",
+  "Name": "GMIF-air-quality-raster",
+  "Title": "GMIF Air Quality Raster",
   "CollectionGroup": "Other",
   "Themes": [
     "mobility-transition"
@@ -8,17 +8,17 @@
   "Tags": [
     "Air Quality"
   ],
-  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSevere Air Quality (Ireland)",
+  "Description": "Daily PM2.5 raster stack for the UK-Ireland-France area from the UCL3 air quality collection.",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
       "Type": "tiles",
-      "CollectionId": "UCL3-Severe-Ireland",
+      "CollectionId": "UCL3",
       "ColormapName": "jet",
       "Rescale": [
-        30,
-        400
+        44,
+        290
       ],
       "Assets": [
         "asset"
@@ -32,7 +32,7 @@
     "EndPoints": [
       {
         "Identifier": "veda_statistics",
-        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/statistics?assets=asset",
+        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
         "Method": "POST",
         "EndPoint": "veda_stac",
         "Type": "application/json"
@@ -41,8 +41,8 @@
   },
   "Colorlegend": {
     "domain": [
-      30,
-      400
+      44,
+      290
     ],
     "range": [
       "#00007f",
