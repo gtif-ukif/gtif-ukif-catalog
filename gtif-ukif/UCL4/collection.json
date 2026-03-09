@@ -66,6 +66,25 @@
     },
     {
       "rel": "child",
+      "href": "./UCL4-HRVPP-PPI/collection.json",
+      "type": "application/json",
+      "title": "Plant Phenology Index (HRVPP)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "UCL4-HRVPP-PPI",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power",
+        "Vegetation Phenology"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL1-albedo-Ireland/collection.json",
       "type": "application/json",
       "title": "RGB Albedo Layer Ireland",
@@ -308,7 +327,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "99e9d764-9f7b-4007-8b65-60861b898056"
+        "72c20bcd-28b7-4e05-be7e-6897df6d1af1"
       ]
     },
     {
@@ -321,7 +340,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "99e9d764-9f7b-4007-8b65-60861b898056",
+      "key": "72c20bcd-28b7-4e05-be7e-6897df6d1af1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -331,7 +350,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d3663d96-4eb7-434d-82f4-f2786dd8b119"
+        "630eb396-2732-45b9-b8ef-4f837dc8ce89"
       ]
     },
     {
@@ -344,7 +363,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "d3663d96-4eb7-434d-82f4-f2786dd8b119",
+      "key": "630eb396-2732-45b9-b8ef-4f837dc8ce89",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -354,7 +373,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a151d5a6-2b73-4ce2-ad4d-ca142f2773e1"
+        "d5a80b6a-7af5-4dbc-aac5-d79356871723"
       ]
     },
     {
@@ -367,7 +386,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "a151d5a6-2b73-4ce2-ad4d-ca142f2773e1",
+      "key": "d5a80b6a-7af5-4dbc-aac5-d79356871723",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -377,7 +396,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a9127bc3-8d64-48b4-a0e1-786f6e67640f"
+        "fc1a71d7-f853-4239-80c2-798440bfe619"
       ]
     },
     {
@@ -390,7 +409,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "a9127bc3-8d64-48b4-a0e1-786f6e67640f",
+      "key": "fc1a71d7-f853-4239-80c2-798440bfe619",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -400,7 +419,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7e6cbdf9-a964-4181-bc6c-7a710691c207"
+        "18814847-6d2c-4c89-bd30-167c33efc261"
       ]
     },
     {
@@ -413,7 +432,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "7e6cbdf9-a964-4181-bc6c-7a710691c207",
+      "key": "18814847-6d2c-4c89-bd30-167c33efc261",
       "layers": [
         "water"
       ],
@@ -544,7 +563,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4282001d-131e-47e9-b247-d6e1ef989170"
+        "ed2df6fb-2d87-4071-9605-8e7c0860d2ee"
       ]
     },
     {
@@ -557,7 +576,7 @@
         "invisible"
       ],
       "id": "LWM",
-      "key": "4282001d-131e-47e9-b247-d6e1ef989170",
+      "key": "ed2df6fb-2d87-4071-9605-8e7c0860d2ee",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -567,7 +586,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "62522331-4927-4c27-87c4-4e7a9d4eadb6"
+        "7682c250-ef42-4dcd-9004-0c5e8dd7dcc6"
       ]
     },
     {
@@ -580,7 +599,7 @@
         "invisible"
       ],
       "id": "franceARTD",
-      "key": "62522331-4927-4c27-87c4-4e7a9d4eadb6",
+      "key": "7682c250-ef42-4dcd-9004-0c5e8dd7dcc6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -638,6 +657,12 @@
           56.0
         ],
         [
+          -11,
+          49,
+          3,
+          61
+        ],
+        [
           -11.104591164807998,
           51.09529319289348,
           -5.097344144310739,
@@ -672,7 +697,7 @@
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
+          "2017-01-01T00:00:00Z",
           "2025-04-26T00:00:00Z"
         ]
       ]
