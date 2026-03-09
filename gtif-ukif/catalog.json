@@ -97,10 +97,10 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3/collection.json",
+      "href": "./UCL3_GMIF_air_quality/collection.json",
       "type": "application/json",
-      "title": "Poor Air Quality across the whole UK-Ireland-France area",
-      "id": "UCL3",
+      "title": "GMIF Air Quality",
+      "id": "UCL3_GMIF_air_quality",
       "themes": [
         "mobility-transition"
       ],

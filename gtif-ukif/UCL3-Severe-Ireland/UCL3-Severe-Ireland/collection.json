@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,50",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=30,400",
       "type": "image/png",
       "title": "Severe Air Quality (Ireland)",
-      "key": "bfd7e2a5-378b-4b21-b180-35802c21c18b"
+      "key": "bd34c9b1-518f-476f-8088-9a059dbca95f"
     },
     {
       "rel": "parent",
@@ -36,8 +36,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      0,
-      50
+      30,
+      400
     ],
     "range": [
       "#00007f",

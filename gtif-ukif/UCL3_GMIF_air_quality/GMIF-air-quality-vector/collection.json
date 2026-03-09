@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL1-albedo-Ireland",
+  "id": "GMIF-air-quality-vector",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Consolidated GMIF air quality station GeoJSON layer for the UK, Ireland, and France.",
   "links": [
     {
       "rel": "root",
@@ -11,47 +11,48 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
-      "type": "image/png",
-      "title": "RGB Albedo Layer Ireland",
-      "key": "0355b15e-fb6f-43e3-a952-67e1d8eae937"
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/GMIF-air-quality/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "gmif_air_quality"
+      ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output - Monthly"
+      "title": "GMIF Air Quality"
     }
   ],
   "themes": [
-    "energy-transition"
+    "mobility-transition"
   ],
   "tags": [
-    "Solar Rural Power"
+    "Air Quality"
   ],
   "agency": [
     "ESA"
   ],
   "collection_group": "Other",
-  "endpointtype": "VEDA_tiles",
-  "title": "RGB Albedo Layer Ireland",
+  "endpointtype": "GeoJSON source",
+  "title": "GMIF Air Quality Vector",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
+          -9.69792,
+          41.92469,
+          9.44642,
+          57.15736
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-08-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
