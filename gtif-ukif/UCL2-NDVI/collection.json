@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-NDVI-GB/collection.json",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
       "type": "application/json",
-      "title": "NDVI (GB)",
+      "title": "NDVI (Ireland)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-GB",
+      "id": "UCL2-NDVI-Ireland",
       "themes": [
         "food-security"
       ],
@@ -30,11 +30,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-NDVI-Ireland/collection.json",
+      "href": "./UCL2-NDVI-GB/collection.json",
       "type": "application/json",
-      "title": "NDVI (Ireland)",
+      "title": "NDVI (GB)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-Ireland",
+      "id": "UCL2-NDVI-GB",
       "themes": [
         "food-security"
       ],
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1e4ae7d0-f4a4-4d3b-84ab-b8c50fb55ee9"
+        "590dc5e7-e26d-43fd-b247-fb6c99e4826f"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "1e4ae7d0-f4a4-4d3b-84ab-b8c50fb55ee9",
+      "key": "590dc5e7-e26d-43fd-b247-fb6c99e4826f",
       "layers": [
         "water"
       ],
@@ -273,24 +273,24 @@
           61.264240082289106
         ],
         [
-          -9.419263296774696,
-          48.74935069215586,
-          4.804451812143819,
-          61.264240082289106
-        ],
-        [
           -11.104591164873993,
           51.095293192897806,
           -5.097344144376162,
           55.60473592572955
+        ],
+        [
+          -9.419263296774696,
+          48.74935069215586,
+          4.804451812143819,
+          61.264240082289106
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-04-01T00:00:00Z",
-          "2022-08-31T00:00:00Z"
+          "2020-03-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
         ]
       ]
     }
