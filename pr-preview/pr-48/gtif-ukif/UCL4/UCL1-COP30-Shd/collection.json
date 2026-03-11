@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL4-GB-bfPVout",
+  "id": "UCL1-COP30-Shd",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-shd/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=gray&rescale=0,255",
       "type": "image/png",
-      "title": "Bi-Facial Photovoltaic Output GB",
-      "key": "b2be4819-a228-4dc3-ba71-7a4469ac8570"
+      "title": "COP30 Shd",
+      "key": "49d44ea2-31b1-4c81-9c88-457a99de1f9f"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Bi-Facial Photovoltaic Output GB"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -36,43 +36,43 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      2,
-      175
+      0,
+      255
     ],
     "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
-      "#7f0000"
+      "#000000",
+      "#1c1c1c",
+      "#383838",
+      "#555555",
+      "#717171",
+      "#8e8e8e",
+      "#aaaaaa",
+      "#c6c6c6",
+      "#e3e3e3",
+      "#ffffff"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Solar Power Output"
+    "tickFormat": ".1f",
+    "title": "Hill Shade"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Bi-Facial Photovoltaic Output GB",
+  "title": "COP30 Shd",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.68981459013062,
-          48.367778967612495,
-          2.6794151966213824,
-          61.09498464485176
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-04-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2025-04-26T00:00:00Z",
+          "2025-04-26T00:00:00Z"
         ]
       ]
     }

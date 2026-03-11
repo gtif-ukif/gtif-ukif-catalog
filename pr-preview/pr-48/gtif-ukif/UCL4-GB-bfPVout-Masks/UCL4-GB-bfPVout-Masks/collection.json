@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL4-GB-bfPVout",
+  "id": "UCL4-GB-bfPVout-Masks",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout-Masks/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
       "type": "image/png",
-      "title": "Bi-Facial Photovoltaic Output GB",
-      "key": "b2be4819-a228-4dc3-ba71-7a4469ac8570"
+      "title": "Bi-Facial Photovoltaic Output GB (with Masks)",
+      "key": "00b1a1a2-d1e5-456f-9336-28741df66e5c"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Bi-Facial Photovoltaic Output GB"
+      "title": "Bi-Facial Photovoltaic Output GB (with Masks)"
     }
   ],
   "themes": [
@@ -56,7 +56,7 @@
     "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Bi-Facial Photovoltaic Output GB",
+  "title": "Bi-Facial Photovoltaic Output GB (with Masks)",
   "extent": {
     "spatial": {
       "bbox": [

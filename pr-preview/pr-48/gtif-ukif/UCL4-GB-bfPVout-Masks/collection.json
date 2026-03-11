@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL4-GB-bfPVout",
+  "id": "UCL4-GB-bfPVout-Masks",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-GB-bfPVout/collection.json",
+      "href": "./UCL4-GB-bfPVout-Masks/collection.json",
       "type": "application/json",
-      "title": "Bi-Facial Photovoltaic Output GB",
+      "title": "Bi-Facial Photovoltaic Output GB (with Masks)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL4-GB-bfPVout",
+      "id": "UCL4-GB-bfPVout-Masks",
       "themes": [
         "energy-transition"
       ],
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d2ca6429-a561-4fb0-b812-f9f45cadbcb1"
+        "bb673e89-291d-4bd5-bb6c-ead916df60e1"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "d2ca6429-a561-4fb0-b812-f9f45cadbcb1",
+      "key": "bb673e89-291d-4bd5-bb6c-ead916df60e1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2406389d-1292-4f79-b16f-aac25ff65d4f"
+        "b685b650-97e0-4bb5-ae5a-c59be505b8da"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2406389d-1292-4f79-b16f-aac25ff65d4f",
+      "key": "b685b650-97e0-4bb5-ae5a-c59be505b8da",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a6c0c36b-7ddf-438c-a548-6558c43c0d01"
+        "a3be19c1-8ec8-4cc1-bcbb-914fc42a0b94"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "a6c0c36b-7ddf-438c-a548-6558c43c0d01",
+      "key": "a3be19c1-8ec8-4cc1-bcbb-914fc42a0b94",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e78adc61-6d96-4b68-9339-3aeedeaf5ae8"
+        "4695ae0d-e07f-4498-adbe-7848da57a1b1"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "e78adc61-6d96-4b68-9339-3aeedeaf5ae8",
+      "key": "4695ae0d-e07f-4498-adbe-7848da57a1b1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "46076026-ff32-4e40-8ccb-79723d520e1d"
+        "e4531563-8c33-4e88-a3a5-4919bdf44c13"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "46076026-ff32-4e40-8ccb-79723d520e1d",
+      "key": "e4531563-8c33-4e88-a3a5-4919bdf44c13",
       "layers": [
         "water"
       ],
@@ -357,7 +357,7 @@
       "in": "query"
     }
   },
-  "title": "Bi-Facial Photovoltaic Output GB",
+  "title": "Bi-Facial Photovoltaic Output GB (with Masks)",
   "extent": {
     "spatial": {
       "bbox": [

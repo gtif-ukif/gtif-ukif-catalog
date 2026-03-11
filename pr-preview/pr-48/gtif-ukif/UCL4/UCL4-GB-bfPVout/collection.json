@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
       "type": "image/png",
       "title": "Bi-Facial Photovoltaic Output GB",
-      "key": "b2be4819-a228-4dc3-ba71-7a4469ac8570"
+      "key": "98323170-c1d8-4825-9f50-e74acc4219b4"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Bi-Facial Photovoltaic Output GB"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [

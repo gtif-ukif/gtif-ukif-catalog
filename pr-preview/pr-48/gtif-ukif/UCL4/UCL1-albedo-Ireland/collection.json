@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL4-GB-bfPVout",
+  "id": "UCL1-albedo-Ireland",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
       "type": "image/png",
-      "title": "Bi-Facial Photovoltaic Output GB",
-      "key": "b2be4819-a228-4dc3-ba71-7a4469ac8570"
+      "title": "RGB Albedo Layer Ireland",
+      "key": "af119fec-ed30-440a-b687-ac3d5cabdc92"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Bi-Facial Photovoltaic Output GB"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -34,44 +34,23 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "eox:colorlegend": {
-    "domain": [
-      2,
-      175
-    ],
-    "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
-      "#7f0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Solar Power Output"
-  },
   "endpointtype": "VEDA_tiles",
-  "title": "Bi-Facial Photovoltaic Output GB",
+  "title": "RGB Albedo Layer Ireland",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.68981459013062,
-          48.367778967612495,
-          2.6794151966213824,
-          61.09498464485176
+          -11.104591164807998,
+          51.09529319289348,
+          -5.097344144310739,
+          55.604735925728136
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-04-01T00:00:00Z",
+          "2020-08-01T00:00:00Z",
           "2022-08-01T00:00:00Z"
         ]
       ]

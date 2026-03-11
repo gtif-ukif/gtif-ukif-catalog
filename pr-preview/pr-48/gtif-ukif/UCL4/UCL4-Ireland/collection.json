@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL4-GB-bfPVout",
+  "id": "UCL4-Ireland",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
       "type": "image/png",
-      "title": "Bi-Facial Photovoltaic Output GB",
-      "key": "b2be4819-a228-4dc3-ba71-7a4469ac8570"
+      "title": "Photovoltaic Output Ireland",
+      "key": "94e8f996-988c-4049-baaf-0d9c0a13bbb5"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Bi-Facial Photovoltaic Output GB"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -56,23 +56,23 @@
     "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Bi-Facial Photovoltaic Output GB",
+  "title": "Photovoltaic Output Ireland",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.68981459013062,
-          48.367778967612495,
-          2.6794151966213824,
-          61.09498464485176
+          -11.0,
+          51.0,
+          -5.0,
+          56.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-04-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2019-01-01T00:00:00Z",
+          "2019-12-01T00:00:00Z"
         ]
       ]
     }

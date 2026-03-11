@@ -12,6 +12,23 @@
     },
     {
       "rel": "child",
+      "href": "./UCL4-GB-bfPVout-Masks/collection.json",
+      "type": "application/json",
+      "title": "Bi-Facial Photovoltaic Output GB (with Masks)",
+      "id": "UCL4-GB-bfPVout-Masks",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL4-GB-bfPVout/collection.json",
       "type": "application/json",
       "title": "Bi-Facial Photovoltaic Output GB",
@@ -24,6 +41,20 @@
       ],
       "agency": [
         "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly",
+      "id": "UCL4",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
       ],
       "collection_group": "Other"
     },
