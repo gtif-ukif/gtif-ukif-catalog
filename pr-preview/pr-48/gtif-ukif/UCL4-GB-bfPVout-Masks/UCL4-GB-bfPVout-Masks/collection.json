@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout-Masks/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout-Masks/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0.031,0.09",
       "type": "image/png",
       "title": "Bi-Facial Photovoltaic Output GB (with Masks)",
-      "key": "e9ded34a-c0dc-4dcc-82a7-ccec93ad9bd5"
+      "key": "d09b9efc-f26f-4a85-8868-924f3c39edb9"
     },
     {
       "rel": "parent",
@@ -36,8 +36,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      2,
-      175
+      0.031,
+      0.09
     ],
     "range": [
       "#00007f",
@@ -52,7 +52,7 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".3f",
     "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
