@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2000,85000",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0.023,0.09",
       "type": "image/png",
       "title": "Bi-Facial Photovoltaic Output GB",
-      "key": "d963c6a6-034b-4d80-86f8-79bedd81f481"
+      "key": "883de939-70bd-4213-8d97-f56a59f747ad"
     },
     {
       "rel": "parent",
@@ -36,8 +36,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      2,
-      175
+      0.023,
+      0.09
     ],
     "range": [
       "#00007f",
@@ -52,7 +52,7 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".3f",
     "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
