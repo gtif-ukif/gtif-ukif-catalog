@@ -35,7 +35,53 @@
       "styles": "",
       "media_type": "image/png",
       "visible": false,
-      "Attribution": "{ Data source: European Union's <a href=\"https://land.copernicus.eu/\" target=\"_blank\">Copernicus Land Monitoring Service (CLMS)</a>; Dataset: <a href=\"https://land.copernicus.eu/en/products/high-resolution-layer-croplands/crop-types-2022-raster-10-m-europe-yearly\" target=\"_blank\">Crop Types 2022 (raster 10 m), Europe, yearly</a>; DOI: <a href=\"https://doi.org/10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47\" target=\"_blank\">10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47</a>; Service: <a href=\"https://geoserver.vlcc.geoville.com/geoserver/ows\" target=\"_blank\">GeoVille WMS</a> }"
+      "Attribution": "{ Data source: European Union's <a href=\"https://land.copernicus.eu/\" target=\"_blank\">Copernicus Land Monitoring Service (CLMS)</a>; Dataset: <a href=\"https://land.copernicus.eu/en/products/high-resolution-layer-croplands/crop-types-2022-raster-10-m-europe-yearly\" target=\"_blank\">Crop Types 2022 (raster 10 m), Europe, yearly</a>; DOI: <a href=\"https://doi.org/10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47\" target=\"_blank\">10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47</a>; Service: <a href=\"https://geoserver.vlcc.geoville.com/geoserver/ows\" target=\"_blank\">GeoVille WMS</a> }",
+      "Colorlegend": {
+        "title": "Crop Types",
+        "range": [
+          "rgb(238, 110, 50)",
+          "rgb(251, 162, 74)",
+          "rgb(250, 220, 20)",
+          "rgb(233, 67, 1)",
+          "rgb(232, 169, 149)",
+          "rgb(174, 199, 232)",
+          "rgb(72, 151, 191)",
+          "rgb(201, 140, 67)",
+          "rgb(156, 91, 12)",
+          "rgb(255, 121, 121)",
+          "rgb(168, 106, 150)",
+          "rgb(227, 119, 194)",
+          "rgb(247, 182, 210)",
+          "rgb(219, 219, 141)",
+          "rgb(193, 206, 18)",
+          "rgb(121, 160, 58)",
+          "rgb(90, 124, 48)",
+          "rgb(215, 215, 215)",
+          "rgb(171, 171, 171)"
+        ],
+        "domain": [
+          "Wheat",
+          "Barley",
+          "Maize",
+          "Rice",
+          "Other Cereals",
+          "Fresh Vegetables",
+          "Dry Pulses",
+          "Potatoes",
+          "Sugar Beet",
+          "Sunflower",
+          "Soybeans",
+          "Rapeseed",
+          "Flax cotton and hemp",
+          "Grapes",
+          "Olives",
+          "Fruits",
+          "Nuts",
+          "Unclassified arable crop",
+          "Unclassified permanent crop"
+        ],
+        "scaleType": "categorical"
+      }
     }
   ]
 }
