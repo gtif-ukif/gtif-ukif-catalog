@@ -17,7 +17,7 @@
       "CollectionId": "UCL4-GB-bfPVout",
       "ColormapName": "jet",
       "Rescale": [
-        2000,85000
+        0.023,0.09
       ],
       "Assets": [
         "asset"
@@ -26,8 +26,8 @@
   ],
   "Colorlegend": {
     "domain": [
-      2,
-      175
+      0.023,
+      0.09
     ],
     "range": [
       "#00007f",
@@ -42,7 +42,7 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".3f",
     "title": "Solar Power Output"
   },
   "Agency": [
