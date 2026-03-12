@@ -26,15 +26,13 @@
     }
   ],
   "Process": {
-    "Name": "VEDA Statistics",
-    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+    "Name": "Precomputed Statistics",
+    "VegaDefinition": "collections/EDA-methane/vega.json",
+    "JsonForm": "collections/EDA-methane/jsonform.json",
     "EndPoints": [
       {
-        "Identifier": "veda_statistics",
-        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-UK/statistics?assets=asset",
-        "Method": "POST",
-        "EndPoint": "veda_stac",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-UK_chart_data.json",
+        "Identifier": "precomputed_statistics",
         "Type": "application/json"
       }
     ]
