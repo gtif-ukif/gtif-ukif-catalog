@@ -1,0 +1,104 @@
+{
+  "type": "Collection",
+  "id": "UCL4-HRVPP-PPI",
+  "stac_version": "1.1.0",
+  "description": "The Plant Phenology Index (PPI) is a phenology indicator derived from the Copernicus HR-VPP (High Resolution Vegetation Phenology and Productivity) Seasonal Trajectories product at 10m resolution. PPI values represent near-real-time vegetation phenological activity across Europe. Data is available every 10 days from 2017 to present.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://phenology.vgt.vito.be/wms",
+      "type": "image/jpeg",
+      "title": "Plant Phenology Index (HRVPP)",
+      "wms:layers": [
+        "CLMS_HRVPP_ST_PPI_10M"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "clip": "srid=4326;POLYGON((-11.0049974 41.0050006,9.9950029 41.0050006,9.9950029 61.0050003,-11.0049974 61.0050003,-11.0049974 41.0050006))"
+      },
+      "wms:styles": "hrvpp_ppi_30k_v2.txt",
+      "wms:version": "1.1.1",
+      "key": "6e83ddd8-2a8e-4d26-960b-f8e00cb2fb1b",
+      "proj:epsg": 3857
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Plant Phenology Index (HRVPP)"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power",
+    "Vegetation Phenology"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      3
+    ],
+    "range": [
+      "#C46439",
+      "#E3CC1B",
+      "#B3F408",
+      "#5FF538",
+      "#00DBDB",
+      "#17A9A1",
+      "#1B7E8A",
+      "#135782",
+      "#0A2D7A"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "PPI"
+  },
+  "proj:epsg": 3857,
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "Plant Phenology Index (HRVPP)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.0049974,
+          41.0050006,
+          9.9950029,
+          61.0050003
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2024-12-21T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

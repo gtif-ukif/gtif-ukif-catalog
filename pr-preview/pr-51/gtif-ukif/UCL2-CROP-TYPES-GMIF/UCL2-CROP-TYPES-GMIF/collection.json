@@ -1,0 +1,127 @@
+{
+  "type": "Collection",
+  "id": "UCL2-CROP-TYPES-GMIF",
+  "stac_version": "1.1.0",
+  "description": "Crop Types 2022 (raster 10 m), clipped to the GMIF analysis extent.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://geoserver.vlcc.geoville.com/geoserver/ows",
+      "type": "image/png",
+      "title": "Crop Types",
+      "wms:layers": [
+        "HRL_CPL:CTY_S2022"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "clip": "srid=4326;POLYGON((-11.0049974 41.0050006,9.9950029 41.0050006,9.9950029 61.0050003,-11.0049974 61.0050003,-11.0049974 41.0050006))"
+      },
+      "wms:version": "1.3.0",
+      "key": "b5bd85dd-793d-467b-b64f-13015130abec"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Crop Types"
+    }
+  ],
+  "themes": [
+    "food-security"
+  ],
+  "tags": [
+    "Drought Analysis/Forecast",
+    "Crop Types"
+  ],
+  "agency": [
+    "European Union"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "title": "Crop Types",
+    "range": [
+      "rgb(238, 110, 50)",
+      "rgb(251, 162, 74)",
+      "rgb(250, 220, 20)",
+      "rgb(233, 67, 1)",
+      "rgb(232, 169, 149)",
+      "rgb(174, 199, 232)",
+      "rgb(72, 151, 191)",
+      "rgb(201, 140, 67)",
+      "rgb(156, 91, 12)",
+      "rgb(255, 121, 121)",
+      "rgb(168, 106, 150)",
+      "rgb(227, 119, 194)",
+      "rgb(247, 182, 210)",
+      "rgb(219, 219, 141)",
+      "rgb(193, 206, 18)",
+      "rgb(121, 160, 58)",
+      "rgb(90, 124, 48)",
+      "rgb(215, 215, 215)",
+      "rgb(171, 171, 171)"
+    ],
+    "domain": [
+      "Wheat",
+      "Barley",
+      "Maize",
+      "Rice",
+      "Other Cereals",
+      "Fresh Vegetables",
+      "Dry Pulses",
+      "Potatoes",
+      "Sugar Beet",
+      "Sunflower",
+      "Soybeans",
+      "Rapeseed",
+      "Flax cotton and hemp",
+      "Grapes",
+      "Olives",
+      "Fruits",
+      "Nuts",
+      "Unclassified arable crop",
+      "Unclassified permanent crop"
+    ],
+    "scaleType": "categorical"
+  },
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "Crop Types",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.0049974,
+          41.0050006,
+          9.9950029,
+          61.0050003
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
