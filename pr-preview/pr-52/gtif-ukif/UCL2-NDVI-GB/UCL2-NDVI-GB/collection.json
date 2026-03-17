@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-GB-Overviews/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap=%5B%5B%5B-1.0%2C0.1%5D%2C%5B0%2C0%2C0%2C0%5D%5D%2C%5B%5B0.1%2C0.25%5D%2C%5B247%2C252%2C245%2C255%5D%5D%2C%5B%5B0.25%2C0.4%5D%2C%5B199%2C233%2C192%2C255%5D%5D%2C%5B%5B0.4%2C0.55%5D%2C%5B116%2C196%2C118%2C255%5D%5D%2C%5B%5B0.55%2C0.7%5D%2C%5B49%2C163%2C84%2C255%5D%5D%2C%5B%5B0.7%2C0.85%5D%2C%5B0%2C109%2C44%2C255%5D%5D%2C%5B%5B0.85%2C1.0%5D%2C%5B0%2C68%2C27%2C255%5D%5D%2C%5B%5B1.0%2C2.0%5D%2C%5B0%2C0%2C0%2C0%5D%5D%5D",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-GB-Overviews/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap=%5B%5B-1.0%2C0.1%5D%2C%5B0%2C0%2C0%2C0%5D%5D%2C%5B%5B0.1%2C0.25%5D%2C%5B247%2C252%2C245%2C255%5D%5D%2C%5B%5B0.25%2C0.4%5D%2C%5B199%2C233%2C192%2C255%5D%5D%2C%5B%5B0.4%2C0.55%5D%2C%5B116%2C196%2C118%2C255%5D%5D%2C%5B%5B0.55%2C0.7%5D%2C%5B49%2C163%2C84%2C255%5D%5D%2C%5B%5B0.7%2C0.85%5D%2C%5B0%2C109%2C44%2C255%5D%5D%2C%5B%5B0.85%2C1.0%5D%2C%5B0%2C68%2C27%2C255%5D%5D%2C%5B%5B1.0%2C2.0%5D%2C%5B0%2C0%2C0%2C0%5D%5D",
       "type": "image/png",
       "title": "NDVI (GB)",
-      "key": "aca26b75-b1f1-44cc-b635-496e4d4637a8"
+      "key": "53609ac9-e358-49c7-bf11-77ddc992f834"
     },
     {
       "rel": "parent",
