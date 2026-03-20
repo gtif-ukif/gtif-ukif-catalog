@@ -1,6 +1,6 @@
 {
-  "Name": "GMIF-air-quality-raster",
-  "Title": "GMif Air Quality Raster",
+  "Name": "UCL3-SISR-DAILY",
+  "Title": "SISR Daily Air Quality across UK-Ireland-France",
   "CollectionGroup": "Other",
   "Themes": [
     "mobility-transition"
@@ -8,13 +8,13 @@
   "Tags": [
     "Air Quality"
   ],
-  "Description": "Daily PM2.5 raster stack for the UK-Ireland-France area from the UCL3 air quality collection.",
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily SISR map of the UKIF area derived from the MODIS-MAIC product. Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activities such as the Thames Estuary and the Rotterdam industrial areas.",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
       "Type": "tiles",
-      "CollectionId": "UCL3",
+      "CollectionId": "UCL3-SISR-DAILY",
       "ColormapName": "jet",
       "Rescale": [
         44,
@@ -32,7 +32,7 @@
     "EndPoints": [
       {
         "Identifier": "veda_statistics",
-        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
+        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-SISR-DAILY/statistics?assets=asset",
         "Method": "POST",
         "EndPoint": "veda_stac",
         "Type": "application/json"
