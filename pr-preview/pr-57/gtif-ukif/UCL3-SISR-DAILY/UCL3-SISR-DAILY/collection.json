@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "UCL3-SISR-DAILY",
+  "stac_version": "1.1.0",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily SISR map of the UKIF area derived from the MODIS-MAIC product. Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activities such as the Thames Estuary and the Rotterdam industrial areas.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-SISR-DAILY/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap=%7B%220%22%3A%20%22%23313695ff%22%2C%20%221%22%3A%20%22%2335429aff%22%2C%20%222%22%3A%20%22%23394ea0ff%22%2C%20%223%22%3A%20%22%233d5aa6ff%22%2C%20%224%22%3A%20%22%234267acff%22%2C%20%225%22%3A%20%22%234673b2ff%22%2C%20%226%22%3A%20%22%234d7eb8ff%22%2C%20%227%22%3A%20%22%235789beff%22%2C%20%228%22%3A%20%22%236194c4ff%22%2C%20%229%22%3A%20%22%236b9fc9ff%22%2C%20%2210%22%3A%20%22%2375aacfff%22%2C%20%2211%22%3A%20%22%237fb5d5ff%22%2C%20%2212%22%3A%20%22%2389bdd9ff%22%2C%20%2213%22%3A%20%22%2394c5deff%22%2C%20%2214%22%3A%20%22%239fcce2ff%22%2C%20%2215%22%3A%20%22%23aad4e6ff%22%2C%20%2216%22%3A%20%22%23b4dcebff%22%2C%20%2217%22%3A%20%22%23bfe2edff%22%2C%20%2218%22%3A%20%22%23c7e6eaff%22%2C%20%2219%22%3A%20%22%23d0eae7ff%22%2C%20%2220%22%3A%20%22%23d9eee4ff%22%2C%20%2221%22%3A%20%22%23e2f3e2ff%22%2C%20%2222%22%3A%20%22%23ebf7dfff%22%2C%20%2223%22%3A%20%22%23eff6d6ff%22%2C%20%2224%22%3A%20%22%23f2f4ccff%22%2C%20%2225%22%3A%20%22%23f5f2c1ff%22%2C%20%2226%22%3A%20%22%23f8f0b6ff%22%2C%20%2227%22%3A%20%22%23fbeeacff%22%2C%20%2228%22%3A%20%22%23fdeba2ff%22%2C%20%2229%22%3A%20%22%23fde298ff%22%2C%20%2230%22%3A%20%22%23fdda8fff%22%2C%20%2231%22%3A%20%22%23fdd186ff%22%2C%20%2232%22%3A%20%22%23fdc97cff%22%2C%20%2233%22%3A%20%22%23fdc073ff%22%2C%20%2234%22%3A%20%22%23fcb66bff%22%2C%20%2235%22%3A%20%22%23faaa64ff%22%2C%20%2236%22%3A%20%22%23f99e5dff%22%2C%20%2237%22%3A%20%22%23f89257ff%22%2C%20%2238%22%3A%20%22%23f78650ff%22%2C%20%2239%22%3A%20%22%23f57a49ff%22%2C%20%2240%22%3A%20%22%23f06d43ff%22%2C%20%2241%22%3A%20%22%23eb613dff%22%2C%20%2242%22%3A%20%22%23e55437ff%22%2C%20%2243%22%3A%20%22%23e04731ff%22%2C%20%2244%22%3A%20%22%23db3a2bff%22%2C%20%2245%22%3A%20%22%23d32f28ff%22%2C%20%2246%22%3A%20%22%23ca2628ff%22%2C%20%2247%22%3A%20%22%23c11c27ff%22%2C%20%2248%22%3A%20%22%23b71327ff%22%2C%20%2249%22%3A%20%22%23ae0926ff%22%2C%20%2250%22%3A%20%22%23a50026ff%22%7D",
+      "type": "image/png",
+      "title": "SISR Daily Air Quality across UK-Ireland-France",
+      "key": "1eca1e58-33ff-432d-9488-09ca8cc7ef59"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "SISR Daily Air Quality across UK-Ireland-France"
+    }
+  ],
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      50
+    ],
+    "range": [
+      "#313695",
+      "#497ab6",
+      "#80b7d6",
+      "#bce1ee",
+      "#edf8df",
+      "#feeda4",
+      "#fdbe70",
+      "#f67c4a",
+      "#d93529",
+      "#a50026"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5 (µg/cu.m)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "SISR Daily Air Quality across UK-Ireland-France",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.504999999999995,
+          41.004999999999995,
+          9.995000000000005,
+          61.004999999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
