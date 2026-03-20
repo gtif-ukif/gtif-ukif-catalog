@@ -1,0 +1,33 @@
+{
+  "Name": "PlacesOfInterest",
+  "Title": "Places of Interest",
+  "CollectionGroup": "Places of Interest",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Tags": [
+    "POI"
+  ],
+  "Description": "Combined dataset of hospitals, prisons, and schools displayed as vector tiles with interactive category filtering.",
+  "Resources": [
+    {
+      "Name": "VectorTile source",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_pois/collections/PlacesOfInterest/style.json",
+      "Bbox": [
+        -10.45,
+        41.4,
+        9.54,
+        60.76
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20250101",
+          "Url": "https://api.mapbox.com/v4/{TILESET_ID}/{z}/{x}/{y}.vector.pbf"
+        }
+      ]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}
