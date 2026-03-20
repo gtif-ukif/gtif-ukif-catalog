@@ -29,20 +29,20 @@
     },
     {
       "rel": "child",
-      "href": "./COMP_impreviousness_ind/collection.json",
+      "href": "./COMP5_ind/collection.json",
       "type": "application/json",
-      "title": "Imperviousness and UHI",
-      "id": "COMP_impreviousness_ind",
+      "title": "UHI Mean 2022-2024",
+      "id": "COMP5_ind",
       "themes": [
         "sustainable-cities"
       ],
       "tags": [
-        "Land Cover"
+        "Heat Island"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Land Cover"
+      "collection_group": "Urban Heat Island"
     },
     {
       "rel": "self",
