@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "GMIF-air-quality-vector",
   "stac_version": "1.1.0",
-  "description": "Consolidated GMIF air quality station GeoJSON layer for the UK, Ireland, and France.",
+  "description": "Consolidated GMif air quality station GeoJSON layer for the UK, Ireland, and France.",
   "links": [
     {
       "rel": "root",
@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "GMIF Air Quality"
+      "title": "GMif Air Quality"
     }
   ],
   "themes": [
@@ -36,7 +36,7 @@
   ],
   "collection_group": "Other",
   "endpointtype": "GeoJSON source",
-  "title": "GMIF Air Quality Vector",
+  "title": "GMif Air Quality Vector",
   "extent": {
     "spatial": {
       "bbox": [

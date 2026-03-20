@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL2-NDVI",
+  "id": "UCL3-SISR-DAILY",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily SISR map of the UKIF area derived from the MODIS-MAIC product. Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activities such as the Thames Estuary and the Rotterdam industrial areas.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-NDVI-Ireland/collection.json",
+      "href": "./UCL3-SISR-DAILY/collection.json",
       "type": "application/json",
-      "title": "NDVI (Ireland)",
+      "title": "SISR Daily Air Quality across UK-Ireland-France",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-Ireland",
+      "id": "UCL3-SISR-DAILY",
       "themes": [
-        "food-security"
+        "mobility-transition"
       ],
       "tags": [
-        "Drought Analysis/Forecast"
+        "Air Quality"
       ],
       "agency": [
         "ESA"
@@ -29,22 +29,12 @@
       "collection_group": "Other"
     },
     {
-      "rel": "child",
-      "href": "./UCL2-NDVI-GB/collection.json",
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-SISR-DAILY/statistics?assets=asset",
       "type": "application/json",
-      "title": "NDVI (GB)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-GB",
-      "themes": [
-        "food-security"
-      ],
-      "tags": [
-        "Drought Analysis/Forecast"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
+      "id": "veda_statistics",
+      "method": "POST",
+      "endpoint": "veda_stac"
     },
     {
       "rel": "xyz",
@@ -185,32 +175,6 @@
       }
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "2c6f54aa-765a-4971-b643-f7804bdd245b"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Water Mask",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "MapboxWaterMask",
-      "key": "2c6f54aa-765a-4971-b643-f7804bdd245b",
-      "layers": [
-        "water"
-      ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
       "rel": "xyz",
       "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
@@ -222,64 +186,136 @@
       "id": "overlay_bright"
     },
     {
-      "rel": "wms",
-      "href": "https://geoserver.vlcc.geoville.com/geoserver/ows",
-      "type": "image/png",
-      "title": "CLMS_HRL_CropTypes_S2022_R10m",
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "fff90213-af83-4c01-a50f-f1eb4979fc85"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Solar Panels © UCL/Oxford 2025",
       "roles": [
         "overlay",
         "invisible"
       ],
-      "id": "CropTypeLayer",
-      "wms:layers": "HRL_CPL:CTY_S2022",
-      "wms:version": "1.3.0",
-      "attribution": "{ Data source: European Union's <a href=\"https://land.copernicus.eu/\" target=\"_blank\">Copernicus Land Monitoring Service (CLMS)</a>; Dataset: <a href=\"https://land.copernicus.eu/en/products/high-resolution-layer-croplands/crop-types-2022-raster-10-m-europe-yearly\" target=\"_blank\">Crop Types 2022 (raster 10 m), Europe, yearly</a>; DOI: <a href=\"https://doi.org/10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47\" target=\"_blank\">10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47</a>; Service: <a href=\"https://geoserver.vlcc.geoville.com/geoserver/ows\" target=\"_blank\">GeoVille WMS</a> }",
-      "eox:colorlegend": {
-        "title": "Crop Types",
-        "range": [
-          "rgb(238, 110, 50)",
-          "rgb(251, 162, 74)",
-          "rgb(250, 220, 20)",
-          "rgb(233, 67, 1)",
-          "rgb(232, 169, 149)",
-          "rgb(174, 199, 232)",
-          "rgb(72, 151, 191)",
-          "rgb(201, 140, 67)",
-          "rgb(156, 91, 12)",
-          "rgb(255, 121, 121)",
-          "rgb(168, 106, 150)",
-          "rgb(227, 119, 194)",
-          "rgb(247, 182, 210)",
-          "rgb(219, 219, 141)",
-          "rgb(193, 206, 18)",
-          "rgb(121, 160, 58)",
-          "rgb(90, 124, 48)",
-          "rgb(215, 215, 215)",
-          "rgb(171, 171, 171)"
-        ],
-        "domain": [
-          "Wheat",
-          "Barley",
-          "Maize",
-          "Rice",
-          "Other Cereals",
-          "Fresh Vegetables",
-          "Dry Pulses",
-          "Potatoes",
-          "Sugar Beet",
-          "Sunflower",
-          "Soybeans",
-          "Rapeseed",
-          "Flax cotton and hemp",
-          "Grapes",
-          "Olives",
-          "Fruits",
-          "Nuts",
-          "Unclassified arable crop",
-          "Unclassified permanent crop"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "SolarPanels",
+      "key": "fff90213-af83-4c01-a50f-f1eb4979fc85",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "5b4db601-bd4b-43ff-9391-03e74a080743"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Site of Special Scientific Interest",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SSSI",
+      "key": "5b4db601-bd4b-43ff-9391-03e74a080743",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "7e5b18cd-daf2-40c8-bf8d-52e4cc8f2f91"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "National Parks",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "NationalParks",
+      "key": "7e5b18cd-daf2-40c8-bf8d-52e4cc8f2f91",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "9036ea82-5591-4b8d-a5cf-ffd50c5e5f65"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Natural Landscapes",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "AONB",
+      "key": "9036ea82-5591-4b8d-a5cf-ffd50c5e5f65",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "f6f27148-85ed-48cd-991e-dc8c9798dfbf"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Water Mask",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "MapboxWaterMask",
+      "key": "f6f27148-85ed-48cd-991e-dc8c9798dfbf",
+      "layers": [
+        "water"
+      ],
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "mapbox-style-document",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "type": "application/json",
+      "title": "Open Infrastructure Map",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "Openinframap",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "parent",
@@ -292,15 +328,38 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "food-security"
+    "mobility-transition"
   ],
   "tags": [
-    "Drought Analysis/Forecast"
+    "Air Quality"
   ],
   "agency": [
     "ESA"
   ],
   "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      44,
+      290
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5 (µg/cu.m)"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -308,35 +367,23 @@
       "in": "query"
     }
   },
-  "title": "NDVI",
+  "title": "SISR Daily Air Quality across UK-Ireland-France",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.104591164873993,
-          48.74935069215586,
-          4.804451812143819,
-          61.264240082289106
-        ],
-        [
-          -11.104591164873993,
-          51.095293192897806,
-          -5.097344144376162,
-          55.60473592572955
-        ],
-        [
-          -9.419263296774696,
-          48.74935069215586,
-          4.804451812143819,
-          61.264240082289106
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-03-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2026-03-20T07:42:44.144454Z",
+          "2026-03-20T07:42:44.144454Z"
         ]
       ]
     }
@@ -344,7 +391,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "food-security"
+      "mobility-transition"
     ]
   }
 }

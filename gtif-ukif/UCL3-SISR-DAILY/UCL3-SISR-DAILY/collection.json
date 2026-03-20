@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "GMIF-air-quality-raster",
+  "id": "UCL3-SISR-DAILY",
   "stac_version": "1.1.0",
-  "description": "Daily PM2.5 raster stack for the UK-Ireland-France area from the UCL3 air quality collection.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily SISR map of the UKIF area derived from the MODIS-MAIC product. Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activities such as the Thames Estuary and the Rotterdam industrial areas.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=44,290",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-SISR-DAILY/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=44,290",
       "type": "image/png",
-      "title": "GMif Air Quality Raster",
-      "key": "34f19a89-c267-462c-a573-c94014109121"
+      "title": "SISR Daily Air Quality across UK-Ireland-France",
+      "key": "6b2ae543-cce4-4bf1-9bc3-5991147bdd93"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "GMif Air Quality"
+      "title": "SISR Daily Air Quality across UK-Ireland-France"
     }
   ],
   "themes": [
@@ -56,36 +56,26 @@
     "title": "PM2.5 (µg/cu.m)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "GMif Air Quality Raster",
+  "title": "SISR Daily Air Quality across UK-Ireland-France",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-11-22T00:00:00Z",
-          "2022-03-25T00:00:00Z"
+          "2026-03-20T07:42:44.144454Z",
+          null
         ]
       ]
     }
   },
-  "license": "other",
-  "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    }
-  }
+  "license": "other"
 }

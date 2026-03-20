@@ -99,7 +99,7 @@
       "rel": "child",
       "href": "./UCL3_GMIF_air_quality/collection.json",
       "type": "application/json",
-      "title": "GMIF Air Quality",
+      "title": "GMif Air Quality",
       "id": "UCL3_GMIF_air_quality",
       "themes": [
         "mobility-transition"
@@ -288,6 +288,23 @@
       "type": "application/json",
       "title": "Poorest Air Quality across the whole UK-Ireland-France area",
       "id": "UCL3",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-SISR-DAILY/collection.json",
+      "type": "application/json",
+      "title": "SISR Daily Air Quality across UK-Ireland-France",
+      "id": "UCL3-SISR-DAILY",
       "themes": [
         "mobility-transition"
       ],
