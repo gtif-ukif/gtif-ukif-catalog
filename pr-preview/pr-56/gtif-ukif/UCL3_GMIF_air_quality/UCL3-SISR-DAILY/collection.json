@@ -1,0 +1,81 @@
+{
+  "type": "Collection",
+  "id": "UCL3-SISR-DAILY",
+  "stac_version": "1.1.0",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily SISR map of the UKIF area derived from the MODIS-MAIC product. Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activities such as the Thames Estuary and the Rotterdam industrial areas.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-SISR-DAILY/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=44,290",
+      "type": "image/png",
+      "title": "SISR Daily Air Quality across UK-Ireland-France",
+      "key": "a3b6a982-3369-4251-a7e1-b71774e9221f"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "GMif Air Quality"
+    }
+  ],
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      44,
+      290
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "PM2.5 (µg/cu.m)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "SISR Daily Air Quality across UK-Ireland-France",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-03-20T07:33:50.077647Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
