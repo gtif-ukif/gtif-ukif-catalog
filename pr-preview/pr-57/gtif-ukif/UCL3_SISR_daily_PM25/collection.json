@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-SISR-DAILY",
+  "id": "UCL3_SISR_daily_PM25",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily SISR map of the UKIF area derived from the MODIS-MAIC product. Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activities such as the Thames Estuary and the Rotterdam industrial areas.",
+  "description": "UCL3 SISR Daily PM2.5 provides the standalone daily raster exploration workflow for the UK-Ireland-France area, including bbox-based statistics and charting.",
   "links": [
     {
       "rel": "root",
@@ -27,14 +27,6 @@
         "ESA"
       ],
       "collection_group": "Other"
-    },
-    {
-      "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-SISR-DAILY/statistics?assets=asset",
-      "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
     },
     {
       "rel": "xyz",
@@ -190,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f561a120-83da-45b7-bd7a-91a5cafcd00c"
+        "6c9f545e-6b66-473e-8032-2e486a23e199"
       ]
     },
     {
@@ -203,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "f561a120-83da-45b7-bd7a-91a5cafcd00c",
+      "key": "6c9f545e-6b66-473e-8032-2e486a23e199",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7d9b9083-548c-4a73-875c-a8343381229d"
+        "066e39f6-69c1-4d49-9112-bf247c816fce"
       ]
     },
     {
@@ -226,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "7d9b9083-548c-4a73-875c-a8343381229d",
+      "key": "066e39f6-69c1-4d49-9112-bf247c816fce",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "660441a5-9552-4d13-9030-45e6100a1cbb"
+        "b3ef5620-437e-4df1-bad6-1940cdeae219"
       ]
     },
     {
@@ -249,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "660441a5-9552-4d13-9030-45e6100a1cbb",
+      "key": "b3ef5620-437e-4df1-bad6-1940cdeae219",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bf3691a9-e48d-4377-828a-c18fd03ec5c6"
+        "9add4617-0ed8-4cbb-8d45-80394fb14572"
       ]
     },
     {
@@ -272,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "bf3691a9-e48d-4377-828a-c18fd03ec5c6",
+      "key": "9add4617-0ed8-4cbb-8d45-80394fb14572",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e8893034-bdad-4972-b6f5-57f497007142"
+        "1a1ad5be-e4e5-47f5-8339-437190a2486e"
       ]
     },
     {
@@ -295,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "e8893034-bdad-4972-b6f5-57f497007142",
+      "key": "1a1ad5be-e4e5-47f5-8339-437190a2486e",
       "layers": [
         "water"
       ],
@@ -337,30 +329,6 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      50
-    ],
-    "range": [
-      "#313695",
-      "#4575b4",
-      "#74add1",
-      "#abd9e9",
-      "#e0f3f8",
-      "#ffffbf",
-      "#fee090",
-      "#fdae61",
-      "#f46d43",
-      "#d73027",
-      "#a50026"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
-  },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -368,7 +336,7 @@
       "in": "query"
     }
   },
-  "title": "SISR Daily Air Quality across UK-Ireland-France",
+  "title": "UCL3 SISR Daily PM2.5",
   "extent": {
     "spatial": {
       "bbox": [

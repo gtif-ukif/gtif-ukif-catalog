@@ -12,10 +12,78 @@
     },
     {
       "rel": "child",
+      "href": "./UCL3-GMIF-air-quality-raster/collection.json",
+      "type": "application/json",
+      "title": "GMif PM2.5 Raster",
+      "id": "UCL3-GMIF-air-quality-raster",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-GMIF-air-quality-vector/collection.json",
+      "type": "application/json",
+      "title": "GMif PM2.5 Stations",
+      "id": "UCL3-GMIF-air-quality-vector",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL3-SISR-DAILY/collection.json",
       "type": "application/json",
       "title": "SISR Daily Air Quality across UK-Ireland-France",
       "id": "UCL3-SISR-DAILY",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3_GMIF_PM25/collection.json",
+      "type": "application/json",
+      "title": "GMif PM2.5",
+      "id": "UCL3_GMIF_PM25",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3_SISR_daily_PM25/collection.json",
+      "type": "application/json",
+      "title": "UCL3 SISR Daily PM2.5",
+      "id": "UCL3_SISR_daily_PM25",
       "themes": [
         "mobility-transition"
       ],
