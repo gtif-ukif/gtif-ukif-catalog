@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "COMP5",
+  "id": "COMP5_ind",
   "stac_version": "1.1.0",
   "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe Urban Heat Island (UHI) Map (2022-2024) over France, Ireland, and the UK illustrates the average temperature differences between urban and rural areas during the summer months of this period. The map highlights hotspots where cities experienced intensified warming due to dense infrastructure, reduced vegetation, and human activities. Major metropolitan areas such as London, Paris, and Dublin show a significant UHI. Regional variations are evident, with urban green spaces reducing the UHI effect. The impacts of climate change may also contribute to an intensification of urban warming patterns over time. This map serves as a valuable tool for urban planners and policymakers to develop climate adaptation strategies, such as increasing urban greenery and improving ventilation corridors.",
   "links": [
@@ -29,13 +29,31 @@
       "collection_group": "Urban Heat Island"
     },
     {
+      "rel": "child",
+      "href": "./PlacesOfInterest/collection.json",
+      "type": "application/json",
+      "title": "Places of Interest",
+      "endpointtype": "VectorTile source",
+      "id": "PlacesOfInterest",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "POI"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Places of Interest"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "cloudless-2024"
     },
@@ -46,7 +64,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "OSM"
     },
@@ -99,8 +117,8 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Grassland",
           "Cropland",
+          "Grassland",
           "Tree cover",
           "Snow and Ice",
           "Shrubland",
@@ -115,63 +133,23 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
       "type": "image/png",
-      "title": "WC21 UK Mosaic (Cropland)",
+      "title": "WC21 UK Mosaic (Filtered)",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "WC21-Cropland",
+      "id": "WC21-filtered",
       "eox:colorlegend": {
         "title": "",
         "range": [
+          "rgb(255, 255, 76)",
           "rgb(240, 150, 255)"
         ],
         "domain": [
+          "Grassland",
           "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Grassland)",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "WC21-Grassland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(255, 255, 76)"
-        ],
-        "domain": [
-          "Grassland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Tree cover)",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "WC21-Treecover",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(0,100,0)"
-        ],
-        "domain": [
-          "Tree cover"
         ],
         "scaleType": "categorical"
       }
@@ -222,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "db82af53-006e-418b-9efa-51964a40c550"
+        "257c0824-330d-4e82-9996-5a72ad9cb9a2"
       ]
     },
     {
@@ -235,7 +213,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "db82af53-006e-418b-9efa-51964a40c550",
+      "key": "257c0824-330d-4e82-9996-5a72ad9cb9a2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4b1909d0-67e6-452d-afa5-eebe160a3b35"
+        "93f808af-2a87-4424-bd90-383276e17462"
       ]
     },
     {
@@ -258,7 +236,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "4b1909d0-67e6-452d-afa5-eebe160a3b35",
+      "key": "93f808af-2a87-4424-bd90-383276e17462",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "45382c46-d8b1-441e-93b8-34ab85169155"
+        "1e1c7a88-3395-418f-b939-ac87ccf811ae"
       ]
     },
     {
@@ -281,7 +259,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "45382c46-d8b1-441e-93b8-34ab85169155",
+      "key": "1e1c7a88-3395-418f-b939-ac87ccf811ae",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f15b5e1d-9195-4e85-9d8c-c4890ab2cdf9"
+        "3e580425-8a0e-462b-af3d-51dbd4d926dc"
       ]
     },
     {
@@ -304,7 +282,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "f15b5e1d-9195-4e85-9d8c-c4890ab2cdf9",
+      "key": "3e580425-8a0e-462b-af3d-51dbd4d926dc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -314,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5544938c-4e40-44e4-9d7a-fd7728627655"
+        "d3c38f8c-fe11-45a8-b3cd-0b5c7f5b17cc"
       ]
     },
     {
@@ -327,7 +305,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "5544938c-4e40-44e4-9d7a-fd7728627655",
+      "key": "d3c38f8c-fe11-45a8-b3cd-0b5c7f5b17cc",
       "layers": [
         "water"
       ],
@@ -369,27 +347,6 @@
     "ESA"
   ],
   "collection_group": "Urban Heat Island",
-  "eox:colorlegend": {
-    "domain": [
-      -1,
-      1
-    ],
-    "range": [
-      "#053061",
-      "#246aae",
-      "#559ec9",
-      "#a7cfe4",
-      "#e1ecf3",
-      "#fae7db",
-      "#f7b698",
-      "#dd7059",
-      "#b51f2e",
-      "#67001f"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "[°C]"
-  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -412,6 +369,12 @@
           41.003601143635564,
           16.216836666567666,
           61.215695036324796
+        ],
+        [
+          -10.45,
+          41.4,
+          9.54,
+          60.76
         ]
       ]
     },
@@ -419,7 +382,7 @@
       "interval": [
         [
           "2022-05-01T00:00:00Z",
-          "2022-05-01T00:00:00Z"
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
