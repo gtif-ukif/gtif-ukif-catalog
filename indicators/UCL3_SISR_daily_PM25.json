@@ -1,0 +1,18 @@
+{
+  "Name": "UCL3_SISR_daily_PM25",
+  "Title": "UCL3 SISR Daily PM2.5",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Tags": [
+    "Air Quality"
+  ],
+  "Description": "UCL3 SISR Daily PM2.5 provides the standalone daily raster exploration workflow for the UK-Ireland-France area, including bbox-based statistics and charting.",
+  "Agency": [
+    "ESA"
+  ],
+  "Collections": [
+    "UCL3-SISR-DAILY"
+  ]
+}
