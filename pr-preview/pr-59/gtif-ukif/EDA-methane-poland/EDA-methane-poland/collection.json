@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "EDA-methane-poland",
+  "stac_version": "1.1.0",
+  "description": "Time series of the column of excess methane over a coal mining site in Poland. The vertical dot-dashed lines correspond to detected methane plumes from the Tanager-1 satellite.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,0.5",
+      "type": "image/png",
+      "title": "Poland",
+      "key": "05023559-1612-4a75-91c5-104324d54b6e"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Poland"
+    }
+  ],
+  "themes": [
+    "carbon-accounting"
+  ],
+  "tags": [
+    "Methane Emissions Analysis"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -3,
+      0.5
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".2f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Poland",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          18.597369999999998,
+          49.93804792062679,
+          18.65745207937321,
+          49.99813
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-05-01T00:00:00Z",
+          "2025-03-22T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
