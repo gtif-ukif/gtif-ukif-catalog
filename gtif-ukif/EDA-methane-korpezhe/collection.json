@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3daa9bc2-40fc-4bcb-bebe-0f761be8d28e"
+        "7e5c2614-c60c-44ee-b391-7f829096e3c8"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "3daa9bc2-40fc-4bcb-bebe-0f761be8d28e",
+      "key": "7e5c2614-c60c-44ee-b391-7f829096e3c8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8d42e4da-5ccc-4a19-b512-09c994d7cb64"
+        "4a900664-3207-4a5b-81e6-5adbf63a7d12"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "8d42e4da-5ccc-4a19-b512-09c994d7cb64",
+      "key": "4a900664-3207-4a5b-81e6-5adbf63a7d12",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "074107ce-3d55-440c-b8c1-540146f0ac69"
+        "5b8942c1-22ac-4276-9808-23fef0695062"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "074107ce-3d55-440c-b8c1-540146f0ac69",
+      "key": "5b8942c1-22ac-4276-9808-23fef0695062",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "36e82c96-5031-4194-85ee-4056e1d6e47c"
+        "26b7e8a8-d8cc-4f66-bd59-caca2c9b62e3"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "36e82c96-5031-4194-85ee-4056e1d6e47c",
+      "key": "26b7e8a8-d8cc-4f66-bd59-caca2c9b62e3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "20ed3515-03a5-49c7-8679-9b9c6c135435"
+        "90b88201-52cc-44de-99a2-6fa3191383ce"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "20ed3515-03a5-49c7-8679-9b9c6c135435",
+      "key": "90b88201-52cc-44de-99a2-6fa3191383ce",
       "layers": [
         "water"
       ],
@@ -358,7 +358,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
