@@ -19,7 +19,7 @@
     "EndPoints": [
       {
         "Identifier": "timeseries",
-        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/gmif_air_pollution_stations/timeseries/{{feature.properties.station_slug}}.json",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/gmif_air_pollution_stations/timeseries/{{feature}}.json",
         "Type": "application/json",
         "Method": "GET"
       }
