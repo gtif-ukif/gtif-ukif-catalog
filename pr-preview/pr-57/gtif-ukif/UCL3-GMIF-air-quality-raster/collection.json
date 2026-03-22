@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./UCL3-GMIF-air-quality-raster/collection.json",
       "type": "application/json",
-      "title": "GMif PM2.5 Raster",
+      "title": "GMif PM 2.5 Raster",
       "endpointtype": "VEDA_tiles",
       "id": "UCL3-GMIF-air-quality-raster",
       "themes": [
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4be1992d-81e8-428e-96a8-7612472d17d8"
+        "e3f2af96-2204-420a-8494-1ebd9dff1c8f"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "4be1992d-81e8-428e-96a8-7612472d17d8",
+      "key": "e3f2af96-2204-420a-8494-1ebd9dff1c8f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2a484f90-25d1-4648-b9c2-f372f85d769e"
+        "5f80754b-a173-4213-ae75-3988c3ac3f09"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2a484f90-25d1-4648-b9c2-f372f85d769e",
+      "key": "5f80754b-a173-4213-ae75-3988c3ac3f09",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9e0ff07a-b2f2-4f27-a555-2c01fbfcd8ca"
+        "7e0d6907-486f-4662-b823-3800213d29aa"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "9e0ff07a-b2f2-4f27-a555-2c01fbfcd8ca",
+      "key": "7e0d6907-486f-4662-b823-3800213d29aa",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c084a1fa-989d-4e01-b05f-855677185cef"
+        "00c1d657-c439-4246-b2d0-8e9903dd99d0"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "c084a1fa-989d-4e01-b05f-855677185cef",
+      "key": "00c1d657-c439-4246-b2d0-8e9903dd99d0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a14f6272-51d2-4385-91c2-a23e4922b5cc"
+        "6530f9c9-466f-44a8-9a7e-a528f47f7408"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "a14f6272-51d2-4385-91c2-a23e4922b5cc",
+      "key": "6530f9c9-466f-44a8-9a7e-a528f47f7408",
       "layers": [
         "water"
       ],
@@ -358,29 +358,29 @@
       "in": "query"
     }
   },
-  "title": "GMif PM2.5 Raster",
+  "title": "GMif PM 2.5 Raster",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -10.504999999999995,
-          41.004999999999995,
-          9.995000000000005,
-          61.004999999999995
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
         ],
         [
-          -10.504999999999995,
-          41.004999999999995,
-          9.995000000000005,
-          61.004999999999995
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2017-01-01T00:00:00Z",
-          "2022-12-31T00:00:00Z"
+          "2018-11-22T00:00:00Z",
+          "2022-03-25T00:00:00Z"
         ]
       ]
     }

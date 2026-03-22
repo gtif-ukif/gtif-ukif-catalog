@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./UCL3-GMIF-air-quality-raster/collection.json",
       "type": "application/json",
-      "title": "GMif PM2.5 Raster",
+      "title": "GMif PM 2.5 Raster",
       "endpointtype": "VEDA_tiles",
       "id": "UCL3-GMIF-air-quality-raster",
       "themes": [
@@ -30,9 +30,27 @@
     },
     {
       "rel": "child",
+      "href": "./UCL3-SISR-DAILY/collection.json",
+      "type": "application/json",
+      "title": "SISR Daily Air Quality across UK-Ireland-France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL3-SISR-DAILY",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL3-GMIF-air-quality-vector/collection.json",
       "type": "application/json",
-      "title": "GMif PM2.5 Stations",
+      "title": "GMif Air Pollution Stations",
       "endpointtype": "GeoJSON source",
       "id": "UCL3-GMIF-air-quality-vector",
       "themes": [
@@ -200,7 +218,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c2445441-f4e6-45ba-806d-da9c5469bbe9"
+        "34a2c30d-038e-4631-ba17-599955cab54e"
       ]
     },
     {
@@ -213,7 +231,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "c2445441-f4e6-45ba-806d-da9c5469bbe9",
+      "key": "34a2c30d-038e-4631-ba17-599955cab54e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +241,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a5407ced-64f9-40d6-bcb5-7f22db254f4c"
+        "8713b2dd-265e-48d6-8a27-479293bd5b38"
       ]
     },
     {
@@ -236,7 +254,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "a5407ced-64f9-40d6-bcb5-7f22db254f4c",
+      "key": "8713b2dd-265e-48d6-8a27-479293bd5b38",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +264,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "aa4a4186-e13f-4c99-978f-6bec40a1722d"
+        "0bee3813-f573-4379-b493-241e5e02891e"
       ]
     },
     {
@@ -259,7 +277,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "aa4a4186-e13f-4c99-978f-6bec40a1722d",
+      "key": "0bee3813-f573-4379-b493-241e5e02891e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +287,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3fe81b87-eafe-4d99-9012-139f1ac6210d"
+        "b3c21cdc-0c8a-40f0-b891-4f09707ace0b"
       ]
     },
     {
@@ -282,7 +300,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "3fe81b87-eafe-4d99-9012-139f1ac6210d",
+      "key": "b3c21cdc-0c8a-40f0-b891-4f09707ace0b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +310,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ec71fbf4-35bf-467a-81cf-bc1ef6391655"
+        "5d1c0534-6bc8-4571-8729-7d0bb5ec5da6"
       ]
     },
     {
@@ -305,7 +323,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "ec71fbf4-35bf-467a-81cf-bc1ef6391655",
+      "key": "5d1c0534-6bc8-4571-8729-7d0bb5ec5da6",
       "layers": [
         "water"
       ],
@@ -359,10 +377,16 @@
     "spatial": {
       "bbox": [
         [
-          -10.504999999999995,
+          -11.004997421269309,
           41.004999999999995,
-          9.995000000000005,
-          61.004999999999995
+          9.995002899174164,
+          61.00500034413024
+        ],
+        [
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
         ],
         [
           -10.504999999999995,

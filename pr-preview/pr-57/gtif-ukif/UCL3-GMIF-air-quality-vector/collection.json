@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./UCL3-GMIF-air-quality-vector/collection.json",
       "type": "application/json",
-      "title": "GMif PM2.5 Stations",
+      "title": "GMif Air Pollution Stations",
       "endpointtype": "GeoJSON source",
       "id": "UCL3-GMIF-air-quality-vector",
       "themes": [
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "027939b5-ec89-410a-b21b-61f8f8bb35d7"
+        "2ffe86df-32d3-480e-9825-a1923d81549a"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "027939b5-ec89-410a-b21b-61f8f8bb35d7",
+      "key": "2ffe86df-32d3-480e-9825-a1923d81549a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "01234b9c-c218-4048-9a47-f965e0c5d888"
+        "da17b725-6249-4363-943d-ccec8f43e63e"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "01234b9c-c218-4048-9a47-f965e0c5d888",
+      "key": "da17b725-6249-4363-943d-ccec8f43e63e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7b11f1c1-ef0e-42ce-b18c-3b9bcb77d5ad"
+        "ed146579-1749-4929-858e-d289b95eab86"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "7b11f1c1-ef0e-42ce-b18c-3b9bcb77d5ad",
+      "key": "ed146579-1749-4929-858e-d289b95eab86",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4287ee2a-d17a-439c-83ba-20a118c8e4b5"
+        "0a3ac479-2e09-4c7d-9b11-d2b1f1a1090a"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "4287ee2a-d17a-439c-83ba-20a118c8e4b5",
+      "key": "0a3ac479-2e09-4c7d-9b11-d2b1f1a1090a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7619948b-c1c3-4908-a7bd-f0349ceb6825"
+        "e3444c35-246f-480b-9c8a-332539de1ef9"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "7619948b-c1c3-4908-a7bd-f0349ceb6825",
+      "key": "e3444c35-246f-480b-9c8a-332539de1ef9",
       "layers": [
         "water"
       ],
@@ -345,7 +345,7 @@
       "in": "query"
     }
   },
-  "title": "GMif PM2.5 Stations",
+  "title": "GMif Air Pollution Stations",
   "extent": {
     "spatial": {
       "bbox": [
