@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3",
+  "id": "UCL3-Severe-GB",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\n Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3/collection.json",
+      "href": "./UCL3-Severe-GB/collection.json",
       "type": "application/json",
-      "title": "Poorest Air Quality across the whole UK-Ireland-France area",
+      "title": "Severe Air Quality (SE GB)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL3",
+      "id": "UCL3-Severe-GB",
       "themes": [
         "mobility-transition"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/statistics?assets=asset",
       "type": "application/json",
       "id": "veda_statistics",
       "method": "POST",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bd0c49a6-84dc-4328-9c16-581f37195b19"
+        "deefa572-aa29-45a5-afc6-b3cb69adf22b"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "bd0c49a6-84dc-4328-9c16-581f37195b19",
+      "key": "deefa572-aa29-45a5-afc6-b3cb69adf22b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4a03b2ff-d8a7-4694-95e5-ea778d7d0f0e"
+        "969c935c-7261-40f1-ac80-162afe161017"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "4a03b2ff-d8a7-4694-95e5-ea778d7d0f0e",
+      "key": "969c935c-7261-40f1-ac80-162afe161017",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "09f09205-5aec-4e45-adde-a50b0f4fd313"
+        "660ae68e-c03f-404a-bd78-0df56e926b21"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "09f09205-5aec-4e45-adde-a50b0f4fd313",
+      "key": "660ae68e-c03f-404a-bd78-0df56e926b21",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ea83323f-dee3-4618-b93a-178a57437fcf"
+        "09f86e96-b041-4ed7-a9b3-58e875fe03a6"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "ea83323f-dee3-4618-b93a-178a57437fcf",
+      "key": "09f86e96-b041-4ed7-a9b3-58e875fe03a6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "96c1d767-2321-4fad-8e24-317d8d48969e"
+        "96ff538a-1f84-4c64-9f6e-ef68b6c3edf0"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "96c1d767-2321-4fad-8e24-317d8d48969e",
+      "key": "96ff538a-1f84-4c64-9f6e-ef68b6c3edf0",
       "layers": [
         "water"
       ],
@@ -339,8 +339,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      44,
-      290
+      30,
+      400
     ],
     "range": [
       "#00007f",
@@ -367,7 +367,7 @@
       "in": "query"
     }
   },
-  "title": "Poorest Air Quality across the whole UK-Ireland-France area",
+  "title": "Severe Air Quality (SE GB)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -388,8 +388,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-11-22T00:00:00Z",
-          "2022-03-25T00:00:00Z"
+          "2018-01-09T00:00:00Z",
+          "2022-12-17T00:00:00Z"
         ]
       ]
     }

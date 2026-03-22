@@ -12,6 +12,57 @@
     },
     {
       "rel": "child",
+      "href": "./UCL3-SISR-DAILY/collection.json",
+      "type": "application/json",
+      "title": "SISR Daily Air Quality across UK-Ireland-France",
+      "id": "UCL3-SISR-DAILY",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-Severe-GB/collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (SE GB)",
+      "id": "UCL3-Severe-GB",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-Severe-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (Ireland)",
+      "id": "UCL3-Severe-Ireland",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL3/collection.json",
       "type": "application/json",
       "title": "Poorest Air Quality across the whole UK-Ireland-France area",
