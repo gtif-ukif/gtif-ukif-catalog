@@ -1,0 +1,51 @@
+{
+  "Name": "UCL3-GMIF-air-quality-vector",
+  "Title": "GMif Air Pollution Stations",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "mobility-transition"
+  ],
+  "Tags": [
+    "Air Quality"
+  ],
+  "Description": "Consolidated GMif PM2.5 in situ station GeoJSON layer for the UK, Ireland, and France.",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/GMIF-air-quality/style.json",
+      "Bbox": [
+        -9.69792,
+        41.92469,
+        9.44642,
+        57.15736
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20250101",
+          "Assets": [
+            {
+              "Identifier": "gmif_air_pollution_stations",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/gmif_air_pollution_stations/gmif_air_pollution_stations.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Process": {
+    "Name": "Station Time Series",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/gmif_air_quality_station_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/gmif_air_quality_station_vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/gmif_air_pollution_stations/timeseries/{{feature}}.json",
+        "Method": "GET",
+        "Type": "application/json"
+      }
+    ]
+  },
+  "Agency": [
+    "ESA"
+  ]
+}
