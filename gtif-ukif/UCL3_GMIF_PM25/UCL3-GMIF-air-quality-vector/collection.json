@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "GMIF-air-quality-vector",
+  "id": "UCL3-GMIF-air-quality-vector",
   "stac_version": "1.1.0",
-  "description": "Consolidated GMif air quality station GeoJSON layer for the UK, Ireland, and France.",
+  "description": "Consolidated GMif PM2.5 in situ station GeoJSON layer for the UK, Ireland, and France.",
   "links": [
     {
       "rel": "root",
@@ -15,14 +15,14 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/GMIF-air-quality/style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "gmif_air_quality"
+        "gmif_air_pollution_stations"
       ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "GMif Air Quality"
+      "title": "GMif PM2.5"
     }
   ],
   "themes": [
@@ -36,7 +36,7 @@
   ],
   "collection_group": "Other",
   "endpointtype": "GeoJSON source",
-  "title": "GMif Air Quality Vector",
+  "title": "GMif Air Pollution Stations",
   "extent": {
     "spatial": {
       "bbox": [

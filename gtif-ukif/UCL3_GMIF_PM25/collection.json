@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3_GMIF_air_quality",
+  "id": "UCL3_GMIF_PM25",
   "stac_version": "1.1.0",
-  "description": "GMif air quality combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMif air quality station layer.",
+  "description": "GMif PM2.5 combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMif in situ station layer.",
   "links": [
     {
       "rel": "root",
@@ -12,29 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./GMIF-air-quality-raster/collection.json",
+      "href": "./UCL3-GMIF-air-quality-raster/collection.json",
       "type": "application/json",
-      "title": "GMif Air Quality Raster",
+      "title": "GMif PM 2.5 Raster",
       "endpointtype": "VEDA_tiles",
-      "id": "GMIF-air-quality-raster",
-      "themes": [
-        "mobility-transition"
-      ],
-      "tags": [
-        "Air Quality"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./GMIF-air-quality-vector/collection.json",
-      "type": "application/json",
-      "title": "GMif Air Quality Vector",
-      "endpointtype": "GeoJSON source",
-      "id": "GMIF-air-quality-vector",
+      "id": "UCL3-GMIF-air-quality-raster",
       "themes": [
         "mobility-transition"
       ],
@@ -63,6 +45,31 @@
         "ESA"
       ],
       "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-GMIF-air-quality-vector/collection.json",
+      "type": "application/json",
+      "title": "GMif Air Pollution Stations",
+      "endpointtype": "GeoJSON source",
+      "id": "UCL3-GMIF-air-quality-vector",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "service",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/gmif_air_pollution_stations/timeseries/{{feature}}.json",
+      "type": "application/json",
+      "id": "timeseries",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -218,7 +225,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "949a4710-e692-4a87-abef-33ac2eeedf62"
+        "62bebfd9-df6c-40d2-b5c4-b53c07f54a82"
       ]
     },
     {
@@ -231,7 +238,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "949a4710-e692-4a87-abef-33ac2eeedf62",
+      "key": "62bebfd9-df6c-40d2-b5c4-b53c07f54a82",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -241,7 +248,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ad6e2c77-e284-457b-9f18-06794c50e044"
+        "b42bbe2f-2ee3-47ed-a035-3041f34dfb38"
       ]
     },
     {
@@ -254,7 +261,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "ad6e2c77-e284-457b-9f18-06794c50e044",
+      "key": "b42bbe2f-2ee3-47ed-a035-3041f34dfb38",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -264,7 +271,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2f4a2ce2-aa06-447d-8846-2c676326570c"
+        "d151ad1d-47fc-4ef3-a0d2-a6c3a460d1da"
       ]
     },
     {
@@ -277,7 +284,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "2f4a2ce2-aa06-447d-8846-2c676326570c",
+      "key": "d151ad1d-47fc-4ef3-a0d2-a6c3a460d1da",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -287,7 +294,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fdaa6f62-d74d-4a41-8d76-e57b873b2058"
+        "573c3505-58a3-4196-b88d-226639ed5432"
       ]
     },
     {
@@ -300,7 +307,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "fdaa6f62-d74d-4a41-8d76-e57b873b2058",
+      "key": "573c3505-58a3-4196-b88d-226639ed5432",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -310,7 +317,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4f748e60-5c56-4443-9b8f-4acc5d5c500b"
+        "b4cf5ad6-928a-4e75-92c0-7025535012f4"
       ]
     },
     {
@@ -323,7 +330,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "4f748e60-5c56-4443-9b8f-4acc5d5c500b",
+      "key": "b4cf5ad6-928a-4e75-92c0-7025535012f4",
       "layers": [
         "water"
       ],
@@ -365,6 +372,8 @@
     "ESA"
   ],
   "collection_group": "Other",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/gmif_air_quality_station_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/gmif_air_quality_station_vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -372,21 +381,27 @@
       "in": "query"
     }
   },
-  "title": "GMif Air Quality",
+  "title": "GMif PM2.5",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -11.004997421269309,
+          41.004999999999995,
+          9.995002899174164,
+          61.00500034413024
         ],
         [
           -11.004997421269309,
           41.005000581502365,
           9.995002899174164,
           61.00500034413024
+        ],
+        [
+          -10.504999999999995,
+          41.004999999999995,
+          9.995000000000005,
+          61.004999999999995
         ],
         [
           -9.69792,
@@ -399,8 +414,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-11-22T00:00:00Z",
-          "2026-03-20T07:42:31.701384Z"
+          "2017-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
