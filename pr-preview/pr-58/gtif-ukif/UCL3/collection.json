@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bd0c49a6-84dc-4328-9c16-581f37195b19"
+        "7ddf1f21-23e2-4db8-bd7d-a592edd55d6f"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "bd0c49a6-84dc-4328-9c16-581f37195b19",
+      "key": "7ddf1f21-23e2-4db8-bd7d-a592edd55d6f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4a03b2ff-d8a7-4694-95e5-ea778d7d0f0e"
+        "302939a2-f8a6-4585-b92d-b0b8b9f3c67c"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "4a03b2ff-d8a7-4694-95e5-ea778d7d0f0e",
+      "key": "302939a2-f8a6-4585-b92d-b0b8b9f3c67c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "09f09205-5aec-4e45-adde-a50b0f4fd313"
+        "9ca258a4-4e76-4b44-ae9a-c74ab26a70fc"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "09f09205-5aec-4e45-adde-a50b0f4fd313",
+      "key": "9ca258a4-4e76-4b44-ae9a-c74ab26a70fc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ea83323f-dee3-4618-b93a-178a57437fcf"
+        "57ba07f6-0a4d-4efc-898d-27dda6001cf9"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "ea83323f-dee3-4618-b93a-178a57437fcf",
+      "key": "57ba07f6-0a4d-4efc-898d-27dda6001cf9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "96c1d767-2321-4fad-8e24-317d8d48969e"
+        "48427574-0550-4c14-b2c5-6a2a4129f7c6"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "96c1d767-2321-4fad-8e24-317d8d48969e",
+      "key": "48427574-0550-4c14-b2c5-6a2a4129f7c6",
       "layers": [
         "water"
       ],
@@ -358,7 +358,7 @@
     "tickFormat": ".0f",
     "title": "PM2.5 (µg/cu.m)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/air_quality_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {

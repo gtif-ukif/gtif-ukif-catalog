@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-Severe-GB",
+  "id": "EDA-methane-madrid",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\n Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "description": "Time series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3-Severe-GB/collection.json",
+      "href": "./EDA-methane-madrid/collection.json",
       "type": "application/json",
-      "title": "Severe Air Quality (SE GB)",
+      "title": "Madrid Spain",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL3-Severe-GB",
+      "id": "EDA-methane-madrid",
       "themes": [
-        "mobility-transition"
+        "carbon-accounting"
       ],
       "tags": [
-        "Air Quality"
+        "Methane Emissions Analysis"
       ],
       "agency": [
         "ESA"
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/statistics?assets=asset",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/statistics?assets=asset",
       "type": "application/json",
       "id": "veda_statistics",
       "method": "POST",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b0fa0503-2332-469a-88c2-9a9deb2f8807"
+        "45f0e9ab-b985-4a75-b3c5-9d98027fec3c"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "b0fa0503-2332-469a-88c2-9a9deb2f8807",
+      "key": "45f0e9ab-b985-4a75-b3c5-9d98027fec3c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "17675332-6dc3-4250-be13-ad0eb4cef2cf"
+        "13458ae3-6527-4b7a-82bb-f72263f7cb13"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "17675332-6dc3-4250-be13-ad0eb4cef2cf",
+      "key": "13458ae3-6527-4b7a-82bb-f72263f7cb13",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "61b46f33-9869-4198-9a2c-670110c6f175"
+        "365f0636-e090-447d-8a18-95edbe1e2a43"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "61b46f33-9869-4198-9a2c-670110c6f175",
+      "key": "365f0636-e090-447d-8a18-95edbe1e2a43",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9cdf0d47-940d-43c9-b40b-cb70973c0a5f"
+        "a5efecf2-2088-4f8c-8c27-df634a5b298b"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "9cdf0d47-940d-43c9-b40b-cb70973c0a5f",
+      "key": "a5efecf2-2088-4f8c-8c27-df634a5b298b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cb08fb1a-7735-4a81-840e-e150c84d9ee9"
+        "e411364e-4637-4ae2-bd8f-2fe34c32b4d1"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "cb08fb1a-7735-4a81-840e-e150c84d9ee9",
+      "key": "e411364e-4637-4ae2-bd8f-2fe34c32b4d1",
       "layers": [
         "water"
       ],
@@ -328,10 +328,10 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "mobility-transition"
+    "carbon-accounting"
   ],
   "tags": [
-    "Air Quality"
+    "Methane Emissions Analysis"
   ],
   "agency": [
     "ESA"
@@ -339,27 +339,27 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      30,
-      400
+      -0.1,
+      0.6
     ],
     "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
+    "tickFormat": ".2f",
+    "title": "Methane column enhancement (mol m-2)"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/air_quality_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -367,29 +367,29 @@
       "in": "query"
     }
   },
-  "title": "Severe Air Quality (SE GB)",
+  "title": "Madrid Spain",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -3.67,
+          40.229837822507584,
+          -3.6098378225075813,
+          40.29
         ],
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          -3.67,
+          40.229837822507584,
+          -3.6098378225075813,
+          40.29
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-01-09T00:00:00Z",
-          "2022-12-17T00:00:00Z"
+          "2023-01-06T00:00:00Z",
+          "2023-12-27T00:00:00Z"
         ]
       ]
     }
@@ -397,7 +397,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "mobility-transition"
+      "carbon-accounting"
     ]
   }
 }

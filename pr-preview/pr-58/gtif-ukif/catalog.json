@@ -12,6 +12,91 @@
     },
     {
       "rel": "child",
+      "href": "./EDA-methane-claire-oilfield/collection.json",
+      "type": "application/json",
+      "title": "Claire Oilfield",
+      "id": "EDA-methane-claire-oilfield",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-france/collection.json",
+      "type": "application/json",
+      "title": "France",
+      "id": "EDA-methane-france",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-korpezhe/collection.json",
+      "type": "application/json",
+      "title": "Korpezhe",
+      "id": "EDA-methane-korpezhe",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-madrid/collection.json",
+      "type": "application/json",
+      "title": "Madrid Spain",
+      "id": "EDA-methane-madrid",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-poland/collection.json",
+      "type": "application/json",
+      "title": "Poland",
+      "id": "EDA-methane-poland",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL3-SISR-DAILY/collection.json",
       "type": "application/json",
       "title": "SISR Daily Air Quality across UK-Ireland-France",

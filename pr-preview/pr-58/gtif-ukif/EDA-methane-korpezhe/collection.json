@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3-Severe-GB",
+  "id": "EDA-methane-korpezhe",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\n Severe air quality episodes SE GB when daily amount is >> 10µg/m3",
+  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of one large methane emission plume, and a non-plume that is caused by imperfect subtraction of the scenery between the two bands used. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3-Severe-GB/collection.json",
+      "href": "./EDA-methane-korpezhe/collection.json",
       "type": "application/json",
-      "title": "Severe Air Quality (SE GB)",
+      "title": "Korpezhe",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL3-Severe-GB",
+      "id": "EDA-methane-korpezhe",
       "themes": [
-        "mobility-transition"
+        "carbon-accounting"
       ],
       "tags": [
-        "Air Quality"
+        "Methane Emissions Analysis"
       ],
       "agency": [
         "ESA"
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-Severe-GB/statistics?assets=asset",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-korpezhe/statistics?assets=asset",
       "type": "application/json",
       "id": "veda_statistics",
       "method": "POST",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b0fa0503-2332-469a-88c2-9a9deb2f8807"
+        "e3da63f7-aebf-4c45-a7bc-d213b3c2e5ff"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "b0fa0503-2332-469a-88c2-9a9deb2f8807",
+      "key": "e3da63f7-aebf-4c45-a7bc-d213b3c2e5ff",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +213,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "17675332-6dc3-4250-be13-ad0eb4cef2cf"
+        "f373dbe6-acb5-4d17-be0f-64be585320e4"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "17675332-6dc3-4250-be13-ad0eb4cef2cf",
+      "key": "f373dbe6-acb5-4d17-be0f-64be585320e4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +236,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "61b46f33-9869-4198-9a2c-670110c6f175"
+        "43cc9bf0-1264-4b17-8493-2cffa84ff816"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "61b46f33-9869-4198-9a2c-670110c6f175",
+      "key": "43cc9bf0-1264-4b17-8493-2cffa84ff816",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9cdf0d47-940d-43c9-b40b-cb70973c0a5f"
+        "d4a341b5-ebbe-4090-b652-3a6d9f71ac4a"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "9cdf0d47-940d-43c9-b40b-cb70973c0a5f",
+      "key": "d4a341b5-ebbe-4090-b652-3a6d9f71ac4a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +282,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cb08fb1a-7735-4a81-840e-e150c84d9ee9"
+        "c24a69c3-1966-43ad-ba61-1a4bb0ef9112"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "cb08fb1a-7735-4a81-840e-e150c84d9ee9",
+      "key": "c24a69c3-1966-43ad-ba61-1a4bb0ef9112",
       "layers": [
         "water"
       ],
@@ -328,10 +328,10 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "mobility-transition"
+    "carbon-accounting"
   ],
   "tags": [
-    "Air Quality"
+    "Methane Emissions Analysis"
   ],
   "agency": [
     "ESA"
@@ -339,27 +339,27 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      30,
-      400
+      -2,
+      2
     ],
     "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "PM2.5 (µg/cu.m)"
+    "tickFormat": ".1f",
+    "title": "Methane column enhancement (mol m-2)"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/air_quality_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -367,29 +367,29 @@
       "in": "query"
     }
   },
-  "title": "Severe Air Quality (SE GB)",
+  "title": "Korpezhe",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          54.1777,
+          38.4738980252747,
+          54.2177019747253,
+          38.5139
         ],
         [
-          -11.004997421269309,
-          41.005000581502365,
-          9.995002899174164,
-          61.00500034413024
+          54.1777,
+          38.4738980252747,
+          54.2177019747253,
+          38.5139
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-01-09T00:00:00Z",
-          "2022-12-17T00:00:00Z"
+          "2019-02-24T00:00:00Z",
+          "2019-02-24T00:00:00Z"
         ]
       ]
     }
@@ -397,7 +397,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "mobility-transition"
+      "carbon-accounting"
     ]
   }
 }
