@@ -27,7 +27,7 @@
   ],
   "Process": {
     "Name": "VEDA Statistics",
-    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/air_quality_vega_definition.json",
     "EndPoints": [
       {
