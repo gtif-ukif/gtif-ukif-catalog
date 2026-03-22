@@ -1,6 +1,6 @@
 {
   "Name": "UCL3-GMIF-air-quality-raster",
-  "Title": "GMif PM2.5 Raster",
+  "Title": "GMif PM 2.5 Raster",
   "CollectionGroup": "Other",
   "Themes": [
     "mobility-transition"
@@ -14,7 +14,7 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
       "Type": "tiles",
-      "CollectionId": "UCL3-SISR-DAILY",
+      "CollectionId": "UCL3",
       "Bbox": [
         -9.69792,
         41.92469,
