@@ -12,6 +12,19 @@
   "Agency": [
     "ESA"
   ],
+  "Process": {
+    "Name": "Station Time Series",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/gmif_air_quality_station_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/gmif_air_quality_station_vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/gmif_air_pollution_stations/timeseries/{{feature.properties.station_slug}}.json",
+        "Type": "application/json",
+        "Method": "GET"
+      }
+    ]
+  },
   "Collections": [
     "UCL3-GMIF-air-quality-raster",
     "UCL3-SISR-DAILY",
