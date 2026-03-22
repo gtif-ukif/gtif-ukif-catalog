@@ -28,7 +28,7 @@
     "EndPoints": [
       {
         "Identifier": "veda_statistics",
-        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
+        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-SISR-DAILY/statistics?assets=asset",
         "Method": "POST",
         "EndPoint": "veda_stac",
         "Type": "application/json"
