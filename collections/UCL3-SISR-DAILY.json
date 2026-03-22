@@ -23,12 +23,12 @@
   ],
   "Process": {
     "Name": "VEDA Statistics",
-    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/update_bbox_style/defaults/veda_bbox_yellow_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_air_quality_vega_definition/defaults/air_quality_vega_definition.json",
     "EndPoints": [
       {
         "Identifier": "veda_statistics",
-        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3-SISR-DAILY/statistics?assets=asset",
+        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
         "Method": "POST",
         "EndPoint": "veda_stac",
         "Type": "application/json"
