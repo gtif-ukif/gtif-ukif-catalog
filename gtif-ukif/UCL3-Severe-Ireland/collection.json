@@ -175,144 +175,24 @@
       }
     },
     {
-      "rel": "xyz",
-      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
-      "title": "Place names",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "overlay_bright"
-    },
-    {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a10eee22-f732-4956-8fa1-4aa41832e48b"
+        "3fb2aeec-a8cc-4761-a6b4-797decf28409"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "Solar Panels © UCL/Oxford 2025",
+      "title": "Land Water Mask",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
-      "id": "SolarPanels",
-      "key": "a10eee22-f732-4956-8fa1-4aa41832e48b",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "d3302c10-9c31-4304-93fa-9e6dbd7a3649"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Site of Special Scientific Interest",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SSSI",
-      "key": "d3302c10-9c31-4304-93fa-9e6dbd7a3649",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "b886ec6c-b420-4a63-8c49-2be5778b48f8"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "National Parks",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "NationalParks",
-      "key": "b886ec6c-b420-4a63-8c49-2be5778b48f8",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "a5261e4c-3521-47be-87a2-3ccbda5742f0"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Natural Landscapes",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "AONB",
-      "key": "a5261e4c-3521-47be-87a2-3ccbda5742f0",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "3a74d1f5-abf4-4e99-8d38-0dd18b518cfc"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Water Mask",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "MapboxWaterMask",
-      "key": "3a74d1f5-abf4-4e99-8d38-0dd18b518cfc",
-      "layers": [
-        "water"
-      ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "mapbox-style-document",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "type": "application/json",
-      "title": "Open Infrastructure Map",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "Openinframap",
+      "id": "LWM",
+      "key": "3fb2aeec-a8cc-4761-a6b4-797decf28409",
       "auth:refs": [
         "mapboxauth"
       ]
