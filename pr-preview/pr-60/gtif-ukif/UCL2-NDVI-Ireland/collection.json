@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL3_SISR_daily_PM25",
+  "id": "UCL2-NDVI-Ireland",
   "stac_version": "1.1.0",
-  "description": "UCL3 SISR Daily PM2.5 provides the standalone daily raster exploration workflow for the UK-Ireland-France area, including bbox-based statistics and charting.",
+  "description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3-SISR-DAILY/collection.json",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
       "type": "application/json",
-      "title": "SISR Daily Air Quality across UK-Ireland-France",
+      "title": "NDVI (Ireland)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL3-SISR-DAILY",
+      "id": "UCL2-NDVI-Ireland",
       "themes": [
-        "mobility-transition"
+        "food-security"
       ],
       "tags": [
-        "Air Quality"
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -167,24 +167,144 @@
       }
     },
     {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e5297a1e-7844-4e8a-a04e-f4241fb5bd74"
+        "f4fb6560-8cb7-4036-bc0f-c8839697de50"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "Land Water Mask",
+      "title": "Solar Panels © UCL/Oxford 2025",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
-      "id": "LWM",
-      "key": "e5297a1e-7844-4e8a-a04e-f4241fb5bd74",
+      "id": "SolarPanels",
+      "key": "f4fb6560-8cb7-4036-bc0f-c8839697de50",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "6a4d35ac-eabc-4be8-80cd-a7adc312a23a"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Site of Special Scientific Interest",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SSSI",
+      "key": "6a4d35ac-eabc-4be8-80cd-a7adc312a23a",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "3cb3f57c-3f88-4543-9a95-7df28130c348"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "National Parks",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "NationalParks",
+      "key": "3cb3f57c-3f88-4543-9a95-7df28130c348",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "1d88cd4a-2ba6-45b6-9574-68f9bd3fda71"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Natural Landscapes",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "AONB",
+      "key": "1d88cd4a-2ba6-45b6-9574-68f9bd3fda71",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "c297eed8-5a0c-4fa5-b81a-7ebfa7068e0a"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Water Mask",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "MapboxWaterMask",
+      "key": "c297eed8-5a0c-4fa5-b81a-7ebfa7068e0a",
+      "layers": [
+        "water"
+      ],
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "mapbox-style-document",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "type": "application/json",
+      "title": "Open Infrastructure Map",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "Openinframap",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -200,15 +320,36 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "mobility-transition"
+    "food-security"
   ],
   "tags": [
-    "Air Quality"
+    "Drought Analysis/Forecast"
   ],
   "agency": [
     "ESA"
   ],
   "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0.1,
+      1.0
+    ],
+    "range": [
+      "#ebe2ad",
+      "#dac966",
+      "#b6b626",
+      "#89a500",
+      "#5c9300",
+      "#287e1e",
+      "#006a2b",
+      "#00542f",
+      "#003f2c",
+      "#072421"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "NDVI"
+  },
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -216,29 +357,29 @@
       "in": "query"
     }
   },
-  "title": "UCL3 SISR Daily PM2.5",
+  "title": "NDVI (Ireland)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -10.504999999999995,
-          41.004999999999995,
-          9.995000000000005,
-          61.004999999999995
+          -11.104591164873993,
+          51.095293192897806,
+          -5.097344144376162,
+          55.60473592572955
         ],
         [
-          -10.504999999999995,
-          41.004999999999995,
-          9.995000000000005,
-          61.004999999999995
+          -11.104591164873993,
+          51.095293192897806,
+          -5.097344144376162,
+          55.60473592572955
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2017-01-01T00:00:00Z",
-          "2022-12-31T00:00:00Z"
+          "2020-04-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
         ]
       ]
     }
@@ -246,7 +387,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "mobility-transition"
+      "food-security"
     ]
   }
 }
