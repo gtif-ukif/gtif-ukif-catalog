@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu_r&nodata=0&rescale=-1,1",
       "type": "image/png",
       "title": "UHI Mean 2022-2024",
-      "key": "8c08baa8-7223-4e42-bae9-b1c9cc2ff54d"
+      "key": "c717a932-c931-44ff-86eb-0d8a1e762c8e"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "UHI Mean 2022-2024"
+      "title": "Tree Cover and UHI"
     }
   ],
   "themes": [
