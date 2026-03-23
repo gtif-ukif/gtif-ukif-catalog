@@ -1,0 +1,45 @@
+{
+  "Name": "COMP_treecover_lcm",
+  "Title": "Tree Cover & Built-up (LCM)",
+  "CollectionGroup": "Land Cover",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Tags": [
+    "Land Cover"
+  ],
+  "Description": "CORINE LCM polygons filtered to show only Tree Cover (broad-leaved, coniferous, mixed forest) and Built-up (continuous and discontinuous urban fabric) classes for UHI comparison.",
+  "Resources": [
+    {
+      "Name": "VectorTile source",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP_treecover/style_treecover_builtup.json",
+      "Bbox": [
+        -0.612126,
+        51.333132,
+        0.426082,
+        51.699321
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Url": "https://a.tiles.mapbox.com/v4/service-swe.aafaz3pl/{z}/{x}/{y}.vector.pbf"
+        }
+      ]
+    }
+  ],
+  "Colorlegend": {
+    "title": "Land Cover",
+    "range": [
+      "rgb(0, 128, 0)",
+      "rgb(220, 80, 40)"
+    ],
+    "domain": [
+      "Tree cover",
+      "Built-up"
+    ],
+    "scaleType": "categorical"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}
