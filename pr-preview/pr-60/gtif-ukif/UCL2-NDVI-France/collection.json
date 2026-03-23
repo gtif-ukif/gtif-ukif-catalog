@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL2-NDVI-GB",
+  "id": "UCL2-NDVI-France",
   "stac_version": "1.1.0",
   "description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-NDVI-GB/collection.json",
+      "href": "./UCL2-NDVI-France/collection.json",
       "type": "application/json",
-      "title": "NDVI (GB)",
+      "title": "NDVI (France)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-GB",
+      "id": "UCL2-NDVI-France",
       "themes": [
         "food-security"
       ],
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f29adc20-c9da-41aa-922c-4bad85bd2bd1"
+        "8ed29db5-67bf-4dcf-8bf1-0a9a305cf598"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "f29adc20-c9da-41aa-922c-4bad85bd2bd1",
+      "key": "8ed29db5-67bf-4dcf-8bf1-0a9a305cf598",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9dae2cad-9107-413d-bb08-ce6eb6a9c7ac"
+        "0a4521b0-5504-4e4f-a42d-e4f57fa08fb2"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "9dae2cad-9107-413d-bb08-ce6eb6a9c7ac",
+      "key": "0a4521b0-5504-4e4f-a42d-e4f57fa08fb2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -228,7 +228,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ccfd1445-6578-4bfd-a823-2685366825d7"
+        "8b8dd108-9e53-4e7f-afdc-4a8ff3bc8b16"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "ccfd1445-6578-4bfd-a823-2685366825d7",
+      "key": "8b8dd108-9e53-4e7f-afdc-4a8ff3bc8b16",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -251,7 +251,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "75f99e75-f3b2-4e9d-a10e-215b2bd0dd42"
+        "57c35265-0060-45a0-9082-393dc4632ade"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "75f99e75-f3b2-4e9d-a10e-215b2bd0dd42",
+      "key": "57c35265-0060-45a0-9082-393dc4632ade",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -274,7 +274,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4772fe7e-2756-46d1-8cd7-0492db9a86a2"
+        "d33172b8-ccd0-46cc-8055-48182444e7f0"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "4772fe7e-2756-46d1-8cd7-0492db9a86a2",
+      "key": "d33172b8-ccd0-46cc-8055-48182444e7f0",
       "layers": [
         "water"
       ],
@@ -357,7 +357,7 @@
       "in": "query"
     }
   },
-  "title": "NDVI (GB)",
+  "title": "NDVI (France)",
   "extent": {
     "spatial": {
       "bbox": [

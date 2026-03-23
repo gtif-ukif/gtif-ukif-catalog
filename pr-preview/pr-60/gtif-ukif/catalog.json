@@ -12,10 +12,10 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-NDVI-GB/collection.json",
+      "href": "./UCL2-NDVI-France/collection.json",
       "type": "application/json",
-      "title": "NDVI (GB)",
-      "id": "UCL2-NDVI-GB",
+      "title": "NDVI (France)",
+      "id": "UCL2-NDVI-France",
       "themes": [
         "food-security"
       ],

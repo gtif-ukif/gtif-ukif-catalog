@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL2-NDVI-GB",
+  "id": "UCL2-NDVI-France",
   "stac_version": "1.1.0",
   "description": "NDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
   "links": [
@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-NDVI-France-Overviews/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rplumbo&rescale=-0.9,0.975",
       "type": "image/png",
-      "title": "NDVI (GB)",
-      "key": "995f7935-2d1d-4f72-840d-375f91fb68bb"
+      "title": "NDVI (France)",
+      "key": "be8273a1-a4c8-4d0d-aa5f-237f21bd784e"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "NDVI (GB)"
+      "title": "NDVI (France)"
     }
   ],
   "themes": [
@@ -56,7 +56,7 @@
     "title": "NDVI"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "NDVI (GB)",
+  "title": "NDVI (France)",
   "extent": {
     "spatial": {
       "bbox": [
