@@ -47,6 +47,14 @@
       "collection_group": "Urban Heat Island"
     },
     {
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/statistics?assets=asset&histogram_bins=16&ids=UHI_UKIEFR_MEAN_2022_2024_cog",
+      "type": "application/json",
+      "id": "comp2_histogram",
+      "method": "POST",
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP2/comp2_lcm_histogram_body.json"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -242,6 +250,8 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP2/comp2_lcm_histogram_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP2/comp2_lcm_histogram_vega.json",
   "title": "Urban Classes and UHI",
   "extent": {
     "spatial": {
