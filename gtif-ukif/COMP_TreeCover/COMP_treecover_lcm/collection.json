@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "COMP_treecover_lcm",
   "stac_version": "1.1.0",
-  "description": "CORINE LCM polygons filtered to show only Tree Cover (broad-leaved, coniferous, mixed forest) and Built-up (continuous and discontinuous urban fabric) classes for UHI comparison.",
+  "description": "ESA WorldCover polygons showing Tree Cover (DN=10) and Built-up (DN=50) classes for UHI comparison.",
   "links": [
     {
       "rel": "root",
