@@ -8,7 +8,7 @@
   "Tags": [
     "Land Cover"
   ],
-  "Description": "CORINE LCM polygons filtered to show only Tree Cover (broad-leaved, coniferous, mixed forest) and Built-up (continuous and discontinuous urban fabric) classes for UHI comparison.",
+  "Description": "ESA WorldCover polygons showing Tree Cover (DN=10) and Built-up (DN=50) classes for UHI comparison.",
   "Resources": [
     {
       "Name": "VectorTile source",
@@ -22,7 +22,7 @@
       "TimeEntries": [
         {
           "Time": "20230101",
-          "Url": "https://a.tiles.mapbox.com/v4/service-swe.aafaz3pl/{z}/{x}/{y}.vector.pbf"
+          "Url": "https://a.tiles.mapbox.com/v4/service-swe.8hxy55ne/{z}/{x}/{y}.vector.pbf"
         }
       ]
     }
