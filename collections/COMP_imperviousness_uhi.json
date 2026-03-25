@@ -1,0 +1,26 @@
+{
+  "Name": "COMP_Imperviousness_UHI",
+  "Title": "Imperviousness and UHI (2-band)",
+  "Description": "Two-band raster combining Imperviousness (band 1, 0–100%) and Urban Heat Island mean intensity (band 2, °C) for statistical analysis. Used internally by the Imperviousness and UHI indicator for histogram generation.",
+  "Themes": [
+    "sustainable-cities"
+  ],
+  "Tags": [
+    "Land Cover"
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "CollectionGroup": "Land Cover",
+  "Resources": [
+    {
+      "Name": "VEDA",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Type": "tiles",
+      "CollectionId": "COMP-Imperviousness-UHI",
+      "Assets": [
+        "asset"
+      ]
+    }
+  ]
+}
