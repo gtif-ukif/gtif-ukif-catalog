@@ -47,6 +47,14 @@
       "collection_group": "Urban Heat Island"
     },
     {
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/statistics?assets=asset&histogram_bins=16&ids=UHI_UKIEFR_MEAN_2022_2024_cog",
+      "type": "application/json",
+      "id": "comp1_histogram",
+      "method": "POST",
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_body.json"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -262,6 +270,8 @@
     "ESA"
   ],
   "collection_group": "Building Efficiency Ratings",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_vega.json",
   "eodash:merge_assets": false,
   "title": "BER and UHI - Traffic Light Map",
   "extent": {
