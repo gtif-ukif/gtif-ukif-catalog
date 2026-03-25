@@ -11,6 +11,23 @@
       "title": "GTIF UKIF Catalog"
     },
     {
+      "rel": "child",
+      "href": "./COMP_Imperviousness_UHI/collection.json",
+      "type": "application/json",
+      "title": "Imperviousness and UHI (2-band)",
+      "id": "COMP_Imperviousness_UHI",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Cover"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Cover"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"
