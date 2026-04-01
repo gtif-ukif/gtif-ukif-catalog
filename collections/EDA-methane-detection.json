@@ -1,0 +1,62 @@
+{
+  "Name": "EDA-methane-detection",
+  "Title": "Methane Detection (Sentinel-2)",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "On-demand methane detection from Sentinel-2 imagery. Draw an area of interest, set a time range, and run the process to detect methane column enhancements. Results show a time-series of methane enhancement heatmaps with statistical summaries.",
+  "Resources": [],
+  "Process": {
+    "Name": "methane_indicator",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-methane-process/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/body.json",
+        "Type": "image/tiff",
+        "Flatstyle": [
+          {
+            "Identifier": "timeseries",
+            "Url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/timeseries_style.json"
+          },
+          {
+            "Identifier": "sentinel_l2a_visible_timeseries",
+            "Url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/sentinel_b11_style.json"
+          }
+        ]
+      }
+    ]
+  },
+  "Colorlegend": {
+    "domain": [
+      -2,
+      2
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}
