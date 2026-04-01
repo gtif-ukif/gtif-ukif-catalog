@@ -1,0 +1,100 @@
+{
+  "type": "Collection",
+  "id": "UCL4-HRVPP-TPROD-S1",
+  "stac_version": "1.1.0",
+  "description": "Total Productivity (TPROD) is a vegetation phenology parameter derived from the Copernicus HR-VPP (High Resolution Vegetation Phenology and Productivity) product at 10m resolution. TPROD represents the growing season integral, computed as the sum of all daily Plant Phenology Index values between the start and end of the season. Data is available annually from 2017 to present.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://phenology.vgt.vito.be/wmts",
+      "type": "image/png",
+      "title": "Total Productivity Season 1 (HRVPP)",
+      "wmts:layer": "CLMS_HRVPP_VPP_TPROD_SEASON1_10M",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "style": "default",
+        "matrixSet": "EPSG:3857"
+      },
+      "key": "361018d1-cf8a-488f-8d57-b15aa45d5b82"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power",
+    "Vegetation Productivity"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      660
+    ],
+    "range": [
+      "#FFFFE5",
+      "#FFF7BC",
+      "#FEE391",
+      "#FEC44F",
+      "#FE9929",
+      "#EC7014",
+      "#CC4C02",
+      "#993404",
+      "#662506"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "TPROD"
+  },
+  "proj:epsg": 3857,
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Total Productivity Season 1 (HRVPP)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11,
+          49,
+          3,
+          61
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2024-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
