@@ -12,6 +12,114 @@
     },
     {
       "rel": "child",
+      "href": "./UCL1-COP30-Aspect/collection.json",
+      "type": "application/json",
+      "title": "COP30 Aspect",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-COP30-Aspect",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-COP30-Slope/collection.json",
+      "type": "application/json",
+      "title": "COP30 Slope",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-COP30-Slope",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-COP30-Shd/collection.json",
+      "type": "application/json",
+      "title": "COP30 Shd",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-COP30-Shd",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-Ireland/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-France/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-France",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-GB/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer GB",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-GB",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL1-France/collection.json",
       "type": "application/json",
       "title": "Photovoltaic Output France",
@@ -53,60 +161,6 @@
       "title": "Photovoltaic Output Ireland",
       "endpointtype": "VEDA_tiles",
       "id": "UCL1-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-GB/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer GB",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-GB",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-COP30-Slope/collection.json",
-      "type": "application/json",
-      "title": "COP30 Slope",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Slope",
       "themes": [
         "energy-transition"
       ],
@@ -261,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "28474310-cc83-48e1-9f93-90c693fc3ea0"
+        "8c387853-9e8c-445b-a9ea-c2df123a87d6"
       ]
     },
     {
@@ -274,7 +328,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "28474310-cc83-48e1-9f93-90c693fc3ea0",
+      "key": "8c387853-9e8c-445b-a9ea-c2df123a87d6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -311,10 +365,40 @@
     "spatial": {
       "bbox": [
         [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
           -21.923451993591076,
           39.90272381327664,
           10.000491103609367,
           63.474630050521746
+        ],
+        [
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
+        ],
+        [
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
+        ],
+        [
+          -11.104591164807998,
+          51.09529319289348,
+          -5.097344144310739,
+          55.604735925728136
+        ],
+        [
+          -9.419263296773103,
+          48.781349973035624,
+          3.1707659683262213,
+          60.879568085857684
         ],
         [
           -6.0,
@@ -333,24 +417,6 @@
           51.0,
           -5.0,
           56.0
-        ],
-        [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
-        ],
-        [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
-        ],
-        [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
         ]
       ]
     },
@@ -358,7 +424,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2025-04-24T00:00:00Z"
+          "2026-04-02T06:00:09.723101Z"
         ]
       ]
     }
