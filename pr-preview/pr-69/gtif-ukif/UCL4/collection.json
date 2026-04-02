@@ -418,7 +418,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "695ba1a0-3498-4fe5-9aa3-12dbfc3dd07e"
+        "26febc07-35d6-4181-a1a0-d3f9ecb3bffc"
       ]
     },
     {
@@ -431,7 +431,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "695ba1a0-3498-4fe5-9aa3-12dbfc3dd07e",
+      "key": "26febc07-35d6-4181-a1a0-d3f9ecb3bffc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -441,7 +441,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7831c88c-495a-4ba6-abf0-253200519154"
+        "a2d5e763-bdf9-4468-a9b2-06c58918d14b"
       ]
     },
     {
@@ -454,7 +454,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "7831c88c-495a-4ba6-abf0-253200519154",
+      "key": "a2d5e763-bdf9-4468-a9b2-06c58918d14b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -464,7 +464,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bd66cf0e-c1f9-4fb4-bf5c-f306f14d4620"
+        "a5e2626a-e5b4-4e25-97fa-57d2518ea44c"
       ]
     },
     {
@@ -477,7 +477,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "bd66cf0e-c1f9-4fb4-bf5c-f306f14d4620",
+      "key": "a5e2626a-e5b4-4e25-97fa-57d2518ea44c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -487,7 +487,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8cc3962b-743b-4951-a4ea-185f9baf0b6f"
+        "848b1e99-0384-4544-9390-9e92f6d4f459"
       ]
     },
     {
@@ -500,7 +500,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "8cc3962b-743b-4951-a4ea-185f9baf0b6f",
+      "key": "848b1e99-0384-4544-9390-9e92f6d4f459",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -510,7 +510,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "177b49f7-3e43-40dd-899e-96f2f3eaabc9"
+        "1e34e721-98b4-43ea-937c-f68a586ab178"
       ]
     },
     {
@@ -523,7 +523,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "177b49f7-3e43-40dd-899e-96f2f3eaabc9",
+      "key": "1e34e721-98b4-43ea-937c-f68a586ab178",
       "layers": [
         "water"
       ],
@@ -654,7 +654,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1e8c8bc7-0ca5-40a9-9db0-595cd6a12ef2"
+        "340a156c-0c07-410d-964d-40946b72cc59"
       ]
     },
     {
@@ -667,7 +667,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "1e8c8bc7-0ca5-40a9-9db0-595cd6a12ef2",
+      "key": "340a156c-0c07-410d-964d-40946b72cc59",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -677,7 +677,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6c6b37b7-40ad-4318-9093-11ce05914ac3"
+        "64329c3f-065b-430f-8fb2-880edf6a278b"
       ]
     },
     {
@@ -690,7 +690,7 @@
         "invisible"
       ],
       "id": "franceARTD",
-      "key": "6c6b37b7-40ad-4318-9093-11ce05914ac3",
+      "key": "64329c3f-065b-430f-8fb2-880edf6a278b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -813,7 +813,7 @@
       "interval": [
         [
           "2017-01-01T00:00:00Z",
-          "2026-04-02T00:42:43.975413Z"
+          "2026-04-02T00:50:24.364022Z"
         ]
       ]
     }

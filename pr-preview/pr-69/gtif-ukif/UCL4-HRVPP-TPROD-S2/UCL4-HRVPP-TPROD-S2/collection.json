@@ -23,7 +23,7 @@
         "style": "default",
         "matrixSet": "EPSG:3857"
       },
-      "key": "34bef1e8-22a8-4eb4-b1d1-22f9ad359a8e"
+      "key": "dd20e725-6890-46c9-a173-2273504badd8"
     },
     {
       "rel": "parent",
@@ -46,18 +46,19 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      660
+      300
     ],
     "range": [
-      "#FFFFE5",
-      "#FFF7BC",
-      "#FEE391",
-      "#FEC44F",
-      "#FE9929",
-      "#EC7014",
-      "#CC4C02",
-      "#993404",
-      "#662506"
+      "#730000",
+      "#A57300",
+      "#FFA500",
+      "#FFBEB9",
+      "#FFEBB9",
+      "#E6FFC3",
+      "#A0FF6E",
+      "#73A505",
+      "#146E8C",
+      "#0A2D7D"
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
