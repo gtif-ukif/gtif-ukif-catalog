@@ -158,63 +158,9 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-France/collection.json",
-      "type": "application/json",
-      "title": "PVout France",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-France",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-UK/collection.json",
-      "type": "application/json",
-      "title": "PVout UK",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-UK",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-Ireland/collection.json",
-      "type": "application/json",
-      "title": "PVout Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL4-France/collection.json",
       "type": "application/json",
-      "title": "bfPVout+ France",
+      "title": "Photovoltaic Output France",
       "endpointtype": "VEDA_tiles",
       "id": "UCL4-France",
       "themes": [
@@ -232,7 +178,7 @@
       "rel": "child",
       "href": "./UCL4-UK/collection.json",
       "type": "application/json",
-      "title": "bfPVout+ UK",
+      "title": "Photovoltaic Output UK",
       "endpointtype": "VEDA_tiles",
       "id": "UCL4-UK",
       "themes": [
@@ -250,9 +196,63 @@
       "rel": "child",
       "href": "./UCL4-Ireland/collection.json",
       "type": "application/json",
-      "title": "bfPVout+ Ireland",
+      "title": "Photovoltaic Output Ireland",
       "endpointtype": "VEDA_tiles",
       "id": "UCL4-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-France-bfPVout/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-France-bfPVout",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-GB-bfPVout/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ GB",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-GB-bfPVout",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-Ireland-bfPVout/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-Ireland-bfPVout",
       "themes": [
         "energy-transition"
       ],
@@ -418,7 +418,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "26febc07-35d6-4181-a1a0-d3f9ecb3bffc"
+        "8e06f0a5-80e2-456f-afc5-c98229c41e82"
       ]
     },
     {
@@ -431,7 +431,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "26febc07-35d6-4181-a1a0-d3f9ecb3bffc",
+      "key": "8e06f0a5-80e2-456f-afc5-c98229c41e82",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -441,7 +441,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a2d5e763-bdf9-4468-a9b2-06c58918d14b"
+        "237b16fc-929c-41cb-822d-29ea78336403"
       ]
     },
     {
@@ -454,7 +454,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "a2d5e763-bdf9-4468-a9b2-06c58918d14b",
+      "key": "237b16fc-929c-41cb-822d-29ea78336403",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -464,7 +464,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a5e2626a-e5b4-4e25-97fa-57d2518ea44c"
+        "11632076-0863-4ad2-bbfa-5384173d02b9"
       ]
     },
     {
@@ -477,7 +477,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "a5e2626a-e5b4-4e25-97fa-57d2518ea44c",
+      "key": "11632076-0863-4ad2-bbfa-5384173d02b9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -487,7 +487,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "848b1e99-0384-4544-9390-9e92f6d4f459"
+        "0b28d090-94ca-4f34-9aba-543b4c42aa88"
       ]
     },
     {
@@ -500,7 +500,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "848b1e99-0384-4544-9390-9e92f6d4f459",
+      "key": "0b28d090-94ca-4f34-9aba-543b4c42aa88",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -510,7 +510,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1e34e721-98b4-43ea-937c-f68a586ab178"
+        "6117adab-5c8f-4591-bb74-dd1a52dd405c"
       ]
     },
     {
@@ -523,7 +523,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "1e34e721-98b4-43ea-937c-f68a586ab178",
+      "key": "6117adab-5c8f-4591-bb74-dd1a52dd405c",
       "layers": [
         "water"
       ],
@@ -654,7 +654,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "340a156c-0c07-410d-964d-40946b72cc59"
+        "a5518920-49aa-4d04-b595-fe2d526d404d"
       ]
     },
     {
@@ -667,7 +667,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "340a156c-0c07-410d-964d-40946b72cc59",
+      "key": "a5518920-49aa-4d04-b595-fe2d526d404d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -677,7 +677,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "64329c3f-065b-430f-8fb2-880edf6a278b"
+        "aad7a20d-eba9-4096-9496-eb3641fe8d7b"
       ]
     },
     {
@@ -690,7 +690,7 @@
         "invisible"
       ],
       "id": "franceARTD",
-      "key": "64329c3f-065b-430f-8fb2-880edf6a278b",
+      "key": "aad7a20d-eba9-4096-9496-eb3641fe8d7b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -790,22 +790,22 @@
           56.0
         ],
         [
-          -6.0,
-          41.0,
-          10.0,
-          52.0
+          -5.72445999562336,
+          40.463816771195944,
+          9.567154759937422,
+          51.32735171093607
         ],
         [
-          -9.0,
-          49.0,
-          2.0,
-          61.0
+          -11.68981459013062,
+          48.367778967612495,
+          2.6794151966213824,
+          61.09498464485176
         ],
         [
-          -11.0,
-          51.0,
-          -5.0,
-          56.0
+          -13.084621137382557,
+          50.29563860693716,
+          -3.6496924102342585,
+          56.42941278951695
         ]
       ]
     },
@@ -813,7 +813,7 @@
       "interval": [
         [
           "2017-01-01T00:00:00Z",
-          "2026-04-02T00:50:24.364022Z"
+          "2026-04-02T05:43:10.830239Z"
         ]
       ]
     }
