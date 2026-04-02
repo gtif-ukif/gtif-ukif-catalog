@@ -1,0 +1,56 @@
+{
+  "Name": "UCL4-HRVPP-TPROD-S2",
+  "Title": "Total Productivity Season 2 (HRVPP)",
+  "CollectionGroup": "Other",
+  "Description": "Total Productivity (TPROD) Season 2 is a vegetation phenology parameter derived from the Copernicus HR-VPP (High Resolution Vegetation Phenology and Productivity) product at 10m resolution. TPROD represents the growing season integral for the secondary growing season, computed as the sum of all daily Plant Phenology Index values between the start and end of the season. Data is available annually from 2017 to present.",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power",
+    "Vegetation Productivity"
+  ],
+  "Resources": [
+    {
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "EndPoint": "https://phenology.vgt.vito.be/wmts",
+      "LayerId": "CLMS_HRVPP_VPP_TPROD_SEASON2_10M",
+      "Version": "1.0.0",
+      "Query": {
+        "Start": "2017-01-01T00:00:00Z",
+        "End": "2025-01-01T00:00:00Z"
+      },
+      "Dimensions": {
+        "style": "default",
+        "matrixSet": "EPSG:3857"
+      },
+      "DataProjection": 3857,
+      "OverwriteBBox": [-11, 49, 3, 61]
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      300
+    ],
+    "range": [
+      "#730000",
+      "#A57300",
+      "#FFA500",
+      "#FFBEB9",
+      "#FFEBB9",
+      "#E6FFC3",
+      "#A0FF6E",
+      "#73A505",
+      "#146E8C",
+      "#0A2D7D"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "TPROD"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}

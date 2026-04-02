@@ -1,0 +1,52 @@
+{
+  "Name": "UCL4-GB-bfPVout",
+  "Title": "bfPVout+ GB",
+  "CollectionGroup": "Other",
+  "Description": "",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Resources": [
+    {
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Name": "VEDA",
+      "Type": "tiles",
+      "CollectionId": "UCL4-GB-bfPVout",
+      "ColormapName": "jet",
+      "Rescale": [
+        0,
+        0.11
+      ],
+      "Assets": [
+        "asset"
+      ]
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      0.11
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".2f",
+    "title": "bfPVout+"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}
