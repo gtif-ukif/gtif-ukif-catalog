@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=400,1500",
       "type": "image/png",
-      "title": "Photovoltaic Output France",
-      "key": "a7d8147a-2540-480b-8d18-227d26298a66"
+      "title": "PVout France",
+      "key": "050ca295-6276-4dde-b13f-02706644ad4f"
     },
     {
       "rel": "parent",
@@ -56,7 +56,7 @@
     "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Photovoltaic Output France",
+  "title": "PVout France",
   "extent": {
     "spatial": {
       "bbox": [

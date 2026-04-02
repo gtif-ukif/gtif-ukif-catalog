@@ -48,6 +48,57 @@
     },
     {
       "rel": "child",
+      "href": "./UCL1-France/collection.json",
+      "type": "application/json",
+      "title": "PVout France",
+      "id": "UCL1-France",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-Ireland/collection.json",
+      "type": "application/json",
+      "title": "PVout Ireland",
+      "id": "UCL1-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-UK/collection.json",
+      "type": "application/json",
+      "title": "PVout UK",
+      "id": "UCL1-UK",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL3-GMIF-air-quality-raster/collection.json",
       "type": "application/json",
       "title": "MODIS_1km_PM2.5",
@@ -74,6 +125,57 @@
       ],
       "tags": [
         "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-France/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ France",
+      "id": "UCL4-France",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-Ireland/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ Ireland",
+      "id": "UCL4-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-UK/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ UK",
+      "id": "UCL4-UK",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
       ],
       "agency": [
         "ESA"

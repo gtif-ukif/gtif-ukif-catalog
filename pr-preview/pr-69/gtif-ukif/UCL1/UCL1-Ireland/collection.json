@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=400,1400",
       "type": "image/png",
-      "title": "Photovoltaic Output Ireland",
-      "key": "b059c054-ff42-422f-8fe9-be5edc44c68c"
+      "title": "PVout Ireland",
+      "key": "9c7fb8cc-5429-4c5c-8dd5-b9bd6d2d2cef"
     },
     {
       "rel": "parent",
@@ -56,7 +56,7 @@
     "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Photovoltaic Output Ireland",
+  "title": "PVout Ireland",
   "extent": {
     "spatial": {
       "bbox": [

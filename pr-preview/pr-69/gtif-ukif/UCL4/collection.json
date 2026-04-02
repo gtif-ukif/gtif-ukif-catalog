@@ -12,16 +12,17 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-France/collection.json",
+      "href": "./UCL4-HRVPP-TPROD-S1/collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output France",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-France",
+      "title": "Total Productivity Season 1 (HRVPP)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "UCL4-HRVPP-TPROD-S1",
       "themes": [
         "energy-transition"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Solar Rural Power",
+        "Vegetation Productivity"
       ],
       "agency": [
         "ESA"
@@ -30,16 +31,17 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-UK/collection.json",
+      "href": "./UCL4-HRVPP-TPROD-S2/collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output UK",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-UK",
+      "title": "Total Productivity Season 2 (HRVPP)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "UCL4-HRVPP-TPROD-S2",
       "themes": [
         "energy-transition"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Solar Rural Power",
+        "Vegetation Productivity"
       ],
       "agency": [
         "ESA"
@@ -48,137 +50,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-Ireland/collection.json",
+      "href": "./UCL1-COP30-Aspect/collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output Ireland",
+      "title": "COP30 Aspect",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL4-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-France/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output France",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-France",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-UK/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output UK",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-UK",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-Ireland/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-GB/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer GB",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-GB",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-France/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer France",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-France",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-COP30-Shd/collection.json",
-      "type": "application/json",
-      "title": "COP30 Shd",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Shd",
+      "id": "UCL1-COP30-Aspect",
       "themes": [
         "energy-transition"
       ],
@@ -210,11 +86,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-COP30-Aspect/collection.json",
+      "href": "./UCL1-COP30-Shd/collection.json",
       "type": "application/json",
-      "title": "COP30 Aspect",
+      "title": "COP30 Shd",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Aspect",
+      "id": "UCL1-COP30-Shd",
       "themes": [
         "energy-transition"
       ],
@@ -228,17 +104,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-HRVPP-TPROD-S1/collection.json",
+      "href": "./UCL1-albedo-Ireland/collection.json",
       "type": "application/json",
-      "title": "Total Productivity Season 1 (HRVPP)",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "UCL4-HRVPP-TPROD-S1",
+      "title": "RGB Albedo Layer Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-Ireland",
       "themes": [
         "energy-transition"
       ],
       "tags": [
-        "Solar Rural Power",
-        "Vegetation Productivity"
+        "Solar Rural Power"
       ],
       "agency": [
         "ESA"
@@ -247,17 +122,142 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-HRVPP-TPROD-S2/collection.json",
+      "href": "./UCL1-albedo-France/collection.json",
       "type": "application/json",
-      "title": "Total Productivity Season 2 (HRVPP)",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "UCL4-HRVPP-TPROD-S2",
+      "title": "RGB Albedo Layer France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-France",
       "themes": [
         "energy-transition"
       ],
       "tags": [
-        "Solar Rural Power",
-        "Vegetation Productivity"
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-GB/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer GB",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-GB",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-France/collection.json",
+      "type": "application/json",
+      "title": "PVout France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-France",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-UK/collection.json",
+      "type": "application/json",
+      "title": "PVout UK",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-UK",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-Ireland/collection.json",
+      "type": "application/json",
+      "title": "PVout Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-France/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-France",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-UK/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ UK",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-UK",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-Ireland/collection.json",
+      "type": "application/json",
+      "title": "bfPVout+ Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL4-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
       ],
       "agency": [
         "ESA"
@@ -418,7 +418,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "937794c4-0316-4c6f-a07f-ed2238155b34"
+        "60f161b5-db08-410b-bdcf-2d6284f50586"
       ]
     },
     {
@@ -431,7 +431,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "937794c4-0316-4c6f-a07f-ed2238155b34",
+      "key": "60f161b5-db08-410b-bdcf-2d6284f50586",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -441,7 +441,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "84015d5b-3932-47b3-bfb3-f2410e582153"
+        "d91f4107-fe48-469e-bf75-325f72cbd041"
       ]
     },
     {
@@ -454,7 +454,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "84015d5b-3932-47b3-bfb3-f2410e582153",
+      "key": "d91f4107-fe48-469e-bf75-325f72cbd041",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -464,7 +464,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9d322bb1-9369-44f0-bd32-864c2f726886"
+        "5b83e78c-71fe-4399-af41-e3682b7cdc00"
       ]
     },
     {
@@ -477,7 +477,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "9d322bb1-9369-44f0-bd32-864c2f726886",
+      "key": "5b83e78c-71fe-4399-af41-e3682b7cdc00",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -487,7 +487,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fbdaef42-09eb-491a-8be8-261454625e80"
+        "4b4e2eb3-d609-4cd7-b012-fc5d5109553e"
       ]
     },
     {
@@ -500,7 +500,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "fbdaef42-09eb-491a-8be8-261454625e80",
+      "key": "4b4e2eb3-d609-4cd7-b012-fc5d5109553e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -510,7 +510,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "89eefa5b-2980-4b82-a5d6-73f0d37916af"
+        "aafd1dbb-7975-4463-a851-8228bdb71bda"
       ]
     },
     {
@@ -523,7 +523,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "89eefa5b-2980-4b82-a5d6-73f0d37916af",
+      "key": "aafd1dbb-7975-4463-a851-8228bdb71bda",
       "layers": [
         "water"
       ],
@@ -654,7 +654,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a74f3816-a7a7-4606-b2bf-2ea5885fce96"
+        "582f623c-81f7-4328-a5b9-922e6c1f9ab5"
       ]
     },
     {
@@ -667,7 +667,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "a74f3816-a7a7-4606-b2bf-2ea5885fce96",
+      "key": "582f623c-81f7-4328-a5b9-922e6c1f9ab5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -677,7 +677,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "85b05937-5857-48f2-97c3-f112a2dd96e0"
+        "7f284ee7-cb4b-4c72-aa65-085bbe631d2e"
       ]
     },
     {
@@ -690,7 +690,7 @@
         "invisible"
       ],
       "id": "franceARTD",
-      "key": "85b05937-5857-48f2-97c3-f112a2dd96e0",
+      "key": "7f284ee7-cb4b-4c72-aa65-085bbe631d2e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -730,46 +730,34 @@
           90.0
         ],
         [
-          -6.0,
-          41.0,
-          10.0,
-          52.0
+          -11,
+          49,
+          3,
+          61
         ],
         [
-          -9.0,
-          49.0,
-          2.0,
-          61.0
+          -11,
+          49,
+          3,
+          61
         ],
         [
-          -11.0,
-          51.0,
-          -5.0,
-          56.0
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ],
         [
-          -6.0,
-          41.0,
-          10.0,
-          52.0
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ],
         [
-          -9.0,
-          49.0,
-          2.0,
-          61.0
-        ],
-        [
-          -11.0,
-          51.0,
-          -5.0,
-          56.0
-        ],
-        [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ],
         [
           -11.104591164807998,
@@ -778,34 +766,46 @@
           55.604735925728136
         ],
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -9.419263296773103,
+          48.781349973035624,
+          3.1707659683262213,
+          60.879568085857684
         ],
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -6.0,
+          41.0,
+          10.0,
+          52.0
         ],
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -9.0,
+          49.0,
+          2.0,
+          61.0
         ],
         [
-          -11,
-          49,
-          3,
-          61
+          -11.0,
+          51.0,
+          -5.0,
+          56.0
         ],
         [
-          -11,
-          49,
-          3,
-          61
+          -6.0,
+          41.0,
+          10.0,
+          52.0
+        ],
+        [
+          -9.0,
+          49.0,
+          2.0,
+          61.0
+        ],
+        [
+          -11.0,
+          51.0,
+          -5.0,
+          56.0
         ]
       ]
     },
@@ -813,7 +813,7 @@
       "interval": [
         [
           "2017-01-01T00:00:00Z",
-          "2026-04-02T00:01:45.989255Z"
+          "2026-04-02T00:32:48.215172Z"
         ]
       ]
     }

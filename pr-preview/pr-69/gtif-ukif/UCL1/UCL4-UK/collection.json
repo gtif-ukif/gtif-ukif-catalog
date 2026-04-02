@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-UK/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
       "type": "image/png",
-      "title": "Photovoltaic Output UK",
-      "key": "f5b3c5f8-6926-493d-a3c7-9cc153c2faa9"
+      "title": "bfPVout+ UK",
+      "key": "fe20ce95-6ac8-4283-852b-91a0aaf784f9"
     },
     {
       "rel": "parent",
@@ -56,7 +56,7 @@
     "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Photovoltaic Output UK",
+  "title": "bfPVout+ UK",
   "extent": {
     "spatial": {
       "bbox": [
