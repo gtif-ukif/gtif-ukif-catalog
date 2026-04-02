@@ -1,6 +1,6 @@
 {
-  "Name": "UCL4-Ireland",
-  "Title": "Photovoltaic Output Ireland",
+  "Name": "UCL4-Ireland-bfPVout",
+  "Title": "bfPVout+ Ireland",
   "CollectionGroup": "Other",
   "Description": "",
   "Themes": [
@@ -14,11 +14,11 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
       "Type": "tiles",
-      "CollectionId": "UCL4-Ireland",
+      "CollectionId": "UCL4-Ireland-bfPVout",
       "ColormapName": "jet",
       "Rescale": [
-        2,
-        175
+        0,
+        0.11
       ],
       "Assets": [
         "asset"
@@ -27,8 +27,8 @@
   ],
   "Colorlegend": {
     "domain": [
-      2,
-      175
+      0,
+      0.11
     ],
     "range": [
       "#00007f",
@@ -43,8 +43,8 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Solar Power Output"
+    "tickFormat": ".2f",
+    "title": "bfPVout+"
   },
   "Agency": [
     "ESA"
