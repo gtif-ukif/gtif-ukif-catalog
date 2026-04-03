@@ -418,7 +418,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "883af6b3-bdf8-46dc-99a6-a18babf764ae"
+        "7f4bbf8b-2818-4bde-a9b1-ec9528f91a8f"
       ]
     },
     {
@@ -431,7 +431,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "883af6b3-bdf8-46dc-99a6-a18babf764ae",
+      "key": "7f4bbf8b-2818-4bde-a9b1-ec9528f91a8f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -441,7 +441,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c4caa42a-2ab7-4415-b7c0-28f6e4369be8"
+        "9625d069-a908-43d0-bd16-44ea8e0d1d93"
       ]
     },
     {
@@ -454,7 +454,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "c4caa42a-2ab7-4415-b7c0-28f6e4369be8",
+      "key": "9625d069-a908-43d0-bd16-44ea8e0d1d93",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -464,7 +464,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8fb29c65-556b-473e-a042-366a02ffa7c4"
+        "941c258d-945b-497c-b09e-590c4db694e3"
       ]
     },
     {
@@ -477,7 +477,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "8fb29c65-556b-473e-a042-366a02ffa7c4",
+      "key": "941c258d-945b-497c-b09e-590c4db694e3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -487,7 +487,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7f5cc1e3-2e3b-4761-ae20-6ed25b10f2ea"
+        "6c81665c-e7b5-4d40-91d0-3b6f89715d3d"
       ]
     },
     {
@@ -500,7 +500,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "7f5cc1e3-2e3b-4761-ae20-6ed25b10f2ea",
+      "key": "6c81665c-e7b5-4d40-91d0-3b6f89715d3d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -510,7 +510,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d01fca0c-949b-45dd-b542-8458c50dde29"
+        "b2935977-06c5-4a9c-9cb6-b75287a5f966"
       ]
     },
     {
@@ -523,7 +523,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "d01fca0c-949b-45dd-b542-8458c50dde29",
+      "key": "b2935977-06c5-4a9c-9cb6-b75287a5f966",
       "layers": [
         "water"
       ],
@@ -654,7 +654,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3cbf9d4a-65f8-4e46-86a3-ca458c55f6fd"
+        "b3c8c49e-223f-4eee-9082-07918bd3c10f"
       ]
     },
     {
@@ -667,7 +667,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "3cbf9d4a-65f8-4e46-86a3-ca458c55f6fd",
+      "key": "b3c8c49e-223f-4eee-9082-07918bd3c10f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -677,20 +677,20 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cdeeb52b-6331-42de-acc9-c3f5e3192624"
+        "0ab18831-704e-4f78-afa2-ac70569ebcdd"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.cxsyjehf/{z}/{x}/{y}.vector.pbf",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.061agqxz/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "France ARTD",
+      "title": "France ARTD Polygons",
       "roles": [
         "overlay",
         "invisible"
       ],
       "id": "franceARTD",
-      "key": "cdeeb52b-6331-42de-acc9-c3f5e3192624",
+      "key": "0ab18831-704e-4f78-afa2-ac70569ebcdd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -813,7 +813,7 @@
       "interval": [
         [
           "2017-01-01T00:00:00Z",
-          "2026-04-02T06:00:57.202026Z"
+          "2026-04-03T23:11:42.085431Z"
         ]
       ]
     }
