@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "id": "UCL1-albedo-Ireland",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "type": "image/png",
+      "title": "RGB Albedo Layer Ireland",
+      "key": "73012733-8ede-4524-aa9c-a2cb60eb6729"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "endpointtype": "VEDA_tiles",
+  "title": "RGB Albedo Layer Ireland",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.104591164807998,
+          51.09529319289348,
+          -5.097344144310739,
+          55.604735925728136
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-08-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

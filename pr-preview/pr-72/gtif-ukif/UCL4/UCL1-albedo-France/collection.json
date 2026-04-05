@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "UCL1-albedo-France",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "type": "image/png",
+      "title": "RGB Albedo Layer France",
+      "key": "2a676fb8-39b2-46ed-b580-765af0e3af8b"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "endpointtype": "VEDA_tiles",
+  "title": "RGB Albedo Layer France",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-04-05T19:06:24.750365Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

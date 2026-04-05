@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL4-HRVPP-TPROD-S1",
+  "id": "UCL4-HRVPP-TPROD-S2",
   "stac_version": "1.1.0",
-  "description": "Total Productivity (TPROD) is a vegetation phenology parameter derived from the Copernicus HR-VPP (High Resolution Vegetation Phenology and Productivity) product at 10m resolution. TPROD represents the growing season integral, computed as the sum of all daily Plant Phenology Index values between the start and end of the season. Data is available annually from 2017 to present.",
+  "description": "Total Productivity (TPROD) Season 2 is a vegetation phenology parameter derived from the Copernicus HR-VPP (High Resolution Vegetation Phenology and Productivity) product at 10m resolution. TPROD represents the growing season integral for the secondary growing season, computed as the sum of all daily Plant Phenology Index values between the start and end of the season. Data is available annually from 2017 to present.",
   "links": [
     {
       "rel": "root",
@@ -14,8 +14,8 @@
       "rel": "wmts",
       "href": "https://phenology.vgt.vito.be/wmts",
       "type": "image/png",
-      "title": "Total Productivity Season 1 (HRVPP)",
-      "wmts:layer": "CLMS_HRVPP_VPP_TPROD_SEASON1_10M",
+      "title": "Total Productivity Season 2 (HRVPP)",
+      "wmts:layer": "CLMS_HRVPP_VPP_TPROD_SEASON2_10M",
       "role": [
         "data"
       ],
@@ -23,13 +23,13 @@
         "style": "default",
         "matrixSet": "EPSG:3857"
       },
-      "key": "f30629ad-b07c-4fbd-b8c9-be0b983a6b15"
+      "key": "f266633a-776f-4856-888f-4b3df49ad916"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Drought Monitoring and Forecasting"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -66,7 +66,7 @@
   },
   "proj:epsg": 3857,
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Total Productivity Season 1 (HRVPP)",
+  "title": "Total Productivity Season 2 (HRVPP)",
   "extent": {
     "spatial": {
       "bbox": [
