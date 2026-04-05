@@ -12,6 +12,44 @@
     },
     {
       "rel": "child",
+      "href": "./UCL4-HRVPP-TPROD-S2/collection.json",
+      "type": "application/json",
+      "title": "Total Productivity Season 2 (HRVPP)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "UCL4-HRVPP-TPROD-S2",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power",
+        "Vegetation Productivity"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-HRVPP-TPROD-S1/collection.json",
+      "type": "application/json",
+      "title": "Total Productivity Season 1 (HRVPP)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "UCL4-HRVPP-TPROD-S1",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power",
+        "Vegetation Productivity"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL2-NDVI-Ireland/collection.json",
       "type": "application/json",
       "title": "NDVI (Ireland)",
@@ -207,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "472b33d1-1e4d-4192-9a05-e35177b2684e"
+        "d8710ae3-13c7-4b59-a3ad-ef20960b3d68"
       ]
     },
     {
@@ -220,7 +258,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "472b33d1-1e4d-4192-9a05-e35177b2684e",
+      "key": "d8710ae3-13c7-4b59-a3ad-ef20960b3d68",
       "layers": [
         "water"
       ],
@@ -337,6 +375,18 @@
           61.264240082289106
         ],
         [
+          -11,
+          49,
+          3,
+          61
+        ],
+        [
+          -11,
+          49,
+          3,
+          61
+        ],
+        [
           -11.104843049384266,
           51.09510081393981,
           -5.096869612666297,
@@ -359,7 +409,7 @@
     "temporal": {
       "interval": [
         [
-          "2020-03-01T00:00:00Z",
+          "2017-01-01T00:00:00Z",
           "2025-08-01T00:00:00Z"
         ]
       ]
@@ -368,6 +418,7 @@
   "license": "other",
   "summaries": {
     "themes": [
+      "energy-transition",
       "food-security"
     ]
   }
