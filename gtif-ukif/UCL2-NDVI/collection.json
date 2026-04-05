@@ -50,6 +50,60 @@
     },
     {
       "rel": "child",
+      "href": "./UCL2-SPEI-Ireland/collection.json",
+      "type": "application/json",
+      "title": "SPEI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-SPEI-GB/collection.json",
+      "type": "application/json",
+      "title": "SPEI (GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-SPEI-France/collection.json",
+      "type": "application/json",
+      "title": "SPEI (France)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-France",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL2-NDVI-Ireland/collection.json",
       "type": "application/json",
       "title": "NDVI (Ireland)",
@@ -245,7 +299,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d8710ae3-13c7-4b59-a3ad-ef20960b3d68"
+        "5b4e7fa0-b2a3-483e-85e6-5ded1df36bc6"
       ]
     },
     {
@@ -258,7 +312,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "d8710ae3-13c7-4b59-a3ad-ef20960b3d68",
+      "key": "5b4e7fa0-b2a3-483e-85e6-5ded1df36bc6",
       "layers": [
         "water"
       ],
@@ -387,6 +441,24 @@
           61
         ],
         [
+          -11.104591164873993,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60473592572955
+        ],
+        [
+          -8.899565067732734,
+          49.11835675764194,
+          4.804451125276599,
+          61.264240082289106
+        ],
+        [
+          -5.619305428473922,
+          41.09076256724424,
+          12.18942204017344,
+          51.419307761876006
+        ],
+        [
           -11.104843049384266,
           51.09510081393981,
           -5.096869612666297,
@@ -418,8 +490,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "energy-transition",
-      "food-security"
+      "food-security",
+      "energy-transition"
     ]
   }
 }
