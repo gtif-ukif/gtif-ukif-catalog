@@ -1,0 +1,241 @@
+{
+  "type": "Catalog",
+  "id": "gtif-ukif",
+  "stac_version": "1.1.0",
+  "description": "GTIF UKIF",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP5/collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024",
+      "id": "COMP5",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Urban Heat Island"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP_SDGSat-1_lst_london/collection.json",
+      "type": "application/json",
+      "title": "SDGSat-1 LST - London",
+      "id": "COMP_SDGSat-1_lst_london",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Surface Temperature"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Surface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP_lst_anomaly_london_2020_2025/collection.json",
+      "type": "application/json",
+      "title": "LST Anomaly London",
+      "id": "COMP_lst_anomaly_london_2020_2025",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Surface Temperature"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Surface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP_mean_lst_2022_2024/collection.json",
+      "type": "application/json",
+      "title": "Mean LST 2022-2024",
+      "id": "COMP_mean_lst_2022_2024",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Surface Temperature"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Surface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-COP30-Aspect/collection.json",
+      "type": "application/json",
+      "title": "COP30 Aspect",
+      "id": "UCL1-COP30-Aspect",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
+      "type": "application/json",
+      "title": "NDVI (Ireland)",
+      "id": "UCL2-NDVI-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-VCI-2020/collection.json",
+      "type": "application/json",
+      "title": "VCI (Ireland) 2020",
+      "id": "UCL2-VCI-2020",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-VCI-2022/collection.json",
+      "type": "application/json",
+      "title": "VCI (Ireland) 2022",
+      "id": "UCL2-VCI-2022",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-SISR-DAILY/collection.json",
+      "type": "application/json",
+      "title": "250m PM2.5",
+      "id": "UCL3-SISR-DAILY",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-Severe-GB/collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (SE GB)",
+      "id": "UCL3-Severe-GB",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-Severe-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Severe Air Quality (Ireland)",
+      "id": "UCL3-Severe-Ireland",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3/collection.json",
+      "type": "application/json",
+      "title": "Poorest Air Quality across the whole UK-Ireland-France area",
+      "id": "UCL3",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI/collection.json",
+      "type": "application/json",
+      "title": "Drought Monitoring and Forecasting",
+      "id": "UCL2-NDVI",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "self",
+      "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "GTIF UKIF Catalog"
+}
