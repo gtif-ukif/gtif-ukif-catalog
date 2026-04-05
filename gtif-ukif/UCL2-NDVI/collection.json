@@ -207,7 +207,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "61529cf8-8f9c-436a-ae42-bc6900cbb710"
+        "472b33d1-1e4d-4192-9a05-e35177b2684e"
       ]
     },
     {
@@ -220,7 +220,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "61529cf8-8f9c-436a-ae42-bc6900cbb710",
+      "key": "472b33d1-1e4d-4192-9a05-e35177b2684e",
       "layers": [
         "water"
       ],
@@ -326,26 +326,26 @@
       "in": "query"
     }
   },
-  "title": "NDVI",
+  "title": "Drought Monitoring and Forecasting",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.104591164873993,
+          -11.104843049384266,
           41.09076256724424,
           12.18942204017344,
           61.264240082289106
         ],
         [
-          -11.104591164873993,
-          51.095293192897806,
-          -5.097344144376162,
-          55.60473592572955
+          -11.104843049384266,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60483167954299
         ],
         [
           -9.419263296774696,
-          48.74935069215586,
-          4.804451812143819,
+          48.72918147523066,
+          4.964608138752998,
           61.264240082289106
         ],
         [
