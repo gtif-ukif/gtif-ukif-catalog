@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
       "type": "image/png",
       "title": "RGB Albedo Layer France",
-      "key": "a5fd04f5-3eab-4b60-a52b-465b0863bab1"
+      "key": "e7b90627-4e01-4574-a27c-8ebadd1d0cf5"
     },
     {
       "rel": "parent",
@@ -50,8 +50,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-04-05T20:01:55.040688Z",
-          null
+          "2019-01-01T00:00:00Z",
+          "2019-01-01T00:00:00Z"
         ]
       ]
     }

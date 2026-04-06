@@ -12,44 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-HRVPP-TPROD-S2/collection.json",
-      "type": "application/json",
-      "title": "Total Productivity Season 2 (HRVPP)",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "UCL4-HRVPP-TPROD-S2",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power",
-        "Vegetation Productivity"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-HRVPP-TPROD-S1/collection.json",
-      "type": "application/json",
-      "title": "Total Productivity Season 1 (HRVPP)",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "UCL4-HRVPP-TPROD-S1",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power",
-        "Vegetation Productivity"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL1-COP30-Aspect/collection.json",
       "type": "application/json",
       "title": "COP30 Aspect",
@@ -158,6 +120,44 @@
     },
     {
       "rel": "child",
+      "href": "./UCL4-HRVPP-TPROD-S2/collection.json",
+      "type": "application/json",
+      "title": "Total Productivity Season 2 (HRVPP)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "UCL4-HRVPP-TPROD-S2",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power",
+        "Vegetation Productivity"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4-HRVPP-TPROD-S1/collection.json",
+      "type": "application/json",
+      "title": "Total Productivity Season 1 (HRVPP)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "UCL4-HRVPP-TPROD-S1",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power",
+        "Vegetation Productivity"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL4-France/collection.json",
       "type": "application/json",
       "title": "Photovoltaic Output France",
@@ -199,6 +199,24 @@
       "title": "Photovoltaic Output Ireland",
       "endpointtype": "VEDA_tiles",
       "id": "UCL4-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-Canopy-Height/collection.json",
+      "type": "application/json",
+      "title": "Canopy Height Model (10m)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-Canopy-Height",
       "themes": [
         "energy-transition"
       ],
@@ -418,7 +436,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2f293fc5-7f59-43ce-b1b6-c950eb3cb66b"
+        "08e863a7-df1e-4564-b262-99f08a9075e9"
       ]
     },
     {
@@ -431,7 +449,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "2f293fc5-7f59-43ce-b1b6-c950eb3cb66b",
+      "key": "08e863a7-df1e-4564-b262-99f08a9075e9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -441,7 +459,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8c2fdd39-6e06-4f0a-82fc-8c6fbce9bf33"
+        "bbc9b492-7768-4dbe-9934-ef01a3042763"
       ]
     },
     {
@@ -454,7 +472,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "8c2fdd39-6e06-4f0a-82fc-8c6fbce9bf33",
+      "key": "bbc9b492-7768-4dbe-9934-ef01a3042763",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -464,7 +482,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d125a42f-2b33-450c-9dc5-932e0fec0c4d"
+        "650b36d7-98b1-46b0-a18d-5fe5dbb483eb"
       ]
     },
     {
@@ -477,7 +495,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "d125a42f-2b33-450c-9dc5-932e0fec0c4d",
+      "key": "650b36d7-98b1-46b0-a18d-5fe5dbb483eb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -487,7 +505,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ec2c7466-f7ab-4dfc-a2a5-a3c52e7dee3d"
+        "d1e1cf91-7c2a-420f-a8a6-f75bd39547db"
       ]
     },
     {
@@ -500,7 +518,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "ec2c7466-f7ab-4dfc-a2a5-a3c52e7dee3d",
+      "key": "d1e1cf91-7c2a-420f-a8a6-f75bd39547db",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -510,7 +528,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2981db5b-dd53-40f7-9120-59c7dc9d7883"
+        "f660ac6b-4d90-48d0-8e04-5132a401301b"
       ]
     },
     {
@@ -523,7 +541,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "2981db5b-dd53-40f7-9120-59c7dc9d7883",
+      "key": "f660ac6b-4d90-48d0-8e04-5132a401301b",
       "layers": [
         "water"
       ],
@@ -654,7 +672,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e2256891-3aef-4010-b951-71d2fd72ea7e"
+        "eea5fd18-8c1d-4ed9-98fc-25070b34a42e"
       ]
     },
     {
@@ -667,7 +685,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e2256891-3aef-4010-b951-71d2fd72ea7e",
+      "key": "eea5fd18-8c1d-4ed9-98fc-25070b34a42e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -677,7 +695,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "64209335-a45d-4706-b5d7-235b46f03657"
+        "7ee022af-9c2d-47d4-a5b6-1fb7b1c23d50"
       ]
     },
     {
@@ -687,10 +705,33 @@
       "title": "France ARTD Polygons",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
       "id": "franceARTD",
-      "key": "64209335-a45d-4706-b5d7-235b46f03657",
+      "key": "7ee022af-9c2d-47d4-a5b6-1fb7b1c23d50",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "36e1f2cb-abae-44a0-b9ed-688fbab4c796"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.26a3h7xj/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "UK Roof Slope Extraction Polygons",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "ukRoofSlopePolygons",
+      "key": "36e1f2cb-abae-44a0-b9ed-688fbab4c796",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -730,18 +771,6 @@
           90.0
         ],
         [
-          -11,
-          49,
-          3,
-          61
-        ],
-        [
-          -11,
-          49,
-          3,
-          61
-        ],
-        [
           -21.923451993591076,
           39.90272381327664,
           10.000491103609367,
@@ -772,6 +801,18 @@
           60.879568085857684
         ],
         [
+          -11,
+          49,
+          3,
+          61
+        ],
+        [
+          -11,
+          49,
+          3,
+          61
+        ],
+        [
           -6.0,
           41.0,
           10.0,
@@ -788,6 +829,12 @@
           51.0,
           -5.0,
           56.0
+        ],
+        [
+          -10.93779706791088,
+          41.25407358675115,
+          9.840954106000945,
+          61.00516823367879
         ],
         [
           -5.72445999562336,
@@ -813,7 +860,7 @@
       "interval": [
         [
           "2017-01-01T00:00:00Z",
-          "2026-04-05T20:02:02.791651Z"
+          "2025-04-26T00:00:00Z"
         ]
       ]
     }

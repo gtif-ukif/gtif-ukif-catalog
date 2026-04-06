@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL4-France-bfPVout",
+  "id": "UCL1-Canopy-Height",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Canopy Height Model (CHM) at 10m resolution clipped to the UKIF area. Derived from Meta-WRI global canopy height dataset. Values represent tree height in metres (range 3–24m).",
   "links": [
     {
       "rel": "root",
@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-France-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,0.11",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-Canopy-Height/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdylgn&rescale=3,24",
       "type": "image/png",
-      "title": "bfPVout+ France",
-      "key": "9e54ddf1-edd3-4a7e-b4f3-2651b33d314b"
+      "title": "Canopy Height Model (10m)",
+      "key": "6e33123d-aac2-4d0b-8f24-aa7ccdf91831"
     },
     {
       "rel": "parent",
@@ -36,43 +36,44 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      0,
-      0.11
+      3,
+      24
     ],
     "range": [
-      "#00007f",
-      "#0000fe",
-      "#0064ff",
-      "#00d4ff",
-      "#4cffaa",
-      "#aaff4c",
-      "#ffe500",
-      "#ff7e00",
-      "#fe1200",
-      "#7f0000"
+      "#a50026",
+      "#d73027",
+      "#f46d43",
+      "#fdae61",
+      "#fee08b",
+      "#ffffbf",
+      "#d9ef8b",
+      "#a6d96a",
+      "#66bd63",
+      "#1a9850",
+      "#006837"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".2f",
-    "title": "bfPVout+"
+    "tickFormat": ".0f",
+    "title": "Canopy Height (m)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "bfPVout+ France",
+  "title": "Canopy Height Model (10m)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -5.72445999562336,
-          40.463816771195944,
-          9.567154759937422,
-          51.32735171093607
+          -10.93779706791088,
+          41.25407358675115,
+          9.840954106000945,
+          61.00516823367879
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-03-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }

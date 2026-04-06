@@ -214,7 +214,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2c5697fa-5f3d-455c-993e-7cce2cd4e71a"
+        "ddf6005c-6ec2-4f16-970b-d58f5d309853"
       ]
     },
     {
@@ -227,7 +227,55 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "2c5697fa-5f3d-455c-993e-7cce2cd4e71a",
+      "key": "ddf6005c-6ec2-4f16-970b-d58f5d309853",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "type": "image/png",
+      "title": "OpenStreetMap",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "openstreetmap"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/ucl_dataset_fixes/collections/Airports/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "b0d2ddcd-6b46-406d-ae48-5446b93143fa"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "World Airports",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "worldAirports",
+      "key": "b0d2ddcd-6b46-406d-ae48-5446b93143fa",
+      "layers": [
+        "aerodrome_label"
+      ],
       "auth:refs": [
         "mapboxauth"
       ]
