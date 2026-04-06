@@ -23,7 +23,11 @@
       ],
       "Assets": [
         "asset"
-      ]
+      ],
+      "DateTimeInterval": {
+        "Start": "2018-01-01T00:00:00Z",
+        "End": "today"
+      }
     }
   ],
   "Colorlegend": {

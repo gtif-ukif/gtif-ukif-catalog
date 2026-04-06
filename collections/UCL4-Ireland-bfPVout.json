@@ -22,7 +22,12 @@
       ],
       "Assets": [
         "asset"
-      ]
+      ],
+      "DateTimeInterval": {
+        "Start": "2019-01-01T00:00:00Z",
+        "End": "2019-12-31T00:00:00Z",
+        "Timedelta": {"days": 30}
+      }
     }
   ],
   "Colorlegend": {
