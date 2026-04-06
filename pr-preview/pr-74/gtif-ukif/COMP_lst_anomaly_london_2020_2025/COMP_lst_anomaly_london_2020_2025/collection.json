@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "COMP_lst_anomaly_london_2020_2025",
+  "stac_version": "1.1.0",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe positive LST anomaly over London in the last five years, compared with the previous 20-year baseline, reflects a combination of long-term climatic trends and city-specific factors that intensify local warming. London’s dense urban structure—characterized by extensive impervious surfaces, high-rise buildings, and limited vegetated areas—enhances the absorption and retention of heat. As the city has continued to expand and densify, these built-environment characteristics have become even more pronounced, contributing to higher surface temperatures.  \n\nIn addition to urban growth, recent years have seen more frequent and intense heatwaves, consistent with broader climate-change trends. These hotter, drier summers amplify heat storage in buildings and pavement, raising land surface temperatures beyond what was typical in the earlier baseline period. Increased energy use for cooling can also add waste heat to the local environment, further reinforcing the warming signal. \n\nTogether, these factors explain why London exhibits a stronger warming anomaly than the 20-year average, highlighting both the effects of global climate change and the intensifying influence of urbanization on local thermal conditions.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-lst-anomaly-2020-2025/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo&nodata=0&rescale=-5,5",
+      "type": "image/png",
+      "title": "LST Anomaly London",
+      "key": "cd19f665-5074-4a5a-a891-5c40d11877fb"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LST Anomaly London"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Land Surface Temperature"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Land Surface Temperature",
+  "eox:colorlegend": {
+    "domain": [
+      -5,
+      5
+    ],
+    "range": [
+      "#30123b",
+      "#4560d6",
+      "#34aaf8",
+      "#1ae4b6",
+      "#71fd5f",
+      "#c8ee33",
+      "#f9ba38",
+      "#f66b18",
+      "#c92903",
+      "#7a0402"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "LST Anomaly"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "LST Anomaly London",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -0.5880737965276762,
+          51.24042840550151,
+          0.31401647572171704,
+          51.752557243019965
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-06-01T00:00:00Z",
+          "2020-06-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

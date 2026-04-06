@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "COMP_Imperviousness",
+  "stac_version": "1.1.0",
+  "description": "The relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Imperviousness/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=gray_r&rescale=0,100",
+      "type": "image/png",
+      "title": "Imperviousness and UHI",
+      "key": "62b61532-5ba8-410e-8640-3bb237c71455"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Imperviousness and UHI"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Land Cover"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Land Cover",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      100
+    ],
+    "range": [
+      "#ffffff",
+      "#e3e3e3",
+      "#c6c6c6",
+      "#aaaaaa",
+      "#8e8e8e",
+      "#717171",
+      "#555555",
+      "#383838",
+      "#1c1c1c",
+      "#000000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Imperviousness"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Imperviousness and UHI",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.82326107093359,
+          40.566153343944876,
+          9.706464214718011,
+          61.33941008747212
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
