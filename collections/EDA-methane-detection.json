@@ -8,7 +8,7 @@
   "Tags": [
     "Methane Emissions Analysis"
   ],
-  "Description": "On-demand methane detection from Sentinel-2 imagery. Draw an area of interest, set a time range, and run the process to detect methane column enhancements. Results show a time-series of methane enhancement heatmaps with statistical summaries.",
+  "Description": "Time-series of the average amount of methane in the signal region relative to the background region, over the selected AOI and time range.\n\n<hr>\n\n<strong>Disclaimer</strong><br>Methane detections represent potential emission indicators derived from satellite data. They are not validated measurements and do not imply health risk, safety concerns, or regulatory non-compliance.",
   "Resources": [
     {
       "Name": "Collection-only",
