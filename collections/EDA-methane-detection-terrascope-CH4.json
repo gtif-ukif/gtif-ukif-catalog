@@ -1,0 +1,48 @@
+{
+  "Name": "EDA-methane-detection-terrascope-CH4",
+  "Title": "Sentinel-5P CH4 (Terrascope)",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "Sentinel-5P Level-3 methane layer served by Terrascope as a WMTS data layer for visual comparison with the methane indicator outputs.",
+  "Resources": [
+    {
+      "Name": "marinedatastore",
+      "Type": "WMTSCapabilities",
+      "EndPoint": "https://wmts.terrascope.be/wmts",
+      "LayerId": "terrascope-s5p-l3-ch4-ty-v2_CH4",
+      "Version": "1.0.0",
+      "Times": ["2025-01-01T00:00:00Z"],
+      "Dimensions": {
+        "style": "default",
+        "matrixSet": "EPSG:3857"
+      },
+      "DataProjection": 3857,
+      "OverwriteBBox": [-180, -90, 180, 90]
+    }
+  ],
+  "Colorlegend": {
+    "domain": [1700, 2000],
+    "range": [
+      "#2f7f5f",
+      "#6dae6b",
+      "#b7d78b",
+      "#e8efb5",
+      "#f8e6a0",
+      "#f6c56a",
+      "#ee8f4a",
+      "#d84b32"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Column-averaged dry-air mixing ratio of methane (ppb)"
+  },
+  "Agency": [
+    "Terrascope",
+    "VITO"
+  ]
+}
