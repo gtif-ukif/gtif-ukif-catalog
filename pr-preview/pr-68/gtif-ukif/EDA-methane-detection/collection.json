@@ -11,6 +11,43 @@
       "title": "GTIF UKIF Catalog"
     },
     {
+      "rel": "child",
+      "href": "./EDA-methane-detection-terrascope-CH4/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-5P CH4 (Terrascope)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "EDA-methane-detection-terrascope-CH4",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "Terrascope",
+        "VITO"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-detection-SRON-plumes/collection.json",
+      "type": "application/json",
+      "title": "SRON Methane Plume Maps (Jan 2026)",
+      "endpointtype": "GeoJSON source",
+      "id": "EDA-methane-detection-SRON-plumes",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "SRON"
+      ],
+      "collection_group": "Other"
+    },
+    {
       "rel": "service",
       "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-methane-process/execution",
       "type": "image/tiff",
@@ -20,7 +57,7 @@
       "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/body.json",
       "eox:flatstyle": [
         {
-          "id": "timeseries",
+          "id": "methane_timeseries",
           "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/timeseries_style.json"
         },
         {
@@ -36,7 +73,7 @@
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "cloudless-2024"
     },
@@ -47,7 +84,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "OSM"
     },
@@ -75,97 +112,209 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
-      "title": "ESA World Cover WC21 UK Mosaic",
+      "title": "Place names",
       "roles": [
-        "baselayer",
+        "overlay",
         "invisible"
       ],
-      "id": "WC21",
-      "eox:colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Cropland",
-          "Grassland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "f5a74f45-27b3-4005-8104-43338eb2052f"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Solar Panels © UCL/Oxford 2025",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SolarPanels",
+      "key": "f5a74f45-27b3-4005-8104-43338eb2052f",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "7de79d87-6563-4691-bd97-5957923a30a7"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Site of Special Scientific Interest",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "SSSI",
+      "key": "7de79d87-6563-4691-bd97-5957923a30a7",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "fc9c4314-bcd7-4e29-93eb-797509b69fed"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "National Parks",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "NationalParks",
+      "key": "fc9c4314-bcd7-4e29-93eb-797509b69fed",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "4df3e7f4-e244-4470-b56e-a794ff736dc2"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Natural Landscapes",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "AONB",
+      "key": "4df3e7f4-e244-4470-b56e-a794ff736dc2",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "f94afa83-c3fa-4bc9-9fb5-ca73f6b56466"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Water Mask",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "MapboxWaterMask",
+      "key": "f94afa83-c3fa-4bc9-9fb5-ca73f6b56466",
+      "layers": [
+        "water"
+      ],
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "mapbox-style-document",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "type": "application/json",
+      "title": "Open Infrastructure Map",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "Openinframap",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-methane-process/execution",
+      "type": "image/tiff",
+      "id": "timeseries",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/body.json",
+      "eox:flatstyle": [
+        {
+          "id": "methane_timeseries",
+          "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/timeseries_style.json"
+        },
+        {
+          "id": "sentinel_l2a_visible_timeseries",
+          "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/sentinel_b11_style.json"
+        }
+      ]
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Filtered)",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "WC21-filtered",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)"
-        ],
-        "domain": [
-          "Grassland",
-          "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "cloudless-2024"
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COP-30-DEM-Mosaic/items/mosaic_COP30-UK+I+FRv2_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap_name=schwarzwald&rescale=0,1000&nodata=0",
-      "type": "image/png",
-      "title": "COP-30 DEM Mosaic",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "COP-30-DEM-Mosaic",
-      "eox:colorlegend": {
-        "title": "Elevation",
-        "range": [
-          "#aeefd5",
-          "#ebfcb2",
-          "#3eb032",
-          "#699535",
-          "#f4a602",
-          "#921201",
-          "#6f2108",
-          "#7f4c2f",
-          "#adadad",
-          "#e9e7e9"
-        ],
-        "domain": [
-          0,
-          1000
-        ]
-      }
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "type": "image/jpeg",
+      "title": "ESRI World Imagery",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "esri-world-imagery"
     },
     {
       "rel": "xyz",
@@ -183,7 +332,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fb6967e5-2340-450c-8926-f16ec04c3af3"
+        "0baf08e8-637d-4489-94c9-779b7db70300"
       ]
     },
     {
@@ -196,7 +345,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "fb6967e5-2340-450c-8926-f16ec04c3af3",
+      "key": "0baf08e8-637d-4489-94c9-779b7db70300",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -206,7 +355,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b5ca147f-dc4e-4cc6-b372-e9c60351b28b"
+        "f313247f-c6b9-4021-afe0-ece0d701afaa"
       ]
     },
     {
@@ -219,7 +368,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "b5ca147f-dc4e-4cc6-b372-e9c60351b28b",
+      "key": "f313247f-c6b9-4021-afe0-ece0d701afaa",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -229,7 +378,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ff6bb559-bbc2-49b3-84e0-3683abf3550d"
+        "e145f782-78e7-4927-a64a-549e5e8aad77"
       ]
     },
     {
@@ -242,7 +391,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "ff6bb559-bbc2-49b3-84e0-3683abf3550d",
+      "key": "e145f782-78e7-4927-a64a-549e5e8aad77",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -252,7 +401,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f236e08b-f9f6-4576-ab5a-5b55a33e439f"
+        "f2f07c6e-2926-4a3a-9b8b-c1d9d654fccd"
       ]
     },
     {
@@ -265,7 +414,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "f236e08b-f9f6-4576-ab5a-5b55a33e439f",
+      "key": "f2f07c6e-2926-4a3a-9b8b-c1d9d654fccd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -275,7 +424,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "45129955-074e-4528-8e48-9615a8ff4b6d"
+        "a1f35998-6c4b-4d9a-936f-b4f9a3795464"
       ]
     },
     {
@@ -288,7 +437,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "45129955-074e-4528-8e48-9615a8ff4b6d",
+      "key": "a1f35998-6c4b-4d9a-936f-b4f9a3795464",
       "layers": [
         "water"
       ],
@@ -298,7 +447,7 @@
     },
     {
       "rel": "mapbox-style-document",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
       "type": "application/json",
       "title": "Open Infrastructure Map",
       "roles": [
@@ -330,27 +479,6 @@
     "ESA"
   ],
   "collection_group": "Other",
-  "eox:colorlegend": {
-    "domain": [
-      -2,
-      2
-    ],
-    "range": [
-      "#00004c",
-      "#00009a",
-      "#0000ec",
-      "#5555ff",
-      "#c5c5ff",
-      "#ffc5c5",
-      "#ff5555",
-      "#f10000",
-      "#b70000",
-      "#7f0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "Methane column enhancement (mol m-2)"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/vega.json",
   "auth:schemes": {
@@ -365,21 +493,32 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
+        ],
+        [
+          -108.25,
+          -34.68,
+          151.42,
+          45.15
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2026-04-01T19:13:08.799270Z",
-          null
+          "2019-01-01T00:00:00Z",
+          "2026-01-26T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "carbon-accounting"
+    ]
+  }
 }
