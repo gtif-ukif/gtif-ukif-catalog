@@ -1,6 +1,6 @@
 {
-  "Name": "EDA-methane-ukraine",
-  "Title": "Ukraine",
+  "Name": "EDA-methane-poland-silesian-voivodeship",
+  "Title": "Poland Silesian Voivodeship",
   "CollectionGroup": "Other",
   "Themes": [
     "carbon-accounting"
@@ -8,13 +8,13 @@
   "Tags": [
     "Methane Emissions Analysis"
   ],
-  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in eastern Ukraine. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on October 7th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
       "Type": "tiles",
-      "CollectionId": "EDA-methane-ukraine",
+      "CollectionId": "EDA-methane-poland-silesian-voivodeship",
       "ColormapName": "seismic",
       "Rescale": [
         -3,
@@ -31,7 +31,7 @@
     "JsonForm": "collections/EDA-methane/jsonform.json",
     "EndPoints": [
       {
-        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-ukraine_chart_data.json",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland-silesian-voivodeship_chart_data.json",
         "Identifier": "precomputed_statistics",
         "Type": "application/json"
       }
