@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-ukraine",
+  "id": "EDA-methane-poland-silesian-voivodeship",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in eastern Ukraine. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on October 7th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-ukraine/collection.json",
+      "href": "./EDA-methane-poland-silesian-voivodeship/collection.json",
       "type": "application/json",
-      "title": "Ukraine",
+      "title": "Poland Silesian Voivodeship",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-ukraine",
+      "id": "EDA-methane-poland-silesian-voivodeship",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-ukraine_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland-silesian-voivodeship_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "39c27948-8caa-45cc-897d-b3a4fcc5b010"
+        "00e21749-9030-46cd-ac39-a3568796e5e7"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "39c27948-8caa-45cc-897d-b3a4fcc5b010",
+      "key": "00e21749-9030-46cd-ac39-a3568796e5e7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f8c9c9e1-5a61-4e65-9a06-313d533664a9"
+        "53b0383e-05fd-4c0f-aaaa-6e12cceac560"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "f8c9c9e1-5a61-4e65-9a06-313d533664a9",
+      "key": "53b0383e-05fd-4c0f-aaaa-6e12cceac560",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d9d65455-57e4-496b-8e7f-a8152d202efa"
+        "9230c27a-e1fc-4aca-aff6-2765d5d66789"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "d9d65455-57e4-496b-8e7f-a8152d202efa",
+      "key": "9230c27a-e1fc-4aca-aff6-2765d5d66789",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "08a4c87d-cd38-4bff-b8aa-3d6e66c0b628"
+        "d639f692-bf24-45c3-bbf0-086bcae4e2f7"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "08a4c87d-cd38-4bff-b8aa-3d6e66c0b628",
+      "key": "d639f692-bf24-45c3-bbf0-086bcae4e2f7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f1daec51-ff92-489f-aeec-6ae9b405b791"
+        "79de8fbd-0367-489a-b67c-d84523f4ea7d"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "f1daec51-ff92-489f-aeec-6ae9b405b791",
+      "key": "79de8fbd-0367-489a-b67c-d84523f4ea7d",
       "layers": [
         "water"
       ],
@@ -366,29 +366,29 @@
       "in": "query"
     }
   },
-  "title": "Ukraine",
+  "title": "Poland Silesian Voivodeship",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          37.100742,
-          48.23113997429483,
-          37.13154633182896,
-          48.302642
+          18.647574,
+          50.194295668862814,
+          18.7758920195232,
+          50.274092
         ],
         [
-          37.100742,
-          48.23113997429483,
-          37.13154633182896,
-          48.302642
+          18.647574,
+          50.194295668862814,
+          18.7758920195232,
+          50.274092
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-09-27T00:00:00Z",
-          "2024-12-18T00:00:00Z"
+          "2024-07-05T00:00:00Z",
+          "2024-09-18T00:00:00Z"
         ]
       ]
     }
