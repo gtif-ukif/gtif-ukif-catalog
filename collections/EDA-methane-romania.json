@@ -8,7 +8,7 @@
   "Tags": [
     "Methane Emissions Analysis"
   ],
-  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident detection with EMIT on Aug 2, 2024 from a period of persistent excess emissions. Time series of the column of excess methane from waste in Vidra, Ilfov, Romania. UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Romania. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2024 to February 2024, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on August 2nd, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
