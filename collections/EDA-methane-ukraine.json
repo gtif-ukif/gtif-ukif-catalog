@@ -27,8 +27,8 @@
   ],
   "Process": {
     "Name": "Precomputed Statistics",
-    "VegaDefinition": "collections/EDA-methane/vega-ukraine.json",
-    "JsonForm": "collections/EDA-methane/jsonform.json",
+    "VegaDefinition": "collections/EDA-methane/vega.json",
+    "JsonForm": "collections/EDA-methane/jsonform-ukraine.json",
     "EndPoints": [
       {
         "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-ukraine_chart_data.json",
