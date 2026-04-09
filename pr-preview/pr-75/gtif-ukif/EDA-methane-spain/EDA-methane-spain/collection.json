@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-spain/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Spain Murcia",
-      "key": "cbd17f6b-f625-445d-b2e8-ae9ef7edcb90"
+      "title": "Spain",
+      "key": "d987dfdd-0776-4543-bdac-992c15e671d5"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Spain Murcia"
+      "title": "Spain"
     }
   ],
   "themes": [
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Spain Murcia",
+  "title": "Spain",
   "extent": {
     "spatial": {
       "bbox": [

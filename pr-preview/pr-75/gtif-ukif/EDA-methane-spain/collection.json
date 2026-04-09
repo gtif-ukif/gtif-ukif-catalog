@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EDA-methane-spain/collection.json",
       "type": "application/json",
-      "title": "Spain Murcia",
+      "title": "Spain",
       "endpointtype": "VEDA_tiles",
       "id": "EDA-methane-spain",
       "themes": [
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "abb1a331-2d40-4e85-b7ad-983d18f47a68"
+        "fe4a81ef-8386-46fd-86f2-82eee590796f"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "abb1a331-2d40-4e85-b7ad-983d18f47a68",
+      "key": "fe4a81ef-8386-46fd-86f2-82eee590796f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "638c0836-2423-4ccf-b8b5-05b783ca0411"
+        "fc394f00-e05d-4af8-9246-c7d0ca065a5a"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "638c0836-2423-4ccf-b8b5-05b783ca0411",
+      "key": "fc394f00-e05d-4af8-9246-c7d0ca065a5a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6c6fc231-2278-4f67-9383-481887b58b83"
+        "7ae9ae7c-479a-443e-ac04-b20baef1a969"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "6c6fc231-2278-4f67-9383-481887b58b83",
+      "key": "7ae9ae7c-479a-443e-ac04-b20baef1a969",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f2ba3156-b371-491b-b878-e17e41ac7614"
+        "649d8509-b12f-4052-93db-919ad80c2501"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "f2ba3156-b371-491b-b878-e17e41ac7614",
+      "key": "649d8509-b12f-4052-93db-919ad80c2501",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "117393a1-b849-4ca8-9fb1-5639b90c7f15"
+        "41f13753-008a-47e8-ae1c-e9ac50463485"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "117393a1-b849-4ca8-9fb1-5639b90c7f15",
+      "key": "41f13753-008a-47e8-ae1c-e9ac50463485",
       "layers": [
         "water"
       ],
@@ -366,7 +366,7 @@
       "in": "query"
     }
   },
-  "title": "Spain Murcia",
+  "title": "Spain",
   "extent": {
     "spatial": {
       "bbox": [
