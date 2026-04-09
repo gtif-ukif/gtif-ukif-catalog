@@ -1,0 +1,64 @@
+{
+  "Name": "EDA-methane-romania",
+  "Title": "Romania",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident detection with EMIT on Aug 2, 2024 from a period of persistent excess emissions. Time series of the column of excess methane from waste in Vidra, Ilfov, Romania. UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "Resources": [
+    {
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Name": "VEDA",
+      "Type": "tiles",
+      "CollectionId": "EDA-methane-romania",
+      "ColormapName": "seismic",
+      "Rescale": [
+        -3,
+        3
+      ],
+      "Assets": [
+        "asset"
+      ]
+    }
+  ],
+  "Process": {
+    "Name": "Precomputed Statistics",
+    "VegaDefinition": "collections/EDA-methane/vega.json",
+    "JsonForm": "collections/EDA-methane/jsonform-romania.json",
+    "EndPoints": [
+      {
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-romania_chart_data.json",
+        "Identifier": "precomputed_statistics",
+        "Type": "application/json"
+      }
+    ]
+  },
+  "Colorlegend": {
+    "domain": [
+      -3,
+      3
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}
