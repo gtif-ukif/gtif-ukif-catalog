@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-romania",
+  "id": "EDA-methane-spain",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident detection with EMIT on Aug 2, 2024 from a period of persistent excess emissions. Time series of the column of excess methane from waste in Vidra, Ilfov, Romania. UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident with Tanager on Jul 19, 2025, EMIT on Jun 23, 2025 during a period of excess emissions. Time series of the column of excess methane from waste in Murcia, Spain (~1 ton/hr, multiple detections). UNEP persistency score: Undetermined. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-romania/collection.json",
+      "href": "./EDA-methane-spain/collection.json",
       "type": "application/json",
-      "title": "Romania",
+      "title": "Spain Murcia",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-romania",
+      "id": "EDA-methane-spain",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-romania_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-spain_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4f5f661f-27d3-4b69-85c9-8e5563f1b066"
+        "2f8ce656-6ec6-4f3d-8677-d991c1451976"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "4f5f661f-27d3-4b69-85c9-8e5563f1b066",
+      "key": "2f8ce656-6ec6-4f3d-8677-d991c1451976",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4b699b98-b315-4cb9-b1b1-7decd8901759"
+        "ee54424c-9967-473e-80ba-8c2cb5bf2411"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "4b699b98-b315-4cb9-b1b1-7decd8901759",
+      "key": "ee54424c-9967-473e-80ba-8c2cb5bf2411",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "de3e7b11-1610-4b17-b33d-d30c4e7889f8"
+        "28a7a4c0-071c-445a-826a-28cb7eaa82fe"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "de3e7b11-1610-4b17-b33d-d30c4e7889f8",
+      "key": "28a7a4c0-071c-445a-826a-28cb7eaa82fe",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6c1adfa0-2de2-4797-ad55-2351dc9ebf42"
+        "34be2b8b-d8dc-4dac-904b-bd05ad5f2091"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "6c1adfa0-2de2-4797-ad55-2351dc9ebf42",
+      "key": "34be2b8b-d8dc-4dac-904b-bd05ad5f2091",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "140f2ba3-f33a-457f-abcb-a9a7af2e8575"
+        "680c4b60-078d-4209-8615-990e5336a3f5"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "140f2ba3-f33a-457f-abcb-a9a7af2e8575",
+      "key": "680c4b60-078d-4209-8615-990e5336a3f5",
       "layers": [
         "water"
       ],
@@ -357,7 +357,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-romania.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-spain.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -366,29 +366,29 @@
       "in": "query"
     }
   },
-  "title": "Romania",
+  "title": "Spain Murcia",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          26.106256,
-          44.306226781082245,
-          26.15633556875304,
-          44.36026
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ],
         [
-          26.106256,
-          44.306226781082245,
-          26.15633556875304,
-          44.36026
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-06-18T00:00:00Z",
-          "2025-05-04T00:00:00Z"
+          "2025-06-15T00:00:00Z",
+          "2025-09-26T00:00:00Z"
         ]
       ]
     }
