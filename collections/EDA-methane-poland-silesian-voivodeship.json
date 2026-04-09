@@ -27,7 +27,7 @@
   ],
   "Process": {
     "Name": "Precomputed Statistics",
-    "VegaDefinition": "collections/EDA-methane/vega.json",
+    "VegaDefinition": "collections/EDA-methane/vega-poland-silesian-voivodeship.json",
     "JsonForm": "collections/EDA-methane/jsonform.json",
     "EndPoints": [
       {
