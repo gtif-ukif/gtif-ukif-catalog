@@ -216,6 +216,91 @@
     },
     {
       "rel": "child",
+      "href": "./EDA-methane-ukraine/collection.json",
+      "type": "application/json",
+      "title": "Ukraine",
+      "id": "EDA-methane-ukraine",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-greece/collection.json",
+      "type": "application/json",
+      "title": "Greece",
+      "id": "EDA-methane-greece",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-poland-silesian-voivodeship/collection.json",
+      "type": "application/json",
+      "title": "Poland Silesian Voivodeship",
+      "id": "EDA-methane-poland-silesian-voivodeship",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-romania/collection.json",
+      "type": "application/json",
+      "title": "Romania",
+      "id": "EDA-methane-romania",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-spain/collection.json",
+      "type": "application/json",
+      "title": "Spain",
+      "id": "EDA-methane-spain",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL2-NDVI/collection.json",
       "type": "application/json",
       "title": "Drought Monitoring and Forecasting",
