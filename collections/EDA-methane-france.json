@@ -8,7 +8,7 @@
   "Tags": [
     "Methane Emissions Analysis"
   ],
-  "Description": "Time series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over a Toyota Motor manufacturing plant in northern France. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite on June 17th, 2023.",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
@@ -26,15 +26,13 @@
     }
   ],
   "Process": {
-    "Name": "VEDA Statistics",
-    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+    "Name": "Precomputed Statistics",
+    "VegaDefinition": "collections/EDA-methane/vega.json",
+    "JsonForm": "collections/EDA-methane/jsonform-france.json",
     "EndPoints": [
       {
-        "Identifier": "veda_statistics",
-        "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-france/statistics?assets=asset",
-        "Method": "POST",
-        "EndPoint": "veda_stac",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-france_chart_data.json",
+        "Identifier": "precomputed_statistics",
         "Type": "application/json"
       }
     ]
