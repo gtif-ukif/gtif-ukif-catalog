@@ -12,6 +12,23 @@
     },
     {
       "rel": "child",
+      "href": "./EDA-methane-greece/collection.json",
+      "type": "application/json",
+      "title": "Greece",
+      "id": "EDA-methane-greece",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./EDA-methane-poland-silesian-voivodeship/collection.json",
       "type": "application/json",
       "title": "Poland Silesian Voivodeship",

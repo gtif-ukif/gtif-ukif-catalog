@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-poland-silesian-voivodeship",
+  "id": "EDA-methane-greece",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident date with EMIT Jul 27, 2023. Time series of the column of excess methane from waste in Assiros, Central Macedonia, Greece (1.9 ton/hr). UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-poland-silesian-voivodeship/collection.json",
+      "href": "./EDA-methane-greece/collection.json",
       "type": "application/json",
-      "title": "Poland Silesian Voivodeship",
+      "title": "Greece",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-poland-silesian-voivodeship",
+      "id": "EDA-methane-greece",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland-silesian-voivodeship_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-greece_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5416f1b2-0ed6-4e4c-8719-67d971075556"
+        "0cd257de-d036-4393-9c2b-d46ffdaa809d"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "5416f1b2-0ed6-4e4c-8719-67d971075556",
+      "key": "0cd257de-d036-4393-9c2b-d46ffdaa809d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3b41fbfa-5d0a-40b3-a74a-acecf27c2071"
+        "ecefee9b-59ae-4f62-9fbc-bb63c9922e2d"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "3b41fbfa-5d0a-40b3-a74a-acecf27c2071",
+      "key": "ecefee9b-59ae-4f62-9fbc-bb63c9922e2d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "78b0a402-2177-4d94-8fea-40cce5681989"
+        "33938f7c-efbd-4ec5-a292-877f685b3f6f"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "78b0a402-2177-4d94-8fea-40cce5681989",
+      "key": "33938f7c-efbd-4ec5-a292-877f685b3f6f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3c3faf55-54a0-4385-91f7-831ccee013b3"
+        "29c79a6a-f23e-4f91-a48c-d6d888573a16"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "3c3faf55-54a0-4385-91f7-831ccee013b3",
+      "key": "29c79a6a-f23e-4f91-a48c-d6d888573a16",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "37ad4615-e6ec-42ff-b24c-e73c5d634f52"
+        "f63276a9-8a89-4d1a-b468-0280706d20c8"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "37ad4615-e6ec-42ff-b24c-e73c5d634f52",
+      "key": "f63276a9-8a89-4d1a-b468-0280706d20c8",
       "layers": [
         "water"
       ],
@@ -357,7 +357,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-poland-silesian-voivodeship.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-greece.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -366,29 +366,23 @@
       "in": "query"
     }
   },
-  "title": "Poland Silesian Voivodeship",
+  "title": "Greece",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          18.647574,
-          50.194295668862814,
-          18.7758920195232,
-          50.274092
-        ],
-        [
-          18.647574,
-          50.194295668862814,
-          18.7758920195232,
-          50.274092
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-07-05T00:00:00Z",
-          "2024-09-18T00:00:00Z"
+          "2026-04-09T20:41:46.256729Z",
+          "2026-04-09T20:41:46.256729Z"
         ]
       ]
     }
