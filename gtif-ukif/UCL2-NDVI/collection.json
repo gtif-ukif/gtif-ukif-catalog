@@ -12,25 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-HRVPP-TPROD-S2/collection.json",
-      "type": "application/json",
-      "title": "Total Productivity Season 2 (HRVPP)",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "UCL4-HRVPP-TPROD-S2",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power",
-        "Vegetation Productivity"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL4-HRVPP-TPROD-S1/collection.json",
       "type": "application/json",
       "title": "Total Productivity Season 1 (HRVPP)",
@@ -50,11 +31,30 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-SPEI-Ireland/collection.json",
+      "href": "./UCL4-HRVPP-TPROD-S2/collection.json",
       "type": "application/json",
-      "title": "SPEI (Ireland)",
+      "title": "Total Productivity Season 2 (HRVPP)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "UCL4-HRVPP-TPROD-S2",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power",
+        "Vegetation Productivity"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-CROP-TYPES-MOSAIC/collection.json",
+      "type": "application/json",
+      "title": "Crop Types Mosaic (UK+EU38)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL2-SPEI-Ireland",
+      "id": "UCL1-CROP-TYPES-MOSAIC",
       "themes": [
         "food-security"
       ],
@@ -68,47 +68,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-SPEI-GB/collection.json",
+      "href": "./UCL2-NDVI-France/collection.json",
       "type": "application/json",
-      "title": "SPEI (GB)",
+      "title": "NDVI (France)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL2-SPEI-GB",
-      "themes": [
-        "food-security"
-      ],
-      "tags": [
-        "Drought Analysis/Forecast"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL2-SPEI-France/collection.json",
-      "type": "application/json",
-      "title": "SPEI (France)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL2-SPEI-France",
-      "themes": [
-        "food-security"
-      ],
-      "tags": [
-        "Drought Analysis/Forecast"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL2-NDVI-Ireland/collection.json",
-      "type": "application/json",
-      "title": "NDVI (Ireland)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-Ireland",
+      "id": "UCL2-NDVI-France",
       "themes": [
         "food-security"
       ],
@@ -140,11 +104,65 @@
     },
     {
       "rel": "child",
-      "href": "./UCL2-NDVI-France/collection.json",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
       "type": "application/json",
-      "title": "NDVI (France)",
+      "title": "NDVI (Ireland)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-France",
+      "id": "UCL2-NDVI-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-SPEI-France/collection.json",
+      "type": "application/json",
+      "title": "SPEI (France)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-France",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-SPEI-GB/collection.json",
+      "type": "application/json",
+      "title": "SPEI (GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-SPEI-Ireland/collection.json",
+      "type": "application/json",
+      "title": "SPEI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-Ireland",
       "themes": [
         "food-security"
       ],
@@ -299,7 +317,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3802e281-57c8-4fa3-b5f3-2b50041e7525"
+        "66162a03-6138-4cde-b81c-d8be5b5d2562"
       ]
     },
     {
@@ -312,7 +330,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "3802e281-57c8-4fa3-b5f3-2b50041e7525",
+      "key": "66162a03-6138-4cde-b81c-d8be5b5d2562",
       "layers": [
         "water"
       ],
@@ -423,10 +441,10 @@
     "spatial": {
       "bbox": [
         [
-          -11.104843049384266,
-          41.09076256724424,
+          -18.89777894452214,
+          38.38968703400335,
           12.18942204017344,
-          61.264240082289106
+          61.7936737106199
         ],
         [
           -11,
@@ -441,28 +459,16 @@
           61
         ],
         [
-          -11.104591164873993,
-          51.09510081393981,
-          -5.096869612666297,
-          55.60473592572955
-        ],
-        [
-          -8.899565067732734,
-          49.11835675764194,
-          4.804451125276599,
-          61.264240082289106
+          -18.89777894452214,
+          38.38968703400335,
+          11.492012924399585,
+          61.7936737106199
         ],
         [
           -5.619305428473922,
           41.09076256724424,
           12.18942204017344,
           51.419307761876006
-        ],
-        [
-          -11.104843049384266,
-          51.09510081393981,
-          -5.096869612666297,
-          55.60483167954299
         ],
         [
           -9.419263296774696,
@@ -471,10 +477,28 @@
           61.264240082289106
         ],
         [
+          -11.104843049384266,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60483167954299
+        ],
+        [
           -5.619305428473922,
           41.09076256724424,
           12.18942204017344,
           51.419307761876006
+        ],
+        [
+          -8.899565067732734,
+          49.11835675764194,
+          4.804451125276599,
+          61.264240082289106
+        ],
+        [
+          -11.104591164873993,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60473592572955
         ]
       ]
     },
@@ -490,8 +514,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "energy-transition",
-      "food-security"
+      "food-security",
+      "energy-transition"
     ]
   }
 }
