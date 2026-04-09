@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-ukraine",
+  "id": "EDA-methane-romania",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in eastern Ukraine. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on October 7th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident detection with EMIT on Aug 2, 2024 from a period of persistent excess emissions. Time series of the column of excess methane from waste in Vidra, Ilfov, Romania. UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-ukraine/collection.json",
+      "href": "./EDA-methane-romania/collection.json",
       "type": "application/json",
-      "title": "Ukraine",
+      "title": "Romania",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-ukraine",
+      "id": "EDA-methane-romania",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-ukraine_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-romania_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "599b2ac7-9d32-4b28-8497-05ba98197348"
+        "a0bac309-a7fd-4e90-880c-ee9670f1dc0d"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "599b2ac7-9d32-4b28-8497-05ba98197348",
+      "key": "a0bac309-a7fd-4e90-880c-ee9670f1dc0d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "99be609f-9836-4a2a-a8f8-fd028677f004"
+        "065d6224-fece-4b5e-88f0-b896d8ea8126"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "99be609f-9836-4a2a-a8f8-fd028677f004",
+      "key": "065d6224-fece-4b5e-88f0-b896d8ea8126",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2ad48384-0542-4394-aa5e-b1f8dc4425be"
+        "8220f449-3c9a-49be-9fc5-f76a0d585cf3"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "2ad48384-0542-4394-aa5e-b1f8dc4425be",
+      "key": "8220f449-3c9a-49be-9fc5-f76a0d585cf3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b22945d8-3a64-4f99-9a45-bb98fcf1e7b0"
+        "0ec9dca1-5c67-4096-87f9-d51ac94361df"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "b22945d8-3a64-4f99-9a45-bb98fcf1e7b0",
+      "key": "0ec9dca1-5c67-4096-87f9-d51ac94361df",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "71170c02-8988-4254-bcb1-b587d90f1178"
+        "ea3598ea-5476-47d1-86a2-0b302263be38"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "71170c02-8988-4254-bcb1-b587d90f1178",
+      "key": "ea3598ea-5476-47d1-86a2-0b302263be38",
       "layers": [
         "water"
       ],
@@ -357,7 +357,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-ukraine.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-romania.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -366,29 +366,29 @@
       "in": "query"
     }
   },
-  "title": "Ukraine",
+  "title": "Romania",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          37.100742,
-          48.23113997429483,
-          37.13154633182896,
-          48.302642
+          26.106256,
+          44.306226781082245,
+          26.15633556875304,
+          44.36026
         ],
         [
-          37.100742,
-          48.23113997429483,
-          37.13154633182896,
-          48.302642
+          26.106256,
+          44.306226781082245,
+          26.15633556875304,
+          44.36026
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-09-27T00:00:00Z",
-          "2024-12-18T00:00:00Z"
+          "2024-06-18T00:00:00Z",
+          "2025-05-04T00:00:00Z"
         ]
       ]
     }

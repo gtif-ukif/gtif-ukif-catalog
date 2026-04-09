@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-poland-silesian-voivodeship",
+  "id": "EDA-methane-romania",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident detection with EMIT on Aug 2, 2024 from a period of persistent excess emissions. Time series of the column of excess methane from waste in Vidra, Ilfov, Romania. UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland-silesian-voivodeship/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-romania/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Poland Silesian Voivodeship",
-      "key": "5fb47609-aaea-48d7-bf01-e1bfdbdb3784"
+      "title": "Romania",
+      "key": "18111c35-9dae-4b53-9d88-1b07329638be"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Poland Silesian Voivodeship"
+      "title": "Romania"
     }
   ],
   "themes": [
@@ -56,23 +56,23 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Poland Silesian Voivodeship",
+  "title": "Romania",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          18.647574,
-          50.194295668862814,
-          18.7758920195232,
-          50.274092
+          26.106256,
+          44.306226781082245,
+          26.15633556875304,
+          44.36026
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-07-05T00:00:00Z",
-          "2024-09-18T00:00:00Z"
+          "2024-06-18T00:00:00Z",
+          "2025-05-04T00:00:00Z"
         ]
       ]
     }
