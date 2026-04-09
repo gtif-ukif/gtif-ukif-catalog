@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-madrid",
+  "id": "EDA-methane-romania",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Romania. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2024 to February 2024, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on August 2nd, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-madrid/collection.json",
+      "href": "./EDA-methane-romania/collection.json",
       "type": "application/json",
-      "title": "Madrid Spain",
+      "title": "Romania",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-madrid",
+      "id": "EDA-methane-romania",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-madrid_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-romania_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "378ab932-2088-4027-a636-48012c094205"
+        "98992725-7727-4eaf-bac4-70de3bb4edb6"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "378ab932-2088-4027-a636-48012c094205",
+      "key": "98992725-7727-4eaf-bac4-70de3bb4edb6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2e43d719-6a2e-4c1b-9e11-9673494d6d74"
+        "60631250-4ee3-4613-aaf9-82f6f6d64b40"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2e43d719-6a2e-4c1b-9e11-9673494d6d74",
+      "key": "60631250-4ee3-4613-aaf9-82f6f6d64b40",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "070a8668-c0b9-4d91-a740-316eed395385"
+        "810080d9-1beb-426e-98ec-6b910ea4bd5d"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "070a8668-c0b9-4d91-a740-316eed395385",
+      "key": "810080d9-1beb-426e-98ec-6b910ea4bd5d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ac06cda5-56b3-41ce-9d88-1494a2f867d8"
+        "5f974395-1d22-4612-a875-f5f631b28d7e"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "ac06cda5-56b3-41ce-9d88-1494a2f867d8",
+      "key": "5f974395-1d22-4612-a875-f5f631b28d7e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b19f1da6-b7f9-4d3d-8027-2d69b9b99f24"
+        "2564f100-95fb-4424-bac7-623a650baa14"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "b19f1da6-b7f9-4d3d-8027-2d69b9b99f24",
+      "key": "2564f100-95fb-4424-bac7-623a650baa14",
       "layers": [
         "water"
       ],
@@ -338,8 +338,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      -0.1,
-      0.6
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -357,7 +357,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-madrid.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-romania.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -366,29 +366,29 @@
       "in": "query"
     }
   },
-  "title": "Madrid Spain",
+  "title": "Romania",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -3.67,
-          40.229837822507584,
-          -3.6098378225075813,
-          40.29
+          26.106256,
+          44.306226781082245,
+          26.15633556875304,
+          44.36026
         ],
         [
-          -3.67,
-          40.229837822507584,
-          -3.6098378225075813,
-          40.29
+          26.106256,
+          44.306226781082245,
+          26.15633556875304,
+          44.36026
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-06T00:00:00Z",
-          "2023-12-27T00:00:00Z"
+          "2024-06-18T00:00:00Z",
+          "2025-05-04T00:00:00Z"
         ]
       ]
     }

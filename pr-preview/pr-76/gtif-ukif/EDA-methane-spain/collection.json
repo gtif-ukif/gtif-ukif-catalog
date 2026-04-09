@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-madrid",
+  "id": "EDA-methane-spain",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Spain. We see a somewhat consistent excess of methane from about June 2025 to October 2025, along with a coincident Tanager and Sentinel-2 data on July 19th, 2025, and EMIT and Sentinel-2 on June 23, 2025 showing excess methane emissions. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT and Tanager satellites.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-madrid/collection.json",
+      "href": "./EDA-methane-spain/collection.json",
       "type": "application/json",
-      "title": "Madrid Spain",
+      "title": "Spain",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-madrid",
+      "id": "EDA-methane-spain",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-madrid_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-spain_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "378ab932-2088-4027-a636-48012c094205"
+        "4589c49d-3398-4bcd-a647-bda136755aee"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "378ab932-2088-4027-a636-48012c094205",
+      "key": "4589c49d-3398-4bcd-a647-bda136755aee",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2e43d719-6a2e-4c1b-9e11-9673494d6d74"
+        "e0fab0bd-8dae-4991-b33d-fa260d6ae817"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2e43d719-6a2e-4c1b-9e11-9673494d6d74",
+      "key": "e0fab0bd-8dae-4991-b33d-fa260d6ae817",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "070a8668-c0b9-4d91-a740-316eed395385"
+        "a225fd41-4afd-448f-9b86-79bb8aa8f6d4"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "070a8668-c0b9-4d91-a740-316eed395385",
+      "key": "a225fd41-4afd-448f-9b86-79bb8aa8f6d4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ac06cda5-56b3-41ce-9d88-1494a2f867d8"
+        "f458dceb-dc74-4468-a3c3-c39fc3d902db"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "ac06cda5-56b3-41ce-9d88-1494a2f867d8",
+      "key": "f458dceb-dc74-4468-a3c3-c39fc3d902db",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b19f1da6-b7f9-4d3d-8027-2d69b9b99f24"
+        "10706913-a803-4204-a80d-a8d1fe0f34f5"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "b19f1da6-b7f9-4d3d-8027-2d69b9b99f24",
+      "key": "10706913-a803-4204-a80d-a8d1fe0f34f5",
       "layers": [
         "water"
       ],
@@ -338,8 +338,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      -0.1,
-      0.6
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -357,7 +357,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-madrid.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-spain.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -366,29 +366,29 @@
       "in": "query"
     }
   },
-  "title": "Madrid Spain",
+  "title": "Spain",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -3.67,
-          40.229837822507584,
-          -3.6098378225075813,
-          40.29
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ],
         [
-          -3.67,
-          40.229837822507584,
-          -3.6098378225075813,
-          40.29
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-06T00:00:00Z",
-          "2023-12-27T00:00:00Z"
+          "2025-06-15T00:00:00Z",
+          "2025-09-26T00:00:00Z"
         ]
       ]
     }

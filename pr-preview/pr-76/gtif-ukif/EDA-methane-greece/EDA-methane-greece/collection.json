@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-france",
+  "id": "EDA-methane-greece",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Greece. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2023 to August 2023, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on July 23rd, 2023. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-france/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.9",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-greece/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "France",
-      "key": "8d64c36d-e2bc-4ae6-9d6b-d9a4738b5ff0"
+      "title": "Greece",
+      "key": "404e2218-a65b-4618-9a2a-224c1f1fe183"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "France"
+      "title": "Greece"
     }
   ],
   "themes": [
@@ -36,8 +36,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      -0.15,
-      0.9
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -56,23 +56,23 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "France",
+  "title": "Greece",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          3.5828,
-          50.337170624471106,
-          3.6429293755288943,
-          50.3973
+          23.066837,
+          40.839837254691176,
+          23.11613514449838,
+          40.895219
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-30T00:00:00Z",
-          "2023-12-11T00:00:00Z"
+          "2023-07-02T00:00:00Z",
+          "2023-08-11T00:00:00Z"
         ]
       ]
     }

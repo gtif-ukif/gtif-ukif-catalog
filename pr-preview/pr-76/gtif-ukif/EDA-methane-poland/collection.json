@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-poland",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over a coal mining site in Poland. The vertical dot-dashed lines correspond to detected methane plumes from the Tanager-1 satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8f3fbdc9-4727-4c9f-a119-7d32de48cfc8"
+        "4728a6a4-9326-44ef-acd5-58f35b849c61"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "8f3fbdc9-4727-4c9f-a119-7d32de48cfc8",
+      "key": "4728a6a4-9326-44ef-acd5-58f35b849c61",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "197ca5be-e601-423f-a62e-ea1bf40ff7c9"
+        "c8206333-166e-48c2-8807-e16377ae8701"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "197ca5be-e601-423f-a62e-ea1bf40ff7c9",
+      "key": "c8206333-166e-48c2-8807-e16377ae8701",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cc0cc934-6083-46d8-ae78-5e76ffa1d5c0"
+        "11c6a8a5-c4cc-40fb-8350-62d5986b73ff"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "cc0cc934-6083-46d8-ae78-5e76ffa1d5c0",
+      "key": "11c6a8a5-c4cc-40fb-8350-62d5986b73ff",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f6f72c39-4656-484e-ade0-efb73f951ce0"
+        "27e827a4-4b66-4357-9904-8b469f241b42"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "f6f72c39-4656-484e-ade0-efb73f951ce0",
+      "key": "27e827a4-4b66-4357-9904-8b469f241b42",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c45b36cb-fee8-4d43-95ff-9336e4c3c7c7"
+        "0842c9c3-6012-4dc2-9481-be7bb85d22fc"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "c45b36cb-fee8-4d43-95ff-9336e4c3c7c7",
+      "key": "0842c9c3-6012-4dc2-9481-be7bb85d22fc",
       "layers": [
         "water"
       ],

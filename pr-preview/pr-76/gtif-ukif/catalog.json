@@ -29,6 +29,23 @@
     },
     {
       "rel": "child",
+      "href": "./EDA-methane-greece/collection.json",
+      "type": "application/json",
+      "title": "Greece",
+      "id": "EDA-methane-greece",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./EDA-methane-madrid/collection.json",
       "type": "application/json",
       "title": "Madrid Spain",
@@ -50,6 +67,40 @@
       "type": "application/json",
       "title": "Poland",
       "id": "EDA-methane-poland",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-romania/collection.json",
+      "type": "application/json",
+      "title": "Romania",
+      "id": "EDA-methane-romania",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-spain/collection.json",
+      "type": "application/json",
+      "title": "Spain",
+      "id": "EDA-methane-spain",
       "themes": [
         "carbon-accounting"
       ],

@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-madrid",
+  "id": "EDA-methane-greece",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Greece. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2023 to August 2023, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on July 23rd, 2023. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-madrid/collection.json",
+      "href": "./EDA-methane-greece/collection.json",
       "type": "application/json",
-      "title": "Madrid Spain",
+      "title": "Greece",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-madrid",
+      "id": "EDA-methane-greece",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-madrid_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-greece_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "378ab932-2088-4027-a636-48012c094205"
+        "f4e36c92-a891-482c-ad2f-725179146147"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "378ab932-2088-4027-a636-48012c094205",
+      "key": "f4e36c92-a891-482c-ad2f-725179146147",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2e43d719-6a2e-4c1b-9e11-9673494d6d74"
+        "4cf676c2-cefe-4819-9d79-bcc9d18fdbae"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2e43d719-6a2e-4c1b-9e11-9673494d6d74",
+      "key": "4cf676c2-cefe-4819-9d79-bcc9d18fdbae",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "070a8668-c0b9-4d91-a740-316eed395385"
+        "c9385819-a991-4926-b6b6-abd7b172e20e"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "070a8668-c0b9-4d91-a740-316eed395385",
+      "key": "c9385819-a991-4926-b6b6-abd7b172e20e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ac06cda5-56b3-41ce-9d88-1494a2f867d8"
+        "63017c27-9f4f-4024-a321-8783f5a4fbf3"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "ac06cda5-56b3-41ce-9d88-1494a2f867d8",
+      "key": "63017c27-9f4f-4024-a321-8783f5a4fbf3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b19f1da6-b7f9-4d3d-8027-2d69b9b99f24"
+        "1ab233c0-8aa2-42b9-afa3-bc9958ece309"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "b19f1da6-b7f9-4d3d-8027-2d69b9b99f24",
+      "key": "1ab233c0-8aa2-42b9-afa3-bc9958ece309",
       "layers": [
         "water"
       ],
@@ -338,8 +338,8 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      -0.1,
-      0.6
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -357,7 +357,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-madrid.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-greece.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -366,29 +366,29 @@
       "in": "query"
     }
   },
-  "title": "Madrid Spain",
+  "title": "Greece",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -3.67,
-          40.229837822507584,
-          -3.6098378225075813,
-          40.29
+          23.066837,
+          40.839837254691176,
+          23.11613514449838,
+          40.895219
         ],
         [
-          -3.67,
-          40.229837822507584,
-          -3.6098378225075813,
-          40.29
+          23.066837,
+          40.839837254691176,
+          23.11613514449838,
+          40.895219
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-06T00:00:00Z",
-          "2023-12-27T00:00:00Z"
+          "2023-07-02T00:00:00Z",
+          "2023-08-11T00:00:00Z"
         ]
       ]
     }
