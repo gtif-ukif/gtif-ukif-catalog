@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-spain",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident with Tanager on Jul 19, 2025, EMIT on Jun 23, 2025 during a period of excess emissions. Time series of the column of excess methane from waste in Murcia, Spain (~1 ton/hr, multiple detections). UNEP persistency score: Undetermined. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Spain. We see a somewhat consistent excess of methane from about June 2025 to October 2025, along with a coincident Tanager and Sentinel-2 data on July 19th, 2025, and EMIT and Sentinel-2 on June 23, 2025 showing excess methane emissions. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT and Tanager satellites.",
   "links": [
     {
       "rel": "root",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b441e683-6007-447d-bb2a-42a057be86a0"
+        "4b1d2095-62d9-4abd-8044-a77f01e60507"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "b441e683-6007-447d-bb2a-42a057be86a0",
+      "key": "4b1d2095-62d9-4abd-8044-a77f01e60507",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "79df4372-be83-4311-b815-fe0bebe89a2b"
+        "af65e80d-4bb7-40b4-9948-72017c32159e"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "79df4372-be83-4311-b815-fe0bebe89a2b",
+      "key": "af65e80d-4bb7-40b4-9948-72017c32159e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bfbb541f-b6b0-4c4c-8901-684e769e081f"
+        "d44fea05-54bc-4862-ba8a-c6bd40828745"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "bfbb541f-b6b0-4c4c-8901-684e769e081f",
+      "key": "d44fea05-54bc-4862-ba8a-c6bd40828745",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f8defcd7-ace7-4670-9a3c-293586d1f01c"
+        "45e65b66-8816-4a45-8bbd-b6c87067cf35"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "f8defcd7-ace7-4670-9a3c-293586d1f01c",
+      "key": "45e65b66-8816-4a45-8bbd-b6c87067cf35",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "81323f7b-e398-4606-a815-a6120be21dc3"
+        "9c40de75-0a35-4da2-8785-ebb5d7f2649c"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "81323f7b-e398-4606-a815-a6120be21dc3",
+      "key": "9c40de75-0a35-4da2-8785-ebb5d7f2649c",
       "layers": [
         "water"
       ],

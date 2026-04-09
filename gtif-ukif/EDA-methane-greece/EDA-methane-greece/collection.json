@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-greece",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident date with EMIT Jul 27, 2023. Time series of the column of excess methane from waste in Assiros, Central Macedonia, Greece (1.9 ton/hr). UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Greece. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2023 to August 2023, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on July 23rd, 2023. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-greece/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
       "title": "Greece",
-      "key": "a083c273-d8cc-485c-b348-4ae82bdd461e"
+      "key": "6b57b39d-9644-497b-9779-a15598adc6b5"
     },
     {
       "rel": "parent",

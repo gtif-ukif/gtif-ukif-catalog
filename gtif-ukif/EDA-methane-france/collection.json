@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-france",
   "stac_version": "1.1.0",
-  "description": "Time series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -30,11 +30,10 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-france/statistics?assets=asset",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-france_chart_data.json",
       "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
+      "id": "precomputed_statistics",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -190,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4621b27f-706d-4541-aece-35bbf236f1e7"
+        "472c62c5-4a75-423d-8db6-b6615e6978cf"
       ]
     },
     {
@@ -203,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "4621b27f-706d-4541-aece-35bbf236f1e7",
+      "key": "472c62c5-4a75-423d-8db6-b6615e6978cf",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "376d1fb0-fd23-4134-9459-2827dac6a980"
+        "ff1c506f-9354-4a54-a695-53939506c9e1"
       ]
     },
     {
@@ -226,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "376d1fb0-fd23-4134-9459-2827dac6a980",
+      "key": "ff1c506f-9354-4a54-a695-53939506c9e1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f431caf0-3961-4b17-b3e9-adf87c6eba9e"
+        "f8d0e028-db94-4ea4-8096-4849e99d6f99"
       ]
     },
     {
@@ -249,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "f431caf0-3961-4b17-b3e9-adf87c6eba9e",
+      "key": "f8d0e028-db94-4ea4-8096-4849e99d6f99",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1d7d9cd1-abd2-4192-b001-af9864cf71e3"
+        "305114f1-16fc-4d32-8e78-2e5acc5b50b7"
       ]
     },
     {
@@ -272,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "1d7d9cd1-abd2-4192-b001-af9864cf71e3",
+      "key": "305114f1-16fc-4d32-8e78-2e5acc5b50b7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c5bc4b02-f2d5-4b05-8638-ed191c309d0c"
+        "0d186cb5-9adf-4838-9501-096072b04ada"
       ]
     },
     {
@@ -295,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "c5bc4b02-f2d5-4b05-8638-ed191c309d0c",
+      "key": "0d186cb5-9adf-4838-9501-096072b04ada",
       "layers": [
         "water"
       ],
@@ -358,8 +357,8 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-france.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",

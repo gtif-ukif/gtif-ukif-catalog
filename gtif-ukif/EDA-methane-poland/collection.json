@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-poland",
   "stac_version": "1.1.0",
-  "description": "Time series of the column of excess methane over a coal mining site in Poland. The vertical dot-dashed lines correspond to detected methane plumes from the Tanager-1 satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -30,11 +30,10 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland/statistics?assets=asset",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland_chart_data.json",
       "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
+      "id": "precomputed_statistics",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -190,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8b0c440f-50e0-4352-8dbd-06d653a8ce97"
+        "804eac0c-9384-40fc-ae62-dbe41f10a5f6"
       ]
     },
     {
@@ -203,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "8b0c440f-50e0-4352-8dbd-06d653a8ce97",
+      "key": "804eac0c-9384-40fc-ae62-dbe41f10a5f6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3fd5a950-9d15-4dd1-978c-a1a9ce09e179"
+        "4eefaac0-8227-4330-b723-c6a33abfa7a5"
       ]
     },
     {
@@ -226,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "3fd5a950-9d15-4dd1-978c-a1a9ce09e179",
+      "key": "4eefaac0-8227-4330-b723-c6a33abfa7a5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "11860066-5129-425b-864c-f4577076713c"
+        "2173a8df-7ace-4bf6-a115-28285f7aec9a"
       ]
     },
     {
@@ -249,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "11860066-5129-425b-864c-f4577076713c",
+      "key": "2173a8df-7ace-4bf6-a115-28285f7aec9a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "534f8d20-eeb6-4bcc-8c63-233b66251ecb"
+        "c93292fe-dc3e-4a89-a738-7debd6a5a7a2"
       ]
     },
     {
@@ -272,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "534f8d20-eeb6-4bcc-8c63-233b66251ecb",
+      "key": "c93292fe-dc3e-4a89-a738-7debd6a5a7a2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "821c74fb-4bfb-4820-8d95-5f78b41f027b"
+        "c2cae0a6-c4be-4566-8997-5265c56b80fe"
       ]
     },
     {
@@ -295,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "821c74fb-4bfb-4820-8d95-5f78b41f027b",
+      "key": "c2cae0a6-c4be-4566-8997-5265c56b80fe",
       "layers": [
         "water"
       ],
@@ -358,8 +357,8 @@
     "tickFormat": ".2f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-poland.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",

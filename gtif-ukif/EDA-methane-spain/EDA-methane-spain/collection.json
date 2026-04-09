@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-spain",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident with Tanager on Jul 19, 2025, EMIT on Jun 23, 2025 during a period of excess emissions. Time series of the column of excess methane from waste in Murcia, Spain (~1 ton/hr, multiple detections). UNEP persistency score: Undetermined. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Spain. We see a somewhat consistent excess of methane from about June 2025 to October 2025, along with a coincident Tanager and Sentinel-2 data on July 19th, 2025, and EMIT and Sentinel-2 on June 23, 2025 showing excess methane emissions. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT and Tanager satellites.",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-spain/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
       "title": "Spain",
-      "key": "7cb75544-4fba-49ac-bd80-ab93483c21f2"
+      "key": "89e5e19a-4ad2-42ae-982f-7f2577345ad3"
     },
     {
       "rel": "parent",

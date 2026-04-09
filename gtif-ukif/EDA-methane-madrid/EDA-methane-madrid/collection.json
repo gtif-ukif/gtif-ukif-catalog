@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-madrid",
   "stac_version": "1.1.0",
-  "description": "Time series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.1,0.6",
       "type": "image/png",
       "title": "Madrid Spain",
-      "key": "c40a2eaa-e893-4a9f-a726-5d77ac6e4ea7"
+      "key": "4680adb9-2a4c-498c-bfed-2193145de9e1"
     },
     {
       "rel": "parent",
@@ -52,7 +52,7 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".2f",
+    "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",

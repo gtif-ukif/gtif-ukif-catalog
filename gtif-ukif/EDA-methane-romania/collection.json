@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-romania",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident detection with EMIT on Aug 2, 2024 from a period of persistent excess emissions. Time series of the column of excess methane from waste in Vidra, Ilfov, Romania. UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Romania. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2024 to February 2024, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on August 2nd, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a025fa91-c4b1-43fb-a1cc-119297c61c8f"
+        "7da07ce5-f5e0-42d1-afb4-caddbe54f0f1"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "a025fa91-c4b1-43fb-a1cc-119297c61c8f",
+      "key": "7da07ce5-f5e0-42d1-afb4-caddbe54f0f1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -212,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1af37226-8fc2-4f0d-aaa5-a5ac708326d3"
+        "efc0d988-9e30-4d5b-ab76-7d38e9648ba6"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "1af37226-8fc2-4f0d-aaa5-a5ac708326d3",
+      "key": "efc0d988-9e30-4d5b-ab76-7d38e9648ba6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -235,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6a74a75b-6e74-42da-bc4d-0ad5ed8543ed"
+        "2405128e-d92d-40b3-9b8f-b2456c934578"
       ]
     },
     {
@@ -248,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "6a74a75b-6e74-42da-bc4d-0ad5ed8543ed",
+      "key": "2405128e-d92d-40b3-9b8f-b2456c934578",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -258,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "55cd574a-54f2-4318-8ee7-b40c292eed60"
+        "da55412f-b58c-42c9-b091-424e686f7b78"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "55cd574a-54f2-4318-8ee7-b40c292eed60",
+      "key": "da55412f-b58c-42c9-b091-424e686f7b78",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -281,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f87f7de9-73de-4ac2-94d9-a3a3d64dc410"
+        "8b2fd2a8-4d94-48ea-8660-b01aaaf585de"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "f87f7de9-73de-4ac2-94d9-a3a3d64dc410",
+      "key": "8b2fd2a8-4d94-48ea-8660-b01aaaf585de",
       "layers": [
         "water"
       ],

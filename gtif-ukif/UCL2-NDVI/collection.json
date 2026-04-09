@@ -299,7 +299,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "425a9b6a-0981-41f7-a3a5-f9b99cc0535b"
+        "3802e281-57c8-4fa3-b5f3-2b50041e7525"
       ]
     },
     {
@@ -312,7 +312,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "425a9b6a-0981-41f7-a3a5-f9b99cc0535b",
+      "key": "3802e281-57c8-4fa3-b5f3-2b50041e7525",
       "layers": [
         "water"
       ],
@@ -490,8 +490,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "food-security",
-      "energy-transition"
+      "energy-transition",
+      "food-security"
     ]
   }
 }

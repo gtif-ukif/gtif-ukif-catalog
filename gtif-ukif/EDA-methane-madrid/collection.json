@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-madrid",
   "stac_version": "1.1.0",
-  "description": "Time series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -30,11 +30,10 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/statistics?assets=asset",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-madrid_chart_data.json",
       "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
+      "id": "precomputed_statistics",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -190,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ace6d1e7-db1e-44fc-a3be-0685f52f5fce"
+        "3e2b0836-8d6d-42f6-98a5-10ad1a3a7d16"
       ]
     },
     {
@@ -203,7 +202,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "ace6d1e7-db1e-44fc-a3be-0685f52f5fce",
+      "key": "3e2b0836-8d6d-42f6-98a5-10ad1a3a7d16",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -213,7 +212,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f47b55e2-090c-4062-9ffb-e2ca09c10709"
+        "7020daf7-4197-45ad-b2c2-9b28aaaf3d21"
       ]
     },
     {
@@ -226,7 +225,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "f47b55e2-090c-4062-9ffb-e2ca09c10709",
+      "key": "7020daf7-4197-45ad-b2c2-9b28aaaf3d21",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,7 +235,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1bf1469d-09e8-45d8-890b-130aa7e4a14a"
+        "16a58038-4fc7-47f7-a17f-da38e797623e"
       ]
     },
     {
@@ -249,7 +248,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "1bf1469d-09e8-45d8-890b-130aa7e4a14a",
+      "key": "16a58038-4fc7-47f7-a17f-da38e797623e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +258,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "37d31b91-a9ed-43c2-8bce-b69a7b2f07c3"
+        "02cb33e8-949c-4f76-9a59-1e60b55136e6"
       ]
     },
     {
@@ -272,7 +271,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "37d31b91-a9ed-43c2-8bce-b69a7b2f07c3",
+      "key": "02cb33e8-949c-4f76-9a59-1e60b55136e6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -282,7 +281,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "816236f7-4327-4295-8213-675e65da324f"
+        "dbae3288-6111-407c-945c-a4c4fd8e70e7"
       ]
     },
     {
@@ -295,7 +294,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "816236f7-4327-4295-8213-675e65da324f",
+      "key": "dbae3288-6111-407c-945c-a4c4fd8e70e7",
       "layers": [
         "water"
       ],
@@ -355,11 +354,11 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".2f",
+    "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-madrid.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",

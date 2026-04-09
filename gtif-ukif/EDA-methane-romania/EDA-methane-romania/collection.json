@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-romania",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nCoincident detection with EMIT on Aug 2, 2024 from a period of persistent excess emissions. Time series of the column of excess methane from waste in Vidra, Ilfov, Romania. UNEP classifies this location as a persistent emitter of methane. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Romania. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2024 to February 2024, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on August 2nd, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-romania/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
       "title": "Romania",
-      "key": "d33a0b8f-f5cf-4146-9f73-0a9e503758a0"
+      "key": "b7ac6aed-baef-483b-9467-f106c6be4859"
     },
     {
       "rel": "parent",
