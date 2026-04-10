@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL4-HRVPP-PPI",
+  "id": "UCL4-HRVPP-TPROD-S2",
   "stac_version": "1.1.0",
-  "description": "The Plant Phenology Index (PPI) is a phenology indicator derived from the Copernicus HR-VPP (High Resolution Vegetation Phenology and Productivity) Seasonal Trajectories product at 10m resolution. PPI values represent near-real-time vegetation phenological activity across Europe. Data is available every 10 days from 2017 to present.",
+  "description": "Total Productivity (TPROD) Season 2 is a vegetation phenology parameter derived from the Copernicus HR-VPP (High Resolution Vegetation Phenology and Productivity) product at 10m resolution. TPROD represents the growing season integral for the secondary growing season, computed as the sum of all daily Plant Phenology Index values between the start and end of the season. Data is available annually from 2017 to present.",
   "links": [
     {
       "rel": "root",
@@ -14,8 +14,8 @@
       "rel": "wmts",
       "href": "https://phenology.vgt.vito.be/wmts",
       "type": "image/png",
-      "title": "Plant Phenology Index (HRVPP)",
-      "wmts:layer": "CLMS_HRVPP_ST_PPI_10M",
+      "title": "Total Productivity Season 2 (HRVPP)",
+      "wmts:layer": "CLMS_HRVPP_VPP_TPROD_SEASON2_10M",
       "role": [
         "data"
       ],
@@ -23,7 +23,7 @@
         "style": "default",
         "matrixSet": "EPSG:3857"
       },
-      "key": "f7a618a0-8408-46f2-a028-a320aaf9a36f"
+      "key": "83803386-a182-4a15-8c13-c973307f3f6b"
     },
     {
       "rel": "parent",
@@ -37,7 +37,7 @@
   ],
   "tags": [
     "Solar Rural Power",
-    "Vegetation Phenology"
+    "Vegetation Productivity"
   ],
   "agency": [
     "ESA"
@@ -46,26 +46,27 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      3
+      300
     ],
     "range": [
-      "#C46439",
-      "#E3CC1B",
-      "#B3F408",
-      "#5FF538",
-      "#00DBDB",
-      "#17A9A1",
-      "#1B7E8A",
-      "#135782",
-      "#0A2D7A"
+      "#730000",
+      "#A57300",
+      "#FFA500",
+      "#FFBEB9",
+      "#FFEBB9",
+      "#E6FFC3",
+      "#A0FF6E",
+      "#73A505",
+      "#146E8C",
+      "#0A2D7D"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "PPI"
+    "tickFormat": ".0f",
+    "title": "TPROD"
   },
   "proj:epsg": 3857,
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "Plant Phenology Index (HRVPP)",
+  "title": "Total Productivity Season 2 (HRVPP)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -81,7 +82,7 @@
       "interval": [
         [
           "2017-01-01T00:00:00Z",
-          "2024-12-21T00:00:00Z"
+          "2024-01-01T00:00:00Z"
         ]
       ]
     }
