@@ -18,6 +18,7 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "COMP-lst-anomaly-2020-2025",
+      "Bbox": [-0.612126, 51.333132, 0.426082, 51.699321],
       "ColormapName": "turbo",
       "Assets": [
         "asset"
@@ -26,7 +27,11 @@
         -5,
         5
       ],
-      "NoData": 0
+      "NoData": 0,
+      "DateTimeInterval": {
+        "Start": "2020-01-01T00:00:00Z",
+        "End": "2025-01-01T00:00:00Z"
+      }
     }
   ],
   "Colorlegend": {

@@ -18,6 +18,7 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "COMP-Mean-LST-2022-2024-Summer",
+      "Bbox": [-9.69792, 41.92469, 9.44642, 57.15736],
       "ColormapName": "turbo",
       "Assets": [
         "asset"
@@ -25,7 +26,8 @@
       "Rescale": [
         0,
         56
-      ]      
+      ],
+      "Times": ["2022-01-01T00:00:00Z"]
     }
   ],
   "Colorlegend": {

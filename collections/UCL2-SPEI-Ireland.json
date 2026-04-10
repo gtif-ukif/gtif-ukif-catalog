@@ -1,0 +1,58 @@
+{
+  "Name": "UCL2-SPEI-Ireland",
+  "Title": "SPEI (Ireland)",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "food-security"
+  ],
+  "Tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "Description": "Standardised Precipitation-Evapotranspiration Index (SPEI) for Ireland. SPEI is a multi-scalar drought index based on precipitation and temperature data. Negative values indicate drought conditions, positive values indicate wet conditions.",
+  "Resources": [
+    {
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Name": "VEDA",
+      "Type": "tiles",
+      "CollectionId": "UCL2-SPEI-Ireland",
+      "Bbox": [-9.69792, 41.92469, 9.44642, 57.15736],
+      "ColormapName": "rdbu",
+      "Rescale": [
+        -2.5,
+        2.5
+      ],
+      "Assets": [
+        "asset"
+      ],
+      "DateTimeInterval": {
+        "Start": "2018-01-01T00:00:00Z",
+        "End": "today"
+      }
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      -2.5,
+      2.5
+    ],
+    "range": [
+      "#67001f",
+      "#b2182b",
+      "#d6604d",
+      "#f4a582",
+      "#fddbc7",
+      "#f7f7f7",
+      "#d1e5f0",
+      "#92c5de",
+      "#4393c3",
+      "#2166ac",
+      "#053061"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "SPEI"
+  },
+  "Agency": [
+    "ESA"
+  ]
+}

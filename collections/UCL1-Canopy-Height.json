@@ -1,0 +1,55 @@
+{
+  "Name": "UCL1-Canopy-Height",
+  "Title": "Canopy Height Model (10m)",
+  "CollectionGroup": "Other",
+  "Description": "Canopy Height Model (CHM) at 10m resolution clipped to the UKIF area. Derived from Meta-WRI global canopy height dataset. Values represent tree height in metres (range 3–24m).",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Resources": [
+    {
+      "Name": "VEDA",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Type": "tiles",
+      "CollectionId": "UCL1-Canopy-Height",
+      "Bbox": [-9.69792, 41.92469, 9.44642, 57.15736],
+      "ColormapName": "rdylgn",
+      "Rescale": [
+        3,
+        24
+      ],
+      "Assets": [
+        "asset"
+      ],
+      "Times": ["2023-01-01T00:00:00Z"]
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Colorlegend": {
+    "domain": [
+      3,
+      24
+    ],
+    "range": [
+      "#a50026",
+      "#d73027",
+      "#f46d43",
+      "#fdae61",
+      "#fee08b",
+      "#ffffbf",
+      "#d9ef8b",
+      "#a6d96a",
+      "#66bd63",
+      "#1a9850",
+      "#006837"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Canopy Height (m)"
+  }
+}
