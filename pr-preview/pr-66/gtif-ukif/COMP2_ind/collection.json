@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP_Imperviousness_UHI",
+  "id": "COMP2_ind",
   "stac_version": "1.1.0",
-  "description": "Two-band raster combining Imperviousness (band 1, 0–100%) and Urban Heat Island mean intensity (band 2, °C) for statistical analysis. Used internally by the Imperviousness and UHI indicator for histogram generation.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and urban land cover classes derived from CORINE Land Cover Mapping (LCM) reflects how different surface types influence the way heat is absorbed, stored, and released across cities. CORINE’s detailed classification helps distinguish between dense urban fabric, discontinuous residential areas, industrial zones, transport networks, and green urban spaces — each contributing differently to local temperature patterns. \n\nAreas classified as continuous urban fabric typically show the strongest UHI intensities. These zones contain tightly packed buildings, extensive paved surfaces, and minimal vegetation, all of which promote efficient heat absorption during the day and slow heat release at night. Industrial and commercial units also tend to exhibit elevated surface temperatures due to large expanses of concrete, metal structures, and high energy use. \n\nIn contrast, CORINE classes such as green urban areas, forests, and natural grasslands correspond to much cooler surfaces. These vegetated zones provide shading and evaporative cooling, reducing local temperatures and helping to buffer the warming effect from nearby built-up land. The spatial mix of these land cover types strongly shapes the UHI intensity across urban regions, highlighting the role of green infrastructure and land-use planning in moderating urban heat. \n",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./COMP_Imperviousness_UHI/collection.json",
+      "href": "./COMP2_lcm/collection.json",
       "type": "application/json",
-      "title": "Imperviousness and UHI (2-band)",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness_UHI",
+      "title": "CORINE LCM",
+      "endpointtype": "VectorTile source",
+      "id": "COMP2_lcm",
       "themes": [
         "sustainable-cities"
       ],
@@ -27,6 +27,32 @@
         "ESA"
       ],
       "collection_group": "Land Cover"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP5/collection.json",
+      "type": "application/json",
+      "title": "UHI Mean 2022-2024",
+      "endpointtype": "VEDA_tiles",
+      "id": "COMP5",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Urban Heat Island"
+    },
+    {
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/statistics?assets=asset&histogram_bins=16&ids=UHI_UKIEFR_MEAN_2022_2024_cog",
+      "type": "application/json",
+      "id": "comp2_histogram",
+      "method": "POST",
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP2/comp2_lcm_histogram_body.json"
     },
     {
       "rel": "xyz",
@@ -168,146 +194,44 @@
     },
     {
       "rel": "xyz",
-      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
       "type": "image/png",
-      "title": "Place names",
+      "title": "ESA World Cover WC21 UK Mosaic",
       "roles": [
         "overlay",
         "invisible"
       ],
-      "id": "overlay_bright"
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "ac4834ac-5e4c-4a48-9d88-79a6061e2f78"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Solar Panels © UCL/Oxford 2025",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SolarPanels",
-      "key": "ac4834ac-5e4c-4a48-9d88-79a6061e2f78",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "9fcd3835-1f3b-4a80-813d-2d2530b60586"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Site of Special Scientific Interest",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "SSSI",
-      "key": "9fcd3835-1f3b-4a80-813d-2d2530b60586",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "39b83138-1722-40cc-8a82-03a93c3efda8"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "National Parks",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "NationalParks",
-      "key": "39b83138-1722-40cc-8a82-03a93c3efda8",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "98071e14-ec34-4ab3-9fa6-7f3124928d8d"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Natural Landscapes",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "AONB",
-      "key": "98071e14-ec34-4ab3-9fa6-7f3124928d8d",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "b3b6619e-9e53-4f4b-b97e-66f2662159d0"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Water Mask",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "MapboxWaterMask",
-      "key": "b3b6619e-9e53-4f4b-b97e-66f2662159d0",
-      "layers": [
-        "water"
-      ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "mapbox-style-document",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "type": "application/json",
-      "title": "Open Infrastructure Map",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "Openinframap",
-      "auth:refs": [
-        "mapboxauth"
-      ]
+      "id": "WC21",
+      "eox:colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Grassland",
+          "Cropland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
     },
     {
       "rel": "parent",
@@ -315,9 +239,6 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
-  ],
-  "stac_extensions": [
-    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "sustainable-cities"
@@ -329,36 +250,37 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
-  "auth:schemes": {
-    "mapboxauth": {
-      "type": "apiKey",
-      "name": "access_token",
-      "in": "query"
-    }
-  },
-  "title": "Imperviousness and UHI (2-band)",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP2/comp2_lcm_histogram_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP2/comp2_lcm_histogram_vega.json",
+  "title": "Urban Classes and UHI",
   "extent": {
     "spatial": {
       "bbox": [
         [
           -10.732621857017984,
-          41.00360112315,
-          9.706425338225367,
-          61.215695036
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
+        ],
+        [
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
         ],
         [
           -10.732621857017984,
-          41.00360112315,
-          9.706425338225367,
-          61.215695036
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-11-17T00:00:00Z",
-          "2025-11-17T00:00:00Z"
+          "2022-05-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
