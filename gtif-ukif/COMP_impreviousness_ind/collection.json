@@ -47,6 +47,14 @@
       "collection_group": "Land Cover"
     },
     {
+      "rel": "service",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Imperviousness-UHI/statistics?assets=asset&histogram_bins=20&ids=COMP_imperviousness_uhi_cog",
+      "type": "application/json",
+      "id": "imperviousness_uhi_histogram",
+      "method": "POST",
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP_imperviousness/imperviousness_uhi_histogram_body.json"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -242,6 +250,8 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP_imperviousness/imperviousness_uhi_histogram_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP_imperviousness/imperviousness_uhi_histogram_vega.json",
   "title": "Imperviousness and UHI",
   "extent": {
     "spatial": {
