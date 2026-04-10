@@ -10,7 +10,7 @@
       "id": "eo_plumes_so2",
       "name": "EO Plumes SO2",
       "url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/eo_plumes_so2.geojson",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_methane_process_assets/collections/EDA-methane-detection/eo_plumes_so2_style.json",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/eo_plumes_so2_style.json",
       "protocol": "GeoJSON source",
       "visible": false,
       "attribution": "{ EO Plumes: Data derived from the live <a href=\"https://www.eoplumes.com/plume-map\" target=\"_blank\">EO Plumes sulphur dioxide plume map</a> snapshot }"
