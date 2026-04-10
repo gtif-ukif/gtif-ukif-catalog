@@ -1,6 +1,6 @@
 {
-  "Name": "EDA-methane-poland",
-  "Title": "Poland",
+  "Name": "EDA-methane-poland-silesian-voivodeship",
+  "Title": "Poland Silesian Voivodeship",
   "CollectionGroup": "Other",
   "Themes": [
     "carbon-accounting"
@@ -14,11 +14,11 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
       "Type": "tiles",
-      "CollectionId": "EDA-methane-poland",
+      "CollectionId": "EDA-methane-poland-silesian-voivodeship",
       "ColormapName": "seismic",
       "Rescale": [
         -3,
-        0.5
+        3
       ],
       "Assets": [
         "asset"
@@ -28,10 +28,10 @@
   "Process": {
     "Name": "Precomputed Statistics",
     "VegaDefinition": "collections/EDA-methane/vega.json",
-    "JsonForm": "collections/EDA-methane/jsonform-poland.json",
+    "JsonForm": "collections/EDA-methane/jsonform-poland-silesian-voivodeship.json",
     "EndPoints": [
       {
-        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland_chart_data.json",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland-silesian-voivodeship_chart_data.json",
         "Identifier": "precomputed_statistics",
         "Type": "application/json"
       }
@@ -40,7 +40,7 @@
   "Colorlegend": {
     "domain": [
       -3,
-      0.5
+      3
     ],
     "range": [
       "#00004c",
@@ -55,7 +55,7 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".2f",
+    "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
   "Agency": [

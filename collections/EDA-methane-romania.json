@@ -1,6 +1,6 @@
 {
-  "Name": "EDA-methane-poland",
-  "Title": "Poland",
+  "Name": "EDA-methane-romania",
+  "Title": "Romania",
   "CollectionGroup": "Other",
   "Themes": [
     "carbon-accounting"
@@ -8,17 +8,17 @@
   "Tags": [
     "Methane Emissions Analysis"
   ],
-  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Romania. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2024 to February 2024, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on August 2nd, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
       "Type": "tiles",
-      "CollectionId": "EDA-methane-poland",
+      "CollectionId": "EDA-methane-romania",
       "ColormapName": "seismic",
       "Rescale": [
         -3,
-        0.5
+        3
       ],
       "Assets": [
         "asset"
@@ -28,10 +28,10 @@
   "Process": {
     "Name": "Precomputed Statistics",
     "VegaDefinition": "collections/EDA-methane/vega.json",
-    "JsonForm": "collections/EDA-methane/jsonform-poland.json",
+    "JsonForm": "collections/EDA-methane/jsonform-romania.json",
     "EndPoints": [
       {
-        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland_chart_data.json",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-romania_chart_data.json",
         "Identifier": "precomputed_statistics",
         "Type": "application/json"
       }
@@ -40,7 +40,7 @@
   "Colorlegend": {
     "domain": [
       -3,
-      0.5
+      3
     ],
     "range": [
       "#00004c",
@@ -55,7 +55,7 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".2f",
+    "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
   "Agency": [

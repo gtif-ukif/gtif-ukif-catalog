@@ -18,6 +18,7 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "COMP-SDGSat-1-LST-London",
+      "Bbox": [-0.612126, 51.333132, 0.426082, 51.699321],
       "ColormapName": "turbo",
       "Assets": [
         "asset"
@@ -25,7 +26,8 @@
       "Rescale": [
         10,
         34
-      ]
+      ],
+      "Times": ["2022-01-01T00:00:00Z"]
     }
   ],
   "Colorlegend": {

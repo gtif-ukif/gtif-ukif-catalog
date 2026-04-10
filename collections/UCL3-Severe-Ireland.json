@@ -15,6 +15,7 @@
       "Name": "VEDA",
       "Type": "tiles",
       "CollectionId": "UCL3-Severe-Ireland",
+      "Bbox": [-9.69792, 41.92469, 9.44642, 57.15736],
       "ColormapName": "jet",
       "Rescale": [
         30,
@@ -22,7 +23,11 @@
       ],
       "Assets": [
         "asset"
-      ]
+      ],
+      "DateTimeInterval": {
+        "Start": "2018-01-01T00:00:00Z",
+        "End": "2022-12-31T00:00:00Z"
+      }
     }
   ],
   "Process": {

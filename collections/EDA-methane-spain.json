@@ -1,6 +1,6 @@
 {
-  "Name": "EDA-methane-poland",
-  "Title": "Poland",
+  "Name": "EDA-methane-spain",
+  "Title": "Spain",
   "CollectionGroup": "Other",
   "Themes": [
     "carbon-accounting"
@@ -8,17 +8,17 @@
   "Tags": [
     "Methane Emissions Analysis"
   ],
-  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Spain. We see a somewhat consistent excess of methane from about June 2025 to October 2025, along with a coincident Tanager and Sentinel-2 data on July 19th, 2025, and EMIT and Sentinel-2 on June 23, 2025 showing excess methane emissions. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT and Tanager satellites.",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Name": "VEDA",
       "Type": "tiles",
-      "CollectionId": "EDA-methane-poland",
+      "CollectionId": "EDA-methane-spain",
       "ColormapName": "seismic",
       "Rescale": [
         -3,
-        0.5
+        3
       ],
       "Assets": [
         "asset"
@@ -28,10 +28,10 @@
   "Process": {
     "Name": "Precomputed Statistics",
     "VegaDefinition": "collections/EDA-methane/vega.json",
-    "JsonForm": "collections/EDA-methane/jsonform-poland.json",
+    "JsonForm": "collections/EDA-methane/jsonform-spain.json",
     "EndPoints": [
       {
-        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland_chart_data.json",
+        "Url": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-spain_chart_data.json",
         "Identifier": "precomputed_statistics",
         "Type": "application/json"
       }
@@ -40,7 +40,7 @@
   "Colorlegend": {
     "domain": [
       -3,
-      0.5
+      3
     ],
     "range": [
       "#00004c",
@@ -55,7 +55,7 @@
       "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".2f",
+    "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
   "Agency": [

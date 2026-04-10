@@ -15,6 +15,7 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "UCL1-COP-30-aspect",
+      "Bbox": [-9.69792, 41.92469, 9.44642, 57.15736],
       "ColormapName": "turbo",
       "Assets": [
         "asset"
@@ -22,7 +23,8 @@
       "Rescale": [
         0,
         360
-      ]
+      ],
+      "Times": ["2020-01-01T00:00:00Z"]
     }
   ],
   "Agency": [
