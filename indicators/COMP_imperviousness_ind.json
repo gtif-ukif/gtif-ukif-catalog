@@ -14,8 +14,7 @@
   "CollectionGroup": "Land Cover",
   "Collections": [
     "COMP5",
-    "COMP_imperviousness",
-    "COMP_Imperviousness_UHI"
+    "COMP_imperviousness"
   ],
   "Process": {
     "Name": "Imperviousness and UHI Distribution",
