@@ -1,0 +1,88 @@
+{
+  "Name": "EDA-methane-detection",
+  "Title": "Methane Detection",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "Time-series of the average amount of methane in the signal region relative to the background region, over the selected AOI and time range.\n\n<hr>\n\n<strong>Disclaimer</strong><br>Methane detections represent potential emission indicators derived from satellite data. They are not validated measurements and do not imply health risk, safety concerns, or regulatory non-compliance.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "OverwriteBBox": [-180, -90, 180, 90]
+    }
+  ],
+  "Process": {
+    "Name": "methane_indicator",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-methane-process/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/body.json",
+        "Type": "image/tiff",
+        "Flatstyle": [
+          {
+            "Identifier": "methane_timeseries",
+            "Url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/timeseries_style.json"
+          },
+          {
+            "Identifier": "methane_s2la_visible_timeseries",
+            "Url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/sentinel_b11_style.json"
+          }
+        ]
+      }
+    ]
+  },
+  "Collections": [
+    "EDA-methane-detection-terrascope-CH4",
+    "EDA-methane-detection-SRON-plumes"
+  ],
+  "BaseLayers": [
+    {
+      "id": "cloudless-2024",
+      "name": "EOxCloudless 2024",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }",
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": true
+    },
+    {
+      "id": "terrain-light",
+      "name": "Terrain Light",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "esri-world-imagery",
+      "name": "ESRI World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "media_type": "image/jpeg",
+      "attribution": "{ &copy; Esri }",
+      "protocol": "xyz",
+      "visible": false
+    }
+  ],
+  "Agency": [
+    "ESA"
+  ]
+}

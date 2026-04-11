@@ -18,15 +18,15 @@
   ],
   "Process": {
     "Name": "BER UHI histogram",
-    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_vega.json",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_vega.json",
     "EndPoints": [
       {
         "Identifier": "comp1_histogram",
         "Url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/statistics?assets=asset&histogram_bins=16&ids=UHI_UKIEFR_MEAN_2022_2024_cog",
         "Type": "application/json",
         "Method": "POST",
-        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_body.json"
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_body.json"
       }
     ]
   },
