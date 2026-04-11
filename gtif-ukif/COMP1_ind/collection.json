@@ -52,7 +52,7 @@
       "type": "application/json",
       "id": "comp1_histogram",
       "method": "POST",
-      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_body.json"
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_body.json"
     },
     {
       "rel": "xyz",
@@ -270,8 +270,8 @@
     "ESA"
   ],
   "collection_group": "Building Efficiency Ratings",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/add_compass_uhi_assets/collections/COMP1/comp1_ber_histogram_vega.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_vega.json",
   "eodash:merge_assets": false,
   "title": "BER and UHI - Traffic Light Map",
   "extent": {

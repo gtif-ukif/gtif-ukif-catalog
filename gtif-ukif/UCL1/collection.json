@@ -84,24 +84,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-albedo-France/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer France",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-France",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL1-albedo-GB/collection.json",
       "type": "application/json",
       "title": "RGB Albedo Layer GB",
@@ -315,7 +297,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e24ad7fc-8bf2-4234-b3d5-8a730c1ea7d4"
+        "4dbbdc39-5a3a-4811-b0ef-ede87407e341"
       ]
     },
     {
@@ -328,7 +310,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e24ad7fc-8bf2-4234-b3d5-8a730c1ea7d4",
+      "key": "4dbbdc39-5a3a-4811-b0ef-ede87407e341",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -365,10 +347,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ],
         [
           -21.923451993591076,
@@ -423,7 +405,7 @@
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z",
           "2025-04-26T00:00:00Z"
         ]
       ]
