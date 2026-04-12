@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "UCL2-SPEI-GB",
+  "stac_version": "1.1.0",
+  "description": "Standardised Precipitation-Evapotranspiration Index (SPEI) for GB. SPEI is a multi-scalar drought index based on precipitation and temperature data. Negative values indicate drought conditions, positive values indicate wet conditions.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-SPEI-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-2.5,2.5",
+      "type": "image/png",
+      "title": "SPEI (GB)",
+      "key": "c2588d85-726f-4cbb-9121-8605431d7910"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Drought Monitoring and Forecasting"
+    }
+  ],
+  "themes": [
+    "food-security"
+  ],
+  "tags": [
+    "Drought Analysis/Forecast"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      -2.5,
+      2.5
+    ],
+    "range": [
+      "#67001f",
+      "#b2182b",
+      "#d6604d",
+      "#f4a582",
+      "#fddbc7",
+      "#f7f7f7",
+      "#d1e5f0",
+      "#92c5de",
+      "#4393c3",
+      "#2166ac",
+      "#053061"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "SPEI"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "SPEI (GB)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -8.899565067732734,
+          49.11835675764194,
+          4.804451125276599,
+          61.264240082289106
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-08-01T00:00:00Z",
+          "2025-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
