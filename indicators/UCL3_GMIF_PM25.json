@@ -8,7 +8,7 @@
   "Tags": [
     "Air Quality"
   ],
-  "Description": "GMif PM2.5 combines the UCL3 daily PM2.5 raster stack for the UK-Ireland-France area with the consolidated GMif in situ station layer.",
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nDaily 1km PM2.5 data from 2016-2022 derived from the MODIS-MAIC AOD and GeosCHEM deep learning-based modelling has been super-resolved by 4x to 250m. 406 in situ PM2.5 stations across the UK-Ireland-France area are available to assess the similarities and differences between the MODIS and in situ PM2.5 data. They can also be used to look at the severest PM2.5 air pollution.",
   "Agency": [
     "ESA"
   ],
