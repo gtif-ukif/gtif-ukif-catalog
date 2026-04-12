@@ -201,6 +201,29 @@
       ]
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "3476d683-7390-40f0-8a4f-a978f0e285d2"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Land Water Mask",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "LWM",
+      "key": "3476d683-7390-40f0-8a4f-a978f0e285d2",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
       "rel": "xyz",
       "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
@@ -260,6 +283,9 @@
       "title": "GTIF UKIF Catalog"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
   "themes": [
     "sustainable-cities"
   ],
@@ -273,6 +299,13 @@
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_vega.json",
   "eodash:merge_assets": false,
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
   "title": "BER and UHI - Traffic Light Map",
   "extent": {
     "spatial": {

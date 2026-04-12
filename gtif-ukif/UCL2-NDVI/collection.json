@@ -314,26 +314,23 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a273675f-7f5e-417b-b0d2-ef4a121ae9d1"
+        "7ef1eeb6-ee9e-478b-a82c-ebb992d3c1c6"
       ]
     },
     {
       "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "Water Mask",
+      "title": "Land Water Mask",
       "roles": [
         "overlay",
         "visible"
       ],
-      "id": "MapboxWaterMask",
-      "key": "a273675f-7f5e-417b-b0d2-ef4a121ae9d1",
-      "layers": [
-        "water"
-      ],
+      "id": "LWM",
+      "key": "7ef1eeb6-ee9e-478b-a82c-ebb992d3c1c6",
       "auth:refs": [
         "mapboxauth"
       ]
