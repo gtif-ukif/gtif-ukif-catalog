@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "COMP_impreviousness_ind",
+  "id": "UCL3_GMIF_PM25",
   "stac_version": "1.1.0",
-  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nDaily 1km PM2.5 data from 2016-2022 derived from the MODIS-MAIC AOD and GeosCHEM deep learning-based modelling has been super-resolved by 4x to 250m. 406 in situ PM2.5 stations across the UK-Ireland-France area are available to assess the similarities and differences between the MODIS and in situ PM2.5 data. They can also be used to look at the severest PM2.5 air pollution.",
   "links": [
     {
       "rel": "root",
@@ -12,47 +12,64 @@
     },
     {
       "rel": "child",
-      "href": "./COMP5/collection.json",
+      "href": "./UCL3-GMIF-air-quality-raster/collection.json",
       "type": "application/json",
-      "title": "UHI Mean 2022-2024",
+      "title": "MODIS_1km_PM2.5",
       "endpointtype": "VEDA_tiles",
-      "id": "COMP5",
+      "id": "UCL3-GMIF-air-quality-raster",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "tags": [
-        "Heat Island"
+        "Air Quality"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Urban Heat Island"
+      "collection_group": "Other"
     },
     {
       "rel": "child",
-      "href": "./COMP_Imperviousness/collection.json",
+      "href": "./UCL3-SISR-DAILY/collection.json",
       "type": "application/json",
-      "title": "Imperviousness and UHI",
+      "title": "250m PM2.5",
       "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness",
+      "id": "UCL3-SISR-DAILY",
       "themes": [
-        "sustainable-cities"
+        "mobility-transition"
       ],
       "tags": [
-        "Land Cover"
+        "Air Quality"
       ],
       "agency": [
         "ESA"
       ],
-      "collection_group": "Land Cover"
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL3-GMIF-air-quality-vector/collection.json",
+      "type": "application/json",
+      "title": "GMif Air Pollution Stations",
+      "endpointtype": "GeoJSON source",
+      "id": "UCL3-GMIF-air-quality-vector",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Imperviousness-UHI/statistics?assets=asset&histogram_bins=20&ids=COMP_imperviousness_uhi_cog",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/gmif_air_pollution_stations/timeseries/{{feature}}.json",
       "type": "application/json",
-      "id": "imperviousness_uhi_histogram",
-      "method": "POST",
-      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_body.json"
+      "id": "timeseries",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -197,7 +214,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b1c0e5ca-822e-4531-8ca2-1df2551cad5d"
+        "8a81be61-21b4-40f1-a4cc-da45e4a2a8ea"
       ]
     },
     {
@@ -210,10 +227,21 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "b1c0e5ca-822e-4531-8ca2-1df2551cad5d",
+      "key": "8a81be61-21b4-40f1-a4cc-da45e4a2a8ea",
       "auth:refs": [
         "mapboxauth"
       ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "type": "image/png",
+      "title": "OpenStreetMap",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "openstreetmap"
     },
     {
       "rel": "xyz",
@@ -227,45 +255,30 @@
       "id": "overlay_bright"
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
-      "type": "image/png",
-      "title": "ESA World Cover WC21 UK Mosaic",
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "a5a6064f-bec3-4073-8200-925e19200de1"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "World Airports",
       "roles": [
         "overlay",
         "invisible"
       ],
-      "id": "WC21",
-      "eox:colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "worldAirports",
+      "key": "a5a6064f-bec3-4073-8200-925e19200de1",
+      "layers": [
+        "aerodrome_label"
+      ],
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "parent",
@@ -278,17 +291,17 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "sustainable-cities"
+    "mobility-transition"
   ],
   "tags": [
-    "Land Cover"
+    "Air Quality"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Land Cover",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_vega.json",
+  "collection_group": "Other",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/gmif_air_quality_station_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/gmif_air_quality_station_vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -296,35 +309,41 @@
       "in": "query"
     }
   },
-  "title": "Imperviousness and UHI",
+  "title": "GMif PM2.5",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.82326107093359,
-          40.566153343944876,
-          16.216836666567666,
-          61.33941008747212
+          -11.004997421269309,
+          41.004999999999995,
+          9.995002899174164,
+          61.00500034413024
         ],
         [
-          -10.732621857017984,
-          41.003601143635564,
-          16.216836666567666,
-          61.215695036324796
+          -11.004997421269309,
+          41.005000581502365,
+          9.995002899174164,
+          61.00500034413024
         ],
         [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
+          -10.504999999999995,
+          41.004999999999995,
+          9.995000000000005,
+          61.004999999999995
+        ],
+        [
+          -9.69792,
+          41.92469,
+          9.44642,
+          57.15736
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
-          "2022-05-01T00:00:00Z"
+          "2017-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
@@ -332,7 +351,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "sustainable-cities"
+      "mobility-transition"
     ]
   }
 }
