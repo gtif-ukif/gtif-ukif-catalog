@@ -317,7 +317,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "35e75f3d-d1f3-4a9a-94a0-2080686911a0"
+        "3c66ca4d-b5fa-459b-b582-5f066f5c2fda"
       ]
     },
     {
@@ -330,7 +330,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "35e75f3d-d1f3-4a9a-94a0-2080686911a0",
+      "key": "3c66ca4d-b5fa-459b-b582-5f066f5c2fda",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -511,8 +511,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "food-security",
-      "energy-transition"
+      "energy-transition",
+      "food-security"
     ]
   }
 }

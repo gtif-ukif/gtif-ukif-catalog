@@ -1,14 +1,32 @@
 {
   "type": "Collection",
-  "id": "COMP_impreviousness_ind",
+  "id": "COMP_TreeCover",
   "stac_version": "1.1.0",
-  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and land cover types derived from ESA WorldCover becomes especially clear when comparing tree-covered areas with built-up areas. Built-up surfaces—such as concrete, asphalt, and rooftops—absorb large amounts of solar radiation and release it slowly, resulting in significantly higher land surface temperatures. In WorldCover maps, these urban classes consistently align with the warmest zones, reflecting the strong thermal inertia and low albedo of dense urban materials. \n\nIn contrast, tree-covered areas appear markedly cooler. Trees provide shading, reduce surface heating, and enhance evaporative cooling through transpiration. These cooling processes create localized temperature reductions that are clearly identifiable in high-resolution WorldCover-based analyses. As a result, the thermal contrast between built-up and tree-covered areas is one of the most pronounced land-cover-driven differences in UHI studies, illustrating the essential role of urban vegetation in mitigating heat and improving thermal comfort across cities. ",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP_treecover_lcm/collection.json",
+      "type": "application/json",
+      "title": "Tree Cover & Built-up (LCM)",
+      "endpointtype": "VectorTile source",
+      "id": "COMP_treecover_lcm",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Cover"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Cover"
     },
     {
       "rel": "child",
@@ -29,30 +47,12 @@
       "collection_group": "Urban Heat Island"
     },
     {
-      "rel": "child",
-      "href": "./COMP_Imperviousness/collection.json",
-      "type": "application/json",
-      "title": "Imperviousness and UHI",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Land Cover"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Land Cover"
-    },
-    {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Imperviousness-UHI/statistics?assets=asset&histogram_bins=20&ids=COMP_imperviousness_uhi_cog",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/statistics?assets=asset&histogram_bins=16&ids=UHI_UKIEFR_MEAN_2022_2024_cog",
       "type": "application/json",
-      "id": "imperviousness_uhi_histogram",
+      "id": "treecover_histogram",
       "method": "POST",
-      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_body.json"
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_treecover/treecover_histogram_body.json"
     },
     {
       "rel": "xyz",
@@ -197,7 +197,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6f2593b6-4f5b-4159-82ac-577c684e41f0"
+        "0f7e54f5-1910-489b-a2d6-82bd113776f0"
       ]
     },
     {
@@ -210,7 +210,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "6f2593b6-4f5b-4159-82ac-577c684e41f0",
+      "key": "0f7e54f5-1910-489b-a2d6-82bd113776f0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -287,8 +287,8 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_vega.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_treecover/treecover_histogram_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_treecover/treecover_histogram_vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -296,16 +296,10 @@
       "in": "query"
     }
   },
-  "title": "Imperviousness and UHI",
+  "title": "Tree Cover and UHI",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -11.82326107093359,
-          40.566153343944876,
-          16.216836666567666,
-          61.33941008747212
-        ],
         [
           -10.732621857017984,
           41.003601143635564,
@@ -313,18 +307,24 @@
           61.215695036324796
         ],
         [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
+        ],
+        [
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
-          "2022-05-01T00:00:00Z"
+          "2022-05-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
