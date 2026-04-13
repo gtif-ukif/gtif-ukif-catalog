@@ -12,6 +12,23 @@
     },
     {
       "rel": "child",
+      "href": "./EDA-methane-UK/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Cheltenham UK",
+      "id": "EDA-methane-UK",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
+      "rel": "child",
       "href": "./EDA-methane-claire-oilfield/collection.json",
       "type": "application/json",
       "title": "Methane Site: Claire Oilfield",

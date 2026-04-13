@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-claire-oilfield",
+  "id": "EDA-methane-UK",
   "stac_version": "1.1.0",
-  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nThere was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-claire-oilfield/collection.json",
+      "href": "./EDA-methane-UK/collection.json",
       "type": "application/json",
-      "title": "Methane Site: Claire Oilfield",
+      "title": "Methane Site: Cheltenham UK",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-claire-oilfield",
+      "id": "EDA-methane-UK",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,11 +30,10 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-claire-oilfield/statistics?assets=asset",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-UK_chart_data.json",
       "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
+      "id": "precomputed_statistics",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -190,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7cd31712-7ebd-4d47-8db3-8580690925dd"
+        "d1083c85-838b-4e91-aee2-65cb3a32911c"
       ]
     },
     {
@@ -203,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "7cd31712-7ebd-4d47-8db3-8580690925dd",
+      "key": "d1083c85-838b-4e91-aee2-65cb3a32911c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "202c9630-6c36-4226-9df4-12f46c9b2e1e"
+        "8b319fe5-bb59-4be8-ae1c-61c33e22f573"
       ]
     },
     {
@@ -237,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "202c9630-6c36-4226-9df4-12f46c9b2e1e",
+      "key": "8b319fe5-bb59-4be8-ae1c-61c33e22f573",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -247,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b896940d-98b3-44c9-a1a3-07de05490b28"
+        "52339c83-df53-45c5-a8c1-9401c698225f"
       ]
     },
     {
@@ -260,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "b896940d-98b3-44c9-a1a3-07de05490b28",
+      "key": "52339c83-df53-45c5-a8c1-9401c698225f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ded8ec4d-805c-4d03-8dc7-2884f01f9e8e"
+        "1a8cabb3-06da-4fa6-a37e-a18e0c6be8d8"
       ]
     },
     {
@@ -283,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "ded8ec4d-805c-4d03-8dc7-2884f01f9e8e",
+      "key": "1a8cabb3-06da-4fa6-a37e-a18e0c6be8d8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -293,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "13e024e2-2709-40bb-8e4e-766feda53a2e"
+        "9f594fb4-40b5-4e6c-82dc-e8fd8978c889"
       ]
     },
     {
@@ -306,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "13e024e2-2709-40bb-8e4e-766feda53a2e",
+      "key": "9f594fb4-40b5-4e6c-82dc-e8fd8978c889",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -316,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "aea1ecbb-b917-4dcd-8556-6fc0bf9bdea2"
+        "c853a2b9-acf5-44b6-ba17-a0e28868fe40"
       ]
     },
     {
@@ -329,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "aea1ecbb-b917-4dcd-8556-6fc0bf9bdea2",
+      "key": "c853a2b9-acf5-44b6-ba17-a0e28868fe40",
       "layers": [
         "water"
       ],
@@ -373,8 +372,8 @@
   "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
-      -2,
-      2
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -392,8 +391,8 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -401,29 +400,29 @@
       "in": "query"
     }
   },
-  "title": "Methane Site: Claire Oilfield",
+  "title": "Methane Site: Cheltenham UK",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.5047021791675803,
-          60.72713548310592,
-          -2.4846294443761425,
-          60.74720821789736
+          -2.11962,
+          51.930743012581736,
+          -2.079483012581734,
+          51.97088
         ],
         [
-          -2.5047021791675803,
-          60.72713548310592,
-          -2.4846294443761425,
-          60.74720821789736
+          -2.11962,
+          51.930743012581736,
+          -2.079483012581734,
+          51.97088
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-09-09T00:00:00Z",
-          "2020-10-29T00:00:00Z"
+          "2023-01-19T00:00:00Z",
+          "2023-06-15T00:00:00Z"
         ]
       ]
     }
