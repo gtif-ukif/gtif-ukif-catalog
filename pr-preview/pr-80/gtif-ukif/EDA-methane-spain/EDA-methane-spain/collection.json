@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-madrid",
+  "id": "EDA-methane-spain",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over the \"Planta de biometanización y compostaje de Pinto\". The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Spain. We see a somewhat consistent excess of methane from about June 2025 to October 2025, along with a coincident Tanager and Sentinel-2 data on July 19th, 2025, and EMIT and Sentinel-2 on June 23, 2025 showing excess methane emissions. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT and Tanager satellites.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.1,0.6",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-spain/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Methane Site: Madrid Spain",
-      "key": "c7175193-45e9-412a-aeeb-b705c2e99786"
+      "title": "Methane Site: Spain",
+      "key": "99a06d80-2984-4847-8c7a-46d9ea3a554e"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Methane Site: Madrid Spain"
+      "title": "Methane Site: Spain"
     }
   ],
   "themes": [
@@ -36,8 +36,8 @@
   "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
-      -0.1,
-      0.6
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -56,23 +56,23 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Methane Site: Madrid Spain",
+  "title": "Methane Site: Spain",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -3.67,
-          40.229837822507584,
-          -3.6098378225075813,
-          40.29
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-06T00:00:00Z",
-          "2023-12-27T00:00:00Z"
+          "2025-06-15T00:00:00Z",
+          "2025-09-26T00:00:00Z"
         ]
       ]
     }

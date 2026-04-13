@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-france",
+  "id": "EDA-methane-spain",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Spain. We see a somewhat consistent excess of methane from about June 2025 to October 2025, along with a coincident Tanager and Sentinel-2 data on July 19th, 2025, and EMIT and Sentinel-2 on June 23, 2025 showing excess methane emissions. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT and Tanager satellites.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-france/collection.json",
+      "href": "./EDA-methane-spain/collection.json",
       "type": "application/json",
-      "title": "Methane Site: France",
+      "title": "Methane Site: Spain",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-france",
+      "id": "EDA-methane-spain",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-france_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-spain_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ccb7a2ff-a0a8-40a6-a08b-3f9fc3572174"
+        "7621fa60-4e49-4677-a41b-56b236b630b9"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "ccb7a2ff-a0a8-40a6-a08b-3f9fc3572174",
+      "key": "7621fa60-4e49-4677-a41b-56b236b630b9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bb9cc827-3d97-44fe-8f89-7d08eab64c13"
+        "146c14e3-2db9-40ac-88a3-0e4d3038d81c"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "bb9cc827-3d97-44fe-8f89-7d08eab64c13",
+      "key": "146c14e3-2db9-40ac-88a3-0e4d3038d81c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d406d90c-1448-4252-8552-1841ec3b9d29"
+        "1e8fb7aa-54d6-498d-a5c7-6b7f1fbf06f3"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "d406d90c-1448-4252-8552-1841ec3b9d29",
+      "key": "1e8fb7aa-54d6-498d-a5c7-6b7f1fbf06f3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2017eb3f-6c53-4892-acef-fde125ca07e6"
+        "55edcee4-8dfa-4001-be08-efc53da8d528"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "2017eb3f-6c53-4892-acef-fde125ca07e6",
+      "key": "55edcee4-8dfa-4001-be08-efc53da8d528",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5888c5d0-496a-4d0f-916b-d0989d84bdc3"
+        "2613b3d0-b944-430d-8c1c-167f968029cf"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "5888c5d0-496a-4d0f-916b-d0989d84bdc3",
+      "key": "2613b3d0-b944-430d-8c1c-167f968029cf",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "559885e3-b947-4ad2-b6d0-14301082e572"
+        "acca8235-cd59-4487-8ee4-2027b8712866"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "559885e3-b947-4ad2-b6d0-14301082e572",
+      "key": "acca8235-cd59-4487-8ee4-2027b8712866",
       "layers": [
         "water"
       ],
@@ -372,8 +372,8 @@
   "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
-      -0.15,
-      0.9
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -391,7 +391,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-france.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-spain.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -400,29 +400,29 @@
       "in": "query"
     }
   },
-  "title": "Methane Site: France",
+  "title": "Methane Site: Spain",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          3.5828,
-          50.337170624471106,
-          3.6429293755288943,
-          50.3973
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ],
         [
-          3.5828,
-          50.337170624471106,
-          3.6429293755288943,
-          50.3973
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-30T00:00:00Z",
-          "2023-12-11T00:00:00Z"
+          "2025-06-15T00:00:00Z",
+          "2025-09-26T00:00:00Z"
         ]
       ]
     }

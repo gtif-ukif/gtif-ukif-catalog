@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-france",
+  "id": "EDA-methane-romania",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Romania. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2024 to February 2024, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on August 2nd, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-france/collection.json",
+      "href": "./EDA-methane-romania/collection.json",
       "type": "application/json",
-      "title": "Methane Site: France",
+      "title": "Methane Site: Romania",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-france",
+      "id": "EDA-methane-romania",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-france_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-romania_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ccb7a2ff-a0a8-40a6-a08b-3f9fc3572174"
+        "f5af36ba-37c1-4f50-bd66-3b01cd9cb1ff"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "ccb7a2ff-a0a8-40a6-a08b-3f9fc3572174",
+      "key": "f5af36ba-37c1-4f50-bd66-3b01cd9cb1ff",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bb9cc827-3d97-44fe-8f89-7d08eab64c13"
+        "3b2131ce-e00f-4a92-be1f-5029d510c3d9"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "bb9cc827-3d97-44fe-8f89-7d08eab64c13",
+      "key": "3b2131ce-e00f-4a92-be1f-5029d510c3d9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d406d90c-1448-4252-8552-1841ec3b9d29"
+        "ad1232db-3852-4930-b09e-7ef308bbd76e"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "d406d90c-1448-4252-8552-1841ec3b9d29",
+      "key": "ad1232db-3852-4930-b09e-7ef308bbd76e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2017eb3f-6c53-4892-acef-fde125ca07e6"
+        "904c4135-31dc-4880-81a6-8e6c7d812fe2"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "2017eb3f-6c53-4892-acef-fde125ca07e6",
+      "key": "904c4135-31dc-4880-81a6-8e6c7d812fe2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5888c5d0-496a-4d0f-916b-d0989d84bdc3"
+        "5e578155-d27c-4f06-93c2-3db31d64bf55"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "5888c5d0-496a-4d0f-916b-d0989d84bdc3",
+      "key": "5e578155-d27c-4f06-93c2-3db31d64bf55",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "559885e3-b947-4ad2-b6d0-14301082e572"
+        "28b15e19-efd3-4e03-8105-bfce393b4a7d"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "559885e3-b947-4ad2-b6d0-14301082e572",
+      "key": "28b15e19-efd3-4e03-8105-bfce393b4a7d",
       "layers": [
         "water"
       ],
@@ -372,8 +372,8 @@
   "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
-      -0.15,
-      0.9
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -391,7 +391,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-france.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-romania.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -400,29 +400,29 @@
       "in": "query"
     }
   },
-  "title": "Methane Site: France",
+  "title": "Methane Site: Romania",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          3.5828,
-          50.337170624471106,
-          3.6429293755288943,
-          50.3973
+          26.106256,
+          44.306226781082245,
+          26.15633556875304,
+          44.36026
         ],
         [
-          3.5828,
-          50.337170624471106,
-          3.6429293755288943,
-          50.3973
+          26.106256,
+          44.306226781082245,
+          26.15633556875304,
+          44.36026
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-30T00:00:00Z",
-          "2023-12-11T00:00:00Z"
+          "2024-06-18T00:00:00Z",
+          "2025-05-04T00:00:00Z"
         ]
       ]
     }

@@ -130,6 +130,74 @@
       "collection_group": "Examples"
     },
     {
+      "rel": "child",
+      "href": "./EDA-methane-poland/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Poland",
+      "id": "EDA-methane-poland",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-romania/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Romania",
+      "id": "EDA-methane-romania",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-spain/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Spain",
+      "id": "EDA-methane-spain",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-ukraine/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Ukraine",
+      "id": "EDA-methane-ukraine",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"
