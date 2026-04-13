@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-claire-oilfield",
+  "id": "EDA-methane-korpezhe",
   "stac_version": "1.1.0",
-  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of one large methane emission plume, and a non-plume that is caused by imperfect subtraction of the scenery between the two bands used. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-claire-oilfield/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-korpezhe/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
       "type": "image/png",
-      "title": "Methane Site: Claire Oilfield",
-      "key": "da14cf6d-bc20-4e91-9b69-8a02529f133e"
+      "title": "Methane Site: Korpezhe",
+      "key": "8ea6374a-b6fe-454d-a964-bca2e60c0f12"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Methane Site: Claire Oilfield"
+      "title": "Methane Site: Korpezhe"
     }
   ],
   "themes": [
@@ -56,23 +56,23 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Methane Site: Claire Oilfield",
+  "title": "Methane Site: Korpezhe",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.5047021791675803,
-          60.72713548310592,
-          -2.4846294443761425,
-          60.74720821789736
+          54.1777,
+          38.4738980252747,
+          54.2177019747253,
+          38.5139
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-09-09T00:00:00Z",
-          "2020-10-29T00:00:00Z"
+          "2019-02-24T00:00:00Z",
+          "2019-02-24T00:00:00Z"
         ]
       ]
     }

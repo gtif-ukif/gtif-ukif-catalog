@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-claire-oilfield",
+  "id": "EDA-methane-poland-silesian-voivodeship",
   "stac_version": "1.1.0",
-  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from a coal plant in Poland. UNEP does not classify this location as a persistent emitter of methane however we have coincident EMIT and Sentinel-2 data showing excess methane emissions on August 8th, 2024. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-claire-oilfield/collection.json",
+      "href": "./EDA-methane-poland-silesian-voivodeship/collection.json",
       "type": "application/json",
-      "title": "Methane Site: Claire Oilfield",
+      "title": "Methane Site: Poland Silesian Voivodeship",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-claire-oilfield",
+      "id": "EDA-methane-poland-silesian-voivodeship",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,11 +30,10 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-claire-oilfield/statistics?assets=asset",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-poland-silesian-voivodeship_chart_data.json",
       "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
+      "id": "precomputed_statistics",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -190,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ed152143-c0c7-45e9-937e-ae97a7d71b92"
+        "b3086e2a-ecd3-4810-b971-d94729a43720"
       ]
     },
     {
@@ -203,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "ed152143-c0c7-45e9-937e-ae97a7d71b92",
+      "key": "b3086e2a-ecd3-4810-b971-d94729a43720",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "87f7e064-aef0-447f-83e1-e7e4804d30ed"
+        "ba48e832-adab-4b83-9caf-67c8a29257e5"
       ]
     },
     {
@@ -237,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "87f7e064-aef0-447f-83e1-e7e4804d30ed",
+      "key": "ba48e832-adab-4b83-9caf-67c8a29257e5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -247,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a0667ede-a013-47e7-bd10-6bec3deb8aae"
+        "1fadc355-774c-4f3c-a8e7-c14f75961a3a"
       ]
     },
     {
@@ -260,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "a0667ede-a013-47e7-bd10-6bec3deb8aae",
+      "key": "1fadc355-774c-4f3c-a8e7-c14f75961a3a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9cbc683c-1463-4739-81a7-9a7a80fa1e13"
+        "a6b9e34e-7f9c-4431-8b36-f50fcc68700c"
       ]
     },
     {
@@ -283,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "9cbc683c-1463-4739-81a7-9a7a80fa1e13",
+      "key": "a6b9e34e-7f9c-4431-8b36-f50fcc68700c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -293,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7e2d44c5-d83d-4a37-9cc5-946e74f0bdc6"
+        "2309d8aa-dfd2-48a7-a5d3-71771f6d4b5d"
       ]
     },
     {
@@ -306,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "7e2d44c5-d83d-4a37-9cc5-946e74f0bdc6",
+      "key": "2309d8aa-dfd2-48a7-a5d3-71771f6d4b5d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -316,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a652638e-5ee5-4680-b225-038f46c96c27"
+        "ef9499e9-07b7-4426-baf7-ba9d8218de59"
       ]
     },
     {
@@ -329,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "a652638e-5ee5-4680-b225-038f46c96c27",
+      "key": "ef9499e9-07b7-4426-baf7-ba9d8218de59",
       "layers": [
         "water"
       ],
@@ -373,8 +372,8 @@
   "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
-      -2,
-      2
+      -3,
+      3
     ],
     "range": [
       "#00004c",
@@ -392,8 +391,8 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-poland-silesian-voivodeship.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -401,29 +400,29 @@
       "in": "query"
     }
   },
-  "title": "Methane Site: Claire Oilfield",
+  "title": "Methane Site: Poland Silesian Voivodeship",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.5047021791675803,
-          60.72713548310592,
-          -2.4846294443761425,
-          60.74720821789736
+          18.647574,
+          50.194295668862814,
+          18.7758920195232,
+          50.274092
         ],
         [
-          -2.5047021791675803,
-          60.72713548310592,
-          -2.4846294443761425,
-          60.74720821789736
+          18.647574,
+          50.194295668862814,
+          18.7758920195232,
+          50.274092
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-09-09T00:00:00Z",
-          "2020-10-29T00:00:00Z"
+          "2024-07-05T00:00:00Z",
+          "2024-09-18T00:00:00Z"
         ]
       ]
     }

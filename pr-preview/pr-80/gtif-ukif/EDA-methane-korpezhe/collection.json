@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-claire-oilfield",
+  "id": "EDA-methane-korpezhe",
   "stac_version": "1.1.0",
-  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of one large methane emission plume, and a non-plume that is caused by imperfect subtraction of the scenery between the two bands used. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-claire-oilfield/collection.json",
+      "href": "./EDA-methane-korpezhe/collection.json",
       "type": "application/json",
-      "title": "Methane Site: Claire Oilfield",
+      "title": "Methane Site: Korpezhe",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-claire-oilfield",
+      "id": "EDA-methane-korpezhe",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-claire-oilfield/statistics?assets=asset",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-korpezhe/statistics?assets=asset",
       "type": "application/json",
       "id": "veda_statistics",
       "method": "POST",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ed152143-c0c7-45e9-937e-ae97a7d71b92"
+        "49592f2c-572d-4e5a-8eb4-2913bf2a38f3"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "ed152143-c0c7-45e9-937e-ae97a7d71b92",
+      "key": "49592f2c-572d-4e5a-8eb4-2913bf2a38f3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +224,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "87f7e064-aef0-447f-83e1-e7e4804d30ed"
+        "982082e9-f2eb-4fc1-a718-f2f2711b9b92"
       ]
     },
     {
@@ -237,7 +237,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "87f7e064-aef0-447f-83e1-e7e4804d30ed",
+      "key": "982082e9-f2eb-4fc1-a718-f2f2711b9b92",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -247,7 +247,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a0667ede-a013-47e7-bd10-6bec3deb8aae"
+        "6a5a1394-28eb-4cf1-b283-b574332ad79b"
       ]
     },
     {
@@ -260,7 +260,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "a0667ede-a013-47e7-bd10-6bec3deb8aae",
+      "key": "6a5a1394-28eb-4cf1-b283-b574332ad79b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,7 +270,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9cbc683c-1463-4739-81a7-9a7a80fa1e13"
+        "15883859-1d03-4bed-90c4-235d81647b91"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "9cbc683c-1463-4739-81a7-9a7a80fa1e13",
+      "key": "15883859-1d03-4bed-90c4-235d81647b91",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -293,7 +293,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7e2d44c5-d83d-4a37-9cc5-946e74f0bdc6"
+        "1085a9e3-c3b3-4b0e-8216-caaad0e801a9"
       ]
     },
     {
@@ -306,7 +306,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "7e2d44c5-d83d-4a37-9cc5-946e74f0bdc6",
+      "key": "1085a9e3-c3b3-4b0e-8216-caaad0e801a9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -316,7 +316,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a652638e-5ee5-4680-b225-038f46c96c27"
+        "481811f0-5a9b-4295-adfd-a0d590bb35f8"
       ]
     },
     {
@@ -329,7 +329,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "a652638e-5ee5-4680-b225-038f46c96c27",
+      "key": "481811f0-5a9b-4295-adfd-a0d590bb35f8",
       "layers": [
         "water"
       ],
@@ -401,29 +401,29 @@
       "in": "query"
     }
   },
-  "title": "Methane Site: Claire Oilfield",
+  "title": "Methane Site: Korpezhe",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.5047021791675803,
-          60.72713548310592,
-          -2.4846294443761425,
-          60.74720821789736
+          54.1777,
+          38.4738980252747,
+          54.2177019747253,
+          38.5139
         ],
         [
-          -2.5047021791675803,
-          60.72713548310592,
-          -2.4846294443761425,
-          60.74720821789736
+          54.1777,
+          38.4738980252747,
+          54.2177019747253,
+          38.5139
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-09-09T00:00:00Z",
-          "2020-10-29T00:00:00Z"
+          "2019-02-24T00:00:00Z",
+          "2019-02-24T00:00:00Z"
         ]
       ]
     }

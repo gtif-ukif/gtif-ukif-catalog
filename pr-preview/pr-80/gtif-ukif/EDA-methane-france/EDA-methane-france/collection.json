@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-claire-oilfield",
+  "id": "EDA-methane-france",
   "stac_version": "1.1.0",
-  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-claire-oilfield/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-france/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.9",
       "type": "image/png",
-      "title": "Methane Site: Claire Oilfield",
-      "key": "da14cf6d-bc20-4e91-9b69-8a02529f133e"
+      "title": "Methane Site: France",
+      "key": "1e80eb7e-4c2c-4091-94a9-4c7b5cca8fc0"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Methane Site: Claire Oilfield"
+      "title": "Methane Site: France"
     }
   ],
   "themes": [
@@ -36,8 +36,8 @@
   "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
-      -2,
-      2
+      -0.15,
+      0.9
     ],
     "range": [
       "#00004c",
@@ -56,23 +56,23 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Methane Site: Claire Oilfield",
+  "title": "Methane Site: France",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.5047021791675803,
-          60.72713548310592,
-          -2.4846294443761425,
-          60.74720821789736
+          3.5828,
+          50.337170624471106,
+          3.6429293755288943,
+          50.3973
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-09-09T00:00:00Z",
-          "2020-10-29T00:00:00Z"
+          "2023-01-30T00:00:00Z",
+          "2023-12-11T00:00:00Z"
         ]
       ]
     }
