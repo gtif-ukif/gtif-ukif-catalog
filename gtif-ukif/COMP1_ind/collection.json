@@ -61,7 +61,7 @@
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "cloudless-2024"
     },
@@ -72,7 +72,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "OSM"
     },
@@ -205,7 +205,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3476d683-7390-40f0-8a4f-a978f0e285d2"
+        "76cd1c94-07b9-409d-ba92-a152dc399a92"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "3476d683-7390-40f0-8a4f-a978f0e285d2",
+      "key": "76cd1c94-07b9-409d-ba92-a152dc399a92",
       "auth:refs": [
         "mapboxauth"
       ]

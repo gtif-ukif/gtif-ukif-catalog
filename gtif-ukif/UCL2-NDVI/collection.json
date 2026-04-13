@@ -181,7 +181,7 @@
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "cloudless-2024"
     },
@@ -192,7 +192,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "OSM"
     },
@@ -317,7 +317,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7ef1eeb6-ee9e-478b-a82c-ebb992d3c1c6"
+        "98e0a1ff-9942-48b6-b701-9f42ee2d81a2"
       ]
     },
     {
@@ -330,7 +330,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "7ef1eeb6-ee9e-478b-a82c-ebb992d3c1c6",
+      "key": "98e0a1ff-9942-48b6-b701-9f42ee2d81a2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -511,8 +511,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "food-security",
-      "energy-transition"
+      "energy-transition",
+      "food-security"
     ]
   }
 }

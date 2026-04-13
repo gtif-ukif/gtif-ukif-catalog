@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-lst-anomaly-2020-2025/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo&nodata=0&rescale=-5,5",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-lst-anomaly-2020-2025/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo_r&nodata=0&rescale=-5,5",
       "type": "image/png",
       "title": "LST Anomaly London",
-      "key": "050101fc-845b-4b55-ab06-d0531bc5758c"
+      "key": "8aa0a57a-b058-45b3-acdc-980ae9b77a10"
     },
     {
       "rel": "parent",
@@ -40,16 +40,16 @@
       5
     ],
     "range": [
-      "#30123b",
-      "#4560d6",
-      "#34aaf8",
-      "#1ae4b6",
-      "#71fd5f",
-      "#c8ee33",
-      "#f9ba38",
-      "#f66b18",
+      "#7a0402",
       "#c92903",
-      "#7a0402"
+      "#f66b18",
+      "#f9ba38",
+      "#c8ee33",
+      "#71fd5f",
+      "#1ae4b6",
+      "#34aaf8",
+      "#4560d6",
+      "#30123b"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
