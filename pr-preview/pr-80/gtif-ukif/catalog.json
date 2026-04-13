@@ -46,6 +46,23 @@
     },
     {
       "rel": "child",
+      "href": "./EDA-methane-detection/collection.json",
+      "type": "application/json",
+      "title": "Methane Detection",
+      "id": "EDA-methane-detection",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Detection"
+    },
+    {
+      "rel": "child",
       "href": "./EDA-methane-france/collection.json",
       "type": "application/json",
       "title": "Methane Site: France",
