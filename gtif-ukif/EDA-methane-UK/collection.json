@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EDA-methane-UK/collection.json",
       "type": "application/json",
-      "title": "Cheltenham UK",
+      "title": "Methane Site: Cheltenham UK",
       "endpointtype": "VEDA_tiles",
       "id": "EDA-methane-UK",
       "themes": [
@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "service",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6b44c400-fe7c-4611-9de4-8a59d2478929"
+        "e8ae0a54-6b45-48cf-9c5a-78e36d59a3a2"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "6b44c400-fe7c-4611-9de4-8a59d2478929",
+      "key": "e8ae0a54-6b45-48cf-9c5a-78e36d59a3a2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0f4d31be-c223-4cfb-8d25-9c961a8f8711"
+        "fd27aad6-b6fd-4a22-a812-9f1aa07190ad"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "0f4d31be-c223-4cfb-8d25-9c961a8f8711",
+      "key": "fd27aad6-b6fd-4a22-a812-9f1aa07190ad",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "389f86ed-ed2f-4964-8b76-980ff7387770"
+        "7a31ded0-95cd-412d-8e0c-1bc5fd1e3855"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "389f86ed-ed2f-4964-8b76-980ff7387770",
+      "key": "7a31ded0-95cd-412d-8e0c-1bc5fd1e3855",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "86b6068a-695b-4231-a239-49dc70c3cd3c"
+        "d1f9df30-70cd-4f53-bee5-ac49202b7f91"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "86b6068a-695b-4231-a239-49dc70c3cd3c",
+      "key": "d1f9df30-70cd-4f53-bee5-ac49202b7f91",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fa23f011-9f75-4c04-abd1-f0ee303f2b4e"
+        "d1e668dd-a16b-4740-9382-f9745b920355"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "fa23f011-9f75-4c04-abd1-f0ee303f2b4e",
+      "key": "d1e668dd-a16b-4740-9382-f9745b920355",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ea88761f-89b5-4054-8403-00a8c3cbd8dc"
+        "099affe1-24b1-4c09-87a4-a3f6421ffd28"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "ea88761f-89b5-4054-8403-00a8c3cbd8dc",
+      "key": "099affe1-24b1-4c09-87a4-a3f6421ffd28",
       "layers": [
         "water"
       ],
@@ -369,7 +369,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -400,7 +400,7 @@
       "in": "query"
     }
   },
-  "title": "Cheltenham UK",
+  "title": "Methane Site: Cheltenham UK",
   "extent": {
     "spatial": {
       "bbox": [

@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-greece/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Greece",
-      "key": "a9bda590-62f1-4b56-93b8-b0d2e9a71e4e"
+      "title": "Methane Site: Greece",
+      "key": "0638263c-c0b3-4749-b2ac-d8bcbb54056d"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Greece"
+      "title": "Methane Site: Greece"
     }
   ],
   "themes": [
@@ -33,7 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Greece",
+  "title": "Methane Site: Greece",
   "extent": {
     "spatial": {
       "bbox": [

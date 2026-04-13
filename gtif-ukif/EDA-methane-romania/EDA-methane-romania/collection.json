@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-romania/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Romania",
-      "key": "3e33314c-0698-4762-86c8-069b0bfc78a8"
+      "title": "Methane Site: Romania",
+      "key": "78dee80c-5df3-4ce3-b155-19ed68e23ac8"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Romania"
+      "title": "Methane Site: Romania"
     }
   ],
   "themes": [
@@ -33,7 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Romania",
+  "title": "Methane Site: Romania",
   "extent": {
     "spatial": {
       "bbox": [

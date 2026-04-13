@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-france/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.9",
       "type": "image/png",
-      "title": "France",
-      "key": "9f5188d9-91a4-4331-8c11-ecd0dfd7f0a2"
+      "title": "Methane Site: France",
+      "key": "572a4f33-5307-40e1-89ad-4bd7d16f4fa3"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "France"
+      "title": "Methane Site: France"
     }
   ],
   "themes": [
@@ -33,7 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -0.15,
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "France",
+  "title": "Methane Site: France",
   "extent": {
     "spatial": {
       "bbox": [

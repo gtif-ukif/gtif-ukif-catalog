@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EDA-methane-poland-silesian-voivodeship/collection.json",
       "type": "application/json",
-      "title": "Poland Silesian Voivodeship",
+      "title": "Methane Site: Poland Silesian Voivodeship",
       "endpointtype": "VEDA_tiles",
       "id": "EDA-methane-poland-silesian-voivodeship",
       "themes": [
@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "service",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4edc61ed-74bb-40a9-ae20-f125d0491231"
+        "4b421ad5-c33f-4b27-bfe1-a9d35dedf9e6"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "4edc61ed-74bb-40a9-ae20-f125d0491231",
+      "key": "4b421ad5-c33f-4b27-bfe1-a9d35dedf9e6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c053d966-e234-4c7b-8215-2ca2afc46f2b"
+        "236b4fa3-9ecf-4e72-9168-7c37d0c74a24"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "c053d966-e234-4c7b-8215-2ca2afc46f2b",
+      "key": "236b4fa3-9ecf-4e72-9168-7c37d0c74a24",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "96f16842-d103-4c11-b31b-1b925f25e50e"
+        "217751e7-27c5-402e-a974-1408068ea6a1"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "96f16842-d103-4c11-b31b-1b925f25e50e",
+      "key": "217751e7-27c5-402e-a974-1408068ea6a1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f992ce45-70ac-4e01-a4bd-edab2d0dcb85"
+        "55b723d3-00a8-4d87-97b8-56448debd26a"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "f992ce45-70ac-4e01-a4bd-edab2d0dcb85",
+      "key": "55b723d3-00a8-4d87-97b8-56448debd26a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b203447b-122d-4881-9645-dde53b80043d"
+        "d49c510f-ba85-43f9-ba67-4cdacf9d20a7"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "b203447b-122d-4881-9645-dde53b80043d",
+      "key": "d49c510f-ba85-43f9-ba67-4cdacf9d20a7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f3fcfa60-10e8-46d5-8318-e58d98b9ce6d"
+        "20e24842-c536-4f11-ae05-8e62488d688e"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "f3fcfa60-10e8-46d5-8318-e58d98b9ce6d",
+      "key": "20e24842-c536-4f11-ae05-8e62488d688e",
       "layers": [
         "water"
       ],
@@ -369,7 +369,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -400,7 +400,7 @@
       "in": "query"
     }
   },
-  "title": "Poland Silesian Voivodeship",
+  "title": "Methane Site: Poland Silesian Voivodeship",
   "extent": {
     "spatial": {
       "bbox": [

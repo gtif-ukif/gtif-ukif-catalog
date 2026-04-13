@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EDA-methane-romania/collection.json",
       "type": "application/json",
-      "title": "Romania",
+      "title": "Methane Site: Romania",
       "endpointtype": "VEDA_tiles",
       "id": "EDA-methane-romania",
       "themes": [
@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "service",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f2d1a09a-96d4-4670-b7eb-3e073f8e8a8f"
+        "d00753d9-2818-4014-9f55-fe242fe0ba92"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "f2d1a09a-96d4-4670-b7eb-3e073f8e8a8f",
+      "key": "d00753d9-2818-4014-9f55-fe242fe0ba92",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c614cb96-d3d4-4055-a451-c44a42990cf2"
+        "80c3f3cb-0af5-484e-b1d9-3f2289b1eaa2"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "c614cb96-d3d4-4055-a451-c44a42990cf2",
+      "key": "80c3f3cb-0af5-484e-b1d9-3f2289b1eaa2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a1b57308-5cfe-4d57-a0cf-d0e38a068780"
+        "21a318f8-cef9-4ebb-bd87-eb70acde4ff9"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "a1b57308-5cfe-4d57-a0cf-d0e38a068780",
+      "key": "21a318f8-cef9-4ebb-bd87-eb70acde4ff9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fe5b4cda-8631-4599-af76-38c16ac66848"
+        "51f0dff3-b220-4ec8-8b23-9cfaf27c0a09"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "fe5b4cda-8631-4599-af76-38c16ac66848",
+      "key": "51f0dff3-b220-4ec8-8b23-9cfaf27c0a09",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "360c534c-97e2-4b4a-b727-03eb5eaf4883"
+        "720768c9-227a-4d6c-8a2e-fe4e23dae5c4"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "360c534c-97e2-4b4a-b727-03eb5eaf4883",
+      "key": "720768c9-227a-4d6c-8a2e-fe4e23dae5c4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ac809fe3-f250-4edf-bda9-a129c07c3200"
+        "b1164c3e-ce2b-46fa-8c01-9645e02a5515"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "ac809fe3-f250-4edf-bda9-a129c07c3200",
+      "key": "b1164c3e-ce2b-46fa-8c01-9645e02a5515",
       "layers": [
         "water"
       ],
@@ -369,7 +369,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -400,7 +400,7 @@
       "in": "query"
     }
   },
-  "title": "Romania",
+  "title": "Methane Site: Romania",
   "extent": {
     "spatial": {
       "bbox": [

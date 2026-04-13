@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-spain/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Spain",
-      "key": "40f1cafb-b2c2-4e99-a3db-fa61a204190a"
+      "title": "Methane Site: Spain",
+      "key": "dcff3ec6-1cca-4c9e-80f4-74808f26f7c3"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Spain"
+      "title": "Methane Site: Spain"
     }
   ],
   "themes": [
@@ -33,7 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Spain",
+  "title": "Methane Site: Spain",
   "extent": {
     "spatial": {
       "bbox": [

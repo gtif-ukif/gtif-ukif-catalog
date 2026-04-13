@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EDA-methane-france/collection.json",
       "type": "application/json",
-      "title": "France",
+      "title": "Methane Site: France",
       "endpointtype": "VEDA_tiles",
       "id": "EDA-methane-france",
       "themes": [
@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "service",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e2342379-c81c-494a-998a-47f7f51a9869"
+        "480c754b-2030-494c-9651-d97b544d8d8f"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e2342379-c81c-494a-998a-47f7f51a9869",
+      "key": "480c754b-2030-494c-9651-d97b544d8d8f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "36d1c0e9-5e8b-4d72-a751-8d3c66d414fc"
+        "cc35e7ca-26cf-49fe-9eb1-9e9ec7b49b02"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "36d1c0e9-5e8b-4d72-a751-8d3c66d414fc",
+      "key": "cc35e7ca-26cf-49fe-9eb1-9e9ec7b49b02",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2e84204c-f693-4f07-9dd5-d14ec3588b5d"
+        "50937125-67f5-4a7c-9488-3e3a7537ae04"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "2e84204c-f693-4f07-9dd5-d14ec3588b5d",
+      "key": "50937125-67f5-4a7c-9488-3e3a7537ae04",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d1fe493f-3c09-4820-a90a-87bc71c2b564"
+        "3de79b19-c4e7-42bb-9f83-deeb2ba33eac"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "d1fe493f-3c09-4820-a90a-87bc71c2b564",
+      "key": "3de79b19-c4e7-42bb-9f83-deeb2ba33eac",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e5c0a9ff-b4d1-4931-a0ab-c2967e9f2de3"
+        "d2529989-b23e-4818-a590-92449384d528"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "e5c0a9ff-b4d1-4931-a0ab-c2967e9f2de3",
+      "key": "d2529989-b23e-4818-a590-92449384d528",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "66386401-d144-433e-8762-a31e9d628d24"
+        "f8e4c595-f3c4-4a1e-8cf3-4faffc74525a"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "66386401-d144-433e-8762-a31e9d628d24",
+      "key": "f8e4c595-f3c4-4a1e-8cf3-4faffc74525a",
       "layers": [
         "water"
       ],
@@ -369,7 +369,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -0.15,
@@ -400,7 +400,7 @@
       "in": "query"
     }
   },
-  "title": "France",
+  "title": "Methane Site: France",
   "extent": {
     "spatial": {
       "bbox": [

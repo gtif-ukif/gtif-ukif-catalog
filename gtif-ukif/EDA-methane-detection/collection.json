@@ -27,7 +27,7 @@
         "Terrascope",
         "VITO"
       ],
-      "collection_group": "Other"
+      "collection_group": "Detection"
     },
     {
       "rel": "child",
@@ -45,7 +45,7 @@
       "agency": [
         "SRON"
       ],
-      "collection_group": "Other"
+      "collection_group": "Detection"
     },
     {
       "rel": "service",
@@ -126,7 +126,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e0151c10-c216-4cd4-93e2-149fc31fb232"
+        "19dad5fa-8a05-4ab6-bd45-a9db50357963"
       ]
     },
     {
@@ -139,7 +139,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e0151c10-c216-4cd4-93e2-149fc31fb232",
+      "key": "19dad5fa-8a05-4ab6-bd45-a9db50357963",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -160,7 +160,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0e7b14cf-d642-4adc-8aac-ecbb7ff33942"
+        "140ffb6d-2100-4d29-a11e-23beffbb0768"
       ]
     },
     {
@@ -173,7 +173,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "0e7b14cf-d642-4adc-8aac-ecbb7ff33942",
+      "key": "140ffb6d-2100-4d29-a11e-23beffbb0768",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -183,7 +183,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "547d3210-ae86-45a5-b7fe-fef02dc1a3cd"
+        "adbc8d12-40a8-452a-b2d6-0bf774551e9f"
       ]
     },
     {
@@ -196,7 +196,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "547d3210-ae86-45a5-b7fe-fef02dc1a3cd",
+      "key": "adbc8d12-40a8-452a-b2d6-0bf774551e9f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -206,7 +206,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4f026449-4c0e-4130-b986-5048d91fdb2e"
+        "e4c08ba6-104e-4f0a-96ed-7453e872e768"
       ]
     },
     {
@@ -219,7 +219,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "4f026449-4c0e-4130-b986-5048d91fdb2e",
+      "key": "e4c08ba6-104e-4f0a-96ed-7453e872e768",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -229,7 +229,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9c4e68b1-433f-4ce3-b7a4-4835e6b2d37c"
+        "e5a744b4-193b-4bbe-85e1-2dc817790a47"
       ]
     },
     {
@@ -242,7 +242,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "9c4e68b1-433f-4ce3-b7a4-4835e6b2d37c",
+      "key": "e5a744b4-193b-4bbe-85e1-2dc817790a47",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -252,7 +252,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4d17bba2-d14e-4681-8102-4e40957d6504"
+        "b38dc5f1-41b9-4dc7-a8b6-3fb9a6624998"
       ]
     },
     {
@@ -265,7 +265,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "4d17bba2-d14e-4681-8102-4e40957d6504",
+      "key": "b38dc5f1-41b9-4dc7-a8b6-3fb9a6624998",
       "layers": [
         "water"
       ],
@@ -306,7 +306,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Detection",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/vega.json",
   "auth:schemes": {

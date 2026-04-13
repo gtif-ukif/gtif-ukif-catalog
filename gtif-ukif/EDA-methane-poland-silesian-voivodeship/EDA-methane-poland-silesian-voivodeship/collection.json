@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-poland-silesian-voivodeship/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Poland Silesian Voivodeship",
-      "key": "a7a75785-f5d4-429e-beeb-c6047fc199eb"
+      "title": "Methane Site: Poland Silesian Voivodeship",
+      "key": "e05f49d3-45c1-4c26-820a-1261fd8fed15"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Poland Silesian Voivodeship"
+      "title": "Methane Site: Poland Silesian Voivodeship"
     }
   ],
   "themes": [
@@ -33,7 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Poland Silesian Voivodeship",
+  "title": "Methane Site: Poland Silesian Voivodeship",
   "extent": {
     "spatial": {
       "bbox": [

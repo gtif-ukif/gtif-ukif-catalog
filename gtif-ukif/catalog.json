@@ -116,7 +116,7 @@
       "rel": "child",
       "href": "./EDA-methane-claire-oilfield/collection.json",
       "type": "application/json",
-      "title": "Claire Oilfield",
+      "title": "Methane Site: Claire Oilfield",
       "id": "EDA-methane-claire-oilfield",
       "themes": [
         "carbon-accounting"
@@ -127,13 +127,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-france/collection.json",
       "type": "application/json",
-      "title": "France",
+      "title": "Methane Site: France",
       "id": "EDA-methane-france",
       "themes": [
         "carbon-accounting"
@@ -144,13 +144,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-korpezhe/collection.json",
       "type": "application/json",
-      "title": "Korpezhe",
+      "title": "Methane Site: Korpezhe",
       "id": "EDA-methane-korpezhe",
       "themes": [
         "carbon-accounting"
@@ -161,13 +161,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-madrid/collection.json",
       "type": "application/json",
-      "title": "Madrid Spain",
+      "title": "Methane Site: Madrid Spain",
       "id": "EDA-methane-madrid",
       "themes": [
         "carbon-accounting"
@@ -178,13 +178,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-poland/collection.json",
       "type": "application/json",
-      "title": "Poland",
+      "title": "Methane Site: Poland",
       "id": "EDA-methane-poland",
       "themes": [
         "carbon-accounting"
@@ -195,13 +195,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-UK/collection.json",
       "type": "application/json",
-      "title": "Cheltenham UK",
+      "title": "Methane Site: Cheltenham UK",
       "id": "EDA-methane-UK",
       "themes": [
         "carbon-accounting"
@@ -212,13 +212,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-ukraine/collection.json",
       "type": "application/json",
-      "title": "Ukraine",
+      "title": "Methane Site: Ukraine",
       "id": "EDA-methane-ukraine",
       "themes": [
         "carbon-accounting"
@@ -229,13 +229,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-greece/collection.json",
       "type": "application/json",
-      "title": "Greece",
+      "title": "Methane Site: Greece",
       "id": "EDA-methane-greece",
       "themes": [
         "carbon-accounting"
@@ -246,13 +246,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-poland-silesian-voivodeship/collection.json",
       "type": "application/json",
-      "title": "Poland Silesian Voivodeship",
+      "title": "Methane Site: Poland Silesian Voivodeship",
       "id": "EDA-methane-poland-silesian-voivodeship",
       "themes": [
         "carbon-accounting"
@@ -263,13 +263,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-romania/collection.json",
       "type": "application/json",
-      "title": "Romania",
+      "title": "Methane Site: Romania",
       "id": "EDA-methane-romania",
       "themes": [
         "carbon-accounting"
@@ -280,13 +280,13 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
       "href": "./EDA-methane-spain/collection.json",
       "type": "application/json",
-      "title": "Spain",
+      "title": "Methane Site: Spain",
       "id": "EDA-methane-spain",
       "themes": [
         "carbon-accounting"
@@ -297,7 +297,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "child",
@@ -464,7 +464,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Detection"
     },
     {
       "rel": "self",

@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-UK/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Cheltenham UK",
-      "key": "cd74b8a3-e136-4073-859e-5f9370da81af"
+      "title": "Methane Site: Cheltenham UK",
+      "key": "94e0f3db-2aa1-41ac-bb07-0bb4183aba5a"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Cheltenham UK"
+      "title": "Methane Site: Cheltenham UK"
     }
   ],
   "themes": [
@@ -33,7 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Cheltenham UK",
+  "title": "Methane Site: Cheltenham UK",
   "extent": {
     "spatial": {
       "bbox": [

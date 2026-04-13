@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EDA-methane-korpezhe/collection.json",
       "type": "application/json",
-      "title": "Korpezhe",
+      "title": "Methane Site: Korpezhe",
       "endpointtype": "VEDA_tiles",
       "id": "EDA-methane-korpezhe",
       "themes": [
@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "service",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "65439eee-18b3-4db7-8ea8-0f0abeddba32"
+        "3cb89b55-900c-4846-900b-76a1de23f33d"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "65439eee-18b3-4db7-8ea8-0f0abeddba32",
+      "key": "3cb89b55-900c-4846-900b-76a1de23f33d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +224,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d0a86865-267c-403d-823e-13b5f3e2ea21"
+        "48af469b-eb44-41eb-b649-b2ec72295ccc"
       ]
     },
     {
@@ -237,7 +237,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "d0a86865-267c-403d-823e-13b5f3e2ea21",
+      "key": "48af469b-eb44-41eb-b649-b2ec72295ccc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -247,7 +247,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "77c760dc-a693-41e6-b416-02cce392f5e9"
+        "a2f42549-4419-493c-8add-ff0a5ef1854b"
       ]
     },
     {
@@ -260,7 +260,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "77c760dc-a693-41e6-b416-02cce392f5e9",
+      "key": "a2f42549-4419-493c-8add-ff0a5ef1854b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,7 +270,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ea704d4d-189c-48c9-87c4-f0db8d5389e6"
+        "9c6666a1-5b87-4b0c-9f80-8b46603552f9"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "ea704d4d-189c-48c9-87c4-f0db8d5389e6",
+      "key": "9c6666a1-5b87-4b0c-9f80-8b46603552f9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -293,7 +293,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7cb1399f-e19d-4936-be02-07966580be29"
+        "88039521-3ac2-4c9a-9a96-ee4fa8b1a181"
       ]
     },
     {
@@ -306,7 +306,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "7cb1399f-e19d-4936-be02-07966580be29",
+      "key": "88039521-3ac2-4c9a-9a96-ee4fa8b1a181",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -316,7 +316,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ec3b022f-3c81-4b7d-981c-51f9036d52ff"
+        "3c42db05-5316-4732-9781-543447a818af"
       ]
     },
     {
@@ -329,7 +329,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "ec3b022f-3c81-4b7d-981c-51f9036d52ff",
+      "key": "3c42db05-5316-4732-9781-543447a818af",
       "layers": [
         "water"
       ],
@@ -370,7 +370,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -2,
@@ -401,7 +401,7 @@
       "in": "query"
     }
   },
-  "title": "Korpezhe",
+  "title": "Methane Site: Korpezhe",
   "extent": {
     "spatial": {
       "bbox": [

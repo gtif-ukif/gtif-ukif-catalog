@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-madrid/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.1,0.6",
       "type": "image/png",
-      "title": "Madrid Spain",
-      "key": "45ee301e-8030-4b94-b82f-1c703f52e7b8"
+      "title": "Methane Site: Madrid Spain",
+      "key": "6c2eb5c2-883b-46b3-b3e4-d6c4f20ea65a"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Madrid Spain"
+      "title": "Methane Site: Madrid Spain"
     }
   ],
   "themes": [
@@ -33,7 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -0.1,
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Madrid Spain",
+  "title": "Methane Site: Madrid Spain",
   "extent": {
     "spatial": {
       "bbox": [

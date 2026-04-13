@@ -14,21 +14,21 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-ukraine/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Ukraine",
-      "key": "a90216b7-2178-4547-94db-03f753e7ae73"
+      "title": "Methane Site: Ukraine",
+      "key": "52c65f6b-6e79-44a9-b183-fda821e775ee"
     },
     {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-ukraine/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Ukraine",
-      "key": "f56f51ac-57fd-40bb-abb5-dcaafef8544f"
+      "title": "Methane Site: Ukraine",
+      "key": "237da5e3-cf38-476e-9d59-8a17066e1fdf"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ukraine"
+      "title": "Methane Site: Ukraine"
     }
   ],
   "themes": [
@@ -40,7 +40,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -3,
@@ -63,7 +63,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Ukraine",
+  "title": "Methane Site: Ukraine",
   "extent": {
     "spatial": {
       "bbox": [

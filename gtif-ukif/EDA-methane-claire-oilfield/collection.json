@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EDA-methane-claire-oilfield/collection.json",
       "type": "application/json",
-      "title": "Claire Oilfield",
+      "title": "Methane Site: Claire Oilfield",
       "endpointtype": "VEDA_tiles",
       "id": "EDA-methane-claire-oilfield",
       "themes": [
@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "service",
@@ -190,7 +190,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bd76d6c4-096a-4c11-a82e-eabf79ae5ded"
+        "c32c80a3-30c5-4183-afed-47e6111e7e8d"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "bd76d6c4-096a-4c11-a82e-eabf79ae5ded",
+      "key": "c32c80a3-30c5-4183-afed-47e6111e7e8d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +224,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "84dad1e5-5b07-46f0-8c56-a9f1b6e5b3ce"
+        "61fc2f78-e4b8-445e-8d42-5154db6fb797"
       ]
     },
     {
@@ -237,7 +237,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "84dad1e5-5b07-46f0-8c56-a9f1b6e5b3ce",
+      "key": "61fc2f78-e4b8-445e-8d42-5154db6fb797",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -247,7 +247,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "654db3e5-de60-4436-b907-7c5ea4f16112"
+        "09dd667f-5368-439f-9f1d-46c0ad531c0a"
       ]
     },
     {
@@ -260,7 +260,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "654db3e5-de60-4436-b907-7c5ea4f16112",
+      "key": "09dd667f-5368-439f-9f1d-46c0ad531c0a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,7 +270,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3237d0cf-ee57-426f-b083-839e726312e3"
+        "b056d347-e81b-4820-a8ec-195c86e496a8"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "3237d0cf-ee57-426f-b083-839e726312e3",
+      "key": "b056d347-e81b-4820-a8ec-195c86e496a8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -293,7 +293,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4a1aaf32-4a65-4946-9b1c-add7d5039818"
+        "a25dc5e9-592c-40c4-97a8-2c5cac2c8eb9"
       ]
     },
     {
@@ -306,7 +306,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "4a1aaf32-4a65-4946-9b1c-add7d5039818",
+      "key": "a25dc5e9-592c-40c4-97a8-2c5cac2c8eb9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -316,7 +316,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c17e6634-5177-4480-8c08-8560986f248b"
+        "2eb3cc06-7b86-4b32-b7bc-394ff6a00a1c"
       ]
     },
     {
@@ -329,7 +329,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "c17e6634-5177-4480-8c08-8560986f248b",
+      "key": "2eb3cc06-7b86-4b32-b7bc-394ff6a00a1c",
       "layers": [
         "water"
       ],
@@ -370,7 +370,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -2,
@@ -401,7 +401,7 @@
       "in": "query"
     }
   },
-  "title": "Claire Oilfield",
+  "title": "Methane Site: Claire Oilfield",
   "extent": {
     "spatial": {
       "bbox": [

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./EDA-methane-madrid/collection.json",
       "type": "application/json",
-      "title": "Madrid Spain",
+      "title": "Methane Site: Madrid Spain",
       "endpointtype": "VEDA_tiles",
       "id": "EDA-methane-madrid",
       "themes": [
@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Examples"
     },
     {
       "rel": "service",
@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e5be659c-be0d-4395-bd15-e9b1c2bd77d6"
+        "2defd92e-6541-4177-b43a-27bb10ab63ab"
       ]
     },
     {
@@ -202,7 +202,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e5be659c-be0d-4395-bd15-e9b1c2bd77d6",
+      "key": "2defd92e-6541-4177-b43a-27bb10ab63ab",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a91410f0-cb78-4934-9c85-8acd7b1199e1"
+        "071f0389-88dd-41db-b3e6-9b914e888f64"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "a91410f0-cb78-4934-9c85-8acd7b1199e1",
+      "key": "071f0389-88dd-41db-b3e6-9b914e888f64",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +246,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8e93afc7-0948-45b4-aca9-7be488e0adc1"
+        "ae01d022-3148-4494-acbe-030eebad1083"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "8e93afc7-0948-45b4-aca9-7be488e0adc1",
+      "key": "ae01d022-3148-4494-acbe-030eebad1083",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +269,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "937a0afa-401a-4407-b5d5-25270f065e35"
+        "74f7a7c6-f64f-47e2-9531-48c5e26ce1f0"
       ]
     },
     {
@@ -282,7 +282,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "937a0afa-401a-4407-b5d5-25270f065e35",
+      "key": "74f7a7c6-f64f-47e2-9531-48c5e26ce1f0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "34fe27dc-e0cf-4a24-9387-cc4d0292a240"
+        "2b202a0c-ca97-4801-93fa-fb6ec00324eb"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "34fe27dc-e0cf-4a24-9387-cc4d0292a240",
+      "key": "2b202a0c-ca97-4801-93fa-fb6ec00324eb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +315,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0e93ab3c-df8e-486b-ad32-390bf2ec0a85"
+        "b6fc5ce9-e761-46e5-a9b2-7293015fb57e"
       ]
     },
     {
@@ -328,7 +328,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "0e93ab3c-df8e-486b-ad32-390bf2ec0a85",
+      "key": "b6fc5ce9-e761-46e5-a9b2-7293015fb57e",
       "layers": [
         "water"
       ],
@@ -369,7 +369,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -0.1,
@@ -400,7 +400,7 @@
       "in": "query"
     }
   },
-  "title": "Madrid Spain",
+  "title": "Methane Site: Madrid Spain",
   "extent": {
     "spatial": {
       "bbox": [

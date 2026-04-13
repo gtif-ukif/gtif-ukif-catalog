@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-korpezhe/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
       "type": "image/png",
-      "title": "Korpezhe",
-      "key": "c064d8a3-5c38-4dc5-9e54-04088ef86697"
+      "title": "Methane Site: Korpezhe",
+      "key": "82bf8371-e6eb-4496-86c0-9ffba1a323f7"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Korpezhe"
+      "title": "Methane Site: Korpezhe"
     }
   ],
   "themes": [
@@ -33,7 +33,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
       -2,
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Korpezhe",
+  "title": "Methane Site: Korpezhe",
   "extent": {
     "spatial": {
       "bbox": [
