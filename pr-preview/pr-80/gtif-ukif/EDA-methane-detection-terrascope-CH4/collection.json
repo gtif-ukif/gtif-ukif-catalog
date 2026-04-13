@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-UK",
+  "id": "EDA-methane-detection-terrascope-CH4",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nThere was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
+  "description": "Sentinel-5P Level-3 methane layer served by Terrascope as a WMTS data layer for visual comparison with the methane indicator outputs.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-UK/collection.json",
+      "href": "./EDA-methane-detection-terrascope-CH4/collection.json",
       "type": "application/json",
-      "title": "Methane Site: Cheltenham UK",
-      "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-UK",
+      "title": "Sentinel-5P CH4 (Terrascope)",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
+      "id": "EDA-methane-detection-terrascope-CH4",
       "themes": [
         "carbon-accounting"
       ],
@@ -24,16 +24,10 @@
         "Methane Emissions Analysis"
       ],
       "agency": [
-        "ESA"
+        "Terrascope",
+        "VITO"
       ],
-      "collection_group": "Examples"
-    },
-    {
-      "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-UK_chart_data.json",
-      "type": "application/json",
-      "id": "precomputed_statistics",
-      "method": "GET"
+      "collection_group": "Detection"
     },
     {
       "rel": "xyz",
@@ -189,7 +183,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "97483010-5397-4301-b279-795b45bc4f0e"
+        "779c6bbf-2f29-4534-8cb1-9faab2b152f0"
       ]
     },
     {
@@ -202,7 +196,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "97483010-5397-4301-b279-795b45bc4f0e",
+      "key": "779c6bbf-2f29-4534-8cb1-9faab2b152f0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +217,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "20d73ed1-bbdc-4b3c-9ae5-30c5123a5f46"
+        "36b00ce4-3b42-4a5c-810f-aa3459d34dcf"
       ]
     },
     {
@@ -236,7 +230,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "20d73ed1-bbdc-4b3c-9ae5-30c5123a5f46",
+      "key": "36b00ce4-3b42-4a5c-810f-aa3459d34dcf",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +240,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d7285705-6753-4e25-bc84-422a09cf8ebd"
+        "17ca49bf-0a1e-44d8-bc65-168d2c1a9b59"
       ]
     },
     {
@@ -259,7 +253,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "d7285705-6753-4e25-bc84-422a09cf8ebd",
+      "key": "17ca49bf-0a1e-44d8-bc65-168d2c1a9b59",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +263,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "31357b6d-0090-476a-b422-223964b9833b"
+        "9362ebc8-e9ea-4e90-96a6-3dd83078a6d4"
       ]
     },
     {
@@ -282,7 +276,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "31357b6d-0090-476a-b422-223964b9833b",
+      "key": "9362ebc8-e9ea-4e90-96a6-3dd83078a6d4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +286,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0cab3d5b-8729-4682-aaf0-7356a2b2fb1e"
+        "e6a48a3d-af03-47f9-ad68-626362c9df57"
       ]
     },
     {
@@ -305,7 +299,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "0cab3d5b-8729-4682-aaf0-7356a2b2fb1e",
+      "key": "e6a48a3d-af03-47f9-ad68-626362c9df57",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +309,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "358c855d-be1a-48df-a409-ce20d17f4db9"
+        "5e2df42f-ebfa-47a4-83a3-e3d43c582544"
       ]
     },
     {
@@ -328,7 +322,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "358c855d-be1a-48df-a409-ce20d17f4db9",
+      "key": "5e2df42f-ebfa-47a4-83a3-e3d43c582544",
       "layers": [
         "water"
       ],
@@ -367,32 +361,29 @@
     "Methane Emissions Analysis"
   ],
   "agency": [
-    "ESA"
+    "Terrascope",
+    "VITO"
   ],
-  "collection_group": "Examples",
+  "collection_group": "Detection",
   "eox:colorlegend": {
     "domain": [
-      -3,
-      3
+      1700,
+      2000
     ],
     "range": [
-      "#00004c",
-      "#00009a",
-      "#0000ec",
-      "#5555ff",
-      "#c5c5ff",
-      "#ffc5c5",
-      "#ff5555",
-      "#f10000",
-      "#b70000",
-      "#7f0000"
+      "#2f7f5f",
+      "#6dae6b",
+      "#b7d78b",
+      "#e8efb5",
+      "#f8e6a0",
+      "#f6c56a",
+      "#ee8f4a",
+      "#d84b32"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "Methane column enhancement (mol m-2)"
+    "tickFormat": ".0f",
+    "title": "Column-averaged dry-air mixing ratio of methane (ppb)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -400,29 +391,23 @@
       "in": "query"
     }
   },
-  "title": "Methane Site: Cheltenham UK",
+  "title": "Sentinel-5P CH4 (Terrascope)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.11962,
-          51.930743012581736,
-          -2.079483012581734,
-          51.97088
-        ],
-        [
-          -2.11962,
-          51.930743012581736,
-          -2.079483012581734,
-          51.97088
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-19T00:00:00Z",
-          "2023-06-15T00:00:00Z"
+          "2019-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }

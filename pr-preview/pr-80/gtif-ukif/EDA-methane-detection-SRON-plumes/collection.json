@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-UK",
+  "id": "EDA-methane-detection-SRON-plumes",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nThere was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
+  "description": "Weekly methane plume detections published by SRON for January 2026. Each week is represented as a separate timestamped GeoJSON data layer item.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-UK/collection.json",
+      "href": "./EDA-methane-detection-SRON-plumes/collection.json",
       "type": "application/json",
-      "title": "Methane Site: Cheltenham UK",
-      "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-UK",
+      "title": "SRON Methane Plume Maps (Jan 2026)",
+      "endpointtype": "GeoJSON source",
+      "id": "EDA-methane-detection-SRON-plumes",
       "themes": [
         "carbon-accounting"
       ],
@@ -24,16 +24,9 @@
         "Methane Emissions Analysis"
       ],
       "agency": [
-        "ESA"
+        "SRON"
       ],
-      "collection_group": "Examples"
-    },
-    {
-      "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-UK_chart_data.json",
-      "type": "application/json",
-      "id": "precomputed_statistics",
-      "method": "GET"
+      "collection_group": "Detection"
     },
     {
       "rel": "xyz",
@@ -189,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "97483010-5397-4301-b279-795b45bc4f0e"
+        "4f44f194-f69d-4058-87bb-c734e50b9fbe"
       ]
     },
     {
@@ -202,7 +195,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "97483010-5397-4301-b279-795b45bc4f0e",
+      "key": "4f44f194-f69d-4058-87bb-c734e50b9fbe",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +216,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "20d73ed1-bbdc-4b3c-9ae5-30c5123a5f46"
+        "cd78a41f-0876-4d61-bcb4-aad5fa34bfc2"
       ]
     },
     {
@@ -236,7 +229,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "20d73ed1-bbdc-4b3c-9ae5-30c5123a5f46",
+      "key": "cd78a41f-0876-4d61-bcb4-aad5fa34bfc2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -246,7 +239,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d7285705-6753-4e25-bc84-422a09cf8ebd"
+        "e39223b9-4593-40a9-9fb9-25629ae28ee8"
       ]
     },
     {
@@ -259,7 +252,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "d7285705-6753-4e25-bc84-422a09cf8ebd",
+      "key": "e39223b9-4593-40a9-9fb9-25629ae28ee8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -269,7 +262,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "31357b6d-0090-476a-b422-223964b9833b"
+        "21834195-c3ff-434f-8741-596d98a6a39a"
       ]
     },
     {
@@ -282,7 +275,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "31357b6d-0090-476a-b422-223964b9833b",
+      "key": "21834195-c3ff-434f-8741-596d98a6a39a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -292,7 +285,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0cab3d5b-8729-4682-aaf0-7356a2b2fb1e"
+        "8a616570-6f52-4b7e-87e0-0ed13b54e44d"
       ]
     },
     {
@@ -305,7 +298,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "0cab3d5b-8729-4682-aaf0-7356a2b2fb1e",
+      "key": "8a616570-6f52-4b7e-87e0-0ed13b54e44d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -315,7 +308,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "358c855d-be1a-48df-a409-ce20d17f4db9"
+        "58cded2b-4a4e-429b-8340-09b09a379254"
       ]
     },
     {
@@ -328,7 +321,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "358c855d-be1a-48df-a409-ce20d17f4db9",
+      "key": "58cded2b-4a4e-429b-8340-09b09a379254",
       "layers": [
         "water"
       ],
@@ -367,32 +360,19 @@
     "Methane Emissions Analysis"
   ],
   "agency": [
-    "ESA"
+    "SRON"
   ],
-  "collection_group": "Examples",
+  "collection_group": "Detection",
   "eox:colorlegend": {
-    "domain": [
-      -3,
-      3
-    ],
+    "title": "Methane plume detections",
     "range": [
-      "#00004c",
-      "#00009a",
-      "#0000ec",
-      "#5555ff",
-      "#c5c5ff",
-      "#ffc5c5",
-      "#ff5555",
-      "#f10000",
-      "#b70000",
-      "#7f0000"
+      "rgba(255, 119, 0, 0.8)"
     ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "Methane column enhancement (mol m-2)"
+    "domain": [
+      "SRON weekly detections"
+    ],
+    "scaleType": "categorical"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -400,29 +380,29 @@
       "in": "query"
     }
   },
-  "title": "Methane Site: Cheltenham UK",
+  "title": "SRON Methane Plume Maps (Jan 2026)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.11962,
-          51.930743012581736,
-          -2.079483012581734,
-          51.97088
+          -108.25,
+          -34.68,
+          151.42,
+          45.15
         ],
         [
-          -2.11962,
-          51.930743012581736,
-          -2.079483012581734,
-          51.97088
+          -108.25,
+          -34.68,
+          151.42,
+          45.15
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-19T00:00:00Z",
-          "2023-06-15T00:00:00Z"
+          "2026-01-05T00:00:00Z",
+          "2026-01-26T00:00:00Z"
         ]
       ]
     }

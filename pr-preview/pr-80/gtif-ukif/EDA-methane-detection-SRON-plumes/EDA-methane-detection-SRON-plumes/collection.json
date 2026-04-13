@@ -19,18 +19,10 @@
       ]
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/sron_methane_plumes_style.json",
-      "type": "text/vector-styles",
-      "asset:keys": [
-        "sron_methane_plumes"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Methane Detection"
+      "title": "SRON Methane Plume Maps (Jan 2026)"
     }
   ],
   "themes": [
