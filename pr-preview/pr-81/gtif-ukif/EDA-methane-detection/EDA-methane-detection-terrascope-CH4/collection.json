@@ -1,0 +1,99 @@
+{
+  "type": "Collection",
+  "id": "EDA-methane-detection-terrascope-CH4",
+  "stac_version": "1.1.0",
+  "description": "Sentinel-5P Level-3 methane layer served by Terrascope as a WMTS data layer for visual comparison with the methane indicator outputs.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://wmts.terrascope.be/wmts",
+      "type": "image/png",
+      "title": "Sentinel-5P CH4 (Terrascope)",
+      "wmts:layer": "terrascope-s5p-l3-ch4-ty-v2_CH4",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "style": "default",
+        "matrixSet": "EPSG:3857"
+      },
+      "key": "9fb15cc9-444b-4e6d-b9cf-b4fc994909e3"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane Detection"
+    }
+  ],
+  "themes": [
+    "carbon-accounting"
+  ],
+  "tags": [
+    "Methane Emissions Analysis"
+  ],
+  "agency": [
+    "Terrascope",
+    "VITO"
+  ],
+  "collection_group": "Detection",
+  "eox:colorlegend": {
+    "domain": [
+      1700,
+      2000
+    ],
+    "range": [
+      "#2f7f5f",
+      "#6dae6b",
+      "#b7d78b",
+      "#e8efb5",
+      "#f8e6a0",
+      "#f6c56a",
+      "#ee8f4a",
+      "#d84b32"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Column-averaged dry-air mixing ratio of methane (ppb)"
+  },
+  "proj:epsg": 3857,
+  "endpointtype": "marinedatastore_WMTSCapabilities",
+  "title": "Sentinel-5P CH4 (Terrascope)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
