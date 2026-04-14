@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "id": "UCL-solar-bifacial",
+  "stac_version": "1.1.0",
+  "description": "On-demand bifacial photovoltaic potential statistics (2020 vs 2022) for a user-drawn AOI over GB, Ireland or France. Returns area, installable capacity, monofacial yield and bifacial gain derived from UCL's 10 m PVout+ products.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Solar Bifacial Statistics"
+    }
+  ],
+  "themes": [
+    "renewable-energy"
+  ],
+  "tags": [
+    "Solar",
+    "Bifacial"
+  ],
+  "agency": [
+    "UCL"
+  ],
+  "collection_group": "Solar",
+  "endpointtype": "Collection-only",
+  "title": "Solar Bifacial Statistics",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.5,
+          49.8,
+          2.0,
+          55.8
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-04-14T21:59:42.548621Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
