@@ -1,0 +1,58 @@
+{
+  "Name": "UCL-drought-crops",
+  "Title": "Drought Stress by Crop Type",
+  "CollectionGroup": "Drought",
+  "Themes": [
+    "agriculture"
+  ],
+  "Tags": [
+    "Drought",
+    "Crops",
+    "SPEI"
+  ],
+  "Description": "On-demand mean SPEI (Standardised Precipitation-Evapotranspiration Index) per crop type within a user-drawn AOI over GB, Ireland or France, for 2020, 2022 and 2025. Derived from UCL's 10 m SPEI products and the pan-European crop-type mosaic.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
+    }
+  ],
+  "Process": {
+    "Name": "drought_crops_indicator",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "drought_crops",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-drought-crops-template/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/body.json",
+        "Type": "application/json"
+      }
+    ]
+  },
+  "BaseLayers": [
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": true
+    },
+    {
+      "id": "terrain-light",
+      "name": "Terrain Light",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ Terrain: Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    }
+  ],
+  "Agency": [
+    "UCL"
+  ]
+}
