@@ -1,15 +1,15 @@
 {
-  "Name": "UCL-solar-bifacial",
-  "Title": "Solar Bifacial Statistics",
-  "CollectionGroup": "Solar",
+  "Name": "UCL4",
+  "Title": "Photovoltaic Output - Monthly",
+  "CollectionGroup": "Other",
   "Themes": [
-    "renewable-energy"
+    "energy-transition"
   ],
   "Tags": [
-    "Solar",
+    "Solar Rural Power",
     "Bifacial"
   ],
-  "Description": "On-demand bifacial photovoltaic potential statistics (2020 vs 2022) for a user-drawn AOI over GB, Ireland or France. Returns area, installable capacity, monofacial yield and bifacial gain derived from UCL's 10 m PVout+ products.",
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment.\n\n<hr>\n\n<strong>Interactive Bifacial Statistics</strong><br>Draw an AOI over GB, Ireland or France to compute on-demand bifacial photovoltaic potential statistics (area, installable capacity, monofacial yield and bifacial gain) for 2020 and 2022 from UCL's 10 m PVout+ products.",
   "Resources": [
     {
       "Name": "Collection-only",
@@ -31,6 +31,20 @@
       }
     ]
   },
+  "Collections": [
+    "UCL1-COP30-Aspect",
+    "UCL1-COP30-Slope",
+    "UCL1-COP30-Shd",
+    "UCL1-albedo-Ireland",
+    "UCL1-albedo-GB",
+    "UCL4-France",
+    "UCL4-UK",
+    "UCL4-Ireland",
+    "UCL1-Canopy-Height",
+    "UCL4-France-bfPVout",
+    "UCL4-GB-bfPVout",
+    "UCL4-Ireland-bfPVout"
+  ],
   "BaseLayers": [
     {
       "id": "OSM",

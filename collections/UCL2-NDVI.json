@@ -1,16 +1,16 @@
 {
-  "Name": "UCL-drought-crops",
-  "Title": "Drought Stress by Crop Type",
-  "CollectionGroup": "Drought",
+  "Name": "UCL2-NDVI",
+  "Title": "Drought Monitoring and Forecasting",
+  "CollectionGroup": "Other",
   "Themes": [
-    "agriculture"
+    "food-security"
   ],
   "Tags": [
-    "Drought",
+    "Drought Analysis/Forecast",
     "Crops",
     "SPEI"
   ],
-  "Description": "On-demand mean SPEI (Standardised Precipitation-Evapotranspiration Index) per crop type within a user-drawn AOI over GB, Ireland or France, for 2020, 2022 and 2025. Derived from UCL's 10 m SPEI products and the pan-European crop-type mosaic.",
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.\n\n<hr>\n\n<strong>Interactive Crop Stress Statistics</strong><br>Draw an AOI over GB, Ireland or France to compute on-demand mean SPEI (Standardised Precipitation-Evapotranspiration Index) per crop type for 2020, 2022 and 2025 from UCL's 10 m SPEI products.",
   "Resources": [
     {
       "Name": "Collection-only",
@@ -32,6 +32,15 @@
       }
     ]
   },
+  "Collections": [
+    "UCL1-CROP-TYPES-MOSAIC",
+    "UCL2-NDVI-France",
+    "UCL2-NDVI-GB",
+    "UCL2-NDVI-Ireland",
+    "UCL2-SPEI-France",
+    "UCL2-SPEI-GB",
+    "UCL2-SPEI-Ireland"
+  ],
   "BaseLayers": [
     {
       "id": "OSM",
