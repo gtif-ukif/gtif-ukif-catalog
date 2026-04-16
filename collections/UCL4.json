@@ -1,0 +1,71 @@
+{
+  "Name": "UCL4",
+  "Title": "Photovoltaic Output - Monthly",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power",
+    "Bifacial"
+  ],
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment.\n\n<hr>\n\n<strong>Interactive Bifacial Statistics</strong><br>Draw an AOI over GB, Ireland or France to compute on-demand bifacial photovoltaic potential statistics (area, installable capacity, monofacial yield and bifacial gain) for 2020 and 2022 from UCL's 10 m PVout+ products.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
+    }
+  ],
+  "Process": {
+    "Name": "bifacial_indicator",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "bifacial_stats",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-bifacial-stats-template/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/body.json",
+        "Type": "application/json"
+      }
+    ]
+  },
+  "Collections": [
+    "UCL1-COP30-Aspect",
+    "UCL1-COP30-Slope",
+    "UCL1-COP30-Shd",
+    "UCL1-albedo-Ireland",
+    "UCL1-albedo-GB",
+    "UCL4-France",
+    "UCL4-UK",
+    "UCL4-Ireland",
+    "UCL1-Canopy-Height",
+    "UCL4-France-bfPVout",
+    "UCL4-GB-bfPVout",
+    "UCL4-Ireland-bfPVout"
+  ],
+  "BaseLayers": [
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": true
+    },
+    {
+      "id": "terrain-light",
+      "name": "Terrain Light",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ Terrain: Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    }
+  ],
+  "Agency": [
+    "UCL"
+  ]
+}

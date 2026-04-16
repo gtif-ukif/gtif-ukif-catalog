@@ -1,0 +1,67 @@
+{
+  "Name": "UCL2-NDVI",
+  "Title": "Drought Monitoring and Forecasting",
+  "CollectionGroup": "Other",
+  "Themes": [
+    "food-security"
+  ],
+  "Tags": [
+    "Drought Analysis/Forecast",
+    "Crops",
+    "SPEI"
+  ],
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.\n\n<hr>\n\n<strong>Interactive Crop Stress Statistics</strong><br>Draw an AOI over GB, Ireland or France to compute on-demand mean SPEI (Standardised Precipitation-Evapotranspiration Index) per crop type for 2020, 2022 and 2025 from UCL's 10 m SPEI products.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
+    }
+  ],
+  "Process": {
+    "Name": "drought_crops_indicator",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "drought_crops",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-drought-crops-template/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/body.json",
+        "Type": "application/json"
+      }
+    ]
+  },
+  "Collections": [
+    "UCL1-CROP-TYPES-MOSAIC",
+    "UCL2-NDVI-France",
+    "UCL2-NDVI-GB",
+    "UCL2-NDVI-Ireland",
+    "UCL2-SPEI-France",
+    "UCL2-SPEI-GB",
+    "UCL2-SPEI-Ireland"
+  ],
+  "BaseLayers": [
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": true
+    },
+    {
+      "id": "terrain-light",
+      "name": "Terrain Light",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ Terrain: Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    }
+  ],
+  "Agency": [
+    "UCL"
+  ]
+}
