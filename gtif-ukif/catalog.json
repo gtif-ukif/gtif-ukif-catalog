@@ -309,10 +309,12 @@
         "food-security"
       ],
       "tags": [
-        "Drought Analysis/Forecast"
+        "Drought Analysis/Forecast",
+        "Crops",
+        "SPEI"
       ],
       "agency": [
-        "ESA"
+        "UCL"
       ],
       "collection_group": "Other"
     },
@@ -360,7 +362,11 @@
         "energy-transition"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Solar Rural Power",
+        "Bifacial"
+      ],
+      "agency": [
+        "UCL"
       ],
       "collection_group": "Other"
     },

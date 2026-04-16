@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL4",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment. A colourised by height with hill-shaded Digital Elevetaion Model (DEM)  at 30m grid-spacing mosaic of the whole UKIF area of many tiles (size 26.5Gb), produced by the EU Copernicus  program, in WGS84. COP30 DEM is derived from TerraSar-X+TanDEM-X and spans several years of inSAR retrievals. The 10m ESA WorldCover 2021  map for the whole UKIF area. It uses all available Sentinel-2 images for the whole of 2021.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment.\n\n<hr>\n\n<strong>Interactive Bifacial Statistics</strong><br>Draw an AOI over GB, Ireland or France to compute on-demand bifacial photovoltaic potential statistics (area, installable capacity, monofacial yield and bifacial gain) for 2020 and 2022 from UCL's 10 m PVout+ products.",
   "links": [
     {
       "rel": "root",
@@ -94,44 +94,6 @@
       ],
       "tags": [
         "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-HRVPP-TPROD-S2/collection.json",
-      "type": "application/json",
-      "title": "Total Productivity Season 2 (HRVPP)",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "UCL4-HRVPP-TPROD-S2",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power",
-        "Vegetation Productivity"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-HRVPP-TPROD-S1/collection.json",
-      "type": "application/json",
-      "title": "Total Productivity Season 1 (HRVPP)",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "UCL4-HRVPP-TPROD-S1",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power",
-        "Vegetation Productivity"
       ],
       "agency": [
         "ESA"
@@ -265,15 +227,13 @@
       "collection_group": "Other"
     },
     {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "EOxCloudless 2024",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "cloudless-2024"
+      "rel": "service",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-bifacial-stats-template/execution",
+      "type": "application/json",
+      "id": "bifacial_stats",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/body.json"
     },
     {
       "rel": "xyz",
@@ -299,108 +259,37 @@
     },
     {
       "rel": "xyz",
-      "href": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-      "type": "image/jpeg",
-      "title": "ESRI World Imagery",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
       "roles": [
-        "baselayer",
+        "overlay",
         "invisible"
       ],
-      "id": "esri-world-imagery"
+      "id": "overlay_bright"
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
-      "type": "image/png",
-      "title": "ESA World Cover WC21 UK Mosaic",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "WC21",
-      "eox:colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Cropland",
-          "Grassland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "54a3bba8-b0ef-492d-b551-64ed59461416"
+      ]
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Filtered)",
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Land Water Mask",
       "roles": [
-        "baselayer",
-        "invisible"
+        "overlay",
+        "visible"
       ],
-      "id": "WC21-filtered",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)"
-        ],
-        "domain": [
-          "Grassland",
-          "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COP-30-DEM-Mosaic/items/mosaic_COP30-UK+I+FRv2_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap_name=schwarzwald&rescale=0,1000&nodata=0",
-      "type": "image/png",
-      "title": "COP-30 DEM Mosaic",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "COP-30-DEM-Mosaic",
-      "eox:colorlegend": {
-        "title": "Elevation",
-        "range": [
-          "#aeefd5",
-          "#ebfcb2",
-          "#3eb032",
-          "#699535",
-          "#f4a602",
-          "#921201",
-          "#6f2108",
-          "#7f4c2f",
-          "#adadad",
-          "#e9e7e9"
-        ],
-        "domain": [
-          0,
-          1000
-        ]
-      }
+      "id": "LWM",
+      "key": "54a3bba8-b0ef-492d-b551-64ed59461416",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "xyz",
@@ -418,7 +307,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a7982055-55b1-46f5-8326-1c8bf71e4fdb"
+        "4be5c147-2f06-4f6f-a52b-b3dcd5ea91b9"
       ]
     },
     {
@@ -428,10 +317,10 @@
       "title": "Solar Panels © UCL/Oxford 2025",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "SolarPanels",
-      "key": "a7982055-55b1-46f5-8326-1c8bf71e4fdb",
+      "key": "4be5c147-2f06-4f6f-a52b-b3dcd5ea91b9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -441,7 +330,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3b167e43-90ec-4e99-8630-50271ee19b72"
+        "67c45d1c-df14-4546-83fc-923349c2a51d"
       ]
     },
     {
@@ -451,10 +340,10 @@
       "title": "Site of Special Scientific Interest",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "SSSI",
-      "key": "3b167e43-90ec-4e99-8630-50271ee19b72",
+      "key": "67c45d1c-df14-4546-83fc-923349c2a51d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -464,7 +353,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1bba6991-74a0-4440-9e8f-f8ceed3b003d"
+        "8955b3a6-2067-4ac9-ad3b-4f49329e1658"
       ]
     },
     {
@@ -474,10 +363,10 @@
       "title": "National Parks",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "NationalParks",
-      "key": "1bba6991-74a0-4440-9e8f-f8ceed3b003d",
+      "key": "8955b3a6-2067-4ac9-ad3b-4f49329e1658",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -487,7 +376,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b94501ec-f1ed-463e-8e2d-fe32c77e0bbb"
+        "619c6705-f348-4c10-b9ce-25d2931fb74f"
       ]
     },
     {
@@ -497,10 +386,10 @@
       "title": "Natural Landscapes",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "AONB",
-      "key": "b94501ec-f1ed-463e-8e2d-fe32c77e0bbb",
+      "key": "619c6705-f348-4c10-b9ce-25d2931fb74f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -510,7 +399,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "16aaa10f-dcca-4b35-ab05-b00d45531eb2"
+        "bc2c34b5-0e57-407a-9bb3-c762558c16ea"
       ]
     },
     {
@@ -520,120 +409,16 @@
       "title": "Water Mask",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "16aaa10f-dcca-4b35-ab05-b00d45531eb2",
+      "key": "bc2c34b5-0e57-407a-9bb3-c762558c16ea",
       "layers": [
         "water"
       ],
       "auth:refs": [
         "mapboxauth"
       ]
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
-      "type": "image/png",
-      "title": "ESA World Cover WC21 UK Mosaic",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "WC21",
-      "eox:colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Cropland)",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "WC21-Cropland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(240, 150, 255)"
-        ],
-        "domain": [
-          "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Grassland)",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "WC21-Grassland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(255, 255, 76)"
-        ],
-        "domain": [
-          "Grassland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Tree cover)",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "WC21-Treecover",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(0,100,0)"
-        ],
-        "domain": [
-          "Tree cover"
-        ],
-        "scaleType": "categorical"
-      }
     },
     {
       "rel": "mapbox-style-document",
@@ -645,75 +430,6 @@
         "invisible"
       ],
       "id": "Openinframap",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "b42f3f73-971f-4133-80e8-7e5eb0329dbc"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Land Water Mask",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "LWM",
-      "key": "b42f3f73-971f-4133-80e8-7e5eb0329dbc",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "8cbff465-a0c5-412a-a385-cf39b82efdd7"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.061agqxz/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "France ARTD Polygons",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "franceARTD",
-      "key": "8cbff465-a0c5-412a-a385-cf39b82efdd7",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "b28c6cbb-4af3-4db9-81a4-984bd4738041"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.26a3h7xj/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "UK Roof Slope Extraction Polygons",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "ukRoofSlopePolygons",
-      "key": "b28c6cbb-4af3-4db9-81a4-984bd4738041",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -732,9 +448,15 @@
     "energy-transition"
   ],
   "tags": [
-    "Solar Rural Power"
+    "Solar Rural Power",
+    "Bifacial"
+  ],
+  "agency": [
+    "UCL"
   ],
   "collection_group": "Other",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -783,18 +505,6 @@
           60.879568085857684
         ],
         [
-          -11,
-          49,
-          3,
-          61
-        ],
-        [
-          -11,
-          49,
-          3,
-          61
-        ],
-        [
           -6.0,
           41.0,
           10.0,
@@ -841,7 +551,7 @@
     "temporal": {
       "interval": [
         [
-          "2017-01-01T00:00:00Z",
+          "2019-01-01T00:00:00Z",
           "2025-04-26T00:00:00Z"
         ]
       ]
