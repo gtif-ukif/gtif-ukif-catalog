@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-Canopy-Height/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdylgn&rescale=3,24",
       "type": "image/png",
       "title": "Canopy Height Model (10m)",
-      "key": "20655caa-f37b-4d7d-a4a2-d3cdac4ff5d2"
+      "key": "ce5a7089-cb32-4ea6-898a-300faf954861"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-Canopy-Height/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdylgn&rescale=3,24",
+      "type": "image/png",
+      "title": "Canopy Height Model (10m)",
+      "key": "8d0e067f-9374-4175-a9ba-3135299b2f50"
     },
     {
       "rel": "parent",

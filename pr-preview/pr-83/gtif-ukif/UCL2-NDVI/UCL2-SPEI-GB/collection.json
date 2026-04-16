@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-SPEI-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-2.5,2.5",
       "type": "image/png",
       "title": "SPEI (GB)",
-      "key": "37657eba-801d-4c4d-b353-93b4a5a9dfca"
+      "key": "76ddda84-71b7-4ffd-8f68-86b430fb58c3"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-SPEI-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-2.5,2.5",
+      "type": "image/png",
+      "title": "SPEI (GB)",
+      "key": "955a0e58-cb47-4bc0-8c94-4c67eefd116d"
     },
     {
       "rel": "parent",

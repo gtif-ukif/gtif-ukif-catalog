@@ -12,43 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL-drought-crops/collection.json",
-      "type": "application/json",
-      "title": "Drought Stress by Crop Type",
-      "id": "UCL-drought-crops",
-      "themes": [
-        "agriculture"
-      ],
-      "tags": [
-        "Drought",
-        "Crops",
-        "SPEI"
-      ],
-      "agency": [
-        "UCL"
-      ],
-      "collection_group": "Drought"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL-solar-bifacial/collection.json",
-      "type": "application/json",
-      "title": "Solar Bifacial Statistics",
-      "id": "UCL-solar-bifacial",
-      "themes": [
-        "renewable-energy"
-      ],
-      "tags": [
-        "Solar",
-        "Bifacial"
-      ],
-      "agency": [
-        "UCL"
-      ],
-      "collection_group": "Solar"
-    },
-    {
-      "rel": "child",
       "href": "./UCL2-NDVI/collection.json",
       "type": "application/json",
       "title": "Drought Monitoring and Forecasting",
@@ -57,10 +20,12 @@
         "food-security"
       ],
       "tags": [
-        "Drought Analysis/Forecast"
+        "Drought Analysis/Forecast",
+        "Crops",
+        "SPEI"
       ],
       "agency": [
-        "ESA"
+        "UCL"
       ],
       "collection_group": "Other"
     },
@@ -74,7 +39,11 @@
         "energy-transition"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Solar Rural Power",
+        "Bifacial"
+      ],
+      "agency": [
+        "UCL"
       ],
       "collection_group": "Other"
     },

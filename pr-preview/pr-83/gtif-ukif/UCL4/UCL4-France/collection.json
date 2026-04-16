@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,183",
       "type": "image/png",
       "title": "Photovoltaic Output France",
-      "key": "28893cb3-1af8-42f8-b0b3-d9bf6410f8b6"
+      "key": "8e781987-192b-4835-aa98-d2985e884e64"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,183",
+      "type": "image/png",
+      "title": "Photovoltaic Output France",
+      "key": "2eb47b57-e2e4-4932-8d32-6e9b7c538179"
     },
     {
       "rel": "parent",

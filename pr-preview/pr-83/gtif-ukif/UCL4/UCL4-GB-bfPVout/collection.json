@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,0.11",
       "type": "image/png",
       "title": "bfPVout+ GB",
-      "key": "309dc339-fd73-45ec-9657-05fbe509e23b"
+      "key": "153d3990-e5c4-4708-8acd-b0ee0b422322"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,0.11",
+      "type": "image/png",
+      "title": "bfPVout+ GB",
+      "key": "d8c05758-a9cb-4430-be32-d0ffc9c7c13a"
     },
     {
       "rel": "parent",

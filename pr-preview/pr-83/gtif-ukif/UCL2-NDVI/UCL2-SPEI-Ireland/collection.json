@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-SPEI-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-2.5,2.5",
       "type": "image/png",
       "title": "SPEI (Ireland)",
-      "key": "96112d3e-2d05-435b-9705-bb19e7213533"
+      "key": "3a55172b-e25c-420c-941f-09bba1df0991"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-SPEI-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-2.5,2.5",
+      "type": "image/png",
+      "title": "SPEI (Ireland)",
+      "key": "185c415c-fcae-458b-b19a-2bab31f543ee"
     },
     {
       "rel": "parent",

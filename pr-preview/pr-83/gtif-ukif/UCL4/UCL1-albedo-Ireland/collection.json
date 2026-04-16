@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
       "type": "image/png",
       "title": "RGB Albedo Layer Ireland",
-      "key": "3a104752-cb4d-433d-b867-c87b4d92c3dc"
+      "key": "54c72280-e2b8-4e04-b6c2-24c4cac57a99"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "type": "image/png",
+      "title": "RGB Albedo Layer Ireland",
+      "key": "d911c6e9-4acc-4c65-8983-322b14441f44"
     },
     {
       "rel": "parent",

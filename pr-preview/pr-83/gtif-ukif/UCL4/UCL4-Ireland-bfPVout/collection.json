@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-Ireland-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,0.11",
       "type": "image/png",
       "title": "bfPVout+ Ireland",
-      "key": "b9f0d062-5375-4d72-84e3-5a7fa3df7395"
+      "key": "0a71294b-d2f1-437f-8baf-1ce6ff6e3f93"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-Ireland-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,0.11",
+      "type": "image/png",
+      "title": "bfPVout+ Ireland",
+      "key": "7d8bf25a-f229-4443-b1f8-e7bb761046e5"
     },
     {
       "rel": "parent",

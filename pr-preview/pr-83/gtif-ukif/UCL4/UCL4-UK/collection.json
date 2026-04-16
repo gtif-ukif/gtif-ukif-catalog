@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-UK/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
       "type": "image/png",
       "title": "Photovoltaic Output UK",
-      "key": "9171ca99-3278-4d3e-bd7e-ea05a195ceb2"
+      "key": "7db6287a-af80-4e19-8fc9-b914b732cc1d"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-UK/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
+      "type": "image/png",
+      "title": "Photovoltaic Output UK",
+      "key": "3616ad0f-0396-4c14-821c-7e2a2d395814"
     },
     {
       "rel": "parent",

@@ -15,7 +15,14 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
       "type": "image/png",
       "title": "RGB Albedo Layer GB",
-      "key": "609505f7-04ae-464d-866e-ce3e2d1cbae7"
+      "key": "9c4ead9f-50e4-43ec-8031-d4b246349448"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "type": "image/png",
+      "title": "RGB Albedo Layer GB",
+      "key": "fe615804-f640-4aa8-8d3a-d30acdbca6e6"
     },
     {
       "rel": "parent",
