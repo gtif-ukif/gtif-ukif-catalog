@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-detection",
+  "id": "EDA-methane-detection-interactive",
   "stac_version": "1.1.0",
   "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime-series of the average amount of methane in the signal region relative to the background region, over the selected AOI and time range.\n\n<hr>\n\n<strong>Disclaimer</strong><br>Methane detections represent potential emission indicators derived from satellite data. They are not validated measurements and do not imply health risk, safety concerns, or regulatory non-compliance.",
   "links": [
@@ -111,116 +111,52 @@
       "id": "esri-world-imagery"
     },
     {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/eo_plumes_so2_style.json",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
-      "asset:keys": [
-        "eo_plumes_so2"
+      "links:keys": [
+        "1eacf453-81bb-4747-9ad5-38d52e66c41b"
       ]
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
-      "type": "image/png",
-      "title": "ESA World Cover WC21 UK Mosaic",
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Land Water Mask",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
-      "id": "WC21",
-      "eox:colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "LWM",
+      "key": "1eacf453-81bb-4747-9ad5-38d52e66c41b",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Cropland)",
+      "rel": "mapbox-style-document",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "type": "application/json",
+      "title": "Open Infrastructure Map",
       "roles": [
         "overlay",
         "invisible"
       ],
-      "id": "WC21-Cropland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(240, 150, 255)"
-        ],
-        "domain": [
-          "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Grassland)",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "WC21-Grassland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(255, 255, 76)"
-        ],
-        "domain": [
-          "Grassland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Tree cover)",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "WC21-Treecover",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(0,100,0)"
-        ],
-        "domain": [
-          "Tree cover"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "Openinframap",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "parent",
@@ -228,6 +164,9 @@
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
     "carbon-accounting"
@@ -238,10 +177,16 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Detection",
+  "collection_group": "Other",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/vega.json",
-  "eodash:merge_assets": false,
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
   "title": "Methane Detection",
   "extent": {
     "spatial": {
@@ -274,16 +219,5 @@
     "themes": [
       "carbon-accounting"
     ]
-  },
-  "assets": {
-    "eo_plumes_so2": {
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/eo_plumes_so2.geojson",
-      "type": "application/geo+json",
-      "title": "EO Plumes SO2",
-      "roles": [
-        "overlay",
-        "invisible"
-      ]
-    }
   }
 }

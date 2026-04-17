@@ -12,6 +12,23 @@
     },
     {
       "rel": "child",
+      "href": "./EDA-methane-detection-interactive/collection.json",
+      "type": "application/json",
+      "title": "Methane Detection",
+      "id": "EDA-methane-detection-interactive",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./EDA-methane-detection/collection.json",
       "type": "application/json",
       "title": "Methane Detection",
