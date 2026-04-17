@@ -12,6 +12,42 @@
     },
     {
       "rel": "child",
+      "href": "./UCL1-rooftop-slopes-Wales/collection.json",
+      "type": "application/json",
+      "title": "Wales Rooftop Slopes 1m",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-rooftop-slopes-Wales",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "UCL"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-rooftop-shaded-relief-Wales/collection.json",
+      "type": "application/json",
+      "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-rooftop-shaded-relief-Wales",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "UCL"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL1-COP30-Aspect/collection.json",
       "type": "application/json",
       "title": "COP30 Aspect",
@@ -443,7 +479,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a23103f2-8cf7-4d8d-a087-195651c2c4ca"
+        "9f868193-47de-4fc9-be87-72caf9660882"
       ]
     },
     {
@@ -456,7 +492,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "a23103f2-8cf7-4d8d-a087-195651c2c4ca",
+      "key": "9f868193-47de-4fc9-be87-72caf9660882",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -466,7 +502,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "79ff1fbb-d6a8-4d9a-8cfb-4873a800cc66"
+        "608e9e8e-5cae-4b76-a404-168bd8dc3507"
       ]
     },
     {
@@ -479,7 +515,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "79ff1fbb-d6a8-4d9a-8cfb-4873a800cc66",
+      "key": "608e9e8e-5cae-4b76-a404-168bd8dc3507",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -489,7 +525,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6af1474c-18d4-495f-8521-df6fc2431ffc"
+        "4e8d4bab-ecdc-4907-8e02-a4a0b98375bf"
       ]
     },
     {
@@ -502,7 +538,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "6af1474c-18d4-495f-8521-df6fc2431ffc",
+      "key": "4e8d4bab-ecdc-4907-8e02-a4a0b98375bf",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -512,7 +548,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a2d51f3b-ad68-4cee-aa33-47aa93ea370a"
+        "80fed2af-d47b-4029-8509-b6d5cfa15f5f"
       ]
     },
     {
@@ -525,7 +561,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "a2d51f3b-ad68-4cee-aa33-47aa93ea370a",
+      "key": "80fed2af-d47b-4029-8509-b6d5cfa15f5f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -535,7 +571,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cd564106-f46e-426d-bc89-0d13c5c02590"
+        "03c11048-0908-4047-87cb-5b121d26969e"
       ]
     },
     {
@@ -548,7 +584,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "cd564106-f46e-426d-bc89-0d13c5c02590",
+      "key": "03c11048-0908-4047-87cb-5b121d26969e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -662,7 +698,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "766df3c1-06e7-4858-8013-f9f737c051df"
+        "f28cbb59-37c4-4bae-88bb-1752d6ba3211"
       ]
     },
     {
@@ -675,7 +711,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "766df3c1-06e7-4858-8013-f9f737c051df",
+      "key": "f28cbb59-37c4-4bae-88bb-1752d6ba3211",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -685,7 +721,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cb3d5400-c293-495a-a4ca-adad5fdf59a7"
+        "1fa65b2d-bd1f-4e60-bb7d-a3678ff632e8"
       ]
     },
     {
@@ -698,7 +734,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "cb3d5400-c293-495a-a4ca-adad5fdf59a7",
+      "key": "1fa65b2d-bd1f-4e60-bb7d-a3678ff632e8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -738,6 +774,18 @@
           39.90272381327664,
           10.000491103609367,
           63.474630050521746
+        ],
+        [
+          -5.537998028651118,
+          51.32642006614137,
+          -2.6335104848679842,
+          53.46788869884206
+        ],
+        [
+          -5.537998028651118,
+          51.32642006614137,
+          -2.6335104848679842,
+          53.46788869884206
         ],
         [
           -21.923451993591076,

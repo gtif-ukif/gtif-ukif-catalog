@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-albedo-GB",
+  "id": "UCL1-rooftop-shaded-relief-Wales",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-shaded-relief-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=greys&rescale=0,360",
       "type": "image/png",
-      "title": "RGB Albedo Layer GB",
-      "key": "919b707a-f772-43c0-98dc-2b3267fec3fb"
+      "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
+      "key": "3c51cbc4-eaae-43b9-8ae3-5dfc5cf02061"
     },
     {
       "rel": "parent",
@@ -31,27 +31,48 @@
     "Solar Rural Power"
   ],
   "agency": [
-    "ESA"
+    "UCL"
   ],
   "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      360
+    ],
+    "range": [
+      "#30123b",
+      "#4560d6",
+      "#34aaf8",
+      "#1ae4b6",
+      "#71fd5f",
+      "#c8ee33",
+      "#f9ba38",
+      "#f66b18",
+      "#c92903",
+      "#7a0402"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Aspect (°)"
+  },
   "endpointtype": "VEDA_tiles",
-  "title": "RGB Albedo Layer GB",
+  "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
+          -5.537998028651118,
+          51.32642006614137,
+          -2.6335104848679842,
+          53.46788869884206
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-08-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
