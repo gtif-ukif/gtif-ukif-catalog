@@ -15,13 +15,13 @@
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,360",
       "type": "image/png",
       "title": "Wales Rooftop Slopes 1m",
-      "key": "a4d916cf-b31d-47af-8f06-1318c4c5bd2d"
+      "key": "d9825ddd-6f95-4110-8848-93dd460b1a4e"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop Slopes 1m"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [

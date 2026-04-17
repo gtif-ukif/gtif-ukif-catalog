@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL1-rooftop-shaded-relief-Wales",
+  "id": "UCL1-Canopy-Height",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Canopy Height Model (CHM) at 10m resolution clipped to the UKIF area. Derived from Meta-WRI global canopy height dataset. Values represent tree height in metres (range 3–24m).",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-shaded-relief-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=greys&rescale=0,360",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-Canopy-Height/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=schwarzwald&rescale=3,24",
       "type": "image/png",
-      "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
-      "key": "83cb526e-9879-4c62-9ea0-e67459c1180f"
+      "title": "Canopy Height Model (10m)",
+      "key": "46fbfbb2-7f3a-420b-a785-db390436286b"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop Slopes DSM Shaded Relief 1m"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -31,40 +31,40 @@
     "Solar Rural Power"
   ],
   "agency": [
-    "UCL"
+    "ESA"
   ],
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      0,
-      360
+      3,
+      24
     ],
     "range": [
-      "#30123b",
-      "#4560d6",
-      "#34aaf8",
-      "#1ae4b6",
-      "#71fd5f",
-      "#c8ee33",
-      "#f9ba38",
-      "#f66b18",
-      "#c92903",
-      "#7a0402"
+      "#aeefd5",
+      "#ebfcb2",
+      "#3eb032",
+      "#699535",
+      "#f4a602",
+      "#921201",
+      "#6f2108",
+      "#7f4c2f",
+      "#adadad",
+      "#e9e7e9"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "Aspect (°)"
+    "tickFormat": ".0f",
+    "title": "Canopy Height (m)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
+  "title": "Canopy Height Model (10m)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -5.537998028651118,
-          51.32642006614137,
-          -2.6335104848679842,
-          53.46788869884206
+          -10.93779706791088,
+          41.25407358675115,
+          9.840954106000945,
+          61.00516823367879
         ]
       ]
     },

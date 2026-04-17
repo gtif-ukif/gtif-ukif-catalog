@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-rooftop-slopes-Wales",
+  "id": "UCL1-COP30-Aspect",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,360",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-aspect/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo&rescale=0,360",
       "type": "image/png",
-      "title": "Wales Rooftop Slopes 1m",
-      "key": "a4d916cf-b31d-47af-8f06-1318c4c5bd2d"
+      "title": "COP30 Aspect",
+      "key": "9a93d1e6-3ba4-45b5-a29d-597dd3037ab4"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop Slopes 1m"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -31,7 +31,7 @@
     "Solar Rural Power"
   ],
   "agency": [
-    "UCL"
+    "ESA"
   ],
   "collection_group": "Other",
   "eox:colorlegend": {
@@ -56,23 +56,23 @@
     "title": "Aspect (°)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Wales Rooftop Slopes 1m",
+  "title": "COP30 Aspect",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -5.537998028651118,
-          51.32642006614137,
-          -2.6335104848679842,
-          53.46788869884206
+          -21.923451993591076,
+          39.90272381327664,
+          10.000491103609367,
+          63.474630050521746
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2022-01-01T00:00:00Z"
+          "2025-04-25T00:00:00Z",
+          "2025-04-25T00:00:00Z"
         ]
       ]
     }

@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-rooftop-slopes-Wales",
+  "id": "UCL4-Ireland",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,360",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=2,175",
       "type": "image/png",
-      "title": "Wales Rooftop Slopes 1m",
-      "key": "a4d916cf-b31d-47af-8f06-1318c4c5bd2d"
+      "title": "Photovoltaic Output Ireland",
+      "key": "6f45b525-139e-4dc0-a4eb-814d8e9df6d5"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop Slopes 1m"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -31,48 +31,48 @@
     "Solar Rural Power"
   ],
   "agency": [
-    "UCL"
+    "ESA"
   ],
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      0,
-      360
+      2,
+      175
     ],
     "range": [
-      "#30123b",
-      "#4560d6",
-      "#34aaf8",
-      "#1ae4b6",
-      "#71fd5f",
-      "#c8ee33",
-      "#f9ba38",
-      "#f66b18",
-      "#c92903",
-      "#7a0402"
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "Aspect (°)"
+    "tickFormat": ".0f",
+    "title": "Solar Power Output"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Wales Rooftop Slopes 1m",
+  "title": "Photovoltaic Output Ireland",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -5.537998028651118,
-          51.32642006614137,
-          -2.6335104848679842,
-          53.46788869884206
+          -11.0,
+          51.0,
+          -5.0,
+          56.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2022-01-01T00:00:00Z"
+          "2019-01-01T00:00:00Z",
+          "2019-12-01T00:00:00Z"
         ]
       ]
     }

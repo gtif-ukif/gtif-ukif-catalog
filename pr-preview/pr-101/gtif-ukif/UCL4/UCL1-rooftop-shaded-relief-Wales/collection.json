@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-rooftop-slopes-Wales",
+  "id": "UCL1-rooftop-shaded-relief-Wales",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,360",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-shaded-relief-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=greys&rescale=0,360",
       "type": "image/png",
-      "title": "Wales Rooftop Slopes 1m",
-      "key": "a4d916cf-b31d-47af-8f06-1318c4c5bd2d"
+      "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
+      "key": "d41c2d26-c8b6-44f9-8d31-6064e29cfce6"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop Slopes 1m"
+      "title": "Photovoltaic Output - Monthly"
     }
   ],
   "themes": [
@@ -56,7 +56,7 @@
     "title": "Aspect (°)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Wales Rooftop Slopes 1m",
+  "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
   "extent": {
     "spatial": {
       "bbox": [
@@ -71,8 +71,8 @@
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2022-01-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
