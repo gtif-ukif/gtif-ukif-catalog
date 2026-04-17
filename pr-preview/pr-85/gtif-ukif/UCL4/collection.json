@@ -429,7 +429,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4de1cd15-c951-4226-bcda-d81d1e684eac"
+        "429c5d19-3649-416e-ade8-d2e50fdc3784"
       ]
     },
     {
@@ -442,7 +442,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "4de1cd15-c951-4226-bcda-d81d1e684eac",
+      "key": "429c5d19-3649-416e-ade8-d2e50fdc3784",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -452,7 +452,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "65a366b4-5a4d-4f35-a63b-8cb6237d946c"
+        "25cfbf2c-8be0-411c-8d82-4a2bfa91656a"
       ]
     },
     {
@@ -465,7 +465,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "65a366b4-5a4d-4f35-a63b-8cb6237d946c",
+      "key": "25cfbf2c-8be0-411c-8d82-4a2bfa91656a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -475,7 +475,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dfdc6abe-f00e-435b-8053-186b73488275"
+        "ddbb4e72-8a34-4d00-9dec-5702e01a88ab"
       ]
     },
     {
@@ -488,7 +488,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "dfdc6abe-f00e-435b-8053-186b73488275",
+      "key": "ddbb4e72-8a34-4d00-9dec-5702e01a88ab",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -498,7 +498,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5d590068-51d0-4647-901e-7427ec736d6e"
+        "4c111022-c255-48c1-ba9b-97327860a434"
       ]
     },
     {
@@ -511,7 +511,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "5d590068-51d0-4647-901e-7427ec736d6e",
+      "key": "4c111022-c255-48c1-ba9b-97327860a434",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -521,7 +521,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e0f20015-4991-402c-9ae5-1a315d0635d5"
+        "7d04b920-9be3-4d79-9db6-003a56f0d829"
       ]
     },
     {
@@ -534,7 +534,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "e0f20015-4991-402c-9ae5-1a315d0635d5",
+      "key": "7d04b920-9be3-4d79-9db6-003a56f0d829",
       "layers": [
         "water"
       ],
@@ -665,7 +665,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ae37ac6b-e3fb-4e8e-9e2c-362faa2d62c0"
+        "cf60bd34-aa2c-4b63-b33b-d1f7e8d180ca"
       ]
     },
     {
@@ -678,7 +678,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "ae37ac6b-e3fb-4e8e-9e2c-362faa2d62c0",
+      "key": "cf60bd34-aa2c-4b63-b33b-d1f7e8d180ca",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -688,7 +688,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b132dbd5-c489-42c8-833e-b1563f0bc560"
+        "6a598cca-01a7-4eea-9641-77ef03b42d62"
       ]
     },
     {
@@ -701,7 +701,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "b132dbd5-c489-42c8-833e-b1563f0bc560",
+      "key": "6a598cca-01a7-4eea-9641-77ef03b42d62",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -711,7 +711,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "72073cad-41cd-4c34-94b6-f1571979f0cc"
+        "33b19c89-1415-42e8-93f6-f7ca455ab682"
       ]
     },
     {
@@ -724,7 +724,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "72073cad-41cd-4c34-94b6-f1571979f0cc",
+      "key": "33b19c89-1415-42e8-93f6-f7ca455ab682",
       "auth:refs": [
         "mapboxauth"
       ]
