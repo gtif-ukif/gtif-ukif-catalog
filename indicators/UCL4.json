@@ -177,15 +177,7 @@
         "domain": ["Tree cover"],
         "scaleType": "categorical"
       }
-    },
-    {
-      "id": "Openinframap",
-      "name": "Open Infrastructure Map",
-      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
-      "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "visible": true,
-      "protocol": "mapbox-style-document"
-    },
+    }
     {
       "id": "LWM",
       "name": "Land Water Mask",
@@ -194,6 +186,14 @@
       "visible": true,
       "protocol": "vector-tile"
     },
+    {
+      "id": "Openinframap",
+      "name": "Open Infrastructure Map",
+      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
+      "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "visible": true,
+      "protocol": "mapbox-style-document"
+    },    
     {
       "id": "franceARTD",
       "name": "France ARTD Polygons",
