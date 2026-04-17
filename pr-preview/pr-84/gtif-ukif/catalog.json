@@ -12,6 +12,40 @@
     },
     {
       "rel": "child",
+      "href": "./UCL3/collection.json",
+      "type": "application/json",
+      "title": "Poorest Air Quality across the whole UK-Ireland-France area",
+      "id": "UCL3",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Mobility Transition"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output",
+      "id": "UCL1",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Energy Transition"
+    },
+    {
+      "rel": "child",
       "href": "./UCL2-NDVI/collection.json",
       "type": "application/json",
       "title": "Drought Monitoring and Forecasting",
