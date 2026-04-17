@@ -189,7 +189,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6d523ff4-981d-4183-a6c4-aff8f666e9d2"
+        "6d51418f-508c-492c-8cf9-36f5c0dae8b6"
       ]
     },
     {
@@ -202,21 +202,10 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "6d523ff4-981d-4183-a6c4-aff8f666e9d2",
+      "key": "6d51418f-508c-492c-8cf9-36f5c0dae8b6",
       "auth:refs": [
         "mapboxauth"
       ]
-    },
-    {
-      "rel": "xyz",
-      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
-      "title": "Place names",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "overlay_bright"
     },
     {
       "rel": "mapbox-style-document",
@@ -393,7 +382,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4aea957a-ee71-418f-8ee9-7a896e972af1"
+        "0d1c7d86-c403-4e33-95b4-2d9c52c821a5"
       ]
     },
     {
@@ -406,21 +395,10 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "4aea957a-ee71-418f-8ee9-7a896e972af1",
+      "key": "0d1c7d86-c403-4e33-95b4-2d9c52c821a5",
       "auth:refs": [
         "mapboxauth"
       ]
-    },
-    {
-      "rel": "xyz",
-      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
-      "title": "Place names",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "overlay_bright"
     },
     {
       "rel": "mapbox-style-document",

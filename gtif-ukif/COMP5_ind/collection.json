@@ -200,7 +200,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "00ec3686-f60b-4ee7-b9be-daf1c531bc99"
+        "0d57e68e-a7ca-4ec0-8b17-8740ff264c2f"
       ]
     },
     {
@@ -213,21 +213,10 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "00ec3686-f60b-4ee7-b9be-daf1c531bc99",
+      "key": "0d57e68e-a7ca-4ec0-8b17-8740ff264c2f",
       "auth:refs": [
         "mapboxauth"
       ]
-    },
-    {
-      "rel": "xyz",
-      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
-      "title": "Place names",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "overlay_bright"
     },
     {
       "rel": "mapbox-style-document",
