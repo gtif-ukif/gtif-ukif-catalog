@@ -234,6 +234,37 @@
       "collection_group": "Food Security"
     },
     {
+      "rel": "child",
+      "href": "./UCL3_GMIF_PM25/collection.json",
+      "type": "application/json",
+      "title": "GMif PM2.5",
+      "id": "UCL3_GMIF_PM25",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Mobility Transition"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL4/collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly",
+      "id": "UCL4",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "collection_group": "Energy Transition"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"
