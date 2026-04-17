@@ -3,9 +3,34 @@
   "Title": "Drought Monitoring and Forecasting",
   "CollectionGroup": "Food Security",
   "Themes": ["food-security"],
-  "Tags": ["Drought Analysis/Forecast"],
+  "Tags": [
+    "Drought Analysis/Forecast",
+    "Crops",
+    "SPEI"
+  ],
   "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
-  "Collections": ["UCL2-NDVI", "UCL1-CROP-TYPES-MOSAIC", "UCL2-NDVI-France", "UCL2-NDVI-GB", "UCL2-NDVI-Ireland", "UCL2-SPEI-France", "UCL2-SPEI-GB", "UCL2-SPEI-Ireland"],
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
+    }
+  ],
+  "Process": {
+    "Name": "drought_crops_indicator",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "drought_crops",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-drought-crops-template/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/body.json",
+        "Type": "application/json"
+      }
+    ]
+  },  
+  "Collections": ["UCL1-CROP-TYPES-MOSAIC", "UCL2-NDVI-France", "UCL2-NDVI-GB", "UCL2-NDVI-Ireland", "UCL2-SPEI-France", "UCL2-SPEI-GB", "UCL2-SPEI-Ireland"],
   "Agency": ["ESA"],
   "OverlayLayers": [
     {
