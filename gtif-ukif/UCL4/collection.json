@@ -425,11 +425,48 @@
       "id": "overlay_bright"
     },
     {
+      "rel": "mapbox-style-document",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "type": "application/json",
+      "title": "Open Infrastructure Map",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "Openinframap",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "d62a6cfa-e6a0-4dac-8933-a7bdac6e5f91"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Land Water Mask",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "LWM",
+      "key": "d62a6cfa-e6a0-4dac-8933-a7bdac6e5f91",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2e88847f-924e-4c64-96e4-43363621a6bf"
+        "2158f2b7-eb21-41b4-8433-5d1e6c333d34"
       ]
     },
     {
@@ -442,7 +479,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "2e88847f-924e-4c64-96e4-43363621a6bf",
+      "key": "2158f2b7-eb21-41b4-8433-5d1e6c333d34",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -452,7 +489,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "03a91ea3-879d-40ba-b72a-28c531295e5a"
+        "4393b307-cd49-4d55-97d8-7bd58da2cf07"
       ]
     },
     {
@@ -465,7 +502,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "03a91ea3-879d-40ba-b72a-28c531295e5a",
+      "key": "4393b307-cd49-4d55-97d8-7bd58da2cf07",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -475,7 +512,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d4a11482-89ae-4c55-9163-27e4b66a55d5"
+        "778be44c-d82d-411d-b5cc-4b42a17e74da"
       ]
     },
     {
@@ -488,7 +525,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "d4a11482-89ae-4c55-9163-27e4b66a55d5",
+      "key": "778be44c-d82d-411d-b5cc-4b42a17e74da",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -498,7 +535,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "576bd4e0-a027-446f-968f-3a66531fbedc"
+        "d49480ce-ff8a-4069-a5d1-8df43f06444f"
       ]
     },
     {
@@ -511,7 +548,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "576bd4e0-a027-446f-968f-3a66531fbedc",
+      "key": "d49480ce-ff8a-4069-a5d1-8df43f06444f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -521,7 +558,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "42ecc160-c818-4050-ac60-b84b708c4f97"
+        "97b80865-3b91-4d7f-878d-6f4569e03e07"
       ]
     },
     {
@@ -534,7 +571,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "42ecc160-c818-4050-ac60-b84b708c4f97",
+      "key": "97b80865-3b91-4d7f-878d-6f4569e03e07",
       "layers": [
         "water"
       ],
@@ -648,47 +685,10 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "af0fdd45-a1e0-416a-b5dc-7655f008c12a"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Land Water Mask",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "LWM",
-      "key": "af0fdd45-a1e0-416a-b5dc-7655f008c12a",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "mapbox-style-document",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "type": "application/json",
-      "title": "Open Infrastructure Map",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "Openinframap",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fe66b0d3-0a46-4a3c-b7a2-eedc35dec21f"
+        "14dd54f2-ee4e-4ec5-9bb0-ea96b52dc94d"
       ]
     },
     {
@@ -701,7 +701,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "fe66b0d3-0a46-4a3c-b7a2-eedc35dec21f",
+      "key": "14dd54f2-ee4e-4ec5-9bb0-ea96b52dc94d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -711,7 +711,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "20a7c4bc-d5f4-4864-857d-016d6f88ceee"
+        "88627fb8-f3eb-476c-9a27-2a7706364b14"
       ]
     },
     {
@@ -724,7 +724,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "20a7c4bc-d5f4-4864-857d-016d6f88ceee",
+      "key": "88627fb8-f3eb-476c-9a27-2a7706364b14",
       "auth:refs": [
         "mapboxauth"
       ]
