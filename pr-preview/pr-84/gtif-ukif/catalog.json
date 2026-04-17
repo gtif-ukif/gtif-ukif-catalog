@@ -12,6 +12,25 @@
     },
     {
       "rel": "child",
+      "href": "./UCL2-NDVI/collection.json",
+      "type": "application/json",
+      "title": "Drought Monitoring and Forecasting",
+      "id": "UCL2-NDVI",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast",
+        "Crops",
+        "SPEI"
+      ],
+      "agency": [
+        "UCL"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL4/collection.json",
       "type": "application/json",
       "title": "Photovoltaic Output - Monthly",

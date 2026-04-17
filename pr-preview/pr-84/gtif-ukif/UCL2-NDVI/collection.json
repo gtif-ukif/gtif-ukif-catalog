@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL4",
+  "id": "UCL2-NDVI",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment.\n\n<hr>\n\n<strong>Interactive Bifacial Statistics</strong><br>Draw an AOI over GB, Ireland or France to compute on-demand bifacial photovoltaic potential statistics (area, installable capacity, monofacial yield and bifacial gain) for 2020 and 2022 from UCL's 10 m PVout+ products.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.\n\n<hr>\n\n<strong>Interactive Crop Stress Statistics</strong><br>Draw an AOI over GB, Ireland or France to compute on-demand mean SPEI (Standardised Precipitation-Evapotranspiration Index) per crop type for 2020, 2022 and 2025 from UCL's 10 m SPEI products.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-COP30-Aspect/collection.json",
+      "href": "./UCL1-CROP-TYPES-MOSAIC/collection.json",
       "type": "application/json",
-      "title": "COP30 Aspect",
+      "title": "Crop Types Mosaic (UK+EU38)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Aspect",
+      "id": "UCL1-CROP-TYPES-MOSAIC",
       "themes": [
-        "energy-transition"
+        "food-security"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -30,16 +30,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-COP30-Slope/collection.json",
+      "href": "./UCL2-NDVI-France/collection.json",
       "type": "application/json",
-      "title": "COP30 Slope",
+      "title": "NDVI (France)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Slope",
+      "id": "UCL2-NDVI-France",
       "themes": [
-        "energy-transition"
+        "food-security"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -48,16 +48,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-COP30-Shd/collection.json",
+      "href": "./UCL2-NDVI-GB/collection.json",
       "type": "application/json",
-      "title": "COP30 Shd",
+      "title": "NDVI (GB)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-COP30-Shd",
+      "id": "UCL2-NDVI-GB",
       "themes": [
-        "energy-transition"
+        "food-security"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -66,16 +66,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
       "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
+      "title": "NDVI (Ireland)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
+      "id": "UCL2-NDVI-Ireland",
       "themes": [
-        "energy-transition"
+        "food-security"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -84,16 +84,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-albedo-GB/collection.json",
+      "href": "./UCL2-SPEI-France/collection.json",
       "type": "application/json",
-      "title": "RGB Albedo Layer GB",
+      "title": "SPEI (France)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-GB",
+      "id": "UCL2-SPEI-France",
       "themes": [
-        "energy-transition"
+        "food-security"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -102,16 +102,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-France/collection.json",
+      "href": "./UCL2-SPEI-GB/collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output France",
+      "title": "SPEI (GB)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL4-France",
+      "id": "UCL2-SPEI-GB",
       "themes": [
-        "energy-transition"
+        "food-security"
       ],
       "tags": [
-        "Solar Rural Power"
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -120,106 +120,16 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-UK/collection.json",
+      "href": "./UCL2-SPEI-Ireland/collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output UK",
+      "title": "SPEI (Ireland)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL4-UK",
+      "id": "UCL2-SPEI-Ireland",
       "themes": [
-        "energy-transition"
+        "food-security"
       ],
       "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-Ireland/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-Canopy-Height/collection.json",
-      "type": "application/json",
-      "title": "Canopy Height Model (10m)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-Canopy-Height",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-France-bfPVout/collection.json",
-      "type": "application/json",
-      "title": "bfPVout+ France",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-France-bfPVout",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-GB-bfPVout/collection.json",
-      "type": "application/json",
-      "title": "bfPVout+ GB",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-GB-bfPVout",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL4-Ireland-bfPVout/collection.json",
-      "type": "application/json",
-      "title": "bfPVout+ Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL4-Ireland-bfPVout",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
+        "Drought Analysis/Forecast"
       ],
       "agency": [
         "ESA"
@@ -228,12 +138,12 @@
     },
     {
       "rel": "service",
-      "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-bifacial-stats-template/execution",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-drought-crops-template/execution",
       "type": "application/json",
-      "id": "bifacial_stats",
+      "id": "drought_crops",
       "method": "POST",
       "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/body.json"
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/body.json"
     },
     {
       "rel": "xyz",
@@ -273,7 +183,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "300cad40-41e5-46a0-a2f9-031d8c287e65"
+        "19c5701a-1ab0-4533-916f-1ff568f7c48f"
       ]
     },
     {
@@ -286,7 +196,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "300cad40-41e5-46a0-a2f9-031d8c287e65",
+      "key": "19c5701a-1ab0-4533-916f-1ff568f7c48f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -307,7 +217,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "31bde06e-9c2d-460c-b627-39d29f64d9ea"
+        "d3f48181-04fb-4e70-a93d-68cc19db85c2"
       ]
     },
     {
@@ -320,7 +230,7 @@
         "invisible"
       ],
       "id": "SolarPanels",
-      "key": "31bde06e-9c2d-460c-b627-39d29f64d9ea",
+      "key": "d3f48181-04fb-4e70-a93d-68cc19db85c2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -330,7 +240,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3026cd8f-3fe1-420c-a4fe-a2b7d71d7831"
+        "8169d80a-6493-4d6e-8fdc-ab001b5d00f4"
       ]
     },
     {
@@ -343,7 +253,7 @@
         "invisible"
       ],
       "id": "SSSI",
-      "key": "3026cd8f-3fe1-420c-a4fe-a2b7d71d7831",
+      "key": "8169d80a-6493-4d6e-8fdc-ab001b5d00f4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -353,7 +263,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8525cdb6-03fd-46b1-939c-23ed81870f24"
+        "07a7b8ef-1951-47ff-8f51-484966bb7e2b"
       ]
     },
     {
@@ -366,7 +276,7 @@
         "invisible"
       ],
       "id": "NationalParks",
-      "key": "8525cdb6-03fd-46b1-939c-23ed81870f24",
+      "key": "07a7b8ef-1951-47ff-8f51-484966bb7e2b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -376,7 +286,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2ba91ad5-5612-440a-a28e-ce0ee4317211"
+        "89d64ecb-8a54-43dd-93ed-1074edf709ba"
       ]
     },
     {
@@ -389,7 +299,7 @@
         "invisible"
       ],
       "id": "AONB",
-      "key": "2ba91ad5-5612-440a-a28e-ce0ee4317211",
+      "key": "89d64ecb-8a54-43dd-93ed-1074edf709ba",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -399,7 +309,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "41f9a836-ccd3-4644-aeec-c2e85ccc4e50"
+        "4f63d508-94c7-45ff-897a-76e00d29e119"
       ]
     },
     {
@@ -412,7 +322,7 @@
         "invisible"
       ],
       "id": "MapboxWaterMask",
-      "key": "41f9a836-ccd3-4644-aeec-c2e85ccc4e50",
+      "key": "4f63d508-94c7-45ff-897a-76e00d29e119",
       "layers": [
         "water"
       ],
@@ -445,18 +355,19 @@
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
   "themes": [
-    "energy-transition"
+    "food-security"
   ],
   "tags": [
-    "Solar Rural Power",
-    "Bifacial"
+    "Drought Analysis/Forecast",
+    "Crops",
+    "SPEI"
   ],
   "agency": [
     "UCL"
   ],
   "collection_group": "Other",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/vega.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -464,95 +375,65 @@
       "in": "query"
     }
   },
-  "title": "Photovoltaic Output - Monthly",
+  "title": "Drought Monitoring and Forecasting",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -18.89777894452214,
+          38.38968703400335,
+          12.18942204017344,
+          61.7936737106199
         ],
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -18.89777894452214,
+          38.38968703400335,
+          11.492012924399585,
+          61.7936737106199
         ],
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -5.619305428473922,
+          41.09076256724424,
+          12.18942204017344,
+          51.419307761876006
         ],
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -9.419263296774696,
+          48.72918147523066,
+          4.964608138752998,
+          61.264240082289106
         ],
         [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
+          -11.104843049384266,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60483167954299
         ],
         [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
+          -5.619305428473922,
+          41.09076256724424,
+          12.18942204017344,
+          51.419307761876006
         ],
         [
-          -6.0,
-          41.0,
-          10.0,
-          52.0
+          -8.899565067732734,
+          49.11835675764194,
+          4.804451125276599,
+          61.264240082289106
         ],
         [
-          -9.0,
-          49.0,
-          2.0,
-          61.0
-        ],
-        [
-          -11.0,
-          51.0,
-          -5.0,
-          56.0
-        ],
-        [
-          -10.93779706791088,
-          41.25407358675115,
-          9.840954106000945,
-          61.00516823367879
-        ],
-        [
-          -5.72445999562336,
-          40.463816771195944,
-          9.567154759937422,
-          51.32735171093607
-        ],
-        [
-          -11.68981459013062,
-          48.367778967612495,
-          2.6794151966213824,
-          61.09498464485176
-        ],
-        [
-          -13.084621137382557,
-          50.29563860693716,
-          -3.6496924102342585,
-          56.42941278951695
+          -11.104591164873993,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60473592572955
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
-          "2025-04-26T00:00:00Z"
+          "2020-03-01T00:00:00Z",
+          "2025-08-01T00:00:00Z"
         ]
       ]
     }
@@ -560,7 +441,7 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "energy-transition"
+      "food-security"
     ]
   }
 }
