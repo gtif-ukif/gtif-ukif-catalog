@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-rooftop-slopes-Wales",
+  "id": "UCL1-rooftop-shaded-relief-Wales",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-rooftop-slopes-Wales/collection.json",
+      "href": "./UCL1-rooftop-shaded-relief-Wales/collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop Slopes 1m",
+      "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-rooftop-slopes-Wales",
+      "id": "UCL1-rooftop-shaded-relief-Wales",
       "themes": [
         "energy-transition"
       ],
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d6a3b8c3-948f-4e4b-9508-5f568d41d862"
+        "420178fb-341b-4b27-b63a-8324b17ebea2"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "d6a3b8c3-948f-4e4b-9508-5f568d41d862",
+      "key": "420178fb-341b-4b27-b63a-8324b17ebea2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -262,7 +262,7 @@
       "in": "query"
     }
   },
-  "title": "Wales Rooftop Slopes 1m",
+  "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
   "extent": {
     "spatial": {
       "bbox": [
@@ -283,8 +283,8 @@
     "temporal": {
       "interval": [
         [
-          "2022-01-01T00:00:00Z",
-          "2022-01-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
