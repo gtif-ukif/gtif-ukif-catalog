@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL1-albedo-GB",
+  "id": "UCL3-GMIF-air-quality-vector",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Consolidated GMif PM2.5 in situ station GeoJSON layer for the UK, Ireland, and France.",
   "links": [
     {
       "rel": "root",
@@ -11,47 +11,48 @@
       "title": "GTIF UKIF Catalog"
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
-      "type": "image/png",
-      "title": "RGB Albedo Layer GB",
-      "key": "30353dd0-77ce-435b-9fc4-75f337f009ba"
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/GMIF-air-quality/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "gmif_air_pollution_stations"
+      ]
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output - Monthly"
+      "title": "GMif PM2.5"
     }
   ],
   "themes": [
-    "energy-transition"
+    "mobility-transition"
   ],
   "tags": [
-    "Solar Rural Power"
+    "Air Quality"
   ],
   "agency": [
     "ESA"
   ],
   "collection_group": "Other",
-  "endpointtype": "VEDA_tiles",
-  "title": "RGB Albedo Layer GB",
+  "endpointtype": "GeoJSON source",
+  "title": "GMif Air Pollution Stations",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
+          -9.69792,
+          41.92469,
+          9.44642,
+          57.15736
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-08-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
