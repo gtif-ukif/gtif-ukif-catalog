@@ -1,8 +1,46 @@
 {
   "Name": "EDA-methane-detection",
-  "CollectionGroup": "Detection",  
+  "Title": "Methane Detection",
+  "CollectionGroup": "Detection",
+  "Themes": [
+    "carbon-accounting"
+  ],
+  "Tags": [
+    "Methane Emissions Analysis"
+  ],
+  "Description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime-series of the average amount of methane in the signal region relative to the background region, over the selected AOI and time range.\n\n<hr>\n\n<strong>Disclaimer</strong><br>Methane detections represent potential emission indicators derived from satellite data. They are not validated measurements and do not imply health risk, safety concerns, or regulatory non-compliance.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "OverwriteBBox": [-180, -90, 180, 90]
+    }
+  ],
+  "Process": {
+    "Name": "methane_indicator",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "timeseries",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-methane-process/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/body.json",
+        "Type": "image/tiff",
+        "Flatstyle": [
+          {
+            "Identifier": "methane_timeseries",
+            "Url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/timeseries_style.json"
+          },
+          {
+            "Identifier": "methane_s2la_visible_timeseries",
+            "Url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/sentinel_b11_style.json"
+          }
+        ]
+      }
+    ]
+  },
   "Collections": [
-    "EDA-methane-detection",
     "EDA-methane-detection-terrascope-CH4",
     "EDA-methane-detection-SRON-plumes"
   ],
@@ -15,6 +53,131 @@
       "protocol": "GeoJSON source",
       "visible": false,
       "attribution": "{ EO Plumes: Data derived from the live <a href=\"https://www.eoplumes.com/plume-map\" target=\"_blank\">EO Plumes sulphur dioxide plume map</a> snapshot }"
+    },
+    {
+      "id": "WC21",
+      "name": "ESA World Cover WC21 UK Mosaic",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Grassland",
+          "Cropland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "id": "WC21-Cropland",
+      "name": "WC21 UK Mosaic (Cropland)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(240, 150, 255)"],
+        "domain": ["Cropland"],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "id": "WC21-Grassland",
+      "name": "WC21 UK Mosaic (Grassland)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(255, 255, 76)"],
+        "domain": ["Grassland"],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "id": "WC21-Treecover",
+      "name": "WC21 UK Mosaic (Tree cover)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(0,100,0)"],
+        "domain": ["Tree cover"],
+        "scaleType": "categorical"
+      }
     }
+  ],
+  "BaseLayers": [
+    {
+      "id": "cloudless-2024",
+      "name": "EOxCloudless 2024",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }",
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "terrain-light",
+      "name": "Terrain Light",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "esri-world-imagery",
+      "name": "ESRI World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "media_type": "image/jpeg",
+      "attribution": "{ &copy; Esri }",
+      "protocol": "xyz",
+      "visible": true
+    }
+  ],
+  "Agency": [
+    "ESA"
   ]
 }
