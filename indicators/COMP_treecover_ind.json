@@ -14,7 +14,8 @@
   "CollectionGroup": "Land Cover",
   "Collections": [
     "COMP_treecover_lcm",
-    "COMP5"
+    "COMP5",
+    "PlacesOfInterest"
   ],
   "Process": {
     "Name": "Tree Cover UHI histogram",
