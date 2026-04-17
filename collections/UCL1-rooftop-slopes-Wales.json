@@ -1,0 +1,53 @@
+{
+  "Name": "UCL1-rooftop-slopes-Wales",
+  "Title": "Wales Rooftop Slopes 1m",
+  "CollectionGroup": "Other",
+  "Description": "",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Resources": [
+    {
+      "Name": "VEDA",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Type": "tiles",
+      "CollectionId": "UCL1-rooftop-slopes-Wales",
+      "ColormapName": "viridis",
+      "Assets": [
+        "asset"
+      ],
+      "Rescale": [
+        0,
+        360
+      ],
+      "Times": ["2020-01-01T00:00:00Z"]
+    }
+  ],
+  "Agency": [
+    "UCL"
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      360
+    ],
+    "range": [
+      "#30123b",
+      "#4560d6",
+      "#34aaf8",
+      "#1ae4b6",
+      "#71fd5f",
+      "#c8ee33",
+      "#f9ba38",
+      "#f66b18",
+      "#c92903",
+      "#7a0402"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Aspect (°)"
+  }
+}
