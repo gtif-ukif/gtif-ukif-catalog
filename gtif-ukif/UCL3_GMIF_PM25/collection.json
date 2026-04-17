@@ -214,7 +214,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1dc78217-b063-4cc9-bdfc-335923c4f95a"
+        "3c2d1054-e278-4ab2-9cd5-5f9c6bb0b427"
       ]
     },
     {
@@ -227,7 +227,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "1dc78217-b063-4cc9-bdfc-335923c4f95a",
+      "key": "3c2d1054-e278-4ab2-9cd5-5f9c6bb0b427",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -259,7 +259,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "385f2e0d-f92b-4099-92f6-b735c10d11b0"
+        "32f4c3ba-5d24-4b21-a192-8d2650cbc46e"
       ]
     },
     {
@@ -272,7 +272,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "385f2e0d-f92b-4099-92f6-b735c10d11b0",
+      "key": "32f4c3ba-5d24-4b21-a192-8d2650cbc46e",
       "layers": [
         "airport_label"
       ],
@@ -299,7 +299,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Mobility Transition",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/gmif_air_quality_station_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/gmif_air_quality_station_vega.json",
   "auth:schemes": {

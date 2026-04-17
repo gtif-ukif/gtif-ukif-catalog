@@ -26,7 +26,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "service",
@@ -179,7 +179,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "fae6b7ec-1217-46b9-93b2-f2c0759b13f0"
+        "9d77818b-5973-4160-ae2a-69ab984c604f"
       ]
     },
     {
@@ -192,7 +192,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "fae6b7ec-1217-46b9-93b2-f2c0759b13f0",
+      "key": "9d77818b-5973-4160-ae2a-69ab984c604f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -216,7 +216,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Other",
+  "collection_group": "Mobility Transition",
   "eox:colorlegend": {
     "domain": [
       44,

@@ -110,7 +110,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "child",
@@ -320,23 +320,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output",
-      "id": "UCL1",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL3/collection.json",
       "type": "application/json",
       "title": "Poorest Air Quality across the whole UK-Ireland-France area",
@@ -350,7 +333,7 @@
       "agency": [
         "ESA"
       ],
-      "collection_group": "Other"
+      "collection_group": "Mobility Transition"
     },
     {
       "rel": "child",
@@ -362,13 +345,9 @@
         "energy-transition"
       ],
       "tags": [
-        "Solar Rural Power",
-        "Bifacial"
+        "Solar Rural Power"
       ],
-      "agency": [
-        "UCL"
-      ],
-      "collection_group": "Other"
+      "collection_group": "Energy Transition"
     },
     {
       "rel": "child",
