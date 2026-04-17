@@ -45,6 +45,91 @@
       "collection_group": "Examples"
     },
     {
+      "rel": "child",
+      "href": "./EDA-methane-detection/collection.json",
+      "type": "application/json",
+      "title": "Methane Detection",
+      "id": "EDA-methane-detection",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Detection"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-france/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: France",
+      "id": "EDA-methane-france",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-greece/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Greece",
+      "id": "EDA-methane-greece",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-korpezhe/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Korpezhe",
+      "id": "EDA-methane-korpezhe",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
+      "rel": "child",
+      "href": "./EDA-methane-madrid/collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Madrid Spain",
+      "id": "EDA-methane-madrid",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Methane Emissions Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Examples"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"

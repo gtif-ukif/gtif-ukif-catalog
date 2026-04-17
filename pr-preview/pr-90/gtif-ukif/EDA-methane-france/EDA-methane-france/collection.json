@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-UK",
+  "id": "EDA-methane-france",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nThere was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane over a Toyota Motor manufacturing plant. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-UK/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-france/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-0.15,0.9",
       "type": "image/png",
-      "title": "Methane Site: Cheltenham UK",
-      "key": "2ae6fe32-6495-4b4b-b2fb-1e27f8519db6"
+      "title": "Methane Site: France",
+      "key": "45331cde-6de5-48ca-a6dd-8d045ff3c6ae"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Methane Site: Cheltenham UK"
+      "title": "Methane Site: France"
     }
   ],
   "themes": [
@@ -36,8 +36,8 @@
   "collection_group": "Examples",
   "eox:colorlegend": {
     "domain": [
-      -3,
-      3
+      -0.15,
+      0.9
     ],
     "range": [
       "#00004c",
@@ -56,23 +56,23 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Methane Site: Cheltenham UK",
+  "title": "Methane Site: France",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.11962,
-          51.930743012581736,
-          -2.079483012581734,
-          51.97088
+          3.5828,
+          50.337170624471106,
+          3.6429293755288943,
+          50.3973
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-19T00:00:00Z",
-          "2023-06-15T00:00:00Z"
+          "2023-01-30T00:00:00Z",
+          "2023-12-11T00:00:00Z"
         ]
       ]
     }

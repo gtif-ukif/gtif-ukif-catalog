@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-UK",
+  "id": "EDA-methane-greece",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nThere was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Greece. UNEP classifies this location as a persistent emitter of methane and we see a consistent excess of methane from about July 2023 to August 2023, along with a coincident EMIT and Sentinel-2 data showing excess methane emissions on July 23rd, 2023. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT satellite.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-UK/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-greece/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-3,3",
       "type": "image/png",
-      "title": "Methane Site: Cheltenham UK",
-      "key": "2ae6fe32-6495-4b4b-b2fb-1e27f8519db6"
+      "title": "Methane Site: Greece",
+      "key": "180a1442-2eee-432c-b9c5-a959c1ee5a71"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Methane Site: Cheltenham UK"
+      "title": "Methane Site: Greece"
     }
   ],
   "themes": [
@@ -56,23 +56,23 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Methane Site: Cheltenham UK",
+  "title": "Methane Site: Greece",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.11962,
-          51.930743012581736,
-          -2.079483012581734,
-          51.97088
+          23.066837,
+          40.839837254691176,
+          23.11613514449838,
+          40.895219
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-19T00:00:00Z",
-          "2023-06-15T00:00:00Z"
+          "2023-07-02T00:00:00Z",
+          "2023-08-11T00:00:00Z"
         ]
       ]
     }
