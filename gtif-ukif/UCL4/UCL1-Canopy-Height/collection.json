@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-Canopy-Height/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdylgn&rescale=3,24",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-Canopy-Height/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=schwarzwald&rescale=3,24",
       "type": "image/png",
       "title": "Canopy Height Model (10m)",
-      "key": "0c4c5abc-6429-476d-afb0-a6089aca9d33"
+      "key": "0bd7abe8-d1e2-46ea-9140-ce2d8d5f3b10"
     },
     {
       "rel": "parent",
@@ -40,17 +40,16 @@
       24
     ],
     "range": [
-      "#a50026",
-      "#d73027",
-      "#f46d43",
-      "#fdae61",
-      "#fee08b",
-      "#ffffbf",
-      "#d9ef8b",
-      "#a6d96a",
-      "#66bd63",
-      "#1a9850",
-      "#006837"
+      "#aeefd5",
+      "#ebfcb2",
+      "#3eb032",
+      "#699535",
+      "#f4a602",
+      "#921201",
+      "#6f2108",
+      "#7f4c2f",
+      "#adadad",
+      "#e9e7e9"
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",

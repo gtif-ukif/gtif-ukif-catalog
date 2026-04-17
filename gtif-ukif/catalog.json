@@ -216,40 +216,6 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-poland-silesian-voivodeship/collection.json",
-      "type": "application/json",
-      "title": "Methane Site: Poland Silesian Voivodeship",
-      "id": "EDA-methane-poland-silesian-voivodeship",
-      "themes": [
-        "carbon-accounting"
-      ],
-      "tags": [
-        "Methane Emissions Analysis"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Examples"
-    },
-    {
-      "rel": "child",
-      "href": "./EDA-methane-romania/collection.json",
-      "type": "application/json",
-      "title": "Methane Site: Romania",
-      "id": "EDA-methane-romania",
-      "themes": [
-        "carbon-accounting"
-      ],
-      "tags": [
-        "Methane Emissions Analysis"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Examples"
-    },
-    {
-      "rel": "child",
       "href": "./EDA-methane-spain/collection.json",
       "type": "application/json",
       "title": "Methane Site: Spain",

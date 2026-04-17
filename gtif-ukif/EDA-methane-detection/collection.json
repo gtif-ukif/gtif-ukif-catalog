@@ -84,7 +84,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "OSM"
     },
@@ -106,7 +106,7 @@
       "title": "ESRI World Imagery",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "esri-world-imagery"
     },
@@ -126,7 +126,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9118d796-0f55-47c7-8983-0869f6619efb"
+        "b49a77d5-23cb-4a96-af38-9828c2a66220"
       ]
     },
     {
@@ -139,7 +139,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "9118d796-0f55-47c7-8983-0869f6619efb",
+      "key": "b49a77d5-23cb-4a96-af38-9828c2a66220",
       "auth:refs": [
         "mapboxauth"
       ]

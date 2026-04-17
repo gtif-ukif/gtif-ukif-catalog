@@ -288,7 +288,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "23a02d63-89a9-4f87-9827-ca7612d7f245"
+        "43d0fb60-f2f6-44f8-baca-41f44e75ce4c"
       ]
     },
     {
@@ -301,7 +301,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "23a02d63-89a9-4f87-9827-ca7612d7f245",
+      "key": "43d0fb60-f2f6-44f8-baca-41f44e75ce4c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -316,6 +316,20 @@
         "invisible"
       ],
       "id": "overlay_bright"
+    },
+    {
+      "rel": "mapbox-style-document",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "type": "application/json",
+      "title": "Open Infrastructure Map",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "Openinframap",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "wms",

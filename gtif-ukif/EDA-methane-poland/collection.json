@@ -53,7 +53,7 @@
       "title": "OSM Background",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "OSM"
     },
@@ -75,7 +75,7 @@
       "title": "ESRI World Imagery",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "esri-world-imagery"
     },
@@ -106,8 +106,8 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Cropland",
           "Grassland",
+          "Cropland",
           "Tree cover",
           "Snow and Ice",
           "Shrubland",
@@ -122,23 +122,63 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
       "type": "image/png",
-      "title": "WC21 UK Mosaic (Filtered)",
+      "title": "WC21 UK Mosaic (Cropland)",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "WC21-filtered",
+      "id": "WC21-Cropland",
       "eox:colorlegend": {
         "title": "",
         "range": [
-          "rgb(255, 255, 76)",
           "rgb(240, 150, 255)"
         ],
         "domain": [
-          "Grassland",
           "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Grassland)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-Grassland",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Tree cover)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-Treecover",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
         ],
         "scaleType": "categorical"
       }
@@ -189,7 +229,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "72962ab0-230f-4a32-a9b1-6cffab7e5431"
+        "c29b7fe8-a91c-4eb7-83d2-3ef3ade2554c"
       ]
     },
     {
@@ -202,7 +242,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "72962ab0-230f-4a32-a9b1-6cffab7e5431",
+      "key": "c29b7fe8-a91c-4eb7-83d2-3ef3ade2554c",
       "auth:refs": [
         "mapboxauth"
       ]
