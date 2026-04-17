@@ -12,10 +12,61 @@
     },
     {
       "rel": "child",
+      "href": "./COMP1_ind/collection.json",
+      "type": "application/json",
+      "title": "BER and UHI - Traffic Light Map",
+      "id": "COMP1_ind",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Building Efficiency Ratings"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Building Efficiency Ratings"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP2_ind/collection.json",
+      "type": "application/json",
+      "title": "Urban Classes and UHI",
+      "id": "COMP2_ind",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Cover"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Cover"
+    },
+    {
+      "rel": "child",
       "href": "./COMP_impreviousness_ind/collection.json",
       "type": "application/json",
       "title": "Imperviousness and UHI",
       "id": "COMP_impreviousness_ind",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Cover"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Cover"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP_TreeCover/collection.json",
+      "type": "application/json",
+      "title": "Tree Cover and UHI",
+      "id": "COMP_TreeCover",
       "themes": [
         "sustainable-cities"
       ],

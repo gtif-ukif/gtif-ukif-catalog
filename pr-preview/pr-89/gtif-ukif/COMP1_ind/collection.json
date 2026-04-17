@@ -1,14 +1,32 @@
 {
   "type": "Collection",
-  "id": "COMP_impreviousness_ind",
+  "id": "COMP1_ind",
   "stac_version": "1.1.0",
-  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and building efficiency ratings reflects how the thermal performance of buildings influences local temperature patterns within cities. Buildings with poor efficiency ratings often have inadequate insulation, inefficient heating and cooling systems, and materials that retain or release heat in ways that exacerbate warming. These structures tend to emit more waste heat into the surrounding environment, especially during periods of high energy use, reinforcing the UHI effect in densely built areas. \n\nConversely, buildings with higher efficiency ratings are designed to regulate indoor temperatures more effectively, reducing the need for energy-intensive cooling and minimizing external heat emissions. They often incorporate better insulation, reflective or high-albedo materials, and more efficient systems that collectively help lower the amount of anthropogenic heat released outdoors. As a result, spatial patterns of building efficiency can correlate strongly with UHI intensity, highlighting how improving energy performance across the building stock can contribute to reducing urban heat and enhancing overall climate resilience.",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP3/collection.json",
+      "type": "application/json",
+      "title": "Building Efficiency Ratings",
+      "endpointtype": "VectorTile source",
+      "id": "COMP3",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Heat Island"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
     },
     {
       "rel": "child",
@@ -30,24 +48,6 @@
     },
     {
       "rel": "child",
-      "href": "./COMP_Imperviousness/collection.json",
-      "type": "application/json",
-      "title": "Imperviousness and UHI",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Land Cover"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Land Cover"
-    },
-    {
-      "rel": "child",
       "href": "./PlacesOfInterest/collection.json",
       "type": "application/json",
       "title": "Places of Interest",
@@ -66,11 +66,11 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Imperviousness-UHI/statistics?assets=asset&histogram_bins=20&ids=COMP_imperviousness_uhi_cog",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/statistics?assets=asset&histogram_bins=16&ids=UHI_UKIEFR_MEAN_2022_2024_cog",
       "type": "application/json",
-      "id": "imperviousness_uhi_histogram",
+      "id": "comp1_histogram",
       "method": "POST",
-      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_body.json"
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_body.json"
     },
     {
       "rel": "xyz",
@@ -212,10 +212,18 @@
     },
     {
       "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP3/decarbonization_zones_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "Decarbonizing_Zones"
+      ]
+    },
+    {
+      "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "474b2fb6-9239-43f0-b438-ef205a8163cc"
+        "34aceff9-1551-4f4b-ba4b-b2c00766b0c5"
       ]
     },
     {
@@ -228,7 +236,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "474b2fb6-9239-43f0-b438-ef205a8163cc",
+      "key": "34aceff9-1551-4f4b-ba4b-b2c00766b0c5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -237,12 +245,13 @@
       "rel": "xyz",
       "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
-      "title": "Place names",
+      "title": "Overlay labels",
       "roles": [
         "overlay",
         "invisible"
       ],
-      "id": "overlay_bright"
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -299,14 +308,15 @@
     "sustainable-cities"
   ],
   "tags": [
-    "Land Cover"
+    "Building Efficiency Ratings"
   ],
   "agency": [
     "ESA"
   ],
-  "collection_group": "Land Cover",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_vega.json",
+  "collection_group": "Building Efficiency Ratings",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP1/comp1_ber_histogram_vega.json",
+  "eodash:merge_assets": false,
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -314,16 +324,10 @@
       "in": "query"
     }
   },
-  "title": "Imperviousness and UHI",
+  "title": "BER and UHI - Traffic Light Map",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -11.82326107093359,
-          40.566153343944876,
-          16.216836666567666,
-          61.33941008747212
-        ],
         [
           -10.732621857017984,
           41.003601143635564,
@@ -331,10 +335,16 @@
           61.215695036324796
         ],
         [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
+          -6.290874,
+          53.33398,
+          -6.225986,
+          53.355937
+        ],
+        [
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ],
         [
           -10.48,
@@ -347,7 +357,7 @@
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
+          "2018-01-01T00:00:00Z",
           "2025-01-01T00:00:00Z"
         ]
       ]
@@ -358,5 +368,16 @@
     "themes": [
       "sustainable-cities"
     ]
+  },
+  "assets": {
+    "Decarbonizing_Zones": {
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/decarbonising_zones.geojson",
+      "type": "application/geo+json",
+      "title": "Decarbonizing Zones",
+      "roles": [
+        "overlay",
+        "visible"
+      ]
+    }
   }
 }

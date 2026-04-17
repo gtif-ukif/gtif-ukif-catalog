@@ -1,14 +1,32 @@
 {
   "type": "Collection",
-  "id": "COMP_impreviousness_ind",
+  "id": "COMP2_ind",
   "stac_version": "1.1.0",
-  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and imperviousness is one of the most direct and well-established links in urban climate studies. Impervious surfaces—such as concrete, asphalt, paving, and building roofs—absorb large amounts of solar radiation during the day and release it slowly at night, leading to elevated land surface temperatures. Areas with high imperviousness typically correspond to the warmest zones in UHI analyses, as these surfaces lack the moisture and vegetation needed to dissipate heat through evaporation or shading. \n\nIn contrast, areas with low imperviousness, which include vegetated spaces, permeable soils, and natural land cover, remain significantly cooler. These surfaces promote evapotranspiration and allow heat to diffuse more effectively, reducing local temperature extremes. As a result, spatial patterns of imperviousness closely mirror the intensity and distribution of the UHI effect, underscoring the importance of managing surface materials and increasing green infrastructure to mitigate urban warming.",
+  "description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nThe relationship between the Urban Heat Island (UHI) effect and urban land cover classes derived from CORINE Land Cover Mapping (LCM) reflects how different surface types influence the way heat is absorbed, stored, and released across cities. CORINE’s detailed classification helps distinguish between dense urban fabric, discontinuous residential areas, industrial zones, transport networks, and green urban spaces — each contributing differently to local temperature patterns. \n\nAreas classified as continuous urban fabric typically show the strongest UHI intensities. These zones contain tightly packed buildings, extensive paved surfaces, and minimal vegetation, all of which promote efficient heat absorption during the day and slow heat release at night. Industrial and commercial units also tend to exhibit elevated surface temperatures due to large expanses of concrete, metal structures, and high energy use. \n\nIn contrast, CORINE classes such as green urban areas, forests, and natural grasslands correspond to much cooler surfaces. These vegetated zones provide shading and evaporative cooling, reducing local temperatures and helping to buffer the warming effect from nearby built-up land. The spatial mix of these land cover types strongly shapes the UHI intensity across urban regions, highlighting the role of green infrastructure and land-use planning in moderating urban heat. \n",
   "links": [
     {
       "rel": "root",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./COMP2_lcm/collection.json",
+      "type": "application/json",
+      "title": "CORINE LCM",
+      "endpointtype": "VectorTile source",
+      "id": "COMP2_lcm",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Land Cover"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Land Cover"
     },
     {
       "rel": "child",
@@ -30,24 +48,6 @@
     },
     {
       "rel": "child",
-      "href": "./COMP_Imperviousness/collection.json",
-      "type": "application/json",
-      "title": "Imperviousness and UHI",
-      "endpointtype": "VEDA_tiles",
-      "id": "COMP_Imperviousness",
-      "themes": [
-        "sustainable-cities"
-      ],
-      "tags": [
-        "Land Cover"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Land Cover"
-    },
-    {
-      "rel": "child",
       "href": "./PlacesOfInterest/collection.json",
       "type": "application/json",
       "title": "Places of Interest",
@@ -66,11 +66,11 @@
     },
     {
       "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Imperviousness-UHI/statistics?assets=asset&histogram_bins=20&ids=COMP_imperviousness_uhi_cog",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/statistics?assets=asset&histogram_bins=16&ids=UHI_UKIEFR_MEAN_2022_2024_cog",
       "type": "application/json",
-      "id": "imperviousness_uhi_histogram",
+      "id": "comp2_histogram",
       "method": "POST",
-      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_body.json"
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP2/comp2_lcm_histogram_body.json"
     },
     {
       "rel": "xyz",
@@ -215,7 +215,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "474b2fb6-9239-43f0-b438-ef205a8163cc"
+        "768d9bfe-d87c-49dd-bc01-a3bab5499673"
       ]
     },
     {
@@ -228,7 +228,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "474b2fb6-9239-43f0-b438-ef205a8163cc",
+      "key": "768d9bfe-d87c-49dd-bc01-a3bab5499673",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -305,8 +305,8 @@
     "ESA"
   ],
   "collection_group": "Land Cover",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP_imperviousness/imperviousness_uhi_histogram_vega.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP2/comp2_lcm_histogram_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/COMP2/comp2_lcm_histogram_vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -314,16 +314,10 @@
       "in": "query"
     }
   },
-  "title": "Imperviousness and UHI",
+  "title": "Urban Classes and UHI",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -11.82326107093359,
-          40.566153343944876,
-          16.216836666567666,
-          61.33941008747212
-        ],
         [
           -10.732621857017984,
           41.003601143635564,
@@ -331,10 +325,16 @@
           61.215695036324796
         ],
         [
-          -11.82326107093359,
-          40.566153343944876,
-          9.706464214718011,
-          61.33941008747212
+          -0.612126,
+          51.333132,
+          0.426082,
+          51.699321
+        ],
+        [
+          -10.732621857017984,
+          41.003601143635564,
+          16.216836666567666,
+          61.215695036324796
         ],
         [
           -10.48,
@@ -347,7 +347,7 @@
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
+          "2022-05-01T00:00:00Z",
           "2025-01-01T00:00:00Z"
         ]
       ]
