@@ -12,25 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL4-bifacial/collection.json",
-      "type": "application/json",
-      "title": "Photovoltaic Output - Monthly",
-      "endpointtype": "Collection-only",
-      "id": "UCL4-bifacial",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power",
-        "Bifacial"
-      ],
-      "agency": [
-        "UCL"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL1-COP30-Aspect/collection.json",
       "type": "application/json",
       "title": "COP30 Aspect",
@@ -246,6 +227,15 @@
       "collection_group": "Other"
     },
     {
+      "rel": "service",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-bifacial-stats-template/execution",
+      "type": "application/json",
+      "id": "bifacial_stats",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/body.json"
+    },
+    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -439,7 +429,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b0d5fb18-adc6-4aeb-8fd7-8466aa9bc4e9"
+        "940b4c62-09e6-4492-ba9b-cb0407672dfd"
       ]
     },
     {
@@ -452,7 +442,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "b0d5fb18-adc6-4aeb-8fd7-8466aa9bc4e9",
+      "key": "940b4c62-09e6-4492-ba9b-cb0407672dfd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -462,7 +452,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1a61084e-88c5-4533-9382-1c972845275f"
+        "af843f29-aeca-42b5-9902-b5ba9802d8ad"
       ]
     },
     {
@@ -475,7 +465,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "1a61084e-88c5-4533-9382-1c972845275f",
+      "key": "af843f29-aeca-42b5-9902-b5ba9802d8ad",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -485,7 +475,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4ed02786-744e-4ed6-8dec-651950aaf733"
+        "c616abf5-f98b-47c4-ad29-187c0f758f21"
       ]
     },
     {
@@ -498,7 +488,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "4ed02786-744e-4ed6-8dec-651950aaf733",
+      "key": "c616abf5-f98b-47c4-ad29-187c0f758f21",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -508,7 +498,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "12d81dd7-ce17-48e5-a773-2b6c21249388"
+        "b2d70cb9-5def-42b1-8d0f-205d339e7a05"
       ]
     },
     {
@@ -521,7 +511,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "12d81dd7-ce17-48e5-a773-2b6c21249388",
+      "key": "b2d70cb9-5def-42b1-8d0f-205d339e7a05",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -531,7 +521,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "061220fa-e0d2-4aac-936d-0f4b2cd6b9df"
+        "e6a20458-aab1-4732-9665-3fc93dd559bd"
       ]
     },
     {
@@ -544,7 +534,7 @@
         "visible"
       ],
       "id": "MapboxWaterMask",
-      "key": "061220fa-e0d2-4aac-936d-0f4b2cd6b9df",
+      "key": "e6a20458-aab1-4732-9665-3fc93dd559bd",
       "layers": [
         "water"
       ],
@@ -675,7 +665,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7cb3e151-2373-4ab6-84ea-cbee31df58b7"
+        "305d2520-2f3e-4b2e-ae85-3522efc049fc"
       ]
     },
     {
@@ -688,7 +678,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "7cb3e151-2373-4ab6-84ea-cbee31df58b7",
+      "key": "305d2520-2f3e-4b2e-ae85-3522efc049fc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -698,7 +688,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2e6a36a1-3522-4376-ae24-e44c914f0e2e"
+        "464ae16a-a87c-4683-9421-1debabf18779"
       ]
     },
     {
@@ -711,7 +701,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "2e6a36a1-3522-4376-ae24-e44c914f0e2e",
+      "key": "464ae16a-a87c-4683-9421-1debabf18779",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -721,7 +711,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "298dc884-7dde-4c36-976b-bb2c599b995e"
+        "8f180420-a7e5-4981-98ba-778ce086f93e"
       ]
     },
     {
@@ -734,7 +724,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "298dc884-7dde-4c36-976b-bb2c599b995e",
+      "key": "8f180420-a7e5-4981-98ba-778ce086f93e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -756,6 +746,8 @@
     "Solar Rural Power"
   ],
   "collection_group": "Energy Transition",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -772,12 +764,6 @@
           39.90272381327664,
           10.000491103609367,
           63.474630050521746
-        ],
-        [
-          -10.5,
-          49.8,
-          2.0,
-          55.8
         ],
         [
           -21.923451993591076,
@@ -857,7 +843,7 @@
       "interval": [
         [
           "2019-01-01T00:00:00Z",
-          "2026-04-17T06:04:52.262324Z"
+          "2025-04-26T00:00:00Z"
         ]
       ]
     }
