@@ -215,6 +215,25 @@
       "collection_group": "Examples"
     },
     {
+      "rel": "child",
+      "href": "./UCL2-NDVI/collection.json",
+      "type": "application/json",
+      "title": "Drought Monitoring and Forecasting",
+      "id": "UCL2-NDVI",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast",
+        "Crops",
+        "SPEI"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Food Security"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"
