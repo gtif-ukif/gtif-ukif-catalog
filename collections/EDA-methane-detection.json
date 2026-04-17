@@ -61,7 +61,7 @@
       "media_type": "image/jpeg",
       "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
       "protocol": "xyz",
-      "visible": true
+      "visible": false
     },
     {
       "id": "terrain-light",
@@ -79,7 +79,7 @@
       "media_type": "image/jpeg",
       "attribution": "{ &copy; Esri }",
       "protocol": "xyz",
-      "visible": false
+      "visible": true
     }
   ],
   "Agency": [
