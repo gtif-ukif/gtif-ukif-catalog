@@ -54,6 +54,22 @@
       "protocol": "xyz"
     },
     {
+      "id": "Openinframap",
+      "name": "Open Infrastructure Map",
+      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
+      "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "visible": true,
+      "protocol": "mapbox-style-document"
+    },    
+    {
+      "id": "LWM",
+      "name": "Land Water Mask",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "visible": true,
+      "protocol": "vector-tile"
+    },    
+    {
       "id": "SolarPanels",
       "name": "Solar Panels © UCL/Oxford 2025",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
@@ -177,23 +193,7 @@
         "domain": ["Tree cover"],
         "scaleType": "categorical"
       }
-    },
-    {
-      "id": "LWM",
-      "name": "Land Water Mask",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
-      "url": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
-      "visible": true,
-      "protocol": "vector-tile"
-    },
-    {
-      "id": "Openinframap",
-      "name": "Open Infrastructure Map",
-      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
-      "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "visible": true,
-      "protocol": "mapbox-style-document"
-    },    
+    },   
     {
       "id": "franceARTD",
       "name": "France ARTD Polygons",
