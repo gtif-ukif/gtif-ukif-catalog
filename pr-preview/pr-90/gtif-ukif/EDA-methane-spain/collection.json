@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-UK",
+  "id": "EDA-methane-spain",
   "stac_version": "1.1.0",
-  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nThere was a detected methane leak in this region, however the signal is too faint to be directly seen with Sentinel-2 imagery. Nevertheless, we do see hints of this signal when we look at a time-series of the integrated amount of methane over the entire region. That is the over-all amount of methane shows a significant increase on May 20, 2023 (near the peak of reported emissions) compared to surrounding dates.",
+  "description": "<img width=\"30%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/EDA-logo.png\">\n\nTime series of the column of excess methane from waste in Spain. We see a somewhat consistent excess of methane from about June 2025 to October 2025, along with a coincident Tanager and Sentinel-2 data on July 19th, 2025, and EMIT and Sentinel-2 on June 23, 2025 showing excess methane emissions. The vertical dot-dashed lines correspond to detected methane plumes from the EMIT and Tanager satellites.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-UK/collection.json",
+      "href": "./EDA-methane-spain/collection.json",
       "type": "application/json",
-      "title": "Methane Site: Cheltenham UK",
+      "title": "Methane Site: Spain",
       "endpointtype": "VEDA_tiles",
-      "id": "EDA-methane-UK",
+      "id": "EDA-methane-spain",
       "themes": [
         "carbon-accounting"
       ],
@@ -30,7 +30,7 @@
     },
     {
       "rel": "service",
-      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-UK_chart_data.json",
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/EDA-methane-spain_chart_data.json",
       "type": "application/json",
       "id": "precomputed_statistics",
       "method": "GET"
@@ -229,7 +229,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e13ff5f1-4873-42b5-b4c9-8df0bfcfcdf5"
+        "9a9569ed-e6ba-4e71-9e73-d8b086a47b9c"
       ]
     },
     {
@@ -242,7 +242,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e13ff5f1-4873-42b5-b4c9-8df0bfcfcdf5",
+      "key": "9a9569ed-e6ba-4e71-9e73-d8b086a47b9c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -302,7 +302,7 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-spain.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
@@ -311,29 +311,29 @@
       "in": "query"
     }
   },
-  "title": "Methane Site: Cheltenham UK",
+  "title": "Methane Site: Spain",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -2.11962,
-          51.930743012581736,
-          -2.079483012581734,
-          51.97088
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ],
         [
-          -2.11962,
-          51.930743012581736,
-          -2.079483012581734,
-          51.97088
+          -1.31665,
+          37.96325295128395,
+          -1.2684733996865443,
+          37.994824
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2023-01-19T00:00:00Z",
-          "2023-06-15T00:00:00Z"
+          "2025-06-15T00:00:00Z",
+          "2025-09-26T00:00:00Z"
         ]
       ]
     }
