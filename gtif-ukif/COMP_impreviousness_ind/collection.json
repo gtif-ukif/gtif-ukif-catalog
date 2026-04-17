@@ -47,6 +47,24 @@
       "collection_group": "Land Cover"
     },
     {
+      "rel": "child",
+      "href": "./PlacesOfInterest/collection.json",
+      "type": "application/json",
+      "title": "Places of Interest",
+      "endpointtype": "VectorTile source",
+      "id": "PlacesOfInterest",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "POI"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Places of Interest"
+    },
+    {
       "rel": "service",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-Imperviousness-UHI/statistics?assets=asset&histogram_bins=20&ids=COMP_imperviousness_uhi_cog",
       "type": "application/json",
@@ -197,7 +215,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8038754a-73f0-4a41-8b77-786239bc2936"
+        "d904f146-9c31-44a8-bbee-3a8cb75cd7e7"
       ]
     },
     {
@@ -210,7 +228,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "8038754a-73f0-4a41-8b77-786239bc2936",
+      "key": "d904f146-9c31-44a8-bbee-3a8cb75cd7e7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -317,6 +335,12 @@
           40.566153343944876,
           9.706464214718011,
           61.33941008747212
+        ],
+        [
+          -10.48,
+          49.95,
+          1.77,
+          55.81
         ]
       ]
     },
@@ -324,7 +348,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2022-05-01T00:00:00Z"
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }

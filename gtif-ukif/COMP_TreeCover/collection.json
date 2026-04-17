@@ -47,6 +47,24 @@
       "collection_group": "Urban Heat Island"
     },
     {
+      "rel": "child",
+      "href": "./PlacesOfInterest/collection.json",
+      "type": "application/json",
+      "title": "Places of Interest",
+      "endpointtype": "VectorTile source",
+      "id": "PlacesOfInterest",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "POI"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Places of Interest"
+    },
+    {
       "rel": "service",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP5/statistics?assets=asset&histogram_bins=16&ids=UHI_UKIEFR_MEAN_2022_2024_cog",
       "type": "application/json",
@@ -197,7 +215,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2c7fd4d5-c3e7-4620-b6c0-f14f67028b9c"
+        "a7eddadb-a8d3-463a-ab4e-49872d0d9ef2"
       ]
     },
     {
@@ -210,7 +228,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "2c7fd4d5-c3e7-4620-b6c0-f14f67028b9c",
+      "key": "a7eddadb-a8d3-463a-ab4e-49872d0d9ef2",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -317,6 +335,12 @@
           41.003601143635564,
           16.216836666567666,
           61.215695036324796
+        ],
+        [
+          -10.48,
+          49.95,
+          1.77,
+          55.81
         ]
       ]
     },
@@ -324,7 +348,7 @@
       "interval": [
         [
           "2022-05-01T00:00:00Z",
-          "2023-01-01T00:00:00Z"
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
