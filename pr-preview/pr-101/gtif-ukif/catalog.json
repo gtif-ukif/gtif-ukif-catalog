@@ -11,6 +11,23 @@
       "title": "GTIF UKIF Catalog"
     },
     {
+      "rel": "child",
+      "href": "./UCL1-rooftop-slopes-Wales/collection.json",
+      "type": "application/json",
+      "title": "Wales Rooftop Slopes 1m",
+      "id": "UCL1-rooftop-slopes-Wales",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "UCL"
+      ],
+      "collection_group": "Other"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"
