@@ -63,40 +63,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL3-Severe-Ireland/collection.json",
-      "type": "application/json",
-      "title": "Severe Air Quality (Ireland)",
-      "id": "UCL3-Severe-Ireland",
-      "themes": [
-        "mobility-transition"
-      ],
-      "tags": [
-        "Air Quality"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL3-Severe-GB/collection.json",
-      "type": "application/json",
-      "title": "Severe Air Quality (SE GB)",
-      "id": "UCL3-Severe-GB",
-      "themes": [
-        "mobility-transition"
-      ],
-      "tags": [
-        "Air Quality"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL3_GMIF_PM25/collection.json",
       "type": "application/json",
       "title": "GMif PM2.5",
