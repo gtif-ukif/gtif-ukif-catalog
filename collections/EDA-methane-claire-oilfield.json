@@ -65,14 +65,6 @@
   ],
   "OverlayLayers": [
     {
-      "id": "LWM",
-      "name": "Land Water Mask",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
-      "url": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
-      "visible": false,
-      "protocol": "vector-tile"
-    },
-    {
       "id": "overlay_bright",
       "name": "Place names",
       "url": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
