@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-rooftop-shaded-relief-Wales",
+  "id": "UCL1-rooftop-slopes-Wales",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-rooftop-shaded-relief-Wales/collection.json",
+      "href": "./UCL1-rooftop-slopes-Wales/collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop DSM Shaded Relief (1m)",
+      "title": "Wales Rooftop Slopes (1m)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-rooftop-shaded-relief-Wales",
+      "id": "UCL1-rooftop-slopes-Wales",
       "themes": [
         "energy-transition"
       ],
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "66b9ae36-c926-4ac2-bdd0-8b54ed4191e6"
+        "9c1704ab-9920-4829-9c9d-31160ae4c020"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "66b9ae36-c926-4ac2-bdd0-8b54ed4191e6",
+      "key": "9c1704ab-9920-4829-9c9d-31160ae4c020",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -236,24 +236,24 @@
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
-      15,
-      255
+      0,
+      30
     ],
     "range": [
-      "#ffffff",
-      "#f1f1f1",
-      "#dddddd",
-      "#c6c6c6",
-      "#a7a7a7",
-      "#868686",
-      "#686868",
-      "#484848",
-      "#202020",
-      "#000000"
+      "#00224d",
+      "#11356f",
+      "#3b496b",
+      "#575d6d",
+      "#6f7073",
+      "#898678",
+      "#a59b73",
+      "#c2b269",
+      "#e1cc54",
+      "#fde737"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "DSM"
+    "title": "Rooftop Slopes"
   },
   "auth:schemes": {
     "mapboxauth": {
@@ -262,7 +262,7 @@
       "in": "query"
     }
   },
-  "title": "Wales Rooftop DSM Shaded Relief (1m)",
+  "title": "Wales Rooftop Slopes (1m)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -283,8 +283,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
         ]
       ]
     }
