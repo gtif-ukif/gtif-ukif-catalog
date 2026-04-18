@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-rooftop-shaded-relief-Wales",
+  "id": "UCL1-rooftop-slopes-Wales",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-shaded-relief-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=greys&rescale=0,360",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,60",
       "type": "image/png",
-      "title": "Wales Rooftop DSM Shaded Relief (1m)",
-      "key": "7e9a405a-9cd2-49a7-9a4b-1434014f40c0"
+      "title": "Wales Rooftop Slopes (1m)",
+      "key": "b1986799-446e-4c60-9f17-ef808deee074"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop DSM Shaded Relief (1m)"
+      "title": "Wales Rooftop Slopes (1m)"
     }
   ],
   "themes": [
@@ -37,26 +37,26 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      360
+      60
     ],
     "range": [
-      "#ffffff",
-      "#f1f1f1",
-      "#dddddd",
-      "#c6c6c6",
-      "#a7a7a7",
-      "#868686",
-      "#686868",
-      "#484848",
-      "#202020",
-      "#000000"
+      "#440154",
+      "#472777",
+      "#3d4a89",
+      "#30678d",
+      "#25828e",
+      "#1e9d88",
+      "#35b778",
+      "#6bcd59",
+      "#b5dd2b",
+      "#fde724"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
     "title": "Aspect (°)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Wales Rooftop DSM Shaded Relief (1m)",
+  "title": "Wales Rooftop Slopes (1m)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -71,8 +71,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
         ]
       ]
     }

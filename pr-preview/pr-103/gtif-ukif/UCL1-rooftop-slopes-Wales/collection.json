@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-rooftop-shaded-relief-Wales",
+  "id": "UCL1-rooftop-slopes-Wales",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-rooftop-shaded-relief-Wales/collection.json",
+      "href": "./UCL1-rooftop-slopes-Wales/collection.json",
       "type": "application/json",
-      "title": "Wales Rooftop DSM Shaded Relief (1m)",
+      "title": "Wales Rooftop Slopes (1m)",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-rooftop-shaded-relief-Wales",
+      "id": "UCL1-rooftop-slopes-Wales",
       "themes": [
         "energy-transition"
       ],
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d848348e-7ccc-4482-bc09-70f85a60fd4f"
+        "d0e7391f-0729-4001-bd29-0d18e7ddb612"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "d848348e-7ccc-4482-bc09-70f85a60fd4f",
+      "key": "d0e7391f-0729-4001-bd29-0d18e7ddb612",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -237,19 +237,19 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      360
+      60
     ],
     "range": [
-      "#ffffff",
-      "#f1f1f1",
-      "#dddddd",
-      "#c6c6c6",
-      "#a7a7a7",
-      "#868686",
-      "#686868",
-      "#484848",
-      "#202020",
-      "#000000"
+      "#440154",
+      "#472777",
+      "#3d4a89",
+      "#30678d",
+      "#25828e",
+      "#1e9d88",
+      "#35b778",
+      "#6bcd59",
+      "#b5dd2b",
+      "#fde724"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
@@ -262,7 +262,7 @@
       "in": "query"
     }
   },
-  "title": "Wales Rooftop DSM Shaded Relief (1m)",
+  "title": "Wales Rooftop Slopes (1m)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -283,8 +283,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
         ]
       ]
     }
