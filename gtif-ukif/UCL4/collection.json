@@ -479,7 +479,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e67b53ae-5611-45fc-a329-d797aca82eb9"
+        "5cabcb6a-16c4-48a1-82e0-cf98cf34984e"
       ]
     },
     {
@@ -492,7 +492,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e67b53ae-5611-45fc-a329-d797aca82eb9",
+      "key": "5cabcb6a-16c4-48a1-82e0-cf98cf34984e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -502,7 +502,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e40f5eb6-cf0e-4846-8510-a27a0e678a54"
+        "36e3f4d6-5ae8-4769-9ba6-ed1e43380a60"
       ]
     },
     {
@@ -515,7 +515,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "e40f5eb6-cf0e-4846-8510-a27a0e678a54",
+      "key": "36e3f4d6-5ae8-4769-9ba6-ed1e43380a60",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -525,7 +525,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "17b7c9aa-49c5-4589-bc52-8ca5e608b94e"
+        "22444a78-2dbf-4ad1-911e-f14bdcaeb642"
       ]
     },
     {
@@ -538,7 +538,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "17b7c9aa-49c5-4589-bc52-8ca5e608b94e",
+      "key": "22444a78-2dbf-4ad1-911e-f14bdcaeb642",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -548,7 +548,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "518afb4e-d250-4a4b-9ca0-bdd1208e81aa"
+        "902b0ec9-52da-4b30-9fe8-c6f9f7b44db8"
       ]
     },
     {
@@ -561,7 +561,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "518afb4e-d250-4a4b-9ca0-bdd1208e81aa",
+      "key": "902b0ec9-52da-4b30-9fe8-c6f9f7b44db8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -571,7 +571,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dd591683-9350-4469-bf8f-c30490314834"
+        "b308ddbc-bae2-4a0f-a486-a02f89ada025"
       ]
     },
     {
@@ -584,7 +584,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "dd591683-9350-4469-bf8f-c30490314834",
+      "key": "b308ddbc-bae2-4a0f-a486-a02f89ada025",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -698,7 +698,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5ec69e73-7275-4ca6-a509-c77798879cad"
+        "c129b1e0-17c9-4f37-95d2-f1ef468d7789"
       ]
     },
     {
@@ -711,7 +711,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "5ec69e73-7275-4ca6-a509-c77798879cad",
+      "key": "c129b1e0-17c9-4f37-95d2-f1ef468d7789",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -721,7 +721,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ef8931a7-049e-4809-8bf6-2ea4dee3dfbc"
+        "ce5a084c-65bb-4935-94cf-497361bc483c"
       ]
     },
     {
@@ -734,7 +734,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "ef8931a7-049e-4809-8bf6-2ea4dee3dfbc",
+      "key": "ce5a084c-65bb-4935-94cf-497361bc483c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -749,6 +749,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
   ],
+  "thumbnail": "https://gtif-ukif.github.io/gtif-ukif-narratives/assets/previews/solar/solar_uk_ireland_1.png",
   "themes": [
     "energy-transition"
   ],
@@ -875,5 +876,14 @@
     "themes": [
       "energy-transition"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://gtif-ukif.github.io/gtif-ukif-narratives/assets/previews/solar/solar_uk_ireland_1.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }
