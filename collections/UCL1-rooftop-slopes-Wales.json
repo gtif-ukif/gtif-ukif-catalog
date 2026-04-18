@@ -15,15 +15,15 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "UCL1-rooftop-slopes-Wales",
-      "ColormapName": "viridis",
+      "ColormapName": "cividis",
       "Assets": [
         "asset"
       ],
       "Rescale": [
         0,
-        60
+        30
       ],
-      "Times": ["2020-01-01T00:00:00Z"]
+      "Times": ["2022-01-01T00:00:00Z"]
     }
   ],
   "Agency": [
@@ -32,22 +32,22 @@
   "Colorlegend": {
     "domain": [
       0,
-      60
+      30
     ],
     "range": [
-      "#440154",
-      "#472777",
-      "#3d4a89",
-      "#30678d",
-      "#25828e",
-      "#1e9d88",
-      "#35b778",
-      "#6bcd59",
-      "#b5dd2b",
-      "#fde724"
+      "#00224d",
+      "#11356f",
+      "#3b496b",
+      "#575d6d",
+      "#6f7073",
+      "#898678",
+      "#a59b73",
+      "#c2b269",
+      "#e1cc54",
+      "#fde737"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "Aspect (°)"
+    "title": "Rooftop Slopes"
   }
 }
