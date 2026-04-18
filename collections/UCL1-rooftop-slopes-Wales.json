@@ -21,9 +21,9 @@
       ],
       "Rescale": [
         0,
-        60
+        30
       ],
-      "Times": ["2020-01-01T00:00:00Z"]
+      "Times": ["2022-01-01T00:00:00Z"]
     }
   ],
   "Agency": [
@@ -32,7 +32,7 @@
   "Colorlegend": {
     "domain": [
       0,
-      60
+      30
     ],
     "range": [
       "#440154",
@@ -48,6 +48,6 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "Aspect (°)"
+    "title": "Rooftop Slopes"
   }
 }
