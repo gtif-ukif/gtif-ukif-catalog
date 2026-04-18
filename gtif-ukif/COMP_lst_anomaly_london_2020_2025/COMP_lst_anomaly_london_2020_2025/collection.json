@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-lst-anomaly-2020-2025/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo_r&nodata=0&rescale=-5,5",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-lst-anomaly-2020-2025/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo_r&nodata=nan&rescale=-5,5",
       "type": "image/png",
       "title": "LST Anomaly London",
-      "key": "e963b418-e239-4f42-979d-52ea54c1a374"
+      "key": "62733e37-3174-4c10-941b-962b0263da8b"
     },
     {
       "rel": "parent",
