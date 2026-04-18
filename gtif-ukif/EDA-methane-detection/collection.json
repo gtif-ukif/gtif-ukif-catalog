@@ -111,6 +111,14 @@
       "id": "esri-world-imagery"
     },
     {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/eo_plumes_so2_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "eo_plumes_so2"
+      ]
+    },
+    {
       "rel": "xyz",
       "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
@@ -126,7 +134,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a8f8ac4b-1c62-4ff9-acac-34141007dd79"
+        "08ad4a43-170a-434f-a8b3-cffb32d882ad"
       ]
     },
     {
@@ -139,7 +147,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "a8f8ac4b-1c62-4ff9-acac-34141007dd79",
+      "key": "08ad4a43-170a-434f-a8b3-cffb32d882ad",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -157,6 +165,110 @@
       "auth:refs": [
         "mapboxauth"
       ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "type": "image/png",
+      "title": "ESA World Cover WC21 UK Mosaic",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "WC21",
+      "eox:colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Grassland",
+          "Cropland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Cropland)",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "WC21-Cropland",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Grassland)",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "WC21-Grassland",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Tree cover)",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "WC21-Treecover",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
+        ],
+        "scaleType": "categorical"
+      }
     },
     {
       "rel": "parent",
@@ -180,6 +292,7 @@
   "collection_group": "Detection",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/vega.json",
+  "eodash:merge_assets": false,
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -219,5 +332,16 @@
     "themes": [
       "carbon-accounting"
     ]
+  },
+  "assets": {
+    "eo_plumes_so2": {
+      "href": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/eo_plumes_so2.geojson",
+      "type": "application/geo+json",
+      "title": "EO Plumes SO2",
+      "roles": [
+        "overlay",
+        "invisible"
+      ]
+    }
   }
 }
