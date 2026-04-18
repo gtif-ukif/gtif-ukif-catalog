@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-shaded-relief-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=greys&rescale=0,360",
       "type": "image/png",
-      "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
-      "key": "409a6fd0-a356-4e09-a3a1-ab975920220e"
+      "title": "Wales Rooftop DSM Shaded Relief (1m)",
+      "key": "fa1280ea-3ecf-4ec5-97d6-082236ee750c"
     },
     {
       "rel": "parent",
@@ -40,23 +40,23 @@
       360
     ],
     "range": [
-      "#30123b",
-      "#4560d6",
-      "#34aaf8",
-      "#1ae4b6",
-      "#71fd5f",
-      "#c8ee33",
-      "#f9ba38",
-      "#f66b18",
-      "#c92903",
-      "#7a0402"
+      "#ffffff",
+      "#f1f1f1",
+      "#dddddd",
+      "#c6c6c6",
+      "#a7a7a7",
+      "#868686",
+      "#686868",
+      "#484848",
+      "#202020",
+      "#000000"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
     "title": "Aspect (°)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Wales Rooftop Slopes DSM Shaded Relief 1m",
+  "title": "Wales Rooftop DSM Shaded Relief (1m)",
   "extent": {
     "spatial": {
       "bbox": [

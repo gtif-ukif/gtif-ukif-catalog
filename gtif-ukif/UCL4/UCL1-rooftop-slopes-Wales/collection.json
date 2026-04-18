@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,360",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=viridis&rescale=0,60",
       "type": "image/png",
-      "title": "Wales Rooftop Slopes 1m",
-      "key": "fd9b66fd-2ca7-4e48-a1a9-26cf28f3dd4b"
+      "title": "Wales Rooftop Slopes (1m)",
+      "key": "f80a04ce-c783-4d10-b50a-045277d4edff"
     },
     {
       "rel": "parent",
@@ -37,26 +37,26 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      360
+      60
     ],
     "range": [
-      "#30123b",
-      "#4560d6",
-      "#34aaf8",
-      "#1ae4b6",
-      "#71fd5f",
-      "#c8ee33",
-      "#f9ba38",
-      "#f66b18",
-      "#c92903",
-      "#7a0402"
+      "#440154",
+      "#472777",
+      "#3d4a89",
+      "#30678d",
+      "#25828e",
+      "#1e9d88",
+      "#35b778",
+      "#6bcd59",
+      "#b5dd2b",
+      "#fde724"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
     "title": "Aspect (°)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Wales Rooftop Slopes 1m",
+  "title": "Wales Rooftop Slopes (1m)",
   "extent": {
     "spatial": {
       "bbox": [
