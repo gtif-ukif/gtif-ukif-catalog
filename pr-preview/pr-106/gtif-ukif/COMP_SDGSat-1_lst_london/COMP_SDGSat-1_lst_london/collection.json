@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-SDGSat-1-LST-London/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo&nodata=nan&rescale=10,34",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COMP-SDGSat-1-LST-London/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=turbo&nodata=NaN&rescale=10,34",
       "type": "image/png",
       "title": "SDGSat-1 LST - London",
-      "key": "31595c1e-e207-41bc-9cd7-5e2cd2d0b851"
+      "key": "151f30da-3d34-4e05-807d-39acc501e95e"
     },
     {
       "rel": "parent",
