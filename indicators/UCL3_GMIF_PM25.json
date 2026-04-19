@@ -43,14 +43,14 @@
       "id": "openstreetmap",
       "name": "OpenStreetMap",
       "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-      "attribution": "{ Map data: &copy; <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors }",
+      "Attribution": "{ Map data: &copy; <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors }",
       "visible": false,
       "protocol": "xyz"
     },
     {
       "id": "Openinframap",
       "name": "Open Infrastructure Map",
-      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
+      "Attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
       "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
       "visible": false,
       "protocol": "mapbox-style-document"
@@ -59,7 +59,7 @@
       "id": "overlay_bright",
       "name": "Place names",
       "url": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }",
+      "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }",
       "visible": false,
       "protocol": "xyz"
     },

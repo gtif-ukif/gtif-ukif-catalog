@@ -47,7 +47,7 @@
       "name": "OSM Background",
       "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "Attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
       "protocol": "xyz",
       "visible": true
     },
@@ -56,7 +56,7 @@
       "name": "Terrain Light",
       "url": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
-      "attribution": "{ Terrain: Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "Attribution": "{ Terrain: Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
       "protocol": "xyz",
       "visible": false
     }
