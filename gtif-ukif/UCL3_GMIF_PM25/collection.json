@@ -80,7 +80,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
@@ -91,7 +92,8 @@
         "baselayer",
         "visible"
       ],
-      "id": "OSM"
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -102,7 +104,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "terrain-light"
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -113,7 +116,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "esri-world-imagery"
+      "id": "esri-world-imagery",
+      "attribution": "{ &copy; Esri }"
     },
     {
       "rel": "xyz",
@@ -214,7 +218,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4d160cc8-6003-4528-bf6d-7af96af0a8d1"
+        "4ee77a2f-2376-4534-ad9e-6996921f89a4"
       ]
     },
     {
@@ -227,7 +231,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "4d160cc8-6003-4528-bf6d-7af96af0a8d1",
+      "key": "4ee77a2f-2376-4534-ad9e-6996921f89a4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -241,7 +245,8 @@
         "overlay",
         "invisible"
       ],
-      "id": "openstreetmap"
+      "id": "openstreetmap",
+      "attribution": "{ Map data: &copy; <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors }"
     },
     {
       "rel": "mapbox-style-document",
@@ -255,7 +260,8 @@
       "id": "Openinframap",
       "auth:refs": [
         "mapboxauth"
-      ]
+      ],
+      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }"
     },
     {
       "rel": "xyz",
@@ -266,14 +272,15 @@
         "overlay",
         "invisible"
       ],
-      "id": "overlay_bright"
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b38889fa-7f9e-409b-854d-a952ae7f3d49"
+        "6a6b823e-08cd-4c09-8aee-f53c678d7164"
       ]
     },
     {
@@ -286,7 +293,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "b38889fa-7f9e-409b-854d-a952ae7f3d49",
+      "key": "6a6b823e-08cd-4c09-8aee-f53c678d7164",
       "layers": [
         "airport_label"
       ],

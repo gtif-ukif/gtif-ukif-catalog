@@ -81,7 +81,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
@@ -92,7 +93,8 @@
         "baselayer",
         "visible"
       ],
-      "id": "OSM"
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -103,7 +105,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "terrain-light"
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -114,7 +117,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "esri-world-imagery"
+      "id": "esri-world-imagery",
+      "attribution": "{ &copy; Esri }"
     },
     {
       "rel": "xyz",
@@ -223,7 +227,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0c05324b-c3d9-4fcc-9966-d4c08291678e"
+        "0d7fafeb-7ac9-4de2-91e5-634081a6ce33"
       ]
     },
     {
@@ -236,7 +240,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "0c05324b-c3d9-4fcc-9966-d4c08291678e",
+      "key": "0d7fafeb-7ac9-4de2-91e5-634081a6ce33",
       "auth:refs": [
         "mapboxauth"
       ]

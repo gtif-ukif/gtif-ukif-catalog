@@ -280,7 +280,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024"
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
     },
     {
       "rel": "xyz",
@@ -291,7 +292,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "OSM"
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -302,7 +304,8 @@
         "baselayer",
         "invisible"
       ],
-      "id": "terrain-light"
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "xyz",
@@ -313,7 +316,8 @@
         "baselayer",
         "visible"
       ],
-      "id": "esri-world-imagery"
+      "id": "esri-world-imagery",
+      "attribution": "{ &copy; Esri }"
     },
     {
       "rel": "xyz",
@@ -458,7 +462,8 @@
         "overlay",
         "invisible"
       ],
-      "id": "overlay_bright"
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "mapbox-style-document",
@@ -472,14 +477,15 @@
       "id": "Openinframap",
       "auth:refs": [
         "mapboxauth"
-      ]
+      ],
+      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bffe357e-444b-4529-935d-ba7a7da62458"
+        "7afb2b2e-af42-4633-8dee-3744611e0ccb"
       ]
     },
     {
@@ -492,7 +498,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "bffe357e-444b-4529-935d-ba7a7da62458",
+      "key": "7afb2b2e-af42-4633-8dee-3744611e0ccb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -502,7 +508,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b7fc2f59-9645-468e-a068-76090a8cdfdc"
+        "cc4e6396-e8d5-43a3-a25c-39e7e646d4fc"
       ]
     },
     {
@@ -515,7 +521,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "b7fc2f59-9645-468e-a068-76090a8cdfdc",
+      "key": "cc4e6396-e8d5-43a3-a25c-39e7e646d4fc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -525,7 +531,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "beb57211-1c96-4c4d-9ed4-0c719f003315"
+        "162bf2f3-3386-485e-9e69-e70cf2da673a"
       ]
     },
     {
@@ -538,7 +544,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "beb57211-1c96-4c4d-9ed4-0c719f003315",
+      "key": "162bf2f3-3386-485e-9e69-e70cf2da673a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -548,7 +554,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2527a17f-5583-4cfa-b675-e48d78f4cd75"
+        "ef2649db-0180-41d0-ba7b-ab572b6af9ca"
       ]
     },
     {
@@ -561,7 +567,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "2527a17f-5583-4cfa-b675-e48d78f4cd75",
+      "key": "ef2649db-0180-41d0-ba7b-ab572b6af9ca",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -571,7 +577,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0185bb5c-1ead-4de7-ab8a-8c01e8a9a6bc"
+        "27bf8875-5e5c-47ad-95b4-e3f2a8c3d278"
       ]
     },
     {
@@ -584,7 +590,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "0185bb5c-1ead-4de7-ab8a-8c01e8a9a6bc",
+      "key": "27bf8875-5e5c-47ad-95b4-e3f2a8c3d278",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -698,7 +704,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9c5c7c63-7416-45be-9be7-41f930247566"
+        "74423474-05c2-4f3d-b99b-fc7cbfaf6746"
       ]
     },
     {
@@ -711,7 +717,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "9c5c7c63-7416-45be-9be7-41f930247566",
+      "key": "74423474-05c2-4f3d-b99b-fc7cbfaf6746",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -721,7 +727,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "27b0b3f1-42bd-4087-86d8-83c1f5784a00"
+        "77b98fcc-4605-475a-89ea-d8188e84b8cd"
       ]
     },
     {
@@ -734,7 +740,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "27b0b3f1-42bd-4087-86d8-83c1f5784a00",
+      "key": "77b98fcc-4605-475a-89ea-d8188e84b8cd",
       "auth:refs": [
         "mapboxauth"
       ]
