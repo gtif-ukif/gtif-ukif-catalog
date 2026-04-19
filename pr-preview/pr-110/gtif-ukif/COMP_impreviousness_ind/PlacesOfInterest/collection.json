@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "id": "PlacesOfInterest",
+  "stac_version": "1.1.0",
+  "description": "Combined dataset of hospitals, prisons, and schools displayed as vector tiles with interactive category filtering.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Imperviousness and UHI"
+    }
+  ],
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "POI"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Places of Interest",
+  "endpointtype": "VectorTile source",
+  "title": "Places of Interest",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.48,
+          49.95,
+          1.77,
+          55.81
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
