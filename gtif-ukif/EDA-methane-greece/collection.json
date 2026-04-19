@@ -229,7 +229,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7311f651-6cca-4825-985e-0bcec7903b6d"
+        "b0d227f3-9695-46cf-a992-b78ca0c708af"
       ]
     },
     {
@@ -242,7 +242,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "7311f651-6cca-4825-985e-0bcec7903b6d",
+      "key": "b0d227f3-9695-46cf-a992-b78ca0c708af",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -302,8 +302,8 @@
     "tickFormat": ".1f",
     "title": "Methane column enhancement (mol m-2)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/jsonform-greece.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/assets/main/collections/EDA-methane/vega.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/main/collections/EDA-methane/jsonform-greece.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/main/collections/EDA-methane/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
