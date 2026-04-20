@@ -182,23 +182,6 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-ukraine/collection.json",
-      "type": "application/json",
-      "title": "Methane Site: Ukraine",
-      "id": "EDA-methane-ukraine",
-      "themes": [
-        "carbon-accounting"
-      ],
-      "tags": [
-        "Methane Emissions Analysis"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Examples"
-    },
-    {
-      "rel": "child",
       "href": "./EDA-methane-greece/collection.json",
       "type": "application/json",
       "title": "Methane Site: Greece",
