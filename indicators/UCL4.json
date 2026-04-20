@@ -18,7 +18,6 @@
   ],  
   "Collections": [
     "UCL1-rooftop-slopes-Wales",
-    "UCL1-rooftop-shaded-relief-Wales",
     "UCL1-COP30-Aspect",
     "UCL1-COP30-Slope",
     "UCL1-COP30-Shd",
@@ -32,6 +31,15 @@
     "UCL4-GB-bfPVout",
     "UCL4-Ireland-bfPVout"
   ],
+  "Disable": [
+    "UCL4-France",
+    "UCL4-UK",
+    "UCL4-Ireland",
+    "UCL1-Canopy-Height",
+    "UCL4-France-bfPVout",
+    "UCL4-GB-bfPVout",
+    "UCL4-Ireland-bfPVout"
+  ],  
   "Process": {
     "Name": "bifacial_indicator",
     "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/jsonform.json",
@@ -318,7 +326,7 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
+      "visible": true,
       "Colorlegend": {
         "title": "",
         "range": ["rgb(0,100,0)"],
