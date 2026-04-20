@@ -1,0 +1,53 @@
+{
+  "Name": "UCL1-rooftop-slopes-England-1m",
+  "Title": "England Rooftop Slopes (1m)",
+  "CollectionGroup": "Other",
+  "Description": "",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Resources": [
+    {
+      "Name": "VEDA",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Type": "tiles",
+      "CollectionId": "UCL1-rooftop-slopes-England-1m",
+      "ColormapName": "rdylbu_r",
+      "Assets": [
+        "asset"
+      ],
+      "Rescale": [
+        0,
+        30
+      ],
+      "Times": ["2025-01-01T00:00:00Z"]
+    }
+  ],
+  "Agency": [
+    "UCL"
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      30
+    ],
+    "range": [
+      "#313695",
+      "#4575b4",
+      "#74add1",
+      "#abd9e9",
+      "#e0f3f8",
+      "#fee090",
+      "#fdae61",
+      "#f46d43",
+      "#d73027",
+      "#a50026"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Rooftop Slopes"
+  }
+}
