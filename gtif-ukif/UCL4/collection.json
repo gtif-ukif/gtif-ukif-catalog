@@ -30,24 +30,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-rooftop-shaded-relief-Wales/collection.json",
-      "type": "application/json",
-      "title": "Wales Rooftop DSM Shaded Relief (1m)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-rooftop-shaded-relief-Wales",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "UCL"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL1-COP30-Aspect/collection.json",
       "type": "application/json",
       "title": "COP30 Aspect",
@@ -146,6 +128,9 @@
       "themes": [
         "energy-transition"
       ],
+      "roles": [
+        "disable"
+      ],
       "tags": [
         "Solar Rural Power"
       ],
@@ -163,6 +148,9 @@
       "id": "UCL4-UK",
       "themes": [
         "energy-transition"
+      ],
+      "roles": [
+        "disable"
       ],
       "tags": [
         "Solar Rural Power"
@@ -182,6 +170,9 @@
       "themes": [
         "energy-transition"
       ],
+      "roles": [
+        "disable"
+      ],
       "tags": [
         "Solar Rural Power"
       ],
@@ -199,6 +190,9 @@
       "id": "UCL1-Canopy-Height",
       "themes": [
         "energy-transition"
+      ],
+      "roles": [
+        "disable"
       ],
       "tags": [
         "Solar Rural Power"
@@ -218,6 +212,9 @@
       "themes": [
         "energy-transition"
       ],
+      "roles": [
+        "disable"
+      ],
       "tags": [
         "Solar Rural Power"
       ],
@@ -236,6 +233,9 @@
       "themes": [
         "energy-transition"
       ],
+      "roles": [
+        "disable"
+      ],
       "tags": [
         "Solar Rural Power"
       ],
@@ -253,6 +253,9 @@
       "id": "UCL4-Ireland-bfPVout",
       "themes": [
         "energy-transition"
+      ],
+      "roles": [
+        "disable"
       ],
       "tags": [
         "Solar Rural Power"
@@ -409,7 +412,7 @@
       "title": "WC21 UK Mosaic (Tree cover)",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "WC21-Treecover",
       "eox:colorlegend": {
@@ -485,7 +488,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ece1ff42-be71-4cc3-a18f-f1ae214f54cd"
+        "4c52baa6-3455-4d80-885c-38560cbb102f"
       ]
     },
     {
@@ -498,7 +501,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "ece1ff42-be71-4cc3-a18f-f1ae214f54cd",
+      "key": "4c52baa6-3455-4d80-885c-38560cbb102f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -508,7 +511,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9b3e7695-ae44-4014-85b4-6f08805befea"
+        "94ec80b1-b60f-4c9f-857d-a2259067c987"
       ]
     },
     {
@@ -521,7 +524,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "9b3e7695-ae44-4014-85b4-6f08805befea",
+      "key": "94ec80b1-b60f-4c9f-857d-a2259067c987",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -531,7 +534,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bc0ea9dc-2bce-4d5e-ad80-59d9e0c529d8"
+        "48bd611e-19c3-47c0-84f2-2382b9982500"
       ]
     },
     {
@@ -544,7 +547,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "bc0ea9dc-2bce-4d5e-ad80-59d9e0c529d8",
+      "key": "48bd611e-19c3-47c0-84f2-2382b9982500",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -554,7 +557,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "04369a35-56a5-4ec2-b75b-361ce9fdd3c8"
+        "32d0da42-9c7a-45de-8b39-0b0d0dc98f9a"
       ]
     },
     {
@@ -567,7 +570,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "04369a35-56a5-4ec2-b75b-361ce9fdd3c8",
+      "key": "32d0da42-9c7a-45de-8b39-0b0d0dc98f9a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -577,7 +580,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "95700bc7-5e64-4881-a466-9776affb858f"
+        "a3811fe3-170e-4bec-b7c0-c9869dbcbf27"
       ]
     },
     {
@@ -590,7 +593,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "95700bc7-5e64-4881-a466-9776affb858f",
+      "key": "a3811fe3-170e-4bec-b7c0-c9869dbcbf27",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -704,7 +707,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0c7a5bd8-d728-4c81-99d6-69f5146e524e"
+        "6a0436f0-18ff-4de7-b21d-0d8e7711c6dd"
       ]
     },
     {
@@ -717,7 +720,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "0c7a5bd8-d728-4c81-99d6-69f5146e524e",
+      "key": "6a0436f0-18ff-4de7-b21d-0d8e7711c6dd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -727,7 +730,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "17993458-99f3-45ed-bdf3-eb51d75b9f07"
+        "8dc4b2b4-e15c-44f2-96d2-95fec9237970"
       ]
     },
     {
@@ -740,7 +743,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "17993458-99f3-45ed-bdf3-eb51d75b9f07",
+      "key": "8dc4b2b4-e15c-44f2-96d2-95fec9237970",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -781,12 +784,6 @@
           39.90272381327664,
           10.000491103609367,
           63.474630050521746
-        ],
-        [
-          -5.537998028651118,
-          51.32642006614137,
-          -2.6335104848679842,
-          53.46788869884206
         ],
         [
           -5.537998028651118,
