@@ -14,9 +14,12 @@
       "Name": "marinedatastore",
       "Type": "WMTSCapabilities",
       "EndPoint": "https://wmts.terrascope.be/wmts",
-      "LayerId": "terrascope-s5p-l3-ch4-ty-v2_CH4",
+      "LayerId": "terrascope-s5p-l3-ch4-td-v2_CH4",
       "Version": "1.0.0",
-      "Times": ["2025-01-01T00:00:00Z"],
+      "Query": {
+        "Start": "2024-01-01T00:00:00Z",
+        "End": "2100-01-01T00:00:00Z"
+      },
       "Dimensions": {
         "style": "default",
         "matrixSet": "EPSG:3857"
