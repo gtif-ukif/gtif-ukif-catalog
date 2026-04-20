@@ -488,7 +488,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4c52baa6-3455-4d80-885c-38560cbb102f"
+        "8c9f6881-bb72-4609-bc00-acab40af34e6"
       ]
     },
     {
@@ -501,7 +501,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "4c52baa6-3455-4d80-885c-38560cbb102f",
+      "key": "8c9f6881-bb72-4609-bc00-acab40af34e6",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -511,7 +511,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "94ec80b1-b60f-4c9f-857d-a2259067c987"
+        "84448213-e8ac-4442-86f1-084ce0c82bbb"
       ]
     },
     {
@@ -524,7 +524,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "94ec80b1-b60f-4c9f-857d-a2259067c987",
+      "key": "84448213-e8ac-4442-86f1-084ce0c82bbb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -534,7 +534,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "48bd611e-19c3-47c0-84f2-2382b9982500"
+        "2adfca94-298f-48c2-82a5-70ae0c29f8ed"
       ]
     },
     {
@@ -547,7 +547,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "48bd611e-19c3-47c0-84f2-2382b9982500",
+      "key": "2adfca94-298f-48c2-82a5-70ae0c29f8ed",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -557,7 +557,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "32d0da42-9c7a-45de-8b39-0b0d0dc98f9a"
+        "fbe0c71f-0d3a-4983-86b4-9ae75ab4bc43"
       ]
     },
     {
@@ -570,7 +570,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "32d0da42-9c7a-45de-8b39-0b0d0dc98f9a",
+      "key": "fbe0c71f-0d3a-4983-86b4-9ae75ab4bc43",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -580,7 +580,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a3811fe3-170e-4bec-b7c0-c9869dbcbf27"
+        "3dbb8a78-4201-4d3e-ac30-b3da72a93ca5"
       ]
     },
     {
@@ -593,7 +593,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "a3811fe3-170e-4bec-b7c0-c9869dbcbf27",
+      "key": "3dbb8a78-4201-4d3e-ac30-b3da72a93ca5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -688,7 +688,7 @@
       "title": "WC21 UK Mosaic (Tree cover)",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
       "id": "WC21-Treecover",
       "eox:colorlegend": {
@@ -707,7 +707,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6a0436f0-18ff-4de7-b21d-0d8e7711c6dd"
+        "6ee2b286-fc45-428c-a467-62ac885d3793"
       ]
     },
     {
@@ -720,7 +720,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "6a0436f0-18ff-4de7-b21d-0d8e7711c6dd",
+      "key": "6ee2b286-fc45-428c-a467-62ac885d3793",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -730,7 +730,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8dc4b2b4-e15c-44f2-96d2-95fec9237970"
+        "5eacf449-f419-43e9-9b08-7e265a90d9c9"
       ]
     },
     {
@@ -743,7 +743,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "8dc4b2b4-e15c-44f2-96d2-95fec9237970",
+      "key": "5eacf449-f419-43e9-9b08-7e265a90d9c9",
       "auth:refs": [
         "mapboxauth"
       ]
