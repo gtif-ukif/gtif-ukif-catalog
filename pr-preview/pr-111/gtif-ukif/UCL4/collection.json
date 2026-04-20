@@ -182,6 +182,9 @@
       "themes": [
         "energy-transition"
       ],
+      "roles": [
+        "disable"
+      ],
       "tags": [
         "Solar Rural Power"
       ],
@@ -310,37 +313,7 @@
         "baselayer",
         "invisible"
       ],
-      "id": "WC21",
-      "eox:colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "WC21"
     },
     {
       "rel": "xyz",
@@ -351,17 +324,7 @@
         "baselayer",
         "invisible"
       ],
-      "id": "WC21-Cropland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(240, 150, 255)"
-        ],
-        "domain": [
-          "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "WC21-Cropland"
     },
     {
       "rel": "xyz",
@@ -372,17 +335,7 @@
         "baselayer",
         "invisible"
       ],
-      "id": "WC21-Grassland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(255, 255, 76)"
-        ],
-        "domain": [
-          "Grassland"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "WC21-Grassland"
     },
     {
       "rel": "xyz",
@@ -393,17 +346,7 @@
         "baselayer",
         "visible"
       ],
-      "id": "WC21-Treecover",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(0,100,0)"
-        ],
-        "domain": [
-          "Tree cover"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "WC21-Treecover"
     },
     {
       "rel": "xyz",
@@ -414,26 +357,7 @@
         "baselayer",
         "invisible"
       ],
-      "id": "COP-30-DEM-Mosaic",
-      "eox:colorlegend": {
-        "title": "Elevation",
-        "range": [
-          "#aeefd5",
-          "#ebfcb2",
-          "#3eb032",
-          "#699535",
-          "#f4a602",
-          "#921201",
-          "#6f2108",
-          "#7f4c2f",
-          "#adadad",
-          "#e9e7e9"
-        ],
-        "domain": [
-          0,
-          1000
-        ]
-      }
+      "id": "COP-30-DEM-Mosaic"
     },
     {
       "rel": "xyz",
@@ -467,7 +391,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ea564754-9b39-45cd-85a0-6b389e1a9390"
+        "845eb6da-4b12-4d2e-9bc2-ef2cff6f105f"
       ]
     },
     {
@@ -480,7 +404,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "ea564754-9b39-45cd-85a0-6b389e1a9390",
+      "key": "845eb6da-4b12-4d2e-9bc2-ef2cff6f105f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -490,7 +414,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "96e427ec-5a0e-498b-b21e-491a4349df6f"
+        "84db3a86-a019-441b-aa8f-730a9e39d87c"
       ]
     },
     {
@@ -503,7 +427,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "96e427ec-5a0e-498b-b21e-491a4349df6f",
+      "key": "84db3a86-a019-441b-aa8f-730a9e39d87c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -513,7 +437,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "aae658a3-a272-41c6-b5c4-feee77c24cb4"
+        "e0d6afb8-404d-415f-9566-c87df6f5d760"
       ]
     },
     {
@@ -526,7 +450,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "aae658a3-a272-41c6-b5c4-feee77c24cb4",
+      "key": "e0d6afb8-404d-415f-9566-c87df6f5d760",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -536,7 +460,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "04345d22-2cc7-4cb8-a20a-dfc1a133eb31"
+        "3d34ae37-fff5-439e-95fa-0563d52dc7f0"
       ]
     },
     {
@@ -549,7 +473,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "04345d22-2cc7-4cb8-a20a-dfc1a133eb31",
+      "key": "3d34ae37-fff5-439e-95fa-0563d52dc7f0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -559,7 +483,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "25b250ca-8c5c-4d40-a735-b08eb54dc4c5"
+        "1a1a0adc-c2b3-4a6b-94a8-5c247f6a6e07"
       ]
     },
     {
@@ -572,7 +496,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "25b250ca-8c5c-4d40-a735-b08eb54dc4c5",
+      "key": "1a1a0adc-c2b3-4a6b-94a8-5c247f6a6e07",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -586,37 +510,7 @@
         "overlay",
         "invisible"
       ],
-      "id": "WC21",
-      "eox:colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "WC21"
     },
     {
       "rel": "xyz",
@@ -627,17 +521,7 @@
         "overlay",
         "invisible"
       ],
-      "id": "WC21-Cropland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(240, 150, 255)"
-        ],
-        "domain": [
-          "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "WC21-Cropland"
     },
     {
       "rel": "xyz",
@@ -648,17 +532,7 @@
         "overlay",
         "invisible"
       ],
-      "id": "WC21-Grassland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(255, 255, 76)"
-        ],
-        "domain": [
-          "Grassland"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "WC21-Grassland"
     },
     {
       "rel": "xyz",
@@ -669,24 +543,14 @@
         "overlay",
         "invisible"
       ],
-      "id": "WC21-Treecover",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(0,100,0)"
-        ],
-        "domain": [
-          "Tree cover"
-        ],
-        "scaleType": "categorical"
-      }
+      "id": "WC21-Treecover"
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "37145312-047f-48fd-9d04-590574897730"
+        "22564c7a-d11b-4aeb-961d-cc54bc9b32cb"
       ]
     },
     {
@@ -699,7 +563,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "37145312-047f-48fd-9d04-590574897730",
+      "key": "22564c7a-d11b-4aeb-961d-cc54bc9b32cb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -709,7 +573,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "de67aa97-b15d-413c-abe2-68b162f9bfc5"
+        "8bbf7e04-21a5-476d-b2b0-931cf4d4bbbb"
       ]
     },
     {
@@ -722,7 +586,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "de67aa97-b15d-413c-abe2-68b162f9bfc5",
+      "key": "8bbf7e04-21a5-476d-b2b0-931cf4d4bbbb",
       "auth:refs": [
         "mapboxauth"
       ]
