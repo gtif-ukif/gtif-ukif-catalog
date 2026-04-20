@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "EDA-methane-claire-oilfield",
   "stac_version": "1.1.0",
-  "description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "description": "The Clair oil field lies 75km West of Shetland in the North Sea. Methane retrieval over water is especially difficult due to methane being an absorption feature and water being very dim in the SWIR bands. Nevertheless here we see methane concentration values over a particularly large oil rig in the Clair oil field that is visible at Sentinel-2 resolution. Monitoring the methane concentration in the column above over time can allow us to infer increases in methane emission.",
   "links": [
     {
       "rel": "root",
@@ -14,14 +14,14 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-claire-oilfield/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
       "type": "image/png",
-      "title": "Methane Site: Claire Oilfield",
-      "key": "e54103f3-f699-4c2a-8b7d-2d7a306c8991"
+      "title": "Methane Site: Clair Oilfield",
+      "key": "02aec706-bc53-48e1-b13a-e402aa473282"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Methane Site: Claire Oilfield"
+      "title": "Methane Site: Clair Oilfield"
     }
   ],
   "themes": [
@@ -56,7 +56,7 @@
     "title": "Methane column enhancement (mol m-2)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Methane Site: Claire Oilfield",
+  "title": "Methane Site: Clair Oilfield",
   "extent": {
     "spatial": {
       "bbox": [

@@ -15,7 +15,7 @@
       "href": "https://wmts.terrascope.be/wmts",
       "type": "image/png",
       "title": "Sentinel-5P CH4 (Terrascope)",
-      "wmts:layer": "terrascope-s5p-l3-ch4-ty-v2_CH4",
+      "wmts:layer": "terrascope-s5p-l3-ch4-td-v2_CH4",
       "role": [
         "data"
       ],
@@ -23,7 +23,7 @@
         "style": "default",
         "matrixSet": "EPSG:3857"
       },
-      "key": "22ce48e6-f150-4fa3-9060-e16a7a0aa7bc"
+      "key": "1bf6e617-e331-46f4-8348-81571d90de7b"
     },
     {
       "rel": "parent",
@@ -79,8 +79,8 @@
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2024-01-01T00:00:00Z",
+          "2026-04-14T00:00:00Z"
         ]
       ]
     }
