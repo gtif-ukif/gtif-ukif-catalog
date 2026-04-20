@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "EDA-methane-detection-terrascope-CH4",
+  "id": "EDA-methane-detection-SRON-plumes",
   "stac_version": "1.1.0",
-  "description": "Sentinel-5P Level-3 methane layer served by Terrascope as a WMTS data layer for visual comparison with the methane indicator outputs.",
+  "description": "Weekly methane plume detections published by SRON for January 2026. Each week is represented as a separate timestamped GeoJSON data layer item.",
   "links": [
     {
       "rel": "root",
@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./EDA-methane-detection-terrascope-CH4/collection.json",
+      "href": "./EDA-methane-detection-SRON-plumes/collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P CH4 (Terrascope)",
-      "endpointtype": "marinedatastore_WMTSCapabilities",
-      "id": "EDA-methane-detection-terrascope-CH4",
+      "title": "SRON Methane Plume Maps (Jan 2026)",
+      "endpointtype": "GeoJSON source",
+      "id": "EDA-methane-detection-SRON-plumes",
       "themes": [
         "carbon-accounting"
       ],
@@ -24,8 +24,7 @@
         "Methane Emissions Analysis"
       ],
       "agency": [
-        "Terrascope",
-        "VITO"
+        "SRON"
       ],
       "collection_group": "Detection"
     },
@@ -188,7 +187,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8e68a9e3-1a1a-4b0e-8faa-ea52ca83c3d4"
+        "608213e1-7c81-4f75-bfba-97cba6e86dd5"
       ]
     },
     {
@@ -201,7 +200,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "8e68a9e3-1a1a-4b0e-8faa-ea52ca83c3d4",
+      "key": "608213e1-7c81-4f75-bfba-97cba6e86dd5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -238,28 +237,18 @@
     "Methane Emissions Analysis"
   ],
   "agency": [
-    "Terrascope",
-    "VITO"
+    "SRON"
   ],
   "collection_group": "Detection",
   "eox:colorlegend": {
-    "domain": [
-      1700,
-      2000
-    ],
+    "title": "Methane plume detections",
     "range": [
-      "#2f7f5f",
-      "#6dae6b",
-      "#b7d78b",
-      "#e8efb5",
-      "#f8e6a0",
-      "#f6c56a",
-      "#ee8f4a",
-      "#d84b32"
+      "rgba(128, 0, 255, 0.8)"
     ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Column-averaged dry-air mixing ratio of methane (ppb)"
+    "domain": [
+      "SRON weekly detections"
+    ],
+    "scaleType": "categorical"
   },
   "auth:schemes": {
     "mapboxauth": {
@@ -268,23 +257,29 @@
       "in": "query"
     }
   },
-  "title": "Sentinel-5P CH4 (Terrascope)",
+  "title": "SRON Methane Plume Maps (Jan 2026)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180,
-          -90,
-          180,
-          90
+          -108.25,
+          -34.68,
+          151.42,
+          45.15
+        ],
+        [
+          -108.25,
+          -34.68,
+          151.42,
+          45.15
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2026-04-14T00:00:00Z"
+          "2025-01-06T00:00:00Z",
+          "2025-12-29T00:00:00Z"
         ]
       ]
     }

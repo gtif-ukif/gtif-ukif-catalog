@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "EDA-methane-claire-oilfield",
+  "stac_version": "1.1.0",
+  "description": "The Clair oil field lies 75km West of Shetland in the North Sea. Methane retrieval over water is especially difficult due to methane being an absorption feature and water being very dim in the SWIR bands. Nevertheless here we see methane concentration values over a particularly large oil rig in the Clair oil field that is visible at Sentinel-2 resolution. Monitoring the methane concentration in the column above over time can allow us to infer increases in methane emission.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/EDA-methane-claire-oilfield/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=seismic&rescale=-2,2",
+      "type": "image/png",
+      "title": "Methane Site: Clair Oilfield",
+      "key": "2c2e6670-5006-4cf3-9165-65e0072a0bf5"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane Site: Clair Oilfield"
+    }
+  ],
+  "themes": [
+    "carbon-accounting"
+  ],
+  "tags": [
+    "Methane Emissions Analysis"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Examples",
+  "eox:colorlegend": {
+    "domain": [
+      -2,
+      2
+    ],
+    "range": [
+      "#00004c",
+      "#00009a",
+      "#0000ec",
+      "#5555ff",
+      "#c5c5ff",
+      "#ffc5c5",
+      "#ff5555",
+      "#f10000",
+      "#b70000",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Methane column enhancement (mol m-2)"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Methane Site: Clair Oilfield",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -2.5047021791675803,
+          60.72713548310592,
+          -2.4846294443761425,
+          60.74720821789736
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-09-09T00:00:00Z",
+          "2020-10-29T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
