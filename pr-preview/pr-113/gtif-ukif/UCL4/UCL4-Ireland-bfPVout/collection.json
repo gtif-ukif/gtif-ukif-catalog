@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "UCL4-Ireland-bfPVout",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-Ireland-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,0.11",
+      "type": "image/png",
+      "title": "bfPVout+ Ireland",
+      "key": "8d470375-697e-4f5a-93ec-80d50eacdccb"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      0.11
+    ],
+    "range": [
+      "#00007f",
+      "#0000fe",
+      "#0064ff",
+      "#00d4ff",
+      "#4cffaa",
+      "#aaff4c",
+      "#ffe500",
+      "#ff7e00",
+      "#fe1200",
+      "#7f0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".2f",
+    "title": "bfPVout+"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "bfPVout+ Ireland",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -13.084621137382557,
+          50.29563860693716,
+          -3.6496924102342585,
+          56.42941278951695
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
