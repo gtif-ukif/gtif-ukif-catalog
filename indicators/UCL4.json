@@ -10,12 +10,6 @@
     "Solar Rural Power"
   ],
   "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment. A colourised by height with hill-shaded Digital Elevetaion Model (DEM)  at 30m grid-spacing mosaic of the whole UKIF area of many tiles (size 26.5Gb), produced by the EU Copernicus  program, in WGS84. COP30 DEM is derived from TerraSar-X+TanDEM-X and spans several years of inSAR retrievals. The 10m ESA WorldCover 2021  map for the whole UKIF area. It uses all available Sentinel-2 images for the whole of 2021.",
-  "Resources": [
-    {
-      "Name": "Collection-only",
-      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
-    }
-  ],  
   "Collections": [
     "UCL1-rooftop-slopes-Wales",
     "UCL1-COP30-Aspect",
@@ -45,7 +39,7 @@
         "Type": "application/json"
       }
     ]
-  },  
+  },
   "OverlayLayers": [
     {
       "id": "overlay_bright",
@@ -62,7 +56,7 @@
       "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
       "visible": true,
       "protocol": "mapbox-style-document"
-    },    
+    },
     {
       "id": "LWM",
       "name": "Land Water Mask",
@@ -70,7 +64,7 @@
       "url": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
       "visible": true,
       "protocol": "vector-tile"
-    },    
+    },
     {
       "id": "SolarPanels",
       "name": "Solar Panels © UCL/Oxford 2025",
@@ -110,37 +104,7 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",          
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
+      "visible": false
     },
     {
       "id": "WC21-Cropland",
@@ -149,13 +113,7 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
-        "scaleType": "categorical"
-      }
+      "visible": false
     },
     {
       "id": "WC21-Grassland",
@@ -164,13 +122,7 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(255, 255, 76)"],
-        "domain": ["Grassland"],
-        "scaleType": "categorical"
-      }
+      "visible": false
     },
     {
       "id": "WC21-Treecover",
@@ -179,14 +131,8 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(0,100,0)"],
-        "domain": ["Tree cover"],
-        "scaleType": "categorical"
-      }
-    },   
+      "visible": false
+    },
     {
       "id": "franceARTD",
       "name": "France ARTD Polygons",
@@ -248,37 +194,7 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",          
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
+      "visible": false
     },
     {
       "id": "WC21-Cropland",
@@ -287,13 +203,7 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
-        "scaleType": "categorical"
-      }
+      "visible": false
     },
     {
       "id": "WC21-Grassland",
@@ -302,13 +212,7 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(255, 255, 76)"],
-        "domain": ["Grassland"],
-        "scaleType": "categorical"
-      }
+      "visible": false
     },
     {
       "id": "WC21-Treecover",
@@ -317,14 +221,8 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": true,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(0,100,0)"],
-        "domain": ["Tree cover"],
-        "scaleType": "categorical"
-      }
-    },        
+      "visible": true
+    },
     {
       "id": "COP-30-DEM-Mosaic",
       "name": "COP-30 DEM Mosaic",
@@ -332,23 +230,11 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "Elevation",
-        "range": [
-          "#aeefd5",
-          "#ebfcb2",
-          "#3eb032",
-          "#699535",
-          "#f4a602",
-          "#921201",
-          "#6f2108",
-          "#7f4c2f",
-          "#adadad",
-          "#e9e7e9"
-        ],
-        "domain": [0, 1000]
-      }
-    }    
-  ]
+      "visible": false
+    }
+  ],
+  "Disable": [
+    "UCL1-Canopy-Height"
+  ],
+  "Legend": ""
 }
