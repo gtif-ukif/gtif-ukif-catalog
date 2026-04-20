@@ -13,8 +13,481 @@
     {
       "Name": "GeoJSON source",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/EDA-methane-detection/sron_methane_plumes_style.json",
-      "Bbox": [-108.25, -34.68, 151.42, 45.15],
+      "Bbox": [
+        -108.25,
+        -34.68,
+        151.42,
+        45.15
+      ],
       "TimeEntries": [
+        {
+          "Time": "20250106",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk1_v20250106.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250113",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk2_v20250113.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250120",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk3_v20250120.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250127",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk4_v20250127.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250203",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk5_v20250203.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250210",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk6_v20250210.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250217",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk7_v20250217.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250224",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk8_v20250224.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250303",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk9_v20250303.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250310",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk10_v20250310.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250317",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk11_v20250317.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250324",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk12_v20250324.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250331",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk13_v20250331.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250407",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk14_v20250407.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250414",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk15_v20250414.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250421",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk16_v20250421.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250428",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk17_v20250428.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250506",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk18_v20250506.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250512",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk19_v20250512.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250519",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk20_v20250519.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250526",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk21_v20250526.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250602",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk22_v20250602.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250609",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk23_v20250609.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250616",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk24_v20250616.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250623",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk25_v20250623.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250630",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk26_v20250630.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250707",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk27_v20250707.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250714",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk28_v20250714.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250721",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk29_v20250721.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250728",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk30_v20250728.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250804",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk31_v20250804.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250811",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk32_v20250811.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250818",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk33_v20250818.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250825",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk34_v20250825.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250901",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk35_v20250901.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250908",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk36_v20250908-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250915",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk37_v20250915.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250922",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk38_v20250922.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250929",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk39_v20250929.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251006",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk40_v20251006-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251013",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk41_v20251013-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251020",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk42_v20251020-3.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251027",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk43_v20251027-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251103",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk44_v20251103-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251110",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk45_v20251110-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251117",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk46_v20251117-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251124",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk47_v20251124-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251201",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk48_v20251201-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251208",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk49_v20251208-2.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251215",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk50_v20251215-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251222",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk51_v20251222.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20251229",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2025_wk52_v20251229.geojson"
+            }
+          ]
+        },
         {
           "Time": "20260105",
           "Assets": [
@@ -29,7 +502,7 @@
           "Assets": [
             {
               "Identifier": "sron_methane_plumes",
-              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk2_v20260112.geojson"
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk2_v20260112-1.geojson"
             }
           ]
         },
@@ -38,7 +511,7 @@
           "Assets": [
             {
               "Identifier": "sron_methane_plumes",
-              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk3_v20260119.geojson"
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk3_v20260119-1.geojson"
             }
           ]
         },
@@ -47,7 +520,115 @@
           "Assets": [
             {
               "Identifier": "sron_methane_plumes",
-              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk4_v20260126.geojson"
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk4_v20260126-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260202",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk5_v20260202-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260209",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk6_v20260209-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260216",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk7_v20260216-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260223",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk8_v20260223-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260302",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk9_v20260302-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260309",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk10_v20260309-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260316",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk11_v20260316-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260323",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk12_v20260323-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260330",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk13_v20260330-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260406",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk14_v20260406-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260413",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk15_v20260413-1.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20260420",
+          "Assets": [
+            {
+              "Identifier": "sron_methane_plumes",
+              "File": "https://workspace-ui-public.gtif-ukif.hub-otc.eox.at/api/public/share/public-8ewn2-19mik/methane/SRON_Weekly_Methane_Plumes_2026_wk16_v20260420-2.geojson"
             }
           ]
         }
@@ -56,8 +637,12 @@
   ],
   "Colorlegend": {
     "title": "Methane plume detections",
-    "range": ["rgba(128, 0, 255, 0.8)"],
-    "domain": ["SRON weekly detections"],
+    "range": [
+      "rgba(128, 0, 255, 0.8)"
+    ],
+    "domain": [
+      "SRON weekly detections"
+    ],
     "scaleType": "categorical"
   },
   "Agency": [

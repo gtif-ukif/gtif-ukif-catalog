@@ -1,6 +1,6 @@
 {
   "Name": "EDA-methane-claire-oilfield",
-  "Title": "Methane Site: Claire Oilfield",
+  "Title": "Methane Site: Clair Oilfield",
   "CollectionGroup": "Examples",
   "Themes": [
     "carbon-accounting"
@@ -8,7 +8,7 @@
   "Tags": [
     "Methane Emissions Analysis"
   ],
-  "Description": "Satellites like Sentinel-2 have the ability to see subtle signatures in the atmosphere that indicate the presence of methane emissions. This image is a heatmap of a the presence in a vertical column of atmosphere in units of mol/m^2. The dark regions shows the presence of two large methane emission plumes. Post-processing can be used to characterize these methane plumes in terms of emissions rates.",
+  "Description": "The Clair oil field lies 75km West of Shetland in the North Sea. Methane retrieval over water is especially difficult due to methane being an absorption feature and water being very dim in the SWIR bands. Nevertheless here we see methane concentration values over a particularly large oil rig in the Clair oil field that is visible at Sentinel-2 resolution. Monitoring the methane concentration in the column above over time can allow us to infer increases in methane emission.",
   "Resources": [
     {
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
