@@ -32,7 +32,13 @@
     "UCL4-Ireland-bfPVout"
   ],
   "Disable": [
-    "UCL1-Canopy-Height"
+    "UCL4-France",
+    "UCL4-UK",
+    "UCL4-Ireland",
+    "UCL1-Canopy-Height",
+    "UCL4-France-bfPVout",
+    "UCL4-GB-bfPVout",
+    "UCL4-Ireland-bfPVout"
   ],  
   "Process": {
     "Name": "bifacial_indicator",
