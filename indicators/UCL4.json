@@ -207,7 +207,7 @@
     },
     {
       "id": "ukRoofSlopePolygons",
-      "name": "English & Wales Roof Slope Extraction Polygons",
+      "name": "England & Wales Roof Slope Extraction Polygons",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "url": "https://a.tiles.mapbox.com/v4/service-swe.26a3h7xj/{z}/{x}/{y}.vector.pbf",
       "visible": true,
