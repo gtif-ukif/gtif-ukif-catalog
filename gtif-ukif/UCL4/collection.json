@@ -430,7 +430,7 @@
       "title": "WC21 UK Mosaic (Tree cover)",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "WC21-Treecover",
       "eox:colorlegend": {
@@ -506,7 +506,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b93abce0-5ece-4556-a9e5-30977e8b6abf"
+        "4568f07a-c037-479a-977d-69a7c08b9df4"
       ]
     },
     {
@@ -519,7 +519,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "b93abce0-5ece-4556-a9e5-30977e8b6abf",
+      "key": "4568f07a-c037-479a-977d-69a7c08b9df4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -529,7 +529,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c20ee8a0-8925-49f2-ae22-6c6f9b36a1df"
+        "165bfd3a-f491-482b-8500-134cd35e85cd"
       ]
     },
     {
@@ -542,7 +542,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "c20ee8a0-8925-49f2-ae22-6c6f9b36a1df",
+      "key": "165bfd3a-f491-482b-8500-134cd35e85cd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -552,7 +552,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "31527cac-0aef-4a87-8062-3d0a92a76af4"
+        "8c68a32c-a376-4f68-8ffc-c7c5d67e3065"
       ]
     },
     {
@@ -565,7 +565,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "31527cac-0aef-4a87-8062-3d0a92a76af4",
+      "key": "8c68a32c-a376-4f68-8ffc-c7c5d67e3065",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -575,7 +575,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6df0468a-60b2-40c0-8a69-075b9c6c2ef7"
+        "ab645da5-d7d2-4764-be70-71164b51b451"
       ]
     },
     {
@@ -588,7 +588,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "6df0468a-60b2-40c0-8a69-075b9c6c2ef7",
+      "key": "ab645da5-d7d2-4764-be70-71164b51b451",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -598,7 +598,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5466fff8-4e93-4dce-a984-220bb077ef02"
+        "94a5b80b-bd9f-4c09-88d5-302d24d49c89"
       ]
     },
     {
@@ -611,7 +611,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "5466fff8-4e93-4dce-a984-220bb077ef02",
+      "key": "94a5b80b-bd9f-4c09-88d5-302d24d49c89",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -725,7 +725,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6cd7c54f-3448-4af5-818c-593b34dc12a8"
+        "8afd1f3b-d632-440f-b3e5-a5a0a3e7d801"
       ]
     },
     {
@@ -738,7 +738,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "6cd7c54f-3448-4af5-818c-593b34dc12a8",
+      "key": "8afd1f3b-d632-440f-b3e5-a5a0a3e7d801",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -748,20 +748,20 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5374d70e-7509-44fb-9123-9518b84f67ad"
+        "931738af-cd72-4f72-9953-ae26a0939785"
       ]
     },
     {
       "rel": "vector-tile",
       "href": "https://a.tiles.mapbox.com/v4/service-swe.26a3h7xj/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "UK Roof Slope Extraction Polygons",
+      "title": "England & Wales Roof Slope Extraction Polygons",
       "roles": [
         "overlay",
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "5374d70e-7509-44fb-9123-9518b84f67ad",
+      "key": "931738af-cd72-4f72-9953-ae26a0939785",
       "auth:refs": [
         "mapboxauth"
       ]
