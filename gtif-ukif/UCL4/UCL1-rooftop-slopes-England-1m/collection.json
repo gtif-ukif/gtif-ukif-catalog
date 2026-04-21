@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-COP30-Shd",
+  "id": "UCL1-rooftop-slopes-England-1m",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-COP-30-shd/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=gray&rescale=0,255",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-England-1m/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdylbu_r&rescale=0,30",
       "type": "image/png",
-      "title": "COP30 Shd",
-      "key": "95a05434-24fb-4374-a93e-5fab81f8af4b"
+      "title": "England Rooftop Slopes (1m)",
+      "key": "583748dc-1235-4ae0-950d-a80971e3b00b"
     },
     {
       "rel": "parent",
@@ -31,48 +31,48 @@
     "Solar Rural Power"
   ],
   "agency": [
-    "ESA"
+    "UCL"
   ],
   "collection_group": "Other",
   "eox:colorlegend": {
     "domain": [
       0,
-      255
+      30
     ],
     "range": [
-      "#000000",
-      "#1c1c1c",
-      "#383838",
-      "#555555",
-      "#717171",
-      "#8e8e8e",
-      "#aaaaaa",
-      "#c6c6c6",
-      "#e3e3e3",
-      "#ffffff"
+      "#313695",
+      "#4575b4",
+      "#74add1",
+      "#abd9e9",
+      "#e0f3f8",
+      "#fee090",
+      "#fdae61",
+      "#f46d43",
+      "#d73027",
+      "#a50026"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "Hill Shade"
+    "title": "Rooftop Slopes"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "COP30 Shd",
+  "title": "England Rooftop Slopes (1m)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -21.923451993591076,
-          39.90272381327664,
-          10.000491103609367,
-          63.474630050521746
+          -7.104775743089965,
+          49.85060469412378,
+          2.0842821420747493,
+          55.810331205218205
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-04-26T00:00:00Z",
-          "2025-04-26T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
