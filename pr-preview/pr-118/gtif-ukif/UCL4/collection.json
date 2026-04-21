@@ -506,7 +506,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "609f2f5d-9ac0-49c9-8a95-ccc4837e8829"
+        "4115e87b-314f-4fa3-825a-e6cd0c04555b"
       ]
     },
     {
@@ -519,7 +519,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "609f2f5d-9ac0-49c9-8a95-ccc4837e8829",
+      "key": "4115e87b-314f-4fa3-825a-e6cd0c04555b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -529,7 +529,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5878b8fb-5886-40fe-a55c-ebb7111833d9"
+        "fd0d444d-715b-482f-9cb3-c6fe9eacebec"
       ]
     },
     {
@@ -542,7 +542,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "5878b8fb-5886-40fe-a55c-ebb7111833d9",
+      "key": "fd0d444d-715b-482f-9cb3-c6fe9eacebec",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -552,7 +552,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d60667f0-181a-4464-b275-23e763295be4"
+        "ed20e73e-d822-44c1-b37e-5a55b8e2ca29"
       ]
     },
     {
@@ -565,7 +565,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "d60667f0-181a-4464-b275-23e763295be4",
+      "key": "ed20e73e-d822-44c1-b37e-5a55b8e2ca29",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -575,7 +575,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0d727c61-0564-4eaf-a9c6-f01dbdccb5d0"
+        "a10164f6-19fd-4cd1-b498-c1523d3a0602"
       ]
     },
     {
@@ -588,7 +588,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "0d727c61-0564-4eaf-a9c6-f01dbdccb5d0",
+      "key": "a10164f6-19fd-4cd1-b498-c1523d3a0602",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -598,7 +598,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ea982120-f8cc-45e9-85a7-6ee1ecb84819"
+        "e9c3f7ed-bcf2-4ebd-9ece-7a84f4e7df87"
       ]
     },
     {
@@ -611,7 +611,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "ea982120-f8cc-45e9-85a7-6ee1ecb84819",
+      "key": "e9c3f7ed-bcf2-4ebd-9ece-7a84f4e7df87",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -725,7 +725,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b839f9fa-8781-4702-b068-bb60683c4653"
+        "b48d39f5-e22e-4ee1-bf50-9d049327689d"
       ]
     },
     {
@@ -738,7 +738,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "b839f9fa-8781-4702-b068-bb60683c4653",
+      "key": "b48d39f5-e22e-4ee1-bf50-9d049327689d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -748,20 +748,20 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c1cec99a-4bf7-4ec0-84c0-3157edb49596"
+        "cb9b2cc7-8b11-4f1a-8c97-e635b5908b38"
       ]
     },
     {
       "rel": "vector-tile",
       "href": "https://a.tiles.mapbox.com/v4/service-swe.26a3h7xj/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "English & Wales Roof Slope Extraction Polygons",
+      "title": "England & Wales Roof Slope Extraction Polygons",
       "roles": [
         "overlay",
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "c1cec99a-4bf7-4ec0-84c0-3157edb49596",
+      "key": "cb9b2cc7-8b11-4f1a-8c97-e635b5908b38",
       "auth:refs": [
         "mapboxauth"
       ]
