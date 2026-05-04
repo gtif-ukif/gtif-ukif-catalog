@@ -1,0 +1,72 @@
+{
+  "Name": "Drought_Forecasts",
+  "Title": "Drought Forecasts - examine Forecast SPEI product through zooming",
+  "CollectionGroup": "Food Security (Beta)",
+  "Themes": ["food-security"],
+  "Tags": [
+    "Drought Analysis/Forecast",
+    "SPEI"
+  ],
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
+    }
+  ],
+  "Collections": ["UCL1-CROP-TYPES-MOSAIC", "UCL2-NDVI-France", "UCL2-NDVI-GB", "UCL2-NDVI-Ireland", "UCL2-SPEI-France", "UCL2-SPEI-GB", "UCL2-SPEI-Ireland"],
+  "Agency": ["ESA"],
+  "OverlayLayers": [
+    {
+      "id": "LWM",
+      "name": "Land Water Mask",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "visible": true,
+      "protocol": "vector-tile"
+    },
+    {
+      "id": "overlay_bright",
+      "name": "Place names",
+      "url": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }",
+      "visible": false,
+      "protocol": "xyz"
+    },
+    {
+      "id": "WC21-Cropland",
+      "name": "WC21 UK Mosaic (Cropland)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
+      "media_type": "image/png",
+      "Attribution": "",
+      "protocol": "xyz",
+      "visible": true,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(240, 150, 255)"],
+        "domain": ["Cropland"],
+        "scaleType": "categorical"
+      }
+    }   
+  ],
+  "BaseLayers": [
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "Attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": true
+    },
+    {
+      "id": "esri-world-imagery",
+      "name": "ESRI World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "media_type": "image/jpeg",
+      "Attribution": "{ &copy; Esri }",
+      "protocol": "xyz",
+      "visible": false
+    }
+  ]
+}
