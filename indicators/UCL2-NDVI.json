@@ -50,14 +50,6 @@
       "protocol": "xyz"
     },
     {
-      "id": "Openinframap",
-      "name": "Open Infrastructure Map",
-      "Attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
-      "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "visible": false,
-      "protocol": "mapbox-style-document"
-    },    
-    {
       "id": "CropTypeLayer",
       "name": "CLMS_HRL_CropTypes_S2022_R10m",
       "url": "https://geoserver.vlcc.geoville.com/geoserver/ows",
