@@ -48,22 +48,7 @@
         "domain": ["Cropland"],
         "scaleType": "categorical"
       }
-    },
-    {
-      "id": "WC21-Water",
-      "name": "WC21 UK Mosaic (Permanent water bodies)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2280%22%3A%5B0,100,200%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": true,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(0, 100, 200)"],
-        "domain": ["Permanent water bodies"],
-        "scaleType": "categorical"
-      }
-    }     
+    } 
   ],
   "BaseLayers": [
     {
