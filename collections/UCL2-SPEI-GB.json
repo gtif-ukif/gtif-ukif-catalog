@@ -1,6 +1,6 @@
 {
   "Name": "UCL2-SPEI-GB",
-  "Title": "SPEI (GB)",
+  "Title": "Predicted August SPEI (GB)",
   "CollectionGroup": "Other",
   "Themes": [
     "food-security"
@@ -50,7 +50,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "SPEI"
+    "title": "Predicted August SPEI"
   },
   "Agency": [
     "ESA"
