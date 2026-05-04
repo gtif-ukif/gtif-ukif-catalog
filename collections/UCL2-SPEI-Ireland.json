@@ -1,6 +1,6 @@
 {
   "Name": "UCL2-SPEI-Ireland",
-  "Title": "SPEI (Ireland)",
+  "Title": "Predicted August SPEI (Ireland)",
   "CollectionGroup": "Other",
   "Themes": [
     "food-security"
@@ -50,7 +50,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "SPEI"
+    "title": "Predicted August SPEI"
   },
   "Agency": [
     "ESA"
