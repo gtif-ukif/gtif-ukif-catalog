@@ -253,6 +253,25 @@
     },
     {
       "rel": "child",
+      "href": "./Crops_and_Drought/collection.json",
+      "type": "application/json",
+      "title": "Crops & Drought - examine relationship between drought forecast and crop type",
+      "id": "Crops_and_Drought",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast",
+        "Crops",
+        "SPEI"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Food Security (Beta)"
+    },
+    {
+      "rel": "child",
       "href": "./UCL3/collection.json",
       "type": "application/json",
       "title": "Poorest Air Quality across the whole UK-Ireland-France area",
