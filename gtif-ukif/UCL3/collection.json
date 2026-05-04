@@ -183,7 +183,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "58c641aa-6421-4337-be4f-d994cbc589e5"
+        "cbe980b6-97d8-406e-8461-5ec277e3cb9d"
       ]
     },
     {
@@ -196,7 +196,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "58c641aa-6421-4337-be4f-d994cbc589e5",
+      "key": "cbe980b6-97d8-406e-8461-5ec277e3cb9d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -230,7 +230,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "53a08ab6-26b7-41f4-90b0-e5ced6eb0a0e"
+        "be4d300d-4b89-44bd-a93a-64e18cdf9861"
       ]
     },
     {
@@ -243,7 +243,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "53a08ab6-26b7-41f4-90b0-e5ced6eb0a0e",
+      "key": "be4d300d-4b89-44bd-a93a-64e18cdf9861",
       "layers": [
         "airport_label"
       ],
