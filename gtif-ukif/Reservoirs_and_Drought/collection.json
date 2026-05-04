@@ -1,0 +1,485 @@
+{
+  "type": "Collection",
+  "id": "Reservoirs_and_Drought",
+  "stac_version": "1.1.0",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-CROP-TYPES-MOSAIC/collection.json",
+      "type": "application/json",
+      "title": "Crop Types Mosaic (UK+EU38)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-CROP-TYPES-MOSAIC",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-France/collection.json",
+      "type": "application/json",
+      "title": "NDVI (France)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-France",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-GB/collection.json",
+      "type": "application/json",
+      "title": "NDVI (GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
+      "type": "application/json",
+      "title": "NDVI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-SPEI-France/collection.json",
+      "type": "application/json",
+      "title": "Predicted August SPEI (France)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-France",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-SPEI-GB/collection.json",
+      "type": "application/json",
+      "title": "Predicted August SPEI (GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-SPEI-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Predicted August SPEI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-SPEI-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "service",
+      "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-drought-crops-template/execution",
+      "type": "application/json",
+      "id": "drought_crops",
+      "method": "POST",
+      "endpoint": "eoxhub_workspaces",
+      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/body.json"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "type": "image/jpeg",
+      "title": "ESRI World Imagery",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "esri-world-imagery",
+      "attribution": "{ &copy; Esri }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
+      "type": "image/png",
+      "title": "ESA World Cover WC21 UK Mosaic",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21",
+      "eox:colorlegend": {
+        "title": "Land Cover",
+        "range": [
+          "rgb(180, 180, 180)",
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)",
+          "rgb(0,100,0)",
+          "rgb(240, 240, 240)",
+          "rgb(255, 187, 34)",
+          "rgb(0, 100, 200)",
+          "rgb(0, 150, 160)",
+          "rgb(0, 207, 117)",
+          "rgb(250, 0, 0)",
+          "rgb(250, 230, 160)"
+        ],
+        "domain": [
+          "Bare/sparse vegetation",
+          "Cropland",
+          "Grassland",
+          "Tree cover",
+          "Snow and Ice",
+          "Shrubland",
+          "Permanent water bodies",
+          "Herbaceous wetland",
+          "Mangroves",
+          "Built-up",
+          "Moss and lichen"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Filtered)",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "WC21-filtered",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(255, 255, 76)",
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Grassland",
+          "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COP-30-DEM-Mosaic/items/mosaic_COP30-UK+I+FRv2_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap_name=schwarzwald&rescale=0,1000&nodata=0",
+      "type": "image/png",
+      "title": "COP-30 DEM Mosaic",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "COP-30-DEM-Mosaic",
+      "eox:colorlegend": {
+        "title": "Elevation",
+        "range": [
+          "#aeefd5",
+          "#ebfcb2",
+          "#3eb032",
+          "#699535",
+          "#f4a602",
+          "#921201",
+          "#6f2108",
+          "#7f4c2f",
+          "#adadad",
+          "#e9e7e9"
+        ],
+        "domain": [
+          0,
+          1000
+        ]
+      }
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "0b96d28f-e8ef-446d-91a6-a029cec13419"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Land Water Mask",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "LWM",
+      "key": "0b96d28f-e8ef-446d-91a6-a029cec13419",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "wms",
+      "href": "https://geoserver.vlcc.geoville.com/geoserver/ows",
+      "type": "image/png",
+      "title": "CLMS_HRL_CropTypes_S2022_R10m",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "CropTypeLayer",
+      "wms:layers": "HRL_CPL:CTY_S2022",
+      "wms:version": "1.3.0",
+      "attribution": "{ Data source: European Union's <a href=\"https://land.copernicus.eu/\" target=\"_blank\">Copernicus Land Monitoring Service (CLMS)</a>; Dataset: <a href=\"https://land.copernicus.eu/en/products/high-resolution-layer-croplands/crop-types-2022-raster-10-m-europe-yearly\" target=\"_blank\">Crop Types 2022 (raster 10 m), Europe, yearly</a>; DOI: <a href=\"https://doi.org/10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47\" target=\"_blank\">10.2909/9db29b07-5968-4ce0-8351-1e356b3d7d47</a>; Service: <a href=\"https://geoserver.vlcc.geoville.com/geoserver/ows\" target=\"_blank\">GeoVille WMS</a> }",
+      "eox:colorlegend": {
+        "title": "Crop Types",
+        "range": [
+          "rgb(238, 110, 50)",
+          "rgb(251, 162, 74)",
+          "rgb(250, 220, 20)",
+          "rgb(233, 67, 1)",
+          "rgb(232, 169, 149)",
+          "rgb(174, 199, 232)",
+          "rgb(72, 151, 191)",
+          "rgb(201, 140, 67)",
+          "rgb(156, 91, 12)",
+          "rgb(255, 121, 121)",
+          "rgb(168, 106, 150)",
+          "rgb(227, 119, 194)",
+          "rgb(247, 182, 210)",
+          "rgb(219, 219, 141)",
+          "rgb(193, 206, 18)",
+          "rgb(121, 160, 58)",
+          "rgb(90, 124, 48)",
+          "rgb(215, 215, 215)",
+          "rgb(171, 171, 171)"
+        ],
+        "domain": [
+          "Wheat",
+          "Barley",
+          "Maize",
+          "Rice",
+          "Other Cereals",
+          "Fresh Vegetables",
+          "Dry Pulses",
+          "Potatoes",
+          "Sugar Beet",
+          "Sunflower",
+          "Soybeans",
+          "Rapeseed",
+          "Flax cotton and hemp",
+          "Grapes",
+          "Olives",
+          "Fruits",
+          "Nuts",
+          "Unclassified arable crop",
+          "Unclassified permanent crop"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
+  "themes": [
+    "food-security"
+  ],
+  "tags": [
+    "Drought Analysis/Forecast",
+    "Crops",
+    "SPEI"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Food Security (Beta)",
+  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/jsonform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/vega.json",
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
+  "title": "Reservoirs & Drought",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -18.89777894452214,
+          38.38968703400335,
+          12.18942204017344,
+          61.7936737106199
+        ],
+        [
+          -18.89777894452214,
+          38.38968703400335,
+          11.492012924399585,
+          61.7936737106199
+        ],
+        [
+          -5.619305428473922,
+          41.09076256724424,
+          12.18942204017344,
+          51.419307761876006
+        ],
+        [
+          -9.419263296774696,
+          48.72918147523066,
+          4.964608138752998,
+          61.264240082289106
+        ],
+        [
+          -11.104843049384266,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60483167954299
+        ],
+        [
+          -5.619305428473922,
+          41.09076256724424,
+          12.18942204017344,
+          51.419307761876006
+        ],
+        [
+          -8.899565067732734,
+          49.11835675764194,
+          4.804451125276599,
+          61.264240082289106
+        ],
+        [
+          -11.104591164873993,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60473592572955
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-01T00:00:00Z",
+          "2025-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "food-security"
+    ]
+  }
+}
