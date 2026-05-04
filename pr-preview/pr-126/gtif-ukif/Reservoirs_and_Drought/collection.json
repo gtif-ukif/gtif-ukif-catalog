@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Crops_and_Drought",
+  "id": "Reservoirs_and_Drought",
   "stac_version": "1.1.0",
   "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
   "links": [
@@ -12,16 +12,34 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-CROP-TYPES-MOSAIC/collection.json",
+      "href": "./UCL1-albedo-Ireland/collection.json",
       "type": "application/json",
-      "title": "Crop Types Mosaic (UK+EU38)",
+      "title": "RGB Albedo Layer Ireland",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-CROP-TYPES-MOSAIC",
+      "id": "UCL1-albedo-Ireland",
       "themes": [
-        "food-security"
+        "energy-transition"
       ],
       "tags": [
-        "Drought Analysis/Forecast"
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-GB/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer GB",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-GB",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
       ],
       "agency": [
         "ESA"
@@ -83,69 +101,6 @@
       "collection_group": "Other"
     },
     {
-      "rel": "child",
-      "href": "./UCL2-SPEI-France/collection.json",
-      "type": "application/json",
-      "title": "Predicted August SPEI (France)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL2-SPEI-France",
-      "themes": [
-        "food-security"
-      ],
-      "tags": [
-        "Drought Analysis/Forecast"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL2-SPEI-GB/collection.json",
-      "type": "application/json",
-      "title": "Predicted August SPEI (GB)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL2-SPEI-GB",
-      "themes": [
-        "food-security"
-      ],
-      "tags": [
-        "Drought Analysis/Forecast"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL2-SPEI-Ireland/collection.json",
-      "type": "application/json",
-      "title": "Predicted August SPEI (Ireland)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL2-SPEI-Ireland",
-      "themes": [
-        "food-security"
-      ],
-      "tags": [
-        "Drought Analysis/Forecast"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "service",
-      "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-drought-crops-template/execution",
-      "type": "application/json",
-      "id": "drought_crops",
-      "method": "POST",
-      "endpoint": "eoxhub_workspaces",
-      "body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/body.json"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -174,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "62664786-7cf1-49dc-91ff-a555363064f8"
+        "50308d40-18e4-4401-894a-5b24f8346416"
       ]
     },
     {
@@ -187,7 +142,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "62664786-7cf1-49dc-91ff-a555363064f8",
+      "key": "50308d40-18e4-4401-894a-5b24f8346416",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -203,58 +158,6 @@
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "aeaaefcb-81ff-46ff-ae9f-b227f98d0dbb"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "World Airports",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "worldAirports",
-      "key": "aeaaefcb-81ff-46ff-ae9f-b227f98d0dbb",
-      "layers": [
-        "airport_label"
-      ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "5d98a52d-0a7c-47f8-9317-7300e77a8a19"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "roads",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "roads",
-      "key": "5d98a52d-0a7c-47f8-9317-7300e77a8a19",
-      "layers": [
-        "road"
-      ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
     },
     {
       "rel": "xyz",
@@ -273,6 +176,27 @@
         ],
         "domain": [
           "Cropland"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2280%22%3A%5B0,100,200%5D%7D",
+      "type": "image/png",
+      "title": "WC21 UK Mosaic (Permanent water bodies)",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "WC21-Water",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0, 100, 200)"
+        ],
+        "domain": [
+          "Permanent water bodies"
         ],
         "scaleType": "categorical"
       }
@@ -299,8 +223,6 @@
     "ESA"
   ],
   "collection_group": "Food Security (Beta)",
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/jsonform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/vega.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -308,21 +230,27 @@
       "in": "query"
     }
   },
-  "title": "Crops & Drought - examine relationship between drought forecast and crop type",
+  "title": "Reservoirs & Drought",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -18.89777894452214,
-          38.38968703400335,
+          -11.104843049384266,
+          41.09076256724424,
           12.18942204017344,
-          61.7936737106199
+          61.264240082289106
         ],
         [
-          -18.89777894452214,
-          38.38968703400335,
-          11.492012924399585,
-          61.7936737106199
+          -11.104591164807998,
+          51.09529319289348,
+          -5.097344144310739,
+          55.604735925728136
+        ],
+        [
+          -9.419263296773103,
+          48.781349973035624,
+          3.1707659683262213,
+          60.879568085857684
         ],
         [
           -5.619305428473922,
@@ -341,24 +269,6 @@
           51.09510081393981,
           -5.096869612666297,
           55.60483167954299
-        ],
-        [
-          -5.619305428473922,
-          41.09076256724424,
-          12.18942204017344,
-          51.419307761876006
-        ],
-        [
-          -8.899565067732734,
-          49.11835675764194,
-          4.804451125276599,
-          61.264240082289106
-        ],
-        [
-          -11.104591164873993,
-          51.09510081393981,
-          -5.096869612666297,
-          55.60473592572955
         ]
       ]
     },
@@ -374,7 +284,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "food-security"
+      "food-security",
+      "energy-transition"
     ]
   }
 }

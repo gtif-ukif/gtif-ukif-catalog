@@ -30,6 +30,25 @@
       "collection_group": "Food Security (Beta)"
     },
     {
+      "rel": "child",
+      "href": "./Reservoirs_and_Drought/collection.json",
+      "type": "application/json",
+      "title": "Reservoirs & Drought",
+      "id": "Reservoirs_and_Drought",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast",
+        "Crops",
+        "SPEI"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Food Security (Beta)"
+    },
+    {
       "rel": "self",
       "href": "https://gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json",
       "type": "application/json"
