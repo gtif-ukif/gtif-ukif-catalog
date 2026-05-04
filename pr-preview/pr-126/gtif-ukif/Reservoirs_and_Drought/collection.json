@@ -129,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "383eebbf-d515-4b08-bdf5-cdcaf5c44305"
+        "a72a61f7-4a99-4913-805c-ed2da534cdac"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "383eebbf-d515-4b08-bdf5-cdcaf5c44305",
+      "key": "a72a61f7-4a99-4913-805c-ed2da534cdac",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -176,27 +176,6 @@
         ],
         "domain": [
           "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2280%22%3A%5B0,100,200%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Permanent water bodies)",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "WC21-Water",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(0, 100, 200)"
-        ],
-        "domain": [
-          "Permanent water bodies"
         ],
         "scaleType": "categorical"
       }
