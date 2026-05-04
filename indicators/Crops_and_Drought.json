@@ -34,6 +34,62 @@
   "Agency": ["ESA"],
   "OverlayLayers": [
     {
+      "id": "UCL4-HRVPP-TPROD-S1",
+      "name": "Total Productivity Season 1 (HRVPP)",
+      "url": "https://phenology.vgt.vito.be/wmts?service=WMTS&request=GetTile&version=1.0.0&layer=CLMS_HRVPP_VPP_TPROD_SEASON1_10M&style=default&tilematrixset=EPSG:3857&tilematrix=EPSG:3857:{z}&tilerow={y}&tilecol={x}&format=image/png&time=2024-01-01",
+      "media_type": "image/png",
+      "Attribution": "{ HR-VPP Total Productivity (TPROD) Season 1: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
+      "protocol": "xyz",
+      "visible": false,
+      "LegendUrl": "https://land.copernicus.eu/en/products/vegetation/legends/hrvpp-legends/legend_prod.png/@@images/image",
+      "Colorlegend": {
+        "title": "PPI/day",
+        "domain": [0, 300],
+        "range": [
+          "#730000",
+          "#D28C00",
+          "#FFBFB9",
+          "#FFEBB9",
+          "#C1FF96",
+          "#89D038",
+          "#599628",
+          "#136D8C",
+          "#105D88",
+          "#0B3D81"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      }
+    },
+    {
+      "id": "UCL4-HRVPP-TPROD-S2",
+      "name": "Total Productivity Season 2 (HRVPP)",
+      "url": "https://phenology.vgt.vito.be/wmts?service=WMTS&request=GetTile&version=1.0.0&layer=CLMS_HRVPP_VPP_TPROD_SEASON2_10M&style=default&tilematrixset=EPSG:3857&tilematrix=EPSG:3857:{z}&tilerow={y}&tilecol={x}&format=image/png&time=2024-01-01",
+      "media_type": "image/png",
+      "Attribution": "{ HR-VPP Total Productivity (TPROD) Season 2: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
+      "protocol": "xyz",
+      "visible": false,
+      "LegendUrl": "https://land.copernicus.eu/en/products/vegetation/legends/hrvpp-legends/legend_prod.png/@@images/image",
+      "Colorlegend": {
+        "title": "PPI/day",
+        "domain": [0, 300],
+        "range": [
+          "#730000",
+          "#D28C00",
+          "#FFBFB9",
+          "#FFEBB9",
+          "#C1FF96",
+          "#89D038",
+          "#599628",
+          "#136D8C",
+          "#105D88",
+          "#0B3D81"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      }
+    },
+    {
       "id": "LWM",
       "name": "Land Water Mask",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
@@ -105,62 +161,6 @@
           "Unclassified permanent crop"
         ],
         "scaleType": "categorical"
-      }
-    },
-    {
-      "id": "UCL4-HRVPP-TPROD-S1",
-      "name": "Total Productivity Season 1 (HRVPP)",
-      "url": "https://phenology.vgt.vito.be/wmts?service=WMTS&request=GetTile&version=1.0.0&layer=CLMS_HRVPP_VPP_TPROD_SEASON1_10M&style=default&tilematrixset=EPSG:3857&tilematrix=EPSG:3857:{z}&tilerow={y}&tilecol={x}&format=image/png&time=2024-01-01",
-      "media_type": "image/png",
-      "Attribution": "{ HR-VPP Total Productivity (TPROD) Season 1: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
-      "protocol": "xyz",
-      "visible": false,
-      "LegendUrl": "https://land.copernicus.eu/en/products/vegetation/legends/hrvpp-legends/legend_prod.png/@@images/image",
-      "Colorlegend": {
-        "title": "PPI/day",
-        "domain": [0, 300],
-        "range": [
-          "#730000",
-          "#D28C00",
-          "#FFBFB9",
-          "#FFEBB9",
-          "#C1FF96",
-          "#89D038",
-          "#599628",
-          "#136D8C",
-          "#105D88",
-          "#0B3D81"
-        ],
-        "scaleType": "continuous",
-        "tickFormat": ".0f"
-      }
-    },
-    {
-      "id": "UCL4-HRVPP-TPROD-S2",
-      "name": "Total Productivity Season 2 (HRVPP)",
-      "url": "https://phenology.vgt.vito.be/wmts?service=WMTS&request=GetTile&version=1.0.0&layer=CLMS_HRVPP_VPP_TPROD_SEASON2_10M&style=default&tilematrixset=EPSG:3857&tilematrix=EPSG:3857:{z}&tilerow={y}&tilecol={x}&format=image/png&time=2024-01-01",
-      "media_type": "image/png",
-      "Attribution": "{ HR-VPP Total Productivity (TPROD) Season 2: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
-      "protocol": "xyz",
-      "visible": false,
-      "LegendUrl": "https://land.copernicus.eu/en/products/vegetation/legends/hrvpp-legends/legend_prod.png/@@images/image",
-      "Colorlegend": {
-        "title": "PPI/day",
-        "domain": [0, 300],
-        "range": [
-          "#730000",
-          "#D28C00",
-          "#FFBFB9",
-          "#FFEBB9",
-          "#C1FF96",
-          "#89D038",
-          "#599628",
-          "#136D8C",
-          "#105D88",
-          "#0B3D81"
-        ],
-        "scaleType": "continuous",
-        "tickFormat": ".0f"
       }
     }
   ]
