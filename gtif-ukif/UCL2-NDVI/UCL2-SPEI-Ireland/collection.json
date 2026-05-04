@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-SPEI-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-2.5,2.5",
       "type": "image/png",
-      "title": "SPEI (Ireland)",
-      "key": "bc07f67a-6572-4cfa-b641-3fce3187a17d"
+      "title": "Predicted August SPEI (Ireland)",
+      "key": "9a917a05-e3b8-47ce-92c6-764b36ad393b"
     },
     {
       "rel": "parent",
@@ -54,10 +54,10 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "SPEI"
+    "title": "Predicted August SPEI"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "SPEI (Ireland)",
+  "title": "Predicted August SPEI (Ireland)",
   "extent": {
     "spatial": {
       "bbox": [

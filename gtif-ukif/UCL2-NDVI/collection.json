@@ -86,7 +86,7 @@
       "rel": "child",
       "href": "./UCL2-SPEI-France/collection.json",
       "type": "application/json",
-      "title": "SPEI (France)",
+      "title": "Predicted August SPEI (France)",
       "endpointtype": "VEDA_tiles",
       "id": "UCL2-SPEI-France",
       "themes": [
@@ -104,7 +104,7 @@
       "rel": "child",
       "href": "./UCL2-SPEI-GB/collection.json",
       "type": "application/json",
-      "title": "SPEI (GB)",
+      "title": "Predicted August SPEI (GB)",
       "endpointtype": "VEDA_tiles",
       "id": "UCL2-SPEI-GB",
       "themes": [
@@ -122,7 +122,7 @@
       "rel": "child",
       "href": "./UCL2-SPEI-Ireland/collection.json",
       "type": "application/json",
-      "title": "SPEI (Ireland)",
+      "title": "Predicted August SPEI (Ireland)",
       "endpointtype": "VEDA_tiles",
       "id": "UCL2-SPEI-Ireland",
       "themes": [
@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "18ed075b-37ab-4424-80b6-a223683725de"
+        "965c89c2-7c5c-4280-a0ee-d85879e5206a"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "18ed075b-37ab-4424-80b6-a223683725de",
+      "key": "965c89c2-7c5c-4280-a0ee-d85879e5206a",
       "auth:refs": [
         "mapboxauth"
       ]

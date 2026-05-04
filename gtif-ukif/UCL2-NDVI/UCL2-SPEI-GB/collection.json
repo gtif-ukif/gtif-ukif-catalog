@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-SPEI-GB/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-2.5,2.5",
       "type": "image/png",
-      "title": "SPEI (GB)",
-      "key": "471b8c31-3afe-4037-b1cb-ad7e21aecc7d"
+      "title": "Predicted August SPEI (GB)",
+      "key": "0eca7591-31da-4d9f-bede-586178617d95"
     },
     {
       "rel": "parent",
@@ -54,10 +54,10 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "SPEI"
+    "title": "Predicted August SPEI"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "SPEI (GB)",
+  "title": "Predicted August SPEI (GB)",
   "extent": {
     "spatial": {
       "bbox": [

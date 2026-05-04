@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL2-SPEI-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdbu&rescale=-2.5,2.5",
       "type": "image/png",
-      "title": "SPEI (France)",
-      "key": "ec2be980-311d-4889-9f13-75ed1a894b36"
+      "title": "Predicted August SPEI (France)",
+      "key": "a96b8dbf-5119-4caf-8623-fc237ea9ce30"
     },
     {
       "rel": "parent",
@@ -54,10 +54,10 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "SPEI"
+    "title": "Predicted August SPEI"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "SPEI (France)",
+  "title": "Predicted August SPEI (France)",
   "extent": {
     "spatial": {
       "bbox": [
