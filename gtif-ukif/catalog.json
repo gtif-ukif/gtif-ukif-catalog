@@ -235,6 +235,24 @@
     },
     {
       "rel": "child",
+      "href": "./Drought_Forecasts/collection.json",
+      "type": "application/json",
+      "title": "Drought Forecasts - examine Forecast SPEI product through zooming",
+      "id": "Drought_Forecasts",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast",
+        "SPEI"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Food Security (Beta)"
+    },
+    {
+      "rel": "child",
       "href": "./UCL3/collection.json",
       "type": "application/json",
       "title": "Poorest Air Quality across the whole UK-Ireland-France area",
