@@ -292,7 +292,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "965c89c2-7c5c-4280-a0ee-d85879e5206a"
+        "9df90e47-ab2d-4cca-8b7b-62f9f9fcad56"
       ]
     },
     {
@@ -305,7 +305,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "965c89c2-7c5c-4280-a0ee-d85879e5206a",
+      "key": "9df90e47-ab2d-4cca-8b7b-62f9f9fcad56",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -321,21 +321,6 @@
       ],
       "id": "overlay_bright",
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
-    },
-    {
-      "rel": "mapbox-style-document",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
-      "type": "application/json",
-      "title": "Open Infrastructure Map",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "Openinframap",
-      "auth:refs": [
-        "mapboxauth"
-      ],
-      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }"
     },
     {
       "rel": "wms",
