@@ -174,7 +174,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "276d6a64-ea5b-4006-9cf0-df480c3923af"
+        "cdbed583-0024-4bed-9d2b-e5049ea3d899"
       ]
     },
     {
@@ -187,29 +187,95 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "276d6a64-ea5b-4006-9cf0-df480c3923af",
+      "key": "cdbed583-0024-4bed-9d2b-e5049ea3d899",
       "auth:refs": [
         "mapboxauth"
       ]
     },
     {
-      "rel": "xyz",
-      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "rel": "wmts",
+      "href": "https://phenology.vgt.vito.be/wmts",
       "type": "image/png",
-      "title": "Place names",
+      "title": "Total Productivity Season 2 (HRVPP)",
       "roles": [
         "overlay",
         "invisible"
       ],
-      "id": "overlay_bright",
-      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+      "id": "UCL4-HRVPP-TPROD-S2",
+      "wmts:layer": "CLMS_HRVPP_VPP_TPROD_SEASON2_10M",
+      "wmts:dimensions": {
+        "matrixSet": "EPSG:3857",
+        "style": "default",
+        "time": "2024-01-01"
+      },
+      "attribution": "{ HR-VPP Total Productivity (TPROD) Season 2: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
+      "eox:colorlegend": {
+        "title": "PPI/day",
+        "domain": [
+          0,
+          300
+        ],
+        "range": [
+          "#730000",
+          "#D28C00",
+          "#FFBFB9",
+          "#FFEBB9",
+          "#C1FF96",
+          "#89D038",
+          "#599628",
+          "#136D8C",
+          "#105D88",
+          "#0B3D81"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      }
+    },
+    {
+      "rel": "wmts",
+      "href": "https://phenology.vgt.vito.be/wmts",
+      "type": "image/png",
+      "title": "Total Productivity Season 1 (HRVPP)",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "UCL4-HRVPP-TPROD-S1",
+      "wmts:layer": "CLMS_HRVPP_VPP_TPROD_SEASON1_10M",
+      "wmts:dimensions": {
+        "matrixSet": "EPSG:3857",
+        "style": "default",
+        "time": "2024-01-01"
+      },
+      "attribution": "{ HR-VPP Total Productivity (TPROD) Season 1: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
+      "eox:colorlegend": {
+        "title": "PPI/day",
+        "domain": [
+          0,
+          300
+        ],
+        "range": [
+          "#730000",
+          "#D28C00",
+          "#FFBFB9",
+          "#FFEBB9",
+          "#C1FF96",
+          "#89D038",
+          "#599628",
+          "#136D8C",
+          "#105D88",
+          "#0B3D81"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      }
     },
     {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0e83fa76-6f8b-4444-ba6b-cc6e853293b3"
+        "6e67586f-cd36-45e2-9348-1c6414aee327"
       ]
     },
     {
@@ -222,7 +288,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "0e83fa76-6f8b-4444-ba6b-cc6e853293b3",
+      "key": "6e67586f-cd36-45e2-9348-1c6414aee327",
       "layers": [
         "airport_label"
       ],
@@ -235,7 +301,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "74809090-9436-49b2-ab36-874db48c2249"
+        "29ff2884-76ec-4d93-a795-485a869b0e94"
       ]
     },
     {
@@ -248,7 +314,7 @@
         "invisible"
       ],
       "id": "roads",
-      "key": "74809090-9436-49b2-ab36-874db48c2249",
+      "key": "29ff2884-76ec-4d93-a795-485a869b0e94",
       "layers": [
         "road"
       ],
@@ -276,6 +342,18 @@
         ],
         "scaleType": "categorical"
       }
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
