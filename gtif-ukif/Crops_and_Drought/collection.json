@@ -174,7 +174,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cdbed583-0024-4bed-9d2b-e5049ea3d899"
+        "b223f7ca-652e-49d0-b284-74811f30cbef"
       ]
     },
     {
@@ -187,7 +187,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "cdbed583-0024-4bed-9d2b-e5049ea3d899",
+      "key": "b223f7ca-652e-49d0-b284-74811f30cbef",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -206,7 +206,7 @@
       "wmts:dimensions": {
         "matrixSet": "EPSG:3857",
         "style": "default",
-        "time": "2024-01-01"
+        "time": "2022-01-01"
       },
       "attribution": "{ HR-VPP Total Productivity (TPROD) Season 2: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
       "eox:colorlegend": {
@@ -245,7 +245,7 @@
       "wmts:dimensions": {
         "matrixSet": "EPSG:3857",
         "style": "default",
-        "time": "2024-01-01"
+        "time": "2022-01-01"
       },
       "attribution": "{ HR-VPP Total Productivity (TPROD) Season 1: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
       "eox:colorlegend": {
@@ -275,7 +275,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6e67586f-cd36-45e2-9348-1c6414aee327"
+        "31fc970c-c5c9-4e02-9319-597d96255527"
       ]
     },
     {
@@ -288,7 +288,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "6e67586f-cd36-45e2-9348-1c6414aee327",
+      "key": "31fc970c-c5c9-4e02-9319-597d96255527",
       "layers": [
         "airport_label"
       ],
@@ -301,7 +301,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "29ff2884-76ec-4d93-a795-485a869b0e94"
+        "9bb93a34-a0ef-4dcf-b0bf-0c901dd5bae2"
       ]
     },
     {
@@ -314,7 +314,7 @@
         "invisible"
       ],
       "id": "roads",
-      "key": "29ff2884-76ec-4d93-a795-485a869b0e94",
+      "key": "9bb93a34-a0ef-4dcf-b0bf-0c901dd5bae2",
       "layers": [
         "road"
       ],
