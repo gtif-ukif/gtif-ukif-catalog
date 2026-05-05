@@ -164,7 +164,6 @@
         "domain": ["Cropland"],
         "scaleType": "categorical"
       }
-<<<<<<< HEAD
     },
     {
       "id": "overlay_bright",
@@ -173,7 +172,6 @@
       "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }",
       "visible": false,
       "protocol": "xyz"
-=======
     }   
   ],
   "BaseLayers": [
@@ -194,7 +192,6 @@
       "Attribution": "{ &copy; Esri }",
       "protocol": "xyz",
       "visible": false
->>>>>>> main
     }
   ]
 }
