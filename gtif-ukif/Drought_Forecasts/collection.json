@@ -165,7 +165,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e433b43c-a4d7-42db-9cd5-88e9f7ae1d52"
+        "87861245-611d-4211-bb05-1ce2fb5d6b68"
       ]
     },
     {
@@ -178,7 +178,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e433b43c-a4d7-42db-9cd5-88e9f7ae1d52",
+      "key": "87861245-611d-4211-bb05-1ce2fb5d6b68",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -242,43 +242,20 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3f7e8d23-c4d2-455e-baf3-2490c88664b7"
+        "573d501b-79ed-4b3a-872e-427451e894b0"
       ]
     },
     {
       "rel": "vector-tile",
       "href": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "UK + Eire Water Bodies",
+      "title": "Inland Water Bodies",
       "roles": [
         "overlay",
         "visible"
       ],
       "id": "waterbodies",
-      "key": "3f7e8d23-c4d2-455e-baf3-2490c88664b7",
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/gmif_boundary_for_water.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "861836b3-5ffc-44d4-8064-5a31c028825e"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://a.tiles.mapbox.com/v4/service-swe.84p98u6m/{z}/{x}/{y}.vector.pbf",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "GMIF Boundary",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "gmif-boundary",
-      "key": "861836b3-5ffc-44d4-8064-5a31c028825e",
+      "key": "573d501b-79ed-4b3a-872e-427451e894b0",
       "auth:refs": [
         "mapboxauth"
       ]

@@ -129,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0097f38c-69f3-4c5c-932f-ea44bd917d0d"
+        "eeb97df8-d246-410f-a86e-88187e7f6b9b"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "0097f38c-69f3-4c5c-932f-ea44bd917d0d",
+      "key": "eeb97df8-d246-410f-a86e-88187e7f6b9b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -185,20 +185,20 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9fe1fa35-7a34-4db5-9ba6-8cd7372572ed"
+        "a3d29fef-2643-4914-9393-3e17bf56f272"
       ]
     },
     {
       "rel": "vector-tile",
       "href": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "UK + Eire Water Bodies",
+      "title": "Inland Water Bodies",
       "roles": [
         "overlay",
         "visible"
       ],
       "id": "waterbodies",
-      "key": "9fe1fa35-7a34-4db5-9ba6-8cd7372572ed",
+      "key": "a3d29fef-2643-4914-9393-3e17bf56f272",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -286,8 +286,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "energy-transition",
-      "food-security"
+      "food-security",
+      "energy-transition"
     ]
   }
 }
