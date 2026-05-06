@@ -18,44 +18,8 @@
   ],  
   "Collections": [
     "UCL1-rooftop-slopes-Wales",
-    "UCL1-rooftop-slopes-England-1m",
-    "UCL1-COP30-Aspect",
-    "UCL1-COP30-Slope",
-    "UCL1-COP30-Shd",
-    "UCL1-albedo-Ireland",
-    "UCL1-albedo-GB",
-    "UCL4-France",
-    "UCL4-UK",
-    "UCL4-Ireland",
-    "UCL1-Canopy-Height",
-    "UCL4-France-bfPVout",
-    "UCL4-GB-bfPVout",
-    "UCL4-Ireland-bfPVout"
+    "UCL1-rooftop-slopes-England-1m"
   ],
-  "Disable": [
-    "UCL4-France",
-    "UCL4-UK",
-    "UCL4-Ireland",
-    "UCL1-Canopy-Height",
-    "UCL4-France-bfPVout",
-    "UCL4-GB-bfPVout",
-    "UCL4-Ireland-bfPVout"
-  ],  
-  "Process": {
-    "Name": "bifacial_indicator",
-    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/jsonform.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/vega.json",
-    "EndPoints": [
-      {
-        "Identifier": "bifacial_stats",
-        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-bifacial-stats-template/execution",
-        "Method": "POST",
-        "EndPoint": "eoxhub_workspaces",
-        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/body.json",
-        "Type": "application/json"
-      }
-    ]
-  },  
   "OverlayLayers": [
     {
       "id": "overlay_bright",
@@ -90,114 +54,6 @@
       "protocol": "vector-tile"
     },
     {
-      "id": "SSSI",
-      "name": "Site of Special Scientific Interest",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
-      "url": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
-      "visible": true,
-      "protocol": "vector-tile"
-    },
-    {
-      "id": "NationalParks",
-      "name": "National Parks",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
-      "url": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
-      "visible": true,
-      "protocol": "vector-tile"
-    },
-    {
-      "id": "AONB",
-      "name": "Natural Landscapes",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
-      "url": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
-      "visible": true,
-      "protocol": "vector-tile"
-    },
-    {
-      "id": "WC21",
-      "name": "ESA World Cover WC21 UK Mosaic",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",          
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "id": "WC21-Cropland",
-      "name": "WC21 UK Mosaic (Cropland)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "id": "WC21-Grassland",
-      "name": "WC21 UK Mosaic (Grassland)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(255, 255, 76)"],
-        "domain": ["Grassland"],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "id": "WC21-Treecover",
-      "name": "WC21 UK Mosaic (Tree cover)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": true,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(0,100,0)"],
-        "domain": ["Tree cover"],
-        "scaleType": "categorical"
-      }
-    },   
-    {
       "id": "franceARTD",
       "name": "France ARTD Polygons",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
@@ -205,6 +61,14 @@
       "visible": true,
       "protocol": "vector-tile"
     },
+    {
+      "id": "buildingFootprints",
+      "name": "Building Footprints",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.gmif_building_footprints/{z}/{x}/{y}.vector.pbf",
+      "visible": true,
+      "protocol": "vector-tile"
+    },        
     {
       "id": "ukRoofSlopePolygons",
       "name": "England & Wales Roof Slope Extraction Polygons",
@@ -216,27 +80,9 @@
   ],
   "BaseLayers": [
     {
-      "id": "cloudless-2024",
-      "name": "EOxCloudless 2024",
-      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "media_type": "image/jpeg",
-      "Attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }",
-      "protocol": "xyz",
-      "visible": false
-    },
-    {
       "id": "OSM",
       "name": "OSM Background",
       "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "media_type": "image/jpeg",
-      "Attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
-      "protocol": "xyz",
-      "visible": false
-    },
-    {
-      "id": "terrain-light",
-      "name": "Terrain Light",
-      "url": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
       "Attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
       "protocol": "xyz",
@@ -250,115 +96,6 @@
       "Attribution": "{ &copy; Esri }",
       "protocol": "xyz",
       "visible": true
-    },
-    {
-      "id": "WC21",
-      "name": "ESA World Cover WC21 UK Mosaic",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D,%2220%22%3A%5B255,187,34%5D,%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D,%2250%22%3A%5B250,0,0%5D,%2260%22%3A%5B180,180,180%5D,%2270%22%3A%5B240,240,240%5D,%2280%22%3A%5B0,100,200%5D,%2290%22%3A%5B0,150,160%5D,%2295%22%3A%5B0,207,117%5D,%22100%22%3A%5B250,230,160%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "Land Cover",
-        "range": [
-          "rgb(180, 180, 180)",
-          "rgb(255, 255, 76)",
-          "rgb(240, 150, 255)",
-          "rgb(0,100,0)",
-          "rgb(240, 240, 240)",
-          "rgb(255, 187, 34)",
-          "rgb(0, 100, 200)",
-          "rgb(0, 150, 160)",
-          "rgb(0, 207, 117)",
-          "rgb(250, 0, 0)",
-          "rgb(250, 230, 160)"
-        ],
-        "domain": [
-          "Bare/sparse vegetation",
-          "Grassland",          
-          "Cropland",
-          "Tree cover",
-          "Snow and Ice",
-          "Shrubland",
-          "Permanent water bodies",
-          "Herbaceous wetland",
-          "Mangroves",
-          "Built-up",
-          "Moss and lichen"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "id": "WC21-Cropland",
-      "name": "WC21 UK Mosaic (Cropland)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "id": "WC21-Grassland",
-      "name": "WC21 UK Mosaic (Grassland)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(255, 255, 76)"],
-        "domain": ["Grassland"],
-        "scaleType": "categorical"
-      }
-    },
-    {
-      "id": "WC21-Treecover",
-      "name": "WC21 UK Mosaic (Tree cover)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(0,100,0)"],
-        "domain": ["Tree cover"],
-        "scaleType": "categorical"
-      }
-    },        
-    {
-      "id": "COP-30-DEM-Mosaic",
-      "name": "COP-30 DEM Mosaic",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/COP-30-DEM-Mosaic/items/mosaic_COP30-UK+I+FRv2_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap_name=schwarzwald&rescale=0,1000&nodata=0",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": false,
-      "Colorlegend": {
-        "title": "Elevation",
-        "range": [
-          "#aeefd5",
-          "#ebfcb2",
-          "#3eb032",
-          "#699535",
-          "#f4a602",
-          "#921201",
-          "#6f2108",
-          "#7f4c2f",
-          "#adadad",
-          "#e9e7e9"
-        ],
-        "domain": [0, 1000]
-      }
-    }    
+    }
   ]
 }
