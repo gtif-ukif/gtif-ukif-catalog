@@ -70,15 +70,7 @@
       "url": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
       "visible": true,
       "protocol": "vector-tile"
-    },
-    {
-      "id": "gmif-boundary",
-      "name": "GMIF Boundary",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/gmif_boundary_for_water.json",
-      "url": "https://a.tiles.mapbox.com/v4/service-swe.84p98u6m/{z}/{x}/{y}.vector.pbf",
-      "visible": true,
-      "protocol": "vector-tile"
-    }  
+    }
   ],
   "BaseLayers": [
     {
