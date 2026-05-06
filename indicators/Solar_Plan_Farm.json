@@ -1,0 +1,241 @@
+{
+  "Name": "Solar_Plan_Farm",
+  "Title": "Plan your solar farm with Agrivoltaics",
+  "CollectionGroup": "Energy Transition (Beta)",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Image": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/solar_uk_ireland_1.png",
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment. A colourised by height with hill-shaded Digital Elevetaion Model (DEM)  at 30m grid-spacing mosaic of the whole UKIF area of many tiles (size 26.5Gb), produced by the EU Copernicus  program, in WGS84. COP30 DEM is derived from TerraSar-X+TanDEM-X and spans several years of inSAR retrievals. The 10m ESA WorldCover 2021  map for the whole UKIF area. It uses all available Sentinel-2 images for the whole of 2021.",
+  "Resources": [
+    {
+      "Name": "Collection-only",
+      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
+    }
+  ],  
+  "Collections": [
+    "UCL4-France",
+    "UCL4-UK",
+    "UCL4-Ireland",
+    "UCL1-Canopy-Height",
+    "UCL4-France-bfPVout",
+    "UCL4-GB-bfPVout",
+    "UCL4-Ireland-bfPVout"
+  ],
+  "Disable": [
+    "UCL4-France",
+    "UCL4-UK",
+    "UCL4-Ireland",
+    "UCL1-Canopy-Height",
+    "UCL4-France-bfPVout",
+    "UCL4-GB-bfPVout",
+    "UCL4-Ireland-bfPVout"
+  ],  
+  "Process": {
+    "Name": "bifacial_indicator",
+    "JsonForm": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/jsonform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "bifacial_stats",
+        "Url": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-bifacial-stats-template/execution",
+        "Method": "POST",
+        "EndPoint": "eoxhub_workspaces",
+        "Body": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-solar-bifacial/body.json",
+        "Type": "application/json"
+      }
+    ]
+  },  
+  "OverlayLayers": [
+    {
+      "id": "overlay_bright",
+      "name": "Place names",
+      "url": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }",
+      "visible": false,
+      "protocol": "xyz"
+    },
+    {
+      "id": "Openinframap",
+      "name": "Open Infrastructure Map",
+      "Attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
+      "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "visible": true,
+      "protocol": "mapbox-style-document"
+    },    
+    {
+      "id": "LWM",
+      "name": "Land Water Mask",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "visible": true,
+      "protocol": "vector-tile"
+    },    
+    {
+      "id": "SSSI",
+      "name": "Site of Special Scientific Interest",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.2k5nostr/{z}/{x}/{y}.vector.pbf",
+      "visible": true,
+      "protocol": "vector-tile"
+    },
+    {
+      "id": "NationalParks",
+      "name": "National Parks",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.5hyat8y3/{z}/{x}/{y}.vector.pbf",
+      "visible": true,
+      "protocol": "vector-tile"
+    },
+    {
+      "id": "AONB",
+      "name": "Natural Landscapes",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.3ixdu159/{z}/{x}/{y}.vector.pbf",
+      "visible": true,
+      "protocol": "vector-tile"
+    },
+    {
+      "id": "WC21-Cropland",
+      "name": "WC21 UK Mosaic (Cropland)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
+      "media_type": "image/png",
+      "Attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(240, 150, 255)"],
+        "domain": ["Cropland"],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "id": "WC21-Grassland",
+      "name": "WC21 UK Mosaic (Grassland)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "media_type": "image/png",
+      "Attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(255, 255, 76)"],
+        "domain": ["Grassland"],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "id": "WC21-Treecover",
+      "name": "WC21 UK Mosaic (Tree cover)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "media_type": "image/png",
+      "Attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(0,100,0)"],
+        "domain": ["Tree cover"],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "id": "UCL4-HRVPP-TPROD-S2",
+      "name": "Total Productivity Season 2 (HRVPP)",
+      "url": "https://phenology.vgt.vito.be/wmts",
+      "layer": "CLMS_HRVPP_VPP_TPROD_SEASON2_10M",
+      "protocol": "wmts",
+      "media_type": "image/png",
+      "dimensions": {
+        "matrixSet": "EPSG:3857",
+        "style": "default",
+        "time": "2022-01-01"
+      },
+      "Attribution": "{ HR-VPP Total Productivity (TPROD) Season 2: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
+      "visible": false,
+      "LegendUrl": "https://land.copernicus.eu/en/products/vegetation/legends/hrvpp-legends/legend_prod.png/@@images/image",
+      "Colorlegend": {
+        "title": "PPI/day",
+        "domain": [
+          0,
+          300
+        ],
+        "range": [
+          "#730000",
+          "#D28C00",
+          "#FFBFB9",
+          "#FFEBB9",
+          "#C1FF96",
+          "#89D038",
+          "#599628",
+          "#136D8C",
+          "#105D88",
+          "#0B3D81"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      }
+    },
+    {
+      "id": "UCL4-HRVPP-TPROD-S1",
+      "name": "Total Productivity Season 1 (HRVPP)",
+      "url": "https://phenology.vgt.vito.be/wmts",
+      "layer": "CLMS_HRVPP_VPP_TPROD_SEASON1_10M",
+      "protocol": "wmts",
+      "media_type": "image/png",
+      "dimensions": {
+        "matrixSet": "EPSG:3857",
+        "style": "default",
+        "time": "2022-01-01"
+      },
+      "Attribution": "{ HR-VPP Total Productivity (TPROD) Season 1: <a href=\"https://land.copernicus.eu/en/products/vegetation/high-resolution-vegetation-phenology-and-productivity\" target=\"_blank\">Copernicus HR-VPP</a> via <a href=\"https://phenology.vgt.vito.be/wmts\" target=\"_blank\">VITO</a> }",
+      "visible": false,
+      "LegendUrl": "https://land.copernicus.eu/en/products/vegetation/legends/hrvpp-legends/legend_prod.png/@@images/image",
+      "Colorlegend": {
+        "title": "PPI/day",
+        "domain": [
+          0,
+          300
+        ],
+        "range": [
+          "#730000",
+          "#D28C00",
+          "#FFBFB9",
+          "#FFEBB9",
+          "#C1FF96",
+          "#89D038",
+          "#599628",
+          "#136D8C",
+          "#105D88",
+          "#0B3D81"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      }
+    }    
+  ],
+  "BaseLayers": [
+    {
+      "id": "OSM",
+      "name": "OSM Background",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "media_type": "image/jpeg",
+      "Attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "protocol": "xyz",
+      "visible": false
+    },
+    {
+      "id": "esri-world-imagery",
+      "name": "ESRI World Imagery",
+      "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "media_type": "image/jpeg",
+      "Attribution": "{ &copy; Esri }",
+      "protocol": "xyz",
+      "visible": true
+    }
+  ]
+}
