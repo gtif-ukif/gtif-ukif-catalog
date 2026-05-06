@@ -129,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6b211a5f-39d1-49ac-af5d-e95d6b4cd7f1"
+        "05c709d7-bd7d-4b5b-b8d0-c5626a7ad3b9"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "6b211a5f-39d1-49ac-af5d-e95d6b4cd7f1",
+      "key": "05c709d7-bd7d-4b5b-b8d0-c5626a7ad3b9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -179,6 +179,29 @@
         ],
         "scaleType": "categorical"
       }
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "4e72125c-bb9f-4cbd-892d-06426069b2d7"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "UK + Eire Water Bodies",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "waterbodies",
+      "key": "4e72125c-bb9f-4cbd-892d-06426069b2d7",
+      "auth:refs": [
+        "mapboxauth"
+      ]
     },
     {
       "rel": "parent",
