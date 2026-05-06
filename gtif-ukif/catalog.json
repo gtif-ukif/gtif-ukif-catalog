@@ -322,6 +322,34 @@
     },
     {
       "rel": "child",
+      "href": "./Solar_PV_Location/collection.json",
+      "type": "application/json",
+      "title": "Where are the PV's located",
+      "id": "Solar_PV_Location",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "collection_group": "Energy Transition (Beta)"
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Plan_Farm/collection.json",
+      "type": "application/json",
+      "title": "Plan your solar farm with Agrivoltaics",
+      "id": "Solar_Plan_Farm",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "collection_group": "Energy Transition (Beta)"
+    },
+    {
+      "rel": "child",
       "href": "./COMP_mean_lst_2022_2024/collection.json",
       "type": "application/json",
       "title": "Mean LST 2022-2024",

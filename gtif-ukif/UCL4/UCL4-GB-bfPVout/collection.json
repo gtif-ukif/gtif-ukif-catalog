@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-GB-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,0.11",
       "type": "image/png",
-      "title": "bfPVout+ GB",
-      "key": "5d21480e-3ab0-4f3b-ab8d-b345fedb10b4"
+      "title": "BFG GB",
+      "key": "c3a56ebd-8282-4a95-b765-bcda10bb9c01"
     },
     {
       "rel": "parent",
@@ -56,7 +56,7 @@
     "title": "bfPVout+"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "bfPVout+ GB",
+  "title": "BFG GB",
   "extent": {
     "spatial": {
       "bbox": [

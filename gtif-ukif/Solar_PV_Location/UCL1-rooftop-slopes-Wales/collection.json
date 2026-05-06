@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "UCL1-rooftop-slopes-Wales",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=cividis&rescale=0,30",
+      "type": "image/png",
+      "title": "Wales Rooftop Slopes (1m)",
+      "key": "e29cd4af-f246-4eda-b7c0-5bd096b2d3c2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Where are the PV's located"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "UCL"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      30
+    ],
+    "range": [
+      "#00224d",
+      "#11356f",
+      "#3b496b",
+      "#575d6d",
+      "#6f7073",
+      "#898678",
+      "#a59b73",
+      "#c2b269",
+      "#e1cc54",
+      "#fde737"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Rooftop Slopes"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Wales Rooftop Slopes (1m)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.537998028651118,
+          51.32642006614137,
+          -2.6335104848679842,
+          53.46788869884206
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

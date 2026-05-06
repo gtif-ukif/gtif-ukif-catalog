@@ -14,8 +14,8 @@
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL4-Ireland-bfPVout/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=jet&rescale=0,0.11",
       "type": "image/png",
-      "title": "bfPVout+ Ireland",
-      "key": "43d85a38-e3d0-4183-9548-1055373d7ca4"
+      "title": "BFG Ireland",
+      "key": "2af36517-10cf-48e5-8985-a48a448ea023"
     },
     {
       "rel": "parent",
@@ -56,7 +56,7 @@
     "title": "bfPVout+"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "bfPVout+ Ireland",
+  "title": "BFG Ireland",
   "extent": {
     "spatial": {
       "bbox": [
