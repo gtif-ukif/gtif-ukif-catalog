@@ -174,7 +174,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "13f7d9cf-8b3e-4296-b393-67d3311668b2"
+        "bd6cabc8-f1e3-4995-b55f-74fe565716d9"
       ]
     },
     {
@@ -187,7 +187,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "13f7d9cf-8b3e-4296-b393-67d3311668b2",
+      "key": "bd6cabc8-f1e3-4995-b55f-74fe565716d9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -275,7 +275,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "95fcf87d-03a6-4bd4-82ec-c9944590ba3d"
+        "3bcad6e1-7d8a-47df-9fe3-17aeeaf1b7b8"
       ]
     },
     {
@@ -288,7 +288,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "95fcf87d-03a6-4bd4-82ec-c9944590ba3d",
+      "key": "3bcad6e1-7d8a-47df-9fe3-17aeeaf1b7b8",
       "layers": [
         "airport_label"
       ],
@@ -301,7 +301,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "74a9550a-0e05-42ea-a676-c986fc10ce48"
+        "ee5416d8-74c7-4a97-b354-e0a20ff5a99d"
       ]
     },
     {
@@ -314,7 +314,7 @@
         "invisible"
       ],
       "id": "roads",
-      "key": "74a9550a-0e05-42ea-a676-c986fc10ce48",
+      "key": "ee5416d8-74c7-4a97-b354-e0a20ff5a99d",
       "layers": [
         "road"
       ],
