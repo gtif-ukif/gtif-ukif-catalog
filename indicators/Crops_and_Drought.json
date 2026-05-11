@@ -133,15 +133,6 @@
       }
     },
     {
-      "id": "worldAirports",
-      "name": "World Airports",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
-      "url": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "visible": false,
-      "protocol": "vector-tile",
-      "layers": ["airport_label"]
-    },
-    {
       "id": "roads",
       "name": "Roads",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",

@@ -27,6 +27,7 @@
     "UCL4-France",
     "UCL4-UK",
     "UCL4-Ireland",
+    "UCL1-Canopy-Height",
     "UCL4-France-bfPVout",
     "UCL4-GB-bfPVout",
     "UCL4-Ireland-bfPVout"
@@ -35,6 +36,7 @@
     "UCL4-France",
     "UCL4-UK",
     "UCL4-Ireland",
+    "UCL1-Canopy-Height",
     "UCL4-France-bfPVout",
     "UCL4-GB-bfPVout",
     "UCL4-Ireland-bfPVout"
@@ -195,47 +197,6 @@
         "scaleType": "categorical"
       }
     },   
-    {
-      "id": "EnglandVOM-Elevation-2022",
-      "name": "England VOM Elevation 2022",
-      "url": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
-      "layer": "Vegetation_Object_Model_Elevation_2022",
-      "protocol": "wmts",
-      "media_type": "image/png",
-      "dimensions": {
-        "matrixSet": "WebMercatorQuad",
-        "style": "elevation-vom"
-      },
-      "Attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
-      "visible": false
-    },
-    {
-      "id": "EnglandVOM-Hillshade-2022",
-      "name": "England VOM Hillshade 2022",
-      "url": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
-      "layer": "Vegetation_Object_Model_Hillshade_2022",
-      "protocol": "wmts",
-      "media_type": "image/png",
-      "dimensions": {
-        "matrixSet": "WebMercatorQuad",
-        "style": "hillshade"
-      },
-      "Attribution": "{ England Vegetation Object Model — Hillshade (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
-      "visible": false
-    },
-    {
-      "id": "EnglandVOM-2022",
-      "name": "England VOM 2022",
-      "url": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
-      "layer": "Vegetation_Object_Model_2022",
-      "protocol": "wmts",
-      "media_type": "image/png",
-      "dimensions": {
-        "matrixSet": "WebMercatorQuad"
-      },
-      "Attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
-      "visible": false
-    },
     {
       "id": "franceARTD",
       "name": "France ARTD Polygons",
