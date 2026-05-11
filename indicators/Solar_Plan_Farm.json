@@ -153,7 +153,7 @@
         "style": "elevation-vom"
       },
       "Attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
-      "LegendUrl": "https://environment.data.gov.uk/geoservices/datasets/wms?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=22&height=151&layer=dataset-ecae3bef-1e1d-4051-887b-9dc613c928ec%3AVegetation_Object_Model_Elevation_2022",
+      "LegendUrl": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wms?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image/png&layer=Vegetation_Object_Model_Elevation_2022&style=elevation-vom",
       "visible": false
     },
     {
@@ -168,7 +168,7 @@
         "style": "hillshade"
       },
       "Attribution": "{ England Vegetation Object Model — Hillshade (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
-      "LegendUrl": "https://environment.data.gov.uk/geoservices/datasets/wms?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=43&height=782&layer=dataset-ecae3bef-1e1d-4051-887b-9dc613c928ec%3AVegetation_Object_Model_Hillshade_2022",
+      "LegendUrl": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wms?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image/png&layer=Vegetation_Object_Model_Hillshade_2022&style=hillshade",
       "visible": false
     },
     {
