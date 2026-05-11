@@ -201,6 +201,27 @@
     },
     {
       "rel": "child",
+      "href": "./UCL1-Canopy-Height/collection.json",
+      "type": "application/json",
+      "title": "Canopy Height Model (10m)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-Canopy-Height",
+      "themes": [
+        "energy-transition"
+      ],
+      "roles": [
+        "disable"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL4-France-bfPVout/collection.json",
       "type": "application/json",
       "title": "BFG France",
@@ -485,7 +506,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e72ca257-2fbd-4e42-a61d-16aba8450725"
+        "5c862786-300b-44fa-b36f-edad364c58bc"
       ]
     },
     {
@@ -498,7 +519,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "e72ca257-2fbd-4e42-a61d-16aba8450725",
+      "key": "5c862786-300b-44fa-b36f-edad364c58bc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -508,7 +529,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a6266cfc-92c8-4abf-a291-b59fa92b1477"
+        "fd78f525-d411-4d1f-9b72-aa1e2fcf33f5"
       ]
     },
     {
@@ -521,7 +542,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "a6266cfc-92c8-4abf-a291-b59fa92b1477",
+      "key": "fd78f525-d411-4d1f-9b72-aa1e2fcf33f5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -531,7 +552,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8802a36d-87f2-48f6-a027-9bb2c8e6d909"
+        "643ed4be-7e0b-435a-9575-2a20b00db0b4"
       ]
     },
     {
@@ -544,7 +565,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "8802a36d-87f2-48f6-a027-9bb2c8e6d909",
+      "key": "643ed4be-7e0b-435a-9575-2a20b00db0b4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -554,7 +575,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "27045fa4-385f-4f4a-9f2d-216031240351"
+        "ea8acc73-3c29-4d3f-a966-03a5e47c49d1"
       ]
     },
     {
@@ -567,7 +588,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "27045fa4-385f-4f4a-9f2d-216031240351",
+      "key": "ea8acc73-3c29-4d3f-a966-03a5e47c49d1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -577,7 +598,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f6e67a2b-4704-4356-88d5-4e139f75317e"
+        "f497ae07-18ce-4a9e-8165-88d777838408"
       ]
     },
     {
@@ -590,7 +611,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "f6e67a2b-4704-4356-88d5-4e139f75317e",
+      "key": "f497ae07-18ce-4a9e-8165-88d777838408",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -700,61 +721,11 @@
       }
     },
     {
-      "rel": "wmts",
-      "href": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
-      "type": "image/png",
-      "title": "England VOM Elevation 2022",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "EnglandVOM-Elevation-2022",
-      "wmts:layer": "Vegetation_Object_Model_Elevation_2022",
-      "wmts:dimensions": {
-        "matrixSet": "WebMercatorQuad",
-        "style": "elevation-vom"
-      },
-      "attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
-    },
-    {
-      "rel": "wmts",
-      "href": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
-      "type": "image/png",
-      "title": "England VOM Hillshade 2022",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "EnglandVOM-Hillshade-2022",
-      "wmts:layer": "Vegetation_Object_Model_Hillshade_2022",
-      "wmts:dimensions": {
-        "matrixSet": "WebMercatorQuad",
-        "style": "hillshade"
-      },
-      "attribution": "{ England Vegetation Object Model — Hillshade (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
-    },
-    {
-      "rel": "wmts",
-      "href": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
-      "type": "image/png",
-      "title": "England VOM 2022",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "EnglandVOM-2022",
-      "wmts:layer": "Vegetation_Object_Model_2022",
-      "wmts:dimensions": {
-        "matrixSet": "WebMercatorQuad"
-      },
-      "attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
-    },
-    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ac2fe345-fe1f-4306-b4db-30f85d8449e2"
+        "90a0d246-4636-4aaa-ae7e-f1ebf4d3648d"
       ]
     },
     {
@@ -767,7 +738,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "ac2fe345-fe1f-4306-b4db-30f85d8449e2",
+      "key": "90a0d246-4636-4aaa-ae7e-f1ebf4d3648d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -777,7 +748,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1ffa6f81-3d91-4bc9-853e-792775eda60c"
+        "b56dd2e1-c3e9-4875-97c0-94523e7a51b7"
       ]
     },
     {
@@ -790,7 +761,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "1ffa6f81-3d91-4bc9-853e-792775eda60c",
+      "key": "b56dd2e1-c3e9-4875-97c0-94523e7a51b7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -891,6 +862,12 @@
           51.0,
           -5.0,
           56.0
+        ],
+        [
+          -10.93779706791088,
+          41.25407358675115,
+          9.840954106000945,
+          61.00516823367879
         ],
         [
           -5.72445999562336,

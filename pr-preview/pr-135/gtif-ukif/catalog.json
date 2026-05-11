@@ -29,6 +29,25 @@
     },
     {
       "rel": "child",
+      "href": "./Crops_and_Drought/collection.json",
+      "type": "application/json",
+      "title": "Crops & Drought - examine relationship between drought forecast and crop type",
+      "id": "Crops_and_Drought",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast",
+        "Crops",
+        "SPEI"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Food Security (Beta)"
+    },
+    {
+      "rel": "child",
       "href": "./Solar_Plan_Farm/collection.json",
       "type": "application/json",
       "title": "Plan your solar farm with Agrivoltaics",
