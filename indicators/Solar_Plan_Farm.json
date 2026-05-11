@@ -153,7 +153,21 @@
         "style": "elevation-vom"
       },
       "Attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
-      "LegendUrl": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wms?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image/png&layer=Vegetation_Object_Model_Elevation_2022&style=elevation-vom",
+      "Colorlegend": {
+        "title": "Canopy height (m)",
+        "domain": [2.5, 30],
+        "range": [
+          "#FEFFE5",
+          "#FDFF7D",
+          "#ABE958",
+          "#30C922",
+          "#23A337",
+          "#1D9142",
+          "#03774B"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      },
       "visible": false
     },
     {
@@ -168,7 +182,23 @@
         "style": "hillshade"
       },
       "Attribution": "{ England Vegetation Object Model — Hillshade (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
-      "LegendUrl": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wms?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image/png&layer=Vegetation_Object_Model_Hillshade_2022&style=hillshade",
+      "Colorlegend": {
+        "title": "Relative illumination",
+        "domain": [0, 255],
+        "range": [
+          "#0B0B0B",
+          "#2B2B2B",
+          "#4A4A4A",
+          "#6A6A6A",
+          "#878787",
+          "#A5A5A5",
+          "#C3C3C3",
+          "#DCDCDC",
+          "#FFFFFF"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      },
       "visible": false
     },
     {
