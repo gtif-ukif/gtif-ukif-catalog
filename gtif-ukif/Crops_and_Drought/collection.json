@@ -174,7 +174,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bd6cabc8-f1e3-4995-b55f-74fe565716d9"
+        "4a8dceee-c3bb-4e3b-802e-f6b42bdf92b9"
       ]
     },
     {
@@ -187,7 +187,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "bd6cabc8-f1e3-4995-b55f-74fe565716d9",
+      "key": "4a8dceee-c3bb-4e3b-802e-f6b42bdf92b9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -272,36 +272,10 @@
     },
     {
       "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "3bcad6e1-7d8a-47df-9fe3-17aeeaf1b7b8"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "World Airports",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "worldAirports",
-      "key": "3bcad6e1-7d8a-47df-9fe3-17aeeaf1b7b8",
-      "layers": [
-        "airport_label"
-      ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
-      "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ee5416d8-74c7-4a97-b354-e0a20ff5a99d"
+        "49c2e1b7-1285-4a66-85d3-cbfefeb17834"
       ]
     },
     {
@@ -314,7 +288,7 @@
         "invisible"
       ],
       "id": "roads",
-      "key": "ee5416d8-74c7-4a97-b354-e0a20ff5a99d",
+      "key": "49c2e1b7-1285-4a66-85d3-cbfefeb17834",
       "layers": [
         "road"
       ],

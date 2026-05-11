@@ -75,27 +75,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-Canopy-Height/collection.json",
-      "type": "application/json",
-      "title": "Canopy Height Model (10m)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-Canopy-Height",
-      "themes": [
-        "energy-transition"
-      ],
-      "roles": [
-        "disable"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL4-France-bfPVout/collection.json",
       "type": "application/json",
       "title": "BFG France",
@@ -222,7 +201,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "60809beb-0e59-4c90-af10-46229680ba29"
+        "c7390ea5-e9b2-40b5-8a44-270e14c16f6c"
       ]
     },
     {
@@ -235,7 +214,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "60809beb-0e59-4c90-af10-46229680ba29",
+      "key": "c7390ea5-e9b2-40b5-8a44-270e14c16f6c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +224,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "82efa4a7-a70c-42b5-8db8-990a2ce45d1d"
+        "6c9012a8-c85d-4a18-827e-ff690613df6b"
       ]
     },
     {
@@ -258,7 +237,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "82efa4a7-a70c-42b5-8db8-990a2ce45d1d",
+      "key": "6c9012a8-c85d-4a18-827e-ff690613df6b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +247,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9e39bd67-f792-4c7d-a12e-499e5ee267af"
+        "2b84c285-e33a-4289-9658-54d81df58496"
       ]
     },
     {
@@ -281,7 +260,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "9e39bd67-f792-4c7d-a12e-499e5ee267af",
+      "key": "2b84c285-e33a-4289-9658-54d81df58496",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +270,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a0296d7f-64c9-45ef-a939-4c049e6a2646"
+        "ae06c1c0-872a-4333-83dd-c2fa88fc0d2a"
       ]
     },
     {
@@ -304,7 +283,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "a0296d7f-64c9-45ef-a939-4c049e6a2646",
+      "key": "ae06c1c0-872a-4333-83dd-c2fa88fc0d2a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -371,6 +350,56 @@
         ],
         "scaleType": "categorical"
       }
+    },
+    {
+      "rel": "wmts",
+      "href": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
+      "type": "image/png",
+      "title": "England VOM Elevation 2022",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "EnglandVOM-Elevation-2022",
+      "wmts:layer": "Vegetation_Object_Model_Elevation_2022",
+      "wmts:dimensions": {
+        "matrixSet": "WebMercatorQuad",
+        "style": "elevation-vom"
+      },
+      "attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
+      "type": "image/png",
+      "title": "England VOM Hillshade 2022",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "EnglandVOM-Hillshade-2022",
+      "wmts:layer": "Vegetation_Object_Model_Hillshade_2022",
+      "wmts:dimensions": {
+        "matrixSet": "WebMercatorQuad",
+        "style": "hillshade"
+      },
+      "attribution": "{ England Vegetation Object Model — Hillshade (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
+    },
+    {
+      "rel": "wmts",
+      "href": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
+      "type": "image/png",
+      "title": "England VOM 2022",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "EnglandVOM-2022",
+      "wmts:layer": "Vegetation_Object_Model_2022",
+      "wmts:dimensions": {
+        "matrixSet": "WebMercatorQuad"
+      },
+      "attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
     },
     {
       "rel": "wmts",
@@ -506,12 +535,6 @@
           56.0
         ],
         [
-          -10.93779706791088,
-          41.25407358675115,
-          9.840954106000945,
-          61.00516823367879
-        ],
-        [
           -5.72445999562336,
           40.463816771195944,
           9.567154759937422,
@@ -535,7 +558,7 @@
       "interval": [
         [
           "2019-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2022-08-01T00:00:00Z"
         ]
       ]
     }

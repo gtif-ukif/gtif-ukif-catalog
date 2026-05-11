@@ -12,10 +12,10 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=cividis&rescale=0,30",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdylbu_r&rescale=0,30",
       "type": "image/png",
       "title": "Wales Rooftop Slopes (1m)",
-      "key": "1387a09d-1646-4f13-8ee2-ef880da3fa17"
+      "key": "c5e24436-2eb8-4556-84ad-60375ba05b78"
     },
     {
       "rel": "parent",
@@ -40,16 +40,16 @@
       30
     ],
     "range": [
-      "#00224d",
-      "#11356f",
-      "#3b496b",
-      "#575d6d",
-      "#6f7073",
-      "#898678",
-      "#a59b73",
-      "#c2b269",
-      "#e1cc54",
-      "#fde737"
+      "#313695",
+      "#4575b4",
+      "#74add1",
+      "#abd9e9",
+      "#e0f3f8",
+      "#fee090",
+      "#fdae61",
+      "#f46d43",
+      "#d73027",
+      "#a50026"
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
