@@ -102,7 +102,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0d1d5031-f546-4530-9370-d6975e861ccb"
+        "d429b318-4305-4412-98c8-fb06e5c72fa1"
       ]
     },
     {
@@ -115,7 +115,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "0d1d5031-f546-4530-9370-d6975e861ccb",
+      "key": "d429b318-4305-4412-98c8-fb06e5c72fa1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -125,7 +125,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "be3cb75c-fc6e-4213-8a50-faf2abeb00c0"
+        "973901ba-64ae-4a91-b69e-0c26a22d65fa"
       ]
     },
     {
@@ -138,7 +138,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "be3cb75c-fc6e-4213-8a50-faf2abeb00c0",
+      "key": "973901ba-64ae-4a91-b69e-0c26a22d65fa",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -148,7 +148,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6bab4169-5334-4811-89f7-ea2c0d53a253"
+        "d4350b6a-832a-4940-9108-b11b573d885c"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "6bab4169-5334-4811-89f7-ea2c0d53a253",
+      "key": "d4350b6a-832a-4940-9108-b11b573d885c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -171,7 +171,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Buildings/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8b0920ee-c105-4d0c-9565-0c32b239d3f4"
+        "42843554-c4f5-45d0-bc4e-c1ee7531971c"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "visible"
       ],
       "id": "buildingFootprints",
-      "key": "8b0920ee-c105-4d0c-9565-0c32b239d3f4",
+      "key": "42843554-c4f5-45d0-bc4e-c1ee7531971c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,7 +194,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f8330ae0-e29a-48c6-8bdd-b08a064fb1dc"
+        "da405b78-86b3-4798-b2cf-b0f46071492f"
       ]
     },
     {
@@ -207,7 +207,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "f8330ae0-e29a-48c6-8bdd-b08a064fb1dc",
+      "key": "da405b78-86b3-4798-b2cf-b0f46071492f",
       "auth:refs": [
         "mapboxauth"
       ]

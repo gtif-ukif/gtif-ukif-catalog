@@ -174,7 +174,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "90df86d9-613e-4257-aceb-ef9202a01846"
+        "d74f7e72-501b-4870-b3c6-9156ed2ab9f1"
       ]
     },
     {
@@ -187,7 +187,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "90df86d9-613e-4257-aceb-ef9202a01846",
+      "key": "d74f7e72-501b-4870-b3c6-9156ed2ab9f1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -275,7 +275,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "cc56ae21-d476-4936-946b-3d4835d608ef"
+        "fd776edb-ae53-448e-8070-440bac7faba7"
       ]
     },
     {
@@ -288,7 +288,7 @@
         "invisible"
       ],
       "id": "roads",
-      "key": "cc56ae21-d476-4936-946b-3d4835d608ef",
+      "key": "fd776edb-ae53-448e-8070-440bac7faba7",
       "layers": [
         "road"
       ],

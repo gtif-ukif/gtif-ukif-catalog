@@ -201,7 +201,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "040c3138-d407-432b-8a1a-2c94264c4544"
+        "8d525529-5144-4413-a705-f746bcb473de"
       ]
     },
     {
@@ -214,7 +214,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "040c3138-d407-432b-8a1a-2c94264c4544",
+      "key": "8d525529-5144-4413-a705-f746bcb473de",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +224,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c5a0d02e-7810-4e47-91b6-82f67e62ec9a"
+        "a54a9220-6beb-4bb3-a0e0-ef9599db5045"
       ]
     },
     {
@@ -237,7 +237,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "c5a0d02e-7810-4e47-91b6-82f67e62ec9a",
+      "key": "a54a9220-6beb-4bb3-a0e0-ef9599db5045",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -247,7 +247,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8a4f523a-5ade-4d2b-a62f-54fecb55a78a"
+        "0be25596-763f-4ccf-aa63-d764750cc50f"
       ]
     },
     {
@@ -260,7 +260,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "8a4f523a-5ade-4d2b-a62f-54fecb55a78a",
+      "key": "0be25596-763f-4ccf-aa63-d764750cc50f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,7 +270,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ebeac8c8-3681-4a9a-b5d2-5dd045b2fff6"
+        "a94c52e6-12b5-484d-a2aa-5d07479ff564"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "ebeac8c8-3681-4a9a-b5d2-5dd045b2fff6",
+      "key": "a94c52e6-12b5-484d-a2aa-5d07479ff564",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -366,7 +366,25 @@
         "matrixSet": "WebMercatorQuad",
         "style": "elevation-vom"
       },
-      "attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
+      "attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
+      "eox:colorlegend": {
+        "title": "Canopy height (m)",
+        "domain": [
+          2.5,
+          30
+        ],
+        "range": [
+          "#FEFFE5",
+          "#FDFF7D",
+          "#ABE958",
+          "#30C922",
+          "#23A337",
+          "#1D9142",
+          "#03774B"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      }
     },
     {
       "rel": "wmts",
@@ -383,7 +401,27 @@
         "matrixSet": "WebMercatorQuad",
         "style": "hillshade"
       },
-      "attribution": "{ England Vegetation Object Model — Hillshade (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
+      "attribution": "{ England Vegetation Object Model — Hillshade (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
+      "eox:colorlegend": {
+        "title": "Relative illumination",
+        "domain": [
+          0,
+          255
+        ],
+        "range": [
+          "#0B0B0B",
+          "#2B2B2B",
+          "#4A4A4A",
+          "#6A6A6A",
+          "#878787",
+          "#A5A5A5",
+          "#C3C3C3",
+          "#DCDCDC",
+          "#FFFFFF"
+        ],
+        "scaleType": "continuous",
+        "tickFormat": ".0f"
+      }
     },
     {
       "rel": "wmts",
