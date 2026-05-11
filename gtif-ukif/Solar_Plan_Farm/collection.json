@@ -201,7 +201,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c7390ea5-e9b2-40b5-8a44-270e14c16f6c"
+        "5e5b2a69-f877-41ea-b276-c1f01f520541"
       ]
     },
     {
@@ -214,7 +214,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "c7390ea5-e9b2-40b5-8a44-270e14c16f6c",
+      "key": "5e5b2a69-f877-41ea-b276-c1f01f520541",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +224,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "6c9012a8-c85d-4a18-827e-ff690613df6b"
+        "cbd74310-ceef-40c4-834b-7e546cc26c58"
       ]
     },
     {
@@ -237,7 +237,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "6c9012a8-c85d-4a18-827e-ff690613df6b",
+      "key": "cbd74310-ceef-40c4-834b-7e546cc26c58",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -247,7 +247,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "2b84c285-e33a-4289-9658-54d81df58496"
+        "0343d8a4-a6e8-40f1-a878-6ceceadf732b"
       ]
     },
     {
@@ -260,7 +260,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "2b84c285-e33a-4289-9658-54d81df58496",
+      "key": "0343d8a4-a6e8-40f1-a878-6ceceadf732b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,7 +270,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ae06c1c0-872a-4333-83dd-c2fa88fc0d2a"
+        "4fdfa7fe-9ddb-40ea-bdf1-485859642d87"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "ae06c1c0-872a-4333-83dd-c2fa88fc0d2a",
+      "key": "4fdfa7fe-9ddb-40ea-bdf1-485859642d87",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -384,22 +384,6 @@
         "style": "hillshade"
       },
       "attribution": "{ England Vegetation Object Model — Hillshade (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
-    },
-    {
-      "rel": "wmts",
-      "href": "https://environment.data.gov.uk/spatialdata/vegetation-object-model/wmts",
-      "type": "image/png",
-      "title": "England VOM 2022",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "EnglandVOM-2022",
-      "wmts:layer": "Vegetation_Object_Model_2022",
-      "wmts:dimensions": {
-        "matrixSet": "WebMercatorQuad"
-      },
-      "attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }"
     },
     {
       "rel": "wmts",
