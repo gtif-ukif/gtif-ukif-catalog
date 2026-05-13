@@ -165,7 +165,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5cd66316-5d53-492b-b859-0e4199bd30dc"
+        "3ca001df-f85e-44d8-a065-0e3a661a231c"
       ]
     },
     {
@@ -178,7 +178,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "5cd66316-5d53-492b-b859-0e4199bd30dc",
+      "key": "3ca001df-f85e-44d8-a065-0e3a661a231c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -223,7 +223,7 @@
       "title": "WC21 UK Mosaic (Permanent water bodies)",
       "roles": [
         "overlay",
-        "invisible"
+        "visible"
       ],
       "id": "WC21-Water",
       "eox:colorlegend": {
@@ -242,7 +242,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ede65c3c-eeb4-40d2-a631-96cf70b207d5"
+        "76d0d816-05d8-4439-94a3-2179e6c884a4"
       ]
     },
     {
@@ -252,10 +252,10 @@
       "title": "Inland Water Bodies",
       "roles": [
         "overlay",
-        "visible"
+        "invisible"
       ],
       "id": "waterbodies",
-      "key": "ede65c3c-eeb4-40d2-a631-96cf70b207d5",
+      "key": "76d0d816-05d8-4439-94a3-2179e6c884a4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -280,7 +280,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Food Security (Beta)",
+  "collection_group": "Food Security",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",

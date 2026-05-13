@@ -129,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3846bfd7-4188-484f-972e-2959586691df"
+        "0f27e49a-877b-4365-8a15-84cc85cc2f7a"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "3846bfd7-4188-484f-972e-2959586691df",
+      "key": "0f27e49a-877b-4365-8a15-84cc85cc2f7a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -185,7 +185,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "29ac3690-af19-49dc-8a47-3cc929a67247"
+        "995aec38-5082-4302-928a-ae9dd44af909"
       ]
     },
     {
@@ -198,7 +198,7 @@
         "visible"
       ],
       "id": "waterbodies",
-      "key": "29ac3690-af19-49dc-8a47-3cc929a67247",
+      "key": "995aec38-5082-4302-928a-ae9dd44af909",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +224,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Food Security (Beta)",
+  "collection_group": "Food Security",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -286,8 +286,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "food-security",
-      "energy-transition"
+      "energy-transition",
+      "food-security"
     ]
   }
 }

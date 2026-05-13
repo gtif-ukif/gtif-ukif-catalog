@@ -174,7 +174,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d74f7e72-501b-4870-b3c6-9156ed2ab9f1"
+        "003f76cb-5e6a-4a34-82ee-bfc4aa6aeb48"
       ]
     },
     {
@@ -187,7 +187,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "d74f7e72-501b-4870-b3c6-9156ed2ab9f1",
+      "key": "003f76cb-5e6a-4a34-82ee-bfc4aa6aeb48",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -271,32 +271,6 @@
       }
     },
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",
-      "type": "text/vector-styles",
-      "links:keys": [
-        "fd776edb-ae53-448e-8070-440bac7faba7"
-      ]
-    },
-    {
-      "rel": "vector-tile",
-      "href": "https://api.mapbox.com/v4/mapbox.mapbox-streets-v8/{z}/{x}/{y}.mvt",
-      "type": "application/vnd.mapbox-vector-tile",
-      "title": "Roads",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "roads",
-      "key": "fd776edb-ae53-448e-8070-440bac7faba7",
-      "layers": [
-        "road"
-      ],
-      "auth:refs": [
-        "mapboxauth"
-      ]
-    },
-    {
       "rel": "xyz",
       "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
       "type": "image/png",
@@ -350,7 +324,7 @@
   "agency": [
     "ESA"
   ],
-  "collection_group": "Food Security (Beta)",
+  "collection_group": "Food Security",
   "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/jsonform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/UCL-drought-crops/vega.json",
   "auth:schemes": {

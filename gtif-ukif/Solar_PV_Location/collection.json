@@ -102,7 +102,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d429b318-4305-4412-98c8-fb06e5c72fa1"
+        "e995ad3c-66c2-4d27-8fe0-2e316ca539fb"
       ]
     },
     {
@@ -115,7 +115,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "d429b318-4305-4412-98c8-fb06e5c72fa1",
+      "key": "e995ad3c-66c2-4d27-8fe0-2e316ca539fb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -125,7 +125,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "973901ba-64ae-4a91-b69e-0c26a22d65fa"
+        "d146d22a-2a04-4fc9-9627-dd261a49f594"
       ]
     },
     {
@@ -138,7 +138,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "973901ba-64ae-4a91-b69e-0c26a22d65fa",
+      "key": "d146d22a-2a04-4fc9-9627-dd261a49f594",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -148,7 +148,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d4350b6a-832a-4940-9108-b11b573d885c"
+        "df71d1d5-c3ae-4bab-a69c-ebee677f1fcd"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "d4350b6a-832a-4940-9108-b11b573d885c",
+      "key": "df71d1d5-c3ae-4bab-a69c-ebee677f1fcd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -171,7 +171,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Buildings/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "42843554-c4f5-45d0-bc4e-c1ee7531971c"
+        "58a9b8c0-cae0-4fdb-9922-a429a50306a3"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "visible"
       ],
       "id": "buildingFootprints",
-      "key": "42843554-c4f5-45d0-bc4e-c1ee7531971c",
+      "key": "58a9b8c0-cae0-4fdb-9922-a429a50306a3",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,7 +194,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "da405b78-86b3-4798-b2cf-b0f46071492f"
+        "ff040b60-126b-4acc-849f-1bfd3086a817"
       ]
     },
     {
@@ -207,7 +207,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "da405b78-86b3-4798-b2cf-b0f46071492f",
+      "key": "ff040b60-126b-4acc-849f-1bfd3086a817",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -229,7 +229,7 @@
   "tags": [
     "Solar Rural Power"
   ],
-  "collection_group": "Energy Transition (Beta)",
+  "collection_group": "Energy Transition",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
