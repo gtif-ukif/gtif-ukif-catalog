@@ -165,7 +165,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "730d215d-ad89-4957-b892-19d2043478a9"
+        "a680eb78-e699-4b1c-b571-f00b40967547"
       ]
     },
     {
@@ -178,7 +178,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "730d215d-ad89-4957-b892-19d2043478a9",
+      "key": "a680eb78-e699-4b1c-b571-f00b40967547",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -242,7 +242,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "54777523-8194-4118-a00b-a4c8cab458f8"
+        "07332e12-05ff-4b99-a04b-119aecc15ea1"
       ]
     },
     {
@@ -255,7 +255,7 @@
         "invisible"
       ],
       "id": "waterbodies",
-      "key": "54777523-8194-4118-a00b-a4c8cab458f8",
+      "key": "07332e12-05ff-4b99-a04b-119aecc15ea1",
       "auth:refs": [
         "mapboxauth"
       ]
