@@ -1,7 +1,7 @@
 {
   "Name": "Drought_Forecasts",
   "Title": "Drought Forecasts - examine Forecast SPEI product through zooming",
-  "CollectionGroup": "Food Security (Beta)",
+  "CollectionGroup": "Food Security",
   "Themes": ["food-security"],
   "Tags": [
     "Drought Analysis/Forecast",
@@ -55,7 +55,7 @@
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
-      "visible": false,
+      "visible": true,
       "Colorlegend": {
         "title": "",
         "range": ["rgb(0, 100, 200)"],
@@ -68,7 +68,7 @@
       "name": "Inland Water Bodies",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "url": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
-      "visible": true,
+      "visible": false,
       "protocol": "vector-tile"
     }
   ],
