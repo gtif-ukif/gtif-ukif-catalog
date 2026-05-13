@@ -1,7 +1,7 @@
 {
   "Name": "Solar_Plan_Farm",
   "Title": "Plan your solar farm with Agrivoltaics",
-  "CollectionGroup": "Energy Transition (Beta)",
+  "CollectionGroup": "Energy Transition",
   "Themes": [
     "energy-transition"
   ],
@@ -154,16 +154,19 @@
       },
       "Attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
       "Colorlegend": {
-        "title": "Canopy height (m)",
-        "domain": [2.5, 30],
+        "title": "Canopy Height (m)",
+        "domain": [3, 24],
         "range": [
-          "#FEFFE5",
-          "#FDFF7D",
-          "#ABE958",
-          "#30C922",
-          "#23A337",
-          "#1D9142",
-          "#03774B"
+          "#aeefd5",
+          "#ebfcb2",
+          "#3eb032",
+          "#699535",
+          "#f4a602",
+          "#921201",
+          "#6f2108",
+          "#7f4c2f",
+          "#adadad",
+          "#e9e7e9"
         ],
         "scaleType": "continuous",
         "tickFormat": ".0f"
