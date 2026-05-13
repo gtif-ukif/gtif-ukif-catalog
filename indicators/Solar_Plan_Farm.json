@@ -154,19 +154,16 @@
       },
       "Attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
       "Colorlegend": {
-        "title": "Canopy Height (m)",
-        "domain": [3, 24],
+        "title": "Canopy height (m)",
+        "domain": [2.5, 30],
         "range": [
-          "#aeefd5",
-          "#ebfcb2",
-          "#3eb032",
-          "#699535",
-          "#f4a602",
-          "#921201",
-          "#6f2108",
-          "#7f4c2f",
-          "#adadad",
-          "#e9e7e9"
+          "#FEFFE5",
+          "#FDFF7D",
+          "#ABE958",
+          "#30C922",
+          "#23A337",
+          "#1D9142",
+          "#03774B"
         ],
         "scaleType": "continuous",
         "tickFormat": ".0f"
