@@ -129,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0f27e49a-877b-4365-8a15-84cc85cc2f7a"
+        "bd6aa317-62c7-4376-8084-9c47531ee03d"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "0f27e49a-877b-4365-8a15-84cc85cc2f7a",
+      "key": "bd6aa317-62c7-4376-8084-9c47531ee03d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -185,23 +185,44 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "995aec38-5082-4302-928a-ae9dd44af909"
+        "693aacb1-2629-42ca-a6e6-842fe731e183"
       ]
     },
     {
       "rel": "vector-tile",
       "href": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "Inland Water Bodies",
+      "title": "Inland Water Bodies (UK+IE)",
       "roles": [
         "overlay",
         "visible"
       ],
       "id": "waterbodies",
-      "key": "995aec38-5082-4302-928a-ae9dd44af909",
+      "key": "693aacb1-2629-42ca-a6e6-842fe731e183",
       "auth:refs": [
         "mapboxauth"
       ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21-France/items/WC21-france/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2280%22%3A%5B0,100,200%5D%7D",
+      "type": "image/png",
+      "title": "Inland Water Bodies (FR)",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "WC21-Water-France",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0, 100, 200)"
+        ],
+        "domain": [
+          "Permanent water bodies"
+        ],
+        "scaleType": "categorical"
+      }
     },
     {
       "rel": "parent",
@@ -286,8 +307,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "energy-transition",
-      "food-security"
+      "food-security",
+      "energy-transition"
     ]
   }
 }
