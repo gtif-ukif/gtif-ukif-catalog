@@ -71,6 +71,14 @@
       "visible": false,
       "protocol": "vector-tile",
       "layers": ["road"]
+    },
+    {
+      "id": "buildingFootprints",
+      "name": "Building Footprints",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Buildings/style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.gmif_building_footprints/{z}/{x}/{y}.vector.pbf",
+      "visible": false,
+      "protocol": "vector-tile"
     }
   ]
 }
