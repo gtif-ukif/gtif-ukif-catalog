@@ -49,9 +49,17 @@
       }
     },
     {
-      "id": "WC21-Water",
-      "name": "WC21 UK Mosaic (Permanent water bodies)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2280%22%3A%5B0,100,200%5D%7D",
+      "id": "waterbodies",
+      "name": "Inland Water Bodies (UK+IE)",
+      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
+      "url": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
+      "visible": true,
+      "protocol": "vector-tile"
+    },
+    {
+      "id": "WC21-Water-France",
+      "name": "Inland Water Bodies (FR)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21-France/items/WC21-france/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2280%22%3A%5B0,100,200%5D%7D",
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
@@ -62,14 +70,6 @@
         "domain": ["Permanent water bodies"],
         "scaleType": "categorical"
       }
-    },
-    {
-      "id": "waterbodies",
-      "name": "Inland Water Bodies",
-      "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
-      "url": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
-      "visible": false,
-      "protocol": "vector-tile"
     }
   ],
   "BaseLayers": [
