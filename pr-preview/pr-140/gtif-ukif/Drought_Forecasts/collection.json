@@ -165,7 +165,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4c7364f5-799f-45dc-be34-1106b363e2cc"
+        "52c63397-190a-4e76-b632-eb9db57610c4"
       ]
     },
     {
@@ -178,7 +178,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "4c7364f5-799f-45dc-be34-1106b363e2cc",
+      "key": "52c63397-190a-4e76-b632-eb9db57610c4",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -217,32 +217,11 @@
       }
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2280%22%3A%5B0,100,200%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Permanent water bodies)",
-      "roles": [
-        "overlay",
-        "invisible"
-      ],
-      "id": "WC21-Water",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(0, 100, 200)"
-        ],
-        "domain": [
-          "Permanent water bodies"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "961552e9-3e2e-4700-8f1b-980187d2e18b"
+        "14bdfc13-383a-4643-be61-d780b81e214d"
       ]
     },
     {
@@ -255,7 +234,7 @@
         "visible"
       ],
       "id": "waterbodies",
-      "key": "961552e9-3e2e-4700-8f1b-980187d2e18b",
+      "key": "14bdfc13-383a-4643-be61-d780b81e214d",
       "auth:refs": [
         "mapboxauth"
       ]
