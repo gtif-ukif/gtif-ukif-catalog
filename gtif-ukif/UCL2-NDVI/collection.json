@@ -119,6 +119,42 @@
       "collection_group": "Other"
     },
     {
+      "rel": "child",
+      "href": "./UCL2-NDVI-INTERP-GB/collection.json",
+      "type": "application/json",
+      "title": "Interpolated NDVI (GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-INTERP-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-INTERP-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Interpolated NDVI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-INTERP-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
       "rel": "service",
       "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-drought-crops-template/execution",
       "type": "application/json",
@@ -274,7 +310,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "64099d39-00d1-4d29-a31e-88b5997fa290"
+        "17d927e9-9cb8-4d8f-b655-5d400d926b55"
       ]
     },
     {
@@ -287,7 +323,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "64099d39-00d1-4d29-a31e-88b5997fa290",
+      "key": "17d927e9-9cb8-4d8f-b655-5d400d926b55",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -431,6 +467,18 @@
           -8.899565067732734,
           49.11835675764194,
           4.804451125276599,
+          61.264240082289106
+        ],
+        [
+          -11.104591164873993,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60473592572955
+        ],
+        [
+          -8.900326794527825,
+          48.74935069215586,
+          4.804451812143819,
           61.264240082289106
         ],
         [
