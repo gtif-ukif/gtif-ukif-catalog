@@ -30,11 +30,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
+      "href": "./UCL1-albedo-GB/collection.json",
       "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
+      "title": "RGB Albedo Layer GB",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
+      "id": "UCL1-albedo-GB",
       "themes": [
         "energy-transition"
       ],
@@ -48,11 +48,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-albedo-GB/collection.json",
+      "href": "./UCL1-albedo-Ireland/collection.json",
       "type": "application/json",
-      "title": "RGB Albedo Layer GB",
+      "title": "RGB Albedo Layer Ireland",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-GB",
+      "id": "UCL1-albedo-Ireland",
       "themes": [
         "energy-transition"
       ],
@@ -147,7 +147,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "05f871fc-8ea2-4709-868a-d5fc0e8b6023"
+        "b44f3cbc-c6ea-4440-8d8a-74e41d09df6a"
       ]
     },
     {
@@ -160,7 +160,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "05f871fc-8ea2-4709-868a-d5fc0e8b6023",
+      "key": "b44f3cbc-c6ea-4440-8d8a-74e41d09df6a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -203,7 +203,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ec22f172-bb1f-474c-84bf-7b493f6bab27"
+        "a000df38-bc0e-4fce-bfc9-9a1462ba0cad"
       ]
     },
     {
@@ -216,7 +216,7 @@
         "visible"
       ],
       "id": "waterbodies",
-      "key": "ec22f172-bb1f-474c-84bf-7b493f6bab27",
+      "key": "a000df38-bc0e-4fce-bfc9-9a1462ba0cad",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -288,16 +288,16 @@
           51.32864338731509
         ],
         [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
-        ],
-        [
           -9.419263296773103,
           48.781349973035624,
           3.1707659683262213,
           60.879568085857684
+        ],
+        [
+          -11.104591164807998,
+          51.09529319289348,
+          -5.097344144310739,
+          55.604735925728136
         ],
         [
           -5.619305428473922,
