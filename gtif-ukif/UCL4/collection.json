@@ -138,6 +138,24 @@
     },
     {
       "rel": "child",
+      "href": "./UCL1-albedo-France/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-France",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL4-France/collection.json",
       "type": "application/json",
       "title": "Photovoltaic Output France",
@@ -506,7 +524,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f78f0a6d-7332-4eb3-91ad-fbcf120ce1b4"
+        "b48a5b0f-299b-4504-8073-97b6ce5c5d83"
       ]
     },
     {
@@ -519,7 +537,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "f78f0a6d-7332-4eb3-91ad-fbcf120ce1b4",
+      "key": "b48a5b0f-299b-4504-8073-97b6ce5c5d83",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -529,7 +547,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4230dee2-d977-40ef-bf4f-db40e1f3adaf"
+        "9ae227e2-deed-4323-b91d-2eab75989e15"
       ]
     },
     {
@@ -542,7 +560,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "4230dee2-d977-40ef-bf4f-db40e1f3adaf",
+      "key": "9ae227e2-deed-4323-b91d-2eab75989e15",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -552,7 +570,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f8ac88bb-aa40-4d86-9583-79d14e22e950"
+        "bfb9173c-7547-45c5-9d21-bff441616aa7"
       ]
     },
     {
@@ -565,7 +583,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "f8ac88bb-aa40-4d86-9583-79d14e22e950",
+      "key": "bfb9173c-7547-45c5-9d21-bff441616aa7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -575,7 +593,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e004e363-bd51-4fba-8742-f905f0534ded"
+        "5989480b-164e-4f1d-89d2-57e4fe9b24b7"
       ]
     },
     {
@@ -588,7 +606,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "e004e363-bd51-4fba-8742-f905f0534ded",
+      "key": "5989480b-164e-4f1d-89d2-57e4fe9b24b7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -598,7 +616,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e6485ede-26bd-407d-b75b-7cdd47a6fca6"
+        "dcef6f31-c6a4-4799-afff-6a45f05db87a"
       ]
     },
     {
@@ -611,7 +629,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "e6485ede-26bd-407d-b75b-7cdd47a6fca6",
+      "key": "dcef6f31-c6a4-4799-afff-6a45f05db87a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -725,7 +743,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d4c17c4a-dce6-4331-854d-e5320ee9b2f8"
+        "a38043f5-60ae-4bd5-9634-0dbddbc17c74"
       ]
     },
     {
@@ -738,7 +756,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "d4c17c4a-dce6-4331-854d-e5320ee9b2f8",
+      "key": "a38043f5-60ae-4bd5-9634-0dbddbc17c74",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -748,7 +766,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "91d64353-3662-4ef6-ab58-f74b5c7a0e31"
+        "52b6818f-101d-4dca-ab81-7aec064adb0b"
       ]
     },
     {
@@ -761,7 +779,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "91d64353-3662-4ef6-ab58-f74b5c7a0e31",
+      "key": "52b6818f-101d-4dca-ab81-7aec064adb0b",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -800,7 +818,7 @@
         [
           -21.923451993591076,
           39.90272381327664,
-          10.000491103609367,
+          12.123585700051096,
           63.474630050521746
         ],
         [
@@ -844,6 +862,12 @@
           48.781349973035624,
           3.1707659683262213,
           60.879568085857684
+        ],
+        [
+          -5.614133288083353,
+          41.12647421484804,
+          12.123585700051096,
+          51.32864338731509
         ],
         [
           -6.0,
