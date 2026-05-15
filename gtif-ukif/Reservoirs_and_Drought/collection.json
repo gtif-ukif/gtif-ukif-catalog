@@ -129,7 +129,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a8a45b9c-4123-40e0-8cfc-9ec1642740bc"
+        "5b4b7cb9-cfe9-4d75-b0ca-0df2dac11a12"
       ]
     },
     {
@@ -142,7 +142,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "a8a45b9c-4123-40e0-8cfc-9ec1642740bc",
+      "key": "5b4b7cb9-cfe9-4d75-b0ca-0df2dac11a12",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -185,7 +185,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "33cb50e6-9a57-4dc5-a8d7-e1d1df6798a0"
+        "65da659e-1da9-4b6b-8f5c-6ed3ce178ceb"
       ]
     },
     {
@@ -198,7 +198,7 @@
         "visible"
       ],
       "id": "waterbodies",
-      "key": "33cb50e6-9a57-4dc5-a8d7-e1d1df6798a0",
+      "key": "65da659e-1da9-4b6b-8f5c-6ed3ce178ceb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -307,8 +307,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "food-security",
-      "energy-transition"
+      "energy-transition",
+      "food-security"
     ]
   }
 }
