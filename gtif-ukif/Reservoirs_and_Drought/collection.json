@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
+      "href": "./UCL1-albedo-France/collection.json",
       "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
+      "title": "RGB Albedo Layer France",
       "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
+      "id": "UCL1-albedo-France",
       "themes": [
         "energy-transition"
       ],
@@ -35,6 +35,24 @@
       "title": "RGB Albedo Layer GB",
       "endpointtype": "VEDA_tiles",
       "id": "UCL1-albedo-GB",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-Ireland/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-Ireland",
       "themes": [
         "energy-transition"
       ],
@@ -129,7 +147,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "56d0c1ff-a73d-43c4-b786-d1a974c799a7"
+        "426e9ebb-7e93-4a45-a9c5-5d4dd2d859ec"
       ]
     },
     {
@@ -142,7 +160,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "56d0c1ff-a73d-43c4-b786-d1a974c799a7",
+      "key": "426e9ebb-7e93-4a45-a9c5-5d4dd2d859ec",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -185,7 +203,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "25119c76-1374-4afe-b82f-c9bc89eccb9e"
+        "4116945d-faac-4f92-bff4-b0b37d421fba"
       ]
     },
     {
@@ -198,7 +216,7 @@
         "visible"
       ],
       "id": "waterbodies",
-      "key": "25119c76-1374-4afe-b82f-c9bc89eccb9e",
+      "key": "4116945d-faac-4f92-bff4-b0b37d421fba",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -264,16 +282,22 @@
           61.264240082289106
         ],
         [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
+          -5.614133288083353,
+          41.12647421484804,
+          12.123585700051096,
+          51.32864338731509
         ],
         [
           -9.419263296773103,
           48.781349973035624,
           3.1707659683262213,
           60.879568085857684
+        ],
+        [
+          -11.104591164807998,
+          51.09529319289348,
+          -5.097344144310739,
+          55.604735925728136
         ],
         [
           -5.619305428473922,
@@ -307,8 +331,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "energy-transition",
-      "food-security"
+      "food-security",
+      "energy-transition"
     ]
   }
 }

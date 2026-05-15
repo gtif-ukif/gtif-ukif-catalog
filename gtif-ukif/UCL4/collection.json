@@ -102,60 +102,6 @@
     },
     {
       "rel": "child",
-      "href": "./UCL1-albedo-Ireland/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer Ireland",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-Ireland",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-GB/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer GB",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-GB",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL1-albedo-France/collection.json",
-      "type": "application/json",
-      "title": "RGB Albedo Layer France",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL1-albedo-France",
-      "themes": [
-        "energy-transition"
-      ],
-      "tags": [
-        "Solar Rural Power"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
       "href": "./UCL4-France/collection.json",
       "type": "application/json",
       "title": "Photovoltaic Output France",
@@ -524,7 +470,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b48a5b0f-299b-4504-8073-97b6ce5c5d83"
+        "949e3477-a668-41cb-804b-8400d1b37d27"
       ]
     },
     {
@@ -537,7 +483,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "b48a5b0f-299b-4504-8073-97b6ce5c5d83",
+      "key": "949e3477-a668-41cb-804b-8400d1b37d27",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -547,7 +493,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "9ae227e2-deed-4323-b91d-2eab75989e15"
+        "0227d455-9b27-4d7e-bdf6-2c4fd7089986"
       ]
     },
     {
@@ -560,7 +506,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "9ae227e2-deed-4323-b91d-2eab75989e15",
+      "key": "0227d455-9b27-4d7e-bdf6-2c4fd7089986",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -570,7 +516,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "bfb9173c-7547-45c5-9d21-bff441616aa7"
+        "89babb0f-8db9-405b-98f5-b6c41dd53b3e"
       ]
     },
     {
@@ -583,7 +529,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "bfb9173c-7547-45c5-9d21-bff441616aa7",
+      "key": "89babb0f-8db9-405b-98f5-b6c41dd53b3e",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -593,7 +539,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "5989480b-164e-4f1d-89d2-57e4fe9b24b7"
+        "934ccc9f-4cda-4ec2-a9c2-7e2abdef345d"
       ]
     },
     {
@@ -606,7 +552,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "5989480b-164e-4f1d-89d2-57e4fe9b24b7",
+      "key": "934ccc9f-4cda-4ec2-a9c2-7e2abdef345d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -616,7 +562,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dcef6f31-c6a4-4799-afff-6a45f05db87a"
+        "49c878a9-58cf-47a4-8a5c-c5123931f54c"
       ]
     },
     {
@@ -629,7 +575,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "dcef6f31-c6a4-4799-afff-6a45f05db87a",
+      "key": "49c878a9-58cf-47a4-8a5c-c5123931f54c",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -743,7 +689,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a38043f5-60ae-4bd5-9634-0dbddbc17c74"
+        "b173335d-dd13-449a-aced-8796ea581593"
       ]
     },
     {
@@ -756,7 +702,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "a38043f5-60ae-4bd5-9634-0dbddbc17c74",
+      "key": "b173335d-dd13-449a-aced-8796ea581593",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -766,7 +712,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "52b6818f-101d-4dca-ab81-7aec064adb0b"
+        "90d8a380-adbd-45b0-ab32-0bf2244d6dc0"
       ]
     },
     {
@@ -779,7 +725,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "52b6818f-101d-4dca-ab81-7aec064adb0b",
+      "key": "90d8a380-adbd-45b0-ab32-0bf2244d6dc0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -818,7 +764,7 @@
         [
           -21.923451993591076,
           39.90272381327664,
-          12.123585700051096,
+          10.000491103609367,
           63.474630050521746
         ],
         [
@@ -850,24 +796,6 @@
           39.90272381327664,
           10.000491103609367,
           63.474630050521746
-        ],
-        [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
-        ],
-        [
-          -9.419263296773103,
-          48.781349973035624,
-          3.1707659683262213,
-          60.879568085857684
-        ],
-        [
-          -5.614133288083353,
-          41.12647421484804,
-          12.123585700051096,
-          51.32864338731509
         ],
         [
           -6.0,

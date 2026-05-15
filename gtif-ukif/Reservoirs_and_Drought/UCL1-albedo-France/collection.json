@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "UCL1-albedo-Ireland",
+  "id": "UCL1-albedo-France",
   "stac_version": "1.1.0",
   "description": "",
   "links": [
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-Ireland/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
       "type": "image/png",
-      "title": "RGB Albedo Layer Ireland",
-      "key": "1d4a24aa-e2a4-49b4-a158-eed9912036c5"
+      "title": "RGB Albedo Layer France",
+      "key": "29e7694c-51ce-4412-9c4a-0d6e0275c357"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output - Monthly"
+      "title": "Reservoirs & Drought"
     }
   ],
   "themes": [
@@ -35,23 +35,23 @@
   ],
   "collection_group": "Other",
   "endpointtype": "VEDA_tiles",
-  "title": "RGB Albedo Layer Ireland",
+  "title": "RGB Albedo Layer France",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -11.104591164807998,
-          51.09529319289348,
-          -5.097344144310739,
-          55.604735925728136
+          -5.614133288083353,
+          41.12647421484804,
+          12.123585700051096,
+          51.32864338731509
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-08-01T00:00:00Z",
-          "2022-08-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
         ]
       ]
     }
