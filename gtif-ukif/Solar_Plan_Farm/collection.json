@@ -137,6 +137,27 @@
       "collection_group": "Other"
     },
     {
+      "rel": "child",
+      "href": "./UCL1-VOM-England-16-22/collection.json",
+      "type": "application/json",
+      "title": "England VOM Canopy Height (2016–2022)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-VOM-England-16-22",
+      "themes": [
+        "energy-transition"
+      ],
+      "roles": [
+        "disable"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "Defra / Environment Agency"
+      ],
+      "collection_group": "Other"
+    },
+    {
       "rel": "service",
       "href": "https://pygeoapi-eoxhub.workspace.gtif-ukif.hub-otc.eox.at/processes/execute-ucl-bifacial-stats-template/execution",
       "type": "application/json",
@@ -201,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f42effdb-c19d-4f44-92c5-b1a926aacf96"
+        "2431acfb-d9f1-4c43-a376-6b97799ab5e5"
       ]
     },
     {
@@ -214,7 +235,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "f42effdb-c19d-4f44-92c5-b1a926aacf96",
+      "key": "2431acfb-d9f1-4c43-a376-6b97799ab5e5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -224,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "60a215a7-621b-4ee9-a3fa-9a22e7da7c05"
+        "813b574c-68ff-4f0b-acc4-78402ff055b9"
       ]
     },
     {
@@ -237,7 +258,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "60a215a7-621b-4ee9-a3fa-9a22e7da7c05",
+      "key": "813b574c-68ff-4f0b-acc4-78402ff055b9",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -247,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "865eefd6-ed33-4c52-991c-7f0e0dc38e4f"
+        "0f5a25bf-9247-4529-ac33-29044c5dc4d5"
       ]
     },
     {
@@ -260,7 +281,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "865eefd6-ed33-4c52-991c-7f0e0dc38e4f",
+      "key": "0f5a25bf-9247-4529-ac33-29044c5dc4d5",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -270,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4ad5ef1c-2e2b-4641-9f2d-26c90a5f5e89"
+        "ff5510e7-ed18-4857-9685-25d1056028fb"
       ]
     },
     {
@@ -283,7 +304,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "4ad5ef1c-2e2b-4641-9f2d-26c90a5f5e89",
+      "key": "ff5510e7-ed18-4857-9685-25d1056028fb",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -573,6 +594,12 @@
           50.29563860693716,
           -3.6496924102342585,
           56.42941278951695
+        ],
+        [
+          -6.240673534373305,
+          49.937227297159,
+          2.0718375602674297,
+          55.74419361645464
         ]
       ]
     },

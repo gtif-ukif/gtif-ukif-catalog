@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "UCL1-Canopy-Height",
+  "id": "UCL1-VOM-England-16-22",
   "stac_version": "1.1.0",
-  "description": "Canopy Height Model (CHM) at 10m resolution clipped to the UKIF area. Derived from Meta-WRI global canopy height dataset. Values represent tree height in metres (range 3–24m).",
+  "description": "England Vegetation Object Model (VOM) Canopy Height raster (2022), derived from Defra/Environment Agency LiDAR. Values represent tree height in metres (file range ~2–30 m; rendered with the same colour LUT as the 10 m Meta-WRI Canopy Height Model for visual comparability). Coverage: England only.",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-Canopy-Height/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=schwarzwald&nodata=0&rescale=3,24",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-VOM-England-16-22/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=schwarzwald&nodata=-9999&rescale=3,24",
       "type": "image/png",
-      "title": "Canopy Height Model (10m)",
-      "key": "99759352-ae11-4ba7-80a1-d5594132f2c5"
+      "title": "England VOM Canopy Height (2016–2022)",
+      "key": "01dda459-f6d2-492c-a03e-c19f6425c585"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Photovoltaic Output - Monthly"
+      "title": "Plan your solar farm with Agrivoltaics"
     }
   ],
   "themes": [
@@ -31,7 +31,7 @@
     "Solar Rural Power"
   ],
   "agency": [
-    "ESA"
+    "Defra / Environment Agency"
   ],
   "collection_group": "Other",
   "eox:colorlegend": {
@@ -56,23 +56,23 @@
     "title": "Canopy Height (m)"
   },
   "endpointtype": "VEDA_tiles",
-  "title": "Canopy Height Model (10m)",
+  "title": "England VOM Canopy Height (2016–2022)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -10.93779706791088,
-          41.25407358675115,
-          9.840954106000945,
-          61.00516823367879
+          -6.240673534373305,
+          49.937227297159,
+          2.0718375602674297,
+          55.74419361645464
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
         ]
       ]
     }
