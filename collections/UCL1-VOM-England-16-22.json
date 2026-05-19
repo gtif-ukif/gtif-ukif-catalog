@@ -1,0 +1,56 @@
+{
+  "Name": "UCL1-VOM-England-16-22",
+  "Title": "England VOM Canopy Height (2016–2022)",
+  "CollectionGroup": "Other",
+  "Description": "England Vegetation Object Model (VOM) Canopy Height raster (2022), derived from Defra/Environment Agency LiDAR. Values represent tree height in metres (file range ~2–30 m; rendered with the same colour LUT as the 10 m Meta-WRI Canopy Height Model for visual comparability). Coverage: England only.",
+  "Themes": [
+    "energy-transition"
+  ],
+  "Tags": [
+    "Solar Rural Power"
+  ],
+  "Resources": [
+    {
+      "Name": "VEDA",
+      "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
+      "Type": "tiles",
+      "CollectionId": "UCL1-VOM-England-16-22",
+      "Bbox": [-6.5, 49.8, 1.9, 55.8],
+      "ColormapName": "schwarzwald",
+      "Rescale": [
+        3,
+        24
+      ],
+      "NoData": -9999,
+      "Assets": [
+        "asset"
+      ],
+      "Times": ["2022-01-01T00:00:00Z"]
+    }
+  ],
+  "Agency": [
+    "Defra / Environment Agency"
+  ],
+  "Attribution": "{ England Vegetation Object Model (2022): <a href=\"https://environment.data.gov.uk/spatialdata/vegetation-object-model\" target=\"_blank\">Defra / Environment Agency</a> }",
+  "Colorlegend": {
+    "domain": [
+      3,
+      24
+    ],
+    "range": [
+      "#aeefd5",
+      "#ebfcb2",
+      "#3eb032",
+      "#699535",
+      "#f4a602",
+      "#921201",
+      "#6f2108",
+      "#7f4c2f",
+      "#adadad",
+      "#e9e7e9"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Canopy Height (m)"
+  }
+}

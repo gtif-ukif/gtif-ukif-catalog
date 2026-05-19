@@ -22,7 +22,8 @@
     "UCL4-Ireland",
     "UCL4-France-bfPVout",
     "UCL4-GB-bfPVout",
-    "UCL4-Ireland-bfPVout"
+    "UCL4-Ireland-bfPVout",
+    "UCL1-VOM-England-16-22"
   ],
   "Disable": [
     "UCL4-France",
@@ -30,7 +31,8 @@
     "UCL4-Ireland",
     "UCL4-France-bfPVout",
     "UCL4-GB-bfPVout",
-    "UCL4-Ireland-bfPVout"
+    "UCL4-Ireland-bfPVout",
+    "UCL1-VOM-England-16-22"
   ],
   "Process": {
     "Name": "bifacial_indicator",
