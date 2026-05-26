@@ -8,7 +8,7 @@
     "Crops",
     "SPEI"
   ],
-  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nPredicted SPEI (Standardised Precipitation and Evapotranspiration) is shown for 2 drought years: August 2025 and August 2022 and one non-drought year: August 2020. The predicted SPEI was created using NASA-VIIRS LST, ERA5-land soil ET + preciptation and downscaled to 10m from 1km using interpolated NDVI which takes months of spectral albedo derived NDVI from S2GM to ensure there are no data gaps. A 10m crop-type map was specially created for the UK and merged with EU38 equivalent to explore how drought affects different crop-types.",
   "Resources": [
     {
       "Name": "Collection-only",
