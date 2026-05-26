@@ -8,7 +8,7 @@
     "Crops",
     "SPEI"
   ],
-  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nDrought can sometimes be manifested by reduction in water reservoir extents. Explore the RGB albedo for 2022 for UK+Ireland by switching the Inland water body mask on and off and try a similar operation for FR for Aug25 using the ESA WC21 water body mask. Very few reservoirs had a detectable change in extent in the August drought month such as Ardingley, Sussex, UK at 51.084ºN, -0.102ºW and Bewl Water at 51.074ºN, 0.394ºE.",
   "Resources": [
     {
       "Name": "Collection-only",
