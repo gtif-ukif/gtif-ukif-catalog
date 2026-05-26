@@ -66,6 +66,42 @@
     },
     {
       "rel": "child",
+      "href": "./UCL2-NDVI-INTERP-GB/collection.json",
+      "type": "application/json",
+      "title": "Interpolated NDVI (GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-INTERP-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-INTERP-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Interpolated NDVI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-INTERP-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL2-SPEI-France/collection.json",
       "type": "application/json",
       "title": "Predicted August SPEI (France)",
@@ -107,42 +143,6 @@
       "title": "Predicted August SPEI (Ireland)",
       "endpointtype": "VEDA_tiles",
       "id": "UCL2-SPEI-Ireland",
-      "themes": [
-        "food-security"
-      ],
-      "tags": [
-        "Drought Analysis/Forecast"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL2-NDVI-INTERP-GB/collection.json",
-      "type": "application/json",
-      "title": "Interpolated NDVI (GB)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-INTERP-GB",
-      "themes": [
-        "food-security"
-      ],
-      "tags": [
-        "Drought Analysis/Forecast"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "collection_group": "Other"
-    },
-    {
-      "rel": "child",
-      "href": "./UCL2-NDVI-INTERP-Ireland/collection.json",
-      "type": "application/json",
-      "title": "Interpolated NDVI (Ireland)",
-      "endpointtype": "VEDA_tiles",
-      "id": "UCL2-NDVI-INTERP-Ireland",
       "themes": [
         "food-security"
       ],
@@ -310,7 +310,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "98e47c9b-9580-40b3-90d3-546882b77e6f"
+        "e7be8727-9db9-4207-81a0-b466012a9681"
       ]
     },
     {
@@ -323,7 +323,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "98e47c9b-9580-40b3-90d3-546882b77e6f",
+      "key": "e7be8727-9db9-4207-81a0-b466012a9681",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -458,15 +458,9 @@
           55.60483167954299
         ],
         [
-          -5.619305428473922,
-          41.09076256724424,
-          12.18942204017344,
-          51.419307761876006
-        ],
-        [
-          -8.899565067732734,
-          49.11835675764194,
-          4.804451125276599,
+          -8.900326794527825,
+          48.74935069215586,
+          4.804451812143819,
           61.264240082289106
         ],
         [
@@ -476,9 +470,15 @@
           55.60473592572955
         ],
         [
-          -8.900326794527825,
-          48.74935069215586,
-          4.804451812143819,
+          -5.619305428473922,
+          41.09076256724424,
+          12.18942204017344,
+          51.419307761876006
+        ],
+        [
+          -8.899565067732734,
+          49.11835675764194,
+          4.804451125276599,
           61.264240082289106
         ],
         [

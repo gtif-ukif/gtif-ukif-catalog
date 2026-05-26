@@ -102,7 +102,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a9977ce7-3f0f-4da8-85aa-3811d009a0d3"
+        "abfb0cfe-3fb0-4de5-841b-f279c070b3f0"
       ]
     },
     {
@@ -115,7 +115,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "a9977ce7-3f0f-4da8-85aa-3811d009a0d3",
+      "key": "abfb0cfe-3fb0-4de5-841b-f279c070b3f0",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -125,7 +125,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e34c485f-8b2f-4be4-9ca9-6fd45f65cf25"
+        "7c064d3a-a583-4fb0-a2c1-c8581017b96f"
       ]
     },
     {
@@ -138,7 +138,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "e34c485f-8b2f-4be4-9ca9-6fd45f65cf25",
+      "key": "7c064d3a-a583-4fb0-a2c1-c8581017b96f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -148,7 +148,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "1b42519c-5de0-435a-b529-95291fa6a015"
+        "839e6629-9c1a-4aa7-9aad-a19afa36f0e8"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "1b42519c-5de0-435a-b529-95291fa6a015",
+      "key": "839e6629-9c1a-4aa7-9aad-a19afa36f0e8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -171,7 +171,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Buildings/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "45e09599-7285-4b5a-906f-5e5139d472e8"
+        "07d50610-0f47-40d4-a070-83c97be9ef97"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "visible"
       ],
       "id": "buildingFootprints",
-      "key": "45e09599-7285-4b5a-906f-5e5139d472e8",
+      "key": "07d50610-0f47-40d4-a070-83c97be9ef97",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,20 +194,20 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8c9a6327-cfe7-4939-a035-f9730d7bc2ab"
+        "a188c06c-65c1-49f7-8e3c-7516c0135260"
       ]
     },
     {
       "rel": "vector-tile",
       "href": "https://a.tiles.mapbox.com/v4/service-swe.26a3h7xj/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "England & Wales Roof Slope Extraction Polygons",
+      "title": "UK Detected PVs",
       "roles": [
         "overlay",
         "visible"
       ],
-      "id": "ukRoofSlopePolygons",
-      "key": "8c9a6327-cfe7-4939-a035-f9730d7bc2ab",
+      "id": "ukDetectedPVs",
+      "key": "a188c06c-65c1-49f7-8e3c-7516c0135260",
       "auth:refs": [
         "mapboxauth"
       ]

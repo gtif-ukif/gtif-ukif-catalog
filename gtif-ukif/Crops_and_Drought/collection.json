@@ -84,6 +84,42 @@
     },
     {
       "rel": "child",
+      "href": "./UCL2-NDVI-INTERP-GB/collection.json",
+      "type": "application/json",
+      "title": "Interpolated NDVI (GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-INTERP-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-INTERP-Ireland/collection.json",
+      "type": "application/json",
+      "title": "Interpolated NDVI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-INTERP-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
       "href": "./UCL2-SPEI-France/collection.json",
       "type": "application/json",
       "title": "Predicted August SPEI (France)",
@@ -174,7 +210,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a18881ba-12cc-4a91-a237-2ffcea258623"
+        "1e5f98af-d5aa-417e-a0e1-c85a14f99457"
       ]
     },
     {
@@ -187,7 +223,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "a18881ba-12cc-4a91-a237-2ffcea258623",
+      "key": "1e5f98af-d5aa-417e-a0e1-c85a14f99457",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -367,6 +403,18 @@
           51.09510081393981,
           -5.096869612666297,
           55.60483167954299
+        ],
+        [
+          -8.900326794527825,
+          48.74935069215586,
+          4.804451812143819,
+          61.264240082289106
+        ],
+        [
+          -11.104591164873993,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60473592572955
         ],
         [
           -5.619305428473922,

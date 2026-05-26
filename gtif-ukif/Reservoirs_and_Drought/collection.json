@@ -147,7 +147,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "ce5f7894-d701-44fc-9a2b-bd2e86d10cbe"
+        "7f3d51e5-eaff-49cd-a10a-b63fcea5b284"
       ]
     },
     {
@@ -160,7 +160,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "ce5f7894-d701-44fc-9a2b-bd2e86d10cbe",
+      "key": "7f3d51e5-eaff-49cd-a10a-b63fcea5b284",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -178,45 +178,24 @@
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
-      "type": "image/png",
-      "title": "WC21 UK Mosaic (Cropland)",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "WC21-Cropland",
-      "eox:colorlegend": {
-        "title": "",
-        "range": [
-          "rgb(240, 150, 255)"
-        ],
-        "domain": [
-          "Cropland"
-        ],
-        "scaleType": "categorical"
-      }
-    },
-    {
       "rel": "style",
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "296d15b1-dad2-4846-8be0-13e470e72f91"
+        "d83accd6-90b0-4f9c-abe2-c1e8aabf2401"
       ]
     },
     {
       "rel": "vector-tile",
       "href": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
       "type": "application/vnd.mapbox-vector-tile",
-      "title": "Inland Water Bodies (UK+IE)",
+      "title": "WC21 mosaic (Water Bodies) FR",
       "roles": [
         "overlay",
         "visible"
       ],
       "id": "waterbodies",
-      "key": "296d15b1-dad2-4846-8be0-13e470e72f91",
+      "key": "d83accd6-90b0-4f9c-abe2-c1e8aabf2401",
       "auth:refs": [
         "mapboxauth"
       ]
