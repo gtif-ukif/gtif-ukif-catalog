@@ -35,23 +35,8 @@
       "protocol": "xyz"
     },
     {
-      "id": "WC21-Cropland",
-      "name": "WC21 UK Mosaic (Cropland)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
-      "media_type": "image/png",
-      "Attribution": "",
-      "protocol": "xyz",
-      "visible": true,
-      "Colorlegend": {
-        "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
-        "scaleType": "categorical"
-      }
-    },
-    {
       "id": "waterbodies",
-      "name": "Inland Water Bodies (UK+IE)",
+      "name": "WC21 mosaic (Water Bodies) FR",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "url": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
       "visible": true,
