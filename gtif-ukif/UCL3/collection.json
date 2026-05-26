@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL3",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km daily map of the UKIF area derived from the MODIS-MAIC product is shown for 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nA 1km map of the severest PM2.5 values. GMif area derived from the MODIS-MAIC product over 5 years (1.1.18-31.12.22). Step-through each day to see how the PM2.5 changes over time and how much of the pollution originates in major urban areas or areas with large-scale industrial activitoe such as the Thames Estuary and the Rotterdam industrial areas.",
   "links": [
     {
       "rel": "root",
@@ -183,7 +183,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "3619e2b0-0f66-40ac-8f2b-f5c807f3b1ad"
+        "a99b9406-aee3-471b-b6c7-3f80bbbe6133"
       ]
     },
     {
@@ -196,7 +196,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "3619e2b0-0f66-40ac-8f2b-f5c807f3b1ad",
+      "key": "a99b9406-aee3-471b-b6c7-3f80bbbe6133",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -230,7 +230,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f9be62cb-3090-4367-9f0a-a8640ca9c238"
+        "a513b190-0614-4987-b2c5-ae7a814cddb8"
       ]
     },
     {
@@ -243,7 +243,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "f9be62cb-3090-4367-9f0a-a8640ca9c238",
+      "key": "a513b190-0614-4987-b2c5-ae7a814cddb8",
       "layers": [
         "airport_label"
       ],

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Reservoirs_and_Drought",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nNDVI (Normalised DIfference Vegetation Index) has been calculated from the spectral BHR albedos in Red and NIR for the designated area. Tracking the NDVI across months and between years enables us to uncover the trigger dates for the drought.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nDrought can sometimes be manifested by reduction in water reservoir extents. Explore the RGB albedo for 2022 for UK+Ireland by switching the Inland water body mask on and off and try a similar operation for FR for Aug25 using the ESA WC21 water body mask. Very few reservoirs had a detectable change in extent in the August drought month such as Ardingley, Sussex, UK at 51.084ºN, -0.102ºW and Bewl Water at 51.074ºN, 0.394ºE.",
   "links": [
     {
       "rel": "root",
@@ -147,7 +147,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7f3d51e5-eaff-49cd-a10a-b63fcea5b284"
+        "951c4981-4c23-46b4-9229-f72ad1e5facd"
       ]
     },
     {
@@ -160,7 +160,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "7f3d51e5-eaff-49cd-a10a-b63fcea5b284",
+      "key": "951c4981-4c23-46b4-9229-f72ad1e5facd",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -182,7 +182,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d83accd6-90b0-4f9c-abe2-c1e8aabf2401"
+        "d01d3875-7188-4c42-89af-7897be314b51"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "visible"
       ],
       "id": "waterbodies",
-      "key": "d83accd6-90b0-4f9c-abe2-c1e8aabf2401",
+      "key": "d01d3875-7188-4c42-89af-7897be314b51",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -310,8 +310,8 @@
   "license": "other",
   "summaries": {
     "themes": [
-      "energy-transition",
-      "food-security"
+      "food-security",
+      "energy-transition"
     ]
   }
 }

@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "UCL4",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment. A colourised by height with hill-shaded Digital Elevetaion Model (DEM)  at 30m grid-spacing mosaic of the whole UKIF area of many tiles (size 26.5Gb), produced by the EU Copernicus  program, in WGS84. COP30 DEM is derived from TerraSar-X+TanDEM-X and spans several years of inSAR retrievals. The 10m ESA WorldCover 2021  map for the whole UKIF area. It uses all available Sentinel-2 images for the whole of 2021.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nThis indicator allows the user to explore all the datasets provided for exploring the potential of solar power in the GMif area. These include Overlay layers include the existing national power grid Infrastructure as well as showing areas of exclusion (Natural Landscapes, National Parks and sites of Special Scientific Interest from national and EU27 (natDa2025) sources)and OSM Land Water Mask (LWM). Existing solar panel farms and rooftop PV installations in France are also shown in Overlays and grassland and crops as well as tree cover and place names can be selected. In Data layers the Monofacial Predicted Solar Power output at 250m derived from data for each month from 2000-2019 for single-side PV panels across the UK, Ireland and France are shown derived from PVout available in the UN Global Solar Atlas along with BFG (Bi-Facial Gain) using S2GM 10m shortwave albedo as input is displayed for areas with only crops and grassland for each region. The BFG is clipped to include only crops and grasslands and exclude the areas indicated previously as well as include areas with COP30 DEM derived from TerraSar-X+TanDEM-X spanning several years of inSAR retrievals slopes and aspects which are outside the limits added (slopes ≤35º & 135<aspect<225º). These two derived quantities can also be visualised together with a hill-shaded COP30 DEM.",
   "links": [
     {
       "rel": "root",
@@ -470,7 +470,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "150aeb53-defa-42e2-aa2f-233b9a42e0c9"
+        "869f988b-7ded-4cf5-936f-77d033f5e6dc"
       ]
     },
     {
@@ -483,7 +483,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "150aeb53-defa-42e2-aa2f-233b9a42e0c9",
+      "key": "869f988b-7ded-4cf5-936f-77d033f5e6dc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -493,7 +493,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d8223514-e19d-47eb-bf8c-9a7e41767bce"
+        "3b865554-8f03-447f-b7fa-7f666d7e4770"
       ]
     },
     {
@@ -506,7 +506,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "d8223514-e19d-47eb-bf8c-9a7e41767bce",
+      "key": "3b865554-8f03-447f-b7fa-7f666d7e4770",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -516,7 +516,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "27b1edc7-a5bf-45c5-8d0e-7b810966a13d"
+        "1f171fa7-4eb3-44e4-b576-50391a537fc7"
       ]
     },
     {
@@ -529,7 +529,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "27b1edc7-a5bf-45c5-8d0e-7b810966a13d",
+      "key": "1f171fa7-4eb3-44e4-b576-50391a537fc7",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -539,7 +539,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "0d8f5985-aa15-4977-93c2-26d3bc3d041e"
+        "4c73aa65-1fb0-4db0-b807-1b6d2ad02486"
       ]
     },
     {
@@ -552,7 +552,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "0d8f5985-aa15-4977-93c2-26d3bc3d041e",
+      "key": "4c73aa65-1fb0-4db0-b807-1b6d2ad02486",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -562,7 +562,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a18f32fa-3d50-4a67-bc3a-c216f25a861a"
+        "50910953-49ab-480f-abc3-6a83868aeb97"
       ]
     },
     {
@@ -575,7 +575,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "a18f32fa-3d50-4a67-bc3a-c216f25a861a",
+      "key": "50910953-49ab-480f-abc3-6a83868aeb97",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -689,7 +689,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d66e6e07-7f0c-4596-bca9-1d6092fb1309"
+        "09072289-2bbc-4ad2-999a-874036c0871a"
       ]
     },
     {
@@ -702,7 +702,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "d66e6e07-7f0c-4596-bca9-1d6092fb1309",
+      "key": "09072289-2bbc-4ad2-999a-874036c0871a",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -712,7 +712,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "519f65dd-1062-4814-b108-6ea18a0371bc"
+        "6ed55d9f-25fe-4f5c-ad6b-cab5f8bc48f2"
       ]
     },
     {
@@ -725,7 +725,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "519f65dd-1062-4814-b108-6ea18a0371bc",
+      "key": "6ed55d9f-25fe-4f5c-ad6b-cab5f8bc48f2",
       "auth:refs": [
         "mapboxauth"
       ]

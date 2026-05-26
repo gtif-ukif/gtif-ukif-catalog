@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Solar_Plan_Farm",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment. A colourised by height with hill-shaded Digital Elevetaion Model (DEM)  at 30m grid-spacing mosaic of the whole UKIF area of many tiles (size 26.5Gb), produced by the EU Copernicus  program, in WGS84. COP30 DEM is derived from TerraSar-X+TanDEM-X and spans several years of inSAR retrievals. The 10m ESA WorldCover 2021  map for the whole UKIF area. It uses all available Sentinel-2 images for the whole of 2021.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nThis indicator allows you to define a rectangular area (using the usual shift-click and expand right down or up) for planning the location of a new solar farm. By default, the Overlay layers will switch on the Open Infrastructure Map, and the Environmentally Sensitive Regions (Natural Landscapes, National Parks and Sites of Special Scientific Interest) as well as the LWM (Land Water mask). In the data layers switch on the BFG (Bi-Facial Gain) and only for England switch on the VOM canopy height. For other areas, switch on the Meta-CHM although you should be aware that the heights here are biase high compared with the VOM. This will allow you to ensure that your solar farm will not intersect any tree shadow. You can also switch on the Total productivity if you preferentially want to look at regions with low productivity.",
   "links": [
     {
       "rel": "root",
@@ -222,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "15ba628e-9401-4165-ba0b-2fbf82faabde"
+        "4d3a367c-d408-44fc-8007-eba1c55f233d"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "15ba628e-9401-4165-ba0b-2fbf82faabde",
+      "key": "4d3a367c-d408-44fc-8007-eba1c55f233d",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -245,7 +245,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "dd75a964-864c-4d9d-88e2-80c4be266685"
+        "10e7c8fd-0a27-4532-bdb8-c83129fab2bc"
       ]
     },
     {
@@ -258,7 +258,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "dd75a964-864c-4d9d-88e2-80c4be266685",
+      "key": "10e7c8fd-0a27-4532-bdb8-c83129fab2bc",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -268,7 +268,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a21fe225-ab86-4139-8d4a-fdcf4a56dca3"
+        "2b667573-6bdc-4912-bc4b-24dd604fe732"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "a21fe225-ab86-4139-8d4a-fdcf4a56dca3",
+      "key": "2b667573-6bdc-4912-bc4b-24dd604fe732",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -291,7 +291,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8e339a2f-846b-4377-9611-f538b3ba25ee"
+        "a8bf4662-9480-4939-b90d-0c5814cb6c22"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "8e339a2f-846b-4377-9611-f538b3ba25ee",
+      "key": "a8bf4662-9480-4939-b90d-0c5814cb6c22",
       "auth:refs": [
         "mapboxauth"
       ]

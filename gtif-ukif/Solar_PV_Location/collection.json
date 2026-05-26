@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Solar_PV_Location",
   "stac_version": "1.1.0",
-  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nSolar Power output at 250m derived from data for each month in 2019. These datasets show the predicted solar power output from single-side PV panels across the UK and Ireland. Source of PVout from Global Solar Atlas. These datasets indicate those areas which will be excluded in any search for locating future solar bi-facial farms in rural areas. These exclusion zones include Areas of Outstanding Natural Beauty (AONB), Sites of Special Scientific Interest (SSSI) and National Parks for the UK nations(England, Scotland, Wales and Northern Ireland) and the equivalents for the Republic of Ireland*. The areas left which may be suitable are primarily grassland and arable crops and the land cover is shown here for these areas indicating that there are around 50% of the land area which may be suitable for bi-facial solar farms to allow agriculture to continue and improve the local micro-climate from the Agrivolatic environment. A colourised by height with hill-shaded Digital Elevetaion Model (DEM)  at 30m grid-spacing mosaic of the whole UKIF area of many tiles (size 26.5Gb), produced by the EU Copernicus  program, in WGS84. COP30 DEM is derived from TerraSar-X+TanDEM-X and spans several years of inSAR retrievals. The 10m ESA WorldCover 2021  map for the whole UKIF area. It uses all available Sentinel-2 images for the whole of 2021.",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nFor France, you can see all the rooftop PV installations (Overlay->France ARTD Polygons) created by G. Kasmi (U de Mines de Paris) along with the building footprints which are best adjusted to 50% opacity so you can see the underlying building roofs in the ESRI world image. For England and Wales, rooftop slopes suitable for PV placement (some of which have already been placed) have been calculated from 1m lidar data. All large rural farms with areas in excess of 200 sq.m. are displayed as red polygons in context (ESRI® sub-metre background image, OSM Power Infrastructure, OSM Buildings). Overlay layers will switch on the Open Infrastructure Map, building footprints and LWM.",
   "links": [
     {
       "rel": "root",
@@ -102,7 +102,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "abfb0cfe-3fb0-4de5-841b-f279c070b3f0"
+        "9f56b768-f60f-45cf-a45f-d0ad0b1639aa"
       ]
     },
     {
@@ -115,7 +115,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "abfb0cfe-3fb0-4de5-841b-f279c070b3f0",
+      "key": "9f56b768-f60f-45cf-a45f-d0ad0b1639aa",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -125,7 +125,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "7c064d3a-a583-4fb0-a2c1-c8581017b96f"
+        "a598a380-df46-473f-aa08-9ee8ffe2b200"
       ]
     },
     {
@@ -138,7 +138,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "7c064d3a-a583-4fb0-a2c1-c8581017b96f",
+      "key": "a598a380-df46-473f-aa08-9ee8ffe2b200",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -148,7 +148,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "839e6629-9c1a-4aa7-9aad-a19afa36f0e8"
+        "433ba63f-aba1-4d1b-8bc0-8c26a3352ab8"
       ]
     },
     {
@@ -161,7 +161,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "839e6629-9c1a-4aa7-9aad-a19afa36f0e8",
+      "key": "433ba63f-aba1-4d1b-8bc0-8c26a3352ab8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -171,7 +171,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Buildings/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "07d50610-0f47-40d4-a070-83c97be9ef97"
+        "9ed64867-5ea4-4137-a3ee-31890dcf7f2f"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "visible"
       ],
       "id": "buildingFootprints",
-      "key": "07d50610-0f47-40d4-a070-83c97be9ef97",
+      "key": "9ed64867-5ea4-4137-a3ee-31890dcf7f2f",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -194,7 +194,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a188c06c-65c1-49f7-8e3c-7516c0135260"
+        "fb2f8af7-fe17-4a0f-8f74-59425f794944"
       ]
     },
     {
@@ -207,7 +207,7 @@
         "visible"
       ],
       "id": "ukDetectedPVs",
-      "key": "a188c06c-65c1-49f7-8e3c-7516c0135260",
+      "key": "fb2f8af7-fe17-4a0f-8f74-59425f794944",
       "auth:refs": [
         "mapboxauth"
       ]
