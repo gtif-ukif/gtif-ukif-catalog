@@ -1,0 +1,317 @@
+{
+  "type": "Collection",
+  "id": "Reservoirs_and_Drought",
+  "stac_version": "1.1.0",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nDrought can sometimes be manifested by reduction in water reservoir extents. Explore the RGB albedo for 2022 for UK+Ireland by switching the Inland water body mask on and off and try a similar operation for FR for Aug25 using the ESA WC21 water body mask. Very few reservoirs had a detectable change in extent in the August drought month such as Ardingley, Sussex, UK at 51.084ºN, -0.102ºW and Bewl Water at 51.074ºN, 0.394ºE.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-France/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer France",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-France",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-GB/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer GB",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-GB",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-albedo-Ireland/collection.json",
+      "type": "application/json",
+      "title": "RGB Albedo Layer Ireland",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-albedo-Ireland",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-France/collection.json",
+      "type": "application/json",
+      "title": "NDVI (France)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-France",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-GB/collection.json",
+      "type": "application/json",
+      "title": "NDVI (GB)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-GB",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL2-NDVI-Ireland/collection.json",
+      "type": "application/json",
+      "title": "NDVI (Ireland)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL2-NDVI-Ireland",
+      "themes": [
+        "food-security"
+      ],
+      "tags": [
+        "Drought Analysis/Forecast"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "type": "image/jpeg",
+      "title": "ESRI World Imagery",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "esri-world-imagery",
+      "attribution": "{ &copy; Esri }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "d90ae904-4639-4641-8ca3-9b878338cbdb"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Land Water Mask",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "LWM",
+      "key": "d90ae904-4639-4641-8ca3-9b878338cbdb",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/inland_water_bodies_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "8b51b187-cb47-48b4-b212-3fde0374b59a"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.d3owgttw/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "WC21 mosaic (Water Bodies) FR",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "waterbodies",
+      "key": "8b51b187-cb47-48b4-b212-3fde0374b59a",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21-France/items/WC21-france/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2280%22%3A%5B0,100,200%5D%7D",
+      "type": "image/png",
+      "title": "Inland Water Bodies (FR)",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "WC21-Water-France",
+      "eox:colorlegend": {
+        "title": "",
+        "range": [
+          "rgb(0, 100, 200)"
+        ],
+        "domain": [
+          "Permanent water bodies"
+        ],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
+  "themes": [
+    "food-security"
+  ],
+  "tags": [
+    "Drought Analysis/Forecast",
+    "Crops",
+    "SPEI"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Food Security",
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
+  "title": "Reservoirs & Drought",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -11.104843049384266,
+          41.09076256724424,
+          12.18942204017344,
+          61.264240082289106
+        ],
+        [
+          -5.614133288083353,
+          41.12647421484804,
+          12.123585700051096,
+          51.32864338731509
+        ],
+        [
+          -9.419263296773103,
+          48.781349973035624,
+          3.1707659683262213,
+          60.879568085857684
+        ],
+        [
+          -11.104591164807998,
+          51.09529319289348,
+          -5.097344144310739,
+          55.604735925728136
+        ],
+        [
+          -5.619305428473922,
+          41.09076256724424,
+          12.18942204017344,
+          51.419307761876006
+        ],
+        [
+          -9.419263296774696,
+          48.72918147523066,
+          4.964608138752998,
+          61.264240082289106
+        ],
+        [
+          -11.104843049384266,
+          51.09510081393981,
+          -5.096869612666297,
+          55.60483167954299
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-01T00:00:00Z",
+          "2025-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "food-security",
+      "energy-transition"
+    ]
+  }
+}

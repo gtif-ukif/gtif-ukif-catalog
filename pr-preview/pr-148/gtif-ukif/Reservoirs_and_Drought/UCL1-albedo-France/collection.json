@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "id": "UCL1-albedo-France",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-albedo-France/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&nodata=0",
+      "type": "image/png",
+      "title": "RGB Albedo Layer France",
+      "key": "00245628-2f77-498b-bb97-94669ff68e8e"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Reservoirs & Drought"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "collection_group": "Other",
+  "endpointtype": "VEDA_tiles",
+  "title": "RGB Albedo Layer France",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.614133288083353,
+          41.12647421484804,
+          12.123585700051096,
+          51.32864338731509
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

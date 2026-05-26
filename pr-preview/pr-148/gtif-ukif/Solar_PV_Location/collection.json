@@ -1,0 +1,288 @@
+{
+  "type": "Collection",
+  "id": "Solar_PV_Location",
+  "stac_version": "1.1.0",
+  "description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nFor France, you can see all the rooftop PV installations (Overlay->France ARTD Polygons) created by G. Kasmi (U de Mines de Paris) along with the building footprints which are best adjusted to 50% opacity so you can see the underlying building roofs in the ESRI world image. For England and Wales, rooftop slopes suitable for PV placement (some of which have already been placed) have been calculated from 1m lidar data. All large rural farms with areas in excess of 200 sq.m. are displayed as red polygons in context (ESRI® sub-metre background image, OSM Power Infrastructure, OSM Buildings). Overlay layers will switch on the Open Infrastructure Map, building footprints and LWM.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-rooftop-slopes-Wales/collection.json",
+      "type": "application/json",
+      "title": "Wales Rooftop Slopes (1m)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-rooftop-slopes-Wales",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "UCL"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "child",
+      "href": "./UCL1-rooftop-slopes-England-1m/collection.json",
+      "type": "application/json",
+      "title": "England Rooftop Slopes (1m)",
+      "endpointtype": "VEDA_tiles",
+      "id": "UCL1-rooftop-slopes-England-1m",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Solar Rural Power"
+      ],
+      "agency": [
+        "UCL"
+      ],
+      "collection_group": "Other"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      "type": "image/jpeg",
+      "title": "ESRI World Imagery",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "esri-world-imagery",
+      "attribution": "{ &copy; Esri }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://tiles.maps.eox.at/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Place names",
+      "roles": [
+        "overlay",
+        "invisible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"//eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "mapbox-style-document",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "type": "application/json",
+      "title": "Open Infrastructure Map",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "Openinframap",
+      "auth:refs": [
+        "mapboxauth"
+      ],
+      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "731ee6d7-6607-47c5-a1b8-de838e350871"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Land Water Mask",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "LWM",
+      "key": "731ee6d7-6607-47c5-a1b8-de838e350871",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "05d989e2-de49-4d1e-ba69-717866f1ba6a"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Solar Panels © UCL/Oxford 2025",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "SolarPanels",
+      "key": "05d989e2-de49-4d1e-ba69-717866f1ba6a",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "c2a2ad06-115c-4d97-81a4-cedd97f748ef"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.061agqxz/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "France ARTD Polygons",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "franceARTD",
+      "key": "c2a2ad06-115c-4d97-81a4-cedd97f748ef",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Buildings/style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "0014044d-0d70-4c8f-b712-0984a27ca02e"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.gmif_building_footprints/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "Building Footprints",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "buildingFootprints",
+      "key": "0014044d-0d70-4c8f-b712-0984a27ca02e",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
+      "type": "text/vector-styles",
+      "links:keys": [
+        "6ec9066e-2f8d-43bb-9751-1710f6b466ac"
+      ]
+    },
+    {
+      "rel": "vector-tile",
+      "href": "https://a.tiles.mapbox.com/v4/service-swe.26a3h7xj/{z}/{x}/{y}.vector.pbf",
+      "type": "application/vnd.mapbox-vector-tile",
+      "title": "UK Detected PVs",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "ukDetectedPVs",
+      "key": "6ec9066e-2f8d-43bb-9751-1710f6b466ac",
+      "auth:refs": [
+        "mapboxauth"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/solar_uk_ireland_1.png",
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "collection_group": "Energy Transition",
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
+  },
+  "title": "Where are the PV's located",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -7.104775743089965,
+          49.85060469412378,
+          2.0842821420747493,
+          55.810331205218205
+        ],
+        [
+          -5.537998028651118,
+          51.32642006614137,
+          -2.6335104848679842,
+          53.46788869884206
+        ],
+        [
+          -7.104775743089965,
+          49.85060469412378,
+          2.0842821420747493,
+          55.810331205218205
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "themes": [
+      "energy-transition"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/solar_uk_ireland_1.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

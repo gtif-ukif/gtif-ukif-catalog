@@ -1,0 +1,91 @@
+{
+  "type": "Collection",
+  "id": "UCL1-rooftop-slopes-Wales",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF UKIF Catalog"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL1-rooftop-slopes-Wales/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=asset&colormap_name=rdylbu_r&rescale=0,30",
+      "type": "image/png",
+      "title": "Wales Rooftop Slopes (1m)",
+      "key": "8b882804-0c20-4a10-af06-cab0f2c2c274"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Photovoltaic Output - Monthly"
+    }
+  ],
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Solar Rural Power"
+  ],
+  "agency": [
+    "UCL"
+  ],
+  "collection_group": "Other",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      30
+    ],
+    "range": [
+      "#313695",
+      "#4575b4",
+      "#74add1",
+      "#abd9e9",
+      "#e0f3f8",
+      "#fee090",
+      "#fdae61",
+      "#f46d43",
+      "#d73027",
+      "#a50026"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Rooftop Slopes"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Wales Rooftop Slopes (1m)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -5.537998028651118,
+          51.32642006614137,
+          -2.6335104848679842,
+          53.46788869884206
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
