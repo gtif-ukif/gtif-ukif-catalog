@@ -29,14 +29,6 @@
       "collection_group": "Mobility Transition"
     },
     {
-      "rel": "service",
-      "href": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/UCL3/statistics?assets=asset",
-      "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -183,7 +175,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a99b9406-aee3-471b-b6c7-3f80bbbe6133"
+        "0b508b16-4390-4a3e-a369-e211ef060ef8"
       ]
     },
     {
@@ -196,7 +188,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "a99b9406-aee3-471b-b6c7-3f80bbbe6133",
+      "key": "0b508b16-4390-4a3e-a369-e211ef060ef8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -230,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a513b190-0614-4987-b2c5-ae7a814cddb8"
+        "c606ab6c-6fcd-4771-a62d-5c61d454850a"
       ]
     },
     {
@@ -243,7 +235,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "a513b190-0614-4987-b2c5-ae7a814cddb8",
+      "key": "c606ab6c-6fcd-4771-a62d-5c61d454850a",
       "layers": [
         "airport_label"
       ],
@@ -292,8 +284,6 @@
     "tickFormat": ".0f",
     "title": "PM2.5 (µg/cu.m)"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/veda_bbox_yellow_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/defaults/air_quality_vega_definition.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
