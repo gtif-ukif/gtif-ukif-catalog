@@ -218,7 +218,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8b19a675-1e2b-4779-8ee4-bb6610bf5988"
+        "2c13d947-fba9-421f-ad79-68c81173ec28"
       ]
     },
     {
@@ -231,7 +231,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "8b19a675-1e2b-4779-8ee4-bb6610bf5988",
+      "key": "2c13d947-fba9-421f-ad79-68c81173ec28",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -280,7 +280,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Roads/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "75c3d8f3-7416-439f-8e77-5fef40d1f4ab"
+        "9232d4bd-4c79-4e35-bf5f-c18513eda979"
       ]
     },
     {
@@ -293,7 +293,7 @@
         "invisible"
       ],
       "id": "roads",
-      "key": "75c3d8f3-7416-439f-8e77-5fef40d1f4ab",
+      "key": "9232d4bd-4c79-4e35-bf5f-c18513eda979",
       "layers": [
         "road"
       ],
@@ -306,7 +306,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Buildings/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "c14a24dd-479c-4c87-bf27-fa800ecddbdb"
+        "c5f1d563-9456-41ee-a01e-4a42aa27e699"
       ]
     },
     {
@@ -319,7 +319,7 @@
         "invisible"
       ],
       "id": "buildingFootprints",
-      "key": "c14a24dd-479c-4c87-bf27-fa800ecddbdb",
+      "key": "c5f1d563-9456-41ee-a01e-4a42aa27e699",
       "auth:refs": [
         "mapboxauth"
       ]
