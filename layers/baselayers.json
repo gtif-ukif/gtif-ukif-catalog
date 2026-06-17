@@ -61,8 +61,8 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
+          "Grassland",          
           "Cropland",
-          "Grassland",
           "Tree cover",
           "Snow and Ice",
           "Shrubland",
@@ -76,20 +76,50 @@
       }
     },
     {
-      "id": "WC21-filtered",
-      "name": "WC21 UK Mosaic (Filtered)",
-      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D,%2240%22%3A%5B240,150,255%5D%7D",
+      "id": "WC21-Cropland",
+      "name": "WC21 UK Mosaic (Cropland)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2240%22%3A%5B240,150,255%5D%7D",
       "media_type": "image/png",
       "Attribution": "",
       "protocol": "xyz",
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(255, 255, 76)", "rgb(240, 150, 255)"],
-        "domain": ["Grassland", "Cropland"],
+        "range": ["rgb(240, 150, 255)"],
+        "domain": ["Cropland"],
         "scaleType": "categorical"
       }
     },
+    {
+      "id": "WC21-Grassland",
+      "name": "WC21 UK Mosaic (Grassland)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2230%22%3A%5B255,255,76%5D%7D",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(255, 255, 76)"],
+        "domain": ["Grassland"],
+        "scaleType": "categorical"
+      }
+    },
+    {
+      "id": "WC21-Treecover",
+      "name": "WC21 UK Mosaic (Tree cover)",
+      "url": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/raster/collections/WC21/items/WC21-mosaic-UKIF_cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?&assets=asset&colormap=%7B%2210%22%3A%5B0,100,0%5D%7D",
+      "media_type": "image/png",
+      "attribution": "",
+      "protocol": "xyz",
+      "visible": false,
+      "Colorlegend": {
+        "title": "",
+        "range": ["rgb(0,100,0)"],
+        "domain": ["Tree cover"],
+        "scaleType": "categorical"
+      }
+    },        
     {
       "id": "COP-30-DEM-Mosaic",
       "name": "COP-30 DEM Mosaic",
