@@ -258,15 +258,15 @@
     },
     {
       "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2024",
+      "title": "EOxCloudless 2025",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024",
-      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+      "id": "cloudless-2025",
+      "attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
     },
     {
       "rel": "xyz",
@@ -470,7 +470,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "4f8fabb3-987c-4f96-8d5c-9006bb06b5f4"
+        "9f6a274a-7a14-433d-b46a-5aff635701a1"
       ]
     },
     {
@@ -483,7 +483,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "4f8fabb3-987c-4f96-8d5c-9006bb06b5f4",
+      "key": "9f6a274a-7a14-433d-b46a-5aff635701a1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -493,7 +493,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a20608b8-2958-414a-8126-bf42a96539e5"
+        "437f4d0a-e7be-4e71-8eb6-d3a9667afaa1"
       ]
     },
     {
@@ -506,7 +506,7 @@
         "visible"
       ],
       "id": "SolarPanels",
-      "key": "a20608b8-2958-414a-8126-bf42a96539e5",
+      "key": "437f4d0a-e7be-4e71-8eb6-d3a9667afaa1",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -516,7 +516,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SSSI/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "53b801b8-021a-4100-a999-7bc2dfe954dd"
+        "8d71ba36-d55f-4a02-8dfb-f1aa9bee8d11"
       ]
     },
     {
@@ -529,7 +529,7 @@
         "visible"
       ],
       "id": "SSSI",
-      "key": "53b801b8-021a-4100-a999-7bc2dfe954dd",
+      "key": "8d71ba36-d55f-4a02-8dfb-f1aa9bee8d11",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -539,7 +539,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/NationalParks/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "8b4ec9b6-ccce-4aff-9535-17ac73746464"
+        "58961ad9-7a86-4ba4-8809-1b1139648d63"
       ]
     },
     {
@@ -552,7 +552,7 @@
         "visible"
       ],
       "id": "NationalParks",
-      "key": "8b4ec9b6-ccce-4aff-9535-17ac73746464",
+      "key": "58961ad9-7a86-4ba4-8809-1b1139648d63",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -562,7 +562,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/AONB/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "b1bf76b9-bf16-4b85-aaa3-f89580d7f327"
+        "f708cc41-d13c-4fef-aa81-4bb7577ad2e8"
       ]
     },
     {
@@ -575,7 +575,7 @@
         "visible"
       ],
       "id": "AONB",
-      "key": "b1bf76b9-bf16-4b85-aaa3-f89580d7f327",
+      "key": "f708cc41-d13c-4fef-aa81-4bb7577ad2e8",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -689,7 +689,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "05161d53-f1e9-4cd6-b322-c2fae99d0e66"
+        "55421d0b-45a2-45f2-96aa-3841d84e68cf"
       ]
     },
     {
@@ -702,7 +702,7 @@
         "visible"
       ],
       "id": "franceARTD",
-      "key": "05161d53-f1e9-4cd6-b322-c2fae99d0e66",
+      "key": "55421d0b-45a2-45f2-96aa-3841d84e68cf",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -712,7 +712,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/ARTD/franceDetections_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "e1992928-b9a8-446f-9354-7c2dc2bbe6a4"
+        "e0bd18be-fe85-47af-9bfd-7c013bbbc1e1"
       ]
     },
     {
@@ -725,7 +725,7 @@
         "visible"
       ],
       "id": "ukRoofSlopePolygons",
-      "key": "e1992928-b9a8-446f-9354-7c2dc2bbe6a4",
+      "key": "e0bd18be-fe85-47af-9bfd-7c013bbbc1e1",
       "auth:refs": [
         "mapboxauth"
       ]

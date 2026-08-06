@@ -30,15 +30,15 @@
     },
     {
       "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2024",
+      "title": "EOxCloudless 2025",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2024",
-      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+      "id": "cloudless-2025",
+      "attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
     },
     {
       "rel": "xyz",
@@ -175,7 +175,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "a304a2de-ca10-413a-a02c-a3662fc69f6c"
+        "1a0a1a76-2935-4a61-89df-fbb7ee75a159"
       ]
     },
     {
@@ -188,7 +188,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "a304a2de-ca10-413a-a02c-a3662fc69f6c",
+      "key": "1a0a1a76-2935-4a61-89df-fbb7ee75a159",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -222,7 +222,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/Airports/style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "f4e79934-b303-4007-8344-0fdb6cb5ebe3"
+        "445e7f8c-f02f-4ab0-abb6-111c6bfdc9ff"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "invisible"
       ],
       "id": "worldAirports",
-      "key": "f4e79934-b303-4007-8344-0fdb6cb5ebe3",
+      "key": "445e7f8c-f02f-4ab0-abb6-111c6bfdc9ff",
       "layers": [
         "airport_label"
       ],
