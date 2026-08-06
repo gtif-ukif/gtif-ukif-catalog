@@ -1,7 +1,7 @@
 {
   "Name": "COMP_mean_lst_2022_2024",
   "Title": "Mean LST 2022-2024",
-  "Description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nDuring the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas—particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille—tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
+  "Description": "<img width=\"50%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/compass-informatics-logo.png\">\n\nDuring the summer months, land surface temperatures across the UK, Ireland, and France show clear contrasts between urban and rural environments. Urban areas\u2014particularly large cities such as London, Paris, Manchester, Dublin, Lyon, and Marseille\u2014tend to be hotter due to dense building materials, extensive paved surfaces, and limited vegetation. These surfaces absorb and retain heat throughout the day, leading to elevated temperatures both during daytime and night time. \n\nIn contrast, green spaces and rural landscapes across the region generally remain much cooler. Forested areas, agricultural land, parks, and regions with abundant vegetation dissipate heat more effectively through shading and evapotranspiration. This cooling effect is especially apparent in areas such as national parks, mountain regions, and countryside zones in western Ireland, central France, and northern Scotland. \n\nOverall, summer land surface temperature patterns consistently highlight the thermal contrast between densely built urban centres and surrounding green, vegetated landscapes, underscoring the important role of natural areas in regulating regional climate conditions. ",
   "Themes": [
     "sustainable-cities"
   ],
@@ -18,7 +18,12 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "COMP-Mean-LST-2022-2024-Summer",
-      "Bbox": [-9.69792, 41.92469, 9.44642, 57.15736],
+      "Bbox": [
+        -9.69792,
+        41.92469,
+        9.44642,
+        57.15736
+      ],
       "ColormapName": "turbo",
       "Assets": [
         "asset"
@@ -27,7 +32,9 @@
         0,
         56
       ],
-      "Times": ["2022-01-01T00:00:00Z"]
+      "Times": [
+        "2022-01-01T00:00:00Z"
+      ]
     }
   ],
   "Colorlegend": {
@@ -53,11 +60,11 @@
   },
   "BaseLayers": [
     {
-      "id": "cloudless-2024",
-      "name": "EOxCloudless 2024",
-      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "id": "cloudless-2025",
+      "name": "EOxCloudless 2025",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
-      "Attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }",
+      "Attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }",
       "protocol": "xyz",
       "visible": false
     },
@@ -113,7 +120,7 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Grassland",          
+          "Grassland",
           "Cropland",
           "Tree cover",
           "Snow and Ice",
@@ -137,8 +144,12 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
+        "range": [
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Cropland"
+        ],
         "scaleType": "categorical"
       }
     },
@@ -152,8 +163,12 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(255, 255, 76)"],
-        "domain": ["Grassland"],
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
         "scaleType": "categorical"
       }
     },
@@ -167,11 +182,15 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(0,100,0)"],
-        "domain": ["Tree cover"],
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
+        ],
         "scaleType": "categorical"
       }
-    },        
+    },
     {
       "id": "COP-30-DEM-Mosaic",
       "name": "COP-30 DEM Mosaic",
@@ -194,8 +213,11 @@
           "#adadad",
           "#e9e7e9"
         ],
-        "domain": [0, 1000]
+        "domain": [
+          0,
+          1000
+        ]
       }
-    }    
+    }
   ]
 }

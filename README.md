@@ -9,10 +9,10 @@ Deployment branches just with the changed collections in Pull Requests are gener
 
 The generated STAC catalogs are deployed through github pages.
 
-A preview of the catalogs can be seen using the [Stac Browser](https://radiantearth.github.io/stac-browser/#/)
+A preview of the catalogs can be seen using the [Stac Browser](https://browser.moregeo.it/external/)
 
 Here are preloaded preview links for the catalog available through gh-pages:
-* [Deployed catalog via STAC Browser](https://radiantearth.github.io/stac-browser/#/external/gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json)
+* [Deployed catalog via STAC Browser](https://browser.moregeo.it/external/gtif-ukif.github.io/gtif-ukif-catalog/gtif-ukif/catalog.json)
 
 ## Development
 

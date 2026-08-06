@@ -18,7 +18,12 @@
       "EndPoint": "https://eoapi.workspace.gtif-ukif.hub-otc.eox.at/stac/",
       "Type": "tiles",
       "CollectionId": "COMP-SDGSat-1-LST-London",
-      "Bbox": [-0.612126, 51.333132, 0.426082, 51.699321],
+      "Bbox": [
+        -0.612126,
+        51.333132,
+        0.426082,
+        51.699321
+      ],
       "ColormapName": "turbo",
       "Assets": [
         "asset"
@@ -28,7 +33,9 @@
         34
       ],
       "NoData": "-113.54863",
-      "Times": ["2022-01-01T00:00:00Z"]
+      "Times": [
+        "2022-01-01T00:00:00Z"
+      ]
     }
   ],
   "Colorlegend": {
@@ -54,11 +61,11 @@
   },
   "BaseLayers": [
     {
-      "id": "cloudless-2024",
-      "name": "EOxCloudless 2024",
-      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "id": "cloudless-2025",
+      "name": "EOxCloudless 2025",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
-      "Attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }",
+      "Attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }",
       "protocol": "xyz",
       "visible": false
     },
@@ -114,7 +121,7 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Grassland",          
+          "Grassland",
           "Cropland",
           "Tree cover",
           "Snow and Ice",
@@ -138,8 +145,12 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
+        "range": [
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Cropland"
+        ],
         "scaleType": "categorical"
       }
     },
@@ -153,8 +164,12 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(255, 255, 76)"],
-        "domain": ["Grassland"],
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
         "scaleType": "categorical"
       }
     },
@@ -168,11 +183,15 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(0,100,0)"],
-        "domain": ["Tree cover"],
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
+        ],
         "scaleType": "categorical"
       }
-    },        
+    },
     {
       "id": "COP-30-DEM-Mosaic",
       "name": "COP-30 DEM Mosaic",
@@ -195,8 +214,11 @@
           "#adadad",
           "#e9e7e9"
         ],
-        "domain": [0, 1000]
+        "domain": [
+          0,
+          1000
+        ]
       }
-    }    
+    }
   ]
 }

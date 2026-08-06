@@ -9,13 +9,18 @@
   "Tags": [
     "Solar Rural Power"
   ],
-  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nThis indicator allows the user to explore all the datasets provided for exploring the potential of solar power in the GMif area. These include Overlay layers include the existing national power grid Infrastructure as well as showing areas of exclusion (Natural Landscapes, National Parks and sites of Special Scientific Interest from national and EU27 (natDa2025) sources)and OSM Land Water Mask (LWM). Existing solar panel farms and rooftop PV installations in France are also shown in Overlays and grassland and crops as well as tree cover and place names can be selected. In Data layers the Monofacial Predicted Solar Power output at 250m derived from data for each month from 2000-2019 for single-side PV panels across the UK, Ireland and France are shown derived from PVout available in the UN Global Solar Atlas along with BFG (Bi-Facial Gain) using S2GM 10m shortwave albedo as input is displayed for areas with only crops and grassland for each region. The BFG is clipped to include only crops and grasslands and exclude the areas indicated previously as well as include areas with COP30 DEM derived from TerraSar-X+TanDEM-X spanning several years of inSAR retrievals slopes and aspects which are outside the limits added (slopes ≤35º & 135<aspect<225º). These two derived quantities can also be visualised together with a hill-shaded COP30 DEM.",
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nThis indicator allows the user to explore all the datasets provided for exploring the potential of solar power in the GMif area. These include Overlay layers include the existing national power grid Infrastructure as well as showing areas of exclusion (Natural Landscapes, National Parks and sites of Special Scientific Interest from national and EU27 (natDa2025) sources)and OSM Land Water Mask (LWM). Existing solar panel farms and rooftop PV installations in France are also shown in Overlays and grassland and crops as well as tree cover and place names can be selected. In Data layers the Monofacial Predicted Solar Power output at 250m derived from data for each month from 2000-2019 for single-side PV panels across the UK, Ireland and France are shown derived from PVout available in the UN Global Solar Atlas along with BFG (Bi-Facial Gain) using S2GM 10m shortwave albedo as input is displayed for areas with only crops and grassland for each region. The BFG is clipped to include only crops and grasslands and exclude the areas indicated previously as well as include areas with COP30 DEM derived from TerraSar-X+TanDEM-X spanning several years of inSAR retrievals slopes and aspects which are outside the limits added (slopes \u226435\u00ba & 135<aspect<225\u00ba). These two derived quantities can also be visualised together with a hill-shaded COP30 DEM.",
   "Resources": [
     {
       "Name": "Collection-only",
-      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
+      "OverwriteBBox": [
+        -10.5,
+        49.8,
+        2.0,
+        55.8
+      ]
     }
-  ],  
+  ],
   "Collections": [
     "UCL1-rooftop-slopes-Wales",
     "UCL1-rooftop-slopes-England-1m",
@@ -53,7 +58,7 @@
         "Type": "application/json"
       }
     ]
-  },  
+  },
   "OverlayLayers": [
     {
       "id": "overlay_bright",
@@ -70,7 +75,7 @@
       "url": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
       "visible": true,
       "protocol": "mapbox-style-document"
-    },    
+    },
     {
       "id": "LWM",
       "name": "Land Water Mask",
@@ -78,10 +83,10 @@
       "url": "https://a.tiles.mapbox.com/v4/service-swe.dk6w08o0/{z}/{x}/{y}.vector.pbf",
       "visible": true,
       "protocol": "vector-tile"
-    },    
+    },
     {
       "id": "SolarPanels",
-      "name": "Solar Panels © UCL/Oxford 2025",
+      "name": "Solar Panels \u00a9 UCL/Oxford 2025",
       "Style": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/SolarPanels/style.json",
       "url": "https://a.tiles.mapbox.com/v4/service-swe.8eqy4t0v/{z}/{x}/{y}.vector.pbf",
       "visible": true,
@@ -136,7 +141,7 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Grassland",          
+          "Grassland",
           "Cropland",
           "Tree cover",
           "Snow and Ice",
@@ -160,8 +165,12 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
+        "range": [
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Cropland"
+        ],
         "scaleType": "categorical"
       }
     },
@@ -175,8 +184,12 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(255, 255, 76)"],
-        "domain": ["Grassland"],
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
         "scaleType": "categorical"
       }
     },
@@ -190,11 +203,15 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(0,100,0)"],
-        "domain": ["Tree cover"],
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
+        ],
         "scaleType": "categorical"
       }
-    },   
+    },
     {
       "id": "franceARTD",
       "name": "France ARTD Polygons",
@@ -214,11 +231,11 @@
   ],
   "BaseLayers": [
     {
-      "id": "cloudless-2024",
-      "name": "EOxCloudless 2024",
-      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "id": "cloudless-2025",
+      "name": "EOxCloudless 2025",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
-      "Attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }",
+      "Attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"//s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"//eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }",
       "protocol": "xyz",
       "visible": false
     },
@@ -274,7 +291,7 @@
         ],
         "domain": [
           "Bare/sparse vegetation",
-          "Grassland",          
+          "Grassland",
           "Cropland",
           "Tree cover",
           "Snow and Ice",
@@ -298,8 +315,12 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(240, 150, 255)"],
-        "domain": ["Cropland"],
+        "range": [
+          "rgb(240, 150, 255)"
+        ],
+        "domain": [
+          "Cropland"
+        ],
         "scaleType": "categorical"
       }
     },
@@ -313,8 +334,12 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(255, 255, 76)"],
-        "domain": ["Grassland"],
+        "range": [
+          "rgb(255, 255, 76)"
+        ],
+        "domain": [
+          "Grassland"
+        ],
         "scaleType": "categorical"
       }
     },
@@ -328,11 +353,15 @@
       "visible": false,
       "Colorlegend": {
         "title": "",
-        "range": ["rgb(0,100,0)"],
-        "domain": ["Tree cover"],
+        "range": [
+          "rgb(0,100,0)"
+        ],
+        "domain": [
+          "Tree cover"
+        ],
         "scaleType": "categorical"
       }
-    },        
+    },
     {
       "id": "COP-30-DEM-Mosaic",
       "name": "COP-30 DEM Mosaic",
@@ -355,8 +384,11 @@
           "#adadad",
           "#e9e7e9"
         ],
-        "domain": [0, 1000]
+        "domain": [
+          0,
+          1000
+        ]
       }
-    }    
+    }
   ]
 }
