@@ -9,12 +9,6 @@
     "SPEI"
   ],
   "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nDrought can sometimes be manifested by reduction in water reservoir extents. Explore the RGB albedo for 2022 for UK+Ireland by switching the Inland water body mask on and off and try a similar operation for FR for Aug25 using the ESA WC21 water body mask. Very few reservoirs had a detectable change in extent in the August drought month such as Ardingley, Sussex, UK at 51.084ºN, -0.102ºW and Bewl Water at 51.074ºN, 0.394ºE.",
-  "Resources": [
-    {
-      "Name": "Collection-only",
-      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
-    }
-  ],
   "Collections": ["UCL1-albedo-France", "UCL1-albedo-GB", "UCL1-albedo-Ireland",  "UCL2-NDVI-France", "UCL2-NDVI-GB", "UCL2-NDVI-Ireland"],
   "Agency": ["ESA"],
   "OverlayLayers": [

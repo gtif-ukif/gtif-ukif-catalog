@@ -10,17 +10,6 @@
     "Solar Rural Power"
   ],
   "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nThis indicator allows the user to explore all the datasets provided for exploring the potential of solar power in the GMif area. These include Overlay layers include the existing national power grid Infrastructure as well as showing areas of exclusion (Natural Landscapes, National Parks and sites of Special Scientific Interest from national and EU27 (natDa2025) sources)and OSM Land Water Mask (LWM). Existing solar panel farms and rooftop PV installations in France are also shown in Overlays and grassland and crops as well as tree cover and place names can be selected. In Data layers the Monofacial Predicted Solar Power output at 250m derived from data for each month from 2000-2019 for single-side PV panels across the UK, Ireland and France are shown derived from PVout available in the UN Global Solar Atlas along with BFG (Bi-Facial Gain) using S2GM 10m shortwave albedo as input is displayed for areas with only crops and grassland for each region. The BFG is clipped to include only crops and grasslands and exclude the areas indicated previously as well as include areas with COP30 DEM derived from TerraSar-X+TanDEM-X spanning several years of inSAR retrievals slopes and aspects which are outside the limits added (slopes \u226435\u00ba & 135<aspect<225\u00ba). These two derived quantities can also be visualised together with a hill-shaded COP30 DEM.",
-  "Resources": [
-    {
-      "Name": "Collection-only",
-      "OverwriteBBox": [
-        -10.5,
-        49.8,
-        2.0,
-        55.8
-      ]
-    }
-  ],
   "Collections": [
     "UCL1-rooftop-slopes-Wales",
     "UCL1-rooftop-slopes-England-1m",

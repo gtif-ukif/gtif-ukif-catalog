@@ -9,13 +9,7 @@
   "Tags": [
     "Solar Rural Power"
   ],
-  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nFor France, you can see all the rooftop PV installations (Overlay->France ARTD Polygons) created by G. Kasmi (U de Mines de Paris) along with the building footprints which are best adjusted to 50% opacity so you can see the underlying building roofs in the ESRI world image. For England and Wales, rooftop slopes suitable for PV placement (some of which have already been placed) have been calculated from 1m lidar data. All large rural farms with areas in excess of 200 sq.m. are displayed as red polygons in context (ESRI® sub-metre background image, OSM Power Infrastructure, OSM Buildings). Overlay layers will switch on the Open Infrastructure Map, building footprints and LWM.",
-  "Resources": [
-    {
-      "Name": "Collection-only",
-      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
-    }
-  ],  
+  "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nFor France, you can see all the rooftop PV installations (Overlay->France ARTD Polygons) created by G. Kasmi (U de Mines de Paris) along with the building footprints which are best adjusted to 50% opacity so you can see the underlying building roofs in the ESRI world image. For England and Wales, rooftop slopes suitable for PV placement (some of which have already been placed) have been calculated from 1m lidar data. All large rural farms with areas in excess of 200 sq.m. are displayed as red polygons in context (ESRI® sub-metre background image, OSM Power Infrastructure, OSM Buildings). Overlay layers will switch on the Open Infrastructure Map, building footprints and LWM.",  
   "Collections": [
     "UCL1-rooftop-slopes-Wales",
     "UCL1-rooftop-slopes-England-1m"

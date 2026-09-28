@@ -8,12 +8,6 @@
     "SPEI"
   ],
   "Description": "<img width=\"25%\" src=\"https://gtif-ukif.github.io/gtif-ukif-client/assets/ucl-logo.webp\">\n\nPredicted SPEI (Standardised Precipitation and Evapotranspiration) is shown for 2 drought years: August 2025 and August 2022 and one non-drought year: August 2020. The predicted SPEI was created using NASA-VIIRS LST, ERA5-land soil ET + preciptation and downscaled to 10m from 1km using interpolated NDVI which takes months of spectral albedo derived NDVI from S2GM to ensure there are no data gaps. Zoom in and explore the Predicted SPEI.",
-  "Resources": [
-    {
-      "Name": "Collection-only",
-      "OverwriteBBox": [-10.5, 49.8, 2.0, 55.8]
-    }
-  ],
   "Collections": ["UCL1-CROP-TYPES-MOSAIC", "UCL2-NDVI-France", "UCL2-NDVI-GB", "UCL2-NDVI-Ireland", "UCL2-SPEI-France", "UCL2-SPEI-GB", "UCL2-SPEI-Ireland"],
   "Agency": ["ESA"],
   "OverlayLayers": [
