@@ -139,7 +139,7 @@
       "href": "https://raw.githubusercontent.com/gtif-ukif/gtif-ukif-assets/refs/heads/main/collections/MapboxWaterMask/lwm_style.json",
       "type": "text/vector-styles",
       "links:keys": [
-        "d628e49c-1daa-4bb2-b071-ebeb4142c87d"
+        "6fd64ac6-78dd-47af-8111-3a19301e6d53"
       ]
     },
     {
@@ -152,7 +152,7 @@
         "visible"
       ],
       "id": "LWM",
-      "key": "d628e49c-1daa-4bb2-b071-ebeb4142c87d",
+      "key": "6fd64ac6-78dd-47af-8111-3a19301e6d53",
       "auth:refs": [
         "mapboxauth"
       ]
@@ -328,7 +328,7 @@
       "interval": [
         [
           "2024-01-01T00:00:00Z",
-          "2026-09-22T00:00:00Z"
+          "2026-11-08T00:00:00Z"
         ]
       ]
     }
